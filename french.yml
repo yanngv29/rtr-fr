@@ -10,129 +10,129 @@ godXP:
   
   # Village Related
   nomadsJoinedVillage:
-    text: "Nomads Joined Village"
+    text: "Des nomades ont rejoint ton village"
   buildingsUpgraded:
-    text: "Buildings Upgraded"
+    text: "Bâtiments améliorés"
   buildingsConstructed:
-    text: "Buildings Constructed"
+    text: "Bâtiments construits"
   buildingsDismantled:
-    text: "Buildings Dismantled"
+    text: "Bâtiments démantelé"
   wallsDismantled:
-    text: "Walls Dismantled"
+    text: "Murs démantelés"
   wallsConstructed:
-    text: "Walls Constructed"
+    text: "Murs construits"
 
   # Villager/Mob Related,
   villagerLeveledUp:
-    text: "Villager Leveled Up"
+    text: "Villageois au niveau supérieur"
   childBirth:
-    text: "Child Birth"
+    text: "Accouchements"
   building:
-    text: "Building"
+    text: "Constructions"
   buyingResources:
-    text: "Buying Resources"
+    text: "Achats de ressources"
   hiringLaborers:
-    text: "Hiring Laborers"
+    text: "Recrutement d'ouvriers"
   eldersSharingWisdom:
-    text: "Elders Sharing Wisdom"
+    text: "Partage de connaissances des doyens"
   clearingRoads:
-    text: "Clearing Roads"
+    text: "Entretien des routes"
   combat:
     text: "Combat"
   clearingTopography:
-    text: "Clearing Topography"
+    text: "Déblaiement de la topographie"
   harvestingResources:
-    text: "Harvesting Resources"
+    text: "Récolte de ressources"
   farming:
-    text: "Farming"
+    text: "Agriculture"
   tendingFarms:
-    text: "Tending Farms"
+    text: "Entretien des fermes"
   coitus:
-    text: "Coitus"
+    text: "Coït"
   repairingBuildings:
-    text: "Repairing Buildings"
+    text: "Bâtiments réparés"
   repairingRoads:
-    text: "Repairing Roads"
+    text: "Routes réparées"
   buildingRoads:
-    text: "Building Roads"
+    text: "Construction de routes"
   deliveringResourcesToConstructionSites:
-    text: "Delivering Resources to Construction Sites"
+    text: "Livraison de ressources sur les chantiers"
   deliveringResourcesToCouriers:
-    text: "Delivering Resources to Couriers"
+    text: "Livraison de ressources aux messagers"
   deliveringResourcesToRoad:
-    text: "Delivering Resources to Road"
+    text: "Livraison de ressources sur les routes"
   diggingHoles:
-    text: "Digging Holes"
+    text: "Troux creusés"
   dismantlingBuildings:
-    text: "Dismantling Buildings"
+    text: "Démantèlement de bâtiments"
   equipingResources:
-    text: "Equiping Resources"
+    text: "Équipement de ressources"
   findingNewHome:
-    text: "Finding New Home"
+    text: "Emménagements"
   growingUp:
-    text: "Growing Up"
+    text: "Passages à l'âge adulte"
   patrolling:
-    text: "Patrolling"
+    text: "En patrouille"
   guardDuty:
-    text: "Guard Duty"
+    text: "Tours de garde"
   healingVillagers:
-    text: "Healing Villagers"
+    text: "Soignement de villageois"
   clearingOutResources:
-    text: "Clearing Out Resources"
+    text: "Nettoyage de ressources"
   migrantsDeparting:
-    text: "Migrants Departing"
+    text: "Départs de migrants"
   couriersDeparting:
-    text: "Couriers Departing"
+    text: "Départs de messagers"
   redistributingResources:
-    text: "Redistributing Resources"
+    text: "Redistribution des ressources"
   refiningResources:
-    text: "Refining Resources"
+    text: "Raffinage de ressources"
   sellingResources:
-    text: "Selling Resources"
+    text: "Vente de ressources"
   storingResources:
-    text: "Storing Resources"
+    text: "Stockage de ressources"
   visitingMate:
-    text: "Visiting Mate"
+    text: "Rendu visite à un compagnon"
   domestication:
     text: "Domestication"
   destroyingRoads:
-    text: "Destroying Roads"
+    text: "Destructions de routes"
   plantingCrops:
-    text: "Planting Crops"
+    text: "Plantation de cultures"
   migrantsPreparing:
-    text: "Migrants Preparing"
+    text: "Migrants en préparation"
   tradingEquipment:
-    text: "Trading Equipment"
+    text: "Échange d'équippements"
   villagersImpregnated:
-    text: "Villagers Impregnated"
+    text: "Villageois fécondés"
   livedFullLife:
-    text: "Lived Full Life"
+    text: "Vécu sa vie pleinement"
   
   # God Intervention
   castingSpells:
-    text: "Casting Spells"
+    text: "Lancement de sorts"
   grabbingCreatures:
-    text: "Grabbing Creatures"
+    text: "Attrapage de créatures"
   grabbingResources:
-    text: "Grabbing Resources"
+    text: "Attrapage de ressources"
   
   # Passive
   survivingVillagers:
-    text: "Surviving Villagers"
+    text: "Villageois survivants"
   villageSize:
-    text: "Village Size"
+    text: "Taille du village"
   
   # Other
   monstersKilled:
-    text: "Monsters Killed"
+    text: "Monstres tués"
   unlockedGoal:
-    text: "Unlocked Goal"
+    text: "Objectif débloqué"
   openedLootBoxes:
-    text: "Opened Loot Boxes"
+    text: "Coffre à butin ouverts"
   throwResourcesInCullisGate:
-    text: "Throw Resources in Cullis Gate"
+    text: "Ressources jetées dans des portails cullis"
   throwCreaturesInCullisGate:
-    text: "Throw Creatures in Cullis Gate"
+    text: "Créatures jetées dans des portails cullis"
   
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Perk Module
