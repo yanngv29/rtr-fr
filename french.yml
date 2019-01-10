@@ -145,175 +145,175 @@ perkType:
   javaClass: "rtr.PerkModule.java"
   
   maximumHealth:
-    text: "Maximum Health"
+    text: "Vie maximale"
   healthRecoverySpeed:
-    text: "Health Recovery Speed"
+    text: "Vitesse de régénération de la vie"
   maximumHunger:
-    text: "Maximum Hunger"
+    text: "Faim maximale"
   hungerDecayRate:
-    text: "Hunger Decay Rate"
+    text: "Taux d'augmentation de la faim"
   maximumThirst:
-    text: "Maximum Thirst"
+    text: "Soif maximale"
   thirstDecayRate:
-    text: "Thirst Decay Rate"
+    text: "Taux d'augmentation de la soif"
   maximumEnergy:
-    text: "Maximum Energy"
+    text: "Énergie maximale"
   energyDecayRate:
-    text: "Energy Decay Rate"
+    text: "Taux de diminution de l'énergie"
   maximumSocial:
-    text: "Maximum Social"
+    text: "Rapports sociaux maximum"
   lifeExpectancy:
-    text: "Life Expectancy"
+    text: "Espérance de vie"
   movementSpeed:
-    text: "Movement Speed"
+    text: "Vitesse de déplacement"
   damageResistance:
-    text: "Damage Resistance"
+    text: "Résistance aux dégâts"
   meleeDamage:
-    text: "Melee Damage"
+    text: "Dégâts de mêlée"
   rangedDamage:
-    text: "Ranged Damage"
+    text: "Dégâts à distance"
   maximumCarriedResources:
-    text: "Maximum Carried Resources"
+    text: "Transport de ressources maximal"
   fertility:
-    text: "Fertility"
+    text: "Fertilité"
   improvedStorage:
-    text: "Improved Storage"
+    text: "Stockage amélioré"
   efficientHousing:
-    text: "Efficient Housing"
+    text: "Habitations efficaces"
   efficientConstruction:
-    text: "Efficient Construction"
+    text: "Construction efficace"
   farmGrowthSpeed:
-    text: "Farm Growth Speed"
+    text: "Vitesse de croissance dans la ferme"
   globalWorkSpeed:
-    text: "Global Work Speed"
+    text: "Vitesse de travail globale"
   harvestingSpeed:
-    text: "Harvesting Speed"
+    text: "Vitesse de récolte"
   refiningSpeed:
-    text: "Refining Speed"
+    text: "Vitesse de raffinage"
   buildingSpeed:
-    text: "Building Speed"
+    text: "Vitesse de construction"
   roadConstructionSpeed:
-    text: "Road Construction Speed"
+    text: "Vitesse de construction des routes"
   dismantlingSpeed:
-    text: "Dismantling Speed"
+    text: "Vitesse de démantèlement"
   clearingSpeed:
-    text: "Clearing Speed"
+    text: "Vitesse de nettoyage"
   repairingSpeed:
-    text: "Repairing Speed"
+    text: "Vitesse de réparation"
   maintainingRoadSpeed:
-    text: "Maintaining Road Speed"
+    text: "Vitesse de maintenance des routes"
   farmingSpeed:
-    text: "Farming Speed"
+    text: "Vitesse de cultivation"
   medicWorkSpeed:
-    text: "Medic Work Speed"
+    text: "Vitesse de travail des infirmiers"
   waterStorage:
-    text: "Water Storage"
+    text: "Stocks d'eau"
   woodGolemLevel:
-    text: "Wood Golem Level"
+    text: "Niveau des golems de bois"
   woodGolemCapacity:
-    text: "Wood Golem Capacity"
+    text: "Capacité des golems de bois"
   woodGolemChargeTime:
-    text: "Wood Golem Charge Time"
+    text: "Temps de chargement des golems de bois"
   stoneGolemLevel:
-    text: "Stone Golem Level"
+    text: "Niveau des golems de pierre"
   stoneGolemCapacity:
-    text: "Stone Golem Capacity"
+    text: "Capacité des golems de pierre"
   stoneGolemChargeTime:
-    text: "Stone Golem Charge Time"
+    text: "Temps de chargement des golems de pierre"
   crystalGolemLevel:
-    text: "Crystal Golem Level"
+    text: "Niveau des golems de cristaux"
   crystalGolemCapacity:
-    text: "Crystal Golem Capacity"
+    text: "Capacité des golems de cristaux"
   crystalGolemChargeTime:
-    text: "Crystal Golem Charge Time"
+    text: "Temps de chargement des golems de cristaux"
   attractTowerRange:
-    text: "Attract Tower Range"
+    text: "Portée des tours attractives"
   attractTowerFireRate:
-    text: "Attract Tower Fire Rate"
+    text: "Cadence de tir des tours attractives"
   attractTowerEnergyCost:
-    text: "Attract Tower Energy Cost"
+    text: "Coût énergétique des tours attractives"
   banishTowerRange:
-    text: "Banish Tower Range"
+    text: "Portée des tours bannisseuses"
   banishTowerFireRate:
-    text: "Banish Tower Fire Rate"
+    text: "Cadence de tir des tours bannisseuses"
   banishTowerEnergyCost:
-    text: "Banish Tower Energy Cost"
+    text: "Coût énergétique des tours bannisseuses"
   ballistaTowerRange:
-    text: "Ballista Tower Range"
+    text: "Portée des ballistes"
   ballistaTowerFireRate:
-    text: "Ballista Tower Fire Rate"
+    text: "Cadence de tir des ballistes"
   bowTowerRange:
-    text: "Bow Tower Range"
+    text: "Portée des tours d'archers"
   bowTowerFireRate:
-    text: "Bow Tower Fire Rate"
+    text: "Cadence de tir des tours d'archers"
   bulletTowerRange:
-    text: "Bullet Tower Range"
+    text: "Portée des tourelles"
   bulletTowerFireRate:
-    text: "Bullet Tower Fire Rate"
+    text: "Cadence de tir des tourelles"
   elementalBoltTowerRange:
-    text: "Elemental Bolt Tower Range"
+    text: "Portée des tours-éclair"
   elementalBoltTowerFireRate:
-    text: "Elemental Bolt Tower Fire Rate"
+    text: "Cadence de tir des tours-éclair"
   elementalBoltTowerEnergyCost:
-    text: "Elemental Bolt Tower Energy Cost"
+    text: "Cout énergétique des tours-éclair"
   motivatorTowerRange:
-    text: "Motivator Tower Range"
+    text: "Portée des motivateurs"
   motivatorTowerFireRate:
-    text: "Motivator Tower Fire Rate"
+    text: "Cadence des motivateurs"
   motivatorTowerEnergyCost:
-    text: "Motivator Tower Energy Cost"
+    text: "Coût énergétique des motivateurs"
   phantomDartTowerRange:
-    text: "Phantom Dart Tower Range"
+    text: "Portée des tours à fléchettes fantômes"
   phantomDartTowerFireRate:
-    text: "Phantom Dart Tower Fire Rate"
+    text: "Cadence de tir des tours à fléchettes fantômes"
   phantomDartTowerEnergyCost:
-    text: "Phantom Dart Tower Energy Cost"
+    text: "Coût énergétique des tours à fléchettes fantômes"
   recombobulatorTowerRange:
-    text: "Recombobulator Tower Range"
+    text: "Portée des tours recombobulatrices"
   recombobulatorTowerFireRate:
-    text: "Recombobulator Tower Fire Rate"
+    text: "Cadence de tir des tours recombobolatrices"
   recombobulatorTowerEnergyCost:
-    text: "Recombobulator Tower Energy Cost"
+    text: "Coût énergétique des tours recombobulatrices"
   slingTowerRange:
-    text: "Sling Tower Range"
+    text: "Portée des tours à fronde"
   slingTowerFireRate:
-    text: "Sling Tower Fire Rate"
+    text: "Cadence de tir des tours à fronde"
   sprayTowerRange:
-    text: "Spray Tower Range"
+    text: "Portée des tours pulvérisatrices"
   staticTowerRange:
-    text: "Static Tower Range"
+    text: "Portée des tours statiques"
   staticTowerFireRate:
-    text: "Static Tower Fire Rate"
+    text: "Cadence de tir des tours statiques"
   staticTowerEnergyCost:
-    text: "Static Tower Energy Cost"
+    text: "Coût énergétique des tours statiques"
   towerStorage:
-    text: "Tower Storage"
+    text: "Capacité de stockage des tours"
   spellCost:
-    text: "Spell Cost"
+    text: "Coût des sorts"
   holyGolemLevel:
-    text: "Holy Golem Level"
+    text: "Niveau des saints-golems"
   laborGolemLevel:
-    text: "Labor Golem Level"
+    text: "Niveau des golems ouvriers"
   holyGolemDuration:
-    text: "Holy Golem Duration"
+    text: "Durée de vie des saints-golems"
   laborGolemDuration:
-    text: "Labor Golem Duration"
+    text: "Durée de vie des golems ouvriers"
   nomadAppearanceRate:
-    text: "Nomad Appearance Rate"
+    text: "Taux d'apparition des nomades"
   nomadAmount:
-    text: "Nomad Amount"
+    text: "Nombre de nomades"
   animalAppearanceRate:
-    text: "Animal Appearance Rate"
+    text: "Taux d'apparition des animaux"
   betterMarketPrices:
-    text: "Better Market Prices"
+    text: "Meilleurs prix au marché"
   resourceDecayRate:
-    text: "Resource Decay Rate"
+    text: "Vitesse de décomposition des ressources"
   moreLootinLootBoxes:
-    text: "More Loot in Loot Boxes"
+    text: "Plus de butin dans les coffres à butin"
   spellDamage:
-    text: "Spell Damage"
+    text: "Dégâts des sorts"
   towerDamage:
-    text: "Tower Damage"
+    text: "Dégâts des tours"
     
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Perk Module
