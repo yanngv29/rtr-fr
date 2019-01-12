@@ -1687,20 +1687,20 @@ mainMenuNewProfilePanel:
   
   button:
     back:
-      text: "Back"
+      text: "Retour"
     create:
-      text: "Create!"
+      text: "Créer !"
     textInput:
       profileName:
-        text: "Your Profile Name"
+        text: "Le nom de ton profil"
       twitchChannel:
-        text: "Your Twitch Channel (Optional Twitch Integration)"  
+        text: "Ta chaîne Twitch (Intégration Twitch, optionnelle)"  
         
   header:
     inputProfileName:
-      text: "$ORA1Input Your Profile Name!"
+      text: "$ORA1Entre le nom de ton profil !"
     tipsEnabled:
-      text: "Tips Enabled"
+      text: "Conseils activés"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Main Menu State
@@ -1714,24 +1714,24 @@ mainMenuSelectProfilePanel:
   
   button:
     play:
-      text: "Play"
+      text: "Jouer"
     delete:
-      text: "Delete"
+      text: "Supprimer"
     exit:
-      text: "Exit"
+      text: "Quitter"
     createNewProfile:
-      text: "Create New Profile"
+      text: "Créer un nouveau profil"
       
   header:
     profiles:
-      text: "$YEL0Profiles"
+      text: "$YEL0Profils"
       
   corruptProfile:
-    text: "Corrupt Profile"
+    text: "Profil corrompu"
   outdatedProfilePrefix:
-    text: "(OUTDATED) {profileName}"
+    text: "(OBSOLÈTE) {profileName}"
   outdatedWarning:
-    text: "$PIN1THIS PROFILE IS NO LONGER COMPATIBLE~PLEASE RECREATE A NEW ONE"
+    text: "$PIN1CE PROFIL N'EST PLUS COMPATIBLE~MERCI D'EN CRÉER UN NOUVEAU"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Main Menu State
