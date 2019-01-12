@@ -1126,247 +1126,247 @@ goal:
   
   unlockNewGoal:
     header:
-      text: "Unlock New Goal"
+      text: "Déverrouille un nouvel objectif"
     body:
       days:
-        text: "Survive $GRE1{days}$WHI0 days to$GRE1 unlock a goal!"
+        text: "Survis $GRE1{days}$WHI0 jours pour $GRE1débloquer un objectif$WHI0!"
       additionalDays:
-        text: "Survive $GRE1{days}$WHI0 additional days to$GRE1 unlock a goal!"
+        text: "Survis $GRE1{days}$WHI0 jours supplémentaires pour $GRE1débloquer un objectif$WHI0!"
    
   win:
     header:
-      text: "Win"
+      text: "Victoire"
     body:
-      text: "Survive $GRE1one year$WHI0 in $GRE1every region in the world$WHI0."
+      text: "Survis $GRE1une année$WHI0 dans $GRE1chaque région du monde$WHI0."
 
   harvest:
     header:
-      text: "Harvest {resourceName}"
+      text: "Récolte {resourceName}"
     body:
       any: 
-        text: "Harvest $GRE1{amount}$WHI0 {resourceName}$GRE1in any region$WHI0!"
+        text: "Récolte $GRE1{amount}$WHI0 {resourceName}$GRE1dans n'importe quelle région$WHI0!"
       specific:
-        text: "Harvest $GRE1{amount}$WHI0 {resourceName}$WHI0 on $GRE1{mapName}$WHI0!"
+        text: "Récolte $GRE1{amount}$WHI0 {resourceName}$WHI0 dans $GRE1{mapName}$WHI0!"
 
   manufacture:
     header:
-      text: "Create {resourceName}"
+      text: "Création de {resourceName}"
     body:
       any:
-        text: "Create $GRE1{amount}$WHI0 {resourceName}$GRE1in any region$WHI0!"
+        text: "Créé $GRE1{amount}$WHI0 {resourceName}$GRE1dans n'importe quelle région$WHI0!"
       specific:
-        text: "Create $GRE1{amount}$WHI0 {resourceName}$WHI0 on $GRE1{mapName}$WHI0!"
+        text: "Créé $GRE1{amount}$WHI0 {resourceName}$WHI0 dans $GRE1{mapName}$WHI0!"
         
   survive:
     header:
-      text: "Survive"
+      text: "Survie"
     body:
-      text: "Survive to day $GRE1{days}$WHI0 on $GRE1{mapName}$WHI0!"
+      text: "Survis au jour $GRE1{days}$WHI0 dans $GRE1{mapName}$WHI0!"
 
   migration:
     header:
-      text: "Migrate to New Land"
+      text: "Migration vers une nouvelle région"
     body:
       single:
-        text: "Migrate to $GRE1a$WHI0 new region!"
+        text: "Migre vers $GRE1une$WHI0 nouvelle région!"
       multiple:
-        text: "Migrate to $GRE1{amount}$WHI0 new regions!"
+        text: "Migre vers $GRE1{amount}$WHI0 nouvelles régions!"
       
   sendVillagers:
     header:
-      text: "Send Villagers"
+      text: "Envoi de villageois"
     body:
       any:
-        text: "Send $GRE1{amount}$WHI0 villagers to another region."
+        text: "Envoie $GRE1{amount}$WHI0 villageois vers une autre région."
       specific:
-        text: "Send $GRE1{amount}$WHI0 villagers to $GRE1{mapName}$WHI0!"
+        text: "Envoie $GRE1{amount}$WHI0 villageois vers $GRE1{mapName}$WHI0!"
       
   sendCourierGolems:
     header:
-      text: "Send Courier Golems"
+      text: "Envoi de golems-facteur"
     body:
       any:
-        text: "Send $GRE1{amount}$WHI0 courier golems to another region."
+        text: "Envoie $GRE1{amount}$WHI0 golems-facteur vers une autre région."
       specific:
-        text: "Send $GRE1{amount}$WHI0 courier golems to $GRE1{mapName}$WHI0!"
+        text: "Envoie $GRE1{amount}$WHI0 golems-facteur vers $GRE1{mapName}$WHI0!"
       
   sendResourcesGoal:
     header:
-      text: "Send Resources"
+      text: "Envoi de ressources"
     body:
       any:
-        text:  "Send $GRE1{amount} {resourceNamePlural}$WHI0 via courier golems to another region."
+        text:  "Envoie $GRE1{amount} {resourceNamePlural}$WHI0 via des golems-facteur vers une autre région."
       specific:
-        text: "Send $GRE1{amount} {resourceNamePlural}$WHI0 via courier golems to $GRE1{mapName}$WHI0!"
+        text: "Envoie $GRE1{amount} {resourceNamePlural}$WHI0 via des golems-facteur vers $GRE1{mapName}$WHI0!"
         
   population:
     header:
       text: "Population"
     body:
       any:
-        text: "Reach a global population of $GRE1{amount}$WHI0!"
+        text: "Atteins une population globale de $GRE1{amount}$WHI0!"
       specific:
-        text: "Reach a population of $GRE1{amount}$WHI0 on $GRE1{mapName}$WHI0!"
+        text: "Atteins une population de $GRE1{amount}$WHI0 sur $GRE1{mapName}$WHI0!"
         
   stockpile:
     header:
-      text: "Stockpile {resourceNamePlural}"
+      text: "Stocke des {resourceNamePlural}"
     body:
       any:
-        text: "Stockpile $GRE1{amount} {resourceNamePlural} anywhere$WHI0!"
+        text: "Stocke $GRE1{amount} {resourceNamePlural} n'importe où$WHI0!"
       specific:
-        text: "Stockpile $GRE1{amount} {resourceNamePlural}$WHI0 in {mapName}$WHI0!"
+        text: "Stocke $GRE1{amount} {resourceNamePlural}$WHI0 dans {mapName}$WHI0!"
       
   killMonsters:
     header:
       any: 
-        text: "Kill Monsters"
+        text: "Exécution de monstres"
       specific:
-        text: "Kill {mobNamePlural}"
+        text: "Tue {mobNamePlural}"
     body:
       any:
         any:
-          text: "Kill $GRE1{amount} monsters anywhere$WHI0!"
+          text: "Tue $GRE1{amount} monstres n'importe où$WHI0!"
         specific:
-          text: "Kill $GRE1{amount} {mobNamePlural} anywhere$WHI0!"
+          text: "Tue $GRE1{amount} {mobNamePlural} n'importe où$WHI0!"
       specific:
         any:
-          text: "Kill $GRE1{amount} monsters in {mapName}$WHI0!"
+          text: "Tue $GRE1{amount} monstres dans {mapName}$WHI0!"
         specific:
-          text: "Kill $GRE1{amount} {mobNamePlural}$WHI0 in $GRE1{mapName}$WHI0!"
+          text: "Tue $GRE1{amount} {mobNamePlural}$WHI0 dans $GRE1{mapName}$WHI0!"
       
   castSpells:
     header:
       any: 
-        text: "Cast Spells"
+        text: "Lancé de sorts"
       specific:
-        text: "Cast {spellName}"
+        text: "Lance le sort {spellName}"
     body:
       any:
         any:
-          text: "Cast $GRE1{amount} spells anywhere$WHI0!"
+          text: "Lance $GRE1{amount} sorts n'importe où$WHI0!"
         specific:
-          text: "Cast $GRE1{amount} {spellName} anywhere$WHI0!"
+          text: "Lance $GRE1{amount} {spellName} n'importe où$WHI0!"
       specific:
         any:
-          text: "Cast $GRE1{amount} spells in {mapName}$WHI0!"
+          text: "Lance $GRE1{amount} sorts dans {mapName}$WHI0!"
         specific:
-          text: "Cast $GRE1{amount} {spellName}$WHI0 in $GRE1{mapName}$WHI0!"
+          text: "Lance $GRE1{amount} {spellName}$WHI0 dans $GRE1{mapName}$WHI0!"
       
       
   grabResources:
     header:
-      text: "Grab Resources"
+      text: "Saisie de ressources"
     body:
       any:
-        text: "Grab $GRE1{amount} resources anywhere$WHI0!"
+        text: "Saisis $GRE1{amount} ressources n'importe où$WHI0!"
       specific:
-        text: "Grab $GRE1{amount}$WHI0 resources in $GRE1{mapName}$WHI0!"
+        text: "Saisis $GRE1{amount}$WHI0 ressources dans $GRE1{mapName}$WHI0!"
       
   hireCatjeet:
     header:
-      text: "Hire Catjeet"
+      text: "Emploi de paysans"
     body:
       any:
-        text: "Hire $GRE1{amount} catjeet anywhere$WHI0!"
+        text: "Emploie $GRE1{amount} paysans n'importe où$WHI0!"
       specific:
-        text: "Hire $GRE1{amount} catjeet$WHI0 in $GRE1{mapName}$WHI0!"
+        text: "Emploie $GRE1{amount} paysans $WHI0dans $GRE1{mapName}$WHI0!"
       
   immigrateNomads:
     header:
-      text: "Immigrate Nomads"
+      text: "Accueil de nomades"
     header:
       any:
-        text: "Immigrate $GRE1{amount} nomads anywhere$WHI0!"
+        text: "Accueille $GRE1{amount} nomades n'importe où$WHI0!"
       specific:
-        text: "Immigrate $GRE1{amount} nomads$WHI0 in $GRE1{mapName}$WHI0!"
+        text: "Accueille $GRE1{amount} nomades $WHI0dans $GRE1{mapName}$WHI0!"
       
   build:
     header:
-      text: "Build"
+      text: "Construction"
     body:
       any:
-        text: "Build $GRE1{amount} {buildingName} anywhere$WHI0!"
+        text: "Construis $GRE1{amount} {buildingName} n'importe où$WHI0!"
       specific:
         any:
-          text: "Build $GRE1{amount} buildings anywhere$WHI0!"
+          text: "Construis $GRE1{amount} bâtiments n'importe où$WHI0!"
         specific:
-          text: "Build $GRE1{amount} buildings$WHI0 in $GRE1{mapName}$WHI0!"
+          text: "Construis $GRE1{amount} bâtiments $WHI0dans $GRE1{mapName}$WHI0!"
           
   upgrade:
     header:
       any:
-        text: "Upgrade"
+        text: "Amélioration"
       specific:
-        text: "Upgrade {buildingName}"
+        text: "Améliore {buildingName}"
     body:
       any:
-        text: "Upgrade $GRE1{amount} {buildingName} anywhere$WHI0!"
+        text: "Améliore $GRE1{amount} {buildingName} n'importe où$WHI0!"
       specific:
         any:
-          text: "Upgrade $GRE1{amount} buildings anywhere$WHI0!"
+          text: "Améliore $GRE1{amount} bâtiments n'importe où$WHI0!"
         specific:
-          text: "Upgrade $GRE1{amount} buildings$WHI0 in $GRE1{mapName}$WHI0!"
+          text: "Améliore $GRE1{amount} bâtiments $WHI0dans $GRE1{mapName}$WHI0!"
           
   domestication:
     header:
       text: "Domestication"
     body:
       any:
-        text: "Domesticate $GRE1{amount} doggos anywhere$WHI0!"
+        text: "Domestique $GRE1{amount} chiens n'importe où$WHI0!"
       specific:
-        text: "Domesticate $GRE1{amount} doggos$WHI0 in $GRE1{mapName}$WHI0!"
+        text: "Domestique $GRE1{amount} chiens $WHI0dans $GRE1{mapName}$WHI0!"
       
   levelUp:
     header:
-      text: "Level Up"
+      text: "Niveau supérieur"
     body:
       any:
-        text: "Level up $GRE1{amount} villagers anywhere$WHI0!"
+        text: "Améliore le niveau de $GRE1{amount} villageois n'importe où$WHI0!"
       specific:
-        text: "Level up $GRE1{amount} villagers$WHI0 in $GRE1{mapName}$WHI0!"
+        text: "Améliore le niveau de $GRE1{amount} villageois $WHI0dans $GRE1{mapName}$WHI0!"
       
   childBirth:
     header:
-      text: "Child Birth"
+      text: "Naissance d'enfant"
     body:
       any:
-        text: "$GRE1{amount} children born anywhere$WHI0!"
+        text: "$GRE1{amount} naissances n'importe où$WHI0!"
       specific:
-        text: "$GRE1{amount} children born$WHI0 in $GRE1{mapName}$WHI0!"
+        text: "$GRE1{amount} naissances $WHI0dans $GRE1{mapName}$WHI0!"
       
   openLootBoxes:
     header:
-      text: "Open Loot Boxes"
+      text: "Ouverture de coffres"
     body:
       any:
-        text: "Open $GRE1{amount} loot boxes anywhere$WHI0!"
+        text: "Ouvre $GRE1{amount} coffres à butin n'importe où$WHI0!"
       specific:
-        text: "Open $GRE1{amount} loot boxes$WHI0 in $GRE1{mapName}$WHI0!"
+        text: "Ouvre $GRE1{amount} coffres à butin$WHI0 dans $GRE1{mapName}$WHI0!"
       
   throwMonsterInCullisGate:
     header:
-      text: "Throw Monsters in a Cullis Gate"
+      text: "Lancé de monstres dans les portes cullis"
     body:
       any:
         any:
-          text: "Throw $GRE1{amount}$WHI0 monsters in a cullis gate $GRE1anywhere$WHI0!"
+          text: "Lance $GRE1{amount}$WHI0 monstres dans une porte cullis $GRE1n'importe où$WHI0!"
         specific:
-          text: "Throw $GRE1{amount} {mobNamePlural}$WHI0 in a cullis gate $GRE1anywhere$WHI0!"
+          text: "Lance $GRE1{amount} {mobNamePlural}$WHI0 dans une porte cullis $GRE1n'importe où$WHI0!"
       specific:
         any:
-          text: "Throw $GRE1{amount}$WHI0 monsters in a cullis gate in {mapName}$WHI0!"
+          text: "Lance $GRE1{amount}$WHI0 monstres dans une porte cullis dans {mapName}$WHI0!"
         specific:
-          text: "Throw $GRE1{amount} {mobNamePlural}$WHI0 in a cullis gate in $GRE1{mapName}$WHI0!"
+          text: "Lance $GRE1{amount} {mobNamePlural}$WHI0 dans une porte cullis dans $GRE1{mapName}$WHI0!"
       
   resurrectGhosts:
     header:
-      text: "Resurrect Ghosts"
+      text: "Ressuscitation de fantômes"
     body:
       any:
-        text: "Resurrect $GRE1{amount}$WHI0 ghosts $GRE1anywhere$WHI0."
+        text: "Ressuscite $GRE1{amount}$WHI0 fantômes $GRE1n'importe où$WHI0."
       specific:
-        text: "Resurrect $GRE1{amount}$WHI0 ghosts on $GRE1{mapName}$WHI0!"
+        text: "Ressuscite $GRE1{amount}$WHI0 fantômes dans $GRE1{mapName}$WHI0!"
       
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Main Menu State
