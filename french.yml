@@ -134,7 +134,7 @@ godXP:
   throwCreaturesInCullisGate:
     text: "Créatures jetées dans des portails cullis"
   
-# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# # # # # # # # # # # # # # # # # # # # Perk# # # # # # # # # # # # # # # #
 # Perk Module
 # Perk Types
 # rtr.PerkModule.java
@@ -326,751 +326,751 @@ perk:
   javaClass: "rtr.PerkModule.java"
   
   farellesConstitution:
-    text: "Farelle's Constitution"
+    text: "Constitution de Farelle"
   kevorkianBloom:
-    text: "Kevorkian Bloom"
+    text: "Floraison Kevorkian"
   stensForm:
-    text: "Sten's Form"
+    text: "Forme de Sten"
   hardinessofMergen:
-    text: "Hardiness of Mergen"
+    text: "Robustesse de Mergen"
   vitalityofFecht:
-    text: "Vitality of Fecht"
+    text: "Vitalité de Fecht"
   shohunsRecovery:
-    text: "Shohun's Recovery"
+    text: "Régénération de Shohun"
   kanesathsResumption:
-    text: "Kanesath's Resumption"
+    text: "Reprise de Kanesath"
   sulansRehabilitation:
-    text: "Sulan's Rehabilitation"
+    text: "Rehabilitation de Sulan"
   lunnithunsReformation:
-    text: "Lunnithun's Reformation"
+    text: "Réforme de Lunnithun"
   sythumsRestoration:
-    text: "Sythum's Restoration"
+    text: "Restauration de Sythum"
   cravingsofJokur:
-    text: "Cravings of Jokur"
+    text: "Fringales de Jokur"
   karachosLonging:
-    text: "Karacho's Longing"
+    text: "Désir de Karacho"
   namsansGluttony:
-    text: "Namsan's Gluttony"
+    text: "Gourmandise de Namsan"
   dixonpuffsCraving:
-    text: "Dixonpuff's Craving"
+    text: "Fringale de Dixonpuff"
   riyasAppetite:
-    text: "Riya's Appetite"
+    text: "Appétit de Riya"
   sagewingsGill:
-    text: "Sagewing's Gill"
+    text: "Branchie de Sagewing"
   stonestandsGlut:
-    text: "Stonestand's Glut"
+    text: "Excès de Stonestand"
   brisksongsWholeness:
-    text: "Brisksong's Wholeness"
+    text: "Intégrité de Brisksong"
   ositansPlenty:
-    text: "Ositan's Plenty"
+    text: "Abondance d'Ositan"
   mullarmsAmpleness:
-    text: "Mullarm's Ampleness"
+    text: "Oppulence de Mullarm"
   alamarsThirst:
-    text: "Alamar's Thirst"
+    text: "Soif d'Alamar"
   tearsofRaevyr:
-    text: "Tears of Raevyr"
+    text: "Larmes de Raevyr"
   jaycesonsSucculences:
-    text: "Jayceson's Succulences"
+    text: "Succulences de Jayceson"
   napthasSplashing:
-    text: "Naptha's Splashing"
+    text: "Éclaboussures de Naptha"
   dobmmonsWetness:
-    text: "Dobmmons Wetness"
+    text: "Humidité de Dobmmons"
   gavtarlsSurplus:
-    text: "Gavtarl's Surplus"
+    text: "Excédent de Gavtarl"
   thranuraksSaliva:
-    text: "Thranurak's Saliva"
+    text: "Salive de Thranurak"
   gerardsLibation:
-    text: "Gerard's Libation"
+    text: "Libation de Gerard"
   beasantsPreservative:
-    text: "Beasant's Preservative"
+    text: "Conservateur de Beasant"
   burtonsBroth:
-    text: "Burton's Broth"
+    text: "Brouillon de Burton"
   enduranceofXandal:
-    text: "Endurance of Xandal"
+    text: "Endurance de Xandal"
   ilirithsActivity:
-    text: "Ilirith's Activity"
+    text: "Activité d'Ilirith"
   shiraRestlessness:
-    text: "Shira Restlessness"
+    text: "Nervosité de Shira"
   dashofFabian:
-    text: "Dash of Fabian"
+    text: "Tiret de Fabian"
   namerusExertion:
-    text: "Nameru's Exertion"
+    text: "Effort de Nameru"
   dittmarsLiveliness:
-    text: "Dittmar's Liveliness"
+    text: "Vivacité de Dittmar"
   ridleysEnterprise:
-    text: "Ridley's Enterprise"
+    text: "Entreprise de Ridley"
   anselsEnergy:
-    text: "Ansel's Energy"
+    text: "Énergie d'Ansel"
   appletonsFlurry:
-    text: "Appleton's Flurry"
+    text: "Tourbillon d'Appleton"
   andreasAlertness:
-    text: "Andrea's Alertness"
+    text: "Vigilance d'Andrea"
   sinestrasIntellect:
-    text: "Sinestra's Intellect"
+    text: "Intellect de Sinestra"
   cordialofHansard:
-    text: "Cordial of Hansard"
+    text: "Courtoisie de Hansard"
   narsFriendliness:
-    text: "Nar's Friendliness"
+    text: "Convivialité de Nar"
   morladsSociablility:
-    text: "Morlad's Sociablility"
+    text: "Sociabilité de Morlad"
   tiberiumkylesWisdom:
-    text: "Tiberiumkyle's Wisdom"
+    text: "Sagesse de Tiberiumkyle"
   musisLilly:
-    text: "Musi's Lilly"
+    text: "Lys de Musi"
   hachimasLifeblood:
-    text: "Hachima's Lifeblood"
+    text: "Âme de Hachima"
   dundarsDetermination:
-    text: "Dundar's Determination"
+    text: "Détermination Dundar"
   soteriasGift:
-    text: "Soteria's Gift"
+    text: "Cadeau de Soteria"
   dudasMortality:
-    text: "Duda's Mortality"
+    text: "Mortalité de Duda"
   speedofTheOterions:
-    text: "Speed of The Oterions"
+    text: "Vitesse de The Oterions"
   hasteofGriseus:
-    text: "Haste of Griseus"
+    text: "Efficacité de Griseus"
   nonimadsVelocity:
-    text: "Nonimad's Velocity"
+    text: "Vélocité de Nonimad"
   enicarsAgility:
-    text: "Enicar's Agility"
+    text: "Agilité d'Enicar"
   owensPace:
-    text: "Owen's Pace"
+    text: "Allure d'Owen"
   lillysProtection:
-    text: "Lilly's Protection"
+    text: "Proection de Lilly"
   giosToughness:
-    text: "Gio's Toughness"
+    text: "Robustesse de Gio"
   skinofPriamus:
-    text: "Skin of Priamus"
+    text: "Peau de Priamus"
   rivaresWard:
-    text: "Rivare's Ward"
+    text: "Quartier de Rivare"
   mushusBarrier:
-    text: "Mushu's Barrier"
+    text: "Barrière de Mushu"
   bargsSkirmish:
-    text: "Barg's Skirmish"
+    text: "Escarmouche de Barg"
   filiconsStrike:
-    text: "Filicon's Strike"
+    text: "Coup de Filicon"
   samansAggression:
-    text: "Saman's Aggression"
+    text: "Aggressivité de Saman"
   shansealaRage:
-    text: "Shanseala Rage"
+    text: "Rage de Shanseala"
   magmelsFall:
-    text: "Magmel's Fall"
+    text: "Chute de Magmel"
   darlonsDispatch:
-    text: "Darlon's Dispatch"
+    text: "Envoi de Darlon"
   exonsStrike:
-    text: "Exon's Strike"
+    text: "Coup d'Exon"
   skalvernsCharge:
-    text: "Skalvern's Charge"
+    text: "Charge de Skalvern"
   norominsWrath:
-    text: "Noromin's Wrath"
+    text: "Colère de Noromin"
   flamesofBivattus:
-    text: "Flames of Bivattus"
+    text: "Flames de Bivattus"
   daggarothsLift:
-    text: "Daggaroth's Lift"
+    text: "Soulèvement de Daggaroth"
   ginjasArms:
-    text: "Ginja's Arms"
+    text: "Bras de Ginja"
   zerosGravitas:
-    text: "Zero's Gravitas"
+    text: "Gravité de Zero"
   bibikisStamina:
-    text: "Bibiki's Stamina"
+    text: "Endurance de Bibiki"
   clerothsLustiness:
-    text: "Cleroth's Lustiness"
+    text: "Vigueur de Cleroth"
   embraceofSpritus:
-    text: "Embrace of Spritus"
+    text: "Étreinte de Spritus"
   snobosSatisfaction:
-    text: "Snobo's Satisfaction"
+    text: "Satisfaction de Snobo"
   rainsFlower:
-    text: "Rain's Flower"
+    text: "Fleur de Rain"
   eldsResourcefulness:
-    text: "Eld's Resourcefulness"
+    text: "Ingéniosité d'Eld"
   ciphersCataloguing:
-    text: "Cipher's Cataloguing"
+    text: "Catalogage de Cipher"
   svarogsArrangement:
-    text: "Svarog's Arrangement"
+    text: "Arrangement de Svarog"
   voxsStacking:
-    text: "Vox's Stacking"
+    text: "Empilement de Vox"
   serakersArranging:
-    text: "Seraker's Arranging"
+    text: "Organisation de Seraker"
   vargsHabitation:
-    text: "Varg's Habitation"
+    text: "Demeure de Varg"
   shelterofCingularis:
-    text: "Shelter of Cingularis"
+    text: "Abris de Cingularis"
   koshkasQuarterage:
-    text: "Koshka's Quarterage"
+    text: "Quartiers de Koshka"
   xentiransHospitality:
-    text: "Xentiran's Hospitality"
+    text: "Hospitalité de Xentiran"
   alendrusAccomodations:
-    text: "Alendru's Accomodations"
+    text: "Accomodations d'Alendru"
   fusrohsIntensity:
-    text: "Fusroh's Intensity"
+    text: "Intensité de Fusroh"
   powerofCeris:
-    text: "Power of Ceris"
+    text: "Pouvoir de Ceris"
   handinessofZacharias:
-    text: "Handiness of Zacharias"
+    text: "Maniabilité de Zacharias"
   aarkisEfficaciousness:
-    text: "Aarki's Efficaciousness"
+    text: "Efficacité d'Aarki"
   torlightUsefulness:
-    text: "Torlight Usefulness"
+    text: "Utilité de Torlight"
   leonhardsProliferation:
-    text: "Leonhard's Proliferation"
+    text: "Prolifération de Leonhard"
   brutaniansSprouting:
-    text: "Brutanian's Sprouting"
+    text: "Bourgeonnement de Brutanian"
   growthoftheEverbloom:
-    text: "Growth of the Everbloom"
+    text: "Croissance de l'Everbloom"
   lorrainesGrace:
-    text: "Lorraine's Grace"
+    text: "Grâce de Lorraine"
   tranyasProduce:
-    text: "Tranya's Produce"
+    text: "Confection de Tranya"
   eulersAlacrity:
-    text: "Euler's Alacrity"
+    text: "Empressement d'Euler"
   bormacsHeadway:
-    text: "Bormac's Headway"
+    text: "Progrès de Bormac"
   wrismokesHustle:
-    text: "Wrismoke's Hustle"
+    text: "Tumulte de Wrismoke"
   raphimasBreeze:
-    text: "Raphima's Breeze"
+    text: "Brise de Raphima"
   shrogersBriskness:
-    text: "Shroger's Briskness"
+    text: "Vivacité de Shroger"
   rivarynsZeal:
-    text: "Rivaryn's Zeal"
+    text: "Ardeur de Rivaryn"
   borasRush:
-    text: "Bora's Rush"
+    text: "Hâte de Bora"
   returnofSilentis:
-    text: "Return of Silentis"
+    text: "Retour de Silentis"
   ellongsYield:
-    text: "Ellong's Yield"
+    text: "Rendement d'Ellong"
   reyekorasReaping:
-    text: "Reyekora's Reaping"
+    text: "Récolte Reyekora"
   shogunsPassion:
-    text: "Shogun's Passion"
+    text: "Passion de Shogun"
   blacksIntensity:
-    text: "Black's Intensity"
+    text: "Intensité de Black"
   solairesForging:
-    text: "Solaire's Forging"
+    text: "Forge de Solaire"
   raindonsMolding:
-    text: "Raindon's Molding"
+    text: "Moulage de Raindon"
   webbshinesTooling:
-    text: "Webbshine's Tooling"
+    text: "Outillage de Webbshine"
   ariannasEagerness:
-    text: "Arianna's Eagerness"
+    text: "Enthousiasme d'Arianna"
   wuggysErection:
-    text: "Wuggy's Erection"
+    text: "Érection de Wuggy"
   xaerysArchitecture:
-    text: "Xaerys Architecture"
+    text: "Architecture Xaerys"
   visersterSkill:
-    text: "Viserster Skill"
+    text: "Talent Viserster"
   stewarbowCraftsmanship:
-    text: "Stewarbow Craftsmanship"
+    text: "Savoir-faire Stewarbow"
   lascerandisFabrication:
-    text: "Lascerandi's Fabrication"
+    text: "Fabrication de Lascerandi"
   shapingofSayres:
-    text: "Shaping of Sayres"
+    text: "Façonnage de Sayres"
   thollsJoining:
-    text: "Tholl's Joining"
+    text: "Liant de Tholl"
   lollikersEngineering:
-    text: "Lolliker's Engineering"
+    text: "Ingénierie de Lolliker"
   caclopsApex:
-    text: "Caclop's Apex"
+    text: "Apex de Caclop"
   lyteniansDismembering:
-    text: "Lytenian's Dismembering"
+    text: "Démembrement de Lytenian"
   araxielsWrack:
-    text: "Araxiel's Wrack"
+    text: "Piste d'Araxiel"
   dobgibsonsRuin:
-    text: "Dobgibson's Ruin"
+    text: "Ruine de Dobgibson"
   hawksSwiftness:
-    text: "Hawk's Swiftness"
+    text: "Rapidité de Hawk"
   jamellsMania:
-    text: "Jamell's Mania"
+    text: "Manie de Jamell"
   amaraesUrgency:
-    text: "Amarae's Urgency"
+    text: "Urgence d'Amarae"
   anonlolisExpanse:
-    text: "Anonloli's Expanse"
+    text: "Étendue d'Anonloli"
   levelingofDracoreyes:
-    text: "Leveling of Dracoreyes"
+    text: "Nivellement de Dracoreyes"
   glittersmisHeadroom:
-    text: "Glittersmi's Headroom"
+    text: "Hauteur de Glittersmi"
   tuxiaClearcutting:
-    text: "Tuxia Clearcutting"
+    text: "Coupe rase de Tuxia"
   aeonsPatching:
-    text: "Aeon's Patching"
+    text: "Correctif d'Aeon"
   andreisReconstruction:
-    text: "Andrei's Reconstruction"
+    text: "Reconstruction d'Andrei"
   jimelightsReformation:
-    text: "Jimelight's Reformation"
+    text: "Restructuration de Jimelight"
   wookorasMending:
-    text: "Wookora's Mending"
+    text: "Raccommodage de Wookora"
   silvergarsOverhaul:
-    text: "Silvergar's Overhaul"
+    text: "Réorganisation de Silvergar"
   fuguesRectification:
-    text: "Fugue's Rectification"
+    text: "Rectification de Fugue"
   anastrianasGrind:
-    text: "Anastriana's Grind"
+    text: "Corvée d'Anastriana"
   droghoffmansService:
-    text: "Droghoffman's Service"
+    text: "Service de Droghoffman"
   spiritofValiya:
-    text: "Spirit of Valiya"
+    text: "Esprit de Valiya"
   thollsReform:
-    text: "Tholl's Reform"
+    text: "Réforme de Tholl"
   kiplingsHoeing:
-    text: "Kipling's Hoeing"
+    text: "Binage de Kipling"
   alvinsAgriculture:
-    text: "Alvin's Agriculture"
+    text: "Agriculture de Alvin"
   woogsCultivation:
-    text: "Woog's Cultivation"
+    text: "Cultures de Woog"
   tranyasAgronomy:
-    text: "Tranya's Agronomy"
+    text: "Agronomie de Tranya"
   rhaelmartinsSeeding:
-    text: "Rhaelmartin's Seeding"
+    text: "Semailles de Rhaelmartin"
   leviathansCuring:
-    text: "Leviathan's Curing"
+    text: "Mûrissement de Leviathan"
   alathasInvigoration:
-    text: "Alatha's Invigoration"
+    text: "Revigoration d'Alatha"
   cralightsPlacebo:
-    text: "Cralight's Placebo"
+    text: "Placebo de Cralight"
   bakerolasRecovery:
-    text: "Bakerola's Recovery"
+    text: "Rétablissement de Bakerola"
   millsellsReparation:
-    text: "Millsell's Reparation"
+    text: "Réparation de Millsell"
   sagarsBottle:
-    text: "Sagar's Bottle"
+    text: "Bouteille de Sagar"
   destonsCanteen:
-    text: "Deston's Canteen"
+    text: "Cantine de Deston"
   ronjasCapsule:
-    text: "Ronja's Capsule"
+    text: "Capsule de Ronja"
   venettasTank:
-    text: "Venetta's Tank"
+    text: "Tank de Venetta"
   damiasTub:
-    text: "Damia's Tub"
+    text: "Cuve de Damia"
   oliviasDevelopment:
-    text: "Olivia's Development"
+    text: "Développement d'Olivia"
   rivasEscalation:
-    text: "Riva's Escalation"
+    text: "Escalade de Riva"
   alyshasUpgrade:
-    text: "Alysha's Upgrade"
+    text: "Amélioration d'Alysha"
   yseultsInflation:
-    text: "Yseult's Inflation"
+    text: "Inflation d'Yseult"
   tyndallsExaggeration:
-    text: "Tyndall's Exaggeration"
+    text: "Exagération de Tyndall"
   tiffaniesSpread:
-    text: "Tiffanie's Spread"
+    text: "Propagation de Tiffanie"
   shelleysUpsurge:
-    text: "Shelley's Upsurge"
+    text: "Recrudescence de Shelley"
   lickashsOptimization:
-    text: "Lickash's Optimization"
+    text: "Optimisation de Lickash"
   krunluksFlow:
-    text: "Krunluk's Flow"
+    text: "Courant de Krunluk"
   glithasStimulation:
-    text: "Glitha's Stimulation"
+    text: "Stimulation de Glitha"
   bellowflowsInvigoration:
-    text: "Bellowflow's Invigoration"
+    text: "Fortification de Bellowflow"
   finespansBoost:
-    text: "Finespan's Boost"
+    text: "Élan de Finespan"
   wigglespellsAccrual:
-    text: "Wigglespell's Accrual"
+    text: "Provisions de Wigglespell"
   bunameenksWaxing:
-    text: "Bunameenk's Waxing"
+    text: "Cirage de Bunameenk"
   ublathozzsBuild-up:
-    text: "Ublathozz's Build-up"
+    text: "Amas de Ublathozz"
   thylinklazsAddition:
-    text: "Thylinklaz's Addition"
+    text: "Addition de Thylinklaz"
   klerosNumbers:
-    text: "Klero's Numbers"
+    text: "Nombres de Klero"
   noldicksAmassing:
-    text: "Noldick's Amassing"
+    text: "Amassement Noldick"
   fabiansInfusion:
-    text: "Fabian's Infusion"
+    text: "Infusion de Fabian"
   bemarinsBuild:
-    text: "Bemarin's Build"
+    text: "Construction de Bemarin"
   inemeonsEnergizing:
-    text: "Inemeon's Energizing"
+    text: "Stimulant d'Inemeon"
   jovimaviasAccumulation:
-    text: "Jovimavia's Accumulation"
+    text: "Accumulation de Jovimavia"
   zanliasGain:
-    text: "Zanlia's Gain"
+    text: "Gain de Zanlia"
   hodisAugmentation:
-    text: "Hodi's Augmentation"
+    text: "Augmentation de Hodi"
   balthisEnlargement:
-    text: "Balthi's Enlargement"
+    text: "Élargissement de Balthi"
   jeremiahsEnflanginator:
-    text: "Jeremiah's Enflanginator"
+    text: "Enflanginator de Jeremiah" # mmmh... Enflanginator?
   drengundsExtension:
-    text: "Drengund's Extension"
+    text: "Extension de Drengund"
   bhuldemsSupplements:
-    text: "Bhuldem's Supplements"
+    text: "Suppléments de Bhuldem"
   egusSurge:
-    text: "Egu's Surge"
+    text: "Déferlement d'Egu"
   uglasCharge:
-    text: "Ugla's Charge"
+    text: "Charge d'Ugla"
   omarsExciter:
-    text: "Omar's Exciter"
+    text: "Excitateur d'Omar"
   rowansVitalization:
-    text: "Rowan's Vitalization"
+    text: "Revitalisation de Rowan"
   ramseysAccumulation:
-    text: "Ramsey's Accumulation"
+    text: "Accumulation de Ramsey"
   patstricksAllurement:
-    text: "Patstrick's Allurement"
+    text: "Attrait de Patstrick"
   divinationofAidos:
-    text: "Divination of Aidos"
+    text: "Divination d'Aidos"
   aronsAscension:
-    text: "Arons Ascension"
+    text: "Ascension d'Aron"
   hughsGambit:
-    text: "Hugh's Gambit"
+    text: "Gambit de Hugh"
   vigorofAngerris:
-    text: "Vigor of Angerris"
+    text: "Vigueur d'Angerris"
   braktarsRighteousness:
-    text: "Braktar's Righteousness"
+    text: "Justesse de Braktar"
   glendaysInflation:
-    text: "Glenday's Inflation"
+    text: "Inflation de Glenday"
   serarosAccession:
-    text: "Seraro's Accession"
+    text: "Avènement de Seraro"
   additionsofAngerris:
-    text: "Additions of Angerris"
+    text: "Additions de Angerris"
   agerrasBuildup:
-    text: "Agerra's Buildup"
+    text: "Tas d'Agerra"
   pixrtonsGains:
-    text: "Pixrton's Gains"
+    text: "Profits de Pixrton"
   bloomsGlorification:
-    text: "Bloom's Glorification"
+    text: "Glorification de Bloom"
   acurasAccumulation:
-    text: "Acura's Accumulation"
+    text: "Entassement d'Acura"
   galmisExpansion:
-    text: "Galmi's Expansion"
+    text: "Expansion de Galmi"
   lolliwoodsSurge:
-    text: "Lolliwood's Surge"
+    text: "Afflux de Lolliwood"
   drogverasUpgrade:
-    text: "Drogvera's Upgrade"
+    text: "Amélioration de Drogvera"
   solairesAugmentation:
-    text: "Solaire's Augmentation"
+    text: "Augmentation de Solaire"
   wendusContinuance:
-    text: "Wendu's Continuance"
+    text: "Maintien de Wendu"
   raindonsPerpetuation:
-    text: "Raindon's Perpetuation"
+    text: "Perpétuation de Raindon"
   gibsonshinesStretch:
-    text: "Gibsonshine's Stretch"
+    text: "Étirement de Gibsonshine"
   redsPerpetuation:
-    text: "Red's Perpetuation"
+    text: "Préservation de Red"
   belindasRadius:
-    text: "Belinda's Radius"
+    text: "Rayon de Belinda"
   jaedensBringing:
-    text: "Jaeden's Bringing"
+    text: "Apport de Jaeden"
   redfieldsDraw:
-    text: "Redfield's Draw"
+    text: "Tirage de Redfield"
   jeremiasReload:
-    text: "Jeremia's Reload"
+    text: "Rechargement de Jeremia"
   reubensAcceleration:
-    text: "Reuben's Acceleration"
+    text: "Accélération de Reuben"
   clarksMomentum:
-    text: "Clark's Momentum"
+    text: "Moment de Clark"
   cristobalsRenewal:
-    text: "Cristobal's Renewal"
+    text: "Renouvellement de Cristobal"
   goransPace:
-    text: "Goran's Pace"
+    text: "Rythme de Goran"
   marcosRubio:
-    text: "Marco's Rubio"
+    text: "Rubio de Marco"
   godfreysExpenditure:
-    text: "Godfrey's Expenditure"
+    text: "Dépenses de Godfrey"
   rutlandsConsumption:
-    text: "Rutland's Consumption"
+    text: "Consommation de Rutland"
   edgesAssimilation:
-    text: "Edge's Assimilation"
+    text: "Assimilation d'Edge"
   fleurettesRetention:
-    text: "Fleurette's Retention"
+    text: "Rétention de Fleurette"
   lizettesVision:
-    text: "Lizette's Vision"
+    text: "Vision de Lizette"
   belindasField:
-    text: "Belinda's Field"
+    text: "Champ de Belinda"
   astleysTerritory:
-    text: "Astley's Territory"
+    text: "Territoire d'Astley"
   hametsRestock:
-    text: "Hamet's Restock"
+    text: "Réapprovisionnement de Hamet"
   knotleysFleetness:
-    text: "Knotley's Fleetness"
+    text: "Vitesse de Knotley"
   xixsExpeditiousness:
-    text: "Xix's Expeditiousness"
+    text: "Rapidité de Xix"
   xandersSwiftness:
-    text: "Xander's Swiftness"
+    text: "Célérité de Xander"
   farksRush:
-    text: "Fark's Rush"
+    text: "Précipîtation de Fark"
   malinsInvestment:
-    text: "Malin's Investment"
+    text: "Investissement de Malin"
   marianesUtilization:
-    text: "Mariane's Utilization"
+    text: "Utilisation de Mariane"
   angelettasFusion:
-    text: "Angeletta's Fusion"
+    text: "Fusion d'Angeletta"
   lillynsAdaptability:
-    text: "Lillyn's Adaptability"
+    text: "Adaptabilité de Lillyn"
   glowvalesQuantity:
-    text: "Glowvale's Quantity"
+    text: "Quantité de Glowvale"
   lynnesRange:
-    text: "Lynne's Range"
+    text: "Portée de Lynne"
   kowalskisScope:
-    text: "Kowalski's Scope"
+    text: "Cadre de Kowalski"
   hannahsLength:
-    text: "Hannah's Length"
+    text: "Longueur de Hannah"
   jakesReplacing:
-    text: "Jake's Replacing"
+    text: "Remplaçant de Jake"
   daxtersPromptitude:
-    text: "Daxter's Promptitude"
+    text: "Promptitude de Daxter"
   kamilsAlacrity:
-    text: "Kamil's Alacrity"
+    text: "Empressement de Kamil"
   horseysHustle:
-    text: "Horsey's Hustle"
+    text: "Tumulte de Horsey"
   huntersUrgency:
-    text: "Hunter's Urgency"
+    text: "Urgence de Hunter"
   foxsLimits:
-    text: "Fox's Limits"
+    text: "Limites de Fox"
   gwenaelsDomain:
-    text: "Gwenael's Domain"
+    text: "Domaine de Gwenael"
   albertonsSwing:
-    text: "Alberton's Swing"
+    text: "Balancement d'Alberton"
   sporksReplenishment:
-    text: "Spork's Replenishment"
+    text: "Reconstitution de Spork"
   benjaminsScale:
-    text: "Benjamin's Scale"
+    text: "Échelle de Benjamin"
   costellosProgression:
-    text: "Costello's Progression"
+    text: "Progression de Costello"
   stephaniesInsistence:
-    text: "Stephanie's Insistence"
+    text: "Insistance de Stephanie"
   lonnebroodsExigency:
-    text: "Lonnebrood's Exigency"
+    text: "Exigence de Lonnebrood"
   albertsSpan:
-    text: "Albert's Span"
+    text: "Période d'Albert"
   johnsonsWidth:
-    text: "Johnson's Width"
+    text: "Largeur de Johnson"
   poindextersBreadth:
-    text: "Poindexter's Breadth"
+    text: "Ampleur de Poindexter"
   belsamethsProficiency:
-    text: "Belsameth's Proficiency"
+    text: "Compétence de Belsameth"
   jadesDestruction:
-    text: "Jade's Destruction"
+    text: "Destruction de Jade"
   nedrasProductivity:
-    text: "Nedra's Productivity"
+    text: "Productivité de Nedra"
   sengoretsAbundance:
-    text: "Sengoret's Abundance"
+    text: "Abondance de Sengoret"
   elesiasAmplitude:
-    text: "Elesia's Amplitude"
+    text: "Amplitude d'Elesia"
   loransFarness:
-    text: "Loran's Farness"
+    text: "Éloignement de Loran"
   stephensHorizon:
-    text: "Stephen's Horizon"
+    text: "Horizon de Stephen"
   rydwaltsSweep:
-    text: "Rydwalt's Sweep"
+    text: "Balayage de Rydwalt"
   gregorsProgression:
-    text: "Gregor's Progression"
+    text: "Évolution de Gregor"
   rowsdowersDivvy:
-    text: "Rowsdower's Divvy"
+    text: "Plongeon de Rowsdower"
   maximiliansTempo:
-    text: "Maximilian's Tempo"
+    text: "Tempo de Maximilian"
   guybrushsPace:
-    text: "Guybrush's Pace"
+    text: "Allure de Guybrush"
   mcAllistersSkills:
-    text: "McAllister's Skills"
+    text: "Aptitudes de McAllister"
   threepwoodsFaculty:
-    text: "Threepwood's Faculty"
+    text: "Faculté de Threepwood"
   ajarnsStandard:
-    text: "Ajarn's Standard"
+    text: "Standard d"Ajarn"
   chartsScale:
-    text: "Chart's Scale"
+    text: "Ampleur de Chart"
   martinsOvercharge:
-    text: "Martin's Overcharge"
+    text: "Surcharge de Martin"
   nathansPotential:
-    text: "Nathan's Potential"
+    text: "Potentiel de Nathan"
   marcsMuscle:
-    text: "Marc's Muscle"
+    text: "Muscle de Marc"
   camillesPush:
-    text: "Camille's Push"
+    text: "Poussée de Camille"
   vichetsRange:
-    text: "Vichet's Range"
+    text: "Étendue de Vichet"
   alexandersQuota:
-    text: "Alexander's Quota"
+    text: "Quota d'Alexander"
   qinsApportionment:
-    text: "Qin's Apportionment"
+    text: "Répartition de Qin"
   johsRate:
-    text: "Joh's Rate"
+    text: "Valeur de Joh"
   earnestsDispatchment:
-    text: "Earnest's Dispatchment"
+    text: "Envoi d'Earnest"
   troysCelerity:
-    text: "Troy's Celerity"
+    text: "Célérité de Troy"
   morikhanninsPowder:
-    text: "Morikhannin's Powder"
+    text: "Poudre de Morikhannin"
   gaborsSupercharge:
-    text: "Gabor's Supercharge"
+    text: "Suralimentation de Gabor"
   ushalgsClout:
-    text: "Ushalg's Clout"
+    text: "Influence d'Ushalg"
   billsShifting:
-    text: "Bill's Shifting"
+    text: "Décalage de Bill"
   wesleysCreation:
-    text: "Wesley's Creation"
+    text: "Création de Wesley"
   bondesExpansion:
-    text: "Bonde's Expansion"
+    text: "Développement de Bonde"
   roguesSpread:
-    text: "Rogue's Spread"
+    text: "Propagation de Rogue"
   hatschimakisFoundation:
-    text: "Hatschimaki's Foundation"
+    text: "Fondation de Hatschimaki"
   uptonsDuress:
-    text: "Upton's Duress"
+    text: "Contrainte d'Upton"
   jonasFury:
-    text: "Jona's Fury"
+    text: "Fureur de Jona"
   leonidsExhaustion:
-    text: "Leonid's Exhaustion"
+    text: "Épuisement de Leonid"
   damianosFormulation:
-    text: "Damiano's Formulation"
+    text: "Formulation de Damiano"
   raissasProduction:
-    text: "Raissa's Production"
+    text: "Production de Raissa"
   lilosReprisal:
-    text: "Lilo's Reprisal"
+    text: "Représailles de Lilo"
   hildasCache:
-    text: "Hilda's Cache"
+    text: "Cachette de Hilda"
   charmainesReserve:
-    text: "Charmaine's Reserve"
+    text: "Réserve de Charmaine"
   fridasAuxiliary:
-    text: "Frida's Auxiliary"
+    text: "Auxiliaire de Frida"
   faithofPompeii:
-    text: "Faith of Pompeii"
+    text: "Foi de Pompeii"
   brigettesMotility:
-    text: "Brigette's Motility"
+    text: "Motilité de Brigette"
   ceciliasEstate:
-    text: "Cecilia's Estate"
+    text: "Domaine de Cecilia"
   almasAdjuvant:
-    text: "Alma's Adjuvant"
+    text: "Adjuvant d'Alma"
   jordansEquity:
-    text: "Jordan's Equity"
+    text: "Équité de Jordan"
   marquisasAllotment:
-    text: "Marquisa's Allotment"
+    text: "Lotissement de Marquisa"
   piasPower:
-    text: "Pia's Power"
+    text: "Pouvoir de Pia"
   madalenesDisembark:
-    text: "Madalene's Disembark"
+    text: "Débarquement de Madalene"
   huldasFleetness:
-    text: "Hulda's Fleetness"
+    text: "Attention de Hulda"
   olympesGenesis:
-    text: "Olympe's Genesis"
+    text: "Génèse d'Olympe"
   ashleesAnchor:
-    text: "Ashlee's Anchor"
+    text: "Ancre d'Ashlee"
   lorrainasAccess:
-    text: "Lorraina's Access"
+    text: "Accès de Lorraina"
   mckenziesattainanance:
-    text: "Mckenzie's attainanance"
+    text: "Mckenzie" # Attainanance ?
   parksSubservience:
-    text: "Park's Subservience"
+    text: "Soumission de Park"
   corinsWeight:
-    text: "Corin's Weight"
+    text: "Poids de Corin"
   roswellsMobility:
-    text: "Roswell's Mobility"
+    text: "Mobilité de Roswell"
   hammettsVoyaging:
-    text: "Hammett's Voyaging"
+    text: "Voyage de Hammett"
   wadesPromptness:
-    text: "Wade's Promptness"
+    text: "Promptitude de Wade"
   nottleysBriskness:
-    text: "Nottley's Briskness"
+    text: "Vivacité de Nottley"
   colbysBustle:
-    text: "Colby's Bustle"
+    text: "Agitation de Colby"
   pellsFlight:
-    text: "Pell's Flight"
+    text: "Vol de Pell"
   chestersEmbarkment:
-    text: "Chester's Embarkment"
+    text: "Digue de Chester"
   brooksOrbit:
-    text: "Brook's Orbit"
+    text: "Orbite de Brook"
   xaverinesCompass:
-    text: "Xaverine's Compass"
+    text: "Boussole de Xaverine"
   mariechensHorizon:
-    text: "Mariechen's Horizon"
+    text: "Horizon de Mariechen"
   mildenhallsGrowth:
-    text: "Mildenhall's Growth"
+    text: "Poussée de Mildenhall"
   finjasFarness:
-    text: "Finja's Farness"
+    text: "Éloignement de Finja"
   stampersExtent:
-    text: "Stamper's Extent"
+    text: "Étendue de Stamper"
   mikklesEagerness:
-    text: "Mikkle's Eagerness"
+    text: "Empressement de Mikkle"
   ahmedsGait:
-    text: "Ahmed's Gait"
+    text: "Démarche d'Ahmed"
   gavinsPromptitude:
-    text: "Gavin's Promptitude"
+    text: "Promptitude de Gavin"
   howellsExertion:
-    text: "Howell's Exertion"
+    text: "Effort de Howell"
   dalyngriggesMoxie:
-    text: "Dalyngrigge's Moxie"
+    text: "Détermination de Dalyngrigge"
   igorsEnergy:
-    text: "Igor's Energy"
+    text: "Energie d'Igor"
   kilosDrive:
-    text: "Kilo's Drive"
+    text: "Trajet de Kilo"
   caseysEfficiency:
-    text: "Casey's Efficiency"
+    text: "Efficacité de Casey"
   mcChrystalsFlurry:
-    text: "McChrystal's Flurry"
+    text: "Rafale de McChrystal"
   boltonsRush:
-    text: "Bolton's Rush"
+    text: "Rush de Bolton"
   edwardsMunitions:
-    text: "Edward's Munitions"
+    text: "Munitions d'Edward"
   middlecoatsArms:
-    text: "Middlecoat's Arms"
+    text: "Bras de Middlecoat"
   caseysOrdnance:
-    text: "Casey's Ordnance"
+    text: "Obus de Casey"
   oslauthsDepository:
-    text: "Oslauth's Depository"
+    text: "Dépôt d'Oslauth"
   manlysArsenal:
-    text: "Manly's Arsenal"
+    text: "Arsenal de Manly"
   terimortsAbridgment:
-    text: "Terimort's Abridgment"
+    text: "Raccourcissement de Terimort"
   unveilingofVaelophis:
-    text: "Unveiling of Vaelophis"
+    text: "Révélation de Vaelophis"
   leyasCompression:
-    text: "Leya's Compression"
+    text: "Compression de Leya"
   scottaugsIntroduction:
-    text: "Scottaug's Introduction"
+    text: "Introduction de Scottaug"
   serarosActualization:
-    text: "Seraro's Actualization"
+    text: "Actualisation de Seraro"
   avenarMultiplication:
-    text: "Avenar Multiplication"
+    text: "Multiplication d'Avenar"
   nyxsExaggeration:
-    text: "Nyx's Exaggeration"
+    text: "Exagération de Nyx"
   garkneesAugmentation:
-    text: "Garknee's Augmentation"
+    text: "Accroissement de Garknee"
   drogcartersAccumulation:
-    text: "Drogcarter's Accumulation"
+    text: "Cumulation de Drogcarter"
   visermyersRise:
-    text: "Visermyer's Rise"
+    text: "Montée de Visermyer"
   gingersSpirit:
-    text: "Ginger's Spirit"
+    text: "Esprit de Ginger"
   rainesGrowth:
-    text: "Raine's Growth"
+    text: "Croissance de Raine"
   blessingofNoveriah:
-    text: "Blessing of Noveriah"
+    text: "Bénédiction de Noveriah"
   perookiesScent:
-    text: "Perookie's Scent"
+    text: "Parfum de Perookie"
   hadrinasHabitat:
-    text: "Hadrina's Habitat"
+    text: "Habitat de Hadrina"
   limbysThrift:
-    text: "Limby's Thrift"
+    text: "Économie de Limby"
   deductionofSalvak:
-    text: "Deduction of Salvak"
+    text: "Déduction de Salvak"
   noteofBlasphemy:
-    text: "Note of Blasphemy"
+    text: "Note de blasphème" #should blasphemy be translated
   dayaphimasBarter:
-    text: "Dayaphima's Barter"
+    text: "Troc de Dayaphima"
   tamanesRecession:
-    text: "Tamane's Recession"
+    text: "Récession de Tamane"
   keithsFlourishing:
-    text: "Keith's Flourishing"
+    text: "Prospérité de Keith"
   nizzsStrengthening:
-    text: "Nizz's Strengthening"
+    text: "Renforcement de Nizz"
   robertsUnwrinkling:
-    text: "Robert's Unwrinkling"
+    text: "Défroissement de Robert"
   rugmuksIndelibility:
-    text: "Rugmuk's Indelibility "
+    text: "Indélébilité de Rugmuk"
   austinsFiber:
-    text: "Austin's Fiber"
+    text: "Fibre d'Austin"
   domorosTake:
-    text: "Domoro's Take"
+    text: "Prise de Domoro"
   marcelosHaul:
-    text: "Marcelo's Haul"
+    text: "Force de Marcelo"
   kittenheartsBooty:
-    text: "Kittenheart's Booty"
+    text: "Trésor de Kittenheart"
   pettigrewsSqueeze:
-    text: "Pettigrew's Squeeze"
+    text: "Pression de Pettigrew"
   sungwoosPillages:
-    text: "Sungwoo's Pillages"
+    text: "Pillages de Sungwoo"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Time Module
