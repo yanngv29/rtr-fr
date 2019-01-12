@@ -1106,13 +1106,13 @@ season:
   javaClass: "rtr.TimeModule.java"
   
   winter:
-    text: "Winter"
+    text: "Hiver"
   spring:
-    text: "Spring"
+    text: "Printemps"
   summer:
-    text: "Summer"
+    text: "Été"
   autumn:
-    text: "Autumn"
+    text: "Automne"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Goals
