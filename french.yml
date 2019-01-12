@@ -1547,18 +1547,18 @@ mapEditorLoadMapDeleteWarningPanel:
   
   button:
     'no':
-      text: "No!"
+      text: "Non !"
     'yes':
-      text: "Yes!"
+      text: "Oui !"
     yesConfirm:
-      text: "I said YES!"
+      text: "J'ai dit OUI !"
     
   header:
-    text: "$ORA1Are you sure?!"
+    text: "$ORA1En es-tu certain ?!"
   body:
-    text: "Whoa, whoa, are you sure~you want to delete map $GRE1{mapName}??"
+    text: "Whoa, whoa, es-tu certain de ~vouloir supprimer la carte $GRE1{mapName} ??"
   bodyConfirm:
-    text: "$RED1Seriously are you ABSOLUTELY sure? The map will be lost forever! (That's a really long time!)"
+    text: "$RED1Serieusement, en es-tu absolument certain ? La carte sera perdue pour toujours ! (C'est vraiment long !)"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Main Menu State
@@ -1572,9 +1572,9 @@ mapEditorLoadMapPanel:
   
   button:
     loadMap:
-      text: "Load Map"
+      text: "Charger la carte"
     deleteMap:
-      text: "Delete Map"
+      text: "Supprimer la carte"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Main Menu State
