@@ -1461,79 +1461,79 @@ mainMenuMainMenuPanel:
   
   button:
     play:
-      text: "Play"
+      text: "Jouer"
     worldMap:
-      text: "World Map"
+      text: "Carte monde"
     skirmish:
-      text: "Skirmish"
+      text: "Skirmish" #check for possible alternatives
     mapEditor:
-      text: "Map Editor"
+      text: "Éditeur de carte"
     newMap:
-      text: "New Map"
+      text: "Nouvelle carte"
     loadMap:
-      text: "Load Map"
+      text: "Charger une carte"
     devTools:
-      text: "Dev Tools"
+      text: "Outils de développeur"
     tutorialVideo:
-      text: "Tutorial Video"
+      text: "Tutoriel vidéo"
     settings:
-      text: "Settings"
+      text: "Paramètres"
     credits:
-      text: "Credits"
+      text: "Crédits"
     changeProfile:
-      text: "Change Profile"
+      text: "Changer de profil"
     exit:
-      text: "Exit"
+      text: "Quitter"
     back:
-      text: "Back"
+      text: "Retour"
     scrubMapImages:
-      text: "Scrub Map Images"
+      text: "Brosser les images de la carte"
     generateMapSheet:
-      text: "Generate Map Sheet"
+      text: "Générer une feuille de la carte"
     runLineCounter:
-      text: "Run Line Counter"
+      text: "Lancer le compteur de lignes"
     generateVideoSheet:
-      text: "Generate Video Sheet"
+      text: "Générer une feuille de la vidéo"
     rollover:
       patreon:
-        text: "Pledge on Patreon!"
+        text: "S'engager sur Patreon !"
       twitch:
-        text: "Follow on Twitch!"
+        text: "Suivre sur Twitch !"
       twitter:
-        text: "Follow on Twitter!"
+        text: "Suivre sur Twitter !"
       discord:
-        text: "Join The Discord!" 
+        text: "Rejoindre le Discord !" 
       
   videoSheetName:
-    text: "Video Sheet Name"
+    text: "Nom des feuilles de vidéo"
   linesOfCode:
-    text: "Lines of Code~{amount}"
+    text: "~{amount} lignes de code"
   buildVersion:
     text: "$CYA1Build {version}"
     
   reviewPopup:
     header:
-      text: "$CYA1Consider a Review?"
+      text: "$CYA1Envisages-tu d'écrire une critique ?"
     subHeader:
-      text: "$GRE1Enjoying Rise to Ruins?"
+      text: "$GRE1Aimes-tu Rise to Ruins?"
     body:
-      text: "Please consider taking the time to write a review. Reviews go a long ways to support little one-man indie developers like me!"
+      text: "Prend le temps d'écrire une critique. Les critiques comptent beaucoup pour aider les petits développeurs indépendants comme moi !"
     button:
       hide:
-        text: "Hide"
+        text: "Cacher"
       goReview:
-        text: "Go Review!"
+        text: "Rédiger une critique!"
 
   twitchPopup:
     header:
-      text: "$CYA1Developer Live Stream!"
+      text: "$CYA1Stream du développeur !"
     subHeader:
-      text: "$GRE1Raymond Doerr is Streaming!"
+      text: "$GRE1Raymond Doerr est en direct !"
     body:
-      text: "Rise to Ruins Development is being streamed on Twitch $YEL1right now!~$GRE1 Want to watch?"
+      text: "Le développement de Rise to Ruins est en train d'être streamé sur Twitch $YEL1maintenant ! ~$GRE1Envie de regarder ?"
     button:
       goWatch:
-        text: "Go Watch!"
+        text: "Regarder !"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Main Menu State
