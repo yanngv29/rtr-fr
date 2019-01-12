@@ -1556,7 +1556,7 @@ mapEditorLoadMapDeleteWarningPanel:
   header:
     text: "$ORA1En es-tu certain ?!"
   body:
-    text: "Whoa, whoa, es-tu certain de ~vouloir supprimer la carte $GRE1{mapName} ??"
+    text: "Whoa, whoa, es-tu certain de~vouloir supprimer la carte $GRE1{mapName} ??"
   bodyConfirm:
     text: "$RED1Serieusement, en es-tu absolument certain ? La carte sera perdue pour toujours ! (C'est vraiment long !)"
 
@@ -1588,18 +1588,18 @@ mapEditorNewMapDeleteWarningPanel:
   
   button:
     'no':
-      text: "No!"
+      text: "Non !"
     'yes':
-      text: "Yes!"
+      text: "Oui !"
     yesConfirm:
-      text: "I said YES!"
+      text: "J'ai dit OUI !"
     
   header:
-    text: "$ORA1Are you sure?!"
+    text: "$ORA1En es-tu certain?!"
   body:
-    text: "Whoa, whoa, are you sure~you want to delete map pack $GRE1{mapName}??"
+    text: "Whoa, whoa, es-tu certain de vouloir~supprimer le lot de cartes $GRE1{mapName} ??"
   bodyConfirm:
-    text: "$RED1Seriously are you ABSOLUTELY sure? The map pack will be lost forever! (That's a really long time!)"
+    text: "$RED1Serieusement, en es-tu ABSOLUMENT sûr ? Le lot de cartes va être perdu pour toujours ! (C'est vraiment long !)"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Main Menu State
@@ -1613,67 +1613,67 @@ mapEditorNewMapPanel:
 
   button:  
     create:
-      text: "Create Map"
+      text: "Créer une carte"
     delete:
-      text: "Delete Map Pack"
+      text: "Supprimer le lot de carte"
     grassGreen:
-      text: "Grass (Green)"
+      text: "Herbe (verte)"
     grassYellowBrown:
-      text: "Grass (Yl-Brn)"
+      text: "Herbe (jne-brn)"
     grassEmeraldGreen:
-      text: "Grass (Em-Grn)"
+      text: "Herbe (Em-Vrt)"
     dirtLightBrown:
-      text: "Dirt (Lt Brn)"
+      text: "Terre (Brn clr)"
     dirtBrown:
-      text: "Dirt (Brown)"
+      text: "Terre (Brun)"
     dirtDarkBrown:
-      text: "Dirt (Dk Brn)"
+      text: "Terre (Brn fncé)"
     gravelGray:
-      text: "Gravel (Gray)"
+      text: "Gravier (Gris)"
     gravelBlue:
-      text: "Gravel (Blue)"
+      text: "Gravier (Bleu)"
     gravelRed:
-      text: "Gravel (Red)"
+      text: "Gravier (Rouge)"
     bricksGray:
-      text: "Bricks (Gray)"
+      text: "Briques (Gris)"
     tilesGray:
-      text: "Tiles (Gray)"
+      text: "Carreaux (Gris)"
     sandTan:
-      text: "Sand (Tan)"
+      text: "Sable (Tanné)"
     sandBlack:
-      text: "Sand (Black)"
+      text: "Sable (Noir)"
     sandRed:
-      text: "Sand (Red)"
+      text: "Sable (Rouge)"
     mapSize:
       large:
         text: "Large"
       medium:
-        text: "Medium"
+        text: "Moyen"
       small:
-        text: "Small"
+        text: "Petit"
       empty:
-        text: "Empty"
+        text: "Vide"
         
   textInput:
     name:
-        text: "Your Map Name"
+        text: "Nom de la carte"
     author:
-        text: "Your Name"
+        text: "Ton nom"
         
   header:
     selectPack:
-      text: "$ORA1Select A Map Pack"
+      text: "$ORA1Sélectionne un lot de cartes"
     mapName:
-      text: "$ORA1Map Name"
+      text: "$ORA1Nom de la carte"
     author:
-      text: "$ORA1Map Author"
+      text: "$ORA1Autheur de la carte"
     baseTerrain:
-      text: "$ORA1Base Terrain"
+      text: "$ORA1Terrain de base"
     size:
-      text: "$ORA1Size"
+      text: "$ORA1Taille"
       
   mapExistsWarning:
-    text: "$RED1MAP ALREADY EXISTS IN MAP PACK {mapPackName}"
+    text: "$RED1LA CARTE EXISTE DÉJÀ DANS LE LOT {mapPackName}"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Main Menu State
