@@ -1431,9 +1431,9 @@ mainMenuDisclaimerPanel:
   
   button:
     letsPlay:
-      text: "Lets Play!"
+      text: "Jouons !"
     dontShow:
-      text: "Don't Show Again"
+      text: "Ne plus montrer"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Main Menu State
