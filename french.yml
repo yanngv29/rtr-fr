@@ -1446,8 +1446,8 @@ mainMenuLogo:
   javaClass: "rtr.gui.states.mainmenu.Logo.java"
   
   halloweenQuote:
-    comment: "This only pops up on October 31st."
-    text: "$ORA1Happy Halloween!"
+    comment: "Cela ne s'affiche que le 31 octobre."
+    text: "$ORA1Joyeux halloween!"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Main Menu State
