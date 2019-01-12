@@ -1083,17 +1083,17 @@ timeOfDay:
   javaClass: "rtr.TimeModule.java"
   
   night:
-    text: "Night"
+    text: "Nuit"
   dawn:
-    text: "Dawn"
+    text: "Aube"
   morning:
-    text: "Morning"
+    text: "Matin"
   midday:
-    text: "Midday"
+    text: "Après-midi"
   evening:
-    text: "Evening"
+    text: "Soir"
   dusk:
-    text: "Dusk"
+    text: "Crépuscule"
   
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Time Module
