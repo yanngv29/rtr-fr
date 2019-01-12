@@ -1406,18 +1406,18 @@ mainMenuDeleteProfilePanel:
   
   button:
     'no':
-      text: "No!"
+      text: "Non !"
     'yes':
-      text: "Yes!"
+      text: "Oui !"
     yesConfirm:
-      text: "I said YES!"
+      text: "J'ai dit OUI!"
       
   header:
-    text: "$ORA1Are you sure?!"
+    text: "$ORA1En es-tu certain ?!"
   body:
-    text: "Are you sure you want to delete profile $GRE1{profileName}$WHI0? You will lose all your progress!"
+    text: "Es-tu certain de vouloir supprimer le profil $GRE1{profileName}$WHI0 ? Tu vas perdre toute ta progession !"
   bodyConfirm:
-    text: "$RED1Seriously are you ABSOLUTELY sure? All progress will be lost forever! (That's a really long time!)"
+    text: "$RED1Serieusement, en es-tu ABSOLUMENT sûr ? Toute ta progession sera perdue pour toujours ! (C'est vraiment long !)"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Main Menu State
