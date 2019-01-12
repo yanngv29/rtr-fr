@@ -1380,19 +1380,19 @@ mainMenuCredits:
   
   button:
     back:
-      text: "Back"
+      text: "Retour"
   
   header:
     developer:
-      text: "$GRE1Lead Developer, Programmer and Artist"
+      text: "$GRE1Développeur, programmeur et artiste en chef"
     music:
-      text: "$GRE1Original Sound Track"
+      text: "$GRE1Bande son originale"
     thanks:
-      text: "$YEL1Special thanks to all my Patreons and Kickstarter backers!"
+      text: "$YEL1Un remerciement particulier aux contributeurs sur Patreon et Kickstarter !"
     patreons:
-      text: "$GRE1{amount}+ Dollar Patreons"
+      text: "$GRE1Contributeurs de {amount}+ dollars sur Patreon"
     kickstarter:
-      text: "$GRE1{amount}+ Dollar Backers"
+      text: "$GRE1Contributeurs de {amount}+ dollars sur Kickstarter"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Main Menu State
