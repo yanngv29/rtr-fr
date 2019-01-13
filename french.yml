@@ -2591,90 +2591,90 @@ playBuildingListPanel:
   button:
     tooltip:
       firstPageHeader:
-        text: "First Page"
+        text: "Première page"
       lastPageHeader:
-        text: "Last Page"
+        text: "Dernière page"
       pageDownHeader:
-        text: "Page Down"
+        text: "Page précédente"
       pageUpHeader:
-        text: "Page Up"
+        text: "Page suivante"
       increasePriorityHeader:
-        text: "Increase Priority"
+        text: "Augmenter la priorité"
       increasePriority:
-        text: "Increase the construction priority of the building. The higher it is on the list the more important it will be to the workers, usually receiving construction resources first and being built sooner."
+        text: "Augmente la priorité de construction du bâtiment. Plus elle est élevée, plus ce bâtiment sera important aux yeux des ouvriers, recevant ainsi les ressources et étant construit plus tôt."
       decreasePriorityHeader:
-        text: "Decrease Priority"
+        text: "Diminuer la priorité"
       decreasePriority:
-        text: "Decrease the construction priority of the building. The higher it is on the list the more important it will be to the workers, usually receiving construction resources first and being built sooner."
+        text: "Diminue la priorité de construction du bâtiment. Plus elle est élevée, plus ce bâtiment sera important aux yeux des ouvriers, recevant ainsi les ressources et étant construit plus tôt."
       topPriorityHeader:
-        text: "Top Priority"
+        text: "Première priorité"
       topPriority:
-        text: "Sets the construction priority of the building the top of the list. The higher it is on the list the more important it will be to the workers, usually receiving construction resources first and being built sooner."
+        text: "Met ce bâtiment en haut de la liste des priorités. Plus il est vers le haut, plus ce bâtiment sera important aux yeux des ouvriers, recevant ainsi les ressources et étant construit plus tôt."
       lastPriorityHeader:
         text: "Last Priority"
       lastPriority:
-        text: "Sets the construction priority of the building the bottom of the list. The higher it is on the list the more important it will be to the workers, usually receiving construction resources first and being built sooner."
+        text: "Met ce bâtiment en bas de la liste des priorités. Plus il est vers le haut, plus ce bâtiment sera important aux yeux des ouvriers, recevant ainsi les ressources et étant construit plus tôt."
       prioritySortOrderHeader:
-        text: "Priority Sort Order"
+        text: "Ordonnés par priorité"
       prioritySortOrder:
-        text: "Adjusts the order of how the wall segments in this group will be built."
+        text: "Ajuste l'ordre de construction des segments de murs de ce groupe."
 
   tooltip:
     totalBuildingsHeader:
-      text: "Total Building"
+      text: "Total de bâtiments"
     totalBuildings:
-      text: "The total amount of buildings, and how many building slots remains. Does not count walls or ancillaries. Increase your build slots by building additional ancillaries!"
+      text: "Le nombre total de bâtiments, et combien d'autres peuvent être construits. Ne compte pas les murs et entrepôts. Augmente le nombre de bâtiments pouvant être construits en construisant des entrepôts !"
     totalAncillariesHeader:
-      text: "Total Ancillaries"
+      text: "Total d'entrepôts"
     totalAncillaries:
-      text: "The total amount of ancillaries, and how many ancillary slots remains. Increase your ancillary slots by upgrading your camp/castle!"
+      text: "Le nombre total d'entrepôts, et combien d'autres peuvent être construits. Augmente le nombre d'entrepôts pouvant être construits en améliorant ton camp/château."
     totalHomeOccupancyHeader:
-      text: "Total Home Occupancy"
+      text: "Occupation totale des logements"
     totalHomeOccupancy:
-      text: "The total amount of living space currently being used, as well as the total available you have in your homes."
+      text: "Le nombre total d'espaces habitables utilisés, ainsi que le nombre total disponible dans les logements."
     totalBarracksOccupancyHeader:
-      text: "Total Barracks Occupancy"
+      text: "Occupation totale des casernes"
     totalBarracksOccupancy:
-      text: "The total amount of living space currently being used, as well as the total available you have in your barracks."
+      text: "Le nombre total d'espaces habitables utilisés, ainsi que le nombre total disponible dans les casernes."
     totalWorkersHeader:
-      text: "Total Workers"
+      text: "Total de travailleurs"
     totalWorkers:
-      text: "The total amount of villagers who have a job assigned somewhere in the village, and the maximum jobs a that are available."
+      text: "Nombre total de villageois auxquelles une tâche est assignée quelque part dans le village, et le nombre maximum de postes occupables."
     workersHeader:
-      text: "Workers"
+      text: "Travailleurs"
     workers:
-      text: "Total amount of workers slots this building supplies."
+      text: "Nombre total de travailleurs que ce bâtiment peut accueillir."
     occupancyHeader:
-      text: "Occupancy"
+      text: "Occupation"
     occupancy:
-      text: "How many villagers are living in this building, as well as the total amount of living space this building supplies."
+      text: "Combien de villageois vivent dans ce bâtiment, ainsi que la quantité totale d'espace habitable fournie par ce bâtiment."
     energyHeader:
-      text: "Energy"
+      text: "Energie"
     energy:
-      text: "The amount of stored energy this building has, as well as the maximum it can store."
+      text: "La quantité d'énergie stockée par ce bâtiment, ainsi que la quantité maximale qu'il peut stocker."
     dirtyWaterHeader:
-      text: "Dirty Water"
+      text: "Eau sale"
     dirtyWater:
-      text: "The amount of dirty water this building has."
+      text: "La quantité d'eau sale dans ce bâtiment."
     waterHeader:
-      text: "Water"
+      text: "Eau"
     water:
-      text: "The amount of clean drinking water this building has."
+      text: "La quantité d'eau potable dans ce bâtiment."
     goldCoinsHeader:
-      text: "Gold Coins"
+      text: "Pièces d'or"
     goldCoins:
-      text: "The amount of gold this building has."
+      text: "Le nombre de pièces d'or entreposées dans ce bâtiment."
     ammoHeader:
-      text: "Ammo"
+      text: "Munitions"
     ammo:
-      text: "The amount of ammo the building currently has loaded, as well as the maximum amount it can load. This does not count unloaded ammo that is in the building's storage."
+      text: "La quantité de munitions chargées dans ce bâtiment, ainsi que le montant maximum qu'il peut charger. Cela ne compte pas les munitions non chargées qui sont stockées dans le bâtiment."
 
   header:
-    text: "Building List"
+    text: "Liste des bâtiments"
   buildingListPage:
-    text: "Building List       Pg: {currentPage} of {totalPages}"
+    text: "Liste des bâtiments       Pge: {currentPage} de {totalPages}"
   buildingPaused:
-    text: "$YEL1 (Paused)"
+    text: "$YEL1 (en pause)"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Play State
