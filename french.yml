@@ -1595,9 +1595,9 @@ mapEditorNewMapDeleteWarningPanel:
       text: "J'ai dit OUI !"
     
   header:
-    text: "$ORA1En es-tu certain?!"
+    text: "$ORA1En es-tu certain ?!"
   body:
-    text: "Whoa, whoa, es-tu certain de vouloir~supprimer le lot de cartes $GRE1{mapName} ??"
+    text: "Whoa, whoa, es-tu certain de vouloir~supprimer le lot de cartes $GRE1{mapName} $WHI0??"
   bodyConfirm:
     text: "$RED1Serieusement, en es-tu ABSOLUMENT sûr ? Le lot de cartes va être perdu pour toujours ! (C'est vraiment long !)"
 
@@ -1745,18 +1745,18 @@ mainMenuSkirmishNewGameWarningPanel:
   
   button:
     'no':
-      text: "No!"
+      text: "Non !"
     'yes':
-      text: "Yes!"
+      text: "Oui !"
     yesConfirm:
-      text: "I said YES!"
+      text: "J'ai dit OUI !"
       
   header:
-    text: "$ORA1Are you sure?!"
+    text: "$ORA1En es-tu certain ?!"
   body:
-    text: "You already have an active {gameMode} game. Are you sure you want to restart $GRE1{mapName}?"
+    text: "Tu as déjà une partie {gameMode} active. Es-tu sûr de vouloir recommencer $GRE1{mapName} $WHI0?"
   bodyConfirm:
-    text: "$RED1Seriously are you ABSOLUTELY sure? This save will be lost forever! (That's a really long time!)"
+    text: "$RED1Serieusement, en es-tu ABSOLUMENT certain ? Cette sauvegarde sera perdue pour toujours ! (C'est très long !)"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Main Menu State
@@ -1770,54 +1770,54 @@ mainMenuSkirmishPanel:
   
   button:
     newGame:
-      text: "New Game"
+      text: "Nouvelle partie"
     resumeGame:
-      text: "Resume Game"
+      text: "Continuer la partie"
     resumeGameResetAI:
-      text: "Resume Game (Reset AI)"
+      text: "Nouvelle partie (Réinitialiser l'IA)"
     nightmare:
-      text: "Nightmare"
+      text: "Cauchemard"
     survival:
-      text: "Survival"
+      text: "Survie"
     traditional:
-      text: "Traditional"
+      text: "Traditionnel"
     peaceful:
-      text: "Peaceful"
+      text: "Paisible"
     sandbox:
-      text: "Sandbox"
+      text: "Bac à sable"
       
   header:
     gameMode:
-      text: "$YEL1Game Mode"
+      text: "$YEL1Mode de jeu"
     saveRollback:
-      text: "$YEL1Save Rollback"
+      text: "$YEL1Faire une sauvegarde"
     
   gameMode:
     header:
       nightmare:
-        text: "$RED1-Nightmare-"
+        text: "$RED1-Cauchemard-"
       survival:
-        text: "$ORA1-Survival-"
+        text: "$ORA1-Survie-"
       traditional:
-        text: "$GRE1-Traditional-"
+        text: "$GRE1-Traditionnel-"
       peaceful:
-        text: "$CYA1-Peaceful-"
+        text: "$CYA1-Paisible-"
       sandbox:
-        text: "$MAG1-Sandbox-"
+        text: "$MAG1-Bac à sable-"
     body:
       nightmare:
-        text: "An impossible game mode, that is brutal and unfair. Masochists only!"
+        text: "Un mode de jeu impossible qui est brutal et injuste. Seulement pour les masochistes !"
       survival:
-        text: "The way the game was meant to be played. Try to survive as long as possible!"
+        text: "La façon dont le jeu est censé être joué. Essaie de survivre le plus longtemps possible !"
       traditional:
-        text: "A more classic village simulator experience with less monsters. Good for learning how to play!"
+        text: "Une expérience de simulation de village plus classique avec moins de monstres. Bien pour apprendre à jouer !"
       peaceful:
-        text: "Extremely easy mode with no monsters what so ever."
+        text: "Mode extrêmement facile sans aucun monstre."
       sandbox:
-        text: "A fun mode to experiment with the game engine and test things out."
+        text: "Un mode plaisant pour expérimenter les mécaniques du jeu et tester d'autres choses."
                         
   mapAuthor:
-    text: "$YEL1By: {authorName}"
+    text: "$YEL1Par : {authorName}"
     
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Main Menu State
