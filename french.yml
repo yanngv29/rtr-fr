@@ -3122,37 +3122,37 @@ playOverlay:
   
   slots:
     outOfAncillarySlotsNoCamp:
-      text: "Out of ancillary slots~Build a $GRE0Camp!"
+      text: "Plus de capacité de construction d'entrepôts~Construis un $GRE0Campement $WHI0!"
     outOfAncillarySlotsUpgrade:
-      text: "Out of ancillary slots~Upgrade your $GRE0{castleName}"
+      text: "Plus de capacité de construction d'entrepôts~Améliore ton $GRE0{castleName}"
     outOfAncillarySlots:
-      text: "Out of ancillary slots!"
+      text: "Plus de capacité de construction !"
     outOfBuildingSlotsNoCamp:
-      text: "Out of building slots~Build a $GRE0Camp!"
+      text: "Plus de capacité de construction~Construis un $GRE0Campement $WHI0!"
     outOfBuildingSlotsUpgrade:
-      text: "Out of building slots~Upgrade your $GRE{castleName}0~$WHI0or build an $GRE0Ancillary"
+      text: "Plus de capacité de construction~Améliore ton $GRE0{castleName}~$WHI0ou construis un $GRE0Entrepôt"
     outOfBuildingSlots:
-      text: "Out of building slots!"
+      text: "Plus de capacité de construction !"
   
   roads:
     canNotImprove:
-      text: "Can not improve"
+      text: "Ne peut pas être amélioré"
     roadCostFree:
-      text: "{nextRoadName}~$GRE1Cost: FREE"
+      text: "{nextRoadName}~$GRE1Coût : GRATUIT"
     roadCost:
-      text: "{nextRoadName}~$YEL1Cost: 1 {resourceName}"
+      text: "{nextRoadName}~$YEL1Coût : 1 {resourceName}"
   
   general:
     cancelAction:
-      text: "Press $GRE1{shortcutKey} $WHI0or the $GRE1MIDDLE MOUSE BUTTON$WHI0 to cancel current action and return to select mode."
+      text: "Appuie sur $GRE1{shortcutKey} $WHI0ou sur le $GRE1BOUTON CENTRAL DE LA SOURIS$WHI0 pour annuler l'action actuelle et revenir au mode de sélection."
     unassignWork:
-      text: "Hold $GRE1{shortcutKey} $YEL1to unassign."
+      text: "Maintiens $GRE1{shortcutKey} $YEL1pour déattribuer."
     deleteObjects:
-      text: "Hold $GRE1{shortcutKey} $YEL1to delete object."
+      text: "Maintiens $GRE1{shortcutKey} $YEL1pour supprimer l'objet."
     castFree:
-      text: "Hold $GRE1{shortcutKey} $YEL1to cast for free."
+      text: "Maintiens $GRE1{shortcutKey} $YEL1pour lancer gratuitement."
     nothingToGrab:
-      text: "Nothing to grab."
+      text: "Rien à attraper."
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Play State
