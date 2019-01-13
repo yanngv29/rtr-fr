@@ -3251,10 +3251,6 @@ playPopulationListPanel:
       text: "Villageois sans-emploi"
     unemployedVillagers:
       text: "Quantité de villageois adultes disponibles pour travailler mais à qui aucun travail n'a été assigné."
-    averageAgeHeader:
-      text: "Âge moyen"
-    averageAge:
-      text: "L'âge moyen de tous les villageois."
     averageLifeExpectancyHeader:
       text: "Espérance de vie moyenne"
     averageLifeExpectancy:
