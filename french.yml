@@ -2574,9 +2574,9 @@ mapEditorWorldMapListPanel:
   
   header:
     regionList:
-      text: "Region List"
+      text: "Liste des régions"
     miniMap:
-      text: "Mini Map"
+      text: "Mini-carte"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Play State
