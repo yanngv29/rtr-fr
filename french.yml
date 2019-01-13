@@ -3099,16 +3099,16 @@ playMainMenuPanel:
   
   button:
     settings:
-      text: "Settings"
+      text: "Paramètres"
     saveAndExit:
-      text: "Save and Exit"
+      text: "Sauvegarder et quitter"
     'yes':
-      text: "Yes!"
+      text: "Oui !"
       
   header:
-    text: "Main Menu"
+    text: "Menu principal"
   saveAndExitWarningMessage:
-    text: "$GRE1ARE YOU SURE?"
+    text: "$GRE1EN ES-TU CERTAIN ?"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Play State
