@@ -1933,520 +1933,520 @@ mapEditorPlayRightPanel:
   button:
     navigation:
       back:
-        text: "Back a Page"
+        text: "Page précédente"
       pageUp:
-        text: "Page Up"
+        text: "Page suivante"
       pageDown:
-        text: "Page Down"
+        text: "Page précédente"
       hidePanel:
-        text: "Hide Panel Toggle"
+        text: "Masquer le panneau"
       
     main:
       build:
-        text: "Build"
+        text: "Constructions"
       tiles:
-        text: "Tiles"
+        text: "Tuiles"
       time:
-        text: "Time"
+        text: "Temps"
       spawning:
-        text: "Spawning"
+        text: "Invocations"
       particles:
-        text: "Particles"
+        text: "Particules"
       miscellaneous:
-        text: "Miscellaneous"
+        text: "Divers"
       
     build:
       ancient:
         text: "Ancient"
       civics:
-        text: "Civics"
+        text: "Civil"
       defense:
-        text: "Defense"
+        text: "Défense"
       foodAndWater:
-        text: "Food and Water"
+        text: "Nourriture et eau"
       harvesting:
-        text: "Harvesting"
+        text: "Récolte"
       housing:
-        text: "Housing"
+        text: "Logements"
       lighting:
-        text: "Lighting"
+        text: "Éclairage"
       magic:
-        text: "Magic"
+        text: "Magie"
       manufacturing:
-        text: "Manufacturing"
+        text: "Fabrication"
       refining:
-        text: "Refining"
+        text: "Raffinage"
       storage:
-        text: "Storage"
+        text: "Stockage"
       walls:
-        text: "Walls"
+        text: "Murs"
       special:
         text: "Special"
       
     ancient:
       ancientCullisGateAbandoned:
-        text: "Ancient Cullis Gate (Abandoned)"
+        text: "Ancienne porte cullis (abandonné)"
       ancientCullisGate:
-        text: "Ancient Cullis Gate"
+        text: "Ancienne porte cullis"
       ancientRadiancePoolAbandoned:
-        text: "Anc. Radiance Pool (Abandoned)"
+        text: "Anc. bassin rayonnant (abandonné)"
       ancientRadiancePool:
-        text: "Ancient Radiance Pool"
+        text: "Ancient bassin rayonnant"
       
     civics:
       ancillary:
-        text: "Ancillary"
+        text: "Entrepôt"
       clinic:
-        text: "Clinic"
+        text: "Clinique"
       courierStation:
-        text: "Courier Station"
+        text: "Poste de courrier"
       maintenanceBuilding:
-        text: "Maintenance Building"
+        text: "Bâtiment d'entretien"
       marketplace:
-        text: "Marketplace"
+        text: "Marché"
       wayMakerShack:
-        text: "Way Maker Shack"
+        text: "Cabanne du responsable voirie"
       migrationWayStation:
-        text: "Migration Way Station"
+        text: "Station de migration"
       
     defense:
       guardsAndGolems:
-        text: "Guards and Golems"
+        text: "Gardes et golems"
       towers:
-        text: "Towers"
+        text: "Tours"
       miscellaneous:
-        text: "Miscellaneous"
+        text: "Divers"
       
     guardsAndGolems:
       barracks:
-        text: "Barracks"
+        text: "Caserne"
       outpost:
-        text: "Outpost"
+        text: "Avant-poste"
       crystalGolemCombobulator:
-        text: "Crystal Golem Combobulator"
+        text: "Combobulateur de golems de cristal"
       stoneGolemCombobulator:
-        text: "Stone Golem Combobulator"
+        text: "Combobulateur de golems de pierre"
       woodGolemCombobulator:
-        text: "Wood Golem Combobulator"
+        text: "Combobulateur de golems de bois"
       
     towers:
       attractTower:
-        text: "Attract Tower"
+        text: "Tour attractive"
       banishTower:
-        text: "Banish Tower"
+        text: "Tour bannisseuse"
       ballistaTower:
-        text: "Ballista Tower"
+        text: "Balliste"
       bowTower:
-        text: "Bow Tower"
+        text: "Tour d'archers"
       bulletTower:
-        text: "Bullet Tower"
+        text: "Tourelle"
       elementalBoltTower:
-        text: "Elemental Bolt Tower"
+        text: "Tour-éclair"
       phantomDartTower:
-        text: "Phantom Dart Tower"
+        text: "Tour à fléchettes fantômes"
       slingTower:
-        text: "Sling Tower"
+        text: "Tour à fronde"
       sprayTower:
-        text: "Spray Tower"
+        text: "Tour pulvérisatrice"
       staticTower:
-        text: "Static Tower"
+        text: "Tour statique"
       
     defenseMiscellaneous:
       lightningRod:
-        text: "Lightning Rod"
+        text: "Paratonnerre"
       recombobulatorTower:
-        text: "Recombobulator Tower"
+        text: "Tour recombobulatrice"
       
     foodAndWater:
       bottler:
-        text: "Bottler"
+        text: "Embouteilleur"
       farm:
-        text: "Farm"
+        text: "Ferme"
       smallFountain:
-        text: "Small Fountain"
+        text: "Petite fontaine"
       largeFountain:
-        text: "Large Fountain"
+        text: "Grande fontaine"
       kitchen:
-        text: "Kitchen"
+        text: "Cuisine"
       rainCatcher:
-        text: "Rain Catcher"
+        text: "Collecteur d'eau"
       waterPurifier:
-        text: "Water Purifier"
+        text: "Station de purification"
       well:
-        text: "Well"
+        text: "Puits"
       
     harvesting:
       crystalHarvestry:
-        text: "Crystal Harvestry"
+        text: "Exploitation de cristaux"
       lumberShack:
-        text: "Lumber Shack"
+        text: "Cabanne du bûcheron"
       miningFacility:
-        text: "Mining Facility"
+        text: "Exploitation minière"
       
     housing:
       doggoHouse:
-        text: "Doggo House"
+        text: "Niche"
       housing:
-        text: "Housing"
+        text: "Logement"
       
     lighting:
       firePit:
-        text: "Fire Pit"
+        text: "Foyer"
       largeFirePit:
-        text: "Large Fire Pit"
+        text: "Grand foyer"
       
     magic:
       crystalMotivator:
-        text: "Crystal Motivator"
+        text: "Motivateur de cristaux"
       cullisGate:
-        text: "Cullis Gate"
+        text: "Porte cullis"
       essenceCollector:
-        text: "Essence Collector"
+        text: "Collecteur d'essence"
       
     manufacturing:
       armorsmithy:
-        text: "Armorsmithy"
+        text: "Armurerie"
       bowyer:
-        text: "Bowyer"
+        text: "Archerie"
       rockTumbler:
-        text: "Tumbler"
+        text: "Fabricant de cartouches"
       toolsmithy:
-        text: "Toolsmithy"
+        text: "Outilleur"
       
     refining:
       crystillery:
-        text: "Crystillery"
+        text: "Cristallerie"
       forge:
         text: "Forge"
       lumberMill:
-        text: "Lumber Mill"
+        text: "Scierie"
       stoneCuttery:
-        text: "Stone Cuttery"
+        text: "Tailleur de pierre"
       
     storage:
       ammoStorage:
-        text: "Ammo Storage"
+        text: "Stockage de munitions"
       crystalStorage:
-        text: "Crystal Storage"
+        text: "Stockage de cristaux"
       equipmentStorage:
-        text: "Equipment Storage"
+        text: "Stockage d'équipement"
       foodStorage:
-        text: "Food Storage"
+        text: "Stockage de nourriture"
       goldStorage:
-        text: "Gold Storage"
+        text: "Stockage d'or"
       keyShack:
-        text: "Key Shack"
+        text: "Cabanne des clés"
       mineralStorage:
-        text: "Mineral Storage"
+        text: "Stockage de minéraux"
       miscellaneousStorage:
-        text: "Miscellaneous Storage"
+        text: "Stockage divers"
       rockStorage:
-        text: "Rock Storage"
+        text: "Stockage de pierre"
       woodStorage:
-        text: "Wood Storage"
+        text: "Stockage de bois"
       
     walls:
       woodFence:
-        text: "Wood Fence"
+        text: "Clôture en bois"
       woodFenceGateNS:
-        text: "Wood Fence Gate (N/S)"
+        text: "Portillon en bois (N/S)"
       woodFenceGateWE:
-        text: "Wood Fence Gate (W/E)"
+        text: "Portillon en bois (O/E)"
       stoneWallGateNS:
-        text: "Stone Wall Gate (N/S)"
+        text: "Portillon en pierre (N/S)"
       stoneWallGateWE:
-        text: "Stone Wall Gate (W/E)"
+        text: "Portillon en pierre (O/E)"
       stoneWall:
-        text: "Stone Wall"
+        text: "Muret de pierre"
       curtainWall:
-        text: "Curtain Wall"
+        text: "Muraille"
       
     special:
       camp:
-        text: "Camp"
+        text: "Campement"
       lootBox:
-        text: "Loot Box"
+        text: "Coffre à butin"
       
     tiles:
       bricks:
-        text: "Bricks"
+        text: "Briques"
       crystals:
-        text: "Crystals"
+        text: "Cristaux"
       dirt:
-        text: "Dirt"
+        text: "Terre"
       flowers:
-        text: "Flowers"
+        text: "Fleurs"
       food:
-        text: "Food"
+        text: "Nourriture"
       grass:
-        text: "Grass"
+        text: "Herbe"
       gravel:
-        text: "Gravel"
+        text: "Gravier"
       lava:
-        text: "Lava"
+        text: "Lave"
       roads:
-        text: "Roads"
+        text: "Routes"
       rock:
-        text: "Rock"
+        text: "Pierre"
       sand:
-        text: "Sand"
+        text: "Sable"
       sandstone:
-        text: "Sandstone"
+        text: "Grès"
       tar:
-        text: "Tar"
+        text: "Goudron"
       trees:
-        text: "Trees"
+        text: "Arbres"
       water:
-        text: "Water"
+        text: "Eau"
       
     bricks:
       grayBricks:
-        text: "Gray Bricks"
+        text: "Briques grises"
       grayTiles:
-        text: "Gray Tiles"
+        text: "Carrelage gris"
       
     crystals:
       redCrystals:
-        text: "Red Crystals"
+        text: "Cristaux rouges"
       greenCrystals:
-        text: "Green Crystals"
+        text: "Cristaux verts"
       blueCrystals:
-        text: "Blue Crystals"
+        text: "Cristaux bleus"
       purpleCrystals:
-        text: "Purple Crystals"
+        text: "Cristaux pourpres"
       
     dirt:
       brownDirt:
-        text: "Brown Dirt"
+        text: "Terre brune"
       darkBrownDirt:
-        text: "Dark Brown Dirt"
+        text: "Terre marron"
       lightBrownDirt:
-        text: "Light Brown Dirt"
+        text: "Terre brun clair"
       
     flowers:
       blackFlowers:
-        text: "Black Flowers"
+        text: "Fleurs noires"
       blueFlowers:
-        text: "Blue Flowers"
+        text: "Fleurs bleues"
       purpleFlowers:
-        text: "Purple Flowers"
+        text: "Fleurs violettes"
       redFlowers:
-        text: "Red Flowers"
+        text: "Fleurs rouges"
       whiteFlowers:
-        text: "White Flowers"
+        text: "Fleurs blanches"
       yellowFlowers:
-        text: "Yellow Flowers"
+        text: "Fleurs jaunes"
       
     food:
       cactus:
         text: "Cactus"
       carrots:
-        text: "Carrots"
+        text: "Carrotes"
       melons:
         text: "Melons"
       potatoes:
-        text: "Potatoes"
+        text: "Pommes de terre"
       turnips:
-        text: "Turnips"
+        text: "Navets"
       
     grass:
       emeraldGreenGrass:
-        text: "Emerald Green Grass"
+        text: "Herbe vert émeraude"
       greenGrass:
-        text: "Green Grass"
+        text: "Herbe verte"
       yellowBrownGrass:
-        text: "Yellow Brown Grass"
+        text: "Herbe ochre"
       
     gravel:
       blueGravel:
-        text: "Blue Gravel"
+        text: "Gravier bleu"
       grayGravel:
-        text: "Gray Gravel"
+        text: "Gravier gris"
       redGravel:
-        text: "Red Gravel"
+        text: "Gravier rouge"
       
     lava:
       lava:
-        text: "Lava"
+        text: "Lave"
       
     roads:
       path:
-        text: "Path"
+        text: "Chemin"
       logPathDebris:
-        text: "Log Path Debris"
+        text: "Débris de chemin en bois"
       logPath:
-        text: "Log Path"
+        text: "Chemin en bois"
       cobbleAndLogPathDebris:
-        text: "Cobble and Log Path Debris"
+        text: "Débris de chemin en bois et pierre"
       cobbleAndLogPath:
-        text: "Cobble and Log Path"
+        text: "Chemin en bois et pierre"
       cobbleAndBoardRoadDebris:
-        text: "Cobble and Board Road Debris"
+        text: "Débris de chemin en planches et pierre"
       cobbleAndBoardRoad:
-        text: "Cobble and Board Road"
+        text: "Chemin en planches et pierre"
       cutStoneAndBoardRoadDebris:
-        text: "Cut Stone and Board Road Debris"
+        text: "Débris de route pavée/planches"
       cutStoneAndBoardRoad:
-        text: "Cut Stone and Board Road"
+        text: "Route pavée/planches"
       
     rock:
       blackRock:
-        text: "Black Rock"
+        text: "Pierre noire"
       brownRock:
-        text: "Brown Rock"
+        text: "Pierre brune"
       grayRock:
-        text: "Gray Rock"
+        text: "Pierre grise"
       redRock:
-        text: "Red Rock"
+        text: "Pierre rouge"
       whiteRock:
-        text: "White Rock"
+        text: "Pierre blanche"
       
     sand:
       blackSand:
-        text: "Black Sand"
+        text: "Sable noir"
       redSand:
-        text: "Red Sand"
+        text: "Sable rouge"
       tanSand:
-        text: "Tan Sand"
+        text: "Sable tanné"
       
     sandstone:
       blackSandstone:
-        text: "Black Sandstone"
+        text: "Grès noir"
       redSandstone:
-        text: "Red Sandstone"
+        text: "Grès rouge"
       tanSandstone:
-        text: "Tan Sandstone"
+        text: "Grès tanné"
       
     tar:
       tar:
-        text: "Tar"
+        text: "Goudron"
       
     trees:
       blueDeadTrees:
-        text: "Blue Dead Trees"
+        text: "Arbres bleus morts"
       blueStumps:
-        text: "Blue Stumps"
+        text: "Souches bleues"
       blueTrees:
-        text: "Blue Trees"
+        text: "Arbres bleus"
       brownDeadTrees:
-        text: "Brown Dead Trees"
+        text: "Arbres bruns morts"
       brownStumps:
-        text: "Brown Stumps"
+        text: "Souches brunes"
       brownTrees:
-        text: "Brown Trees"
+        text: "Arbres bruns"
       darkGreenDeadTrees:
-        text: "Dark Green Dead Trees"
+        text: "Arbres vert foncé morts"
       darkGreenStumps:
-        text: "Dark Green Stumps"
+        text: "Souches vert foncé"
       darkGreenTrees:
-        text: "Dark Green Trees"
+        text: "Arbres vert foncé"
       greenDeadTrees:
-        text: "Green Dead Trees"
+        text: "Arbres verts morts"
       greenStumps:
-        text: "Green Stumps"
+        text: "Souches vertes"
       greenTrees:
-        text: "Green Trees"
+        text: "Arbres verts"
       redDeadTrees:
-        text: "Red Dead Trees"
+        text: "Arbres rouges morts"
       redStumps:
-        text: "Red Stumps"
+        text: "Souches rouges"
       redTrees:
-        text: "Red Trees"
+        text: "Arbres rouges"
       
     water:
       water:
-        text: "Water"
+        text: "Eau"
       
     time:
       comment: Sandbox Mode Only
       
       toggleTime:
-        text: "Toggle Time"
+        text: "Altérer le temps"
       
     spawning:
       comment: Sandbox Mode Only
       
       spawnMob:
-        text: "Spawn Mob"
+        text: "Invocation monstres"
       spawnResource:
-        text: "Spawn Resource"
+        text: "Invocation ressources"
       
     particles:
       comment: Sandbox Mode Only
       
       emitParticles:
-        text: "Emit Particles"
+        text: "Émission particules"
       
     miscellaneous:
       comment: Sandbox Mode Only
       
       emitEssence:
-        text: "Emit Essence"
+        text: "Émettre de l'essence"
       toggleWeather:
-        text: "Toggle Weather"
+        text: "Inverser le temps"
       lightning:
-        text: "Lightning"
+        text: "Éclair"
       restoreBasicNeeds:
-        text: "Rest. Basic Needs"
+        text: "Rest. besoins de base"
       restoreHealth:
-        text: "Rest. Health"
+        text: "Restaurer vie"
       fireMissile:
-        text: "Fire Missile"
+        text: "Lancer projectile"
         
   header:
     time:
       comment: Sandbox Mode Only
       
       currentDay:
-        text: "Current Day"
+        text: "Jour actuel"
       timeOfDay:
-        text: "Time of Day"
+        text: "Heure"
       season:
-        text: "Season"
+        text: "Saison"
       advanceTime:
-        text: "Advance Time"
+        text: "Cours du temps"
       startAdvanceTime:
-        text: "Start Advance Time"
+        text: "Reprendre le cours du temps"
       
     spawning:
       comment: Sandbox Mode Only
       
       mobType:
-        text: "Mob Type"
+        text: "Type de monstre"
       mobAmount:
-        text: "Mob Amount"
+        text: "Quantité monstre"
       resourceType:
-        text: "Res. Type"
+        text: "Type ressource"
       resourceAmount:
-        text: "Res. Amount"
+        text: "Qté. ressource"
       spawnChance:
-        text: "Spawn Chance"
+        text: "Proba apparition"
       monsterCount:
-        text: "Monster Count"
+        text: "Nombre de monstres"
       
     particles:
       comment: Sandbox Mode Only
       
       particleType:
-        text: "Particle Type"
+        text: "Type de particule"
       particleColor:
-        text: "Particle Color"
+        text: "Couleur des particules"
       particleAmount:
-        text: "Particle Amount"
+        text: "Quantité de particules"
       particleSpread:
-        text: "Part. Spread"
+        text: "Diffusion"
       particleAngle:
-        text: "Part. Angle"
+        text: "Angle"
       
     miscellaneous:
       comment: Sandbox Mode Only
       
       essenceAmount:
-        text: "Ess. Amount"
+        text: "Qté. essence"
       essenceValue:
-        text: "Ess. Value"
+        text: "Valeur"
       missileType:
-        text: "Missile Type"
+        text: "Type projectile"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Map Editor State
