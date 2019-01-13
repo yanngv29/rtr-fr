@@ -3165,9 +3165,9 @@ playPauseBanner:
   javaClass: "rtr.gui.states.playstate.PauseBanner.java"
   
   header:
-    text: "$YEL0PAUSED"
+    text: "$YEL0EN PAUSE"
   body:
-    text: "PRESS $GRE1{shortcutKey}$WHI0 TO RESUME."
+    text: "APPUIE SUR $GRE1{shortcutKey}$WHI0 POUR REPRENDRE."
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Play State
