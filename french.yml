@@ -2728,48 +2728,48 @@ playLeftJobDescriptionPanel:
   
   header:
     canBuildUsing:
-      text: "Can Build Using"
+      text: "Peuvent construire en utilisant"
     buildRoadsUsing:
-      text: "Build Roads Using"
+      text: "Construisent des routes en utilisant"
     canDeliverToBuildRoads:
-      text: "Can Deliver (To Build Roads)"
+      text: "Peut livrer (construction de routes)"
     canHarvestToBuild:
-      text: "Can Harvest (To Build)"
+      text: "Peut récolter (construction)"
     canDeliverToBuild:
-      text: "Can Deliver (To Build)"
+      text: "Peut livrer (construction)"
     canHarvestToStore:
-      text: "Can Harvest (To Store)"
+      text: "Peut récolter (stockage)"
     canRefineManufacture:
-      text: "Can Refine/Manufacture"
+      text: "Peut raffiner/manufacturer"
     canPlant:
-      text: "Can Plant"
+      text: "Peut planter"
     canDeliverToCourierGolems:
-      text: "Can Deliver (To Courier Golems)"
+      text: "Peut livrer (aux golems-facteur)"
     canStore:
-      text: "Can Store"
+      text: "Peut stocker"
     preferredTools:
-      text: "Preferred Tools"
+      text: "Outil préféré"
     combatBonuses:
-      text: "Combat Bonuses"
+      text: "Bonus de combat"
     canRepairBuildings:
-      text: "Can Repair Buildings"
+      text: "Peut réparer des bâtiments"
     canRepairRoads:
-      text: "Can Repair Roads"
+      text: "Peut réparer des routes"
     canDestroyClearTerrain:
-      text: "Can Destroy/Clear Terrain"
+      text: "Peut détruire/nettoyer le terrain"
     canDestroyClearRoads:
-      text: "Can Destroy/Clear Roads"
+      text: "Peut détruire/entretenir les routes"
     canCreateLakes:
-      text: "Can Create Lakes"
+      text: "Peut créer des lacs"
     canTendToAndWaterFarms:
-      text: "Can Tend to and Water Farms"
+      text: "Peut s'occuper des plantes et arroser"
       
   moreResourcesThanListedCount:
-    text: "$ORA0Plus {amount} more."
+    text: "$ORA0{amount} de plus."
   combatDamageBonus:
-    text: "$GRE1+{amount}% All Damage"
+    text: "$GRE1+{amount}% tous types d'attaque"
   combatDefenseBonus:
-    text: "$GRE1+{amount}% All Defense"
+    text: "$GRE1+{amount}% tous types de défense"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Play State
