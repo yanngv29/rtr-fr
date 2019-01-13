@@ -2623,7 +2623,7 @@ playBuildingListPanel:
     totalBuildingsHeader:
       text: "Total de bâtiments"
     totalBuildings:
-      text: "Le nombre total de bâtiments, et combien d'autres peuvent être construits. Ne compte pas les murs et entrepôts. Augmente le nombre de bâtiments pouvant être construits en construisant des entrepôts !"
+      text: "Le nombre total de bâtiments, et combien d'autres peuvent être construits. Ne compte pas les murs et entrepôts. Augmente le nombre de bâtiments pouvant être construits en construisant davantage d'entrepôts !"
     totalAncillariesHeader:
       text: "Total d'entrepôts"
     totalAncillaries:
@@ -3182,132 +3182,132 @@ playPopulationListPanel:
   button:
     tooltip:
       previousSortFilterHeader:
-        text: "Previous Sort Filter"
+        text: "Filtre précédent"
       nextSortFilterHeader:
-        text: "Next Sort Filter"
+        text: "Filtre suivant"
       firstPageHeader:
-        text: "First Page"
+        text: "Première page"
       lastPageHeader:
-        text: "Last Page"
+        text: "Dernière page"
       pageDownHeader:
-        text: "Page Down"
+        text: "Page précédente"
       pageUpHeader:
-        text: "Page Up"
+        text: "Page suivante"
 
   tooltip:
     totalAdultsHeader:
-      text: "Total Adults"
+      text: "Total d'adultes"
     totalAdults:
-      text: "Total able bodied adult villagers who can take jobs and work."
+      text: "Nombre total de villageois adultes qui peuvent travailler."
     totalEldersHeader:
-      text: "Total Elders"
+      text: "Total de doyens"
     totalElders:
-      text: "Total elders, who have retired and can no longer work."
+      text: "Nombre total de doyens, adultes qui ont pris leur retraite et ne peuvent plus travailler."
     totalChildrenHeader:
-      text: "Total Children"
+      text: "Total d'enfants"
     totalChildren:
-      text: "Total children who are not quite old enough to work yet."
+      text: "Nombre total d'enfants qui ne sont pas encore assez agés pour travailler."
     totalGolemsHeader:
-      text: "Total Golems"
+      text: "Total de golems"
     totalGolems:
-      text: "Total golems currently in the village."
+      text: "Nombre total de golems actuellement dans le village."
     averageHappinessHeader:
-      text: "Average Happiness"
+      text: "Bonheur moyen"
     averageHappiness:
-      text: "The average happiness levels of the entire village."
+      text: "Le niveau de bonheur moyen du village dans son entièreté."
     averageAgeHeader:
-      text: "Average Age"
+      text: "Âge moyen"
     averageAge:
-      text: "The average age of the entire village."
+      text: "L'âge moyen de l'entièreté du village."
     averageHungerHeader:
-      text: "Average Hunger"
+      text: "Faim moyenne"
     averageHunger:
-      text: "The average hunger levels of the entire village."
+      text: "Le niveau moyen de la faim dans l'entièreté du village."
     averageThirstHeader:
-      text: "Average Thirst"
+      text: "Soif moyenne"
     averageThirst:
-      text: "The average thirst levels of the entire village."
+      text: "Le niveau moyen de la soif dans l'entièreté du village."
     averageEnergyHeader:
-      text: "Average Energy"
+      text: "Énergie moyenne"
     averageEnergy:
-      text: "The average energy levels of the entire village."
+      text: "Le niveau moyen d'énergie dans l'entièreté du village."
     totalHomlessHeader:
-      text: "Total Homeless"
+      text: "Total de sans-abri"
     totalHomless:
-      text: "The amount of villagers in the village who have nowhere to live. Build or upgrade your houses to give your villages some more space to live in."
+      text: "Le nombre total de villageois qui n'ont aucun endroit où vivre. Construis ou améliore tes logements pour laisser un peu plus d'espace de vie à tes villageois."
     totalPregnantHeader:
-      text: "Total Pregnant"
+      text: "Total de femmes enceintes"
     totalPregnant:
-      text: "The amount of villagers in the village who are pregnant."
+      text: "Le nombre de villageoises qui sont enceintes dans le village."
     totalMatesHeader:
-      text: "Has Mate"
+      text: "En couple"
     totalMates:
-      text: "The amount of villagers in the village who have a partner."
+      text: "Le nombre de villageois qui ont un ou une partenaire dans le village."
     totalAnimalsHeader:
-      text: "Has Animal"
+      text: "A un animal"
     totalAnimals:
-      text: "The amount of villagers in the village who have a pet."
+      text: "Le nombre de villageois qui ont un animal."
     unemployedVillagersHeader:
-      text: "Unemployed Villagers"
+      text: "Villageois sans-emploi"
     unemployedVillagers:
-      text: "How many adult villagers are available to work, but have not been assigned a job."
+      text: "Quantité de villageois adultes disponibles pour travailler mais à qui aucun travail n'a été assigné."
     averageAgeHeader:
-      text: "Average Age"
+      text: "Âge moyen"
     averageAge:
-      text: "The average age of all villagers."
+      text: "L'âge moyen de tous les villageois."
     averageLifeExpectancyHeader:
-      text: "Average Life Expectancy"
+      text: "Espérance de vie moyenne"
     averageLifeExpectancy:
-      text: "The average life expectancy of the entire village. Increase this by taking better care of your villagers, keeping them happy and healthy!"
+      text: "L'espérance de vie moyenne de tout le village. Tu peux augmenter ce nombre en prenant mieux soin de tes villageois, en les gardant heureux et en bonne santé !"
     homelessHeader:
-      text: "Homeless"
+      text: "Sans-abri"
     homeless:
-      text: "This villager has no home. You may have a housing shortage, but if they are a new arrival or you just built new housing, it may take a minute for them to find it."
+      text: "Ce villageois n'a pas de logement. Tu manques peut-être de place dans tes logements, mais le villageois vient d'arriver ou que tu viens juste de construire de nouveaux logements, cela peut prendre quelques minutes pour qu'ils trouve une place."
     pregnantHeader:
-      text: "Pregnant"
+      text: "Enceinte"
     pregnant:
-      text: "This (hopefully female) villager is with child and will likely give birth in a few days from conception."
+      text: "Ce villageois (qu'on espère être une femme) est enceinte et va probablement donner naissance quelques jours après la conception."
     hasMateHeader:
-      text: "Has Mate"
+      text: "En couple"
     hasMate:
-      text: "This villager has a partner somewhere in the village."
+      text: "Ce villageois a un ou une partenaire quelque part dans le village."
     ownerHeader:
-      text: "Owner"
+      text: "Maître"
     owner:
-      text: "This villager own an animal, or this animal has an owner."
+      text: "Ce villageois a un animal, ou cet animal a un maître."
     unemployedHeader:
-      text: "Unemployed"
+      text: "Sans-emploi"
     unemployed:
-      text: "This villager currently does not have a job. But if you've recently requested more workers, they may already be en route to take one."
+      text: "Ce villageois n'a actuellement pas d'emploi. Si tu viens récemment d'assigner plus de travailleurs, il est déjà peut-être en route vers son futur travail."
     levelHeader:
-      text: "Level"
+      text: "Niveau"
     level:
-      text: "Villagers level up by doing all kinds of tasks, like working, fighting and even mating!"
+      text: "Les villageois gagnent en niveau en accomplissant divers tâches, comme travailler, se battre ou même s'accoupler !"
     ageHeader:
-      text: "Age"
+      text: "Âge"
     age:
-      text: "Their age will tick up once for every full day that has passed."
+      text: "Son age va s'incrémenter par 1 chaque jour qui passe."
   
   sort:
     all:
-      text: "$GRE1All"
+      text: "$GRE1Tous"
     villagers:
-      text: "$GRE1Villagers"
+      text: "$GRE1Villageois"
     adults:
-      text: "$GRE1Adults"
+      text: "$GRE1Adultes"
     elders:
-      text: "$GRE1Elders"
+      text: "$GRE1Doyens"
     children:
-      text: "$GRE1Children"
+      text: "$GRE1Enfants"
     golems:
       text: "$GRE1Golems"
     animals:
-      text: "$GRE1Animals"
+      text: "$GRE1Animaux"
   
   header:
-    text: "Population List"
+    text: "Liste de la population"
   pageList:
-    text: "Population List     Pg: {currentPage} of {totalPages}"
+    text: "Liste de la population     Pge: {currentPage} de {totalPages}"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Play State
@@ -3321,27 +3321,27 @@ playPopulationTotalsPanel:
   
   tooltip:
     totalPopulationHeader:
-      text: "Total Population"
+      text: "Population totale"
     totalHomeOccupancyHeader:
-      text: "Total Home Occupancy"
+      text: "Occupation totale des logements"
     totalHomeOccupancy:
-      text: "The total amount of living space currently being used used, as well as the total available you have in your homes."
+      text: "Le nombre total d'espaces habitables utilisés, ainsi que le nombre total disponible dans les logements."
     totalBarracksOccupancyHeader:
-      text: "Total Barracks Occupancy"
+      text: "Occupation totale des casernes"
     totalBarracksOccupancy:
-      text: "The total amount of living space currently being used used, as well as the total available you have in your barracks."
+      text: "Le nombre total d'espaces habitables utilisés, ainsi que le nombre total disponible dans les casernes."
     totalAncillariesHeader:
-      text: "Total Ancillaries"
+      text: "Total d'entrepôts"
     totalAncillaries:
-      text: "The total amount of ancillaries, and how many ancillary slots remains. Increase your ancillary slots by upgrading your camp/castle!"
+      text: "Le nombre total d'entrepôts, et combien d'autres peuvent être construits. Augmente le nombre d'entrepôts pouvant être construits en améliorant ton camp/château."
     totalBuildingsHeader:
-      text: "Total Buildings"
+      text: "Total de bâtiments"
     totalBuildings:
-      text: "The total amount of buildings, and how many building slots remains. Does not count walls or ancillaries. Increase your build slots by building additional ancillaries!"
+      text: "Le nombre total de bâtiments, et combien d'autres peuvent être construits. Ne compte pas les murs et entrepôts. Augmente le nombre de bâtiments pouvant être construits en construisant davantage d'entrepôts !"
     totalChildrenHeader:
-      text: "Total Children"
+      text: "Total d'enfants"
     totalChildren:
-      text: "Total children who are not quite old enough to work yet."
+      text: "Nombre total d'enfants qui ne sont pas encore assez agés pour travailler."
   
   header:
     text: "Population"
