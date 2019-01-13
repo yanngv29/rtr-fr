@@ -1882,18 +1882,18 @@ mapEditorMainMenuPanel:
   
   button:
     settings:
-      text: "Settings"
+      text: "Paramètres"
     saveAndExit:
-      text: "Save and Exit"
+      text: "Sauvegarder et quitter"
     exitOnly:
-      text: "Exit Only"
+      text: "Quitter seulement"
     'yes':
-      text: "Yes!"
+      text: "Oui !"
       
   header:
-    text: "Main Menu"
+    text: "Menu principal"
   exitWarning:
-    text: "$GRE1ARE YOU SURE?~$RED1YOUR MAP WILL~NOT BE SAVED!"
+    text: "$GRE1EN ES-TU SÛR ?~$RED1TA CARTE NE SERA~PAS SAUVEGARDÉE !"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Map Editor State
@@ -1907,16 +1907,16 @@ mapEditorRegionalDataPanel:
   
   button:
     save:
-      text: "Save"
+      text: "Sauvegarder"
       
   header:
-    text: "Region List"
+    text: "Liste des régions"
   connectedRegions:
-    text: "Connected Regions"
+    text: "Régions connectées"
   notSetPlaceholder:
-    text: "Not Set"
+    text: "Non défini"
   worldMapCoordinates:
-    text: "World Map Coordinates"
+    text: "Coordonnées sur la map monde"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Map Editor State / Play State
