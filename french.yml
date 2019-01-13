@@ -2714,7 +2714,7 @@ playConsolePanel:
   button:
     tooltip:
       hidePanelHeader:
-        text: "Hide Panel Toggle"
+        text: "Cacher le panneau"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Play State
