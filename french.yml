@@ -2782,7 +2782,7 @@ playLeftMigrationDescriptionPanel:
   javaClass: "rtr.gui.states.playstate.LeftMigrationDescriptionPanel.java"
   
   lost:
-    text: "$RED1Lost!"
+    text: "$RED1Perdu !"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Play State
@@ -2797,295 +2797,295 @@ playLeftPanel:
   button:
     tooltip:
       workforceHeader:
-        text: "Workforce"
+        text: "Main-d'œuvre"
       resourceManagementHeader:
-        text: "Resource Management"
+        text: "Gestion de ressources"
       tradeHeader:
-        text: "Trade"
+        text: "Échange"
       trade:
-        text: "Requires Marketplace"
+        text: "Requiert un marché"
       migrationHeader:
         text: "Migration"
       migration:
-        text: "Requires Migration Way Station"
+        text: "Requiert une station de migration"
       courierHeader:
-        text: "Courier"
+        text: "Poste de courier"
       courier:
-        text: "Requires Courier Station"
+        text: "Requiert un poste de courier"
       hidePanelHeader:
         text: "Hide Panel Toggle"
         
   trade:
     button:
       buy:
-        text: "Buy"
+        text: "Achat"
       sell:
-        text: "Sell"
+        text: "Vente"
       hire:
-        text: "Hire"
+        text: "Recruter"
       tooltip:
         buyHeader:
-          text: "Buy {resourceName}"
+          text: "Acheter {resourceName}"
         sellHeader:
-          text: "Sell {resourceName}"
+          text: "Vendre {resourceName}"
         decreaseBuyOrderHeader:
-          text: "Decrease Buy Order"
+          text: "Diminution quantité achetée"
         decreaseBuyOrder:
-          text: "Decrease how much {resourceName} the village is attempting to buy. This can be set higher than the resources available, and they will be bought as they become available."
+          text: "Diminute combien de {resourceName} que le village essaie d'acheter. Peut être plus élevé que la quantité de ressources disponible, elles seront achetées une fois disponibles."
         increaseBuyOrderHeader:
-          text: "Increase Buy Order"
+          text: "Augmentation quantité achetée"
         increaseBuyOrder:
-          text: "Increase how much {resourceName} the village is attempting to buy. This can be set higher than the resources available, and they will be bought as they become available."
+          text: "Augmente combien de {resourceName} le village essaie d'acheter. Peut être plus élevé que la quantité de ressources disponible, elles seront achetées une fois disponibles."
         decreaseSellOrderHeader:
-          text: "Decrease Sell Order"
+          text: "Diminution quantité vendue"
         decreaseSellOrder:
-          text: "Decrease how much {resourceName} the village is attempting to sell. This can be set higher than the resources available, and they will be sold as they become available."
+          text: "Diminue combien de {resourceName} le village essaie de vendre. This can be set higher than the resources available, and they will be sold as they become available."
         increaseSellOrderHeader:
-          text: "Increase Sell Order"
+          text: "Augmentation quantité vendue"
         increaseSellOrder:
-          text: "Increase how much {resourceName} the village is attempting to sell. This can be set higher than the resources available, and they will be sold as they become available."
+          text: "Augmente combien de {resourceName} le village essaie de vendre. Peut être plus élevé que la quantité de ressources disponible, elles seront achetées une fois disponibles."
         hireLaborHeader:
-          text: "Hire Labor"
+          text: "Recruter de la main-d'œuvre"
         hireLabor:
-          text: "If available, hire Catjeet Laborers to join the village."
+          text: "Si disponible, une main-d'œuvre paysanne rejoindra le village"
         decraseCatjeetOrderHeader:
-          text: "Decrease Order"
+          text: "Diminuer la quantité"
         decraseCatjeetOrder:
-          text: "Decrease how many catjeet laborers the village is attempting to hire."
+          text: "Diminue la quantité de paysans que le village essaie d'employer."
         incraseCatjeetOrderHeader:
-          text: "Increase Order"
+          text: "Augmenter la quantité"
         incraseCatjeetOrder:
-          text: "Increase how many catjeet laborers the village is attempting to hire."
+          text: "Augmente la quantité de paysans que le village essaie d'employer."
         previousCategoryHeader:
-          text: "Previous Category"
+          text: "Catégorie précédente"
         nextCategoryHeader:
-          text: "Next Category"
+          text: "Catégorie suivante"
           
     tooltip:
       villageStockPriceHeader:
-        text: "Village Stock Price"
+        text: "Prix des articles du village"
       catjeetStockPriceHeader:
-        text: "Catjeet Stock Price"
+        text: "Prix des articles du paysan"
       villageStockHeader:
-        text: "Village Stock"
+        text: "Stock du village"
       catjeetStockHeader:
-        text: "Catjeet Stock"
+        text: "Stock du paysan"
       priceHeader:
-        text: "Price"
+        text: "Prix"
       laborerStockHeader:
-        text: "Laborer Stock"
+        text: "Quantité d'ouvriers"
       laborerStock:
-        text: "Current total available laborers available, and how much gold they cost to hire."
+        text: "Quantité totale d'ouvriers disponibles, et la quantité d'or nécessaire à les employer."
         
     requiresMarketplace:
-      text: "Requires Marketplace"
+      text: "Requiert un marché"
     empty:
-      text: "$BLA1Empty"
+      text: "$BLA1Vide"
     sellAmountAndPrice:
-      text: "$YEL1{amount} $WHI0at $GRE1{price}"
+      text: "$YEL1{amount} $WHI0pour $GRE1{price}"
     buyAmountAndPriceTooHigh:
-      text: "$RED1{amount} $WHI0at $RED1{price}"
+      text: "$RED1{amount} $WHI0pour $RED1{price}"
     buyAmountAndPrice:
-      text: "$GRE1{amount} $WHI0at {price}"
+      text: "$GRE1{amount} $WHI0pour {price}"
     catjeetLaborersHeader:
-      text: "Catjeet Laborers"
+      text: "Main-d'œuvre paysanne"
     noLaborers:
-      text: "No Laborers"
+      text: "Pas de main-d'œuvre"
 
   workforce:
     button:
       tooltip:
         reduceWorkersHeader:
-          text: "Reduce Workers"
+          text: "Réduire"
         reduceWorkers:
-          text: "Reduce workers for this job, freeing them up to work elsewhere."
+          text: "Réduit le nombre de travailleurs pour cette tâche, les libère pour qu'ils travaillent ailleurs."
         requestWorkersHeader:
-          text: "Request Workers"
+          text: "Solliciter"
         requestWorkers:
-          text: "Request more workers to take this job. If the numbers turns red, you've requested more workers than villagers available."
+          text: "Sollicite plus de travailleurs à effectuer cette tâche. Si le nombre devient rouge, tu as sollicité plus de travailleurs qu'il n'y a de villageois disponibles."
         pageUpHeader:
-          text: "Page Up"
+          text: "Page suivante"
         pageDownHeader:
-          text: "Page Down"
+          text: "Page précédente"
           
     tooltip:
       unemployedVillagersHeader:
-        text: "Unemployed Villagers"
+        text: "Villageois disponibles"
       unemployedVillagers:
-        text: "How many adult villagers are available to work, but have not been assigned a job."
+        text: "Le nombre de villageois adultes disponible pour travailler auxquelles aucune tâche n'a été assignée."
       desiredAndMaxWorkersHeader:
-        text: "Desired / Max Workers"
+        text: "Travailleurs demandés/maximum"
       desiredAndMaxWorkers:
-        text: "How many villagers are requested for this job and how many job slots are available. If the numbers turns red, you've requested more workers than villagers available."
+        text: "Combien de travailleurs ont été sollicités pour ce travail et combien peuvent y travailler.  Si le nombre devient rouge, tu as sollicité plus de travailleurs qu'il n'y a de villageois disponibles."
       totalAndEnRouteVillagersHeader:
-        text: "Total + En Route Workers"
+        text: "Travailleurs assignés + en route"
       totalAndEnRouteVillagers:
-        text: "How many villagers are currently assigned, plus how many are en route to take or quit this job."
+        text: "Combien de villageois sont actuellement assignés, plus combien sont en route pour travailler ou quitter ce travail."
 
   resourceManagement:
     button:
       tooltip:
         sortingHeader:
-          text: "Sorting"
+          text: "Affichage"
         sorting:
-          text: "Change the totals display filter."
+          text: "Change les totaux affichés."
         makeHeader:
-          text: "Make"
+          text: "Faire"
         make:
-          text: "Make this many {resourceName} as soon as possible."
+          text: "Ordonne de faire tant de {resourceName} aussi tôt que possible."
         maintainHeader:
-          text: "Maintain"
+          text: "Garder"
         maintain:
-          text: "Maintain this many {resourceName} village wide, including what is currently equipped or on the ground."
+          text: "Garde tant de {resourceName} à l'échelle du village, en incluant les ressources sur le sol ou équipées par les villageois."
         previousCategoryHeader:
-          text: "Previous Category"
+          text: "Catégorie précédente"
         nextCategoryHeader:
-          text: "Next Category"
+          text: "Catégorie suivante"
           
     tooltip:
       makeInfinityHeader:
-        text: "Make Infinity"
+        text: "En faire à l'infini"
       maintainInfinityHeader:
-        text: "Maintain Infinity"
+        text: "En garder une infinité"
       requiresResource:
-        text: "Requires {resourceName}"
+        text: "Requiert {resourceName}"
   
     header:
       resourceManagement:
-        text: "Resource Management"
+        text: "Gestion de ressources"
       make:
-        text: "Make"
+        text: "Faire"
       maintain:
-        text: "Maintain"
+        text: "Garder"
       
     sort:
       total:
         text: "Total"
       equip:
-        text: "Equip"
+        text: "Equipé"
       carry:
-        text: "Carry"
+        text: "Porté"
       ground:
-        text: "Ground"
+        text: "Au sol"
       stored:
-        text: "Stored"
+        text: "Stocké"
         
     producedByWaterSource:
-      text: "$BLA2Produced by Water Source"
+      text: "$BLA2Production par sources d'eau"
     rareDrop:
-      text: "$YEL2Rare {resourceOrMonsterType} Drop"
+      text: "$YEL2Récompense rare ({resourceOrMonsterType})"
     monsterDrop:
-      text: "$BLA2Monster Drop Only"
+      text: "$BLA2Récompense de monstre"
     requiresWaterSource:
-      text: "$BLA2Requires Water Source"
+      text: "$BLA2Requiert source d'eau"
     requiresBuilding:
-      text: "$BLA2Requires {buildingName}"
+      text: "$BLA2Requiert {buildingName}"
 
   migration:
     button:
       tooltip:
         increaseMigrantsToSendHeader:
-          text: "Increase Migrants To Send"
+          text: "Augmente le nombre de migrants à envoyer"
         increaseMigrantsToSend:
-          text: "Increase how many villagers to send to this region. Villagers will prepare to leave in the morning and depart midday. If you set this after the morning villagers will not leave until the following day."
+          text: "Augmente le nombre de villageois à envoyer vers cette région. Les villageois se prépareront à quitter la région le matin et partiront l'après-midi. Si tu modifie ceci après le matin, les villageois ne partiront pas avant le jour suivant."
         decreaseMigrantsToSendHeader:
-          text: "Decrease Migrants To Send"
+          text: "Diminue le nombre de migrants à envoyer"
         decreaseMigrantsToSend:
-          text: "Decrease how many villagers you would like to send to this region."
+          text: "Diminue le nombre de villageois que tu veux envoyer vers cette région."
           
     tooltip:
       migratableVillagersHeader:
-        text: "Migratable Villagers"
+        text: "Villageois migrables"
       migratableVillagers:
-        text: "How many villagers that can migrate to other regions. Only young, healthy adult villagers can migrate. You must maintain a total local population of at least 15 to be able to migrate."
+        text: "Combien de villageis peuvent migrer vers d'autres régions. Seulement les jeunes adultes en bonne santé peuvent migrer. Tu dois maintenir une population locale minimale d'au moins 15 villageois pour pouvoir migrer."
       maximumDailyMigrationHeader:
-        text: "Maximum Daily Migration"
+        text: "Migration journalière maximale"
       maximumDailyMigration:
-        text: "How many villagers can migrate from the village per day. Increase this by upgrading you migration way station, or building a new one."
+        text: "Combien de villageois peuvent quitter le village par jour. Augmente ce nombre en améliorant la station de migration ou en en construisant une nouvelle."
       readyToMigrateHeader:
-        text: "Ready To Migrate"
+        text: "Prêts à migrer"
       readyToMigrate:
-        text: "How many villagers have prepared to migrate in the morning, and will leave the region at midday."
+        text: "Combien de villageois se sont préparés à migrer ce matin et quitteront la région l'après midi."
       totalMigratedTodayHeader:
-        text: "Total Migrated Today"
+        text: "Nombre total de migrations"
       totalMigratedToday:
-        text: "How many villagers have left the region today. Villagers will only leave during midday."
+        text: "Combien de villageois ont quitté cette région aujourd'hui. Les villageois ne quitteront que durant la journée."
       regionsTotalPopulationHeader:
-        text: "Region's Total Population"
+        text: "Population totale de la région"
       regionsTotalPopulation:
-        text: "This region's total current population, not counting already en route nomads."
+        text: "La population totale de cette région, sans compter les nomades en route."
       enRouteMigrantsHeader:
-        text: "En Route Migrants"
+        text: "Migrants en route"
       enRouteMigrants:
-        text: "The total amount of migrants from all villages nearby currently en route to this region."
+        text: "Le nombre total de migrants actuellement en route depuis les autres villages voisins vers cette région."
     
     availableVillagers:
-      text: "Available Villagers"
+      text: "Villageois disponibles"
     regionList:
-      text: "Region List"
+      text: "Liste des régions"
     regionLost:
-      text: "$RED0Region Lost to Corruption!"
+      text: "$RED0Région perdue face à la corruption !"
     send:
-      text: "$YEL1Send"
+      text: "$YEL1Envoyer"
 
   courier:
     button:
       tooltip:
         sortingHeader:
-          text: "Sorting"
+          text: "Affichage"
         sorting:
-          text: "Change the totals display filter."
+          text: "Change les totaux affichés."
         sendNowHeader:
-          text: "Send Now"
+          text: "Envoyer maintenant"
         sendNow:
-          text: "Send this many {resourceName} in addition to the daily amount set, as soon as possible. Courier Golems will only leave before the evening."
+          text: "Envoie tant de {resourceName} dès que possible, en plus du montant journalier défini. Les golems-facteur quitteront la région avant le soir."
         sendDailyHeader:
-          text: "Send Daily"
+          text: "Envois journaliers"
         sendDaily:
-          text: "Send this many {resourceName} every day, if available. Courier Golems will only leave before the evening. The number will turn red if they fail to meet their daily quota, yellow if in progress, and green if completed."
+          text: "Si disponible, envoie tant de {resourceName} chaque jour. Les golems-facteur quitteront la région avant le soir. Le nombre deviendra rouge si ils n'arrivent pas à satisfair le quota journalier, jaune si c'est en cours, et vert si ils ont réussi."
         previousCategoryHeader:
-          text: "Previous Category"
+          text: "Catégorie précédente"
         nextCategoryHeader:
-          text: "Next Category"
+          text: "Catégorie suivante"
         previousRegionHeader:
-          text: "Previous Region"
+          text: "Région précédente"
         previousRegion:
-          text: "Change the region you want to send resources to."
+          text: "Change la région vers laquelle les ressources seront envoyées."
         nextRegionHeader:
-          text: "Next Region"
+          text: "Région suivante"
         nextRegion:
-          text: "Change the region you want to send resources to."
+          text: "Change la région vers laquelle les ressources seront envoyées."
         
     tooltip:
       parkedCourierGolemsHeader:
-        text: "Parked Courier Golems"
+        text: "Golems-facteur stationnés"
       parkedCourierGolems:
-        text: "How many courier golems are parked and ready to deliver resources."
+        text: "Combien de golems-facteur sont stationnés et prêts à livrer des ressources."
       sendInfinityHeader:
-        text: "Send Infinity"
+        text: "En envoyer une inifinité"
          
     header:
       selectedRegion:
-        text: "Selected Region"
+        text: "Région sélectionnée"
       send:
-        text: "Send"
+        text: "Envoyer"
       daily:
-        text: "Daily"
+        text: "Journalièrement"
          
     sort:
       total:
         text: "Total"
       equip:
-        text: "Equip"
+        text: "Equipé"
       carry:
-        text: "Carry"
+        text: "Porté"
       ground:
-        text: "Ground"
+        text: "Au sol"
       stored:
-        text: "Stored"
+        text: "Stocké"
         
     regionLost:
-      text: "$RED0Region lost to corruption!~Can not send resources."
+      text: "$RED0Région perdue face à la corruption !~Impossible d'envoyer des ressources."
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Play State
