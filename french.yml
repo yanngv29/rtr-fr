@@ -1831,43 +1831,43 @@ mainMenuUploadProfilePanel:
   
   button:
     back:
-      text: "Back"
+      text: "Retour"
     upload:
-      text: "Upload"
+      text: "Envoyer"
     crash:
       text: "Crash"
     laggy:
-      text: "Laggy/Slow"
+      text: "Lags/lent"
     corrupt:
-      text: "Corrupt Data"
+      text: "Données corrompues"
     devRequest:
-      text: "Dev Request"
+      text: "Requête au dev"
     other:
-      text: "Other"
+      text: "Autre"
     textInput:
       comments:
-        text: "Additional Comments (Optional)"
+        text: "Commentaires additionels (optionnel)"
       username:
-        text: "Username (Optional)"
+        text: "Nom d'utilisateur (optionnel)"
 
   message:
     sending:
-      text: "SENDING PROFILE. PLEASE WAIT!"
+      text: "ENVOI DU PROFIL, MERCI DE PATIENTER !"
     sendingAttempt:
-      text: "$RED0Attempt: {attemptCount}"
+      text: "$RED0Essai : {attemptCount}"
     sendingAttemptFailure:
-      text: "$RED0There may be an issue with your firewall,~or you may not be connected to the internet!"
+      text: "$RED0Il y a peut-être un problème avec le pare-feu, ~ou tu n'es pas connecté à internet !"
     sendingFailure:
-      text: "$RED0There was an error sending your profile! Please check your internet connection or firewall settings."
+      text: "$RED0Une erreur est survenue lors de l'envoi du profil ! Merci de vérifier la connexion internet et les paramètres du pare-feu."
     sendingSuccess:
-      text: "Thank you, your profile has been sent to the developer."
+      text: "Merci, le profil a bien été envoyé au développeur."
       
   body:
-    text: "This uploader will package your selected profile and logs, and upload them to the developer for troubleshooting. Please select the type of issue you're having, and if needed a little comment."
+    text: "Cet outil de publication va empaqueter et envoyer le profil sélectionné et les logs au développeur pour résoudre les problèmes. Merci de sélectionner problème que vous rencontrez, et si besoin, un bref commentaire."
   header:
-    text: "Profile Selected"
+    text: "Profil sélectionné"
   category:
-    text: "Problem Category"
+    text: "Catégorie du problème"
 
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
