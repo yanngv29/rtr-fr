@@ -2461,31 +2461,31 @@ mapEditorSystemAndDataBar:
   button:
     tooltip:
       mainMenuHeader:
-        text: "Main Menu ({shortcutKey})"
+        text: "Menu principal ({shortcutKey})"
       mainMenu:
-        text: "Exit the map editor, or change some settings."
+        text: "Quitter l'éditeur de carte, ou modifier les paramètres."
       saveMapHeader:
-        text: "Save Map"
+        text: "Sauvegarder la carte"
       minimapHeader:
-        text: "Minimap ({shortcutKey})"
+        text: "Minicarte ({shortcutKey})"
       minimap:
-        text: "View the entire map."
+        text: "Voir la minicarte entière."
       dataViewsHeader:
-        text: "Data Views ({shortcutKey})"
+        text: "Vue de données ({shortcutKey})"
       dataViews:
-        text: "View various overlay data maps."
+        text: "Voir diverses cartes de données."
       hideTopographyHeader:
-        text: "Hide Topography ({shortcutKey})"
+        text: "Cacher la topographie ({shortcutKey})"
       hideTopography:
-        text: "Hide the topography layer of the map, making it easier to draw terrain under it."
+        text: "Cache la couche topographique de la carte, facilitant le dessin du terrain en dessous."
       musicHeader:
-        text: "Music"
+        text: "Musique"
       music:
-        text: "View a list of all available music tracks, and change the current track if desired."
+        text: "Voir la liste de toutes les pistes de musique, et, si désiré, changer la piste actuelle."
       regionalDataHeader:
-        text: "Regional Data"
+        text: "Données régionales"
       regionalData:
-        text: "Change the regions this map is connected to, as well as its location on the world map."
+        text: "Changer les régions auxquelles cette carte est connectée ainsi que sa position sur la carte monde."
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Map Editor State / Play State
