@@ -2502,65 +2502,65 @@ mapEditorPlayHarvestAndTerrainBar:
   button:
     tooltip:
       circleBrushHeader:
-        text: "Circle Brush ({shortcutKey})"
+        text: "Pinceau circulaire ({shortcutKey})"
       filletedSquareBrushHeader:
-        text: "Filleted Square Brush ({shortcutKey})"
+        text: "Pinceau caré fileté ({shortcutKey})"
       chamferedSquareBrushHeader:
-        text: "Chamfered Square Brush ({shortcutKey})"
+        text: "Pinceau carré chanfreiné ({shortcutKey})"
       squareBrushHeader:
-        text: "Square Brush ({shortcutKey})"
+        text: "Pinceau carré ({shortcutKey})"
       decreaseBrushSizeHeader:
-        text: "Decrease Size ({shortcutKey})"
+        text: "Diminuer la taille ({shortcutKey})"
       increaseBrushSizeHeader:
-        text: "Increase Size ({shortcutKey})"
+        text: "Augmenter la taille ({shortcutKey})"
       harvestWoodHeader:
-        text: "Harvest Wood ({shortcutKey})"
+        text: "Récolter du bois ({shortcutKey})"
       harvestWood:
-        text: "Assign forest to be harvested by lumberjacks and builders. Builders will only harvest materials if they have an active construction project."
+        text: "Définit les forêts dans lesquelles les bûcherons et constructeurs doivent récolter. Les constructeurs ne vont récolter des matériaux que si il y a un projet de construction actif."
       harvestRockHeader:
-        text: "Harvest Rock ({shortcutKey})"
+        text: "Récolter de la pierre ({shortcutKey})"
       harvestRock:
-        text: "Assign mountains to be harvested by miners and builders. Builders will only harvest materials if they have an active construction project."
+        text: "Définit les montagnes dans lesquelles les mineurs et constructeurs doivent récolter. Les constructeurs ne vont récolter des matériaux que si il y a un projet de construction actif."
       harvestFoodAndWaterHeader:
-        text: "Harvest Food and Water ({shortcutKey})"
+        text: "Récolter de la nourriture et de l'eau ({shortcutKey})"
       harvestFoodAndWater:
-        text: "Assign wild food and water sources to be harvested by farmers and water masters to be used in farms and water purifiers. Farmers will only harvest water for use in their farms."
+        text: "Définit la nourriture sauvage et les sources d'eau qui doivent être utilisées par les agriculteurs et les responsables de l'eau afin d'être utilisées dans les fermes et les purificateurs d'eau. Les agriculteurs n'iront cherche de l'eau que pour l'utiliser dans leurs fermes."
       harvestCrystalHeader:
-        text: "Harvest Crystal ({shortcutKey})"
+        text: "Récolter du cristal ({shortcutKey})"
       harvestCrystal:
-        text: "Assign crystal fields to be harvested by crystal harvesters and builders. Builders will only harvest materials if they have an active construction project."
+        text: "Définit les champs de cristaux qui seront exploités par les récolteurs de cristaux et constructeurs. Les constructeurs ne vont récolter des matériaux que si il y a un projet de construction actif. "
       accentModeHeader:
-        text: "Accent Mode ({shortcutKey})"
+        text: "Mode d'accentuation ({shortcutKey})"
       accentMode:
-        text: "Locks the terrain brush tool into drawing the accent layer terrain."
+        text: "Verrouille l'outil pinceau de terrain afin de dessiner la couche accentuée du terrain."
       eraseAllHeader:
-        text: "Erase All ({shortcutKey})"
+        text: "Tout supprimer ({shortcutKey})"
       eraseAll:
-        text: "Erase everything within the brush radius."
+        text: "Supprime tout dans le rayon du pinceau."
       eraseTerrainHeader:
-        text: "Erase Terrain ({shortcutKey})"
+        text: "Supprimer le terrain ({shortcutKey})"
       eraseTerrain:
-        text: "Erase the terrain under the topography within the brush radius."
+        text: "Supprime le terrain sous la topographie dans le rayon du pinceau."
       eraseTopographyHeader:
-        text: "Erase Topography ({shortcutKey})"
+        text: "Supprimer la topographie ({shortcutKey})"
       eraseTopography:
-        text: "Erase trees, water, rock and other top level terrain within the brush radius."
+        text: "Supprime les arbres, l'eau, la pierre et autres topographies dans le rayon du pinceau."
       eraseObjectsHeader:
-        text: "Erase Objects ({shortcutKey})"
+        text: "Supprimer les objets ({shortcutKey})"
       eraseObjects:
-        text: "Erase all buildings, walls and other objects within the brush radius."
+        text: "Supprime tous les bâtiments, murs et autres objets dans le rayon du pinceau."
       eraseRoadsHeader:
-        text: "Erase Roads ({shortcutKey})"
+        text: "Supprimer les routes ({shortcutKey})"
       eraseRoads:
-        text: "Erase all roads within the brush radius."
+        text: "Supprime toutes les routes dans le rayon du pinceau."
       holeHeader:
-        text: "Hole ({shortcutKey})"
+        text: "Trou ({shortcutKey})"
       hole:
-        text: "Completely remove all terrain, including the base layer within the brush radius."
+        text: "Enlève complètement le terrain dans le rayon du pinceau, même la couche de base."
       patchHeader:
-        text: "Patch ({shortcutKey})"
+        text: "Replacer ({shortcutKey})"
       patch:
-        text: "Replace the terrain within the brush radius."
+        text: "Replace le terrain dans le rayon du pinceau."
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Map Editor State
