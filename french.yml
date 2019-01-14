@@ -328,7 +328,7 @@ perk:
   farellesConstitution:
     text: "Constitution de Farelle"
   kevorkianBloom:
-    text: "Floraison Kevorkian"
+    text: "Floraison de Kevorkian"
   stensForm:
     text: "Forme de Sten"
   hardinessofMergen:
@@ -692,7 +692,7 @@ perk:
   balthisEnlargement:
     text: "Élargissement de Balthi"
   jeremiahsEnflanginator:
-    text: "Enflanginator de Jeremiah" # mmmh... Enflanginator?
+    text: "Enflanginateur de Jeremiah" # mmmh... Enflanginator?
   drengundsExtension:
     text: "Extension de Drengund"
   bhuldemsSupplements:
@@ -868,7 +868,7 @@ perk:
   threepwoodsFaculty:
     text: "Faculté de Threepwood"
   ajarnsStandard:
-    text: "Standard d"Ajarn"
+    text: "Standard d'Ajarn"
   chartsScale:
     text: "Ampleur de Chart"
   martinsOvercharge:
@@ -950,7 +950,7 @@ perk:
   lorrainasAccess:
     text: "Accès de Lorraina"
   mckenziesattainanance:
-    text: "Mckenzie" # Attainanance ?
+    text: "Atteinte de Mckenzie" # Attainanance ?
   parksSubservience:
     text: "Soumission de Park"
   corinsWeight:
@@ -1046,7 +1046,7 @@ perk:
   deductionofSalvak:
     text: "Déduction de Salvak"
   noteofBlasphemy:
-    text: "Note de blasphème" #should blasphemy be translated
+    text: "Note de blasphème"
   dayaphimasBarter:
     text: "Troc de Dayaphima"
   tamanesRecession:
