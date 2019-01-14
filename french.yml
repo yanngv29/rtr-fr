@@ -2667,7 +2667,7 @@ playBuildingListPanel:
     ammoHeader:
       text: "Munitions"
     ammo:
-      text: "La quantité de munitions chargées dans ce bâtiment, ainsi que le montant maximum qu'il peut charger. Cela ne compte pas les munitions non chargées qui sont stockées dans le bâtiment."
+      text: "La quantité de munitions chargées dans ce bâtiment, ainsi que la quantité maximum qu'il peut charger. Ce nombre ne prend pas en compte les munitions non chargées qui sont stockées dans le bâtiment."
 
   header:
     text: "Liste des bâtiments"
@@ -2875,7 +2875,7 @@ playLeftPanel:
       laborerStockHeader:
         text: "Quantité d'ouvriers"
       laborerStock:
-        text: "Quantité totale d'ouvriers disponibles, et la quantité d'or nécessaire à les employer."
+        text: "Quantité totale d'ouvriers disponibles, et la quantité d'or nécessaire pour les employer."
         
     requiresMarketplace:
       text: "Requiert un marché"
@@ -2916,7 +2916,7 @@ playLeftPanel:
       desiredAndMaxWorkersHeader:
         text: "Travailleurs demandés/maximum"
       desiredAndMaxWorkers:
-        text: "Combien de travailleurs ont été sollicités pour ce travail et combien peuvent y travailler.  Si le nombre devient rouge, tu as sollicité plus de travailleurs qu'il n'y a de villageois disponibles."
+        text: "Combien de travailleurs ont été sollicités pour ce travail et combien de plus peuvent y travailler. Si le nombre devient rouge, tu as sollicité plus de travailleurs qu'il n'y a de villageois disponibles."
       totalAndEnRouteVillagersHeader:
         text: "Travailleurs assignés + en route"
       totalAndEnRouteVillagers:
@@ -3669,206 +3669,206 @@ playSelectedObjectPanel:
   
   tooltip:
     buildRangeHeader:
-      text: "Build Range"
+      text: "Portée de construction"
     buildRange:
-      text: "The build range this building generates from its center, flood filling out in all directions."
+      text: "La portée de construction générée par ce bâtiment depuis son centre et se propageant dans toutes les directions."
     landDesirabilityHeader:
-      text: "Land Desirability"
+      text: "Attractivité du terrain"
     landDesirability:
-      text: "How much this building increases land desirability within the build range of the building. Villagers are naturally attracted to higher desirability locations when they have no active work to do in the village."
+      text: "De combien ce bâtiment améliore l'attractivité du terrain à la portée de ce bâtiment. Les villageois sont naturellement attirés par les terrains plus attractifs quand ils ne sont pas en train de travailler dans le village."
     corruptionResistanceHeader:
-      text: "Corruption Resistance"
+      text: "Resistance à la corruption"
     corruptionResistance:
-      text: "How much this building increases corruption resistance around it. Corruption resistance pushes back or stops the spread of corruption around the building."
+      text: "De combien ce bâtiment augmente la résistance à la corruption autour de lui. La résistance à la corruption repousse, voir même, arrête la propagation de la corruption autour du bâtiment."
     providedDailyMigrationsHeader:
-      text: "Provided Daily Migrations"
+      text: "Migration journalière fournie"
     providedDailyMigrations:
-      text: "Increases the amount of villagers you can prepare for migration in the morning every day."
+      text: "Augmente le nombre de villageois qui se prépareront à la migration le matin, chaque jour."
     providedWorkersHeader:
-      text: "Provided Workers"
+      text: "Emplacements de travailleurs"
     providedWorkers:
-      text: "How many additional job slots this building provides for the jobs it can do."
+      text: "Combien d'emplacements de travailleurs sont fournis par ce bâtiment pour le travail concerné."
     desiredAndMaxWorkersHeader:
-      text: "Desired / Max Workers"
+      text: "Nb maximum/désiré de travailleurs"
     desiredAndMaxWorkers:
-      text: "How many villagers are requested for this job and how many job slots are available. If the numbers turns red, you've requested more workers than villagers available."
+      text: "Combien de travailleurs ont été sollicités pour ce travail et combien de plus peuvent y travailler. Si le nombre devient rouge, tu as sollicité plus de travailleurs qu'il n'y a de villageois disponibles."
     totalPlusEnrouteWorkersHeader:
-      text: "Total + En route Workers"
+      text: "Travailleurs assignés + en route"
     totalPlusEnrouteWorkers:
-      text: "How many villagers are currently assigned, plus how many are en route to take or quit this job."
+      text: "Combien de villageois sont actuellement assignés, plus combien sont en route pour travailler ou quitter ce travail."
     unemployedVillagersHeader:
-      text: "Unemployed Villagers"
+      text: "Villageois sans-emploi"
     unemployedVillagers:
-      text: "How many adult villagers are available to work, but have not been assigned a job."
+      text: "Quantité de villageois adultes disponibles pour travailler mais à qui aucun travail n'a été assigné."
     occupancyHeader:
-      text: "Occupancy"
+      text: "Occupation"
     occupancy:
-      text: "How many villagers are living in this building, as well as the total amount of living space this building supplies."
+      text: "Combien de villageois vivent dans ce bâtiment, ainsi que la quantité totale d'espace habitable fournie par ce bâtiment."
     barracksOccupancyHeader:
       text: "Barracks Occupancy"
     barracksOccupancy:
-      text: "How many guards are living in this building, as well as the total amount of living space this building supplies."
+      text: "Le nombre de gardes vivant dans ce bâtiment ainsi que l'espace habitable total fournit par ce bâtiment."
     currentAndMaxStorageHeader:
-      text: "Current / Max Storage"
+      text: "Stockage actuel/maximum"
     currentAndMaxStorage:
-      text: "How many resources are currently being stored in this building, as well as the maximum amount of resources this building can store."
+      text: "Combien de ressources sont actuellement stockées dans ce bâtiment ainsi que la quantité maximale de ressources qui peut être contenue par ce bâtiment."
     buildingResourceValueHeader:
-      text: "Building Resource Value"
+      text: "Valeur en ressources du bâtiment"
     buildingResourceValue:
-      text: "How many resources were used in construction of this building. Dismantling this building will provide about 50% of the building resource value returned to the village."
+      text: "La quantité de ressources utilisées lors de la construction de ce bâtiment. Démanteler ce bâtiment rendra environ 50% de la valeur en ressources de ce bâtiment au village."
     hitPointsHeader:
-      text: "Hit Points"
+      text: "Points de vie"
     hitPoints:
-      text: "Maximum hit points are based on the buildings total building resource value. More complicated buildings have higher hit points."
+      text: "Le nombre maximal de points de vie est basé sur la valeur en ressource du bâtiment. Les bâtiments plus compliqués ont plus de points de vie."
     energyHeader:
-      text: "Energy"
+      text: "Energie"
     energy:
-      text: "The amount of stored energy this building has, as well as the maximum it can store."
+      text: "La quantité d'énergie stockée dans ce bâtiment ainsi que la quantité maximale qu'il peut contenir."
     waterHeader:
-      text: "Water"
+      text: "Eau"
     water:
-      text: "The amount of clean drinking water this building has."
+      text: "La quantité d'eau potable contenue dans ce bâtiment."
     goldCoinsHeader:
-      text: "Gold Coins"
+      text: "Pièces d'or"
     goldCoins:
-      text: "The amount of gold this building has."
+      text: "La quantité de pièces d'or contenue dans ce bâtiment."
     dirtyWaterHeader:
-      text: "Dirty Water"
+      text: "Eau sale"
     dirtyWater:
-      text: "The amount of dirty water this building has."
+      text: "La quantité d'eau sale contenue dans ce bâtiment."
     chargeHeader:
       text: "Charge"
     charge:
-      text: "How charged this building is. Most buildings charge slowly by consuming energy, but others may charge on their own for no cost."
+      text: "État de charge du bâtiment. La plupart des bâtiments se rechargent lentement en consommant de l'énergie, mais certains autres peuvent charger d'eux mêmes sans rien consommer."
     ammoHeader:
-      text: "Ammo"
+      text: "Munitions"
     ammo:
-      text: "The amount of ammo the building currently has loaded, as well as the maximum amount it can load. This does not count unloaded ammo that is in the building's storage."
+      text: "La quantité de munitions chargées dans ce bâtiment, ainsi que la quantité maximum qu'il peut charger. Ce nombre ne prend pas en compte les munitions non chargées qui sont stockées dans le bâtiment."
     resourceStores:
-      text: "{resourceName} Stores"
+      text: "Stocks de {resourceName}"
     resourceValues:
-      text: "{resourceName} Values"
+      text: "Valeur en {resourceName}"
           
   button:
     reclaim:
-      text: "Reclaim"
+      text: "Reprendre"
     upgrade:
-      text: "Upgrade"
+      text: "Améliorer"
     startUpgrade:
-      text: "Start Upgrade"
+      text: "Commencer l'amélioration"
     back:
-      text: "Back"
+      text: "Retour"
     'yes':
-      text: "Yes"
+      text: "Oui"
     'no':
-      text: "No"
+      text: "Non"
     
     tooltip:
       reduceWorkersHeader:
-        text: "Reduce Workers"
+        text: "Réduire la main-d'oeuvre"
       reduceWorkers:
-        text: "Reduce workers for this job, freeing them up to work elsewhere."
+        text: "Réduit la main-d'oeuvre affectée à ce travail, les libérant ainsi pour travailler ailleurs."
       requestWorkersHeader:
-        text: "Request Workers"
+        text: "Solliciter de la main d'oeuvre"
       requestWorkers:
-        text: "Request more workers to take this job. If the numbers turns red, you've requested more workers than villagers available."
+        text: "Sollicite plus de main d'oeuvre à prendre ce travail. Si le nombre devient rouge, tu as sollicité plus de travailleurs qu'il n'y a de villageois dusponibles."
       topPriorityHeader:
-        text: "Top Priority"
+        text: "Première priorité"
       topPriority:
-        text: "Sets the construction priority of the building the top of the list. The higher it is on the list the more important it will be to the workers, usually receiving construction resources first and being built sooner."
+        text: "Met ce bâtiment en haut de la liste des priorités. Plus il est vers le haut, plus ce bâtiment sera important aux yeux des ouvriers, recevant ainsi les ressources et étant construit plus tôt."
       increasePriorityHeader:
-        text: "Increase Priority"
+        text: "Augmenter la priorité"
       increasePriority:
-        text: "Increase the construction priority of the building. The higher it is on the list the more important it will be to the workers, usually receiving construction resources first and being built sooner."
+        text: "Augmente la priorité de construction du bâtiment. Plus elle est élevée, plus ce bâtiment sera important aux yeux des ouvriers, recevant ainsi les ressources et étant construit plus tôt."
       decreasePriorityHeader:
         text: "Decrease Priority"
       decreasePriority:
-        text: "Decrease the construction priority of the building. The higher it is on the list the more important it will be to the workers, usually receiving construction resources first and being built sooner."
+        text: "Diminue la priorité de construction du bâtiment. Plus elle est élevée, plus ce bâtiment sera important aux yeux des ouvriers, recevant ainsi les ressources et étant construit plus tôt."
       lastPriorityHeader:
-        text: "Last Priority"
+        text: "Dernière priorité"
       lastPriority:
-        text: "Sets the construction priority of the building the bottom of the list. The higher it is on the list the more important it will be to the workers, usually receiving construction resources first and being built sooner."
+        text: "Met ce bâtiment en bas de la liste des priorités. Plus il est vers le haut, plus ce bâtiment sera important aux yeux des ouvriers, recevant ainsi les ressources et étant construit plus tôt."
       pauseBuildingHeader:
-        text: "Pause Building"
+        text: "Mettre le bâtiment en pause"
       pauseBuilding:
-        text: "Pausing this building will stop most village interactions with it."
+        text: "Mettre ce bâtiment en pause va arrêter la plupart des interactions avec les villageois."
       resumeBuildingHeader:
-        text: "Resume Building"
+        text: "Reprendre"
       dismantleBuildingHeader:
-        text: "Dismantle Building"
+        text: "Démanteler le bâtiment"
       dismantleBuilding:
-        text: "Dismantle the building and recover some of its original construction costs."
+        text: "Démantèle le bâtiment en récupérant une partie du coût de construction en matériaux."
       buildingPriorityHeader:
-        text: "Building Priority"
+        text: "Priorité de construction"
       buildingPriority:
-        text: "Current construction priority level of the building, lower numbers are a higher priority."
+        text: "Le niveau de priorité de construction de ce bâtiment, plus le nombre est élevé, plus le bâtiment est prioritaire."
       reclaimHeader:
-        textHeader: "Reclaim"
+        textHeader: "Récupérer"
       reclaim:
-        text: "Reclaim this abandoned building. Usually, reclaiming a building costs about half as much resources as building a new one from scratch."
+        text: "Récupère ce bâtiment abandonné. La plupart du temps, récupérer un bâtiment coûte environ deux fois moins de ressources que d'en reconstruire un nouveau."
       upgradeHeader:
-        text: "Upgrade"
+        text: "Améliorer"
       upgrade:
-        text: "Upgrade this building to the next level. The building will still be functional while the villagers are upgrading it."
+        text: "Améliore ce bâtiment au prochain niveau. Ce bâtiment sera toujours fonctionnel pendant que les villageois l'améliorent."
 
   bottomPriority:
-    text: "BOT"
+    text: "BAS"
   topPriority:
-    text: "TOP"
+    text: "HAUT"
   notInRange:
-    text: "$GRE1(NOT IN RANGE)"
+    text: "$GRE1(HORS DE PORTÉE)"
   dismantling:
-    text: "$GRE1(DISMANTLING)"
+    text: "$GRE1(EN DEMANTÈLEMENT)"
   dismantlingWarning:
-    text: "$RED0Are you sure you want to dismantle this building? You can only recover about$GRE1 50%$RED0 of the total resources on average.~$RED1THIS CAN NOT BE UNDONE"
+    text: "$RED0Es-tu sur de vouloir démanteler ce bâtiment ? Tu ne peux récupérer qu'environ $GRE150%$RED0 du total des ressources en moyenne.~$RED1CELA NE PEUT PAS ÊTRE ANNULÉ"
   staticTowerDamageOverride:
     text: "Damage"
   staticTowerDamageOverrideAmount:
-    text: "$GRE1Electric $RED0(3-8)"
+    text: "$GRE1Électrique $RED0(3-8)"
   chargedDamage:
-    text: "Charged Damage"
+    text: "Dégpat chargé"
   damage:
-    text: "Damage"
+    text: "Dégât"
   unchargedDamage:
-    text: "Uncharged Damage"
+    text: "Dégât non chargé"
   globalBonusesHeader:
-    text: "$CYA1Global Bonuses"
+    text: "$CYA1Bonus globaux"
   globalSpeed:
-    text: "$GRE0{amount}% $WHI0Global"
+    text: "$GRE0{amount}% $WHI0global"
   buildingSpeed:
-    text: "$GRE0{amount}% $WHI0Building"
+    text: "$GRE0{amount}% $WHI0construction"
   buildRoadSpeed:
-    text: "$GRE0{amount}% $WHI0Build Road"
+    text: "$GRE0{amount}% $WHI0construction de routes"
   dismantlingSpeed:
-    text: "$GRE0{amount}% $WHI0Dismantling"
+    text: "$GRE0{amount}% $WHI0démantèlement"
   clearingSpeed:
-    text: "$GRE0{amount}% $WHI0Clearing"
+    text: "$GRE0{amount}% $WHI0nettoyage"
   repairingSpeed:
-    text: "$GRE0{amount}% $WHI0Repairing"
+    text: "$GRE0{amount}% $WHI0réparation"
   repairRoadSpeed:
-    text: "$GRE0{amount}% $WHI0Repair Road"
+    text: "$GRE0{amount}% $WHI0entretien des routes"
   farmingSpeed:
-    text: "$GRE0{amount}% $WHI0Farming"
+    text: "$GRE0{amount}% $WHI0agriculture"
   medicWorkSpeed:
-    text: "$GRE0{amount}% $WHI0Medic Work"
+    text: "$GRE0{amount}% $WHI0médecine"
   harvestingSpeed:
-    text: "$YEL1Harvest Speed"
+    text: "$YEL1Vitesse de récolte"
   refiningSpeed:
-    text: "$YEL1Refine Speed"
+    text: "$YEL1Vitesse de raffinage"
   homeBonusesHeader:
-    text: "$CYA1Home Bonuses"
+    text: "$CYA1Bonus de logements"
   sleepSpeedBoost:
-    text: "$GRE0{amount}% $WHI0Sleep Speed"
+    text: "$GRE0{amount}% $WHI0vitesse du someil"
   happinessBoost:
-    text: "$GRE0{amount} $WHI0Happiness Boost"
+    text: "$GRE0{amount} $WHI0amélioration du bonheur"
   healthRegenerationBoost:
-    text: "$GRE0{amount} $WHI0Health Regen"
+    text: "$GRE0{amount} $WHI0régénération de la vie"
   reclaimMessage:
-    text: "Click $GRE1reclaim$WHI0 to rebuild~and use this building."
+    text: "Clique sur $GRE1récupérer$WHI0 pour reconstruire~ et utiliser ce bâtiment."
   reclaimMessageNoSlotsNoCamp:
-    text: "Out of building slots. ~Build a $GRE0Camp or $GRE0Ancillary $WHI0~to claim this building."
+    text: "Plus de capacité de construction.~Construis un $GRE0Campement $WHI0ou un $GRE0Entrepôt $WHI0~pour récupérer ce bâtiment."
   reclaimMessageNoSlots:
-    text: "Out of building slots. ~Upgrade $GRE0{castleName}~$WHI0or build an $GRE0Ancillary $WHI0~to claim this building."
+    text: "Plus de capacité de construction.~Améliore ton $GRE0{castleName}~$WHI0ou construis un $GRE0Entrepôt $WHI0~pour récupérer ce bâtiment."
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Play State
