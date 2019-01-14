@@ -4001,9 +4001,9 @@ playSpellBar:
   javaClass: "rtr.gui.states.playstate.SpellBar.java"
   
   header:
-    text: "Change Spell"
+    text: "Changer de sort"
   tooltip:
-    text: "Open the full spell list and change the spell in slot {slotNumber}."
+    text: "Ouvre la liste des sorts et change le sort occupant l'emplacement n°{slotNumber}."
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Play State
