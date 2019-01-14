@@ -3397,9 +3397,9 @@ playProblemPanel:
     villagersThirstyPlural:
       text: "* $ORA1{amount} villageois ont soif."
     villagersDehydrated:
-      text: "* $RED1{amount} villageois est déhydraté."
+      text: "* $RED1{amount} villageois est déshydraté."
     villagersDehydratedPlural:
-      text: "* $RED1{amount} villageois sont déhydratés."
+      text: "* $RED1{amount} villageois sont déshydratés."
     villagersHomeless:
       text: "* $YEL1{amount} villageois est sans-abri."
     villagersHomelessPlural:
@@ -3524,138 +3524,138 @@ playSelectedMobPanel:
   
   tooltip:
     hitPointsHeader:
-      text: "Hit Points"
+      text: "Points de vie"
     hitPoints:
-      text: "Maximum hit points are based on their total strength."
+      text: "Les points de vie maximum sont basés sur leur force totale."
     hungerHeader:
-      text: "Hunger"
+      text: "Faim"
     hunger:
-      text: "If their hunger gets to critical levels, they will slowly take damage as they die of starvation. Will drop slightly faster when in combat or working."
+      text: "Si leur faim atteint un niveau critique, ils prendront lentement des dégâts en mourrant de faim. Diminue un peu plus vite au combat ou au travail."
     thirstHeader:
       text: "Thirst"
     thirst:
-      text: "If their thirst gets to critical levels, they will slowly take damage as they die of dehydration. Will drop slightly faster when in combat, working or overheating."
+      text: "Si leur soif atteint un niveau critique, ils prendront lentement des dégâts en mourrant de déshydratation. Diminue un peu plus vite au combat, au travail ou en étant en surchauffe."
     happinessHeader:
-      text: "Happiness"
+      text: "Bonheur"
     happiness:
-      text: "Low happiness will effect their work performance and life expectancy. Depending on the type of creature this can be increased by meeting their basic needs for food, water, housing, social and other statistics."
+      text: "Un faible niveau de bonheur aura une incidence sur leur rendement au travail et leur espérance de vie. Selon le type de créature, on peut l'augmenter en répondant à ses besoins fondamentaux en nourriture, en eau, en logement, en services sociaux et autres paramètres."
     bodyTemperatureHeader:
-      text: "Body Temperature"
+      text: "Température corporelle"
     bodyTemperature:
-      text: "If their body temperature gets too extreme in either direction they slow down, and could even start taking damage."
+      text: "Si leur température corporelle devient trop extrême, dans un sens ou dans l'autre, ils ralentiront et pourraient même commence à prendre des dégâts."
     hasMateHeader:
-      text: "Has Mate"
+      text: "En couple"
     hasMate:
-      text: "This creature has a partner somewhere in the village."
+      text: "Cette créature a un ou une partenaire quelque part dans le village."
     ownerHeader:
-      text: "Owner"
+      text: "Maître"
     owner:
-      text: "This creature owns an animal, or this animal has an owner."
+      text: "Cette créature a un animal, ou cet animal a un maître."
     pregnantHeader:
-      text: "Pregnant"
+      text: "Enceinte"
     pregnant:
-      text: "This (hopefully female) creature is with child and will likely give birth in a few days from conception."
+      text: "Cette créature (qu'on espère être une femme) est enceinte et va probablement donner naissance quelques jours après la conception."
     levelHeader:
-      text: "Level"
+      text: "Niveau"
     level:
-      text: "Creatures level up by doing all kinds of tasks, like working, fighting and even mating!"
+      text: "Les créatures gagnent en niveau en accomplissant divers tâches, comme travailler, se battre ou même s'accoupler !"
     ageHeader:
-      text: "Age"
+      text: "Âge"
     age:
-      text: "Their age will tick up once for every full day that has passed."
+      text: "M'âge de cette créature va s'incrémenter par 1 chaque jour qui passe."
     lifeExpectancyHeader:
-      text: "Life Expectancy"
+      text: "Espérance de vie"
     lifeExpectancy:
-      text: "How long this creature is expected to live, tied to constitution. When basic needs are not met or the more struggles, illness and injuries they have in their life, the faster constitution will drop, and in turn their life expectancy."
+      text: "Combien de temps cette créature est censée vivre, en lien avec sa nature. Moins ses besoins fondamentaux sont satisfaits et plus elle participe à des combats, se fait blesser ou tombe malade, plus leur état de vie diminue rapidement et par conséquent, leur espérance de vie."
     immortalHeader:
-      text: "Immortal"
+      text: "Immortel"
     immortal:
-      text: "This creature will never die of old age."
+      text: "Cette créature ne mourra jamais de vieillissement."
     energyHeader:
-      text: "Energy"
+      text: "Energie"
     energy:
-      text: "If energy drops too low, they will go find a place to rest. Energy drops slightly faster when they're working or fighting."
+      text: "Si l'énergie diminue de trop, cette créature ira se reposer. L'énergie diminue légèrement plus rapidement au combat ou au travail."
     lifelongConstitutionHeader:
-      text: "Lifelong Constitution"
+      text: "État de vie"
     lifelongConstitution:
-      text: "The overall constitution of the creature, tied to life expectancy. When basic needs are not met or the more struggles, illness and injuries they have in their life, the faster constitution will drop, and in turn their life expectancy."
+      text: "L'état global de la créature, lié à son espérance de vie. Moins ses besoins fondamentaux sont satisfaits et plus elle participe à des combats, se fait blesser ou tombe malade, plus leur état de vie diminue rapidement et par conséquent, leur espérance de vie."
     socialHeader:
       text: "Social"
     social:
-      text: "Low social will cause happiness to drop. But if there are creatures nearby to chat with, they will take a break and chat to increasing their social. Elders will share their wisdom while chatting, giving the recipient experience."
+      text: "Un faible niveau social fera chuter le bonheur. Mais si il y a des créatures à proximité avec qui cette créature peut parler, elle prendra une pause et bavardera pour améliorer ses relations sociales. Les doyens partageront leur sagesse en discutant, et transmettent ainsi leur experience à leur interlocuteur."
     strengthHeader:
-      text: "Strength"
+      text: "Force"
     strength:
-      text: "Primary stat for determining their attack damage, and secondary for attack speed, also increases hit points, how many resources they can carry and work speeds."
+      text: "Propriété primaire déterminant les dégâts d'attaque de cette créature, et secondaire pour déterminer la vitesse d'attaque. Permet aussi d'améliorer les points de vie, combien de ressources elle peut transporter et sa vitesse de travail."
     dexterityHeader:
-      text: "Dexterity"
+      text: "Dexterité"
     dexterity:
-      text: "Primary stat for determining their attack speed, and secondary for attack damage, also increases movement and work speeds."
+      text: "Propriété primaire déterminant la vitesse d'attaque de cette créature, et secondaire pour déterminer les dégâts d'attaque. Permet aussi d'améliorer les vitesses de travail et de déplacement."
     intelligenceHeader:
       text: "Intelligence"
     intelligence:
-      text: "Generally improves all work speeds and combat efficiency, and boosts the amount of experience gained doing tasks."
+      text: "Améliore toutes les vitesses de travail et l'efficacité au combat de manière globale, et augmente la quantité d'expérience acquise en exécutant des tâches."
     experienceBarHeader:
-      text: "Experience Bar"
+      text: "Bar d'expérience"
 
   inventorySlot:
     head:
-      text: "Head Slot"
+      text: "Emplacement de casque"
     chest:
-      text: "Chest Slot"
+      text: "Emplacement de plastron"
     tool:
-      text: "Tool Slot"
+      text: "Emplacement d'outil"
     weapon:
-      text: "Weapon Slot"
+      text: "Emplacement d'arme"
     shield:
-      text: "Shield Slot"
+      text: "Emplacement de bouclier"
     recovery:
-      text: "Recovery Slot"
+      text: "Emplacement de guérison"
     water:
-      text: "Water Slot"
+      text: "Emplacement d'eau"
     food:
-      text: "Food Slot"
+      text: "Emplacement de nourriture"
     rangedWeapon:
-      text: "Ranged Weapon Slot"
+      text: "Emplacement d'arme de jet"
     rangedWeaponAmmo:
-      text: "Ranged Weapon Ammo Slot"
+      text: "Emplacement de munitions d'arme de jet"
             
   boostedMobPrefix:
-    text: "The $CYA1Boosted$WHI0 {mobName}!"
+    text: "Le {mobName} $CYA1renforcé$WHI0 !"
   mobNamePrefix:
-    text: "The {mobName}"
+    text: "Le {mobName}"
   mobJobNamePrefix:
-    text: "The {mobJobName}"
+    text: "Le {mobJobName}"
   pregnant:
-    text: "$BLU1Pregnant"
+    text: "$BLU1Enceinte"
   damageResistance:
-    text: "Damage Resistance"
+    text: "Résistance aux dégâts"
   damageVulnerabilities:
-    text: "Damage Vulnerabilities"
+    text: "Vulnérabilités"
   meleeDamage:
-    text: "Melee Damage: $GRE1{damageType}"
+    text: "Dégâts de mêlée : $GRE1{damageType}"
   rangedDamage:
-    text: "Ranged Damage: $GRE1{damageType}"
+    text: "Dégâts à distance : $GRE1{damageType}"
   
   statusEffect:
     blighted:
       comment: "Do not remove the trailing comma and space. Will mess up formatting."
-      text: "$YEL1Blighted, "
+      text: "$YEL1Infecté, "
     poison:
       comment: "Do not remove the trailing comma and space. Will mess up formatting."
-      text: "$GRE1Poisoned, "
+      text: "$GRE1Empoisonné, "
     dysentery:
       comment: "Do not remove the trailing comma and space. Will mess up formatting."
-      text: "$GRE1Has dysentery, "
+      text: "$GRE1Dysentérique, "
     onFire:
       comment: "Do not remove the trailing comma and space. Will mess up formatting."
-      text: "$RED1On Fire, "
+      text: "$RED1En feu, "
     frozen:
       comment: "Do not remove the trailing comma and space. Will mess up formatting."
-      text: "$BLU1Frozen, "
+      text: "$BLU1Glacé, "
     conjuntion:
       comment: "This pops up in the second to last status entry, when statuses are stacked. Don't forget the trailing space."
-      text: "$WHI0 and "
+      text: " $WHI0et "
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Play State
