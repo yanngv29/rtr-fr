@@ -3478,39 +3478,39 @@ playResourceAndInfluenceBar:
   button:
     tooltip:
       sortingHeader:
-        text: "Sorting"
+        text: "Affichage"
       sorting:
-        text: "Change the totals display filter."
+        text: "Change les totaux affichés."
         
   tooltip:
     totalGoldCoinsHeader:
-      text: "Total Gold Coins"
+      text: "Total de pièces d'or"
     totalGoldCoins:
-      text: "Total amount of gold coins in the entire village."
+      text: "Montant total de pièces d'or dans l'entièreté du village."
     totalWaterHeader:
-      text: "Total Water"
+      text: "Quantité total d'eau"
     totalWater:
-      text: "Total drinkable water in all buildings combined that can store it, like rain catchers, houses, and wells. Does not include dirty water."
+      text: "Quantité totale d'eau potable dans tous les bâtiments qui peuvent en contenir comme les collecteurs d'eau, les logements et les puits. Ne compte pas l'eau sale."
     totalEnergyHeader:
-      text: "Total Energy"
+      text: "Énergie totale"
     totalEnergy:
-      text: "Total energy in all buildings combined that can store it, like essence collectors, golem combobulators, and magic towers."
+      text: "Montant total d'énergie dans tous les bâtiments qui peuvent en contenir comme les collecteurs d'essence, les combobulateurs de golems et les tours utilisant de la magie."
     totalInfluenceHeader:
       text: "Influence"
     totalInfluence:
-      text: "The total influence you currently have to cast spells with. Influence is refilled slowly over time, or by hovering your hand over loose essence in the world. You can increase you maximum influence by raising your village population."
+      text: "L'influence totale que tu possède et qui peut être utilisée pour lancer des sorts. L'influence se remplit lentement au fil du temps, ou en survolant de l'essence libre avec ta main. Tu peux améliorer ton influence maximale en augmentant la population de ton village."
   
   sort:
     total:
      text: "Total"
     equip:
-      text: "Equip"
+      text: "Equipé"
     carry:
-      text: "Carry"
+      text: "Porté"
     ground:
-      text: "Ground"
+      text: "Au sol"
     stored:
-      text: "Stored"
+      text: "Stocké"
       
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Play State
