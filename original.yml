@@ -1,3 +1,26 @@
+# How to edit: simply change the text following the equals (=) sign and save the file!
+
+# Variables: The %%0, %%1, %%2, etc are variables for the phrase, to print dynamic data on screen. For example "You have %%0 villagers", %%0 would be the villager count itself. These must remain in the translated version as well, or the actual data will never be displayed.
+
+# Colors: If you need to change around the coloring of text, it's fairly simple. All text by default is white, you need to add $COL1 where "COL" is the color code, and 0 through 2 is the brightness. Most text should have brightness set to 1. I recommend not changing the color codes used in each line (Although you can, it won't hurt anything), but for your language you may have to rearrange them a bit. Remember, changing the color will change all the color following that line until another color code is entered. So "My cat is $RED1red, and it's pretty!" will make "red, and it's pretty!" all in red. Where as "My cat is $RED1red$WHI0, and it's pretty!" will only set the word "red" to the color RED1.
+# Valid Color Codes:
+# White/Default:  WHI0
+# Yellow:         YEL0, YEL1, YEL2
+# Red:            RED0, RED1, RED2
+# Green:          GRE0, GRE1, GRE2
+# Blue:           BLU0, BLU1, BLU2
+# Black/Grey:     BLA0, BLA1, BLA2
+# Cyan:           CYA0, CYA1, CYA2
+# Pink:           PIN0, PIN1, PIN2
+# Orange:         ORA0, ORA1, ORA2
+# Magenta:        MAG0, MAG1, MAG2
+
+# Line Breaks: DO NOT EVER HIT ENTER/RETURN TO MAKE LINE BREAKS. To make a line break you must use the tilde (~) key. For example; "This is Line 1,~and this is Line 2" will print two lines, with "This is Line 1" on line one, and "and this is Line 2." on the second.
+
+# Text Size Adjustment: In some cases, your new text may not fit in the box it is designed to go inside. If thats the case, you can increase/decrease the font size for that specific line by adding a new setting called TEXT_NAME_SIZE_ADJUSTMENT. For example, if you wanted to increase the MM_P_REVIEW_SUB_HEADER font by 2, add MM_P_REVIEW_SUB_HEADER_SIZE_ADJUSTMENT below MM_P_REVIEW_SUB_HEADER and set the value to "2", or, if you wanted to decrease it by 1, input "-1". If you're finding yourself needing to change a large majority of text, keep in mind that you can increase the font as a whole inside the configuration.settings file instead. If you picked a custom font, and everything feels too big or small, you likely should be increasing the font site in configuration.settings, NOT HERE. The only time you should be changing sizes here is if your text ends up too long/short to fit where it was designed to. Note that some text can not be adjusted!
+
+# Any time a line is left blank or removed, the game will load the default English version.
+
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # God Module
 # God XP Types
@@ -133,7 +156,108 @@ godXP:
     text: "Throw Resources in Cullis Gate"
   throwCreaturesInCullisGate:
     text: "Throw Creatures in Cullis Gate"
-  
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# Module Base
+# Module Names and Loading
+# rtr.ModuleBase.java
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+module:
+  comment: "Module Base - Module Names and Loading"
+  javaClass: "rtr.ModuleBase.java"
+
+  loading:
+    starting:
+      text: "Starting..."
+    module:
+      text: "{moduleName} Module"
+    syncing:
+      text: "Syncing {moduleName} Module"
+    mapFBO:
+      text: "Map FBO"
+    done:
+      text: "Done!"
+      
+  time:
+    text: "Time"
+  background:
+    text: "Background"
+  data:
+    text: "Data"
+  goal:
+    text: "Goal"
+  god:
+    text: "God"
+  perk:
+    text: "Perk"
+  road:
+    text: "Road"
+  shadow:
+    text: "Shadow"
+  sound:
+    text: "Sound"
+  stats:
+    text: "Stats"
+  transition:
+    text: "Transition"
+  chest:
+    text: "Chest"
+  font:
+    text: "Font"
+  help:
+    text: "Help"
+  influence:
+    text: "Influence"
+  lighting:
+    text: "Lighting"
+  collision:
+    text: "Collision"
+  depth:
+    text: "Depth"
+  map:
+    text: "Map"
+  miniMap:
+    text: "MiniMap"
+  waypoint:
+    text: "Waypoint"
+  workSelection:
+    text: "Work Selection"
+  mapAI:
+    text: "Map AI"
+  missile:
+    text: "Missile"
+  migration:
+    text: "Migration"
+  mob:
+    text: "Mob"
+  essence:
+    text: "Essence"
+  mobJob:
+    text: "Mob Job"
+  object:
+    text: "Object"
+  particle:
+    text: "Particle"
+  lootBox:
+    text: "Loot Box"
+  resource:
+    text: "Resource"
+  trade:
+    text: "Trade"
+  save:
+    text: "Save"
+  corruption:
+    text: "Corruption"
+  spawn:
+    text: "Spawn"
+  weather:
+    text: "Weather"
+  projectile:
+    text: "Projectile"
+  profile:
+    text: "Profile"
+
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Perk Module
 # Perk Types
