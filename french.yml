@@ -3353,117 +3353,117 @@ playProblemPanel:
   javaClass: "rtr.gui.states.playstate.ProblemPanel.java"
   
   header:
-    text: "Problem Panel"
+    text: "Panneau des problèmes"
   minorIssues:
-    text: "$YEL1{amount} Minor Issues"
+    text: "$YEL1{amount} problèmes mineurs"
   moderateIssues:
-    text: "$ORA1{amount} Moderate Issues"
+    text: "$ORA1{amount} problèmes modérés"
   majorIssues:
-    text: "$RED1{amount} Major Issues"
+    text: "$RED1{amount} problèmes majeurs"
 
   problem:
     noFood:
-      text: "* $RED1There is no harvested food."
+      text: "* $RED1Il n'y a pas de nourriture récoltée."
     noWater:
-      text: "* $RED1There is no drinkable water."
+      text: "* $RED1Il n'y a pas d'eau potable."
     noHomes:
-      text: "* $RED1There are no homes."
+      text: "* $RED1Il n'y a pas de maison."
     lowVillagers:
-      text: "* $ORA1There are very few villagers."
+      text: "* $ORA1Il y a très peu de villageois."
     tooMuchConstruction:
-      text: "* $YEL1Too many buildings are under construction."
+      text: "* $YEL1Trop de bâtiments sont en construction."
     dangerouslyCold:
-      text: "* $RED1It is dangerously cold outside."
+      text: "* $RED1Il fait dangereusement froid dehors."
     veryCold:
-      text: "* $YEL1It is very cold outside."
+      text: "* $YEL1Il fait très froid dehors."
     dangerouslyHot:
-      text: "* $RED1It is dangerously hot outside."
+      text: "* $RED1Il fait dangereusement chaud dehors."
     veryHot:
-      text: "* $YEL1It is very hot outside."
+      text: "* $YEL1Il fait très chaud dehors."
     recentlyDied:
-      text: "* $YEL1{amount} villager recently died."
+      text: "* $YEL1{amount} villageois est mort récemment."
     recentlyDiedPlural:
-      text: "* $YEL1{amount} villagers recently died."
+      text: "* $YEL1{amount} villageois sont morts récemment."
     villagersHungry:
-      text: "* $ORA1{amount} villager is hungry."
+      text: "* $ORA1{amount} villageois a faim."
     villagersHungryPlural:
-      text: "* $ORA1{amount} villagers are hungry."
+      text: "* $ORA1{amount} villageois ont faim."
     villagersStarving:
-      text: "* $RED1{amount} villager is starving."
+      text: "* $RED1{amount} villageois est affamé."
     villagersStarvingPlural:
-      text: "* $RED1{amount} villagers are starving."
+      text: "* $RED1{amount} villageois sont affamés."
     villagersThirsty:
-      text: "* $ORA1{amount} villager is thirsty."
+      text: "* $ORA1{amount} villageois a soif."
     villagersThirstyPlural:
-      text: "* $ORA1{amount} villagers are thirsty."
+      text: "* $ORA1{amount} villageois ont soif."
     villagersDehydrated:
-      text: "* $RED1{amount} villager is dehydrated."
+      text: "* $RED1{amount} villageois est déhydraté."
     villagersDehydratedPlural:
-      text: "* $RED1{amount} villagers are dehydrated."
+      text: "* $RED1{amount} villageois sont déhydratés."
     villagersHomeless:
-      text: "* $YEL1{amount} villager is homeless."
+      text: "* $YEL1{amount} villageois est sans-abri."
     villagersHomelessPlural:
-      text: "* $YEL1{amount} villagers are homeless."
+      text: "* $YEL1{amount} villageois sont sans-abris."
     villagersConfused:
-      text: "* $YEL1{amount} villager is confused."
+      text: "* $YEL1{amount} villageois est confus."
     villagersConfusedPlural:
-      text: "* $YEL1{amount} villagers are confused."
+      text: "* $YEL1{amount} villageois sont confus."
     villagersInCombat:
-      text: "* $ORA1{amount} villager is in combat."
+      text: "* $ORA1{amount} villageois est en combat."
     villagersInCombatPlural:
-      text: "* $ORA1{amount} villagers are in combat."
+      text: "* $ORA1{amount} villageois sont en combat."
     villagersOutside:
-      text: "* $YEL1{amount} villager is outside the village."
+      text: "* $YEL1{amount} villageois est en dehors du village."
     villagersOutsidePlural:
-      text: "* $YEL1{amount} villagers are outside the village."
+      text: "* $YEL1{amount} villageois sont en dehors du village."
     villagersCold:
-      text: "* $YEL1{amount} villager is cold."
+      text: "* $YEL1{amount} villageois a froid."
     villagersColdPlural:
-      text: "* $YEL1{amount} villagers are cold."
+      text: "* $YEL1{amount} villageois ont froid."
     villagersFreezing:
-      text: "* $RED1{amount} villager is freezing."
+      text: "* $RED1{amount} villageois gèle."
     villagersFreezingPlural:
-      text: "* $RED1{amount} villagers are freezing."
+      text: "* $RED1{amount} villageois gèlent."
     villagersHot:
-      text: "* $YEL1{amount} villager is hot."
+      text: "* $YEL1{amount} villageois a chaud."
     villagersHotPlural:
-      text: "* $YEL1{amount} villagers are hot."
+      text: "* $YEL1{amount} villagers ont chaud."
     villagersOverHeating:
-      text: "* $RED1{amount} villager is over heating."
+      text: "* $RED1{amount} villageois surchauffe."
     villagersOverHeatingPlural:
-      text: "* $RED1{amount} villagers are over heating."
+      text: "* $RED1{amount} villageois surchauffent."
     villagersUnhappy:
-      text: "* $YEL1{amount} villager is unhappy."
+      text: "* $YEL1{amount} villageois est malheureux."
     villagersUnhappyPlural:
-      text: "* $YEL1{amount} villagers are unhappy."
+      text: "* $YEL1{amount} villageois sont malheureux."
     villagersOnFire:
-      text: "* $RED1{amount} villager is on fire."
+      text: "* $RED1{amount} villageois est en feu."
     villagersOnFirePlural:
-      text: "* $RED1{amount} villagers are on fire."
+      text: "* $RED1{amount} villageois sont en feu."
     noWorkers:
-      text: "* $YEL1{amount} building has no workers."
+      text: "* $YEL1{amount} bâtiment n'a pas de travailleurs."
     noWorkersPlural:
-      text: "* $YEL1{amount} buildings have no workers."
+      text: "* $YEL1{amount} bâtiments n'ont pas de travailleurs."
     noAmmo:
-      text: "* $ORA1{amount} tower has no energy or ammo."
+      text: "* $ORA1{amount} tour n'a pas d'énergie ou de munitions."
     noAmmoPlural:
-      text: "* $ORA1{amount} towers have no energy or ammo."
+      text: "* $ORA1{amount} tours n'ont pas d'énergie ou de munitions."
     noFood:
-      text: "* $ORA1{amount} home has no food."
+      text: "* $ORA1{amount} logement n'a pas de nourriture."
     noFoodPlural:
-      text: "* $ORA1{amount} homes have no food."
+      text: "* $ORA1{amount} logements n'ont pas de nourriture."
     buildingsDamaged:
-      text: "* $ORA1{amount} building is damaged."
+      text: "* $ORA1{amount} bâtiment est endommagé."
     buildingsDamagedPlural:
-      text: "* $ORA1{amount} buildings are damaged."
+      text: "* $ORA1{amount} bâtiments sont endommagés."
     monstersInVillage:
-      text: "* $ORA1{amount} monster is in the village."
+      text: "* $ORA1{amount} monstre est dans le village."
     monstersInVillagePlural:
-      text: "* $ORA1{amount} monsters are in the village."
+      text: "* $ORA1{amount} monstres sont dans le village."
     monstersAttackingBuildings:
-      text: "* $ORA1{amount} monster is attacking a building."
+      text: "* $ORA1{amount} monstre attaque un bâtiment."
     monstersAttackingBuildingsPlural:
-      text: "* $ORA1{amount} monsters are attacking a building."
+      text: "* $ORA1{amount} monstres attaquent un bâtiment."
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Play State
