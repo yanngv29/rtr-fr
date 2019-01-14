@@ -3858,7 +3858,7 @@ playSelectedObjectPanel:
   homeBonusesHeader:
     text: "$CYA1Bonus de logements"
   sleepSpeedBoost:
-    text: "$GRE0{amount}% $WHI0vitesse du someil"
+    text: "$GRE0{amount}% $WHI0vitesse de sommeil"
   happinessBoost:
     text: "$GRE0{amount} $WHI0amélioration du bonheur"
   healthRegenerationBoost:
@@ -3882,113 +3882,113 @@ playSelectedObjectUpgradePanel:
   
   header:
     constructionRequirements:
-      text: "Construction Requirements"
+      text: "Prérequis de construction"
     requiredSupport:
-      text: "Required Support"
+      text: "Support requis"
     recommendedSupport:
-      text: "Recommended Support"
+      text: "Support recommandé"
     canStore:
-      text: "Can Store"
+      text: "Peut stocker"
     globalBonuses:
-      text: "$CYA1Global Bonuses"
+      text: "$CYA1Bonus globaux"
     homeBonuses:
-      text: "$CYA1Home Bonuses"
+      text: "$CYA1Bonus de logement"
     defensiveTower:
-      text: "Defensive Tower"
+      text: "Tour défensive"
       
   constructionRequirements:
-    text: "Requires $RED1{buildingName}$WHI0 for $RED1{resourceName}"
+    text: "Requiert $RED1{buildingName}$WHI0 pour la production de $RED1{resourceName}"
   supportConjuntion:
     comment: "In some cases, some buildings may require or support multiple buildings, this is the conjuntion portion of the string."
     text: "$WHI0 or $RED0"
   maximumStorage:
-    text: "Maximum Storage: $GRE1+{amount}"
+    text: "Stockage maximal : $GRE1+{amount}"
   energy:
-    text: "$YEL1+{amount} Energy"
+    text: "$YEL1+{amount} Energie"
   globalSpeed:
-    text: "$GRE0+{amount}% $WHI0Global"
+    text: "$GRE0+{amount}% $WHI0global"
   buildingSpeed:
-    text: "$GRE0+{amount}% $WHI0Building"
+    text: "$GRE0+{amount}% $WHI0construction"
   buildRoadSpeed:
-    text: "$GRE0+{amount}% $WHI0Build Road"
+    text: "$GRE0+{amount}% $WHI0construction de routes"
   dismantlingSpeed:
-    text: "$GRE0+{amount}% $WHI0Dismantling"
+    text: "$GRE0+{amount}% $WHI0démantèlement"
   clearingSpeed:
-    text: "$GRE0+{amount}% $WHI0Clearing"
+    text: "$GRE0+{amount}% $WHI0nettoyage"
   repairingSpeed:
-    text: "$GRE0+{amount}% $WHI0Repairing"
+    text: "$GRE0+{amount}% $WHI0réparation"
   repairRoadSpeed:
-    text: "$GRE0+{amount}% $WHI0Repair Road"
+    text: "$GRE0+{amount}% $WHI0réparation de routes"
   farmingSpeed:
-    text: "$GRE0+{amount}% $WHI0Farming"
+    text: "$GRE0+{amount}% $WHI0agriculture"
   medicWorkSpeed:
-    text: "$GRE0+{amount}% $WHI0Medic Work"
+    text: "$GRE0+{amount}% $WHI0médecine"
   harvestSpeed:
-    text: "$YEL1Harvest Speed"
+    text: "$YEL1Vitesse de récolte"
   refineSpeed:
-    text: "$YEL1Refine Speed"
+    text: "$YEL1Vitesse de raffinage"
   sleepSpeedPlus:
-    text: "$GRE0{amount}% $WHI0Sleep Speed"
+    text: "$GRE0{amount}% $WHI0vitesse de sommeil"
   sleepSpeedMinus:
-    text: "$RED0{amount}% $WHI0Sleep Speed"
+    text: "$RED0{amount}% $WHI0vitesse de sommeil"
   happinessBoostPlus:
-    text: "$GRE0+{amount} $WHI0Happiness Boost"
+    text: "$GRE0+{amount} $WHI0amélioration du bonheur"
   happinessBoostMinus:
-    text: "$RED0{amount} $WHI0Happiness Boost"
+    text: "$RED0{amount} $WHI0amélioration du bonheur"
   healthRegenerationPlus:
-    text: "$GRE0+{amount} $WHI0Health Regeneration"
+    text: "$GRE0+{amount} $WHI0régénération de la vie"
   healthRegenerationMinus:
-    text: "$RED0{amount} $WHI0Health Regeneration"
+    text: "$RED0{amount} $WHI0régénération de la vie"
   staticTowerDamageOverride:
-    text: "Damage: $GRE1Electric (3-8)"
+    text: "Dégâts : $GRE1électrique (3-8)"
   chargedDamage:
-    text: "Charged Damage: $GRE1{damageType} (+{damageMinimum}-{damageMaximum})"
+    text: "Dégâts chargés : $GRE1{damageType} (+{damageMinimum}-{damageMaximum})"
   damage:
-    text: "Damage: $GRE1{damageType} (+{damageMinimum}-{damageMaximum})"
+    text: "Dégâts : $GRE1{damageType} (+{damageMinimum}-{damageMaximum})"
   unchargedDamage:
-    text: "Uncharged Damage: {damageType} $RED0(+{damageMinimum}-{damageMaximum})"
+    text: "Dégâts non chargés: {damageType} $RED0(+{damageMinimum}-{damageMaximum})"
   ammo:
-    text: "Ammo Per Bundle: $GRE1+{amount}"
+    text: "Munitions par paquet : $GRE1+{amount}"
   energyPerShot:
-    text: "Energy Per Shot: $GRE1+{amount}"
+    text: "Énergie par tir : $GRE1+{amount}"
   reloadTime:
-    text: "Reload Time: $GRE1+{amount}"
+    text: "Temps de rechargement : $GRE1+{amount}"
   firingRange:
-    text: "Firing Range: $GRE1+{amount}"
+    text: "Portée de tir : $GRE1+{amount}"
   canSpawnCreatures:
-    text: "Can Spawn Creatures"
+    text: "Peut invoquer des créatures"
   spawnsMob:
-    text: "Spawns $GRE1{mobName}"
+    text: "Invocation de $GRE1{mobName}"
   maximumSpawns:
-    text: "Maximum Spawns: $GRE1+{amount}"
+    text: "Nb d'invocations maximum : $GRE1+{amount}"
   spawnNeedsResourcesAndEnergy:
-    text: "Needs $GRE1{resourceName}$WHI0 and $GRE1+{amount} Energy$WHI0 to Spawn"
+    text: "Requiert $GRE1{resourceName} $WHI0et $GRE1+{amount} d'énergie $WHI0pour invoquer"
   spawnNeedsEnergy:
-    text: "Needs $GRE1+{amount} Energy $WHI0to Spawn"
+    text: "Requiert $GRE1+{amount} d'énergie $WHI0pour invoquer"
   spawnNeedsResources:
-    text: "Needs $GRE1{resourceName}$WHI0 to Spawn"
+    text: "Requiert $GRE1{resourceName} $WHI0pour invoquer"
   rangeGenerated:
-    text: "Range Generated: $GRE1+{amount}"
+    text: "Portée générée : $GRE1+{amount}"
   desirability:
-    text: "Desirability: $GRE1+{amount}"
+    text: "Attractivité : $GRE1+{amount}"
   corruptionResistance:
-    text: "Corruption Resistance: $GRE1+{amount}"
+    text: "Résistance à la corruption : $GRE1+{amount}"
   guardHousingCapacity:
-    text: "Guard Housing Capacity: $GRE1+{amount}"
+    text: "Capacité d'hébergement de gardes : $GRE1+{amount}"
   housingCapacity:
-    text: "Housing Capacity: $GRE1+{amount}"
+    text: "Capacité du logement : $GRE1+{amount}"
   workersSlots:
-    text: "Workers Slots: $GRE1+{amount} {mobJobName}"
+    text: "Travailleurs : $GRE1+{amount} {mobJobName}"
   buildingSlotsProvided:
-    text: "Building Slots Provided: $GRE1+{amount}"
+    text: "Capacité de construction fournie : $GRE1+{amount}"
   acceptsEssence:
-    text: "Accepts Essence From Collectors"
+    text: "Accepte l'essence des collecteurs d'essence"
   canCollectRawEssence:
-    text: "Can Collect Raw Essence"
+    text: "Peut collecter de l'essence brute"
   consumesCrylithium:
-    text: "Consumes Crylithium for Fuel"
+    text: "Consomme du crylithium en tant que carburant"
   canBuildRoads:
-    text: "Can Build Roads"
+    text: "Peut construire des routes"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Play State
