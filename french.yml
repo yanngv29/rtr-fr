@@ -4812,41 +4812,41 @@ playSystemAndDataBar:
   button:
     tooltip:
       mainMenuHeader:
-        text: "Main Menu ({shortcutKey})"
+        text: "Menu principal ({shortcutKey})"
       mainMenu:
-        text: "Exit the game, or change some settings."
+        text: "Quitte le jeu, ou changer quelques paramètres."
       minimapHeader:
-        text: "Minimap ({shortcutKey})"
+        text: "Minicarte ({shortcutKey})"
       minimap:
-        text: "View the entire map."
+        text: "Voir la carte en entier."
       statisticsHeader:
-        text: "Statistics"
+        text: "Statistiques"
       statistics:
-        text: "View various tracked game statistics."
+        text: "Voir différentes données du jeu."
       dataViewsHeader:
-        text: "Data Views ({shortcutKey})"
+        text: "Vue de données ({shortcutKey})"
       dataViews:
-        text: "View various overlay data maps."
+        text: "Voir diverses cartes de données."
       problemPanelHeader:
-        text: "Problem Panel ({shortcutKey})"
+        text: "Problèmes ({shortcutKey})"
       problemPanel:
-        text: "Lists several red flags in the village that may need taken care of."
+        text: "Listes plusieurs alertes concernant le village et dont vous devez vous occuper."
       buildingListHeader:
-        text: "Building List ({shortcutKey})"
+        text: "Liste des bâtiments ({shortcutKey})"
       buildingList:
-        text: "View a list of all buildings within the village, and rearrange construction priority."
+        text: "Réorganiser les proprités de construction et voir une liste de tous les bâtiments dans le village."
       populationListHeader:
-        text: "Population List ({shortcutKey})"
+        text: "Liste de la population ({shortcutKey})"
       populationList:
-        text: "View the entire village's population, and overall status of the villagers."
+        text: "Voir l'entièreté de la population du village, et le status global des villageois."
       villagerEfficiencyHeader:
-        text: "Village Efficiency"
+        text: "Efficacité du village"
       villagerEfficiency:
-        text: "View the village's current overall work speed based on upgraded buildings, god perks, weather and other conditions."
+        text: "Visualisez la vitesse de travail globale actuelle du village en fonction des bâtiments améliorés, des bonus divins, de la météo et d'autres conditions."
       musicHeader:
-        text: "Music"
+        text: "Musique"
       music:
-        text: "View a list of all available music tracks, and change the current track if desired."
+        text: "Visualisez la liste de toutes les pistes de musique disponibles, et changez la piste actuelle si désiré."
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Play State
