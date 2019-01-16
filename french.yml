@@ -4897,34 +4897,34 @@ playVillageEfficiencyPanel:
   
   header:
     villageEfficiency:
-      text: "Village Efficiency"
+      text: "Efficacité du village"
     general:
-      text: "$YEL1General"
+      text: "$YEL1Général"
     harvestSpeed:
-      text: "$YEL1Harvest Speed"
+      text: "$YEL1Vitesse de récolte"
     refiningSpeed:
-      text: "$YEL1Refining Speed"
+      text: "$YEL1Vitesse de raffinage"
       
   globalSpeed:
-    text: "Global Speed"
+    text: "Vitesse globale"
   weather:
-    text: "Weather"
+    text: "Temps"
   building:
-    text: "Building"
+    text: "Bâtiments"
   repairing:
-    text: "Repairing"
+    text: "Réparation"
   buildRoad:
-    text: "Build Road"
+    text: "Construction de routes"
   repairRoad:
-    text: "Repair Road"
+    text: "Réparation de routes"
   farming:
-    text: "Farming"
+    text: "Agriculture"
   medicWork:
-    text: "Medic Work"
+    text: "Médecine"
   clearing:
-    text: "Clearing"
+    text: "Nettoyage"
   dismantling:
-    text: "Dismantling"
+    text: "Démantèlement"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Play State
