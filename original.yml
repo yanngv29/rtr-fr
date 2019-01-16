@@ -156,7 +156,7 @@ godXP:
     text: "Throw Resources in Cullis Gate"
   throwCreaturesInCullisGate:
     text: "Throw Creatures in Cullis Gate"
-
+  
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Module Base
 # Module Names and Loading
@@ -257,7 +257,7 @@ module:
     text: "Projectile"
   profile:
     text: "Profile"
-
+    
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Perk Module
 # Perk Types
@@ -1237,7 +1237,340 @@ season:
     text: "Summer"
   autumn:
     text: "Autumn"
+    
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# Console
+# Console Panel and Banner Messages
+# rtr.console.Console.java
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
+console:
+  comment: "Console - Console Panel and Banner Messages"
+  javaClass: "rtr.console.Console.java"
+  
+  panel:
+    coitus:
+      text: "{mobName} $WHI0mated with {mateMobName} $WHI0!"
+    isPregnant:
+      text: "{mobName} $PIN1is pregnant!"
+    object:
+      destroyed:
+        text: "{buildingName} $RED1has been destroyed!"
+      repaired:
+        text: "{buildingName} $GRE1has been fully repaired."
+      completed:
+        text: "{buildingName} $WHI0has been completed."
+      dismantled:
+        text: "{buildingName} $YEL1has been dismantled."
+    autosave:
+      text: "$GRE1Autosave $WHI0-$GRE2 {time}"
+    save:
+      text: "$GRE1Save Complete, took $WHI0-$GRE2 {time}"
+    fullMapScreenshot:
+      text: "Full map screenshot saved to $GRE1{filePath}"
+    screenshot:
+      text: "Screenshot saved to $GRE1{filePath}"
+      
+  banner:
+    time:
+      newDayBanner:
+        newDayBannerHeader:
+          text: "{season}, day {currentDay}"
+        nextSeasonArrivesTomorrow:
+          text: "{season} will arrive tomorrow!"
+        daysUntilNextSeason:
+          text: "{season} will arrive in {days} days."
+        monstersArriveTomorrow:
+          text: "$RED0Monsters $WHI0will arrive tomorrow!" 
+        daysUntilMonsters:
+          text: "$RED0Monsters $WHI0will arrive in {days} days!"
+      
+      feelsOminous:
+        header:
+          yellow:
+            text: "$YEL1It feels ominous?"
+          red:
+            text: "$RED1It feels ominous?"
+        subtitle:
+          text: "What is going on?"
+      
+      anEclipse:
+        header:
+          text: "$YEL1An Eclipse!"
+        subtitle:
+          text: "All is dark, the monsters are enraged!"
+          
+      duskArrived:
+        header:
+          text: "$GRE0Dusk has arrived.."
+        subtitle:
+          peaceful:
+            comment: "No monsters will spawn, but you're in a game mode where they usually can."
+            text: "Everything feels peaceful?"
+          restless:
+            comment: "Monsters are starting to spawn."
+            text: "The monsters seem restless."
+          alwaysPeaceful:
+            comment: "Peaceful mode's subtitle, where no monsters ever spawn."
+            text: "It feels peaceful."
+
+      nightArrived:
+        header:
+          green:
+            text: "$GRE0Night has arrived.."
+          blue:
+            text: "$BLU0Night has arrived.."
+        subtitle:
+          fullMoon:
+            text: "It's a full moon, and the monsters are calm."
+          enraged:
+            text: "The monsters are enraged!"
+          calm:
+            text: "Everything is calm."
+      
+      bloodMoon: 
+        header:
+          text: "$RED1The Blood Moon Rises!"
+        subtitle:
+          text: "The monsters are enraged!"
+      
+      newSeason: 
+        header:
+          text: "{season}$WHI0 has started!"
+        subtitle:
+          text: "$WHI0 Good luck!"
+          
+    migration:
+      migrantsArrived:
+        header:
+          text: "$GRE1{amount}$WHI0 migrants have arrived"
+        subtitle:
+          text: "from $YEL1{regionName}$WHI0!"
+    mob:
+      born:
+        subtitle:
+          text: "has been born!"
+      hired:
+        subtitle:
+          text: "has been hired!"
+      grownUp:
+        subtitle:
+          text: "has grown up!"
+      elder:
+        subtitle:
+          text: "has become an elder!"
+      migrantPrepared:
+        subtitle:
+          text: "has prepared to leave your village!"
+      nomadJoined:
+        subtitle:
+          text: "has joined your village!"
+      wildDoggoDomesticate:
+        subtitle:
+          text: "the Doggo has joined your village!"
+          
+    mobAI:
+      childBirthDeath:
+        header:
+          text: "{mobName}'s child died during child birth!"
+        subtitle:
+          text: "Such a real shame."
+      turnedIntoZombie:
+        header:
+          text: "Blight has turned {mobName}$WHI0's corpse into a $RED1{mobType}$WHI0!"
+        subtitle:
+          text: "So much for resting in peace."
+      death:
+        title:
+          comment: "Some mobs, like the doggo, need their title inputted into the death messages. This string will be inputted where {mobTitle} is in all death strings under the death header category."
+          text: "$WHI0 the {mobType}"
+        header:
+          frozen:
+            text: "{mobName}{mobTitle}$RED1 froze to death!"
+          byMob:
+            text: "{mobName}{mobTitle}$WHI0 was killed by {killerMob}$WHI0!"
+          byBuilding:
+            text: "{mobName}{mobTitle}$WHI0 was killed by a {buildingName}$WHI0!"
+          byUnknown:
+            text: "{mobName}{mobTitle}$WHI0 died!"
+          crashing:
+            text: "{mobName}{mobTitle}$RED1 was crushed to death!"
+          dehydration:
+            text: "{mobName}{mobTitle}$RED1 died of dehydration!"
+          blight:
+            text: "{mobName}{mobTitle}$RED1 died from blight!"
+          dropped:
+            text: "{mobName}{mobTitle}$RED1 was dropped too hard on the ground, and died!"
+          fire:
+            text: "{mobName}{mobTitle}$RED1 burned to death!"
+          god:
+            text: "{mobName}{mobTitle}$RED1 was mudered by their god!"
+          heat:
+            text: "{mobName}{mobTitle}$RED1 died of heat exhaustion!"
+          lightning:
+            text: "{mobName}{mobTitle}$RED1 was struck by lightning!"
+          magic:
+            text: "{mobName}{mobTitle}$RED1 was killed by something magical!"
+          unknown:
+            text: "{mobName}{mobTitle}$RED1 died mysteriously?"
+          piercing:
+            text: "{mobName}{mobTitle}$RED1 was killed by a piercing blow!"
+          poisoned:
+            text: "{mobName}{mobTitle}$RED1 was poisoned, and died!"
+          dysentery:
+            text: "{mobName}{mobTitle}$RED1 has died of dysentery!"
+          starved:
+            text: "{mobName}{mobTitle}$RED1 starved to death!"
+          tower:
+            text: "{mobName}{mobTitle}$RED1 was killed by a defensive tower!"
+          earthquake:
+            text: "{mobName}{mobTitle}$RED1 died in a terrible earthquake!"
+          hail:
+            text: "{mobName}{mobTitle}$RED1 was pelted to death by hail!"
+          meteor:
+            text: "{mobName}{mobTitle}$RED1 was crushed by a meteor!"
+          age:
+            text: "{mobName}{mobTitle}$RED1 died of natural causes."
+          birth:
+            text: "{mobName}{mobTitle}$RED1 died giving birth!"
+            
+        ageSubtitle:
+          male:
+            text: "He lived a good life."
+          female:
+            text: "SHe lived a good life."
+          none:
+            text: "They lived a good life."
+            
+        randomSubtitles:
+          comment: "These death messages generate the correct gender pronouns when displayed based on the variable entries below. eg (malePronoun:femalePronoun:none). You may add or remove your own, or edit the contents of them. But they MUST remain in (malePronoun:femalePronoun:none) format. You can not add or remove from the entry, it must always have 3 values."
+          0:
+            text: "(He:She:They) should not have gotten out of bed this morning."
+          1:
+            text: "That's a real shame..."
+          2:
+            text: "May (he:she:they) rest in pieces."
+          3:
+            text: "...a glorious death!"
+          4:
+            text: "If only it could have been avoided."
+          5:
+            text: "No one liked (him:her:them) anyway."
+          6:
+            text: "What a terrible way to die!"
+          7:
+            text: "That's going to be a mess to cleanup."
+          8:
+            text: "There are certainly better ways to die."
+          9:
+            text: "What an embarrassing thing to write on a tombstone."
+          10:
+            text: "Chances are, it was probably your fault."
+          11:
+            text: "(He'll:She'll:They'll) make a fine heap."
+          12:
+            text: "(He:She:They) took one for the team..."
+          13:
+            text: "Sometimes you eat the bear and sometimes the bear eats you."
+          14:
+            text: "Another one bites the dust!"
+          15:
+            text: "I'm sorry. I'm so, so sorry."
+          16:
+            text: "Wasted!"
+          17:
+            text: "(He:She:They) always had trouble with critical thinking..."
+          18:
+            text: "Today was a good day to die!"
+          19:
+            text: "...some would call it 'Alternative survived'"
+          20:
+            text: "Tis but a scratch."
+          21:
+            text: "Tis but a flesh wound."
+          22:
+            text: "(He:She:They) didn't know about IDDQD."
+          23:
+            text: "(He:She:They) gave up the ghost."
+          24:
+            text: "(He:She:They) was only one day from retirement."
+          25:
+            text: "Just shows there are worse things to worry about than vaccines."
+          26:
+            text: "(His:Her:Their) mother always told (him:her:them) not to do that."
+          27:
+            text: "Looks like it was a bad decision to get out of bed this morning."
+          28:
+            text: "(He:She:They) died doing what (he:she:they) loved."
+          29:
+            text: "As was written in the prophecy."
+          30:
+            text: "One of the lucky ones."
+          31:
+            text: "That wasn't supposed to happen."
+          32:
+            text: "Plenty more where (he:she:they) came from, hopefully."
+          33:
+            text: "(He's:She's:They're) pushing up daisies now."
+          34:
+            text: "It was bound to happen sooner or later."
+          35:
+            text: "Don't feel bad. The dead can't feel, anyway."
+          36:
+            text: "Thoughts and prayers probably won't fix this one..."
+      
+      migrantDepartBehavior:
+        leaveRegion:
+          subtitle:
+            text: "has departed to {regionName}"
+    
+    object:       
+      sacrificeToCullisGate:
+        header:
+          male:
+            text: "{mobName} $WHI0 was sacrificed by his $RED1God$WHI0!"
+          female:
+            text: "{mobName} $WHI0 was sacrificed by her $RED1God$WHI0!"
+          none:
+            text: "{mobName} $WHI0 was sacrificed by their $RED1God$WHI0!"
+        subtitle:
+          text: "Let that be a lesson."
+    
+    spawn:
+      nomadsArrived:
+        header:
+          text: "$GRE0Nomads!"
+        subtitle:
+          text: "A band of nomads have arrived in the region."
+          
+    weather:
+      disaster:
+        blight:
+          header:
+            text: "$RED1Blight!"
+          subtitle:
+            text: "The world is sick."
+        earthquake:
+          header:
+            text: "$RED1Earthquake!!"
+          subtitle:
+            text: "The ground is angry!"
+        electricalStorm:
+          header:
+            text: "$RED1Electrical Storm!"
+          subtitle:
+            text: "Don't carry around any metal rods!"
+        hailStorm:
+          header:
+            text: "$RED1Hail Storm!"
+          subtitle:
+            text: "Put on your helmets!"
+        meteorShower:
+          header:
+            text: "$RED1Meteor Shower!"
+          subtitle:
+            text: "Watch your head!"
+            
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Goals
 # Names and Descriptions
@@ -1253,9 +1586,9 @@ goal:
       text: "Unlock New Goal"
     body:
       days:
-        text: "Survive $GRE1{days}$WHI0 days to$GRE1 unlock a goal!"
+        text: "Survive $GRE1{days}$WHI0 days to$GRE1 unlock a goal$WHI0!"
       additionalDays:
-        text: "Survive $GRE1{days}$WHI0 additional days to$GRE1 unlock a goal!"
+        text: "Survive $GRE1{days}$WHI0 additional days to$GRE1 unlock a goal$WHI0!"
    
   win:
     header:
@@ -1301,7 +1634,7 @@ goal:
       text: "Send Villagers"
     body:
       any:
-        text: "Send $GRE1{amount}$WHI0 villagers to another region."
+        text: "Send $GRE1{amount}$WHI0 villagers to $GRE1another region$WHI0."
       specific:
         text: "Send $GRE1{amount}$WHI0 villagers to $GRE1{mapName}$WHI0!"
       
@@ -1310,7 +1643,7 @@ goal:
       text: "Send Courier Golems"
     body:
       any:
-        text: "Send $GRE1{amount}$WHI0 courier golems to another region."
+        text: "Send $GRE1{amount}$WHI0 courier golems to $GRE1another region$WHI0."
       specific:
         text: "Send $GRE1{amount}$WHI0 courier golems to $GRE1{mapName}$WHI0!"
       
@@ -1319,7 +1652,7 @@ goal:
       text: "Send Resources"
     body:
       any:
-        text:  "Send $GRE1{amount} {resourceNamePlural}$WHI0 via courier golems to another region."
+        text:  "Send $GRE1{amount} {resourceNamePlural}$WHI0 via courier golems to $GRE1another region$WHI0."
       specific:
         text: "Send $GRE1{amount} {resourceNamePlural}$WHI0 via courier golems to $GRE1{mapName}$WHI0!"
         
@@ -3375,10 +3708,6 @@ playPopulationListPanel:
       text: "Unemployed Villagers"
     unemployedVillagers:
       text: "How many adult villagers are available to work, but have not been assigned a job."
-    averageAgeHeader:
-      text: "Average Age"
-    averageAge:
-      text: "The average age of all villagers."
     averageLifeExpectancyHeader:
       text: "Average Life Expectancy"
     averageLifeExpectancy:
@@ -6743,320 +7072,379 @@ aiTask:
       text: "Walking to a safe place to give birth"
   
   buildWork:
-    build:
-      text: "Building {buildingName}"
     pathfindToBuilding:
       text: "Walking to {buildingName} to build"
+    build:
+      text: "Building {buildingName}"
+
   buyFromProvisioner:
     pathfindToProvisioner:
       text: "Buying resource from $YEL1a catjeet provisioner"
+
   buyLaborer:
     pathfindToLaborer:
       text: "Hiring $YEL1a catjeet laborer"
+
   chat:
-    chat:
-      text: "Chatting with {mobName}"
     pathfindToChatPartner:
       text: "Visiting {mobName}"
+    chat:
+      text: "Chatting with {mobName}"
+
   clearoutResourceFromBuilding:
     pathfindToBuilding:
       text: "Clearing out $YEL1{resourceName}$WHI0 topography at {buildingName}"
+
   clearTopographyFromRoadWork:
-    clearTopography:
-      text: "Clearing topography."
     pathfindToTopography:
       text: "Walking to worksite clear some topography from a road."
-  clearTopographyWork:
     clearTopography:
       text: "Clearing topography."
+
+  clearTopographyWork:
     pathfindToTopography:
       text: "Walking to worksite clear some topography."
+    clearTopography:
+      text: "Clearing topography."
+      
   combatBuildings:
     pathfindToTarget:
       text: "Attacking {buildingName}"
+      
   combatMobs:
     fleeTarget:
       text: "Fleeing {mobName}"
     pathfindToTarget:
       text: "Attacking {mobName}"
+
   confused:
     beConfused:
       text: "Confused"
     wanderAround:
       text: "Wandering around confused"
+
   constructionHarvestWork:
-    harvestResource:
-      text: "Harvesting materials"
     pathfindToHarvestWork:
       text: "Walking to worksite harvest some materials"
+    harvestResource:
+      text: "Harvesting materials"
+
   courierArriveBehavior:
-    dropOffResources:
-      text:  "Dropping off resources from another region"
-    dropOffResources2:
-      text:  "Dropping off resources from $YEL1{regionName}"
-    pathfindToDropOffCoordinates:
+    pathfindToDropOffCoordinatesNoRegion:
       text: "Delivering resources from another region"
-    pathfindToDropOffCoordinates2:
+    pathfindToDropOffCoordinates:
       text: "Delivering resources from $YEL1{regionName}"
+    dropOffResourcesNoRegion:
+      text:  "Dropping off resources from another region"
+    dropOffResources:
+      text:  "Dropping off resources from $YEL1{regionName}"
+      
   courierDepartBehavior:
     pathfindToLeaveCoordinates:
       text: "Departing the region to deliver resources to $YEL1{regionName}"
+
   courierParkBehavior:
-    park:
-      text: "Waiting for resources at $YEL1{buildingName}"
     pathfindToParkingSpot:
       text: "Parking at $YEL1{buildingName}"
+    park:
+      text: "Waiting for resources at $YEL1{buildingName}"
+
   criticalRepairWork:
     pathfindToBuilding:
       text: "Walking to {buildingName} to repair"
     repairBuilding:
       text: "Repairing {buildingName}"
+
   death:
     death:
       text: "Dead"
+      
   deliverConstructionResource:
-    pathfindToBuilding:
-      text: "Delivering resource at {buildingNameSource} to {buildingNameDestination}"
     pathfindToResourceOnGround:
       text: "Picking up resource on the ground to deliver to{buildingName}"
+    pathfindToBuilding:
+      text: "Delivering resource at {buildingNameSource} to {buildingNameDestination}"
+
   deliverConstructionResourceInHand:
     pathfindToBuilding:
       text: "Delivering resource to {buildingName}"
     pathfindToExtraResource:
       text: "Picking up additional delivery resource for {buildingName}"
+
   deliverCourierResource:
-    pathfindToBuilding:
-      text: "Picking up resource at {buildingName}$WHI0 to sell to a $YEL1a courier$WHI0 going to $YEL1{regionName}"
     pathfindToResourceOnGround:
       text: "Picking up resource on the ground to give to $YEL1a courier$WHI0 going to $YEL1{regionName}"
+    pathfindToBuilding:
+      text: "Picking up resource at {buildingName}$WHI0 to give to a $YEL1a courier$WHI0 going to $YEL1{regionName}"
+
   deliverCourierResourceInHand:
     pathfindToCourier:
       text: "Delivering resource to $YEL1a courier$WHI0 to send to $YEL1{regionName}"
     pathfindToExtraResource:
-      text: "Picking up additional planting resource"
+      text: "Picking up additional resource to deliver to a courier"
+
   deliverRoadConstructionResource:
-    pathfindToBuilding:
-      text: "Delivering resource at {buildingName} to a road"
     pathfindToResourceOnGround:
       text: "Picking up resource on the ground to deliver to a road"
+    pathfindToBuilding:
+      text: "Delivering resource at {buildingName} to a road"
+
   deliverRoadConstructionResourceInHand:
-    pathfindToExtraResource:
-      text: "Picking up additional delivery resource for a road"
     pathfindToRoad:
       text: "Delivering resource to a road"
+    pathfindToExtraResource:
+      text: "Picking up additional delivery resource for a road"
+      
   digWork:
-    dig:
-      text: "Digging hole"
     pathfindToTerrain:
       text: "Walking to worksite dig a hole."
+    dig:
+      text: "Digging hole"
+      
   dismantleWork:
-    dismantle:
-      text: "Dismantling {buildingName}"
     pathfindToBuilding:
       text: "Walking to {buildingName} to dismantle"
+    dismantle:
+      text: "Dismantling {buildingName}"
+      
   equipResource:
-    pathfindToBuilding:
-      text: "Equipping resource at {buildingName}"
     pathfindToEquipmentOnGround:
       text: "Equipping resource on the ground"
+    pathfindToBuilding:
+      text: "Equipping resource at {buildingName}"
+      
   findBetterHome:
     visitNewHome:
       text: "Visiting {buildingName} as a possible new home."
-    visitNewHome2:
+    visitNewHomeClaim:
       text: "Trying to claim {buildingName} as a new home."
+      
   findFood:
-    pathfindToBuilding:
-      text: "Stealing food at {buildingName}"
     pathfindToResourceOnGround:
       text: "Walking to nearby food on the ground"
+    pathfindToBuilding:
+      text: "Stealing food at {buildingName}"
+
   findFoodHarvest:
-    harvestFood:
-      text: "Harvesting raw food to eat"
     pathfindToFood:
       text: "Walking to some unharvested food"
+    harvestFood:
+      text: "Harvesting raw food to eat"
+      
   findHome:
     searchForHome:
       text: "Searching for a home."
     visitNewHome:
       text: "Visiting {buildingName} as a possible new home."
+
   findJob:
     pathfindToJob:
       text: "Going to {buildingName} to get a job."
+
   findSpawn:
-    claimSpawn:
-      text: "Trying to claim {buildingName} as a new spawn."
     findSpawn:
       text: "Searching for a spawn."
     pathfindToSpawn:
       text: "Visiting {buildingName} as a possible spawn home."
+    claimSpawn:
+      text: "Trying to claim {buildingName} as a new spawn."
+      
   findWaterFountain:
-    drinkFromWaterFountain:
-      text: "Drinking water from {buildingName}"
     pathfindToWaterFountain:
       text: "Going to {buildingName} to drink water."
+    drinkFromWaterFountain:
+      text: "Drinking water from {buildingName}"
+      
   findWaterHarvest:
-    harvestWater:
-      text: "Drinking dirty water!"
     pathfindToWater:
       text: "Walking to some dirty water!"
+    harvestWater:
+      text: "Drinking dirty water!"
+
   frozen:
-    execute:
+    frozen:
       text: "Frozen solid!!"
+
   goHome:
-    enterHome:
-      text: "Trying to enter {buildingName}"
     findHome:
       text: "Finding a path to home {buildingName}"
     pathfindToHome:
       text: "Going home to {buildingName}"
+    enterHome:
+      text: "Trying to enter {buildingName}"
+      
   golemHealBehavior:
     findRecombobulator:
       text: "Searching for a recombobulator."
     pathfindToRecombobulator:
       text: "Going to a $YEL1{buildingName}$WHI0 to heal."
+      
   golemPatrolBehavior:
     pathfindToWaypoint:
       text: "Patrolling the village"
+      
   grabbed:
-    execute:
+    grabbed:
       text: "Being held by god himself!"
+      
   guardPatrolFrontLine:
     pathfindToWaypoint:
       text: "Patrolling the front lines"
+      
   guardPatrolPerimeter:
     pathfindToWaypoint:
       text: "Patrolling the perimeter"
+      
   guardPatrolVillage:
     pathfindToWaypoint:
       text: "Patrolling the village"
+      
   guardPost:
     pathfindToBuilding:
       text: "Posting at $YEL1{buildingName}"
-    pathfindToNewPostPosition:
-      text: "Posted at $YEL1{buildingName}"
     posting:
       text: "Posted at $YEL1{buildingName}"
+    pathfindToNewPostPosition:
+      text: "Posted at $YEL1{buildingName}"
+      
   guardSummoned:
     pathfindToSummons:
       text: "Running to protect {mobName}"
+      
   harvestFarmWork:
-    harvestResource:
-      text: "Harvesting materials"
     pathfindToResource:
       text: "Walking to farm to harvest food"
-  harvestWaterWork:
-    harvestWater:
-      text: "Harvesting water"
-    pathfindToWater:
-      text: "Walking to worksite harvest some water"
-  harvestWork:
     harvestResource:
       text: "Harvesting materials"
+      
+  harvestWaterWork:
+    pathfindToWater:
+      text: "Walking to worksite harvest some water"
+    harvestWater:
+      text: "Harvesting water"
+      
+  harvestWork:
     pathfindToResource:
       text: "Walking to worksite harvest some materials"
+    harvestResource:
+      text: "Harvesting materials"
+      
   healthRepair:
     pathfindToBuilding:
       text: "Going to $YEL1{buildingName} for medical attention"
-    pathfindToNewPostPosition:
-      text: "Waiting for medical attention at $YEL1{buildingName}"
-    posting:
+    postingWaitingForMedic:
       text: "Waiting for {mobName}$WHI0 to apply first aid."
-    posting2:
+    postingWaiting:
       text: "Waiting for medical attention at $YEL1{buildingName}"
+      
   incapacitated:
     incapacitated:
       text: "Incapacitated!"
+      
   inHome:
     inHome:
       text: "Inside their home"
-    inHome2:
+    sleeping:
       text: "Sleeping"
+      
   inHomeHiding:
-    execute:
+    hiding:
       text: "Hiding inside their home"
+      
   laborerLeave:
     pathfindToLeaveCoordinates:
       text: "Leaving the region"
+      
   laborerPost:
     pathfindToMarketplace:
       text: "Setting up shop at $YEL1{buildingName}"
-    pathfindToNewLocationAtMarketplace:
-      text: "Selling labor at $YEL1{buildingName}"
     sellLabor:
       text: "Selling labor at $YEL1{buildingName}"
+      
   mateCoitus:
-    awaitCoitus:
+    awaitCoitusWaiting:
       text: "Waiting for {mobName} to arrive for coitus."
-    awaitCoitus2:
+    awaitCoitus:
       text: "Coitusing with {mobName}"
+
   mateGoCoitus:
-    enterHome:
-      text: "Entering home to have coitus with {mobName}"
     findHome:
       text: "Finding a path to home {buildingName}"
     pathfindToHome:
       text: "Going home to have coitus with {mobName}"
+    enterHome:
+      text: "Entering home to have coitus with {mobName}"
+      
   mateGoCoitusOther:
-    enterHome:
-      text: "Entering home to have coitus with {mobName}"
     findHome:
       text: "Finding a path to home {buildingName}"
     pathfindToHome:
       text: "Going home to have coitus with {mobName}"
+    enterHome:
+      text: "Entering home to have coitus with {mobName}"
+      
   medicWork:
+    pathfindToBuilding:
+      text: "Posting at $YEL1{buildingName}"
+    posting:
+      text: "Posted at $YEL1{buildingName}"
+    pathfindToHurtVillager:
+      text: "Going to {mobName}$WHI0 to apply first aid."
     healSelf:
       text: "Applying first aid to self"
     healVillager:
       text: "Applying first aid to {mobName}"
-    pathfindToBuilding:
-      text: "Posting at $YEL1{buildingName}"
-    pathfindToHurtVillager:
-      text: "Going to {mobName}$WHI0 to apply first aid."
-    pathfindToNewPostPosition:
-      text: "Posted at $YEL1{buildingName}"
-    posting:
-      text: "Posted at $YEL1{buildingName}"
+
   migrantDepartBehavior:
     pathfindToLeaveCoordinates:
       text: "Departing the region to migrate to $YEL1{regionName}"
+      
   migrationPreperationBehavior:
     pathfindToLeaveCoordinates:
       text: "Preparing to leave region"
+      
   nomadBehavior:
     pathfindToVillage:
       text: "Wandering into the village"
+      
   nomadBehaviorOther:
     pathfindToVillage:
       text: "Wandering into the village"
+      
   onFirePanic:
-    execute:
+    onFire:
       text: "On fire!!"
+      
   panic:
-    execute:
+    panicking:
       text: "Panicking!!"
+      
   plantResource:
-    pathfindToBuilding:
-      text: "Picking up resource at {buildingName} to plant it"
     pathfindToResourceOnGround:
       text: "Picking up resource on the ground to plant"
+    pathfindToBuilding:
+      text: "Picking up resource at {buildingName} to plant it"
+      
   plantResourceInHand:
     pathfindToBuilding:
       text: "Planting resource in a farm"
     pathfindToExtraResource:
       text: "Picking up additional planting resource"
+      
   provisionerLeave:
     pathfindToLeaveCoordinates:
       text: "Leaving the region"
+      
   provisionerPost:
     pathfindToMarketplace:
       text: "Setting up shop at $YEL1{buildingName}"
-    pathfindToNewLocationAtMarketplace:
-      text: "Selling wares at $YEL1{buildingName}"
     sellWares:
       text: "Selling wares at $YEL1{buildingName}"
+      
   quitJob:
     pathfindToWorkBuilding:
       text: "Going to {buildingName} to quit a job."
+      
   redistributeResources:
     pathfindToBuilding:
       text: "Redistributing resource at {buildingNameSource} to {buildingNameDestination}"
@@ -7064,46 +7452,55 @@ aiTask:
       text: "Distributing resource to {buildingName}"
     pathfindToExtraResource:
       text: "Picking up additional storage resource for {buildingName}"
+      
   refineResource:
     pathfindToWork:
       text: "Refining resource at {buildingName}"
     refineResource:
       text: "Refining materials"
+      
   refineWaterBottle:
     pathfindToWork:
       text: "Refining resource at {buildingName}"
     refineResource:
       text: "Refining materials"
+      
   removeRoadWork:
     pathfindToRoad:
       text: "Walking to worksite remove a road."
     removeRoad:
       text: "Removing road."
+      
   repairRoadWork:
     pathfindToRoad:
       text: "Walking to a road to repair it"
     repairRoad:
       text: "Repairing road"
+      
   repairWork:
     pathfindToRoad:
       text: "Walking to {buildingName} to repair"
     repairRoad:
       text: "Repairing {buildingName}"
+      
   roadWork:
-    buildRoad:
-      text: "Building road"
     pathfindToRoad:
       text: "Walking to worksite build a road"
+    buildRoad:
+      text: "Building road"
+      
   sellResource:
-    pathfindToBuilding:
-      text: "Picking up resource at {buildingName} to sell to a $YEL1a catjeet provisioner"
     pathfindToResourceOnGround:
       text: "Picking up resource on the ground to sell to $YEL1a catjeet provisioner"
+    pathfindToBuilding:
+      text: "Picking up resource at {buildingName} to sell to a $YEL1a catjeet provisioner"
+      
   sellResourceInHand:
-    pathfindToExtraResource:
-      text: "Picking up additional planting resource"
     pathfindToProvisioner:
       text: "Delivering resource to $YEL1a catjeet provisioner"
+    pathfindToExtraResource:
+      text: "Picking up additional planting resource"
+      
   sleepOutside:
     findSafeLocation:
       text: "Finding a safe place to sleep outside"
@@ -7111,105 +7508,321 @@ aiTask:
       text: "Walking to a safe place to sleep"
     sleepOutside:
       text: "Sleeping outside"
+      
   spawnRepair:
     pathfindToSpawner:
       text: "Walking to {buildingName} to repair"
     repair:
       text: "Repairing {buildingName}"
+      
   start:
-    execute:
+    idle:
       text: "Idle"
+      
   storeResource:
     pathfindToResource:
       text: "Picking up resource on ground to store in a building"
+      
   storeResourceInHand:
     pathfindToBuilding:
       text: "Storing resource in {buildingName}"
     pathfindToExtraResource:
       text: "Picking up additional storage resource for {buildingName}"
+      
   stuck:
     pathfindOffBlockedTerrain:
       text: "Walking off of blocked terrain"
+      
   tendFarmsWork:
     pathfindToFarmland:
       text: "Walking to farm to tend."
     tendFarmland:
       text: "Tending to farmland."
+      
   trade:
     pathfindToTradePartner:
       text: "Getting a $YEL1{resourceName}$BLU0 from {mobName}"
+      
   visitMate:
     pathfindToMate:
       text: "Visiting {mobName}"
+      
   wander:
-    pathfindToWanderCoordinates:
+    pathfindToWanderCoordinatesMob:
       text: "Wandering to {mobName}"
-    pathfindToWanderCoordinates2:
+    pathfindToWanderCoordinates:
       text: "Wandering around"
+      
   wildDoggoWanderIn:
-    pathfindToVillage:
-      text: "Wandering into the village"
-  wildDoggoWanderInOther:
     pathfindToVillage:
       text: "Wandering into the village"
   
   corruptionBuildingPlacement:
-    execute:
+    create:
       text: "Creating a new building"
+      
   corruptionBuildWork:
-    build:
-      text: "Building {buildingName}"
     pathfindToBuilding:
       text: "Walking to {buildingName} to build"
+    build:
+      text: "Building {buildingName}"
+      
   corruptionClearTopographyWork:
-    clearTopography:
-      text: "Clearing topography."
     pathfindToTopography:
       text: "Walking to worksite clear some topography."
+    clearTopography:
+      text: "Clearing topography."
+      
   corruptionDeliverResourceInHand:
     pathfindToBuilding:
       text: "Delivering resource to {buildingName}"
     pathfindToExtraResource:
       text: "Picking up additional delivery resource for {buildingName}"
+      
   corruptionDeliverResourceOnGround:
     pathfindToResource:
       text: "Picking up resource on the ground to deliver"
+      
   corruptionDeliverRoadResourceInHand:
     pathfindToRoad:
       text: "Delivering resource to a road"
+      
   corruptionDeliverRoadResourceOnGround:
     pathfindToResource:
       text: "Picking up resource on the ground to deliver to road"
+      
   corruptionHarvestWork:
-    harvestResource:
-      text: "Harvesting materials"
     pathfindToHarvestWork:
       text: "Walking to worksite harvest some materials"
+    harvestResource:
+      text: "Harvesting materials"
+      
   corruptionRoadWork:
-    buildRoad:
-      text: "Building road"
     pathfindToRoad:
       text: "Walking to worksite build a road"
+    buildRoad:
+      text: "Building road"
+      
   hostileBehaviorAttack:
     pathfindToTarget:
       text: "Attacking the village!"
-  hostileBehaviorAttackOther:
-    pathfindToTarget:
-      text: "Wandering into the village"
+      
   hostileBehaviorLeave:
     pathfindToLeaveCoordinates:
-      text: "Leaving the region"
+      text: "Escaping to the corruption"
     
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# Mob Job Module
+# Names and Descriptions
+# rtr.mobs.jobs.*
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+mobJob:
+  comment: "Mob Job Module - Names and Descriptions"
+  javaClass: "rtr.mobs.jobs.*"
+  
+  unassigned:
+    single:
+      text: "Unassigned"
+    plural:
+      text: "Unassigned"
+    description:
+      text: "A lazy slacker who does absolutely nothing of value."
+
+  builder:
+    single:
+      text: "Builder"
+    plural:
+      text: "Builders"
+    description:
+      text: "A staple job in your village, builders will make sure everything is built and repaired. They will also harvest materials, but only when they need them to build something and none is available."
+
+  carpenter:
+    single:
+      text: "Carpenter"
+    plural:
+      text: "Carpenters"
+    description:
+      text: "Turns wood into boards for more advanced structures."
+
+  crystiller:
+    single:
+      text: "Crystiller"
+    plural:
+      text: "Crystillers"
+    description:
+      text: "Turns crystals into crylithium, a power source for essence collectors and other buildings."
+
+  crystalHarvester:
+    single:
+      text: "Crystal Harvester"
+    plural:
+      text: "Crystal Harvesters"
+    description:
+      text: "Harvests raw crystals on the map and stores them in the village. They will continue to harvest non-stop regardless of the village's needs."
+
+  farmer:
+    single:
+      text: "Farmer"
+    plural:
+      text: "Farmers"
+    description:
+      text: "Harvests raw food, plants it in farms, and keeps farms well tended to and watered to encourage growth. Typically, the more farmers you have the faster your farms will produce food."
+
+  fletcher:
+    single:
+      text: "Fletcher"
+    plural:
+      text: "Fletchers"
+    description:
+      text: "Turns wood into arrow bundles to be used in bow towers."
+
+  lumberjack:
+    single:
+      text: "Lumberjack"
+    plural:
+      text: "Lumberjacks"
+    description:
+      text: "Harvests wood on the map and stores them in the village. They will continue to harvest non-stop regardless of the village's needs."
+
+  miner:
+    single:
+      text: "Miner"
+    plural:
+      text: "Miners"
+    description:
+      text: "Harvests rock on the map and stores them in the village. They will continue to harvest non-stop regardless of the village's needs."
+
+  organizer:
+    single:
+      text: "Organizer"
+    plural:
+      text: "Organizers"
+    description:
+      text: "Organizes resources throughout the entire village, distributing resources whereever they're needed, or cleaning up resources scattered around the village."
+
+  stoneCutter:
+    single:
+      text: "Stone Cutter"
+    plural:
+      text: "Stone Cutters"
+    description:
+      text: "Turns rock into cut stone for more advanced structures."
+
+  tumbler:
+    single:
+      text: "Tumbler"
+    plural:
+      text: "Tumblers"
+    description:
+      text: "Turns rock into stone balls to be used in sling and bullet towers."
+
+  wayMaker:
+    single:
+      text: "Way Maker"
+    plural:
+      text: "Way Makers"
+    description:
+      text: "Creates and maintains roads throughout the village, as well as creates man made lakes to collect rain water for water purifiers."
+
+  medic:
+    single:
+      text: "Medic"
+    plural:
+      text: "Medics"
+    description:
+      text: "Heals nearby hurt villagers, and creates bandages and medkits in the Clinic out of silk."
+
+  cook:
+    single:
+      text: "Cook"
+    plural:
+      text: "Cooks"
+    description:
+      text: "Cooks and repackages raw food into longer lasting and more efficient rations that the villagers can carry around with them."
+
+  smelter:
+    single:
+      text: "Smelter"
+    plural:
+      text: "Smelters"
+    description:
+      text: "Turns iron ore into iron ingots for use in more advanced construction or equipment manufacturing."
+
+  armorsmith:
+    single:
+      text: "Armorsmith"
+    plural:
+      text: "Armorsmiths"
+    description:
+      text: "Creates armor in the armorsmithy for your villagers to help defend themselves. Requires a supply of Iron Ingots usually from a nearby forge."
+
+  toolsmith:
+    single:
+      text: "Toolsmith"
+    plural:
+      text: "Toolsmiths"
+    description:
+      text: "Creates tools and weapons in the toolsmithy for your villagers to help defend themselves or get work done. Requires a supply of Iron Ingots usually from a nearby forge."
+
+  waterMaster:
+    single:
+      text: "Water Master"
+    plural:
+      text: "Water Masters"
+    description:
+      text: "Gathers water from wells, rain collectors and other water sources and redistributes them throughout the village."
+
+  bottler:
+    single:
+      text: "Bottler"
+    plural:
+      text: "Bottlers"
+    description:
+      text: "Takes water and bottles it so your villagers can carry some around with them as they work."
+
+  guard:
+    single:
+      text: "Guard"
+    plural:
+      text: "Guards"
+    description:
+      text: "Protects the village, and gets bonus to defense and attack power."
+
+  provisioner:
+    single:
+      text: "Provisioner"
+    plural:
+      text: "Provisioners"
+    description:
+      text: "Provisioners manage the marketplace's buy and sell orders."
+
+  maintainer:
+    single:
+      text: "Maintainer"
+    plural:
+      text: "Maintainers"
+    description:
+      text: "Workers dedicated to the upkeep of the village, they can help dismantle and repair buildings, as well as maintain roads and clear terrain."
+
+  courierSupplier:
+    single:
+      text: "Courier Supplier"
+    plural:
+      text: "Courier Suppliers"
+    description:
+      text: "Delivers resources to courier golems to be taken to other regions."
+  
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Object Module
-# Object Names
+# Names and Descriptions
 # rtr.map.tileSets.*
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
 object:
-  comment: "Tile Set - Tooltips"
+  comment: "Object Module - Names and Descriptions"
   javaClass: "rtr.map.tileSets.*" 
-  
+    
   building:
     castle:
       camp:
@@ -7867,6 +8480,9 @@ object:
           text: "Increases the amount of gold and gold ingots the building can store to maximum."
     
     housing:
+      base:
+        name:
+          text: "Housing"
       makeshift:
         name:
           text: "Makeshift Housing"
@@ -7967,6 +8583,8 @@ object:
         text: "A place your villagers can go to get a refreshing drink. Works best with a well, raincatcher or water purifier and well masters to supply the fountain."
     
     lootBox:
+      clicked:
+        text: "Locked?!"
       name:
         text: "Loot Box?!"
       description:
@@ -8691,3 +9309,270 @@ object:
     woodFence:
       name:
         text: "Wood Fence"
+        
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# Resource Module
+# Names
+# rtr.resources.templates.*
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+     
+resource:
+  comment: "Resource Module - Names"
+  javaClass: "rtr.resources.templates.*"
+  
+  wood:
+    single:
+      text: "Wood"
+    plural:
+      text: "Wood"
+
+  board:
+    single:
+      text: "Board"
+    plural:
+      text: "Boards"
+
+  rock:
+    single:
+      text: "Rock"
+    plural:
+      text: "Rocks"
+
+  cutStone:
+    single:
+      text: "Cut Stone"
+    plural:
+      text: "Cut Stones"
+
+  ironOre:
+    single:
+      text: "Iron Ore"
+    plural:
+      text: "Iron Ore"
+
+  ironIngot:
+    single:
+      text: "Iron Ingot"
+    plural:
+      text: "Iron Ingots"
+
+  goldOre:
+    single:
+      text: "Gold Ore"
+    plural:
+      text: "Gold Ore"
+
+  goldIngot:
+    single:
+      text: "Gold Ingot"
+    plural:
+      text: "Gold Ingots"
+
+  goldCoinSack:
+    single:
+      text: "Gold Coin Sack"
+    plural:
+      text: "Gold Coin Sacks"
+
+  crystal:
+    single:
+      text: "Crystal"
+    plural:
+      text: "Crystals"
+
+  crylithium:
+    single:
+      text: "Crylithium"
+    plural:
+      text: "Crylithium"
+
+  rawFood:
+    single:
+      text: "Raw Food"
+    plural:
+      text: "Raw Food"
+
+  ration:
+    single:
+      text: "Ration"
+    plural:
+      text: "Rations"
+
+  ballistaeBolts:
+    single:
+      text: "Ballistae Bolts"
+    plural:
+      text: "Ballistae Bolts"
+
+  stoneBalls:
+    single:
+      text: "Stone Balls"
+    plural:
+      text: "Stone Balls"
+
+  ironSword:
+    single:
+      text: "Iron Sword"
+    plural:
+      text: "Iron Swords"
+
+  woodSword:
+    single:
+      text: "Wood Sword"
+    plural:
+      text: "Wood Swords"
+
+  pickaxe:
+    single:
+      text: "Pickaxe"
+    plural:
+      text: "Pickaxes"
+
+  axe:
+    single:
+      text: "Axe"
+    plural:
+      text: "Axes"
+
+  hoe:
+    single:
+      text: "Hoe"
+    plural:
+      text: "Hoes"
+
+  hammer:
+    single:
+      text: "Hammer"
+    plural:
+      text: "Hammers"
+
+  shovel:
+    single:
+      text: "Shovel"
+    plural:
+      text: "Shovels"
+
+  leatherHelmet:
+    single:
+      text: "Leather Helmet"
+    plural:
+      text: "Leather Helmets"
+
+  leatherChest:
+    single:
+      text: "Leather Chest"
+    plural:
+      text: "Leather Chests"
+
+  ironHelmet:
+    single:
+      text: "Iron Helmet"
+    plural:
+      text: "Iron Helmets"
+
+  ironChestArmor:
+    single:
+      text: "Iron Chest Armor"
+    plural:
+      text: "Iron Chest Armor"
+
+  woodShield:
+    single:
+      text: "Wood Shield"
+    plural:
+      text: "Wood Shields"
+
+  ironShield:
+    single:
+      text: "Iron Shield"
+    plural:
+      text: "Iron Shields"
+
+  quiver:
+    single:
+      text: "Quiver"
+    plural:
+      text: "Quivers"
+
+  bow:
+    single:
+      text: "Bow"
+    plural:
+      text: "Bows"
+
+  silk:
+    single:
+      text: "Silk"
+    plural:
+      text: "Silk"
+
+  bandage:
+    single:
+      text: "Bandage"
+    plural:
+      text: "Bandages"
+
+  medkit:
+    single:
+      text: "Medkit"
+    plural:
+      text: "Medkits"
+
+  healingPotion:
+    single:
+      text: "Healing Potion"
+    plural:
+      text: "Healing Potions"
+
+  dirtyWaterBucket:
+    single:
+      text: "Dirty Water Bucket"
+    plural:
+      text: "Dirty Water Buckets"
+
+  waterBucket:
+    single:
+      text: "Water Bucket"
+    plural:
+      text: "Water Buckets"
+
+  waterBottle:
+    single:
+      text: "Water Bottle"
+    plural:
+      text: "Water Bottles"
+
+  suspiciousKey:
+    single:
+      text: "Suspicious Key?!"
+    plural:
+      text: "Suspicious Keys?!"
+      
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# Game Mode
+# Names
+# rtr.system.gamemodetemplates.*
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+     
+gameMode:
+  comment: "Game Mode - Names"
+  javaClass: "rtr.system.gamemodetemplates.*"
+  
+  nightmare:
+    text: "Nightmare"
+  survival:
+    text: "Survival"
+  traditional:
+    text: "Traditional"
+  peaceful:
+    text: "Peaceful"
+  custom:
+    text: "Custom"
+  sandbox:
+    text: "Sandbox"
+  mainMenu:
+    text: "Main Menu"
+  mapEditor:
+    text: "Map Editor"
+  worldMap:
+    text: "World Map"
