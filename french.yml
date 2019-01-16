@@ -4908,7 +4908,7 @@ playVillageEfficiencyPanel:
   globalSpeed:
     text: "Vitesse globale"
   weather:
-    text: "Temps"
+    text: "Météorologie"
   building:
     text: "Bâtiments"
   repairing:
@@ -4939,64 +4939,64 @@ playWeatherPanel:
   button:
     tooltip:
       decreaseGameSpeed:
-        text: "Decrease Game Speed"
+        text: "Diminue la vitesse du jeu"
       increaseGameSpeed:
-        text: "Increase Game Speed"
+        text: "Augmente la vitesse du jeu"
         
   tooltip:
     weatherHeader:
-      text: "Weather"
+      text: "Temps"
     weather:
-      text: "Current weather, temperature and season."
+      text: "Météorologie, température et saison."
     timeHeader:
-      text: "Time"
+      text: "Temps"
     time:
-      text: "Current day, year, time of day and progress through the current time of day."
+      text: "Jour, année, heure du jour et progrès de la journée."
 
   weather:
     snowing:
-      text: "$BLU1Snowing"
+      text: "$BLU1Neigeux"
     veryCold:
-      text: "$BLU1Very Cold"
+      text: "$BLU1Très froid"
     coldRain:
-      text: "$CYA1Cold Rain"
+      text: "$CYA1Pluie froide"
     cold:
-      text: "$CYA1Cold"
+      text: "$CYA1Froid"
     chillyRain:
-      text: "$CYA0Chilly Rain"
+      text: "$CYA0Pluie fraîche" #find synonym
     chilly:
-      text: "$CYA0Chilly"
+      text: "$CYA0Frais"
     raining:
-      text: "$GRE0Raining"
+      text: "$GRE0Pluvieux"
     temperate:
-      text: "$GRE0Temperate"
+      text: "$GRE0Tempéré"
     hotRain:
-      text: "$RED0Hot Rain"
+      text: "$RED0Pluie chaude"
     veryHot:
-      text: "$RED0Very Hot"
+      text: "$RED0Très chaud"
     warmRain:
-      text: "$ORA0Warm Rain"
+      text: "$ORA0Pluie tiède"
     hot:
-      text: "$ORA0Hot"
+      text: "$ORA0Chaud"
     coolRain:
-      text: "$YEL0Cool Rain"
+      text: "$YEL0Pluie fraîche" #find synonym
     warm:
-      text: "$YEL0Warm"
+      text: "$YEL0Tiède"
        
   moon:
     full:
-      text: "$BLU0Full Moon"
+      text: "$BLU0Pleine lune"
     blood:
-      text: "$RED1Blood Moon"
+      text: "$RED1Lune de sand"
     eclipse:
-      text: "$YEL1Eclipse"
+      text: "$YEL1Éclipse"
       
   day:
-    text: "$GRE1DAY {day}"
+    text: "$GRE1JOUR {day}"
   year:
-    text: "$YEL0YEAR {year}" 
+    text: "$YEL0ANNÉE {year}" 
   paused:
-    text: "$YEL1Paused"
+    text: "$YEL1En pause"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Play State
