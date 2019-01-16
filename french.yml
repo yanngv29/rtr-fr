@@ -2979,9 +2979,9 @@ mapEditorPlayHarvestAndTerrainBar:
       harvestRock:
         text: "Définit les montagnes dans lesquelles les mineurs et constructeurs doivent récolter. Les constructeurs ne vont récolter des matériaux que si il y a un projet de construction actif."
       harvestFoodAndWaterHeader:
-        text: "Récolter de la nourriture et de l'eau ({shortcutKey})"
+        text: "Récolter nourriture et eau ({shortcutKey})"
       harvestFoodAndWater:
-        text: "Définit la nourriture sauvage et les sources d'eau qui doivent être utilisées par les agriculteurs et les responsables de l'eau afin d'être utilisées dans les fermes et les purificateurs d'eau. Les agriculteurs n'iront cherche de l'eau que pour l'utiliser dans leurs fermes."
+        text: "Définit la nourriture sauvage et les sources d'eau qui doivent être utilisées par les agriculteurs et les responsables de l'eau afin d'être utilisées dans les fermes et les purificateurs d'eau. Les agriculteurs n'iront chercher de l'eau que pour l'utiliser dans leurs fermes."
       harvestCrystalHeader:
         text: "Récolter du cristal ({shortcutKey})"
       harvestCrystal:
