@@ -2920,29 +2920,29 @@ mapEditorSystemAndDataBar:
       mainMenuHeader:
         text: "Menu principal ({shortcutKey})"
       mainMenu:
-        text: "Quitter l'éditeur de carte, ou modifier les paramètres."
+        text: "Quittez l'éditeur de carte, ou modifiez les paramètres."
       saveMapHeader:
         text: "Sauvegarder la carte"
       minimapHeader:
         text: "Minicarte ({shortcutKey})"
       minimap:
-        text: "Voir la minicarte entière."
+        text: "Visualisez la minicarte entière."
       dataViewsHeader:
         text: "Vue de données ({shortcutKey})"
       dataViews:
-        text: "Voir diverses cartes de données."
+        text: "Visualisez diverses cartes de données."
       hideTopographyHeader:
         text: "Cacher la topographie ({shortcutKey})"
       hideTopography:
-        text: "Cache la couche topographique de la carte, facilitant le dessin du terrain en dessous."
+        text: "Cachez la couche topographique de la carte, facilitant ainsi le dessin du terrain en dessous."
       musicHeader:
         text: "Musique"
       music:
-        text: "Voir la liste de toutes les pistes de musique, et, si désiré, changer la piste actuelle."
+        text: "Visualisez la liste de toutes les pistes de musique, et, si désiré, changer la piste actuelle."
       regionalDataHeader:
         text: "Données régionales"
       regionalData:
-        text: "Changer les régions auxquelles cette carte est connectée ainsi que sa position sur la carte monde."
+        text: "Changez les régions auxquelles cette carte est connectée ainsi que sa position sur la carte monde."
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Map Editor State / Play State
@@ -4814,31 +4814,31 @@ playSystemAndDataBar:
       mainMenuHeader:
         text: "Menu principal ({shortcutKey})"
       mainMenu:
-        text: "Quitte le jeu, ou changer quelques paramètres."
+        text: "Quittez le jeu, ou changez des paramètres."
       minimapHeader:
         text: "Minicarte ({shortcutKey})"
       minimap:
-        text: "Voir la carte en entier."
+        text: "Visualisez la carte en entier."
       statisticsHeader:
         text: "Statistiques"
       statistics:
-        text: "Voir différentes données du jeu."
+        text: "Visualisez différentes données du jeu."
       dataViewsHeader:
         text: "Vue de données ({shortcutKey})"
       dataViews:
-        text: "Voir diverses cartes de données."
+        text: "Visualisez diverses cartes de données."
       problemPanelHeader:
         text: "Problèmes ({shortcutKey})"
       problemPanel:
-        text: "Listes plusieurs alertes concernant le village et dont vous devez vous occuper."
+        text: "Listes plusieurs alertes et problèmes concernant le village dont vous devriez vous occuper."
       buildingListHeader:
         text: "Liste des bâtiments ({shortcutKey})"
       buildingList:
-        text: "Réorganiser les proprités de construction et voir une liste de tous les bâtiments dans le village."
+        text: "Réorganisez les proprités de construction et visualisez une liste de tous les bâtiments dans le village."
       populationListHeader:
         text: "Liste de la population ({shortcutKey})"
       populationList:
-        text: "Voir l'entièreté de la population du village, et le status global des villageois."
+        text: "Visualisez l'entièreté de la population du village ainsi que le status global des villageois."
       villagerEfficiencyHeader:
         text: "Efficacité du village"
       villagerEfficiency:
