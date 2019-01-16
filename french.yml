@@ -1230,13 +1230,345 @@ season:
   javaClass: "rtr.TimeModule.java"
   
   winter:
-    text: "Hiver"
+    text: "En hiver"
   spring:
-    text: "Printemps"
+    text: "Au printemps"
   summer:
-    text: "Été"
+    text: "En été"
   autumn:
-    text: "Automne"
+    text: "En automne"
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# Console
+# Console Panel and Banner Messages
+# rtr.console.Console.java
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+console:
+  comment: "Console - Console Panel and Banner Messages"
+  javaClass: "rtr.console.Console.java"
+  
+  panel:
+    coitus:
+      text: "{mobName} $WHI0s'est accouplé avec {mateMobName} $WHI0!"
+    isPregnant:
+      text: "{mobName} $PIN1est enceinte !"
+    object:
+      destroyed:
+        text: "{buildingName} $RED1vient d'être détruit !"
+      repaired:
+        text: "{buildingName} $GRE1vient d'être entièrement réparé."
+      completed:
+        text: "{buildingName} $WHI0vient d'être terminé."
+      dismantled:
+        text: "{buildingName} $YEL1vient d'être démantelé."
+    autosave:
+      text: "$GRE1Sauvegarde automatique $WHI0-$GRE2 {time}"
+    save:
+      text: "$GRE1Sauvegarde terminée, durée : $WHI0-$GRE2 {time}"
+    fullMapScreenshot:
+      text: "Capture de l'entièreté de la carte sauvegardé dans $GRE1{filePath}"
+    screenshot:
+      text: "Capture d'écran sauvegardée dans $GRE1{filePath}"
+      
+  banner:
+    time:
+      newDayBanner:
+        newDayBannerHeader:
+          text: "{season}, jour {currentDay}"
+        nextSeasonArrivesTomorrow:
+          text: "{season} demain !"
+        daysUntilNextSeason:
+          text: "{season} dans {days} jours."
+        monstersArriveTomorrow:
+          text: "Les $RED0monstres $WHI0arriveront demain !" 
+        daysUntilMonsters:
+          text: "Les $RED0monsters $WHI0arriveront dans {days} jours !"
+
+      feelsOminous:
+        header:
+          yellow:
+            text: "$YEL1L'ambiance devient inquiétante ?"
+          red:
+            text: "$RED1L'ambiance devient inquiétante ?"
+        subtitle:
+          text: "Qu'est-ce qu'il se passe ?"
+      
+      anEclipse:
+        header:
+          text: "$YEL1Une éclipse !"
+        subtitle:
+          text: "Tout est sombre, les monstres sont enragés !"
+          
+      duskArrived:
+        header:
+          text: "$GRE0Le soleil se couche.."
+        subtitle:
+          peaceful:
+            comment: "Aucun monstre ne va apparaître, mais tu es dans un mode de jeu où ils le peuvent."
+            text: "Tout semble paisible ?"
+          restless:
+            comment: "Des monstres commencent à apparaître."
+            text: "Les monstres semblent agités."
+          alwaysPeaceful:
+            comment: "Sous-titre du mode paisible où aucun monstre n'apparait."
+            text: "La région semble paisible."
+
+      nightArrived:
+        header:
+          green:
+            text: "$GRE0La nuit vient de tomber.."
+          blue:
+            text: "$BLU0La nuit vient de tomber.."
+        subtitle:
+          fullMoon:
+            text: "C'est une pleine lune, les monstres sont calmes."
+          enraged:
+            text: "Les monstres sont enragés !"
+          calm:
+            text: "Tout est calme."
+      
+      bloodMoon: 
+        header:
+          text: "$RED1La lune de sang se lève !"
+        subtitle:
+          text: "Les monstres sont enragés !"
+      
+      newSeason: 
+        header:
+          text: "{season}, nouvelle saison !"
+        subtitle:
+          text: " $WHI0Bonne chance!"
+          
+    migration:
+      migrantsArrived:
+        header:
+          text: "$GRE1{amount}$WHI0 migrants viennent d'arriver"
+        subtitle:
+          text: "depuis $YEL1{regionName} $WHI0!"
+    mob:
+      born:
+        subtitle:
+          text: "vient de naître !"
+      hired:
+        subtitle:
+          text: "vient d'être engagé !"
+      grownUp:
+        subtitle:
+          text: "vient de grandir !"
+      elder:
+        subtitle:
+          text: "est devenu un doyen!"
+      migrantPrepared:
+        subtitle:
+          text: "s'est préparé à quitter votre village !"
+      nomadJoined:
+        subtitle:
+          text: "a rejoint votre village !"
+      wildDoggoDomesticate:
+        subtitle:
+          text: "le chien a rejoint votre village !"
+          
+    mobAI:
+      childBirthDeath:
+        header:
+          text: "L'enfant de {mobName} est décédé durant l'accouchement !"
+        subtitle:
+          text: "Quel dommage."
+      turnedIntoZombie:
+        header:
+          text: "L'infection a transformé le corps de {mobName} $WHI0en un $RED1{mobType} $WHI0!"
+        subtitle:
+          text: "Tant pis pour se reposer en paix."
+      death:
+        title:
+          comment: "Some mobs, like the doggo, need their title inputted into the death messages. This string will be inputted where {mobTitle} is in all death strings under the death header category."
+          text: "$WHI0 the {mobType}"
+        header:
+          frozen:
+            text: "{mobName}{mobTitle}$RED1 est mort de froid !"
+          byMob:
+            text: "{mobName}{mobTitle}$WHI0 a été tué par {killerMob} $WHI0!"
+          byBuilding:
+            text: "{mobName}{mobTitle}$WHI0 a été tué par une {buildingName} $WHI0!"
+          byUnknown:
+            text: "{mobName}{mobTitle}$WHI0 est mort !"
+          crashing:
+            text: "{mobName}{mobTitle}$RED1 est mort écrasé !"
+          dehydration:
+            text: "{mobName}{mobTitle}$RED1 est mort déshydraté !"
+          blight:
+            text: "{mobName}{mobTitle}$RED1 est mort d'infection !"
+          dropped:
+            text: "{mobName}{mobTitle}$RED1 a été lâché trop fort sur le sol, et est mort !"
+          fire:
+            text: "{mobName}{mobTitle}$RED1 est mort brûlé !"
+          god:
+            text: "{mobName}{mobTitle}$RED1 s'est fait tuer par son dieu !"
+          heat:
+            text: "{mobName}{mobTitle}$RED1 est mort d'épuisement par la chaleur!"
+          lightning:
+            text: "{mobName}{mobTitle}$RED1 s'est fait frapper par la foudre !"
+          magic:
+            text: "{mobName}{mobTitle}$RED1 s'est fait tuer par quelque chose de magique !"
+          unknown:
+            text: "{mobName}{mobTitle}$RED1 est mort mystérieusement ?"
+          piercing:
+            text: "{mobName}{mobTitle}$RED1 a été tué par un coup perçant!"
+          poisoned:
+            text: "{mobName}{mobTitle}$RED1 était empoisonné, et est mort !"
+          dysentery:
+            text: "{mobName}{mobTitle}$RED1 est mort de dysenterie !"
+          starved:
+            text: "{mobName}{mobTitle}$RED1 est mot de faim!"
+          tower:
+            text: "{mobName}{mobTitle}$RED1 s'est fait tuer par une tour de défense !"
+          earthquake:
+            text: "{mobName}{mobTitle}$RED1 est mort dans un terrible tremblement de terre !"
+          hail:
+            text: "{mobName}{mobTitle}$RED1 s'est fait marteller à mort par la grêle !"
+          meteor:
+            text: "{mobName}{mobTitle}$RED1 a été écrasé par un météore !"
+          age:
+            text: "{mobName}{mobTitle}$RED1 est mort de causes naturelles."
+          birth:
+            text: "{mobName}{mobTitle}$RED1 est mort en donnant naissance !"
+            
+        ageSubtitle:
+          male:
+            text: "Il a eu une belle vie."
+          female:
+            text: "Elle a eu une belle vie."
+          none:
+            text: "Ils ont eu une belle vie."
+            
+        randomSubtitles:
+          comment: "These death messages generate the correct gender pronouns when displayed based on the variable entries below. eg (malePronoun:femalePronoun:none). You may add or remove your own, or edit the contents of them. But they MUST remain in (malePronoun:femalePronoun:none) format. You can not add or remove from the entry, it must always have 3 values."
+          0:
+            text: "(Il n'aurait:Elle n'aurait:Ils n'auraient) pas dû se lever ce matin."
+          1:
+            text: "Quel dommage..."
+          2:
+            text: "Qu'(il repose:elle repose:ils reposent) en paix."
+          3:
+            text: "...une mort glorieuse !"
+          4:
+            text: "Si seulement cela avait pu être évité."
+          5:
+            text: "Personne ne l'aimait de toute façon."
+          6:
+            text: "Quelle terrible manière de mourir !"
+          7:
+            text: "Ça va être la pagaille à nettoyer."
+          8:
+            text: "Il y a certainement de meilleurs manières de mourir."
+          9:
+            text: "Quelle raison gênante à écrire sur sa tombe."
+          10:
+            text: "Il y a de fortes chance que c'était de ta faute."
+          11:
+            text: "(Il fera:Elle fera:Ils feront) un beau tas."
+          12:
+            text: "(Il s'est sacrifié:Elle s'est sacrifiée:Ils se sont sacrifiés) pour le village..."
+          13:
+            text: "Quelques fois, tu manges l'ours, et d'autres fois, l'ours te mange."
+          14:
+            text: "Encore un autre qui mange la poussière !"
+          15:
+            text: "Je suis désolé. Je suis vraiment, vraiment désolé."
+          16:
+            text: "Perdu !"
+          17:
+            text: "(Il avait:Elle avait:Ils avaient) toujours des problèmes avec la pensée critique..."
+          18:
+            text: "Aujourd'hui était une belle journée pour mourir!"
+          19:
+            text: "...certains appelleraient ça de la 'survie alternative'"
+          20:
+            text: "Ce n'est qu'une égratinure."
+          21:
+            text: "Ce n'est qu'une blessure superficielle."
+          22:
+            text: "(Il ne connaissait:Elle ne connaissait:Ils ne connaissaient) pas IDDQD."
+          23:
+            text: "(Il a:Elle a:Ils ont) rendu l'âme."
+          24:
+            text: "(Il ne lui:Il ne lui:Il ne leur) restait qu'un jour avant la retraite."
+          25:
+            text: "Ça montre juste qu'il y a pire que les vaccins à propos de quoi s'inquiéter."
+          26:
+            text: "(Sa mère lui disait:Sa mère lui disait:Leurs mères leur disaient) toujours de ne pas faire ça."
+          27:
+            text: "Sortir du lit ce matin s'est avéré être une mauvaise idée."
+          28:
+            text: "(Il est mort:Elle est morte:Ils sont morts) en faisant ce qu'(il aimait:elle aimait:ils aimaient)."
+          29:
+            text: "Comme c'était écrit dans la prophécie."
+          30:
+            text: "L'un des chanceux."
+          31:
+            text: "Ça n'était pas supposé arriver."
+          32:
+            text: "Il y en a plein d'autres d'où (il vient:elle vient:ils viennent), je l'espère."
+          33:
+            text: "(Il fait:Elle fait:Ils font) pousser des marguerites maintenant."
+          34:
+            text: "Cela devait arriver tôt ou tard."
+          35:
+            text: "Ne te sens pas mal. Les morts ne sentent rien de toute façon"
+          36:
+            text: "Les pensées et les prières ne vont probablement pas arranger ça..."
+      
+      migrantDepartBehavior:
+        leaveRegion:
+          subtitle:
+            text: "est parti vers {regionName}"
+    
+    object:       
+      sacrificeToCullisGate:
+        header:
+          male:
+            text: "{mobName} $WHI0a été sacrifié par son $RED1Dieu$WHI0!"
+          female:
+            text: "{mobName} $WHI0a été sacrifié par son $RED1Dieu$WHI0!"
+          none:
+            text: "{mobName} $WHI0a été sacrifié par son $RED1Dieu$WHI0!"
+        subtitle:
+          text: "Que cela serve de leçon."
+    
+    spawn:
+      nomadsArrived:
+        header:
+          text: "$GRE0Des nomades !"
+        subtitle:
+          text: "Un groupe de nomades est arrivé dans la région."
+          
+    weather:
+      disaster:
+        blight:
+          header:
+            text: "$RED1Infection !"
+          subtitle:
+            text: "Le monde est malade."
+        earthquake:
+          header:
+            text: "$RED1Séisme!!"
+          subtitle:
+            text: "Le sol est énervé !"
+        electricalStorm:
+          header:
+            text: "$RED1Orage !"
+          subtitle:
+            text: "Ne transportez pas de barres de métal !"
+        hailStorm:
+          header:
+            text: "$RED1Tempête de grêle!"
+          subtitle:
+            text: "Mettez vos casques !"
+        meteorShower:
+          header:
+            text: "$RED1Pluie de météores !"
+          subtitle:
+            text: "Regardez au dessus de votre tête !"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Goals
