@@ -5010,18 +5010,18 @@ playYouLosePanel:
   
   button:
     abandonRegion:
-      text: ">> Abandon Region <<"
+      text: ">> Abandonner la région <<"
       
   congratulations:
-    text: "$YEL1Congratulations."
+    text: "$YEL1Félicitations."
   youLose:
-    text: "$GRE1You've lost the region!"
+    text: "$GRE1Vous avez perdu la région !"
   daysSurvived:
-    text: "$WHI0The village survived $GRE1{days}$WHI0 day!"
+    text: "$WHI0Le village a survécu $GRE1{days}$WHI0 jour !"
   daysSurvivedPlural:
-    text: "$WHI0The village survived $GRE1{days}$WHI0 days!"
+    text: "$WHI0Le village a survécu $GRE1{days}$WHI0 jours !"
   acceptFate:
-    text: "$RED0Accept Fate.."
+    text: "$RED0Accepter le destin.."
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Shared (Used in multiple states)
