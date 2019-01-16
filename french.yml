@@ -4861,29 +4861,29 @@ playToolsBar:
   button:
     tooltip:
       pauseBuildingsHeader:
-        text: "Pause Buildings ({shortcutKey})"
+        text: "Mettre des bâtiments en pause ({shortcutKey})"
       pauseBuildings:
-        text: "Pausing a building will stop most village interactions with it."
+        text: "Mettre un bâtiment en pause va empêcher les villageois d'interargir avec."
       dismantleBuildingsHeader:
-        text: "Dismantle Buildings ({shortcutKey})"
+        text: "Démanteler des bâtiments ({shortcutKey})"
       dismantleBuildings:
-        text: "Dismantle a building and recover some of its original construction costs. $RED1This CAN NOT be undone!"
+        text: "Démantèle un bâtiment en réupérant quelques ressources du coût de construction en matériaux. $RED1Cela NE PEUT PAS être annulé !"
       digHeader:
-        text: "Dig a Hole ({shortcutKey})"
+        text: "Creuse un trou ({shortcutKey})"
       dig:
-        text: "Dig holes in the ground that will fill with water the next time it rains."
+        text: "Creuse des trous dans le sol. Ces trous se rempliront d'eau la prochaine fois qu'il pleut."
       createOrUpgradeRoadsHeader:
-        text: "Create or Upgrade Roads"
+        text: "Créer ou améliorer des routes"
       createOrUpgradeRoads:
-        text: "Select open tiles to build paths on, or upgrade existing roads and paths. Roads and paths increase movement speed of all creatures that walk on them."
+        text: "Sélectionnez des cases libres sur lesquelles construire des chemins ou améliorer des routes et chemins existants.Les routes et les chemins améliorent la vitesse de déplacement de toutes les créatures qui marchent dessus."
       dismantleRoadsHeader:
-        text: "Dismantle Roads"
+        text: "Démanteler des routes"
       dismantleRoads:
-        text: "Completely remove a road or path."
+        text: "Enlève complètement un chemin ou une route."
       destroyTerrainHeader:
-        text: "Destroy Terrain"
+        text: "Détruire du terrain"
       destroyTerrain:
-        text: "Quickly destroy nearly any topography, including forest, tree stumps, rocks, rubble, water and even flowers. No resources will be gained from destroying the topography."
+        text: "Détruit rapidement la topographie, c'est à dire les forêts, souches, rochers, gravats, l'eau et même les fleurs. Détruire la topographie ne rapportera pas de ressources."
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Play State
