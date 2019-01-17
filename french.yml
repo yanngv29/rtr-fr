@@ -5171,7 +5171,7 @@ sharedMusicPanel:
   javaClass: "rtr.gui.states.shared.MusicPanel.java"
       
   header:
-    text: "Music"
+    text: "Musique"
     
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Shared
