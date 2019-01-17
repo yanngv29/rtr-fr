@@ -5582,285 +5582,285 @@ worldMapGameModeConfigPanel:
   button:
     input:
       configName:
-        text: "Config Name"
+        text: "Nom configuration"
     tooltip:
       saveConfig:
-        text: "Save Config"
+        text: "Sauvegarder la configuartion"
     accept:
-      text: "Accept"
+      text: "Confirmer"
     back:
-      text: "Back"
+      text: "Retour"
       
   header:
-    text: "$CYA1Game Mode Configuation"
+    text: "$CYA1Configuration du mode de jeu"
     
   corruption:
     tooltip:
       baseSpawnRateHeader:
-        text: "Base Spawn Rate"
+        text: "Taux d'apparition de base"
       baseSpawnRate:
-        text: "The overall base spawn rate chance. Lower means more monsters! $YEL1(1 in 1 - 20,000, or none.)"
+        text: "Le taux d'apparition global de base. Une valeur basse signifie plus de monstes ! $YEL1(1 en 1 - 20.000, ou aucun.)"
       boostedChanceMultiplierHeader:
-        text: "Boosted Chance Multiplier"
+        text: "Multiplicateur de monstres renforcés"
       boostedChanceMultiplier:
-        text: "Multiplies the final calculated 1 in X chance a monster will be boosted when it spawns. 0.5 would be double, 2.0 would be half. $YEL1(0.25 - 10.0)"
+        text: "Multiplie la probabilité 1 en X qu'un monstre soit boosté lorsqu'il apparait par le résultat final calculé. 0,5 serait le double, 2,0 serait la moitié. $YEL1(0.25 - 10.0)"
       corruptionStartDayHeader:
-        text: "Corruption Start Day"
+        text: "Jour de départ pour la corruption"
       corruptionStartDay:
-        text: "The first day the first corruption spots will spawn in the game world. $YEL1(1 - 200, or never.)"
+        text: "Le premier jour où la première tache de corruption apparaîtra dans le monde. $YEL1(1 - 200, ou jamais.)"
       spreadRateHeader:
-        text: "Spread Rate"
+        text: "Taux de propagation"
       spreadRate:
-        text: "How fast the corruption spreads. Lower numbers mean faster spreading! $YEL1(1 in 5k to 1 in 500k per update tick)"
+        text: "La vitesse à laquelle la corruption se répand. Une valeur basse signifie une propagation plus rapide ! $YEL1(1 en 5k jusqu'à 1 en 500k par tick d'horloge)"
       buildingRateHeader:
-        text: "Building Rate"
+        text: "Taux de construction"
       buildingRate:
-        text: "How often the corruption drones will build a new building. Lower numbers mean faster building! $YEL1(1 in 5k to 1 in 500k per update tick)"
+        text: "La fréquence à laquelle les drones corrompus construiront de nouveaux bâtiments. Une valeu basse signifie une construction plus rapide ! $YEL1(1 en 5k jusqu'à 1 en 500k par tick d'horloge)"
       buildingDensityHeader:
-        text: "Building Density"
+        text: "Densité de construction"
       buildingDensity:
-        text: "How many buildings can the drones build in one area, the area is determined by 'Building Density Range' below. $YEL1(1 - 50)"
+        text: "La quantité de bâtiments que les drones peuvent construire dans une zone, la zone est déterminée par 'Portée de la densité de construction' ci-dessous. $YEL1(1 - 50)"
       buildingDensityRangeHeader:
-        text: "Building Density Range"
+        text: "Portée de la densité de construction"
       buildingDensityRange:
-        text: "The range looked at when determining building density, set by 'Building Density' above. $YEL1(8 - 128)"
+        text: "La portée utilisée lorsqu'il faut déterminer la densité de construction, défini par 'Densité de construction' ci-dessus. $YEL1(8 - 128)"
       permanentCorruptionAmountMaxHeader:
-        text: "Perm. Corr. Amt Max"
+        text: "Mpntant max de corruption perma"
       permanentCorruptionAmountMax:
-        text: "The maximum amount of tiles that can be permanently corrupted. This should be the same or higher than the 'Permanent Corruption Start Amount' above. $YEL1(64 - 64512)"
+        text: "La quantité maximale de tuiles qui peuvent être corrompues de façon permanente. Cela devrait être égal ou plus élevé que le paramètre 'Quantité de corruption permanente de départ' ci-dessus. $YEL1(64 - 64512)"
       permanentCorruptionMaxPerDayHeader:
-        text: "Perm. Corr. Max Per Day"
+        text: "Montant max de corruption perma/jour"
       permanentCorruptionMaxPerDay:
-        text: "How much additional corruption tiles become permanent per day. $YEL1(8 - 2048)"
+        text: "Combien de tuiles corrompues deviendront corrompues de façon permanente chaque jour. $YEL1(8 - 2048)"
       
     header:
       text: "$YEL0Corruption"
     baseSpawnRate:
-      text: "Base Spawn Rate"
+      text: "Taux d'apparition de base"
     boostedChanceMultiplier:
-      text: "Boosted Chance Multiplier"
+      text: "Multiplicateur de monstres renforcés"
     corruptionStartDay:
-      text: "Corruption Start Day"
+      text: "Jour de départ pour la corruption"
     spreadRate:
-      text: "Spread Rate"
+      text: "Vitesse de propagation"
     buildingRate:
-      text: "Building Rate"
+      text: "Vitesse de construction"
     buildingDensity:
-      text: "Building Density"
+      text: "Densité de construction"
     buildingDensityRange:
-      text: "Building Density Range"
+      text: "Portée de la densité de construction"
     permanentCorruptionAmountMax:
-      text: "Permanent Corr. Amt Max"
+      text: "Montant max de corruption perma"
     permanentCorruptionMaxPerDay:
-      text: "Perm. Corr. Max Per Day"
+      text: "Montant ma de corruption perma/jour"
     
   lootBoxes:
     tooltip:
       maximumLootBoxesHeader:
-        text: "Maximum Loot Boxes"
+        text: "Maximum de coffres"
       maximumLootBoxes:
-        text: "The maximum amount of uncovered loot boxes can exist on the map at once. $YEL1(1 in 1 - 5000 or never)"
+        text: "Le montant maximum de coffres à butin non-découverts qui peuvent être présents en même temps sur la carte. $YEL1(1 en 1 - 5000 ou jamais)"
       uncoverChanceHeader:
-        text: "Uncover Chance"
+        text: "Chance de coffres"
       uncoverChance:
-        text: "The chance to find an uncovered loot box while harvesting resources. $YEL1(1 in 1 - 5000 or never)"
+        text: "La chance de trouver un coffre non-découverts en récoltant des ressources. $YEL1(1 en 1 - 5000 ou jamais)"
       keyChanceHeader:
-        text: "Key Chance"
+        text: "Chance des clés"
       keyChance:
-        text: "The chance you'll uncover a key instead of a loot box. $YEL1(1 in 1 - 50 or never)"
+        text: "La chance d'obtenir une clé au lieu d'un coffre à butin. $YEL1(1 en 1 - 50 ou jamais)"
     
     header:
-      text: "$YEL0Loot Boxes"
+      text: "$YEL0Coffres à butin"
     maximumLootBoxes:
-      text: "Maximum Loot Boxes"
+      text: "Maximum de coffres"
     uncoverChance:
-      text: "Uncover Chance"
+      text: "Chance de coffres"
     keyChance:
-      text: "Key Chance"
+      text: "Chance des clés"
       
   nomads:
     tooltip:
       baseSpawnRateHeader:
-        text: "Base Spawn Rate"
+        text: "Taux d'apparition de base"
       baseSpawnRate:
-        text: "The base chance nomads will spawn in the day time. Lower the number, the higher the chance. $YEL1(1 in 5k - 320k or never)"
+        text: "La chance d'apparition de base de nomades durant la journée. Plus la valeur est basse, plus la chance est élevée. $YEL1(1 en 5k - 320k ou jamais)"
       spawnAmountMultiplierHeader:
-        text: "Spawn Amount Multiplier"
+        text: "Multiplicateur qté d'apparition"
       spawnAmountMultiplier:
-        text: "Multiplies the final calculated amount of nomads that spawn. 0.5 would be half, 2.0 would be double. $YEL1(0.25 - 10.0)"
+        text: "Multiplie le montant final de nomades qui vont apparaitre. 0.5 serait la moitié, 2.0 serait le double. $YEL1(0.25 - 10.0)"
       spawnAmountMinimumHeader:
-        text: "Spawn Amount Minimum"
+        text: "Quantité minimale"
       spawnAmountMinimum:
-        text: "The minimum amount of nomads that can spawn at once, should be lower than maximum. $YEL1(1 - 50)"
+        text: "La quantité minimale de nomades qui doivent apparaître en une fois, ne devrait jamais être plus bas que le maximum. $YEL1(1 - 50)"
       spawnAmountMaxHeader:
-        text: "Spawn Amount Max"
+        text: "Quantité maximale"
       spawnAmountMax:
-        text: "The maximum amount of nomads that can spawn at once, should be higher than minimum. $YEL1(1 - 50)"
+        text: "La quantité maximale de nomades qui peuvent apparaître en une fois, doit être plus élevé que le minimum. $YEL1(1 - 50)"
     
     header:
-      text: "$YEL0Nomads"
+      text: "$YEL0Nomades"
     baseSpawnRate:
-      text: "Base Spawn Rate"
+      text: "Taux d'apparition de base"
     spawnAmountMultiplier:
-      text: "Spawn Amount Multiplier"
+      text: "Multiplicateur qté d'apparition"
     spawnAmountMinimum:
-      text: "Spawn Amount Min"
+      text: "Quantité maximale"
     spawnAmountMax:
-      text: "Spawn Amount Max"
+      text: "Quantité minimale"
     
   other:
     tooltip:
       temperatureVarianceHeader:
-        text: "Temperature Variance"
+        text: "Variance de la température"
       temperatureVariance:
-        text: "How much a season's average temperature can vary. $YEL1(0 - 20)"
+        text: "De combien la température moyenne d'une saison peut varier. $YEL1(0 - 20)"
       startingSeasonHeader:
-        text: "Starting Season"
+        text: "Saison de départ"
       startingSeason:
-        text: "The season you start the game in."
+        text: "La saison dans laquelle le jeu commence."
       dayLengthMultiplierHeader:
-        text: "Day Length Multiplier"
+        text: "Durée de la journée"
       dayLengthMultiplier:
-        text: "Increases or decreases the overall time a day lasts. 1.5x is +50%, 0.5x is -50% $YEL1(0.1x - 30.0x)"
+        text: "Augmente ou diminue la durée total d'une journée. 1.5x est +50% de durée, 0.5x est -50% de durée $YEL1(0.1x - 30.0x)"
         
     header:
-      text: "$YEL0Other"
+      text: "$YEL0Autre"
     temperatureVariance:
-      text: "Temperature Variance"
+      text: "Variance de la température"
     startingSeason:
-      text: "Starting Season"
+      text: "Saison de départ"
     dayLengthMultiplier:
-      text: "Day Length Multiplier"
+      text: "Durée de la journée"
     
   weather:
     tooltip:
       rainOrSnowChanceHeader:
-        text: "Rain or Snow Chance"
+        text: "Chance de pluie ou neige"
       rainOrSnowChance:
-        text: "Chance it will rain in the {season}. Lower values are a higher chance. $YEL1(1 in 1 - 300k, or none.)"
+        text: "La chance qu'il pleuve lors de la saison {season}. Plus la valeur est basse, plus il y a de chances. $YEL1(1 en 1 - 300k, ou aucun.)"
       averageTemperatureHeader:
-        text: "Average Temperature"
+        text: "Température moyenne"
       averageTemperature:
-        text: "The average temperature in the {season}. $YEL1(0% to 100%)"
+        text: "La température moyenne de la saison {season}. $YEL1(0% jusqu'à 100%)"
       seasonLengthHeader:
-        text: "Season Length"
+        text: "Durée d'une saison"
       seasonLength:
-        text: "How many days {season} lasts. $YEL1(0 - 30)"
+        text: "Nombre de jours de la saison {season}. $YEL1(0 - 30)"
         
     header:
       spring:
-        text: "$YEL0Spring"
+        text: "$YEL0Printemps"
       summer:
-        text: "$YEL0Summer"
+        text: "$YEL0Été"
       autumn:
-        text: "$YEL0Autumn"
+        text: "$YEL0Automne"
       winter:
-        text: "$YEL0Winter"
+        text: "$YEL0Hiver"
         
     rainOrSnowChance:
-      text: "Rain or Snow Chance"
+      text: "Chance de pluie ou neige"
     averageTemperature:
-      text: "Avg. Temperature"
+      text: "Température moyenne"
     seasonLength:
-      text: "Season Length"
+      text: "Durée d'une saison"
     
   moonPhases:
     tooltip:
       fullMoonIntervalHeader:
-        text: "Full Moon Interval"
+        text: "Intervalle entre les pleines lunes"
       fullMoonInterval:
-        text: "How many days pass before a full moon is triggered. $YEL1(1 - 30, or none.)"
+        text: "Combien de jours passeront avant qu'une pleine lune ne se montre. $YEL1(1 - 30, ou aucun.)"
       bloodMoonChanceHeader:
-        text: "Blood Moon Chance"
+        text: "Chance de lune de sang"
       bloodMoonChance:
-        text: "Daily chance a blood moon could appear, after blood moon Delay has ran out. $YEL1(1 - 30)"
+        text: "La chance journalière qu'une lune de sang se produise, après que le délai entre les lunes de sang soit terminé. $YEL1(1 - 30)"
       bloodMoonDelayHeader:
-        text: "Blood Moon Delay"
+        text: "Délai entre les lunes de sang"
       bloodMoonDelay:
-        text: "How many days pass before a blood moon can be retriggered. $YEL1(1 - 50, or none.)"
+        text: "Combien de jours doivent passer avant qu'une lune de sang puisse se produire. $YEL1(1 - 50, ou aucun.)"
       bloodMoonHeader:
-        text: "Blood Moon ({season})"
+        text: "Lune de sang ({season})"
       bloodMoon:
-        text: "Allows a blood moon be to be triggered in the {season}."
+        text: "Permet le déclenchement d'une lune de sang lors de la saison {season}."
     
     header:
-      text: "$YEL0Moon Phases"
+      text: "$YEL0Phases de lune"
     fullMoonInterval:
-      text: "Full Moon Interval"
+      text: "Intervalle entre les pleines lunes"
     bloodMoonChance:
-      text: "Blood Moon Chance"
+      text: "Chance de lune de sang"
     bloodMoonDelay:
-      text: "Blood Moon Delay"
+      text: "Intervalle entre les lunes de sang"
     bloodMoon:
-      text: "Blood Moon ({season})"
+      text: "Lune de sang ({season})"
     
   disasters:
     tooltip:
       meteorShowerChanceHeader:
-        text: "Meteor Shower Chance"
+        text: "Chance d'une pluie de météores"
       meteorShowerChance:
-        text: "Chance of a meteor shower. $YEL1(1k - 3m, or none.)"
+        text: "Chance qu'une pluie de météore se produire. $YEL1(1k - 3m, ou aucune.)"
       earthquakeChanceHeader:
-        text: "Earthquake Chance"
+        text: "Chance d'un tremblement de terre"
       earthquakeChance:
-        text: "Chance of an earthquake. $YEL1(1k - 3m, or none.)"
+        text: "Chance qu'un tremblement de terre se produise. $YEL1(1k - 3m, ou aucune.)"
       electricalStormChanceHeader:
-        text: "Electrical Storm Chance"
+        text: "Chance d'un orage"
       electricalStormChance:
-        text: "Chance of an electrical storm. $YEL1(1k - 3m, or none.)"
+        text: "Chance qu'un orage se produise. $YEL1(1k - 3m, ou aucune.)"
       hailStormChanceHeader:
-        text: "Hail Storm Chance"
+        text: "Chance d'une tempête de grêle"
       hailStormChance:
-        text: "Chance of a hail storm. $YEL1(1k - 3m, or none.)"
+        text: "Chance qu'une tempête de grêle se produise $YEL1(1k - 3m, ou aucune.)"
       blightChanceHeader:
-        text: "Blight Chance"
+        text: "Chance d'une infection"
       blightChance:
-        text: "Chance of a blight. $YEL1(1k - 3m, or none.)"
+        text: "Chance qu'une infection généralisée se produise. $YEL1(1k - 3m, ou aucune.)"
         
     header:
-      text: "$YEL0Disasters"
+      text: "$YEL0Désastres"
     meteorShowerChance:
-      text: "Meteor Shower Chance"
+      text: "Chance d'une pluie de météores"
     earthquakeChance:
-      text: "Earthquake Chance"
+      text: "Chance d'un tremblement de terre"
     electricalStormChance:
-      text: "Electrical Storm Chance"
+      text: "Chance d'un orage"
     hailStormChance:
-      text: "Hail Storm Chance"
+      text: "Chance d'une tempête de grêle"
     blightChance:
-      text: "Blight Chance"
+      text: "Chance d'une infection"
       
   loadConfig:
     header:
-      text: "$YEL0Load Config"
+      text: "$YEL0Charger la config"
     nightmare:
-      text: "Nightmare"
+      text: "Cauchemard"
     survival:
-      text: "Survival"
+      text: "Survie"
     traditional:
-      text: "Traditional"
+      text: "Traditionnel"
     peaceful:
-      text: "Peaceful"
+      text: "Paisible"
     configFileName:
-      text: "$YEL0Config File Name"
+      text: "$YEL0Nom du fichier de config"
     configBlocked:
-      text: "$YEL0You must doom the world to reconfigure these settings!"
+      text: "$YEL0Vous devez condamner le monde pour reconfigurer ces paramètres !"
     
   miscellaneous:
     never:
-      text: "$GRE0Never"
+      text: "$GRE0Jamais"
     1inXk:
-      text: "$GRE01 in {amount}k"
+      text: "$GRE01 en {amount}k"
     1inX:
-      text: "$GRE01 in {amount}"
+      text: "$GRE01 en {amount}"
     none:
-      text: "$GRE0None"
+      text: "$GRE0Aucun"
     xDays:
-      text: "$GRE0{days} days"
+      text: "$GRE0{days} jours"
     'true':
-      text: "$GRE0True"
+      text: "$GRE0Oui"
     'false':
-      text: "$RED0False"
+      text: "$RED0Non"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # World Map State
