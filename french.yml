@@ -5874,49 +5874,49 @@ worldMapGameModeSelectPanel:
   
   button:
     nightmare:
-      text: "Nightmare"
+      text: "Cauchemard"
     survival:
-      text: "Survival"
+      text: "Survie"
     traditional:
-      text: "Traditional"
+      text: "Traditionnel"
     peaceful:
-      text: "Peaceful"
+      text: "Paisible"
     custom:
       text: "Custom"
     sandbox:
-      text: "Sandbox"
+      text: "Bac à sable"
   
   header:
     nightmare:
-      text: "$RED1Nightmare"
+      text: "$RED1Cauchemard"
     survival:
-      text: "$ORA1Survival"
+      text: "$ORA1Survie"
     traditional:
-      text: "$YEL1Traditional"
+      text: "$YEL1Traditionnel"
     peaceful:
-      text: "$GRE1Peaceful"
+      text: "$GRE1Paisible"
     custom:
       text: "$CYA1Custom"
     sandbox:
-      text: "$BLU1Sandbox"
+      text: "$BLU1Bac à sable"
     selectGameMode:
-      text: "$BLU1Select Game Mode"
+      text: "$BLU1Sélectionnez un mode de jeu"
       
   description:
     nightmare:
-      text: "A nearly impossible game mode designed to challenge even the best players. Expect an unfair and ruthless experience. This mode is for the masochist in all of us.~~$RED0Do NOT pick this game mode. Seriously, just don't!~~"
+      text: "Un mode de jeu presque impossible conçu pour mettre en difficulté les meilleurs joueurs. Attendez-vous à une experience impitoyable. Ce mode est fait pour le masochiste qui se cache en chacun de nous.~~$RED0Ne choisissez PAS ce mode de jeu. Sérieusement, ne le faites pas !~~"
     survival:
-      text: "The way the game is meant to be played. Unforgivingly brutal, with a steep learning curve.~~$RED0Expect to lose frequently!~~$GRE0Try out traditional mode if survival is too much for you."
+      text: "La façon dont le jeu est censé être joué. Impitoyablement brutal, avec une courbe d'apprentissage abrupte.~~$RED0Attendez-vous à perdre fréquemment !~~$GRE0Essayez le mode traditionnel si le mode survie est trop compliqué pour vous."
     traditional:
-      text: "A traditional village simulator experience, with much less monsters.~~This mode is recommended if you want a more relaxed experience, but you want some monsters and light defense mechanics.~~$GRE0The most ideal game mode to learn how to play. But once you learn the ropes, switch to survival!"
+      text: "Une expérience de simulateur de village traditionnelle, avec beaucoup moins de monstres.~~Ce mode est recommandé si vous voulez une expérience plus relaxante, mais vous voulez tout de même des monstres et une mécanique de défense légère.~~$GRE0Le mode de jeu idéal pour apprendre à jouer. Mais une fois que vous avez appris les ficelles du métier, passez à la survie !"
     peaceful:
-      text: "A mode with absolutely no monsters what so ever. Just worry about taking care of your village, and survive the passing seasons.~~$GRE0This mode is not recommended unless you're looking for a relaxed, laid back experience with no challenge what so ever."
+      text: "Un mode sans aucun monstre, quel qu'il soit. Souciez-vous de prendre soin de votre village et de survivre aux saisons qui passent.~~$GRE0Ce mode n'est pas recommandé à moins que vous ne recherchiez une expérience décontractée, tranquille, et sans aucun défi, quel qu'il soit."
     custom:
-      text: "A mode where you set all of the difficulty flags before playing. But once they're set, they can't be changed until you reset the game mode.~~$GRE0This mode is recommended for experienced players who want to experiment with the game's baseline difficulty."
+      text: "Un mode dans lequel vous définissez tous les paramètres de difficulté avant de jouer. Mais une fois qu'ils sont réglés, ils ne peuvent pas être modifiés sans réinitialiser le monde.~~$GRE0Ce mode est recommandé pour les joueurs expérimentés qui veulent explorer la difficulté de base du jeu.."
     sandbox:
-      text: "No rules! Play around with the game mechanics, change the time of day, spawn in resources and monsters, generate particles. Do whatever you want and just have fun!~~Recommended if you're interested in playing around with the game mechanics.~~Not intended for serious gameplay of any kind."
+      text: "Pas de règles ! Jouez avec les mécanismes du jeu, changez l'heure du jour, faites apparaître des ressources et des monstres, générez des particules. Faites ce que vous voulez et amusez-vous !~~Recommandé si jouer avec les mécaniques du jeu vous intéresse.~~N'est pas destiné à un expérience de jeu sérieuse, quelle qu'elle soit..."
     selectGameMode:
-      text: "Select one of the six a game modes from the left. Each mode is independent from the other five and you can change modes whenever you'd like. If you make too many mistakes, or want a fresh start in any mode, you can reset a game mode by clicking the Doom World button.~~$GRE0If you are a new player, Traditional mode is highly recommended."
+      text: "Sélectionnez l'un des six modes de jeu dans le menu de gauche. Chaque mode est indépendant des cinq autres et vous pouvez changer de mode quand vous le souhaitez. Si vous faites trop d'erreurs, ou si vous voulez repartir à zéro dans n'importe quel mode, vous pouvez réinitialiser un mode de jeu en cliquant sur le bouton condamner le monde.~~$GRE0Si vous êtes un nouveau player, le mode Traditionnel est fortement recommandé."
   
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # World Map State
