@@ -4881,7 +4881,7 @@ playToolsBar:
       dismantleRoads:
         text: "Enlève complètement un chemin ou une route."
       destroyTerrainHeader:
-        text: "Détruire du terrain"
+        text: "Détruire le terrain"
       destroyTerrain:
         text: "Détruit rapidement la topographie, c'est à dire les forêts, souches, rochers, gravats, l'eau et même les fleurs. Détruire la topographie ne rapportera pas de ressources."
 
@@ -5272,220 +5272,220 @@ sharedSettingsPanel:
   
   button:
     ok:
-      text: "Ok!"
+      text: "Ok !"
     cancel:
-      text: "Cancel"
+      text: "Annuler"
     reset:
-      text: "Reset"
+      text: "Réinitialiser"
     
   keys:
     comment: "Key list column."
     header:
-      text: "$ORA1Map Keys"
+      text: "$ORA1Touches"
     notSet:
-      text: "NOT SET"
+      text: "NON DÉFINI"
     mapUp:
-      text: "Map Up"
+      text: "Déplacer la carte vers le haut"
     mapDown:
-      text: "Map Down"
+      text: "Déplacer la carte vers le bas"
     mapLeft:
-      text: "Map Left"
+      text: "Déplacer la carte vers la gauche"
     mapRight:
-      text: "Map Right"
+      text: "Déplacer la carte vers la droite"
     zoomIn:
-      text: "Zoom In"
+      text: "Zoomer"
     zoomOut:
-      text: "Zoom Out"
+      text: "Dézoomer"
     gameSpeedUp:
-      text: "Game Speed Up"
+      text: "Augmenter la vitesse du jeu"
     gameSpeedDown:
-      text: "Game Speed Down"
+      text: "Diminuer la vitesse du jeu"
     minimap:
-      text: "Minimap"
+      text: "Minicarte"
     cycleBrushType:
-      text: "Cycle Brush Type"
+      text: "Parcourir les types de pinceaux"
     brushSizeUp:
-      text: "Brush Size Up"
+      text: "Augmenter la taille du pinceau"
     brushSizeDown:
-      text: "Brush Size Down"
+      text: "Diminuer la taille du pinceau"
     debugView:
-      text: "Debug View"
+      text: "Vue de débogage"
     screenShot:
-      text: "Screen Shot"
+      text: "Capture d'écran"
     hideGUI:
-      text: "Hide GUI"
+      text: "Cacher l'interface"
     gridView:
-      text: "Grid View"
+      text: "Vuisionner de la grille"
     hideTopography:
-      text: "Hide Topography (Map Editor)"
+      text: "Cacher la topographie (éditeur de carte)"
     fullScreen:
-      text: "Full Screen"
+      text: "Plein écran"
     populationList:
-      text: "Population List"
+      text: "Liste de la population"
     mainMenu:
-      text: "Main Menu"
+      text: "Menu principal"
     mapInformation:
-      text: "Map Information"
+      text: "Informations de la carte"
     dataViews:
-      text: "Data Views"
+      text: "Vue de données"
     problemPanel:
-      text: "Problem Panel"
+      text: "Panneau des problèmes"
     buildingList:
-      text: "Building List"
+      text: "Liste des bâtiments"
     cancel:
-      text: "Cancel/Escape"
+      text: "Annuler/échapper"
     accent:
-      text: "Accent/Alt Function"
+      text: "Accentuer/fonction alternative"
     erase:
-      text: "Erase (Map Editor)"
+      text: "Supprimer (éditeur de carte)"
     objectGrab:
-      text: "Object Grab (Map Editor)"
+      text: "Attraper un objet (éditeur de carte)"
     patch:
-      text: "Patch (Map Editor)"
+      text: "Replacer (éditeur de carte)"
     hole:
-      text: "Hole (Map Editor)"
+      text: "Trou (éditeur de carte)"
     pause:
       text: "Pause"
     pauseObject:
-      text: "Pause Object"
+      text: "Mettre un objet en pause"
     dismantleObject:
-      text: "Dismantle Object"
+      text: "Démanteler un objet"
     grabSpell:
-      text: "Grab Spell"
+      text: "Attraper"
     activeSpell1:
-      text: "Active Spell (Slot 1)"
+      text: "Sort actif (emplacement 1)"
     activeSpell2:
-      text: "Active Spell (Slot 2)"
+      text: "Sort actif (emplacement 2)"
     activeSpell3:
-      text: "Active Spell (Slot 3)"
+      text: "Sort actif (emplacement 3)"
     activeSpell4:
-      text: "Active Spell (Slot 4)"
+      text: "Sort actif (emplacement 4)"
     activeSpell5:
-      text: "Active Spell (Slot 5)"
+      text: "Sort actif (emplacement 5)"
     harvestWood:
-      text: "Harvest Wood"
+      text: "Récolter du bois"
     harvestRock:
-      text: "Harvest Rock"
+      text: "Récolter de la pierre"
     harvestFoodAndWater:
-      text: "Harvest Food and Water"
+      text: "Récolter eau/nourriture"
     harvestCrystal:
-      text: "Harvest Crystals"
+      text: "Récolter du cristal"
     destroyTerrain:
-      text: "Destroy Terrain"
+      text: "Détruire le terrain"
     nextTip:
-      text: "Next Tip"
+      text: "Conseil suivant"
     axisLock:
-      text: "Axis Lock"
+      text: "Verrouillage d'axe"
 
   audio:
     comment: "Audio column."
     header:
       text: "$ORA1Audio"
     musicVolume:
-      text: "$BLU0Music Volume"
+      text: "$BLU0Volume de la musique"
     soundVolume:
-      text: "$BLU0Sound Volume"
+      text: "$BLU0Volume des bruitages"
 
   controls:
     comment: "Controls column."
     header:
-      text: "$ORA1Controls"
+      text: "$ORA1Contrôles"
     invertMapScrolling:
-      text: "Invert Map Scrolling"
+      text: "Inverser le défilement de la carte"
     edgeScrolling:
-      text: "Edge Scrolling"
+      text: "Défilement aux bordures"
     edgeScrollingFullScreenRecommended:
-      text: "$GRE1Full Screen Recommended"
+      text: "$GRE1Plein écran recommandé"
     edgeScrollingAmount:
-      text: "Edge Scrolling Amount"
+      text: "Vitesse de défilement aux bordures"
 
   videoConfiguration:
     comment: "Video configuration column."
     header:
-      text: "$ORA1Video Configuration"
+      text: "$ORA1Configuration vidéo"
     fullScreen:
-      text: "Full Screen"
+      text: "Plein écran"
     borderlessFullScreen:
-      text: "Borderless Full Screen"
+      text: "Plein écran sans bordures"
     edgeScrollingNotRecommended:
-      text: "Edge Scrolling NOT Recommended"
+      text: "Défilement aux bordures DÉCONSEILLÉ"
     requiresFullScreen:
-      text: "Requires~Full Screen"
+      text: "Requiert le~plein écran"
     fixedResolution:
-      text: "Fixed Resolution"
+      text: "Résolution fixe"
     fullscreenWithoutBorderlessOnly:
-      text: "Fullscreen without Borderless Only"
+      text: "Seulement pour plein écran réel"
     vSync:
       text: "vSync"
     particles:
-      text: "Particles"
+      text: "Particules"
     particlesRetro:
-      text: "RETRO"
+      text: "RÉTRO"
     particlesSmooth:
-      text: "SMOOTH"
+      text: "DOUX"
 
   performance:
     comment: "Performance column."
     header:
       text: "$ORA1Performance"
     particleAmount:
-      text: "Particle Amount"
+      text: "Quantité de particules"
     shadows:
-      text: "Shadows"
+      text: "Ombres"
     autosaveFrequency:
-      text: "Autosave Frequency"
+      text: "Fréquence de sauvegarde automatique"
     clouds:
-      text: "Clouds"
+      text: "Nuages"
     background:
-      text: "Background"
+      text: "Fond"
 
   screenshake:
     comment: "Screenshake column."
     header:
-      text: "$ORA1Screenshake"
+      text: "$ORA1Secousses de l'écran"
     enabled:
-      text: "Screenshake Enabled"
+      text: "Secousses activées"
 
   tips:
     comment: "Tips column."
     header:
-      text: "$ORA1Tips"
+      text: "$ORA1Conseils"
     enabled:
-      text: "Tips Enabled"
+      text: "Conseils activés"
 
   interfaceScale:
     comment: "Interface scale column."
     header:
-      text: "$ORA1Interface Scale"
+      text: "$ORA1Échelle de l'interface"
     auto:
-      text: "Auto"
+      text: "Automatique"
     recommended:
-      text: "$GRE1Recommended"
+      text: "$GRE1Recommandé"
     tooHighWarning:
-      text: "$RED1Too high at this resolution!"
+      text: "$RED1Trop élevé pour cette résolution !"
     visualErrorsWarning:
-      text: "$RED1May cause visual errors"
+      text: "$RED1Peut causer des erreurs visuelles"
 
   twitch:
     comment: "Twitch integration column."
     header:
-      text: "$ORA1Twitch Integration"
+      text: "$ORA1Intégration de Twitch"
 
   changeKeyPanel:
     comment: "Change key pop up panel."
     header:
-      text: "$ORA1Change Key!"
+      text: "$ORA1Changer de touche !"
     message:
-      text: "Press the desired hot key~$GRE1CURRENT KEY: {keyName}"
+      text: "Appuie sur la touche désirée~$GRE1TOUCHE ACTUELLE : {keyName}"
 
   miscellaneous:
     comment: "Extra strings used in various parts of the panel."
     'false':
-      text: "FALSE"
+      text: "NON"
     'true':
-      text: "TRUE"
+      text: "OUI"
     nothingHere:
-      text: "Nothing here!"
+      text: "Rien !"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Shared
