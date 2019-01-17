@@ -5972,63 +5972,63 @@ worldMapMapSelectPanel:
   
   button:
     visitRegion:
-      text: "Visit Region"
+      text: "Entrer dans la région"
     establishVillage:
-      text: "Establish Village"
+      text: "Établir un village"
     visitRegionResetAI:
-      text: "Visit Region (Reset AI)"
+      text: "Entrer dans la région (Réinitialiser l'IA)"
     close:
-      text: "Close"
+      text: "Fermer"
     
     tooltip:
       visitRegionResetAIHeader:
-        text: "Reset AI"
+        text: "Réinitialiser l'IA"
       visitRegionResetAI:
-        text: "This will reset all mob AI to idle, useful in rare cases where the AI may be causing the game to crash or freeze. Recommended to try before you use the save rollback mechanics."
+        text: "Cela va réinitialiser toutes les IA des créatures et les passer en inactif, utile dans de rares cas où l'IA pourrait bloquer le jeu ou le faire crasher. Il est recommandé d'essayer avant d'utiliser les sauvegardes précédentes."
       rollbackSaveHeader:
-        text: "Rollback Save"
+        text: "Sauvegarde précédente"
       rollbackSave:  
-        text: "$RED1WARNING: This can NOT be undone, and may have adverse side effects to your world map progress. This should never be used for save scumming. Only for fixing corrupted save files!"
+        text: "$RED1ATTENTION: Cela ne peut PAS être annulé et pourrait avoir des effets secondaires négatifs sur le progrès de votre monde. Cela ne devrait jamais être utiliser pour tricher. Seulement pour réparer des sauvegardes corrompues !"
   
   tooltip:
     corruptionThreatHeader:
-      text: "Corruption Threat"
+      text: "Menace de la corruption"
     corruptionThreat:
-      text: "The higher this bar, the more dangerous the region will be for your villagers. More monsters will spawn at night, stronger monsters will appear, and corruption will spread more aggressively."
+      text: "Plus cette barre est remplie, plus le monde sera dangereux pour vos villageois. Plus de monstres apparaîtront la nuit, des monstres plus forts apparaîtront plus tôt, et la corruption se propagera de manière plus agressive."
 
   newRegion:
     header:
-      text: "$YEL1New Region"
+      text: "$YEL1Nouvelle région"
     noMigrants:
-      text: "$YEL1Need more migrants~to establish village!"
+      text: "$YEL1Nécessite plus de migrants~pour y établir un village !"
     migrantsEnRoute:
-      text: "Migrants En Route: $GRE1{amount}"
+      text: "Migrants en route : $GRE1{amount}"
     migrantsRequired:
-      text: "Migrants Required: $RED1{amount}"
+      text: "Migrants requis : $RED1{amount}"
     
   lostRegion:
     header:
-      text: "$RED1Lost Region"
+      text: "$RED1Région perdue"
     lostRegion:
-      text: "$WHI0You have lost this region~to the corruption!"
+      text: "$WHI0Vous avez perdu cette~région face à la corruption !"
     
   existingRegion:
     header:
       resources:
-        text: "$YEL1Resources"
+        text: "$YEL1Ressources"
       villagers:
-        text: "$GRE1Villagers"
+        text: "$GRE1Villageois"
       monsters:
-        text: "$RED1Monsters"
+        text: "$RED1Monstres"
       saveRollback:
-        text: "$YEL1Save Rollback"
+        text: "$YEL1Sauvegarde précédente"
       
   moreResourceTypes:
-    text: "Plus $GRE1{amount}$WHI0 more types."
+    text: "Plus $GRE1{amount}$WHI0 autres types."
   total:
     text: "$YEL1TOTAL: {amount}"
   none:
-    text: "$YEL1NONE!"
+    text: "$YEL1AUCUN !"
     
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # World Map State
