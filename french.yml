@@ -5930,14 +5930,14 @@ worldMapGoalClaimPanel:
   
   button:
     takeIt:
-      text: "Take it!"
+      text: "Prendre !"
       
   godExperience: 
-    text: "God Experience: $YEL0{amount}"
+    text: "Expérience divine : $YEL0{amount}"
   globalCorruptionPowerAmount:
-    text: "-{amount} Global Corruption Power"
+    text: "-{amount} force de corruption globale"
   morePerks:
-    text: "$YEL0Plus {amount} more!"
+    text: "$YEL0{amount} autres de plus !"
     
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # World Map State
@@ -5951,14 +5951,14 @@ worldMapGoalsPanel:
   
   button:
     'yes':
-      text: "Yes"
+      text: "Oui"
     'no':
-      text: "No"
+      text: "Non"
     reset:
-      text: "Reset"
+      text: "Réinitialiser"
     
   warning: 
-   text: "$GRE1Are you sure? This will remove the~goal, and a new one must be earned."
+   text: "$GRE1En êtes-vous sur ? Cela va retirer~l'objectif, et un nouveau doit être acquis."
    
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # World Map State
