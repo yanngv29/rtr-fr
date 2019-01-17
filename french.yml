@@ -5185,80 +5185,80 @@ playRightObjectDescriptionPanel:
   
   header:
     constructionRequirements:
-      text: "Construction Requirements"
+      text: "Prérequis de construction"
     requiredSupport:
-      text: "Required Support"
+      text: "Support requis"
     recommendedSupport:
-      text: "Recommended Support"
+      text: "Support recommandé"
     canStore:
-      text: "Can Store"
+      text: "Peut stocker"
     canRefineOrManufacture:
-      text: "Can Refine/Manufacture"
+      text: "Peut raffiner/manufacturer"
     defensiveTower:
-      text: "Defensive Tower"
+      text: "Tour défensive"
     
   constructionRequirements:
-    text: "Requires $RED1{buildingName}$WHI0 for $RED1{resourceName}"
+    text: "Requiert $RED1{buildingName}$WHI0 pour la production de $RED1{resourceName}"
   supportConjuntion:
-    text: "$WHI0 or $RED0"
+    text: "$WHI0 ou $RED0"
   maximumStorage:
-    text: "Maximum Storage: $GRE1{amount}"
+    text: "Stockage maximum : $GRE1{amount}"
   energy:
-    text: "$YEL1{amount} Energy"
+    text: "$YEL1{amount} d'énergie"
   staticTowerDamageOverride:
-    text: "Damage: $GRE1Electric (3-8)"
+    text: "Dégâts : $GRE1Electrique (3-8)"
   chargedDamage:
-    text: "Charged Damage: $GRE1{damageType} ({damageMinimum}-{damageMaximum})"
+    text: "Dégâts chargés : $GRE1{damageType} ({damageMinimum}-{damageMaximum})"
   damage:
-    text: "Damage: $GRE1{damageType} ({damageMinimum}-{damageMaximum})"
+    text: "Dégâts : $GRE1{damageType} ({damageMinimum}-{damageMaximum})"
   unchargedDamage:
-    text: "Uncharged Damage: {damageType} $RED0({damageMinimum}-{damageMaximum})"
+    text: "Dégpats non chargés : {damageType} $RED0({damageMinimum}-{damageMaximum})"
   fires:
-    text: "Fires: $GRE1{ammoName}"
+    text: "Tire : $GRE1{ammoName}"
   ammo:
-    text: "Ammo Per Bundle: $GRE1{amount}"
+    text: "Munitions par paquet: $GRE1{amount}"
   energyPerShot:
-    text: "Energy Per Shot: $GRE1{amount}"
+    text: "Énergie par tir : $GRE1{amount}"
   reloadTime:
-    text: "Reload Time: $GRE1{amount}"
+    text: "Durée de rechargement : $GRE1{amount}"
   firingRange:
-    text: "Firing Range: $GRE1{amount}"
+    text: "Portée de tir : $GRE1{amount}"
   canSpawnCreatures:
-    text: "Can Spawn Creatures"
+    text: "Peut invoquer des créatures"
   spawnsMob:
-    text: "Spawns $GRE1{mobName}"
+    text: "Invoque $GRE1{mobName}"
   maximumSpawns:
-    text: "Maximum Spawns: $GRE1{amount}"
+    text: "Invocations max. : $GRE1{amount}"
   spawnNeedsResourcesAndEnergy:
-    text: "Needs $GRE1{resourceName}$WHI0 and $GRE1{amount} Energy$WHI0 to Spawn"
+    text: "Nécessite $GRE1{resourceName}$WHI0 et $GRE1{amount} d'énergie $WHI0pour invoquer"
   spawnNeedsEnergy:
-    text: "Needs $GRE1{amount} Energy $WHI0to Spawn"
+    text: "Nécessite $GRE1{amount} d'énergie $WHI0pour invoquer"
   spawnNeedsResources:
-    text: "Needs $GRE1{resourceName}$WHI0 to Spawn"
+    text: "Nécessite $GRE1{resourceName}$WHI0 pour invoquer"
   rangeGenerated:
-    text: "Range Generated: $GRE1{amount}"
+    text: "Portée générée : $GRE1{amount}"
   desirability:
-    text: "Desirability: $GRE1{amount}"
+    text: "Attractivité : $GRE1{amount}"
   corruptionResistance:
-    text: "Corruption Resistance: $GRE1{amount}"
+    text: "Résistance à la corruption : $GRE1{amount}"
   providedMigrationsPerDay:
-    text: "Provided Migrations Per Day: $GRE1{amount}"
+    text: "Migration journalière fournie : $GRE1{amount}"
   guardHousingCapacity:
-    text: "Guard Housing Capacity: $GRE1{amount}"
+    text: "Capacité de logement des gardes : $GRE1{amount}"
   housingCapacity:
-    text: "Housing Capacity: $GRE1{amount}"
+    text: "Capacité de logement : $GRE1{amount}"
   workersSlots:
-    text: "Workers Slots: $GRE1{amount} {mobJobName}"
+    text: "Emplacements de travailleurs : $GRE1{amount} {mobJobName}"
   buildingSlotsProvided:
-    text: "Building Slots Provided: $GRE1{amount}"
+    text: "Emplacements de construction : $GRE1{amount}"
   acceptsEssence:
-    text: "Accepts Essence From Collectors"
+    text: "Accepte de l'essence venant des collecteurs"
   canCollectRawEssence:
-    text: "Can Collect Raw Essence"
+    text: "Peut collecter de l'essence brute"
   consumesCrylithium:
-    text: "Consumes Crylithium for Fuel"
+    text: "Consomme du crylithium en tant que carburant"
   canBuildRoads:
-    text: "Can Build Roads"
+    text: "Peut construire des routes"
     
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Shared
