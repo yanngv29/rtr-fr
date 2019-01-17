@@ -5153,12 +5153,12 @@ sharedMinimapPanel:
   
   button:
     small:
-      text: "Small"
+      text: "Petit"
     large:
-      text: "Large"
+      text: "Grand"
       
   header:
-    text: "Minimap"
+    text: "Minicarte"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Shared (Used in multiple states)
