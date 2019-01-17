@@ -5085,61 +5085,61 @@ sharedDebugData:
   fps:
     text: "$GRE1FPS: {fps}"
   totalRuntime:
-    text: "$GRE1Total Runtime: {hours}:{minutes}:{seconds}"
+    text: "$GRE1Durée d'exécution : {hours}:{minutes}:{seconds}"
   mapPosition:
-    text: "$BLU0Map Position: {xPosition},{yPosition}"
+    text: "$BLU0Position sur la carte : {xPosition},{yPosition}"
   particleCount:
-    text: "$RED0Particle Count: {amount}"
+    text: "$RED0Quantité de particules : {amount}"
   mousePosition:
-    text: "Mouse Position:"
+    text: "Position de la souris :"
   mouseTile:
-    text: "Mouse Tile:"
+    text: "Case de la souris :"
   mouseMap:
-    text: "Mouse Map:"
+    text: "Carte de la souris :"
   gpuModel:
-    text: "GPU Model: {gpuModelName}"
+    text: "Modèle du GPU : {gpuModelName}"
   usedMemory:
-    text: "$CYA1Used Memory:"
+    text: "$CYA1Mémoire utilisée :"
   freeMemory:
-    text: "$CYA1Free Memory:"
+    text: "$CYA1Mémoire disponible :"
   totalMemory:
-    text: "$CYA1Total Memory"
+    text: "$CYA1Mémoire totale"
   maxMemory:
-    text: "$CYA1Max Memory:"
+    text: "$CYA1Mémoire maximale:"
   resolution:
-    text: "$ORA1Resolution: $YEL1{width}x{height}"
+    text: "$ORA1Résolution : $YEL1{width}x{height}"
   uiScale:
-    text: "$PIN1UI Scale:"
+    text: "$PIN1Échelle de l'UI:"
   worldScale:
-    text: "$PIN1World Scale:"
+    text: "$PIN1Échelle du monde:"
   
   terrain:
     baseTerrain:
-      text: "$GRE0 Base Terrain:"
+      text: "$GRE0 Terrain de base :"
     baseTerrainAccent:
-      text: "$GRE0 Base Terrain (A):"
+      text: "$GRE0 Terrain de base (A) :"
     terrain:
-      text: "$GRE0Terrain:"
+      text: "$GRE0Terrain :"
     terrainAccent:
-      text: "$GRE0Terrain (A):"
+      text: "$GRE0Terrain (A) :"
     corruption:
-      text: "$GRE0Corruption:"
+      text: "$GRE0Corruption :"
     roads:
-      text: "$GRE0Roads:"
+      text: "$GRE0Routes :"
     lowerTopography:
-      text: "$GRE0Lower Topography:"
+      text: "$GRE0Basse topographie:"
     lowerTopographyAccent:
-      text: "$GRE0Lower Topography (A):"
+      text: "$GRE0Basse topographie (A):"
     bridges:
-      text: "$GRE0Bridges:"
+      text: "$GRE0Ponts :"
     upperTopography:
-      text: "$GRE0Upper Topography:"
+      text: "$GRE0Haute topographie :"
     upperTopographyAccent:
-      text: "$GRE0Upper Topography (A):"
+      text: "$GRE0Haute topographie (A):"
     objects:
-      text: "$GRE0Objects:"
+      text: "$GRE0Objets :"
     outOfBounds:
-      text: "$RED1Mouse Out of Bounds"
+      text: "$RED1Souris hors des limites"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Shared (Used in multiple states)
