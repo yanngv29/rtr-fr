@@ -5560,14 +5560,14 @@ worldMapDoomWorldPanel:
   
   button:
     doomWorld:
-      text: "DOOM WORLD"
+      text: "CONDAMNER LE MONDE"
     confirmInputBox:
-      text: "CONFIRM HERE"
+      text: "CONFIRMEZ ICI"
   
   warning:
-    text: "$RED1WARNING: WILL PERMANENTLY RESET ALL REGIONS ON THIS DIFFICULTY! BUT YOU WILL KEEP PERKS AND GOD EXPERIENCE."
+    text: "$RED1ATTENTION : CELA VA RÉINITIALISER TOUTES LES RÉGIONS DE CETTE DIFFICULTÉ POUR TOUJOURS ! MAIS VOUS GARDEREZ VOS AVANTAGES ET VOTRE EXPERIENCE DIVINE."
   instructions:
-    text: "$ORA1TYPE $GRE1RESET$ORA1 IN THE BOX BELOW TO CONFIRM YOU WANT TO DO THIS!"
+    text: "$ORA1ÉCRIS {reset} DANS LE CHAMP CI-DESSOUS POUR CONFIRMER CETTE ACTION !"
   
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # World Map State
