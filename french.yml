@@ -5035,42 +5035,42 @@ sharedDataViewsPanel:
   
   button:
     resourceValues:
-      text: "Resource Values"
+      text: "Valeur en ressources"
     movementCosts:
-      text: "Movement Costs"
+      text: "Coûts de mouvement"
     blockMap:
-      text: "Block Map"
+      text: "Endroits bloqués"
     range:
-      text: "Range"
+      text: "Portée du village"
     perimeter:
-      text: "Perimeter"
+      text: "Périmètre"
     corruptionResistance:
-      text: "Corruption Resistance"
+      text: "Résistance à la corruption"
     desirability:
-      text: "Desirability"
+      text: "Attractivité"
     towerRange:
-      text: "Tower Range"
+      text: "Portée des tours"
     lightningRodRange:
-      text: "Lightning Rod Range"
+      text: "Portée des paratonnerres"
     hideTopography:
-      text: "Hide Topography"
+      text: "Cacher la topographie"
     collisionMap:
-      text: "Collision Map"
+      text: "Carte des collisions"
     shadowMap:
-      text: "Shadow Map"
+      text: "Ombres"
     depthMap:
-      text: "Depth Map"
+      text: "Carte de profondeur"
     lightValues:
-      text: "Light Values"
+      text: "Valeurs d'éclairage"
     paths:
-      text: "Paths"
+      text: "Chemins"
     traffic:
-      text: "Traffic"
+      text: "Trafic"
     roadDurability:
-      text: "Road Durability"
+      text: "Durée de vie des routes"
       
   header:
-    text: "Data Views"
+    text: "Vue de données"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Shared (Used in multiple states)
