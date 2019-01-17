@@ -5499,9 +5499,9 @@ sharedTipsPanel:
   
   button:
     ok:
-      text: "OK!"
+      text: "OK !"
     nextTip:
-      text: "Next Tip"
+      text: "Conseil suivant"
       
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # World Map State
