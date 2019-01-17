@@ -5515,7 +5515,7 @@ worldMapChestOpenPanel:
   
   button:
     takeIt:
-      text: "Take it!"
+      text: "Prendre !"
       
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # World Map State
@@ -5529,24 +5529,24 @@ worldMapCorruptionThreatBar:
   
   tooltip:
     worldDayHeader:
-      text: "World Day"
+      text: "Jour du monde"
     worldDay:
-      text: "The combined days past on all active regions. This is one of the primary statistics used to calculate world wide corruption threat."
+      text: "Le nombre de jours passés sur toutes les régions actives combinées. C'est une des statistiques primaires utilisées pour calculer le niveau de menace de la corruption dans l'entièreté du monde."
     corruptionPowerHeader:
-      text: "Corruption Power"
+      text: "Force de la corruption"
     corruptionPower:
-      text: "This is the numerical calculation of the threat bar below. Positive values mean the threat is higher than baseline, and negative is lower. You can lower the corruption power by completing goals, or migrating to other regions."
+      text: "Il s'agit du calcul numérique de la barre de menace ci-dessous. Des valeurs positives signifient que la menace est plus élevée que le niveau de référence, et des valeurs négatives signifie qu'elle est plus faible. Vous pouvez réduire la force de la corruption en remplissant des objectifs ou en migrant vers d'autres régions."
     worldCorruptionThreatHeader:
-      text: "World Corruption Threat"
+      text: "Menace de la corruption du monde"
     worldCorruptionThreat:
-      text: "The higher this bar, the more dangerous the world will be for your villagers. More monsters will spawn at night, stronger monsters will appear sooner, and corruption will spread more aggressively."  
+      text: "Plus cette barre est remplie, plus le monde sera dangereux pour vos villageois. Plus de monstres apparaîtront la nuit, des monstres plus forts apparaîtront plus tôt, et la corruption se propagera de manière plus agressive."  
 
   worldDay:
-    text: "World Day: $GRE1{day}"
+    text: "Jour du monde : $GRE1{day}"
   globalCorruptionPowerGood:
-    text: "Global Corruption Power: $GRE1{amount}" 
+    text: "Force globale de lacorruption : $GRE1{amount}" 
   globalCorruptionPowerBad:
-    text: "Global Corruption Power: +$YEL1{amount}"
+    text: "Force globale de la corruption : +$YEL1{amount}"
     
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # World Map State
