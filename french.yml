@@ -5560,7 +5560,7 @@ worldMapDoomWorldPanel:
   
   button:
     doomWorld:
-      text: "CONDAMNER LE MONDE"
+      text: "ABANDONNER LE MONDE"
     confirmInputBox:
       text: "CONFIRMEZ ICI"
   
@@ -5844,7 +5844,7 @@ worldMapGameModeConfigPanel:
     configFileName:
       text: "$YEL0Nom du fichier de config"
     configBlocked:
-      text: "$YEL0Vous devez condamner le monde pour reconfigurer ces paramètres !"
+      text: "$YEL0Vous devez abandonner le monde pour reconfigurer ces paramètres !"
     
   miscellaneous:
     never:
@@ -5916,7 +5916,7 @@ worldMapGameModeSelectPanel:
     sandbox:
       text: "Pas de règles ! Jouez avec les mécanismes du jeu, changez l'heure du jour, faites apparaître des ressources et des monstres, générez des particules. Faites ce que vous voulez et amusez-vous !~~Recommandé si jouer avec les mécaniques du jeu vous intéresse.~~N'est pas destiné à un expérience de jeu sérieuse, quelle qu'elle soit..."
     selectGameMode:
-      text: "Sélectionnez l'un des six modes de jeu dans le menu de gauche. Chaque mode est indépendant des cinq autres et vous pouvez changer de mode quand vous le souhaitez. Si vous faites trop d'erreurs, ou si vous voulez repartir à zéro dans n'importe quel mode, vous pouvez réinitialiser un mode de jeu en cliquant sur le bouton condamner le monde.~~$GRE0Si vous êtes un nouveau player, le mode Traditionnel est fortement recommandé."
+      text: "Sélectionnez l'un des six modes de jeu dans le menu de gauche. Chaque mode est indépendant des cinq autres et vous pouvez changer de mode quand vous le souhaitez. Si vous faites trop d'erreurs, ou si vous voulez repartir à zéro dans n'importe quel mode, vous pouvez réinitialiser un mode de jeu en cliquant sur le bouton abandonner le monde.~~$GRE0Si vous êtes un nouveau player, le mode Traditionnel est fortement recommandé."
   
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # World Map State
@@ -6063,24 +6063,24 @@ worldMapSystemPanel:
   
   button:
     changeGameMode:
-      text: "Change Game Mode"
+      text: "Changer de mode de jeu"
     
     tooltip:
       mainMenuHeader:
-        text: "Main Menu"
+        text: "Menu principal"
       mainMenu:
-        text: "Return to the main menu."
+        text: "Retour au menu principal."
       doomWorldHeader:
-        text: "Doom World"
+        text: "Abandonner le monde"
       doomWorld:
-        text: "Completely reset the world, deleting all world progress. But you will keep your unlocked perks, god experience and chests."
+        text: "Réinitialise le monde complètement et supprime toute votre progression. Vous garderez tout de même les avantages débloqués, l'expérience divine et les coffres."
       viewGameModeConfigHeader:
-        text: "View Game Mode Config"
+        text: "Visionner les configurations du mode de jeu"
       viewGameModeConfig:
-        text: "View the custom game mode configurations you set before starting this world. They can not be changed without dooming the world and starting over."
+        text: "Visionnez les configurations du mode de jeu que vous allez définir avant de commencer le monde. Ces configurations ne peuvent pas être changées sans abandonner le monde et recommencer à zéro."
 
   header:
-    text: "System Panel" 
+    text: "Panneau système" 
     
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Help Module
