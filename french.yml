@@ -6041,15 +6041,15 @@ worldMapRewardChestPanel:
   javaClass: "rtr.gui.states.worldmap.RewardChestPanel.java"
   
   godExperienceHeader:
-    text: "God Experience"
+    text: "Expérience divine"
   godExperience:
-    text: "Gain god experience by maintain a good healthy village, or by unlocking and completing goals."
+    text: "Gagnez de l'expérience divine en maintenant votre village en bonne santé ou en débloquant et en atteignant des objectifs."
   chestGrantProgressHeader:
-    text: "Chest Grant Progress"
+    text: "Progrès avant le coffre récompense"
   chestGrantProgress:
-    text: "Your progress to be granted another chest. Chests are granted slowly as your villages survive. Once granted, must be opened with god experience."
+    text: "Votre progrès avant de recevoir un autre coffre. Les coffres sont donnés lentement en faiant survivre votre village. Une fois reçu, le coffre doit être ouvert avec l'expérience divine."
   chestGrantProgressFull:
-    text: "Your chest bar is full, you must open a chest to be granted another one."
+    text: "La barre de progrès du coffre est pleine, vous devez ouvrir un coffre pour en recevoir un nouveau."
     
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # World Map State
