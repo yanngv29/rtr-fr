@@ -6550,121 +6550,121 @@ missileName:
   javaClass: "rtr.missile.MissileModule.java" 
   
   basicArrow:
-    text: "Basic Arrow"
+    text: "Flèche basique"
   sturdyArrow:
-    text: "Sturdy Arrow"
+    text: "Flèche robuste"
   reinforcedArrow:
-    text: "Reinforced Arrow"
+    text: "Flèche renforcée"
   fireArrow:
-    text: "Fire Arrow"
+    text: "Flèche enflammée"
   lightningArrow:
-    text: "Lightning Arrow"
+    text: "Flèche-éclair"
   poisonArrow:
-    text: "Poison Arrow"
+    text: "Flèche empoisonnée"
   iceArrow:
-    text: "Ice Arrow"
+    text: "Flèche glacée"
   basicBallistaArrow:
-    text: "Basic Ballista Arrow"
+    text: "Lance basique"
   sturdyBallistaArrow:
-    text: "Sturdy Ballista Arrow"
+    text: "Lance robuste"
   reinforcedBallistaArrow:
-    text: "Reinforced Ballista Arrow"
+    text: "Lance renforcée"
   fireBallistaArrow:
-    text: "Fire Ballista Arrow"
+    text: "Lance enflammée"
   poisonBallistaArrow:
-    text: "Poison Ballista Arrow"
+    text: "Lance empoisonnée"
   iceBallistaArrow:
-    text: "Ice Ballista Arrow"
+    text: "Lance glacée"
   basicBullet:
-    text: "Basic Bullet"
+    text: "Balle basique"
   heavyBullet:
-    text: "Heavy Bullet"
+    text: "Balle lourde"
   reinforcedBullet:
-    text: "Reinforced Bullet"
+    text: "Balle renforcée"
   fireBullet:
-    text: "Fire Bullet"
+    text: "Balle enflammée"
   lightningBullet:
-    text: "Lightning Bullet"
+    text: "Balle-éclair"
   iceBullet:
-    text: "Ice Bullet"
+    text: "Balle glacée"
   basicSprayBullet:
-    text: "Basic Spray Bullet"
+    text: "Balle de tour pulvérisatrice basique"
   heavySprayBullet:
-    text: "Heavy Spray Bullet"
+    text: "Balle de tour pulvérisatrice lourde"
   reinforcedSprayBullet:
-    text: "Reinforced Spray Bullet"
+    text: "Balle de tour pulvérisatrice renforcée"
   fireSprayBullet:
-    text: "Fire Spray Bullet"
+    text: "Balle de tour pulvérisatrice enflammée"
   lightningSprayBullet:
-    text: "Lightning Spray Bullet"
+    text: "Balle-éclair de tour pulvérisatrice"
   iceSprayBullet:
-    text: "Ice Spray Bullet"
+    text: "Balle de tour pulvérisatrice glacée"
   smallElementalBolt:
-    text: "Small Elemental Bolt"
+    text: "Petit éclair élémentaire"
   elementalBolt:
-    text: "Elemental Bolt"
+    text: "Éclair élémentaire"
   largeElementalBolt:
-    text: "Large Elemental Bolt"
+    text: "Éclair élémentaire large"
   fireBolt:
-    text: "Fire Bolt"
+    text: "Éclair de feu"
   lightningBolt:
-    text: "Lightning Bolt"
+    text: "Éclair-éclair" #:shrug:
   iceBolt:
-    text: "Ice Bolt"
+    text: "Éclair glacé"
   smallPhantomDart:
-    text: "Small Phantom Dart"
+    text: "Petite fléchette fantôme"
   phantomDart:
-    text: "Phantom Dart"
+    text: "Fléchette fantôme"
   largePhantomDart:
-    text: "Large Phantom Dart"
+    text: "Fléchette fantôme large"
   phantomFireDart:
-    text: "Phantom Fire Dart"
+    text: "Fléchette fantôme enflammée"
   phantomLightningDart:
-    text: "Phantom Lightning Dart"
+    text: "Fléchette-éclair fantôme"
   phantomIceDart:
-    text: "Phantom Ice Dart"
+    text: "Fléchette fantôme glacée"
   phantomPoisonDart:
-    text: "Phantom Poison Dart"
+    text: "Fléchette fantôme empoisonnée"
   basicStoneBall:
-    text: "Basic Stone Ball"
+    text: "Pierre basique"
   heavyStoneBall:
-    text: "Heavy Stone Ball"
+    text: "Pierre lourde"
   reinforcedStoneBall:
-    text: "Reinforced Stone Ball"
+    text: "Pierre renforcée"
   explodingStoneBall:
-    text: "Exploding Stone Ball"
+    text: "Pierre explosive"
   lightningStoneBall:
-    text: "Lightning Stone Ball"
+    text: "Pierre-éclair"
   iceStoneBall:
-    text: "Ice Stone Ball"
+    text: "Pierre glacée"
   motivationBolt:
-    text: "Motivation Bolt"
+    text: "Éclair de motivation"
   attractBolt:
-    text: "Attract Bolt"
+    text: "Éclair attractif"
   banishBolt:
-    text: "Banish Bolt"
+    text: "Éclair de bannissement"
   recombobulatorBolt:
-    text: "Recombobulator Bolt"
+    text: "Éclair de recombobulation"
   bowArrow:
-    text: "Bow Arrow"
+    text: "Flèche d'arc"
   fireElemental:
-    text: "Fire Elemental"
+    text: "Élément du feu"
   fireGolem:
-    text: "Fire Golem"
+    text: "Golem de feu"
   iceGolem:
-    text: "Ice Golem"
+    text: "Golem de glace"
   lightningGolem:
-    text: "Lightning Golem"
+    text: "Golem-éclair"
   crystalGolem:
-    text: "Crystal Golem"
+    text: "Golem de cristal"
   fireCrystalGolem:
-    text: "Fire Crystal Golem"
+    text: "Golem de cristal de feu"
   iceCrystalGolem:
-    text: "Ice Crystal Golem"
+    text: "Golem de cristal de glace"
   lightningCrystalGolem:
-    text: "Lightning Crystal Golem"
+    text: "Golem-éclair de cristal"
   specialMainMenu:
-    text: "Special Main Menu"
+    text: "Menu principal spécial"
       
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Mob Module
