@@ -6312,13 +6312,13 @@ influence:
   
   castFail:
     outOfBounds:
-      text: "You can't cast spells out here!?"
+      text: "Vous ne pouvez pas lancer de sorts ici !?"
     inVoid:
-      text: "You can't cast spells into the void!"
+      text: "Vous ne pouvez pas lancer de sorts dans le vide !"
     inCorruption:
-      text: "You have no power here!"
+      text: "Vous n'avez aucun pouvoir ici !"
     noInfluence:
-      text: "Not enough influence!"
+      text: "Pas assez d'influence !"
       
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Influence Module
