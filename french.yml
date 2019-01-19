@@ -6461,81 +6461,81 @@ tileSet:
   comment: "Tile Set - Tooltips"
   javaClass: "rtr.map.tileSets.*" 
   
-  road:  
+  road:
     path:
-      text: "Path"
+      text: "Chemin"
     logPathDebris:
-      text: "Log Path Debris"
+      text: "Débris de chemin en bois"
     logPath:
-      text: "Log Path"
+      text: "Chemin en bois"
     cobbleAndLogPathDebris:
-      text: "Cobble and Log Path Debris"
+      text: "Débris de chemin en bois et pierre"
     cobbleAndLogPath:
-      text: "Cobble and Log Path"
+      text: "Chemin en bois et pierre"
     cobbleAndBoardRoadDebris:
-      text: "Cobble and Board Road Debris"
+      text: "Débris de chemin en planches et pierre"
     cobbleAndBoardRoad:
-      text: "Cobble and Board Road"
+      text: "Chemin en planches et pierre"
     cutStoneAndBoardRoadDebris:
-      text: "Cut Stone and Board Road Debris"
+      text: "Débris de route pavée/planches"
     cutStoneAndBoardRoad:
-      text: "Cut Stone and Board Road"
+      text: "Route pavée/planches"
 
   terrain:
     treeStumps:
-      text: "Tree Stumps"
+      text: "Souches d'arbre"
     trees:
-      text: "Trees"
+      text: "Arbres"
     deadTrees:
-      text: "Dead Trees"
+      text: "Arbres morts"
     rock:
-      text: "Rock"
+      text: "Pierre"
     sandstone:
-      text: "Sandstone"
+      text: "Grès"
     redCrystals:
-      text: "Red Crystals"
+      text: "Cristaux rouges"
     greenCrystals:
-      text: "Green Crystals"
+      text: "Cristaux verts"
     blueCrystals:
-      text: "Blue Crystals"
+      text: "Cristaux bleus"
     purpleCrystals:
-      text: "Purple Crystals"
+      text: "Cristaux pourpres"
     potatoes:
-      text: "Potatoes"
+      text: "Pommes de terre"
     turnips:
-      text: "Turnips"
+      text: "Navets"
     cactus:
       text: "Cactus"
     carrots:
-      text: "Carrots"
+      text: "Carrotes"
     melons:
       text: "Melons"
     bricks:
-      text: "Bricks"
+      text: "Briques"
     dirt:
-      text: "Dirt"
+      text: "Terre"
     flowers:
-      text: "Flowers"
+      text: "Fleurs"
     grass:
-      text: "Grass"
+      text: "Herbe"
     gravel:
-      text: "Gravel"
+      text: "Gravier"
     lava:
-      text: "Lava"
+      text: "Lave"
     sand:
-      text: "Sand"
+      text: "Sable"
     tar:
-      text: "Tar"
+      text: "Goudron"
     tiles:
-      text: "Tiles"
+      text: "Carrelage"
     water:
-      text: "Water"
+      text: "Eau"
     mud:
-      text: "Mud"
+      text: "Boue"
     ice:
-      text: "Ice"
+      text: "Glace"
     frozenMud:
-      text: "Frozen Mud"
+      text: "Boue glacée"
     corruption:
       text: "Corruption"
 
