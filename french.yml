@@ -1803,18 +1803,18 @@ goal:
       
   throwMonsterInCullisGate:
     header:
-      text: "Lancé de monstres dans les portes cullis"
+      text: "Lancé de monstres dans les portails cullis"
     body:
       any:
         any:
-          text: "Lance $GRE1{amount} monstres $WHI0dans une porte cullis $GRE1n'importe où $WHI0!"
+          text: "Lance $GRE1{amount} monstres $WHI0dans un portail cullis $GRE1n'importe où $WHI0!"
         specific:
-          text: "Lance $GRE1{amount} {mobNamePlural} $WHI0dans une porte cullis $GRE1n'importe où $WHI0!"
+          text: "Lance $GRE1{amount} {mobNamePlural} $WHI0dans un portail cullis $GRE1n'importe où $WHI0!"
       specific:
         any:
-          text: "Lance $GRE1{amount} monstres $WHI0dans une porte cullis dans $GRE1{mapName} $WHI0!"
+          text: "Lance $GRE1{amount} monstres $WHI0dans un portail cullis dans $GRE1{mapName} $WHI0!"
         specific:
-          text: "Lance $GRE1{amount} {mobNamePlural} $WHI0dans une porte cullis dans $GRE1{mapName} $WHI0!"
+          text: "Lance $GRE1{amount} {mobNamePlural} $WHI0dans un portail cullis dans $GRE1{mapName} $WHI0!"
       
   resurrectGhosts:
     header:
@@ -2442,9 +2442,9 @@ mapEditorPlayRightPanel:
       
     ancient:
       ancientCullisGateAbandoned:
-        text: "Ancienne porte cullis (abandonné)"
+        text: "Ancien portail cullis (abandonné)"
       ancientCullisGate:
-        text: "Ancienne porte cullis"
+        text: "Ancien portail cullis"
       ancientRadiancePoolAbandoned:
         text: "Anc. bassin rayonnant (abandonné)"
       ancientRadiancePool:
@@ -2556,7 +2556,7 @@ mapEditorPlayRightPanel:
       crystalMotivator:
         text: "Motivateur de cristaux"
       cullisGate:
-        text: "Porte cullis"
+        text: "Portail cullis"
       essenceCollector:
         text: "Collecteur d'essence"
       
@@ -6094,211 +6094,211 @@ helpTip:
   
   tip:
     sandboxModeHeader:
-      text: "Sandbox Mode!"
+      text: "Mode bac à sable !"
     sandboxMode:
-      text: "Welcome to Sandbox Mode! Sandbox mode allows you to play around with the game engine and abuse the mechanics. You can spawn in mobs, place pre-built buildings, draw on the terrain, and all sorts of other fun things. Just be warned, sandbox mode allows you to do things well beyond the designed limitations of the game. Abusing the game too much in sandbox mode can cause the game to overload and freeze. You've been warned! Have fun. :)"
+      text: "Bienvenue dans le mode bac à sable ! Le mode bac à sable vous permet de jouer avec le moteur du jeu et les mécaniques. Vous pouvez faire apparaitre des monstres, placer des bâtiments préconstruits, dessiner le terrain, et plein d'autres choses amusantes. Soyez simplement averti, le mode bac à sable vous permet de faire des choses bien au-delà des limites du jeu. Si vous abusez trop du jeu en mode bac à sable, le jeu risque d'être surchargé et de geler. Vous avez été prévenu ! Amusez-vous bien. :)"
     gameSpeedHeader:
-      text: "SPEED CONTROLS WARNING!"
+      text: "AVERTISSEMENT SUR LE CONTRÔLE DE LA VITESSE !"
     gameSpeed:
-      text: "Speed controls are still very new, and experimental. $RED1Setting the controls beyond 2x may cause severe performance problems late game.$WHI0 Use at your own risk! If the game becomes non-responsive, you can $GRE1press spacebar to pause the game, and lower the game speed before unpausing."
+      text: "Les contrôles de vitesse sont encore très récents et expérimentaux. $RED1Le fait de régler la vitesse au-delà de 2x peut causer de graves problèmes de performance tard dans la partie. $WHI0Faites le à vos risques et périls ! Si le jeu arrête de répondre, vous pouvez $GRE1appuyer sur la barre d'espace $WHI0pour mettre le jeu en pause et baisser la vitesse du jeu avant de reprendre la partie."
     worldMapWelcomeHeader:
-      text: "Welcome!"
+      text: "Bienvenue !"
     worldMapWelcome:
-      text: "Welcome to Rise to Ruins. For your first village you may select any region you'd like by clicking on the lit up boxes, and then clicking 'Establish Village'. From there you will be provided some first time free villagers to get you started. You can only select any region on the map you want once. After you've established your primary village you will be able to spread out from that region into connecting regions, so choose wisely! For now though, just focus on developing your first village!"
+      text: "Bienvenue dans Rise to Ruins. Pour votre premier village, vous pouvez sélectionner la région de votre choix en cliquant sur les cases éclairées, puis sur 'Créer un village'. À partir de là, des villageois vous seront fournis pour vous aider à démarrer. Vous ne pouvez sélectionner qu'une seule fois n'importe quelle région sur la carte. Une fois que vous aurez établi votre village principal, vous serez en mesure de vous étendre vers d'autres régions, alors choisissez judicieusement ! Pour l'instant, concentrez-vous sur le développement de votre premier village !"
     worldMapMigrationHeader:
-      text: "Migrate!"
+      text: "Migrer !"
     worldMapMigration:
-      text: "You have enough villagers to migrate to $YEL1{regionName}$WHI0! If you're ready, just click on the region and click 'Establish Village'. Once you place your new camp, they will arrive shortly after. Unlike your first region, you will get no free villagers or resources."
+      text: "Vous avez assez de villageois pour migrer vers $YEL1{regionName}$WHI0! Si vous êtes prêt, cliquez sur la région et sélectionnez 'Créer un village'. Les villageois arriveront peu de temps un fois votre nouveau campement placé. Contrairement à votre première région, vous n'obtiendrez pas de villageois ou de ressources gratuites."
     welcomeCampHeader:
-      text: "The Camp"
+      text: "Le campement"
     welcomeCamp:
-      text: "Welcome to your first region! The first thing you should do is place your $YEL1Camp$WHI0 somewhere! A good starting location should have some rocks, trees, crystals, food and water nearby. To place your camp, first press $GRE1'OK!'$WHI0 to close this tip and automatically unpause the game, $GRE1then select the flashing 'Place Camp' button to the right.~~$WHI1 Good luck!"
+      text: "Bienvenue dans votre première région ! La première chose à faire est de placer votre $YEL1Campement $WHI0quelque part ! Une bonne position de départ devrait être proche d'arbres, de roches, de cristaux, de nourriture et d'eau. Pour placer votre campement, appuyer d'abord sur $GRE1'OK!'$WHI0 pour fermer ce conseil et automatiquement sortir le jeu de pause, $GRE1puis sélectionnez le bouton clignotant 'Placer le campement' à droite.~~$WHI1Bonne chance !"
     welcomeTipsHeader:
-      text: "Tips!"
+      text: "Conseils !"
     welcomeTips:
-      text: "Time to get started! Since this is your first time, you will be getting tons of in-game tips while you play. $RED1This game has a steep learning curve$WHI0, and you'll need all the help you can get! $GRE1The game is paused when a tip is being displayed$WHI0, so please take the time to read them!~~You can turn off tips in the settings menu, but if you've never played before this is not recommended!"
+      text: "Il est temps de commencer ! Comme c'est votre première fois, vous obtiendrez des tonnes de conseils pendant que vous jouez. $RED1Ce jeu a une courbe d'apprentissage raide$WHI0 et vous aurez besoin de toute l'aide que vous pouvez obtenir ! $GRE1Le jeu est en pause quand un conseil est affiché $WHI0, donc prenez le temps de les lire !~~Vous pouvez désactiver ces conseils dans les paramètres, mais si vous n'avez jamais joué avant, cela n'est pas recommandé !"
     harvestingResourcesHeader:
-      text: "Harvesting Resources"
+      text: "Récolter des ressources"
     harvestingResources:
-      text: "Many workers assigned to buildings like the $YEL1Lumber Shack$WHI0, $YEL1Mining Facility$WHI0 and $YEL1Village Center$WHI0 are allowed to harvest resources on the map like wood and rock. You can assign work by using the $GRE1harvest assignment buttons along the bottom left of the GUI $WHI0 for the material you'd like to collect, then select the resource on the map. If you have workers that are allowed to collect the resources, they will do so on their own!"
+      text: "Pleins d'ouvriers assignés aux bâtiments tels que les $YEL1Cabannes de bûcherons$WHI0, les $YEL1Exploitations minières$WHI0 et le $YEL1Centre du village$WHI0 sont autorisés à récolter des ressources comme la pierre et le bois sur la carte. Vous pouvez affecter des ouvriers en utilisant les $GRE1boutons d'assignation de récolte en bas à gauche de l'interface graphique $WHI0afin de récolter les matériaux que vous voulez en sélectionnant les ressources sur la carte. Si il y a des ouvriers autorisés à collecter des ressources, ils le feront d'eux mêmes !"
     villageWorkersHeader:
-      text: "Workers"
+      text: "Ouvriers"
     villageWorkers:
-      text: "Many buildings can have workers assigned to them, and will allow all sorts of different work tasks to be completed. The $YEL1builders$WHI0 assigned to the $YEL1Village Center$WHI0 for example can build, repair and dismantle structures. They can also harvest raw materials, but only if they're required to build something. $YEL1Harvesters$WHI0 from buildings like the $YEL1Lumber Shack$WHI0 on the other hand will continue to harvest materials regardless of the village's need, and create a stockpile. $YEL1You can overview what all your workers can do on the left hand 'workforce' panel."
+      text: "De nombreux bâtiments peuvent être assignés à des travailleurs et permettront d'effectuer différentes tâches. Les $YEL1ouvriers$WHI0 assignées au $YEL1Centre du village$WHI0 pourront, par exemple, construire, réparer et démanteler différentes structures. Ils peuvent aussi récolter des matières premières, mais seulement si ils en ont besoin pour construire quelque chose. En revanche, les $YEL1Récolteurs$WHI0 dans les bâtiments tels que les $YEL1Cabannes de bûcherons$WHI0 continueront à récolter des matériaux quoi qu'il arrive et feront des réserves. $YEL1Vous pouvez avoir une vue d'ensemble de tous les ouvriers dans le panneau de main-d'oeuvre à gauche."
     workBuildingsHeader:
-      text: "Work Buildings"
+      text: "Bâtiments d'ouvrage"
     workBuildings:
-      text: "The new {buildingName}$WHI0 your villagers have built offers your village {amount} $GRE1{mobJobName}$WHI0 job slots! If you want your villagers to change to that job, you will need to raise the desired amount of workers for it. You can do this in two places, the $GRE1left hand GUI's workforce tab, or click on the {buildingName}$GRE1 and use the bottom pop out GUI$WHI0. Then, $GRE1click the + or - buttons$WHI0 to adjust the amount of desired workers you want. $RED1If you don't have any available villagers, make sure to lower the desired workers for another job!$WHI0"
+      text: "{buildingName}$WHI0 construit par vos villageois ! Ce bâtiment ajoute {amount} emplacements de $GRE1{mobJobName}$WHI0 ! Si vous voulez que vos villageois fassent ce travail, vous aurez besoin de libérer un certain nombre d'ouvriers et les assigner à ce bâtiment. Vous pouvez faire ça à deux endroits, dans le $GRE1panneau de main-d'oeuvre à gauche$WHI0, ou en cliquant sur le bâtiment {buildingName}$GRE1 et utiliser la fenêtre en bas$WHI0. Ensuite, $GRE1cliquez sur les boutons + ou -$WHI0 pour ajuster le nombre d'ouvriers désiré. $RED1Si vous n'avez aucun villageois disponible, assurez-vous de baisser le nombre de travailleurs désirés dans les autres bâtiments !$WHI0"
     buildingDamageHeader:
-      text: "Damaged Buildings"
+      text: "Bâtiments endommagés"
     buildingDamage:
-      text: "A {buildingName}$WHI0 is being damaged! If you have builders and the structure is in range of the village they will automatically try to repair it when they have time."
+      text: "Le bâtiment {buildingName}$WHI0 est endommagé ! Si vous avez des constructeurs et que la structure est à portée de votre village, ils essaieront automatiquement de la réparer quand ils en auront le temps."
     resouceManagementHeader:
-      text: "Resource Management"
+      text: "Gestion de ressources"
     resouceManagement:
-      text: "The {buildingName}$WHI0 you just built can manufacture resources like $YEL1{resourceName} $WHI0but in order to get your villagers working on them $RED1you need to both assign {mobJobName} $RED1and assign the resources in the Resource Management tab on the left hand GUI.$WHI0 Setting a resource to $GRE1'Maintain'$WHI0 will try to keep at least that many of a resource in the village at all times, where as $GRE1'Make'$WHI0 will just immediately make that many for you. You can also set the value range over 200 for infinity, as well as control harvesting limits in the same manner."
+      text: "Le bâtiment {buildingName}$WHI0 que vous venez de construire peut fabriquer des ressources tel que $YEL1{resourceName}, $WHI0 mais pour que vous villageois y travaillent $RED1vous devez assigner des {mobJobName} $RED1et leur dire de produire des ressources dans l'onglet de gestion des ressources à gauche. $WHI0Mettre une valeur $GRE1'Maintenir'$WHI0 à la ressources va essayer d'en garder autant dans le village tout le temps, alors que $GRE1'Faire'$WHI0 va juste leur en faire faire un certain nombre. Vous pouvez aussi mettre la valeur au dessus de 500 pour qu'ils en produisent/maintiennent à l'infini. Vous pouvez contrôler la quantité de ressources récoltées de la même manière."
     energyHeader:
-      text: "Energy"
+      text: "Energie"
     energy:
-      text: "The {buildingName}$WHI0 that your villagers just completed uses energy. Buildings that use energy usually need to be fueled with essence. You can generate essence by feeding an $YEL1Essence Collector$WHI0 $GRE1crylithum$WHI0 that is refined in $YEL1Crystilleries$WHI0. Living things like monsters, animals and villagers will also drop some essence if they are killed, if you have an $YEL1Essence Collector$WHI0 the stray essence will be scooped up and delivered to buildings that can use it."
+      text: "Le bâtiment {buildingName} $WHI0que vos villageois viennent de construire utilise de l'énergie. Les vâtiments qui utilisent de l'énergie doivent être  alimentés en essence. Vous pouvez générer de l'essence en remplissant des $YEL1Collecteurs d'essence$WHI0 avec du $GRE1crylithum$WHI0 qui est raffiné dans les $YEL1Cristalleries$WHI0. Les créatures vivantes telles que les montres, les animaux et les villageois vont aussi lâcher de l'essence en mourrant, si vous avez des $YEL1Collecteurs d'essence$WHI0, l'essence perdue sera recueillie et livrée aux bâtiments qui peuvent l'utiliser."
     ammoHeader:
-      text: "Ammo"
+      text: "Munitions"
     ammo:   
-      text: "The {buildingName}$WHI0 that your villagers have just completed needs ammunition to function. You'll need to build an ammo manufacturing building to accompy it, like a $YEL1Bowyer$WHI0 or $YEL1Rock Tumbler$WHI0."
+      text: "Le bâtiment {buildingName} $WHI0que vos villageois viennent de terminer de construire nécessite des munitions pour fonctionner. Vous aurez besoin de construire une fabrique de munitions pour l'accompagner, tel qu'une $YEL1Archerie$WHI0 ou un $YEL1Fabriquant de cartouches$WHI0."
     refineHeader:
-      text: "Refined Materials"
+      text: "Matériaux raffinés"
     refineNew:   
-      text: "Some buildings require refined materials, like $YEL1boards$WHI0, $YEL1stone$WHI0 or $YEL1crylithium$WHI0. The {buildingName}$WHI0 you just placed is one of them! If a building requires one of these resources and you have no means to manufacture it they'll do what they can, but the building will never get completed. You can refine most materials inside advanced work buildings, like the $YEL1Lumber Mill$WHI0 and $YEL1Stone Cuttery$WHI0. Both can be found under the refine category in your build tab."
-    refineReclaim:   
-      text: "Some buildings require refined materials, like $YEL1boards$WHI0, $YEL1stone$WHI0 or $YEL1crylithium$WHI0. The {buildingName}$WHI0 you just tried to reclaim is one of them! If a building requires one of these resources and you have no means to manufacture it they'll do what they can, but the building will never get completed. You can refine most materials inside advanced work buildings, like the $YEL1Lumber Mill$WHI0 and $YEL1Stone Cuttery$WHI0. Both can be found under the refine category in your build tab."
+      text: "Certains bâtiments nécessitent des matériaux raffinés, comme les planches, la pierre ou le crylithium. Le bâtiment {buildingName}$WHI0 que vous venez de placer est l'un d'eux. Si un bâtiment nécessite l'une de ces ressources citée plus haut et que vous n'avez aucun moyen de fabriquer, ils feront ce qu'ils peuvent, mais le bâtiment ne sera jamais achevé. Vous pouvez raffiner la plupart des matériaux à l'intérieur des bâtiments de raffinage, tel que la $YEL1Cabanne du bûcheron$WHI0 ou le $YEL1Tailleur de pierres$WHI0. Les deux peuvent se trouvent dans la catégorie raffinage dans l'onglet de construction."
+    refineReclaim:
+      text: "Certains bâtiments nécessitent des matériaux raffinés, comme les planches, la pierre ou le crylithium. Le bâtiment {buildingName}$WHI0 que vous venez d'essayer de récupérer est l'un d'eux. Si un bâtiment nécessite l'une de ces ressources citée plus haut et que vous n'avez aucun moyen de fabriquer, ils feront ce qu'ils peuvent, mais le bâtiment ne sera jamais achevé. Vous pouvez raffiner la plupart des matériaux à l'intérieur des bâtiments de raffinage, tel que la $YEL1Cabanne du bûcheron$WHI0 ou le $YEL1Tailleur de pierres$WHI0. Les deux peuvent se trouvent dans la catégorie raffinage dans l'onglet de construction."
     farmingHeader:
-      text: "Farming"
+      text: "Agriculture"
     farming:   
-      text: "Your villagers have built their first farm! Once you assign workers, they will need to kickstart the farm with some $GRE1wild food and water$WHI0. You can harvest both with the $GRE1'Harvest Food and Water'$WHI0 button on the left hand GUI. Food grown in farms are maintained and harvested automatically!"
+      text: "Vos villageois ont construit leur première ferme ! Une fois que vous y aurez assigné des travailleurs, ils essaieront de démarrer les cultures en récoltant $GRE1de la nourriture sauvage et de l'eau$WHI0. Vous pouvez récolter les deux en cliquant sur le bouton $GRE1'Récolter eau/nourriture' $WHI0dans l'onglet à gauche. La nourriture pousse dans les fermes et est maintenue et récoltée automatiquement !"
     buildingPriorityHeader:
-      text: "Building Priority"
+      text: "Priorité de construction"
     buildingPriority:   
-      text: "Did you know you can adjust the building priorities? Just select the $YEL1'Building List'$WHI0 button on the $YEL1top right$WHI0 then click the $YEL1up or down arrows$WHI0 to rearrange what buildings have priority over others. Higher priority buildings will get built, dismantled and repaired and before others on the list."
+      text: "Saviez-vous que vous pouvez ajuster les priorités de construction ? Il vous suffit de sélectionner l'option $YEL1'Liste des bâtiments'$WHI0 en $YEL1haut à droite$WHI0 puis de cliquer sur les $YEL1flèches haut/bas$WHI0 pour réarranger les priorités de certains bâtiments par rapport à d'autres. Un bâtiment avec une priorité plus élevée va être construit,démantelé et réparé avant les autres."
     noHomesHeader:
-      text: "Homes"
+      text: "Logements"
     noHomes:   
-      text: "You're on day {day} and you have not built any housing, your villagers will need a place to live, or they will be become very unhappy. You also need homes so your villagers can mate, and hopefully have children someday."
+      text: "Vous êtes au jour {day} et vous n'avez pas encore construit de logement, vos villageois ont besoin d'un endroit où vivre ou ils deviendront malheureux. Vous avez aussi besoin de logements pour que vos villageois se mettent en couple et qu'ils aient des enfants un jour, avec un peu de chance."
     noFarmsHeader:
-      text: "Farming"
+      text: "Agriculture"
     noFarms:   
-      text: "You're on day {day} and you have not built any $YEL1farms$WHI0, your villagers will need to eat eventually. Don't let them starve to death! Once you build some $YEL1farms$WHI0 and assign workers to them, you can instruct them to harvest some raw food and they'll bring it to the farm and plant. Once planted, they'll automatically harvest it once it's ready!"
+      text: "Vous êtes au jour {day} et vous n'avez pas encore construit de $YEL1ferme$WHI0, vos villageois finiront par avoir besoin de manger. Ne les laissez pas mourir de faim ! Une fois que vous aurez construit une $YEL1ferme$WHI0 et que vous y aurez assigné des travailleurs, vous pourrez leur dire de récolter de la nourriture crue et ils l'apporteront à la ferme pour la planter. Une fois planté, ils la récolteront automatiquement lorsqu'elle aura poussé !"
     noWaterHeader:
-      text: "Water"
+      text: "Eau"
     noWater:   
-      text: "You're on day {day} and you have not built any $YEL1water sources$WHI0. Your villagers will need to drink water eventually. Don't let them die of thirst! Try to build a $YEL1Water Purifier$WHI0 and collect surface water, a $YEL1Well$WHI0 to automatically generate clean ground water or $YEL1Rain Catchers$WHI0 to collect rain water. Eventually, try to have more than one water source to survive the various conditions throughout the year. Don't forget to assign a few workers to them!"
+      text: "Vous êtes au jour {day} et vous n'avez pas encore construit de $YEL1sources d'eau$WHI0. Vos villageois finiront par avoir besoin de boire de l'eau. Ne les laissez pas mourir de soif ! Essayez de construire une $YEL1station de purification$WHI0 et collecter les eaux de surface, ou un $YEL1puit$WHI0 pour automatiquement générer de l'eau souterraine propre, ou encore des $YEL1collecteurs d'eau$WHI0 pour collecter l'eau de pluie. Éventuellement, essayez d'avoir plus d'une source d'eau pour survivre aux diverses conditions tout au long de l'année. N'oubliez pas de leur assigner quelques ouvriers !"
     noTowersHeader:
-      text: "Defenses"
+      text: "Défenses"
     noTowers:   
-      text: "You're on day {day} and you have not built any $YEL1defenses$WHI0, without something to defend your village you may quickly get overwhelmed by monsters trying to eat your poor little mostly helpless villagers! Try building a Bowyer and Bow Tower to get some early defenses up and running."
+      text: "Vous êtes au jour {day} et vous n'avez pas encore construit de $YEL1défenses$WHI0, sans rien pour défendre votre village, vous allez vite être submergé par les monstres qui essaient de manger vos pauvres petit villageois, pour la plupart sans défense ! Essayez de construire une archerie et une tour d'archers pour mettre en place des défenses rudimentaires et les faire fonctionner."
     buildingSlotsHeader:
-      text: "Building Slots"
+      text: "Emplacements de construction"
     buildingSlots:   
-      text: "You have run out of building slot, in order to manage your ever growing village you will need to upgrade your $YEL1Camp$WHI0 or build some $YEL1Ancillaries$WHI0. You can upgrade your $YEL1Camp$WHI0 by clicking on it and then clicking the upgrade button on the bottom panel. Alternatively, if you'd rather build an $YEL1Ancillary$WHI0, you can find them in the Aid subcaregory on your build tab."
+      text: "Vous n'avez plus de place pour construire, afin de gérer votre village en pleine croissance, vous aurez besoin d'améliorer votre $YEL1Campement$WHI0 ou de construire quelques $YEL1Entrepôts$WHI0. Vous pouvez améliorer votre $YEL1Campement$WHI0 en cliquant dessus et en cliquant sur le bouton améliorer sur le panneau en bas. Alternativement, si vous préférez construire un $YEL1Entrepôt$WHI0, vous pouvez les trouver dans la sous-catégorie Civil de votre onglet de construction."
     lifeExpectancyHeader:
-      text: "Life Expectancy"
+      text: "Espérance de vie"
     lifeExpectancy:   
-      text: "Villagers who have lived a hard life, won't live quite as long of one! Villager's life expectancy can drop if they are injured, starving, extremely unhappy, or just generally have a bad life. $YEL1Once their life expectancy drops, it is never coming back!$WHI0 So make sure you take care of your villagers so you can have a strong, healthy, long living work force!"
+      text: "Les villageois ayant vécu une vie difficile ne vivront pas très longtemps ! L'espérance de vie des villageois peut chuter s'ils sont blessés, affamés, extrêmement malheureux ou simplement s'ils ont une mauvaise vie. $YEL1Une fois que leur espérance de vie aura chuté, elle ne remontera jamais ! $WHI0Alors, assurez-vous de prendre soin de vos villageois afin d'avoir une main-d'œuvre forte, en santé et qui vit longtemps !"
     eldersHeader:
-      text: "Elder Villagers"
+      text: "Doyens"
     elders:   
-      text: "Stay a while, and listen! {mobName} is an elder. When villagers get into their upper years, they will become elders and stop working. But in return, they will share their wisdom with anyone who takes the time to chat with them."
+      text: "Ne bougez pas et écoutez  ! {mobName} est un doyen. Quand les villageois atteindront l'âge de la vieillesse, ils deviendront des doyens et cesseront de travailler. Mais en retour, ils partageront leur sagesse avec tous ceux qui prendront le temps de discuter avec eux."
     ghostsHeader:
-      text: "Ghosts"
+      text: "Fantômes"
     ghosts:   
-      text: "Sometimes, you can resurrect dead villagers! At $YEL1Dusk$WHI0 and $YEL1Night$WHI0 you will occasionally see some of your deceased villagers wandering around the village. If you notice one, you can zap it with the resurrect spell and try to bring him back!"
+      text: "Parfois, on peut ressusciter des villageois morts ! Au $YEL1Crépuscule$WHI0 et durant la $YEL1Nuit$WHI0 vous verrez occasionnellement certains de vos villageois décédés errer dans le village. Si vous en remarquez un, vous pouvez le zapper avec le sort de ressuscitation et essayer de le ramener à la vie !"
     villagerStarvingHeader:
-      text: "Starvation"
+      text: "Famine"
     villagerStarvingMale:   
-      text: "{mobName}$WHI0 is starving! You better find that poor villager some food quick or he may die! Did you build a farm or houses yet? Villagers get desperate when starving and find food on their own, even if it endangers them."
+      text: "{mobName}$WHI0 est affamé ! Trouvez vite à manger à ce pauvre villageois, sinon il risque de mourir ! Avez-vous construit une ferme ou des maisons ? Les villageois sont désespérés lorsqu'ils sont affamés et essaieront de trouver de la nourriture par eux-mêmes, même si cela les met en danger."
     villagerStarvingFemale:   
-      text: "{mobName}$WHI0 is starving! You better find that poor villager some food quick or she may die! Did you build a farm or houses yet? Villagers get desperate when starving and find food on their own, even if it endangers them."
+      text: "{mobName}$WHI0 est affamée ! Trouvez vite à manger à cette pauvre villageoise, sinon elle risque de mourir ! Avez-vous construit une ferme ou des maisons ? Les villageois sont désespérés lorsqu'ils sont affamés et essaieront de trouver de la nourriture par eux-mêmes, même si cela les met en danger."
     villagerDehydrationHeader:
-      text: "Dehydration"
+      text: "Déshydratation"
     villagerDehydrationMale:   
-      text: "{mobName}$WHI0 is dying of thirst! You better find that poor villager some water quick or he may die! Did you build a $YEL1Water Purifier$WHI0, $YEL1Well$WHI0 or $YEL1Rain Catcher$WHI0 yet? Are they producing enough water? Maybe you need to build more!"
+      text: "{mobName}$WHI0 est en train de mourir de soif ! Trouvez vite de l'eau à ce pauvre villageois, sinon il risque de mourir ! Avez-vous construit un $YEL1Purificateur d'eau$WHI0, un $YEL1Puit$WHI0 ou un $YEL1Collecteur d'eau$WHI0 encore ? Est-ce qu'ils produisent assez d'eau ? Vous avez peut-être besoin d'en construire plus !"
     villagerDehydrationFemale:   
-      text: "{mobName}$WHI0 is dying of thirst! You better find that poor villager some water quick or she may die! Did you build a $YEL1Water Purifier$WHI0, $YEL1Well$WHI0 or $YEL1Rain Catcher$WHI0 yet? Are they producing enough water? Maybe you need to build more!"
+      text: "{mobName}$WHI0 est en train de mourir de soif ! Trouvez vite de l'eau à cette pauvre villageoise, sinon elle risque de mourir ! Avez-vous construit un $YEL1Purificateur d'eau$WHI0, un $YEL1Puit$WHI0 ou encore un $YEL1Collecteur d'eau$WHI0 ? Est-ce qu'ils produisent assez d'eau ? Vous avez peut-être besoin d'en construire plus !"
     villagerSleepyHeader:
-      text: "Exhaustion"
+      text: "Épuisement"
     villagerSleepyNoHome:   
-      text: "{mobName}$WHI0 is starting to get sleepy. If your villagers are too tired and have no where to rest, they may end up sleeping outside."
+      text: "{mobName}$WHI0 commence à avoir sommeil. Si vos villageois sont trop fatigués et n'ont pas d'endroit où se reposer, ils finiront par dormir dehors."
     villagerSleepy:   
-      text: "{mobName}$WHI0 is starting to get sleepy. If your villagers are too tired and have no where to rest, they may end up sleeping outside. Luckily, {mobName}$WHI0 does have a home, so he should return there shortly for a snooze!"
+      text: "{mobName}$WHI0 commence à avoir sommeil. Si vos villageois sont trop fatigués et n'ont pas d'endroit où se reposer, ils finiront par dormir dehors. Heureusement, {mobName} $WHI0a un logement, il devrait donc y retourner bientôt pour un petit somme !"
     villagerFreezingHeader:
-      text: "Freezing To Death"
+      text: "Mort de froid"
     villagerFreezingNoHome:   
-      text: "{mobName}$WHI0 is freezing to death! If it gets too cold outside and your villagers don't have a home to go warm up in, they could die! Try getting enough homes for your villagers as soon as you can!"
+      text: "{mobName}$WHI0 est en train de mourir de froid ! S'il fait trop froid dehors et que vos villageois n'ont pas de maison pour se réchauffer, ils pourraient mourir ! Essayez d'avoir assez de maisons pour vos villageois dès que possible !"
     villagerFreezingMale:   
-      text: "{mobName}$WHI0 is freezing to death! If it gets too cold outside and your villagers don't have a home to go warm up in, they could die! Luckily, {mobName}$WHI0 does have a home, so he should try to return there shortly to warm up!"
+      text: "{mobName}$WHI0 est en train de mourir de froid ! S'il fait trop froid dehors et que vos villageois n'ont pas de maison pour se réchauffer, ils pourraient mourir ! Heureusement, {mobName} $WHI0a un logement, il devrait donc essayer d'y retourner sous peu pour se réchauffer !"
     villagerFreezingFemale:   
-      text: "{mobName}$WHI0 is freezing to death! If it gets too cold outside and your villagers don't have a home to go warm up in, they could die! Luckily, {mobName}$WHI0 does have a home, so she should try to return there shortly to warm up!"
+      text: "{mobName}$WHI0 est en train de mourir de froid ! S'il fait trop froid dehors et que vos villageois n'ont pas de maison pour se réchauffer, ils pourraient mourir ! Heureusement, {mobName} $WHI0a un logement, il devrait donc essayer d'y retourner sous peu pour se réchauffer !"
     villagerOverheatingHeader:
-      text: "Overheating"
+      text: "Surchauffe"
     villagerOverheatingNoHome:   
-      text: "{mobName}$WHI0 is burning up in the heat! If it gets too hot outside and your villagers don't have a home to go cool down in, they could die of heat exhaustion! Try getting enough homes for your villagers as soon as you can!"
+      text: "{mobName} $WHI0brûle sous la chaleur ! S'il fait trop chaud dehors et que vos villageois n'ont pas de maison pour se rafraîchir, ils pourraient mourir d'épuisement par la chaleur ! Essayez d'avoir assez de maisons pour vos villageois dès que possible !"
     villagerOverheatingMale:   
-      text: "{mobName}$WHI0 is burning up in the heat! If it gets too hot outside and your villagers don't have a home to go cool down in, they could die of heat exhaustion! Luckily, {mobName}$WHI0 does have a home, so he should try to return there shortly to cool down!"
+      text: "{mobName} $WHI0brûle sous la chaleur ! S'il fait trop chaud dehors et que vos villageois n'ont pas de maison pour se rafraîchir, ils pourraient mourir d'épuisement par la chaleur ! Heureusement, {mobName} $WHI0a un logement, il devrait donc y retourner sous peu pour se rafraîchir !"
     villagerOverheatingFemale:   
-      text: "{mobName}$WHI0 is burning up in the heat! If it gets too hot outside and your villagers don't have a home to go cool down in, they could die of heat exhaustion! Luckily, {mobName}$WHI0 does have a home, so she should try to return there shortly to cool down!"
+      text: "{mobName} $WHI0brûle sous la chaleur ! S'il fait trop chaud dehors et que vos villageois n'ont pas de maison pour se rafraîchir, ils pourraient mourir d'épuisement par la chaleur ! Heureusement, {mobName}$WHI0 a un logement, elle devrait donc y retourner sous peu pour se rafraîchir !"
     matingHeader:
-      text: "Mating"
+      text: "En couple"
     matingDifferentGender:
-      text: "Did you notice that {mobName}$WHI0 has found a new mate, {mobMateName}$WHI0? If either one of them have a home and they're happy enough, they may try to go home and make a baby! They'll also visit each other often to boost their mood, or try to live in the same house whenever possible."
+      text: "Avez-vous remarqué que {mobName} $WHI0a trouvé un nouveau partenaire, {mobMateName} $WHI0? Si l'un d'entre eux a un foyer et qu'ils sont assez heureux, ils essaieront peut-être de rentrer chez eux pour faire un bébé ! Ils se rendent aussi souvent visite pour améliorer leur humeur, ou essaient de vivre dans la même maison dès que possible."
     matingSameGender:   
-      text: "Did you notice that {mobName}$WHI0 has found a new mate, {mobMateName}$WHI0? If either one of them have a home and they're happy enough, they may try to go home and have some private fun time! They may not be very effective at reproducing like their straight counterparts but they'll still get a boost to their mood! They'll also visit each other often to boost their mood, or try to live in the same house whenever possible."
+      text: "Avez-vous remarqué que {mobName} $WHI0a trouvé un nouveau partenaire, {mobMateName} $WHI0? Si l'un d'entre eux a une maison et qu'ils sont assez heureux, il pourront essayer de rentrer chez eux et de s'amuser en privé ! Ils ne sont peut-être pas très efficaces pour se reproduire comme leurs homologues hétéros, mais ils auront quand même un petit coup de boost dans leur humeur ! Ils se rendent aussi souvent visite pour améliorer leur humeur et essaieront de vivre dans la même maison dès que possible."
     pregnantHeader:
-      text: "Pregnant"
+      text: "Enceinte"
     pregnant:   
-      text: "{mobName}$WHI0 is pregnant! Soon, she will give birth to a new child who will eventually grow up to be another adult worker bee! Pregnant villagers consume more food and energy, and move around a little slower. So keep an eye on them."
+      text: "{mobName}$WHI0 est enceinte ! Bientôt, elle donnera naissance à un nouvel enfant qui deviendra un jour une autre abeille ouvrière adulte ! Les villageoises enceintes consomment plus de nourriture et d'énergie et se déplacent un peu plus lentement. Alors gardez un oeil sur elles."
     nomadHeader:
-      text: "Nomads!"
+      text: "Nomades !"
     nomad:   
-      text: "$YEL1Nomads$WHI0 have come into your region, they are a friendly sort. If they can make their way to your village without being killed, they'll join you. If you want to increase your chances of getting more $YEL1Nomads$WHI0, build a large village with plenty of housing and defenses."
+      text: "Des $YEL1nomades$WHI0 viennent d'arriver dans votre région, ils sont amicaux. S'ils peuvent se rendre dans votre village sans être tués, ils vous rejoindront. Si vous voulez augmenter vos chances d'obtenir plus de $YEL1nomades$WHI0, construisez un grand village avec beaucoup de logements et de défenses."
     essenceHeader:
       text: "Essence"
     essence:   
-      text: "Have you noticed those sparkling green spots on the map when something dies or some of the terrain is destroyed? That's $GRE1Essence$WHI0 that has been released into the world. You can collect essence by waving your hand near it, and it will increase your influence bar faster, so you can cast spells. Essence is also the power source behind villager's magic buildings, like the $YEL1Fire Bolt tower$WHI0. You can collect stray essence by building an $YEL1Essence Collector$WHI0."
+      text: "Avez-vous remarqué ces points verts scintillants sur la carte lorsque quelque chose meurt ou que vous détruisez une partie du terrain ? C'est l'$GRE1essence$WHI0 qui a été libérée dans votre monde. Vous pouvez collecter de l'essence en agitant votre main près d'elle et cela rechargera votre barre d'influence plus rapidement afin de pouvoir jeter des sorts. L'essence est aussi la source d'énergie de certiain bâtiments tels que les $YEL1Tours-éclair de feu$WHI0. Vous pouvez collecter de l'essence en construisant des $YEL1collecteurs d'essence$WHI0."
     abandonedBuildingsHeader:
-      text: "Abandoned Buildings"
+      text: "Bâtiments abandonnés"
     abandonedBuildings:   
-      text: "{buildingName}$WHI0 is an abandoned building, your villagers will need to repair it before they can use it. If the building is in range of your village You can click on the building, and then click the $GRE1reclaim button$WHI0 on the bottom GUI. "
+      text: "{buildingName}$WHI0 est un bâtiment abandonné, vos villageois devront le réparer pour l'utiliser. Si le bâtiment est à portée de votre village, vous pouvez cliquer sur le bâtiment puis cliquer sur le bouton $GRE1récupérer $WHI0dans le panneau en bas. "
     rainHeader:
-      text: "Rain!"
+      text: "Pluie !"
     rain:   
-      text: "Whoa, it's raining! Rain will cause your villager's happiness to drop slowly and slow down their movement speed a bit, but it will also $GRE1water your crops, fill your rain collectors and put out fires!$WHI0 Just cross your fingers and hope the lightning bolts don't zap anything too important."
+      text: "Whoa, il pleut ! La pluie va lentement faire baisser le bonheur de vos villageois et un peu réduire leur vitesse de déplacement, mais ça va aussi $GRE1arroser vos plantations, remplir vos collecteurs d'eau et éteindre le feu ! $WHI0Croisez les doigts et espérez que les éclairs ne foudroient rien d'important."
     snowHeader:
-      text: "Snow!"
+      text: "Neige !"
     snow:   
-      text: "Whoa, it's snowing! Snow will cause your villager's happiness to drop slowly and slow down their movement speed a bit. Be careful, snow also drops the current temperature, it could drop to freezing levels and kill off crops or hurt villagers who can't find a place to warm up."
+      text: "Whoa, il neige ! La neige va lentement faire baisser le bonheur de vos villageois et un peu réduire leur vitesse de déplacement. Faites attention, la neige fait aussi baisser la température, et elle pourrait atteindre un niveau glacial et tuer les plantations ou faire mal aux villageois qui n'arrivent pas à trouver un endroit où se réchauffer."
     happinessLowHeader:
-      text: "Low Happiness"
+      text: "Bonheur faible"
     happinessLow:   
-      text: "Your villagers are extremely unhappy. You should consider giving them some down time. Happy villagers will work harder, and breed more often. Villagers are also more happy in general if they're well fed, have a home, and a mate."
+      text: "Vos villageois sont extrêmement malheureux. Vous devriez envisager de leur donner un peu de temps libre. Les villageois heureux travailleront plus dur et se reproduiront plus souvent. Les villageois sont également plus heureux en général s'ils sont bien nourris, s'ils ont une maison et un compagnon."
     timeDuskHeader:
-      text: "Night"
+      text: "Nuit"
     timeDusk:   
-      text: "Night is coming soon, be careful! This is when the monsters will attack! Hopefully you built some defenses, like a $YEL1Bow Tower$WHI0!"
+      text: "La nuit approche à grands pas, attention ! C'est là que les monstres attaqueront ! J'espère que vous avez construit quelques défenses, comme une $YEL1tour d'archers $WHI0!"
     corruptionHeader:
-      text: "Corruption!"
+      text: "Corruption !"
     corruption:   
-      text: "As you've probably already discovered, your villagers are not the only ones in this region! As time passes, $RED1the corruption$WHI0 will slowly spread and take over the map, increasing monster spawn rates and generally causing trouble. There are ways you can push back the corruption though. $GRE1Many buildings offer corruption resistance$WHI0, and high resistance will prevent the corruption from spreading, and can even sometimes push it back. Not all buildings can resist the corruption, be sure to check their stats."
+      text: "Comme vous l'avez probablement déjà découvert, vos villageois ne sont pas les seuls dans cette région ! Avec le temps, $RED1la corruption $WHI0se propage lentement et conquérir la carte, augmentant les taux de d'apparition des monstres et causant généralement des problèmes. Il y a des moyens de repousser la corruption. $GRE1De nombreux bâtiments offrent une résistance à la corruption $WHI0et une résistance élevée empêchera la corruption de se propager, et peut même parfois la repousser. Pas tous les bâtiments peuvent résister à la corruption, assurez-vous en en regardant leurs statistiques."
     seasonAutumnHeader:
-      text: "Autumn"
+      text: "Automne"
     seasonAutumn:   
-      text: "It is now $ORA1Autumn$WHI0. $ORA1Autumn$WHI0 is a fairly light season and usually a good time to build up your housing and stockpile a large amount of $RED1food and water$WHI0 to survive the upcoming $CYA1Winter$WHI0."
+      text: "C'est l'$ORA1automne$WHI0. L'$ORA1automne$WHI0 est une saison assez légère et habituellement un bon moment pour construire des logement et accumuler une grande quantité $RED1de nourriture et d'eau $WHI0pour survivre à l'$CYA1hiver$WHI0."
     seasonWinterHeader:
-      text: "Winter"
+      text: "Hiver"
     seasonWinter:   
-      text: "$CYA1Winter$WHI0 has arrived! Winter is one of the hardest seasons to survive. Your farms will stop growing, as will most natural resources on the map. Hopefully you stocked up on food, water and have plenty of housing to keep your villagers from freezing to death!"
+      text: "L'$CYA1hiver$WHI0 est arrivé ! L'hiver est l'une des saisons les plus difficiles pour la survie. Vos plantations cesseront de croître, tout comme la plupart des ressources naturelles sur la carte. J'espère que vous avez fait des réserves de nourriture et d'eau et que vous avez assez de logements pour empêcher vos villageois de mourir de froid !"
     seasonSpringHeader:
-      text: "Spring"
+      text: "Printemps"
     seasonSpring:   
-      text: "A plesant break from the ravages of $CYA1Winter$WHI0, $GRE1Spring$WHI0 has arrived! Spring is the easiest season to survive. You will find it very easy to grow food and replenish resources. Although the constant rain can upset villagers, and the lightning storms may damage buildings. So lookout! Don't forget to $RED1stock up on food and water$WHI0 before $YEL1Summer$WHI1 arrives!"
+      text: "Une pause plaisante après les ravages de l'$CYA1hiver$WHI0, le $GRE1printemps $WHI0 est arrivé ! Le printemps est la saison la plus facile pour survivre. Vous trouverez qu'il est très facile de cultiver de la nourriture et de reconstituer les ressources. Bien que la pluie constante puisse affecter les villageois et que les orages puissent endommager les bâtiments. Alors faites attention ! N'oubliez pas de $RED1faire le plein de nourriture et d'eau $WHI0avant l'arrivée de l'$YEL1été$WHI1 !"
     seasonSummerHeader:
-      text: "Summer"
+      text: "Été"
     seasonSummer:   
-      text: "$YEL1Summer$WHI0 is here. Your villagers are going to have to work in blistering hot weather pretty often, and will have to go home to cool down frequently. Don't expect much rain, and expect substainally slower crop growth. Hopefully you stocked up on food and water during the $GRE1Spring$WHI0!"
+      text: "L'$YEL1ét$WHI0 est là. Vos villageois vont devoir travailler par une chaleur torride, et devront fréquemment rentrer chez eux pour se rafraîchir. Ne vous attendez pas à beaucoup de pluie, et attendez-vous à ce que la croissance des cultures soit plus lente. J'espère que vous avez fait le plein de nourriture et d'eau pendant le $GRE1printemps $WHI0!"
     destroyTerrainHeader:
-      text: "Destroy Terrain"
+      text: "Détruire du terrain"
     destroyTerrain:   
-      text: "You can clear out terrain in the way quickly by using the $GRE1'Destroy Terrain'$WHI0 tool. Just $YEL1click on the button in the bottom right of the GUI and highlight what you want to remove$WHI0, and your builders will run over there and clear it out!"
+      text: "Vous pouvez rapidement enlever du terrain qui vous gène en utilisant l'outil $GRE1'Detruire du terrain'$WHI0. $YEL1Cliquez sur le bouton en bas à droite de l'interface graphique, sélectionnez ce que vous voulez retirer$WHI0 et vos ouvriers se précipiteront là-bas pour nettoyer !"
     cullisGateHeader:
-      text: "Cullis Gates"
+      text: "Portail cullis"
     cullisGate:   
-      text: "Scattered around most maps are $YEL1Ancient Cullis Gates$WHI0. You can toss monsters, resources or even villagers into them, sacrificing them for some extra essence. But be careful though, $YEL1Cullis Gates$WHI0 tend to overload if used too much."
+      text: "La plupart des cartes sont parsemées d'$YEL1anciens portails cullis$WHI0. Vous pouvez y jeter des monstres, des ressources ou même des villageois, en les sacrifiant pour obtenir de l'essence. Mais faites tout de même attention, les $YEL1portails cullis $WHI0ont tendance à surcharger si ils sont trop utilisés."
     speedControlsHeader:
-      text: "Pausing and Speed Controls"
+      text: "Contrôles de vitesse et de pause"
     speedControls:   
-      text: "Did you know you can pause the game by pressing $GRE1{shortcutKey}$WHI0, or adjust the passage of time using the clock?"
+      text: "Saviez-vous que vous pouvez mettre le jeu en pause en appuyant sur $GRE1{shortcutKey}$WHI0, ou ajuster le passage du temps en utilisant l'horloge ?"
     dismantleHeader:
-      text: "Dismantle Building"
+      text: "Démantèlement de bâtiment"
     dismantle:
-      text: "You can dismantle buildings by clicking on the $YEL1Dismantle Buildings and Objects$WHI0 buttons on the bottom right of the GUI, and then clicking on the building you'd like to tear down. Once flagged to be dismantled your builders will destroy the building."
+      text: "Vous pouvez démanteler des bâtiments en cliquant sur le bouton $YEL1Démanteler des bâtiments et objets $WHI0en bas à droite de l'interface graphique, puis sur le bâtiment que vous souhaitez démanteler. Une fois marqués pour être démantelés, vos constructeurs détruiront le bâtiment."
       
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Influence Module
