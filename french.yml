@@ -6332,124 +6332,124 @@ spells:
   
   banish:
     name:
-      text: "Banish"
+      text: "Bannir"
     description:
-      text: "Banish your enemies to a random location on the map!"
+      text: "Bannissez vos ennemis à un endroit aléatoire sur la carte !"
   dissolve:
     name:
-      text: "Dissolve"
+      text: "Dissoudre"
     description:
-      text: "Dissolves living resources like crystals, wood, and dead bodies on the map, converting them into essence."
+      text: "Dissout les ressources vivantes tels que les cristaux, le bois et les cadavres sur la carte, les convertissant ainsi en essence."
   summonHolyGolem:
     name:
-      text: "Summon Holy Golem"
+      text: "Invoquer un saint-golem"
     description:
-      text: "Summons a holy defender who will fight to their bitter end to defend your people. The older your village, the stronger the golem!"
+      text: "Invoque un saint défenseur qui se battra jusqu'au bout pour défendre votre peuple. Plus votre village est vieux, plus le golem est fort !"
   drop:
     name:
-      text: "Drop"
+      text: "Lâcher"
     description:
-      text: "Drop a resource or creature in your hands. This spell should not be accessable directly."
+      text: "Lâche une ressource on une créature présente dans votre main. Ce sort ne devrait pas être directement accessible."
   meteor:
     name:
-      text: "Meteor"
+      text: "Météore"
     description:
-      text: "Drop a flaming space rock on something!"
+      text: "Envoyez une pierre enflammée de l'espace sur quelque chose!"
   flame:
     name:
-      text: "Flame"
+      text: "Flamber"
     description:
-      text: "Ignite an area (and anything else that happens to be in the way) in flames!"
+      text: "Enflamme une zone (et tout ce qui se trouve sur le chemin) !"
   grab:
     name:
-      text: "Grab"
+      text: "Attraper"
     description:
-      text: "Pick up resources or creatures on the map. Drains influence the longer they are held and will drop them if you run out."
+      text: "Ramassez des ressources ou des créatures sur la carte. Draine de plus en plus d'essence lorsqu'ils sont maintenus longtemps et tomberont si vous n'en avez plus."
   healingAura:
     name:
-      text: "Healing Aura"
+      text: "Aura de guérison"
     description:
-      text: "Steadily heal all the villagers in the area for a short period of time."
+      text: "Guérit lentement tous les villageois dans la zone pendant une courte période de temps."
   motivateLand:
     name:
-      text: "Motivate Land"
+      text: "Motiver les terres"
     description:
-      text: "Motivate some natural resources to grow. Works best in the Spring and Autumn, very ineffective in the Winter."
+      text: "Motive la croissance de certaines ressources naturelles. Fonctionne mieux au printemps et à l'automne, très inefficace en hiver."
   earthquake:
     name:
-      text: "Earthquake"
+      text: "Tremblement de terre"
     description:
-      text: "Shake the ground, damaging anything in the area and sometimes sprouting forth new rock."
+      text: "Secoue le sol, endommage tout ce qui se trouve dans la zone et fait parfois apparaitre des rochers."
   recall:
     name:
-      text: "Recall"
+      text: "Rappeler"
     description:
-      text: "Teleport villagers and resources safely back to the village."
+      text: "Téléporte les villageois et les ressources au village en toute sécurité."
   resurrect:
     name:
-      text: "Resurrect"
+      text: "Ressusciter"
     description:
-      text: "Resurrect a visible ghost on the map. Beware, sometimes the process doesn't quite turn out the way you planned!"
+      text: "Ressuscite un fantôme visible sur la carte. Attention, parfois le processus ne se déroule pas comme prévu !"
   initialSpawnIn:
     name:
-      text: "Initial Spawn In"
+      text: "Apparition initiale"
     description:
-      text: "Special spell used to spawn in villagers at the start of a new game inworld map mode. Should not be castable by the player."
+      text: "Un sort spécial utilisé pour créer des villageois au début d'un nouveau monde. Ne devrait pas être utilisable par le joueur."
   storm:
     name:
-      text: "Storm"
+      text: "Tempête"
     description:
-      text: "An extremely dangerous spell that causes a huge localized lightning storm, followed by rain or snow in the entire region. Should never be cast inside your village."
+      text: "Un sort extrêmement dangereux qui provoque un énorme orage localisé, suivi par de la pluie ou de la neige dans toute la région. Ne devrait jamais être jeté à l'intérieur de votre village."
   conjureEssence:
     name:
-      text: "Conjure Essence"
+      text: "Invoquer de l'essence"
     description:
-      text: "Conjure essence out of thin air! Careful it doesn't get sucked back into your hand."
+      text: "Invoque de l'essence à partir de rien ! Attention à ce qu'elle ne soit pas reaspirée dans votre main."
   lightningBolt:
     name:
-      text: "Lightning Bolt"
+      text: "Éclair"
     description:
-      text: "Zap them from the heavens! Doesn't work well around lightning rods."
+      text: "Électrocute les depuis  les cieux ! Ne marche pas très bien près des paratonnerres."
   conjureMaterial:
     name:
-      text: "Conjure Material"
+      text: "Invoquer des matériaux"
     description:
-      text: "Brings forth a raw building material, sometimes similar to the topography surrounding it."
+      text: "Apporte des matières premières parfois similaire à la topographie qui l'entoure."
   mend:
     name:
-      text: "Mend"
+      text: "Raccomoder"
     description:
-      text: "Steadily repairs golems and buildings in a small area for a short period of time."
+      text: "Répare les golems et les bâtiments dans une petite zone pour une courte période."
   summonLaborGolem:
     name:
-      text: "Summon Labor Golem"
+      text: "Invoquer un golem-ouvrier"
     description:
-      text: "Summons a mindless golem that will do manual labor in your village until it dies."
+      text: "Invoque un golem stupide qui travaillera en tant que main-d'oeuvre dans votre village jusqu'à ce qu'il meurt."
   illuminate:
     name:
-      text: "Illuminate"
+      text: "Illuminer"
     description:
-      text: "Creates a long lasting, large light source on the map."
+      text: "Crée une source de lumière durable et de grande taille sur la carte."
   charm:
     name:
-      text: "Charm"
+      text: "Charmer"
     description:
-      text: "Charms a monster into attacking their friends instead, but they may not always cooperate, and could even work against you."
+      text: "Charme un monstre à se retourner contre ses amis, mais ils ne vont pas toujours coopérer, et pourraient même se retourner contre vous."
   magicBolts:
     name:
-      text: "Magic Bolts"
+      text: "Éclair magique"
     description:
-      text: "Zap monsters with some energy balls."
+      text: "Électrise un monstre avec une boule d'énergie."
   coldAura:
     name:
-      text: "Cold Aura"
+      text: "Aurea glaciale"
     description:
-      text: "Makes the area extremely cold, cooling, slowing down and sometimes freezing nearby creatures."
+      text: "Rend la zone extrêmement froide, refroidissant, ralentissant et parfois gelant les créatures proches."
   regenerate:
     name:
-      text: "Regenerate"
+      text: "Regénérer"
     description:
-      text: "Heals a single living creature over a short period of time. Does not work on golems, but does work on monsters! Be careful what you cast this on."
+      text: "Guérit une seule créature vivante sur une courte période de temps. Ne fonctionne pas sur les golems, mais fonctionne sur les monstres ! Faites attention à où vous l'utilisez."
             
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Tile Set
