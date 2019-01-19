@@ -6648,7 +6648,7 @@ missileName:
   bowArrow:
     text: "Flèche d'arc"
   fireElemental:
-    text: "Élément du feu"
+    text: "Élément de feu"
   fireGolem:
     text: "Golem de feu"
   iceGolem:
@@ -6678,49 +6678,49 @@ mobName:
       
   villageElder:
     single:
-      text: "Village Elder"
+      text: "Doyen"
     plural:
-      text: "Village Elders"
+      text: "Doyens"
   villager:
     single:
-      text: "Villager"
+      text: "Villageois"
     plural:
-      text: "Villagers"
+      text: "Villageois"
   child:
     single:
-      text: "Child"
+      text: "Enfant"
     plural:
-      text: "Children"
+      text: "Enfants"
   catjeetVillageElder:
     single:
-      text: "Catjeet Village Elder"
+      text: "Paysan doyen"
     plural:
-      text: "Catjeet Village Elders"
+      text: "Paysans doyens"
   catjeetVillager:
     single:
-      text: "Catjeet Villager"
+      text: "Paysan"
     plural:
-      text: "Catjeet Villagers"
+      text: "Paysans"
   catjeetChild:
     single:
-      text: "Catjeet Child"
+      text: "Enfant paysan"
     plural:
-      text: "Catjeet Children"
+      text: "Enfants paysans"
   catjeetProvisioner:
     single:
-      text: "Catjeet Provisioner"
+      text: "Provisionneur paysan"
     plural:
-      text: "Catjeet Provisioners"
+      text: "Provisionneurs paysans"
   catjeetLaborer:
     single:
-      text: "Catjeet Laborer"
+      text: "Ouvrier paysan"
     plural:
-      text: "Catjeet Laborers"
+      text: "Ouvriers paysans"
   smallSlime:
     single:
-      text: "Small Slime"
+      text: "Petits slime"
     plural:
-      text: "Small Slimes"
+      text: "Petits slimes"
   slime:
     single:
       text: "Slime"
@@ -6728,19 +6728,19 @@ mobName:
       text: "Slimes"
   smallBloodSlime:
     single:
-      text: "Small Blood Slime"
+      text: "Petit slime de sang"
     plural:
-      text: "Small Blood Slimes"
+      text: "Petits slimes de sang"
   bloodSlime:
     single:
-      text: "Blood Slime"
+      text: "Slime de sang"
     plural:
-      text: "Blood Slimes"
+      text: "Slimes de sang"
   headless:
     single:
-      text: "Headless"
+      text: "Sans-tête"
     plural:
-      text: "Headless"
+      text: "Sans-tête"
   drone:
     single:
       text: "Drone"
@@ -6753,289 +6753,289 @@ mobName:
       text: "Zombies"
   childZombie:
     single:
-      text: "Child Zombie"
+      text: "Enfant zombie"
     plural:
-      text: "Child Zombies"
+      text: "Enfants zombies"
   zombieDoggo:
     single:
-      text: "Zombie Doggo"
+      text: "Chien zombie"
     plural:
-      text: "Zombie Doggos"
+      text: "Chiens zombies"
   doofyZombieDoggo:
     single:
-      text: "Doofy Zombie Doggo"
+      text: "Chien zombie stupide"
     plural:
-      text: "Doofy Zombie Doggos"
+      text: "Chiens zombies stupides"
   zombieCatjeet:
     single:
-      text: "Zombie Catjeet"
+      text: "Zombie paysan"
     plural:
-      text: "Catjeet Zombies"
+      text: "Zombies paysans"
   catjeetChildZombie:
     single:
-      text: "Catjeet Child Zombie"
+      text: "Enfant zombie paysan"
     plural:
-      text: "Catjeet Child Zombies"
+      text: "Enfants zombies paysans"
   skeleton:
     single:
-      text: "Skeleton"
+      text: "Squelette"
     plural:
-      text: "Skeletons"
+      text: "Squelettes"
   ghost:
     single:
-      text: "Ghost"
+      text: "Fantôme"
     plural:
-      text: "Ghosts"
+      text: "Fantômes"
   ghostChild:
     single:
-      text: "Ghost Child"
+      text: "Enfant fantôme"
     plural:
-      text: "Ghost Children"
+      text: "Enfants fantômes"
   ghostDoggo:
     single:
-      text: "Ghost Doggo"
+      text: "Chien fantôme"
     plural:
-      text: "Ghost Doggos"
+      text: "Chiens fantômes"
   doofyGhostDoggo:
     single:
-      text: "Doofy Ghost Doggo"
+      text: "Chien fantôme stupide"
     plural:
-      text: "Doofy Ghost Doggos"
+      text: "Chiens fantômes stupides"
   ghostCatjeet:
     single:
-      text: "Ghost Catjeet"
+      text: "Paysan fantôme"
     plural:
-      text: "Catjeet Ghosts"
+      text: "Paysans fantômes"
   ghostCatjeetChild:
     single:
-      text: "Ghost Catjeet Child"
+      text: "Enfant paysan fantôme"
     plural:
-      text: "Ghost Catjeet Children"
+      text: "Enfants paysans fantômes"
   fireElemental:
     single:
-      text: "Fire Elemental"
+      text: "Élément de feu"
     plural:
-      text: "Fire Elementals"
+      text: "Éléments de feu"
   specter:
     single:
-      text: "Specter"
+      text: "Spectre"
     plural:
-      text: "Specters"
+      text: "Spectres"
   childSpecter:
     single:
-      text: "Child Specter"
+      text: "Enfant spectre"
     plural:
-      text: "Child Specters"
+      text: "Enfants spectres"
   nomadElder:
     single:
-      text: "Nomad Elder"
+      text: "Doyen nomade"
     plural:
-      text: "Nomad Elders"
+      text: "Doyens nomades"
   nomad:
     single:
-      text: "Nomad"
+      text: "Nomade"
     plural:
-      text: "Nomads"
+      text: "Nomades"
   departingMigrant:
     single:
-      text: "Departing Migrant"
+      text: "Migrant en partance"
     plural:
-      text: "Departing Migrants"
+      text: "Migrants en partance"
   arrivingMigrant:
     single:
-      text: "Arriving Migrant"
+      text: "Migrant arrivant"
     plural:
-      text: "Arriving Migrants"
+      text: "Migrants arrivant"
   nomadChild:
     single:
-      text: "Nomad Child"
+      text: "Enfant nomade"
     plural:
-      text: "Nomad Children"
+      text: "Enfants nomades"
   catjeetNomadElder:
     single:
-      text: "Catjeet Nomad Elder"
+      text: "Paysan doyen nomade"
     plural:
-      text: "Catjeet Nomad Elders"
+      text: "Paysans doyens nomades"
   catjeetNomad:
     single:
-      text: "Catjeet Nomad"
+      text: "Paysan nomade"
     plural:
-      text: "Catjeet Nomads"
+      text: "Paysans nomades"
   departingCatjeetMigrant:
     single:
-      text: "Departing Catjeet Migrant"
+      text: "Paysan migrant en partance"
     plural:
-      text: "Departing Catjeet Migrants"
+      text: "Paysans migrants en partance"
   arrivingCatjeetMigrant:
     single:
-      text: "Arriving Catjeet Migrant"
+      text: "Paysan migrant arrivant"
     plural:
-      text: "Arriving Catjeet Migrants"
+      text: "Paysans migrants arrivant"
   catjeetNomadChild:
     single:
-      text: "Catjeet Nomad Child"
+      text: "Enfant paysan nomade"
     plural:
-      text: "Catjeet Nomad Children"
+      text: "Enfants paysans nomades"
   doggo:
     single:
-      text: "Doggo"
+      text: "Chien"
     plural:
-      text: "Doggos"
+      text: "Chiens"
   doofyDoggo:
     single:
-      text: "Doofy Doggo"
+      text: "Chien stupide"
     plural:
-      text: "Doofy Doggos"
+      text: "Chiens stupides"
   wildDoggo:
     single:
-      text: "Wild Doggo"
+      text: "Chien sauvage"
     plural:
-      text: "Wild Doggos"
+      text: "Chiens sauvages"
   doofyWildDoggo:
     single:
-      text: "Doofy Wild Doggo"
+      text: "Chien sauvage stupide"
     plural:
-      text: "Doofy Wild Doggos"
+      text: "Chiens sauvages stupides"
   stoneGolem:
     single:
-      text: "Stone Golem"
+      text: "Golem de pierre"
     plural:
-      text: "Stone Golems"
+      text: "Golems de pierre"
   roggoGolem:
     single:
-      text: "Roggo Golem"
+      text: "Golem rochien"
     plural:
-      text: "Roggo Golems"
+      text: "Golems rochiens"
   woodGolem:
     single:
-      text: "Wood Golem"
+      text: "Golem de bois"
     plural:
-      text: "Wood Golems"
+      text: "Golems de bois"
   loggoGolem:
     single:
-      text: "Loggo Golem"
+      text: "Golem bûchien"
     plural:
-      text: "Loggo Golems"
+      text: "Golem bûchien"
   crystalGolem:
     single:
-      text: "Crystal Golem"
+      text: "Golem de cristal"
     plural:
-      text: "Crystal Golems"
+      text: "Golems de cristal"
   cryggoGolem:
     single:
-      text: "Cryggo Golem"
+      text: "Golem crischien"
     plural:
-      text: "Cryggo Golems"
+      text: "Golem crischien"
   holyGolem:
     single:
-      text: "Holy Golem"
+      text: "Saint-golem"
     plural:
-      text: "Holy Golems"
+      text: "Saint-golems"
   goddoGolem:
     single:
-      text: "Goddo Golem"
+      text: "Sainchien-golem"
     plural:
-      text: "Goddo Golems"
+      text: "Sainchien-golems"
   courierGolem:
     single:
-      text: "Courier Golem"
+      text: "Golem-facteur"
     plural:
-      text: "Courier Golems"
+      text: "Golems-facteur"
   laborGolem:
     single:
-      text: "Labor Golem"
+      text: "Golem ouvrier"
     plural:
-      text: "Labor Golems"
+      text: "Golems ouvriers"
   poisonWoodGolem:
     single:
-      text: "Poison Wood Golem"
+      text: "Golem de bois de poison"
     plural:
-      text: "Poison Wood Golems"
+      text: "Golem de bois de poison"
   poisonLoggoGolem:
     single:
-      text: "Poison Loggo Golem"
+      text: "Golem bûchien de poison"
     plural:
-      text: "Poison Loggo Golems"
+      text: "Golems bûchiens de poison"
   fireStoneGolem:
     single:
-      text: "Fire Stone Golem"
+      text: "Golem de pierre de feu"
     plural:
-      text: "Fire Stone Golems"
+      text: "Golems de pierre de feu"
   fireRoggoGolem:
     single:
-      text: "Fire Roggo Golem"
+      text: "Golem rochien de feu"
     plural:
-      text: "Fire Roggo Golems"
+      text: "Golems rochiens de feu"
   fireCrystalGolem:
     single:
-      text: "Fire Crystal Golem"
+      text: "Golem de cristal de feu"
     plural:
-      text: "Fire Crystal Golems"
+      text: "Golems de cristal de feu"
   fireCryggoGolem:
     single:
-      text: "Fire Cryggo Golem"
+      text: "Golem crischien de feu"
     plural:
-      text: "Fire Cryggo Golems"
+      text: "Golems crischiens de feu"
   iceStoneGolem:
     single:
-      text: "Ice Stone Golem"
+      text: "Golem de pierre de glace"
     plural:
-      text: "Ice Stone Golems"
+      text: "Golems de pierre de glace"
   iceRoggoGolem:
     single:
-      text: "Ice Roggo Golem"
+      text: "Golem rochien de glace"
     plural:
-      text: "Ice Roggo Golems"
+      text: "Golems rochiens de glace"
   iceWoodGolem:
     single:
-      text: "Ice Wood Golem"
+      text: "Golem de bois de glace"
     plural:
-      text: "Ice Wood Golems"
+      text: "Golems de bois de glace"
   iceLoggoGolem:
     single:
-      text: "Ice Loggo Golem"
+      text: "Golem bûchien de glace"
     plural:
-      text: "Ice Loggo Golems"
+      text: "Golems bûchiens de glace"
   iceCrystalGolem:
     single:
-      text: "Ice Crystal Golem"
+      text: "Golem de cristal de glace"
     plural:
-      text: "Ice Crystal Golems"
+      text: "Golems de cristal de glace"
   iceCryggoGolem:
     single:
-      text: "Ice Cryggo Golem"
+      text: "Golem crischien de glace"
     plural:
-      text: "Ice Cryggo Golems"
+      text: "Golems crischiens de glace"
   lightningStoneGolem:
     single:
-      text: "Lightning Stone Golem"
+      text: "Golem-éclair de pierre"
     plural:
-      text: "Lightning Stone Golems"
+      text: "Golems-éclairs de pierre"
   lightningRoggoGolem:
     single:
-      text: "Lightning Roggo Golem"
+      text: "Golem rochien-éclair"
     plural:
-      text: "Lightning Roggo Golems"
+      text: "Golems rochiens-éclairs"
   lightningWoodGolem:
     single:
-      text: "Lightning Wood Golem"
+      text: "Golem-éclair de bois"
     plural:
-      text: "Lightning Wood Golems"
+      text: "Golems-éclairs de bois"
   lightningLoggoGolem:
     single:
-      text: "Lightning Loggo Golem"
+      text: "Golem bûchien-éclair"
     plural:
-      text: "Lightning Loggo Golems"
+      text: "Golems bûchiens-éclairs"
   lightningCrystalGolem:
     single:
-      text: "Lightning Crystal Golem"
+      text: "Golem-éclair de cristal"
     plural:
-      text: "Lightning Crystal Golems"
+      text: "Golems-éclairs de cristal"
   lightningCryggoGolem:
     single:
-      text: "Lightning Cryggo Golem"
+      text: "Golem crischien-éclair"
     plural:
-      text: "Lightning Cryggo Golems"
+      text: "Golems crischiens-éclairs"
       
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Mob AI
