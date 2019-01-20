@@ -1912,6 +1912,43 @@ mainMenuDisclaimerPanel:
       text: "Jouons !"
     dontShow:
       text: "Ne plus montrer"
+      
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# Main Menu State
+# Language Select Panel
+# rtr.gui.states.mainmenu.LanguageSelectPanel.java
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+mainMenuLanguageSelectPanel:
+  comment: "Main Menu State - Disclaimer Panel"
+  javaClass: "rtr.gui.states.mainmenu.LanguageSelectPanel.java"
+  
+  header:
+    text: "$ORA1Sélectionner une langue"
+    
+  button:
+    refresh:
+      text: "Rafraîchir"
+    back:
+      text: "Retour"
+    tooltip:
+      refreshHeader:
+        text: "Rafraîchir la liste"
+      refresh:
+        text: "Le jeu pourrait complètement se bloquer pour quelques secondes. Si vous venez de vous abonner ou d'installer un nouveau pack de langue, vous devriez peut-être attendre un moment avant de rafraîchir la liste pour qu'il se télécharge et s'installe."
+      steamWorkshopHeader:
+        text: "Steam Workshop"
+      steamWorkshop:
+        text: "Trouvez d'autres packs de langue à télécharger sur le site du Steam Workshop. En cliquant sur ce bouton, vous accédez directement au workshop dans votre navigateur. N'oubliez pas de cliquer sur le bouton rafraîchir après s'être abonné à un pack."
+      languageLinksHeader:
+        text: "Site web"
+      languageLinks:
+        text: "Voir le site web de ce pack de linguistique."
+      languagePercentCompleteHeader:
+        text: "Pourcentage traduit"
+      
+  languageAccuracy:
+    text: "$CYA0Les packs linguistiques sont conçus par des membres de la communauté qui travaillent dur, mais peuvent ne pas être précis ou complets à 100 % ! Si vous trouvez une erreur, veuillez la signaler au joueur qui a fait le pack que vous avez téléchargé !"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Main Menu State
