@@ -1,6 +1,6 @@
-# How to edit: simply change the text following the equals (=) sign and save the file!
+# How to edit: simply change the text inside the quotes!
 
-# Variables: The %%0, %%1, %%2, etc are variables for the phrase, to print dynamic data on screen. For example "You have %%0 villagers", %%0 would be the villager count itself. These must remain in the translated version as well, or the actual data will never be displayed.
+# Variables: The curly braces {mobName}, {resourceName}, etc are variables for the phrase, to print dynamic data on screen. For example "You have {amount} villagers", {amount} would be the villager count itself. These must remain in the translated version as well, or the actual data will never be displayed.
 
 # Colors: If you need to change around the coloring of text, it's fairly simple. All text by default is white, you need to add $COL1 where "COL" is the color code, and 0 through 2 is the brightness. Most text should have brightness set to 1. I recommend not changing the color codes used in each line (Although you can, it won't hurt anything), but for your language you may have to rearrange them a bit. Remember, changing the color will change all the color following that line until another color code is entered. So "My cat is $RED1red, and it's pretty!" will make "red, and it's pretty!" all in red. Where as "My cat is $RED1red$WHI0, and it's pretty!" will only set the word "red" to the color RED1.
 # Valid Color Codes:
@@ -17,9 +17,7 @@
 
 # Line Breaks: DO NOT EVER HIT ENTER/RETURN TO MAKE LINE BREAKS. To make a line break you must use the tilde (~) key. For example; "This is Line 1,~and this is Line 2" will print two lines, with "This is Line 1" on line one, and "and this is Line 2." on the second.
 
-# Text Size Adjustment: In some cases, your new text may not fit in the box it is designed to go inside. If thats the case, you can increase/decrease the font size for that specific line by adding a new setting called TEXT_NAME_SIZE_ADJUSTMENT. For example, if you wanted to increase the MM_P_REVIEW_SUB_HEADER font by 2, add MM_P_REVIEW_SUB_HEADER_SIZE_ADJUSTMENT below MM_P_REVIEW_SUB_HEADER and set the value to "2", or, if you wanted to decrease it by 1, input "-1". If you're finding yourself needing to change a large majority of text, keep in mind that you can increase the font as a whole inside the configuration.settings file instead. If you picked a custom font, and everything feels too big or small, you likely should be increasing the font site in configuration.settings, NOT HERE. The only time you should be changing sizes here is if your text ends up too long/short to fit where it was designed to. Note that some text can not be adjusted!
-
-# Any time a line is left blank or removed, the game will load the default English version.
+# Any time a line is left blank or removed, the game will load the default English version. Although I recommend not touching any lines you do not wish to translate.
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # God Module
@@ -1336,7 +1334,7 @@ console:
       
       newSeason: 
         header:
-          text: "{season}$WHI0 has started!"
+          text: "{season} has started!"
         subtitle:
           text: "$WHI0 Good luck!"
           
@@ -1438,7 +1436,7 @@ console:
           male:
             text: "He lived a good life."
           female:
-            text: "SHe lived a good life."
+            text: "She lived a good life."
           none:
             text: "They lived a good life."
             
@@ -1528,11 +1526,11 @@ console:
       sacrificeToCullisGate:
         header:
           male:
-            text: "{mobName} $WHI0 was sacrificed by his $RED1God$WHI0!"
+            text: "{mobName}$WHI0 was sacrificed by his $RED1God$WHI0!"
           female:
-            text: "{mobName} $WHI0 was sacrificed by her $RED1God$WHI0!"
+            text: "{mobName}$WHI0 was sacrificed by her $RED1God$WHI0!"
           none:
-            text: "{mobName} $WHI0 was sacrificed by their $RED1God$WHI0!"
+            text: "{mobName}$WHI0 was sacrificed by their $RED1God$WHI0!"
         subtitle:
           text: "Let that be a lesson."
     
@@ -1824,7 +1822,28 @@ goal:
         text: "Resurrect $GRE1{amount}$WHI0 ghosts $GRE1anywhere$WHI0."
       specific:
         text: "Resurrect $GRE1{amount}$WHI0 ghosts on $GRE1{mapName}$WHI0!"
+     
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# Main Menu State
+# Map List Buttons
+# rtr.gui.buttons.GUIButtonMapList.java
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+mainMenuMapListButton:
+  comment: "Main Menu State - Map List Buttons"
+  javaClass: "rtr.gui.buttons.GUIButtonMapList.java"
+  
+  button:
+    lastPage:
+      text: "Last Page"
+    nextPage:
+      text: "Next Page"
       
+  totalMaps:
+    text: "Total: {totalMaps}"
+  pageList:
+    text: "Page: {currentPage} of {totalPages}"
+   
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Main Menu State
 # Credits
@@ -1891,6 +1910,43 @@ mainMenuDisclaimerPanel:
       text: "Lets Play!"
     dontShow:
       text: "Don't Show Again"
+      
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# Main Menu State
+# Language Select Panel
+# rtr.gui.states.mainmenu.LanguageSelectPanel.java
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+mainMenuLanguageSelectPanel:
+  comment: "Main Menu State - Disclaimer Panel"
+  javaClass: "rtr.gui.states.mainmenu.LanguageSelectPanel.java"
+  
+  header:
+    text: "$ORA1Select Language"
+    
+  button:
+    refresh:
+      text: "Refresh"
+    back:
+      text: "Back"
+    tooltip:
+      refreshHeader:
+        text: "Refresh List"
+      refresh:
+        text: "This may freeze the game completely for a few seconds, if you just subscribed to or installed a new language pack you may need to wait a moment before refreshing to give it time to download and install before it appears."
+      steamWorkshopHeader:
+        text: "Steam Workshop"
+      steamWorkshop:
+        text: "Find more language packs to download on the Steam Workshop. Clicking this will take you directly to the workshop in your browser. Remember to click the refresh button after you've subscribed to a pack."
+      languageLinksHeader:
+        text: "Website"
+      languageLinks:
+        text: "Visit this language pack's website."
+      languagePercentCompleteHeader:
+        text: "Percentage Translated"
+      
+  languageAccuracy:
+    text: "$CYA0Language packs are made by hard working members of the community, but may not be 100% accurate or complete! If you find an error, please report it to the player who made the pack you downloaded!"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Main Menu State
@@ -1952,14 +2008,15 @@ mainMenuMainMenuPanel:
     generateVideoSheet:
       text: "Generate Video Sheet"
     rollover:
-      patreon:
-        text: "Pledge on Patreon!"
       twitch:
         text: "Follow on Twitch!"
       twitter:
         text: "Follow on Twitter!"
       discord:
         text: "Join The Discord!" 
+    tooltip:
+      setLanguageHeader:
+        text: "Set Language"
       
   videoSheetName:
     text: "Video Sheet Name"
@@ -2159,6 +2216,26 @@ mainMenuNewProfilePanel:
     tipsEnabled:
       text: "Tips Enabled"
 
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# Main Menu State
+# Restart Game Panel
+# rtr.gui.states.mainmenu.RestartGamePanel.java
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+mainMenuRestartGamePanel:
+  comment: "Main Menu State - Restart Game Panel"
+  javaClass: "rtr.gui.states.mainmenu.RestartGamePanel.java"
+  
+  header:
+    text: "$ORA1You Must Restart!"
+    
+  button:
+    exit:
+      text: "Exit"
+      
+  body:
+    text: "$CYA0You must restart the game for these changes take effect, please press 'Exit' and relaunch the game."
+    
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Main Menu State
 # Select Profile Panel
@@ -4457,10 +4534,11 @@ playSpellBar:
   comment: "Play State - Spell Bar"
   javaClass: "rtr.gui.states.playstate.SpellBar.java"
   
-  header:
-    text: "Change Spell"
-  tooltip:
-    text: "Open the full spell list and change the spell in slot {slotNumber}."
+  changeSpell:
+    header:
+      text: "Change Spell"
+    tooltip:
+      text: "Open the full spell list and change the spell in slot {slotNumber}."
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Play State
@@ -5562,12 +5640,14 @@ worldMapDoomWorldPanel:
     doomWorld:
       text: "DOOM WORLD"
     confirmInputBox:
+      comment: "Text above the input box the player would type RESET in."
       text: "CONFIRM HERE"
   
   warning:
     text: "$RED1WARNING: WILL PERMANENTLY RESET ALL REGIONS ON THIS DIFFICULTY! BUT YOU WILL KEEP PERKS AND GOD EXPERIENCE."
   instructions:
-    text: "$ORA1TYPE $GRE1RESET$ORA1 IN THE BOX BELOW TO CONFIRM YOU WANT TO DO THIS!"
+    comment: "This should remain in all-caps if it can, because the {reset} variable is also in all-caps."
+    text: "$ORA1TYPE {reset} IN THE BOX BELOW TO CONFIRM YOU WANT TO DO THIS!"
   
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # World Map State
@@ -6136,7 +6216,7 @@ helpTip:
     resouceManagementHeader:
       text: "Resource Management"
     resouceManagement:
-      text: "The {buildingName}$WHI0 you just built can manufacture resources like $YEL1{resourceName} $WHI0but in order to get your villagers working on them $RED1you need to both assign {mobJobName} $RED1and assign the resources in the Resource Management tab on the left hand GUI.$WHI0 Setting a resource to $GRE1'Maintain'$WHI0 will try to keep at least that many of a resource in the village at all times, where as $GRE1'Make'$WHI0 will just immediately make that many for you. You can also set the value range over 200 for infinity, as well as control harvesting limits in the same manner."
+      text: "The {buildingName}$WHI0 you just built can manufacture resources like $YEL1{resourceName} $WHI0but in order to get your villagers working on them $RED1you need to both assign {mobJobName} $RED1and assign the resources in the Resource Management tab on the left hand GUI.$WHI0 Setting a resource to $GRE1'Maintain'$WHI0 will try to keep at least that many of a resource in the village at all times, where as $GRE1'Make'$WHI0 will just immediately make that many for you. You can also set the value range over 500 for infinity, as well as control harvesting limits in the same manner."
     energyHeader:
       text: "Energy"
     energy:
@@ -6162,7 +6242,7 @@ helpTip:
     noHomesHeader:
       text: "Homes"
     noHomes:   
-      text: "You're on day {day} and you have not built any housing, your villagers will need a place to live, or they will be become very unhappy. You also need homes so your villagers can mate, and hopefully have children someday."
+      text: "You're on day {day} and you have not built any $YEL1housing$WHI0, your villagers will need a place to live, or they will be become very unhappy. You also need homes so your villagers can mate, and hopefully have children someday."
     noFarmsHeader:
       text: "Farming"
     noFarms:   
@@ -6194,9 +6274,9 @@ helpTip:
     villagerStarvingHeader:
       text: "Starvation"
     villagerStarvingMale:   
-      text: "{mobName}$WHI0 is starving! You better find that poor villager some food quick or he may die! Did you build a farm or houses yet? Villagers get desperate when starving and find food on their own, even if it endangers them."
+      text: "{mobName}$WHI0 is starving! You better find that poor villager some food quick or he may die! Did you build a $YEL1farm$WHI0 or any $YEL1houses$WHI0 yet? Villagers get desperate when starving and find food on their own, even if it endangers them."
     villagerStarvingFemale:   
-      text: "{mobName}$WHI0 is starving! You better find that poor villager some food quick or she may die! Did you build a farm or houses yet? Villagers get desperate when starving and find food on their own, even if it endangers them."
+      text: "{mobName}$WHI0 is starving! You better find that poor villager some food quick or she may die! Did you build a $YEL1farm$WHI0 or any $YEL1houses$WHI0 yet? Villagers get desperate when starving and find food on their own, even if it endangers them."
     villagerDehydrationHeader:
       text: "Dehydration"
     villagerDehydrationMale:   
@@ -6322,12 +6402,12 @@ influence:
       
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Influence Module
-# Spells
+# Spell Names and Descriptions
 # rtr.influence.*
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
-spells:
-  comment: "Influence Module - Spells"
+spell:
+  comment: "Influence Module - Spell Names and Descriptions"
   javaClass: "rtr.influence.*"
   
   banish:
@@ -7049,51 +7129,51 @@ aiTask:
   
   base:
     drinkingWater:
-      text: "Drinking a $YEL1{resourceName}"
+      text: "Drinking a $YEL1{resourceName}."
     eatingFood:
-      text: "Eating a $YEL1{resourceName}"
+      text: "Eating a $YEL1{resourceName}."
     pathfindingBruteForce:
-      text: "Clearing obstacles in the way"
+      text: "Clearing obstacles in the way."
     recoveringHealth:
-      text: "Recovering health with a $YEL1{resourceName}"
+      text: "Recovering health with a $YEL1{resourceName}."
 
     droppingResource:
       findingLocation:
-        text: "Finding location to drop a resource"
+        text: "Finding location to drop a resource."
       pathfinding:
-        text: "Walking to an open space to drop the resource in their hand"
+        text: "Walking to an open space to drop the resource in their hand."
       dropping:
-        text: "Dropping resource on ground"
+        text: "Dropping resource on ground."
         
   birth:  
     findSafeLocation:
-      text: "Finding a safe place to give birth"
+      text: "Finding a safe place to give birth."
     pathfindToSafeLocation:
-      text: "Walking to a safe place to give birth"
+      text: "Walking to a safe place to give birth."
   
   buildWork:
     pathfindToBuilding:
-      text: "Walking to {buildingName} to build"
+      text: "Walking to {buildingName} to build."
     build:
-      text: "Building {buildingName}"
+      text: "Building {buildingName}."
 
   buyFromProvisioner:
     pathfindToProvisioner:
-      text: "Buying resource from $YEL1a catjeet provisioner"
+      text: "Buying resource from $YEL1a catjeet provisioner."
 
   buyLaborer:
     pathfindToLaborer:
-      text: "Hiring $YEL1a catjeet laborer"
+      text: "Hiring $YEL1a catjeet laborer."
 
   chat:
     pathfindToChatPartner:
-      text: "Visiting {mobName}"
+      text: "Visiting {mobName}."
     chat:
-      text: "Chatting with {mobName}"
+      text: "Chatting with {mobName}."
 
   clearoutResourceFromBuilding:
     pathfindToBuilding:
-      text: "Clearing out $YEL1{resourceName}$WHI0 topography at {buildingName}"
+      text: "Clearing out $YEL1{resourceName}$WHI0 topography at {buildingName}."
 
   clearTopographyFromRoadWork:
     pathfindToTopography:
@@ -7109,109 +7189,109 @@ aiTask:
       
   combatBuildings:
     pathfindToTarget:
-      text: "Attacking {buildingName}"
+      text: "Attacking {buildingName}."
       
   combatMobs:
     fleeTarget:
-      text: "Fleeing {mobName}"
+      text: "Fleeing {mobName}."
     pathfindToTarget:
-      text: "Attacking {mobName}"
+      text: "Attacking {mobName}."
 
   confused:
     beConfused:
-      text: "Confused"
+      text: "Confused."
     wanderAround:
-      text: "Wandering around confused"
+      text: "Wandering around confused."
 
   constructionHarvestWork:
     pathfindToHarvestWork:
-      text: "Walking to worksite harvest some materials"
+      text: "Walking to worksite harvest some materials."
     harvestResource:
-      text: "Harvesting materials"
+      text: "Harvesting materials."
 
   courierArriveBehavior:
     pathfindToDropOffCoordinatesNoRegion:
-      text: "Delivering resources from another region"
+      text: "Delivering resources from another region."
     pathfindToDropOffCoordinates:
-      text: "Delivering resources from $YEL1{regionName}"
+      text: "Delivering resources from $YEL1{regionName}."
     dropOffResourcesNoRegion:
-      text:  "Dropping off resources from another region"
+      text:  "Dropping off resources from another region."
     dropOffResources:
-      text:  "Dropping off resources from $YEL1{regionName}"
+      text:  "Dropping off resources from $YEL1{regionName}."
       
   courierDepartBehavior:
     pathfindToLeaveCoordinates:
-      text: "Departing the region to deliver resources to $YEL1{regionName}"
+      text: "Departing the region to deliver resources to $YEL1{regionName}."
 
   courierParkBehavior:
     pathfindToParkingSpot:
-      text: "Parking at $YEL1{buildingName}"
+      text: "Parking at $YEL1{buildingName}."
     park:
-      text: "Waiting for resources at $YEL1{buildingName}"
+      text: "Waiting for resources at $YEL1{buildingName}."
 
   criticalRepairWork:
     pathfindToBuilding:
-      text: "Walking to {buildingName} to repair"
+      text: "Walking to {buildingName} to repair."
     repairBuilding:
-      text: "Repairing {buildingName}"
+      text: "Repairing {buildingName}."
 
   death:
     death:
-      text: "Dead"
+      text: "Dead."
       
   deliverConstructionResource:
     pathfindToResourceOnGround:
-      text: "Picking up resource on the ground to deliver to{buildingName}"
+      text: "Picking up resource on the ground to deliver to {buildingName}."
     pathfindToBuilding:
-      text: "Delivering resource at {buildingNameSource} to {buildingNameDestination}"
+      text: "Delivering resource at {buildingNameSource} to {buildingNameDestination}."
 
   deliverConstructionResourceInHand:
     pathfindToBuilding:
-      text: "Delivering resource to {buildingName}"
+      text: "Delivering resource to {buildingName}."
     pathfindToExtraResource:
-      text: "Picking up additional delivery resource for {buildingName}"
+      text: "Picking up additional delivery resource for {buildingName}."
 
   deliverCourierResource:
     pathfindToResourceOnGround:
-      text: "Picking up resource on the ground to give to $YEL1a courier$WHI0 going to $YEL1{regionName}"
+      text: "Picking up resource on the ground to give to $YEL1a courier$WHI0 going to $YEL1{regionName}."
     pathfindToBuilding:
-      text: "Picking up resource at {buildingName}$WHI0 to give to a $YEL1a courier$WHI0 going to $YEL1{regionName}"
+      text: "Picking up resource at {buildingName}$WHI0 to give to a $YEL1a courier$WHI0 going to $YEL1{regionName}."
 
   deliverCourierResourceInHand:
     pathfindToCourier:
-      text: "Delivering resource to $YEL1a courier$WHI0 to send to $YEL1{regionName}"
+      text: "Delivering resource to $YEL1a courier$WHI0 to send to $YEL1{regionName}."
     pathfindToExtraResource:
-      text: "Picking up additional resource to deliver to a courier"
+      text: "Picking up additional resource to deliver to a courier."
 
   deliverRoadConstructionResource:
     pathfindToResourceOnGround:
-      text: "Picking up resource on the ground to deliver to a road"
+      text: "Picking up resource on the ground to deliver to a road."
     pathfindToBuilding:
-      text: "Delivering resource at {buildingName} to a road"
+      text: "Delivering resource at {buildingName} to a road."
 
   deliverRoadConstructionResourceInHand:
     pathfindToRoad:
-      text: "Delivering resource to a road"
+      text: "Delivering resource to a road."
     pathfindToExtraResource:
-      text: "Picking up additional delivery resource for a road"
+      text: "Picking up additional delivery resource for a road."
       
   digWork:
     pathfindToTerrain:
       text: "Walking to worksite dig a hole."
     dig:
-      text: "Digging hole"
+      text: "Digging hole."
       
   dismantleWork:
     pathfindToBuilding:
-      text: "Walking to {buildingName} to dismantle"
+      text: "Walking to {buildingName} to dismantle."
     dismantle:
-      text: "Dismantling {buildingName}"
+      text: "Dismantling {buildingName}."
       
   equipResource:
     pathfindToEquipmentOnGround:
-      text: "Equipping resource on the ground"
+      text: "Equipping resource on the ground."
     pathfindToBuilding:
-      text: "Equipping resource at {buildingName}"
+      text: "Equipping resource at {buildingName}."
       
   findBetterHome:
     visitNewHome:
@@ -7221,15 +7301,15 @@ aiTask:
       
   findFood:
     pathfindToResourceOnGround:
-      text: "Walking to nearby food on the ground"
+      text: "Walking to nearby food on the ground."
     pathfindToBuilding:
-      text: "Stealing food at {buildingName}"
+      text: "Stealing food at {buildingName}."
 
   findFoodHarvest:
     pathfindToFood:
-      text: "Walking to some unharvested food"
+      text: "Walking to some unharvested food."
     harvestFood:
-      text: "Harvesting raw food to eat"
+      text: "Harvesting raw food to eat."
       
   findHome:
     searchForHome:
@@ -7253,7 +7333,7 @@ aiTask:
     pathfindToWaterFountain:
       text: "Going to {buildingName} to drink water."
     drinkFromWaterFountain:
-      text: "Drinking water from {buildingName}"
+      text: "Drinking water from {buildingName}."
       
   findWaterHarvest:
     pathfindToWater:
@@ -7267,21 +7347,21 @@ aiTask:
 
   goHome:
     findHome:
-      text: "Finding a path to home {buildingName}"
+      text: "Finding a path to home {buildingName}."
     pathfindToHome:
-      text: "Going home to {buildingName}"
+      text: "Going home to {buildingName}."
     enterHome:
-      text: "Trying to enter {buildingName}"
+      text: "Trying to enter {buildingName}."
       
   golemHealBehavior:
     findRecombobulator:
       text: "Searching for a recombobulator."
     pathfindToRecombobulator:
-      text: "Going to a $YEL1{buildingName}$WHI0 to heal."
+      text: "Going to a {buildingName} to heal."
       
   golemPatrolBehavior:
     pathfindToWaypoint:
-      text: "Patrolling the village"
+      text: "Patrolling the village."
       
   grabbed:
     grabbed:
@@ -7289,53 +7369,53 @@ aiTask:
       
   guardPatrolFrontLine:
     pathfindToWaypoint:
-      text: "Patrolling the front lines"
+      text: "Patrolling the front lines."
       
   guardPatrolPerimeter:
     pathfindToWaypoint:
-      text: "Patrolling the perimeter"
+      text: "Patrolling the perimeter."
       
   guardPatrolVillage:
     pathfindToWaypoint:
-      text: "Patrolling the village"
+      text: "Patrolling the village."
       
   guardPost:
     pathfindToBuilding:
-      text: "Posting at $YEL1{buildingName}"
+      text: "Posting at $YEL1{buildingName}."
     posting:
-      text: "Posted at $YEL1{buildingName}"
+      text: "Posted at $YEL1{buildingName}."
     pathfindToNewPostPosition:
-      text: "Posted at $YEL1{buildingName}"
+      text: "Posted at $YEL1{buildingName}."
       
   guardSummoned:
     pathfindToSummons:
-      text: "Running to protect {mobName}"
+      text: "Running to protect {mobName}."
       
   harvestFarmWork:
     pathfindToResource:
-      text: "Walking to farm to harvest food"
+      text: "Walking to farm to harvest food."
     harvestResource:
-      text: "Harvesting materials"
+      text: "Harvesting materials."
       
   harvestWaterWork:
     pathfindToWater:
-      text: "Walking to worksite harvest some water"
+      text: "Walking to worksite harvest some water."
     harvestWater:
-      text: "Harvesting water"
+      text: "Harvesting water."
       
   harvestWork:
     pathfindToResource:
-      text: "Walking to worksite harvest some materials"
+      text: "Walking to worksite harvest some materials."
     harvestResource:
-      text: "Harvesting materials"
+      text: "Harvesting materials."
       
   healthRepair:
     pathfindToBuilding:
-      text: "Going to $YEL1{buildingName} for medical attention"
+      text: "Going to $YEL1{buildingName} for medical attention."
     postingWaitingForMedic:
       text: "Waiting for {mobName}$WHI0 to apply first aid."
     postingWaiting:
-      text: "Waiting for medical attention at $YEL1{buildingName}"
+      text: "Waiting for medical attention at $YEL1{buildingName}."
       
   incapacitated:
     incapacitated:
@@ -7343,73 +7423,73 @@ aiTask:
       
   inHome:
     inHome:
-      text: "Inside their home"
+      text: "Inside their home."
     sleeping:
-      text: "Sleeping"
+      text: "Sleeping."
       
   inHomeHiding:
     hiding:
-      text: "Hiding inside their home"
+      text: "Hiding inside their home."
       
   laborerLeave:
     pathfindToLeaveCoordinates:
-      text: "Leaving the region"
+      text: "Leaving the region."
       
   laborerPost:
     pathfindToMarketplace:
-      text: "Setting up shop at $YEL1{buildingName}"
+      text: "Setting up shop at $YEL1{buildingName}."
     sellLabor:
-      text: "Selling labor at $YEL1{buildingName}"
+      text: "Selling labor at $YEL1{buildingName}."
       
   mateCoitus:
     awaitCoitusWaiting:
       text: "Waiting for {mobName} to arrive for coitus."
     awaitCoitus:
-      text: "Coitusing with {mobName}"
+      text: "Coitusing with {mobName}."
 
   mateGoCoitus:
     findHome:
-      text: "Finding a path to home {buildingName}"
+      text: "Finding a path to home {buildingName}."
     pathfindToHome:
-      text: "Going home to have coitus with {mobName}"
+      text: "Going home to have coitus with {mobName}."
     enterHome:
-      text: "Entering home to have coitus with {mobName}"
+      text: "Entering home to have coitus with {mobName}."
       
   mateGoCoitusOther:
     findHome:
-      text: "Finding a path to home {buildingName}"
+      text: "Finding a path to home {buildingName}."
     pathfindToHome:
-      text: "Going home to have coitus with {mobName}"
+      text: "Going home to have coitus with {mobName}."
     enterHome:
-      text: "Entering home to have coitus with {mobName}"
+      text: "Entering home to have coitus with {mobName}."
       
   medicWork:
     pathfindToBuilding:
-      text: "Posting at $YEL1{buildingName}"
+      text: "Posting at $YEL1{buildingName}."
     posting:
-      text: "Posted at $YEL1{buildingName}"
+      text: "Posted at $YEL1{buildingName}."
     pathfindToHurtVillager:
       text: "Going to {mobName}$WHI0 to apply first aid."
     healSelf:
-      text: "Applying first aid to self"
+      text: "Applying first aid to self."
     healVillager:
-      text: "Applying first aid to {mobName}"
+      text: "Applying first aid to {mobName}."
 
   migrantDepartBehavior:
     pathfindToLeaveCoordinates:
-      text: "Departing the region to migrate to $YEL1{regionName}"
+      text: "Departing the region to migrate to $YEL1{regionName}."
       
   migrationPreperationBehavior:
     pathfindToLeaveCoordinates:
-      text: "Preparing to leave region"
+      text: "Preparing to leave region."
       
   nomadBehavior:
     pathfindToVillage:
-      text: "Wandering into the village"
+      text: "Wandering into the village."
       
   nomadBehaviorOther:
     pathfindToVillage:
-      text: "Wandering into the village"
+      text: "Wandering into the village."
       
   onFirePanic:
     onFire:
@@ -7421,25 +7501,25 @@ aiTask:
       
   plantResource:
     pathfindToResourceOnGround:
-      text: "Picking up resource on the ground to plant"
+      text: "Picking up resource on the ground to plant."
     pathfindToBuilding:
-      text: "Picking up resource at {buildingName} to plant it"
+      text: "Picking up resource at {buildingName} to plant it."
       
   plantResourceInHand:
     pathfindToBuilding:
-      text: "Planting resource in a farm"
+      text: "Planting resource in a farm."
     pathfindToExtraResource:
-      text: "Picking up additional planting resource"
+      text: "Picking up additional planting resource."
       
   provisionerLeave:
     pathfindToLeaveCoordinates:
-      text: "Leaving the region"
+      text: "Leaving the region."
       
   provisionerPost:
     pathfindToMarketplace:
-      text: "Setting up shop at $YEL1{buildingName}"
+      text: "Setting up shop at $YEL1{buildingName}."
     sellWares:
-      text: "Selling wares at $YEL1{buildingName}"
+      text: "Selling wares at $YEL1{buildingName}."
       
   quitJob:
     pathfindToWorkBuilding:
@@ -7447,23 +7527,23 @@ aiTask:
       
   redistributeResources:
     pathfindToBuilding:
-      text: "Redistributing resource at {buildingNameSource} to {buildingNameDestination}"
+      text: "Redistributing resource at {buildingNameSource} to {buildingNameDestination}."
     pathfindToDelivery:
-      text: "Distributing resource to {buildingName}"
+      text: "Distributing resource to {buildingName}."
     pathfindToExtraResource:
-      text: "Picking up additional storage resource for {buildingName}"
+      text: "Picking up additional storage resource for {buildingName}."
       
   refineResource:
     pathfindToWork:
-      text: "Refining resource at {buildingName}"
+      text: "Refining resource at {buildingName}."
     refineResource:
-      text: "Refining materials"
+      text: "Refining materials."
       
   refineWaterBottle:
     pathfindToWork:
-      text: "Refining resource at {buildingName}"
+      text: "Refining resource at {buildingName}."
     refineResource:
-      text: "Refining materials"
+      text: "Refining materials."
       
   removeRoadWork:
     pathfindToRoad:
@@ -7473,65 +7553,65 @@ aiTask:
       
   repairRoadWork:
     pathfindToRoad:
-      text: "Walking to a road to repair it"
+      text: "Walking to a road to repair it."
     repairRoad:
-      text: "Repairing road"
+      text: "Repairing road."
       
   repairWork:
     pathfindToRoad:
-      text: "Walking to {buildingName} to repair"
+      text: "Walking to {buildingName} to repair."
     repairRoad:
-      text: "Repairing {buildingName}"
+      text: "Repairing {buildingName}."
       
   roadWork:
     pathfindToRoad:
-      text: "Walking to worksite build a road"
+      text: "Walking to worksite build a road."
     buildRoad:
-      text: "Building road"
+      text: "Building road."
       
   sellResource:
     pathfindToResourceOnGround:
-      text: "Picking up resource on the ground to sell to $YEL1a catjeet provisioner"
+      text: "Picking up resource on the ground to sell to $YEL1a catjeet provisioner."
     pathfindToBuilding:
-      text: "Picking up resource at {buildingName} to sell to a $YEL1a catjeet provisioner"
+      text: "Picking up resource at {buildingName} to sell to a $YEL1a catjeet provisioner."
       
   sellResourceInHand:
     pathfindToProvisioner:
-      text: "Delivering resource to $YEL1a catjeet provisioner"
+      text: "Delivering resource to $YEL1a catjeet provisioner."
     pathfindToExtraResource:
-      text: "Picking up additional planting resource"
+      text: "Picking up additional planting resource."
       
   sleepOutside:
     findSafeLocation:
-      text: "Finding a safe place to sleep outside"
+      text: "Finding a safe place to sleep outside."
     pathfindToSafeLocation:
-      text: "Walking to a safe place to sleep"
+      text: "Walking to a safe place to sleep."
     sleepOutside:
-      text: "Sleeping outside"
+      text: "Sleeping outside."
       
   spawnRepair:
     pathfindToSpawner:
-      text: "Walking to {buildingName} to repair"
+      text: "Walking to {buildingName} to repair."
     repair:
-      text: "Repairing {buildingName}"
+      text: "Repairing {buildingName}."
       
   start:
     idle:
-      text: "Idle"
+      text: "Idle."
       
   storeResource:
     pathfindToResource:
-      text: "Picking up resource on ground to store in a building"
+      text: "Picking up resource on ground to store in a building."
       
   storeResourceInHand:
     pathfindToBuilding:
-      text: "Storing resource in {buildingName}"
+      text: "Storing resource in {buildingName}."
     pathfindToExtraResource:
-      text: "Picking up additional storage resource for {buildingName}"
+      text: "Picking up additional storage resource for {buildingName}."
       
   stuck:
     pathfindOffBlockedTerrain:
-      text: "Walking off of blocked terrain"
+      text: "Walking off of blocked terrain."
       
   tendFarmsWork:
     pathfindToFarmland:
@@ -7541,31 +7621,31 @@ aiTask:
       
   trade:
     pathfindToTradePartner:
-      text: "Getting a $YEL1{resourceName}$BLU0 from {mobName}"
+      text: "Getting a $YEL1{resourceName}$BLU0 from {mobName}."
       
   visitMate:
     pathfindToMate:
-      text: "Visiting {mobName}"
+      text: "Visiting {mobName}."
       
   wander:
     pathfindToWanderCoordinatesMob:
-      text: "Wandering to {mobName}"
+      text: "Wandering to {mobName}."
     pathfindToWanderCoordinates:
-      text: "Wandering around"
+      text: "Wandering around."
       
   wildDoggoWanderIn:
     pathfindToVillage:
-      text: "Wandering into the village"
+      text: "Wandering into the village."
   
   corruptionBuildingPlacement:
     create:
-      text: "Creating a new building"
+      text: "Creating a new building."
       
   corruptionBuildWork:
     pathfindToBuilding:
-      text: "Walking to {buildingName} to build"
+      text: "Walking to {buildingName} to build."
     build:
-      text: "Building {buildingName}"
+      text: "Building {buildingName}."
       
   corruptionClearTopographyWork:
     pathfindToTopography:
@@ -7575,33 +7655,33 @@ aiTask:
       
   corruptionDeliverResourceInHand:
     pathfindToBuilding:
-      text: "Delivering resource to {buildingName}"
+      text: "Delivering resource to {buildingName}."
     pathfindToExtraResource:
-      text: "Picking up additional delivery resource for {buildingName}"
+      text: "Picking up additional delivery resource for {buildingName}."
       
   corruptionDeliverResourceOnGround:
     pathfindToResource:
-      text: "Picking up resource on the ground to deliver"
+      text: "Picking up resource on the ground to deliver."
       
   corruptionDeliverRoadResourceInHand:
     pathfindToRoad:
-      text: "Delivering resource to a road"
+      text: "Delivering resource to a road."
       
   corruptionDeliverRoadResourceOnGround:
     pathfindToResource:
-      text: "Picking up resource on the ground to deliver to road"
+      text: "Picking up resource on the ground to deliver to road."
       
   corruptionHarvestWork:
     pathfindToHarvestWork:
-      text: "Walking to worksite harvest some materials"
+      text: "Walking to worksite harvest some materials."
     harvestResource:
-      text: "Harvesting materials"
+      text: "Harvesting materials."
       
   corruptionRoadWork:
     pathfindToRoad:
-      text: "Walking to worksite build a road"
+      text: "Walking to worksite build a road."
     buildRoad:
-      text: "Building road"
+      text: "Building road."
       
   hostileBehaviorAttack:
     pathfindToTarget:
@@ -7609,7 +7689,7 @@ aiTask:
       
   hostileBehaviorLeave:
     pathfindToLeaveCoordinates:
-      text: "Escaping to the corruption"
+      text: "Escaping to the corruption."
     
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Mob Job Module

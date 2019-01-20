@@ -1,6 +1,6 @@
-# How to edit: simply change the text following the equals (=) sign and save the file!
+# How to edit: simply change the text inside the quotes!
 
-# Variables: The %%0, %%1, %%2, etc are variables for the phrase, to print dynamic data on screen. For example "You have %%0 villagers", %%0 would be the villager count itself. These must remain in the translated version as well, or the actual data will never be displayed.
+# Variables: The curly braces {mobName}, {resourceName}, etc are variables for the phrase, to print dynamic data on screen. For example "You have {amount} villagers", {amount} would be the villager count itself. These must remain in the translated version as well, or the actual data will never be displayed.
 
 # Colors: If you need to change around the coloring of text, it's fairly simple. All text by default is white, you need to add $COL1 where "COL" is the color code, and 0 through 2 is the brightness. Most text should have brightness set to 1. I recommend not changing the color codes used in each line (Although you can, it won't hurt anything), but for your language you may have to rearrange them a bit. Remember, changing the color will change all the color following that line until another color code is entered. So "My cat is $RED1red, and it's pretty!" will make "red, and it's pretty!" all in red. Where as "My cat is $RED1red$WHI0, and it's pretty!" will only set the word "red" to the color RED1.
 # Valid Color Codes:
@@ -17,9 +17,7 @@
 
 # Line Breaks: DO NOT EVER HIT ENTER/RETURN TO MAKE LINE BREAKS. To make a line break you must use the tilde (~) key. For example; "This is Line 1,~and this is Line 2" will print two lines, with "This is Line 1" on line one, and "and this is Line 2." on the second.
 
-# Text Size Adjustment: In some cases, your new text may not fit in the box it is designed to go inside. If thats the case, you can increase/decrease the font size for that specific line by adding a new setting called TEXT_NAME_SIZE_ADJUSTMENT. For example, if you wanted to increase the MM_P_REVIEW_SUB_HEADER font by 2, add MM_P_REVIEW_SUB_HEADER_SIZE_ADJUSTMENT below MM_P_REVIEW_SUB_HEADER and set the value to "2", or, if you wanted to decrease it by 1, input "-1". If you're finding yourself needing to change a large majority of text, keep in mind that you can increase the font as a whole inside the configuration.settings file instead. If you picked a custom font, and everything feels too big or small, you likely should be increasing the font site in configuration.settings, NOT HERE. The only time you should be changing sizes here is if your text ends up too long/short to fit where it was designed to. Note that some text can not be adjusted!
-
-# Any time a line is left blank or removed, the game will load the default English version.
+# Any time a line is left blank or removed, the game will load the default English version. Although I recommend not touching any lines you do not wish to translate.
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # God Module
@@ -2010,14 +2008,15 @@ mainMenuMainMenuPanel:
     generateVideoSheet:
       text: "Générer une feuille de la vidéo"
     rollover:
-      patreon:
-        text: "S'engager sur Patreon !"
       twitch:
         text: "Suivre sur Twitch !"
       twitter:
         text: "Suivre sur Twitter !"
       discord:
         text: "Rejoindre le Discord !" 
+    tooltip:
+      setLanguageHeader:
+        text: "Changer de langue"
       
   videoSheetName:
     text: "Nom des feuilles de vidéo"
@@ -4515,10 +4514,11 @@ playSpellBar:
   comment: "Play State - Spell Bar"
   javaClass: "rtr.gui.states.playstate.SpellBar.java"
   
-  header:
-    text: "Changer de sort"
-  tooltip:
-    text: "Ouvre la liste des sorts et change le sort occupant l'emplacement n°{slotNumber}."
+  changeSpell:
+    header:
+      text: "Changer de sort"
+    tooltip:
+      text: "Ouvre la liste des sorts et change le sort occupant l'emplacement n°{slotNumber}."
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Play State
@@ -5620,11 +5620,13 @@ worldMapDoomWorldPanel:
     doomWorld:
       text: "ABANDONNER LE MONDE"
     confirmInputBox:
+      comment: "Text above the input box the player would type RESET in."
       text: "CONFIRMEZ ICI"
   
   warning:
-    text: "$RED1ATTENTION : CELA VA RÉINITIALISER TOUTES LES RÉGIONS DE CETTE DIFFICULTÉ POUR TOUJOURS ! MAIS VOUS GARDEREZ VOS AVANTAGES ET VOTRE EXPERIENCE DIVINE."
+    text: "$RED1ATTENTION : RÉINITIALISERA TOUTES LES RÉGIONS POUR CETTE DIFFICULTÉ ! VOUS GARDEREZ LES AVANTAGES ET L'EXPERIENCE DIVINE."
   instructions:
+    comment: "This should remain in all-caps if it can, because the {reset} variable is also in all-caps."
     text: "$ORA1ÉCRIS {reset} DANS LE CHAMP CI-DESSOUS POUR CONFIRMER CETTE ACTION !"
   
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
@@ -6220,7 +6222,7 @@ helpTip:
     noHomesHeader:
       text: "Logements"
     noHomes:   
-      text: "Vous êtes au jour {day} et vous n'avez pas encore construit de logement, vos villageois ont besoin d'un endroit où vivre ou ils deviendront malheureux. Vous avez aussi besoin de logements pour que vos villageois se mettent en couple et qu'ils aient des enfants un jour, avec un peu de chance."
+      text: "Vous êtes au jour {day} et vous n'avez pas encore construit de $YEL1logement$WHI0, vos villageois ont besoin d'un endroit où vivre ou ils deviendront malheureux. Vous avez aussi besoin de logements pour que vos villageois se mettent en couple et qu'ils aient des enfants un jour, avec un peu de chance."
     noFarmsHeader:
       text: "Agriculture"
     noFarms:   
@@ -6252,9 +6254,9 @@ helpTip:
     villagerStarvingHeader:
       text: "Famine"
     villagerStarvingMale:   
-      text: "{mobName}$WHI0 est affamé ! Trouvez vite à manger à ce pauvre villageois, sinon il risque de mourir ! Avez-vous construit une ferme ou des maisons ? Les villageois sont désespérés lorsqu'ils sont affamés et essaieront de trouver de la nourriture par eux-mêmes, même si cela les met en danger."
+      text: "{mobName}$WHI0 est affamé ! Trouvez vite à manger à ce pauvre villageois, sinon il risque de mourir ! Avez-vous construit une $YEL1ferme $WHI0ou des $YEL1logements $WHI0? Les villageois sont désespérés lorsqu'ils sont affamés et essaieront de trouver de la nourriture par eux-mêmes, même si cela les met en danger."
     villagerStarvingFemale:   
-      text: "{mobName}$WHI0 est affamée ! Trouvez vite à manger à cette pauvre villageoise, sinon elle risque de mourir ! Avez-vous construit une ferme ou des maisons ? Les villageois sont désespérés lorsqu'ils sont affamés et essaieront de trouver de la nourriture par eux-mêmes, même si cela les met en danger."
+      text: "{mobName}$WHI0 est affamée ! Trouvez vite à manger à cette pauvre villageoise, sinon elle risque de mourir ! Avez-vous construit une $YEL1ferme $WHI0ou des $YEL1logements $WHI0? Les villageois sont désespérés lorsqu'ils sont affamés et essaieront de trouver de la nourriture par eux-mêmes, même si cela les met en danger."
     villagerDehydrationHeader:
       text: "Déshydratation"
     villagerDehydrationMale:   
@@ -6380,12 +6382,12 @@ influence:
       
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Influence Module
-# Spells
+# Spell Names and Descriptions
 # rtr.influence.*
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
 spells:
-  comment: "Influence Module - Spells"
+  comment: "Influence Module - Spell Names and Descriptions"
   javaClass: "rtr.influence.*"
   
   banish:
