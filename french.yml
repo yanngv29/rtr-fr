@@ -1824,7 +1824,28 @@ goal:
         text: "Ressuscite $GRE1{amount} $WHI0fantômes $GRE1n'importe où$WHI0."
       specific:
         text: "Ressuscite $GRE1{amount} $WHI0fantômes dans $GRE1{mapName} $WHI0!"
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# Main Menu State
+# Map List Buttons
+# rtr.gui.buttons.GUIButtonMapList.java
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+mainMenuMapListButton:
+  comment: "Main Menu State - Map List Buttons"
+  javaClass: "rtr.gui.buttons.GUIButtonMapList.java"
+  
+  button:
+    lastPage:
+      text: "Dernière page"
+    nextPage:
+      text: "Page suivante"
       
+  totalMaps:
+    text: "Total : {totalMaps}"
+  pageList:
+    text: "Page : {currentPage} de {totalPages}"
+
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Main Menu State
 # Credits
