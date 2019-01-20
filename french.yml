@@ -1610,9 +1610,9 @@ goal:
       text: "Création de {resourceName}"
     body:
       any:
-        text: "Créé $GRE1{amount} {resourceName} $WHI0dans $GRE1n'importe quelle région $WHI0!"
+        text: "Crée$GRE1{amount} {resourceName} $WHI0dans $GRE1n'importe quelle région $WHI0!"
       specific:
-        text: "Créé $GRE1{amount} {resourceName} $WHI0dans $GRE1{mapName} $WHI0!"
+        text: "Crée$GRE1{amount} {resourceName} $WHI0dans $GRE1{mapName} $WHI0!"
         
   survive:
     header:
@@ -2574,7 +2574,7 @@ mapEditorPlayRightPanel:
       crystillery:
         text: "Cristallerie"
       forge:
-        text: "Forge"
+        text: "Fonderie"
       lumberMill:
         text: "Scierie"
       stoneCuttery:
@@ -7559,7 +7559,7 @@ aiTask:
   
   corruptionBuildingPlacement:
     create:
-      text: "Créé un nouveau bâtiment."
+      text: "Créeun nouveau bâtiment."
       
   corruptionBuildWork:
     pathfindToBuilding:
@@ -7623,195 +7623,195 @@ mobJob:
   
   unassigned:
     single:
-      text: "Unassigned"
+      text: "Non attributé"
     plural:
-      text: "Unassigned"
+      text: "Non attribuée"
     description:
-      text: "A lazy slacker who does absolutely nothing of value."
+      text: "Un fainéant paresseux qui ne fait absolument rien d'utile."
 
   builder:
     single:
-      text: "Builder"
+      text: "Constructeur"
     plural:
-      text: "Builders"
+      text: "Constructeurs"
     description:
-      text: "A staple job in your village, builders will make sure everything is built and repaired. They will also harvest materials, but only when they need them to build something and none is available."
+      text: "Un travail incontournable dans votre village, les constructeurs s'assureront que tout est construit et réparé. Ils récolteront aussi des matériaux, mais seulement quand ils en ont besoin pour construire quelque chose et qu'il n'y en a pas."
 
   carpenter:
     single:
-      text: "Carpenter"
+      text: "Scieur"
     plural:
-      text: "Carpenters"
+      text: "Scieurs"
     description:
-      text: "Turns wood into boards for more advanced structures."
+      text: "Transforme le bois en planches pour construire des structures avancées."
 
   crystiller:
     single:
-      text: "Crystiller"
+      text: "Tailleur sur cristaux"
     plural:
-      text: "Crystillers"
+      text: "Tailleurs sur cristaux"
     description:
-      text: "Turns crystals into crylithium, a power source for essence collectors and other buildings."
+      text: "Transforme le cristal en crylithium, une source d'énergie pour les collecteurs d'essence et autres."
 
   crystalHarvester:
     single:
-      text: "Crystal Harvester"
+      text: "Cristallier"
     plural:
-      text: "Crystal Harvesters"
+      text: "Cristallier"
     description:
-      text: "Harvests raw crystals on the map and stores them in the village. They will continue to harvest non-stop regardless of the village's needs."
+      text: "Récolte du cristal brut sur la carte et le stocke dans le village. Continuera à récolter du cristal non-stop quels que soient les besoins du village."
 
   farmer:
     single:
-      text: "Farmer"
+      text: "Agriculteur"
     plural:
-      text: "Farmers"
+      text: "Agriculteurs"
     description:
-      text: "Harvests raw food, plants it in farms, and keeps farms well tended to and watered to encourage growth. Typically, the more farmers you have the faster your farms will produce food."
+      text: "Récolte de la nourriture crue, en plante dans les fermes et entretient les cultures et les arrose pour favoriser leur croissance. En général, plus vous avez d'agriculteurs, plus vos fermes produiront de la nourriture rapidement."
 
   fletcher:
     single:
-      text: "Fletcher"
+      text: "Facteur d'arc"
     plural:
-      text: "Fletchers"
+      text: "Facteurs d'arc"
     description:
-      text: "Turns wood into arrow bundles to be used in bow towers."
+      text: "Transofmr le bois en faisceaux de flèches ou en arcs pour ls utiliser dans les tours."
 
   lumberjack:
     single:
-      text: "Lumberjack"
+      text: "Bûcheron"
     plural:
-      text: "Lumberjacks"
+      text: "Bûcherons"
     description:
-      text: "Harvests wood on the map and stores them in the village. They will continue to harvest non-stop regardless of the village's needs."
+      text: "Récolte du bois sur la carte et le stocke dans le village. Continuera à récolter du bois non-stop quels que soient les besoins du village."
 
   miner:
     single:
-      text: "Miner"
+      text: "Mineur"
     plural:
-      text: "Miners"
+      text: "Mineurs"
     description:
-      text: "Harvests rock on the map and stores them in the village. They will continue to harvest non-stop regardless of the village's needs."
+      text: "Récolte de la pierre sur le carte et la stocke dans le village. Continuera à récolte de la pierre non-stop quels que soient les besoins du village."
 
   organizer:
     single:
-      text: "Organizer"
+      text: "Oraniseur"
     plural:
-      text: "Organizers"
+      text: "Organiseurs"
     description:
-      text: "Organizes resources throughout the entire village, distributing resources whereever they're needed, or cleaning up resources scattered around the village."
+      text: "Organise les ressources dans tout le village, en les distribuant là où elles sont nécessaires ou en ramassant les ressources dispersées dans le village."
 
   stoneCutter:
     single:
-      text: "Stone Cutter"
+      text: "Tailleur de pierre"
     plural:
-      text: "Stone Cutters"
+      text: "Tailleurs de pierre"
     description:
-      text: "Turns rock into cut stone for more advanced structures."
+      text: "Transforme la pierre en pierre taillée pour construire des structures plus avancées."
 
   tumbler:
     single:
-      text: "Tumbler"
+      text: "Facteur de balles"
     plural:
-      text: "Tumblers"
+      text: "Facteurs de balles"
     description:
-      text: "Turns rock into stone balls to be used in sling and bullet towers."
+      text: "Transforme la pierre en balles de pierre utilisées dans les tourelles et tours à fronde."
 
   wayMaker:
     single:
-      text: "Way Maker"
+      text: "Responsable de voirie"
     plural:
-      text: "Way Makers"
+      text: "Responsables de voirie"
     description:
-      text: "Creates and maintains roads throughout the village, as well as creates man made lakes to collect rain water for water purifiers."
+      text: "Crée et entretient des routes dans tout le village, ainsi que des lacs artificiels pour collecter l'eau de pluie pour les purificateurs d'eau."
 
   medic:
     single:
-      text: "Medic"
+      text: "Médecin"
     plural:
-      text: "Medics"
+      text: "Médecins"
     description:
-      text: "Heals nearby hurt villagers, and creates bandages and medkits in the Clinic out of silk."
+      text: "Guérit les villageois blessés et créedes bandages et des trousses de secours à partir de soie, dans les cliniques."
 
   cook:
     single:
-      text: "Cook"
+      text: "Cuisinier"
     plural:
-      text: "Cooks"
+      text: "Cuisiniers"
     description:
-      text: "Cooks and repackages raw food into longer lasting and more efficient rations that the villagers can carry around with them."
+      text: "Cuisine et reconditionne les aliments crus en rations plus durables et plus efficaces que les villageois peuvent emporter avec eux."
 
   smelter:
     single:
-      text: "Smelter"
+      text: "Fondeur"
     plural:
-      text: "Smelters"
+      text: "Fondeurs"
     description:
-      text: "Turns iron ore into iron ingots for use in more advanced construction or equipment manufacturing."
+      text: "Transforme le minerai de fer en lingots de fer destinés à la construction ou à la fabrication d'équipements plus avancés."
 
   armorsmith:
     single:
-      text: "Armorsmith"
+      text: "Armurier"
     plural:
-      text: "Armorsmiths"
+      text: "Armuriers"
     description:
-      text: "Creates armor in the armorsmithy for your villagers to help defend themselves. Requires a supply of Iron Ingots usually from a nearby forge."
+      text: "Crée des armures dans l'armurerie pour que vos villageois puissent se défendre. Nécessite un approvisionnement en lingots de fer provenant d'une fonderie."
 
   toolsmith:
     single:
-      text: "Toolsmith"
+      text: "Outilleur"
     plural:
-      text: "Toolsmiths"
+      text: "Outilleurs"
     description:
-      text: "Creates tools and weapons in the toolsmithy for your villagers to help defend themselves or get work done. Requires a supply of Iron Ingots usually from a nearby forge."
+      text: "Crée des outils et des armes dans l'atelier d'outillage pour aider vos villageois à se défendre et à faire leur travail. Nécessite un approvisionnement en lingots de fer provenant d'une fonderie."
 
   waterMaster:
     single:
-      text: "Water Master"
+      text: "Responsable de l'eau"
     plural:
-      text: "Water Masters"
+      text: "Responsable de l'eau"
     description:
-      text: "Gathers water from wells, rain collectors and other water sources and redistributes them throughout the village."
+      text: "Récupère l'eau des puits, des collecteurs d'eau de pluie et d'autres sources d'eau et la redistribue dans tout le village."
 
   bottler:
     single:
-      text: "Bottler"
+      text: "Embouteilleur"
     plural:
-      text: "Bottlers"
+      text: "Embouteilleurs"
     description:
-      text: "Takes water and bottles it so your villagers can carry some around with them as they work."
+      text: "Prend de l'eau et la met en bouteille pour que vos villageois puissent en emporter avec eux quand ils travaillent."
 
   guard:
     single:
-      text: "Guard"
+      text: "Garde"
     plural:
-      text: "Guards"
+      text: "Gardes"
     description:
-      text: "Protects the village, and gets bonus to defense and attack power."
+      text: "Protège le village, possède un bonus de défense et d'attaque."
 
   provisioner:
     single:
-      text: "Provisioner"
+      text: "Provisionneur"
     plural:
-      text: "Provisioners"
+      text: "Provisionneurs"
     description:
-      text: "Provisioners manage the marketplace's buy and sell orders."
+      text: "Les provisionneurs gèrent les achats et les ventes dans le marché."
 
   maintainer:
     single:
-      text: "Maintainer"
+      text: "Entreteneur"
     plural:
-      text: "Maintainers"
+      text: "Entreteneurs"
     description:
-      text: "Workers dedicated to the upkeep of the village, they can help dismantle and repair buildings, as well as maintain roads and clear terrain."
+      text: "Travailleurs dédiés à l'entretien du village, ils peuvent aider à démanteler et réparer les bâtiments, ainsi que maintenir les routes et déblayer le terrain."
 
   courierSupplier:
     single:
-      text: "Courier Supplier"
+      text: "Approvisionneur de facteurs"
     plural:
-      text: "Courier Suppliers"
+      text: "Approvisionneurs de facteurs"
     description:
-      text: "Delivers resources to courier golems to be taken to other regions."
+      text: "Livre des ressources aux golems-facteurs pour qu'ils les envoient dans d'autres régions."
   
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Object Module
