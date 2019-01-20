@@ -2218,6 +2218,26 @@ mainMenuNewProfilePanel:
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Main Menu State
+# Restart Game Panel
+# rtr.gui.states.mainmenu.RestartGamePanel.java
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+mainMenuRestartGamePanel:
+  comment: "Main Menu State - Restart Game Panel"
+  javaClass: "rtr.gui.states.mainmenu.RestartGamePanel.java"
+  
+  header:
+    text: "$ORA1Vous devez redémarrer !"
+    
+  button:
+    exit:
+      text: "Quitter"
+      
+  body:
+    text: "$CYA0Vous devez redémarrer le jeu pour que ces changements prennent effet. Merci d'appyer sur le bouton 'Quitter' et de relancer le jeu."
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# Main Menu State
 # Select Profile Panel
 # rtr.gui.states.mainmenu.SelectProfilePanel.java
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
