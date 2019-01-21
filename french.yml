@@ -170,6 +170,7 @@ module:
       text: "Démarrage..."
     module:
       text: "Module {moduleName}"
+      forceCount: true
     syncing:
       text: "Synchronisation du module {moduleName}"
     mapFBO:
@@ -197,8 +198,10 @@ module:
     text: "Son"
   stats:
     text: "Stats"
+    forceCount: true
   transition:
     text: "Transition"
+    forceCount: true
   chest:
     text: "Coffre"
   font:
@@ -207,10 +210,12 @@ module:
     text: "Aide"
   influence:
     text: "Influence"
+    forceCount: true
   lighting:
     text: "Éclairage"
   collision:
     text: "Collision"
+    forceCount: true
   depth:
     text: "Profondeur"
   map:
@@ -220,17 +225,20 @@ module:
   waypoint:
     text: "Balise"
   workSelection:
-    text: "Sélection du travail"
+    text: "Sélection de travail"
   mapAI:
     text: "IA de la carte"
   missile:
     text: "Missile"
+    forceCount: true
   migration:
     text: "Migration"
+    forceCount: true
   mob:
     text: "Créature"
   essence:
     text: "Essence"
+    forceCount: true
   mobJob:
     text: "Travail de créature"
   object:
@@ -247,12 +255,14 @@ module:
     text: "Sauvegarde"
   corruption:
     text: "Corruption"
+    forceCount: true
   spawn:
     text: "Apparition"
   weather:
     text: "Temps"
   projectile:
     text: "Projectile"
+    forceCount: true
   profile:
     text: "Profil"
 
@@ -2024,19 +2034,20 @@ mainMenuMainMenuPanel:
     text: "~{amount} lignes de code"
   buildVersion:
     text: "$CYA1Build {version}"
+    forceCount: true
     
   reviewPopup:
     header:
-      text: "$CYA1Avez-vous envisagé d'écrire une critique ?"
+      text: "$CYA1Envie d'écrire une revue"
     subHeader:
       text: "$GRE1Aimez-vous Rise to Ruins ?"
     body:
       text: "Prenez le temps d'écrire une critique. Les critiques comptent beaucoup pour aider les petits développeurs indépendants comme moi !"
     button:
       hide:
-        text: "Cacher"
+        text: "Fermer"
       goReview:
-        text: "Rédiger une critique !"
+        text: "Écrire une revue !"
 
   twitchPopup:
     header:
@@ -2774,10 +2785,12 @@ mapEditorPlayRightPanel:
     food:
       cactus:
         text: "Cactus"
+        forceCount: true
       carrots:
         text: "Carottes"
       melons:
         text: "Melons"
+        forceCount: true
       potatoes:
         text: "Pommes de terre"
       turnips:
@@ -3340,6 +3353,7 @@ playLeftPanel:
         text: "Requiert un marché"
       migrationHeader:
         text: "Migration"
+        forceCount: true
       migration:
         text: "Requiert une station de migration"
       courierHeader:
@@ -3495,6 +3509,7 @@ playLeftPanel:
     sort:
       total:
         text: "Total"
+        forceCount: true
       equip:
         text: "Equipé"
       carry:
@@ -3609,6 +3624,7 @@ playLeftPanel:
     sort:
       total:
         text: "Total"
+        forceCount: true
       equip:
         text: "Equipé"
       carry:
@@ -3831,6 +3847,7 @@ playPopulationListPanel:
       text: "$GRE1Enfants"
     golems:
       text: "$GRE1Golems"
+      forceCount: true
     animals:
       text: "$GRE1Animaux"
   
@@ -4031,12 +4048,14 @@ playResourceAndInfluenceBar:
       text: "Montant total d'énergie dans tous les bâtiments qui peuvent en contenir comme les collecteurs d'essence, les combobulateurs de golems et les tours utilisant de la magie."
     totalInfluenceHeader:
       text: "Influence"
+      forceCount: true
     totalInfluence:
       text: "L'influence totale que vous possèdez et qui peut être utilisée pour lancer des sorts. L'influence se remplit lentement au fil du temps, ou en survolant de l'essence libre avec votre main. Vous pouvez améliorer votre influence maximale en augmentant la population de votre village."
   
   sort:
     total:
      text: "Total"
+     forceCount: true
     equip:
       text: "Equipé"
     carry:
@@ -4572,12 +4591,15 @@ playStatisticsPanel:
     villagers:
       total:
         text: "Total"
+        forceCount: true
       gender:
         text: "Genre"
       immigration:
         text: "Immigration"
+        forceCount: true
       reproduction:
         text: "Reproduction"
+        forceCount: true
       deaths:
         text: "Morts"
       needs:
@@ -4610,6 +4632,7 @@ playStatisticsPanel:
     animals:
       total:
         text: "Total"
+        forceCount: true
       gender:
         text: "Genre"
       domesticated:
@@ -4630,6 +4653,7 @@ playStatisticsPanel:
     buildings:
       totalBuildings:
         text: "Total"
+        forceCount: true
       builtBuildings:
         text: "Construits"
       upgradedBuildings:
@@ -4646,6 +4670,7 @@ playStatisticsPanel:
         text: "Combobulateurs"
       golems:
         text: "Golems"
+        forceCount: true
       guards:
         text: "Gardes"
       walls:
@@ -4653,7 +4678,7 @@ playStatisticsPanel:
           
     monsters:
       totalCorruption:
-        text: "Total corruption"
+        text: "Corruption totale"
       spreadAmount:
         text: "Propagation"
       buildings:
@@ -4668,6 +4693,7 @@ playStatisticsPanel:
     resources:
       totalResources:
         text: "Total"
+        forceCount: true
       productionRate:
         text: "Rythme de production"
       foodAndWater:
@@ -4679,9 +4705,9 @@ playStatisticsPanel:
       essenceDecayed:
         text: "Décomposition d'essence"
       energy:
-        text: "Energie"
+        text: "Énergie"
       influenceSpent:
-        text: "Dépenses d'influence"
+        text: "Influence dépensée"
       influenceGenerated:
         text: "Influence générée"
     
@@ -4853,8 +4879,10 @@ playStatisticsPanel:
       text: "Villageois"
     immigration:
       text: "Immigration"
+      forceCount: true
     reproduction:
       text: "Reproduction"
+      forceCount: true
     needs:
       text: "Besoins"
     animals:
@@ -4873,6 +4901,7 @@ playStatisticsPanel:
       text: "Autre"
     configuration:
       text: "Configuration"
+      forceCount: true
 
   filter:
     text: "Filtre : seulement $GRE0{mobOrResourceName}"
@@ -5161,7 +5190,7 @@ sharedDebugData:
   javaClass: "rtr.gui.states.shared.DebugData.java"
   
   fps:
-    text: "$GRE1FPS: {fps}"
+    text: "$GRE1FPS : {fps}"
   totalRuntime:
     text: "$GRE1Durée d'exécution : {hours}:{minutes}:{seconds}"
   mapPosition:
@@ -5193,9 +5222,9 @@ sharedDebugData:
   
   terrain:
     baseTerrain:
-      text: "$GRE0 Terrain de base :"
+      text: "$GRE0Terrain de base :"
     baseTerrainAccent:
-      text: "$GRE0 Terrain de base (A) :"
+      text: "$GRE0Terrain de base (A) :"
     terrain:
       text: "$GRE0Terrain :"
     terrainAccent:
@@ -5715,6 +5744,7 @@ worldMapGameModeConfigPanel:
       
     header:
       text: "$YEL0Corruption"
+      forceCount: true
     baseSpawnRate:
       text: "Taux d'apparition de base"
     boostedChanceMultiplier:
@@ -5963,6 +5993,7 @@ worldMapGameModeSelectPanel:
       text: "Paisible"
     custom:
       text: "Custom"
+      forceCount: true
     sandbox:
       text: "Bac à sable"
   
@@ -5977,6 +6008,7 @@ worldMapGameModeSelectPanel:
       text: "$GRE1Paisible"
     custom:
       text: "$CYA1Custom"
+      forceCount: true
     sandbox:
       text: "$BLU1Bac à sable"
     selectGameMode:
@@ -6106,7 +6138,7 @@ worldMapMapSelectPanel:
   moreResourceTypes:
     text: "Plus $GRE1{amount}$WHI0 autres types."
   total:
-    text: "$YEL1TOTAL: {amount}"
+    text: "$YEL1TOTAL : {amount}"
   none:
     text: "$YEL1AUCUN !"
     
@@ -6321,6 +6353,7 @@ helpTip:
       text: "Des $YEL1nomades$WHI0 viennent d'arriver dans votre région, ils sont amicaux. S'ils peuvent se rendre dans votre village sans être tués, ils vous rejoindront. Si vous voulez augmenter vos chances d'obtenir plus de $YEL1nomades$WHI0, construisez un grand village avec beaucoup de logements et de défenses."
     essenceHeader:
       text: "Essence"
+      forceCount: true
     essence:   
       text: "Avez-vous remarqué ces points verts scintillants sur la carte lorsque quelque chose meurt ou que vous détruisez une partie du terrain ? C'est l'$GRE1essence$WHI0 qui a été libérée dans votre monde. Vous pouvez collecter de l'essence en agitant votre main près d'elle et cela rechargera votre barre d'influence plus rapidement afin de pouvoir jeter des sorts. L'essence est aussi la source d'énergie de certiain bâtiments tels que les $YEL1Tours-éclair de feu$WHI0. Vous pouvez collecter de l'essence en construisant des $YEL1collecteurs d'essence$WHI0."
     abandonedBuildingsHeader:
@@ -6586,10 +6619,12 @@ tileSet:
       text: "Navets"
     cactus:
       text: "Cactus"
+      forceCount: true
     carrots:
-      text: "Carrotes"
+      text: "Carottes"
     melons:
       text: "Melons"
+      forceCount: true
     bricks:
       text: "Briques"
     dirt:
@@ -6618,6 +6653,7 @@ tileSet:
       text: "Boue glacée"
     corruption:
       text: "Corruption"
+      forceCount: true
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Missile Module
@@ -6804,8 +6840,10 @@ mobName:
   slime:
     single:
       text: "Slime"
+      forceCount: true
     plural:
       text: "Slimes"
+      forceCount: true
   smallBloodSlime:
     single:
       text: "Petit slime de sang"
@@ -6824,13 +6862,17 @@ mobName:
   drone:
     single:
       text: "Drone"
+      forceCount: true
     plural:
       text: "Drones"
+      forceCount: true
   zombie:
     single:
       text: "Zombie"
+      forceCount: true
     plural:
       text: "Zombies"
+      forceCount: true
   childZombie:
     single:
       text: "Enfant zombie"
@@ -7639,7 +7681,7 @@ aiTask:
   
   corruptionBuildingPlacement:
     create:
-      text: "Créeun nouveau bâtiment."
+      text: "Crée un nouveau bâtiment."
       
   corruptionBuildWork:
     pathfindToBuilding:
@@ -7727,9 +7769,9 @@ mobJob:
 
   crystiller:
     single:
-      text: "Tailleur sur cristaux"
+      text: "Tailleur de cristaux"
     plural:
-      text: "Tailleurs sur cristaux"
+      text: "Tailleurs de cristaux"
     description:
       text: "Transforme le cristal en crylithium, une source d'énergie pour les collecteurs d'essence et autres."
 
@@ -8418,7 +8460,7 @@ object:
           text: "Attire et stocke l'essence sur la carte pour être utilisée plus tard par d'autres bâtiments, les tailleurs de cristaux peuvent aussi y lancer du crylithium pour le charger. Vous pouvez agiter votre main au dessus pour récupérer de l'énergie."
       base:
         name:
-          text: "Essence Collector"
+          text: "Collecteur d'essence"
         description:
           text: "Augmente la capacité de stockage du collecteur d'essence et augmente le taux de production d'énergie quand il est alimenté en crylithium."
       established:
@@ -9463,8 +9505,10 @@ resource:
   crylithium:
     single:
       text: "Crylithium"
+      forceCount: true
     plural:
       text: "Crylithium"
+      forceCount: true
 
   rawFood:
     single:
@@ -9475,8 +9519,10 @@ resource:
   ration:
     single:
       text: "Ration"
+      forceCount: true
     plural:
       text: "Rations"
+      forceCount: true
 
   ballistaeBolts:
     single:
@@ -9589,8 +9635,10 @@ resource:
   bandage:
     single:
       text: "Bandage"
+      forceCount: true
     plural:
       text: "Bandages"
+      forceCount: true
 
   medkit:
     single:
@@ -9648,6 +9696,7 @@ gameMode:
     text: "Paisible"
   custom:
     text: "Custom"
+    forceCount: true
   sandbox:
     text: "Bac à sable"
   mainMenu:

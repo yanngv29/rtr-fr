@@ -5193,9 +5193,9 @@ sharedDebugData:
   
   terrain:
     baseTerrain:
-      text: "$GRE0 Base Terrain:"
+      text: "$GRE0Base Terrain:"
     baseTerrainAccent:
-      text: "$GRE0 Base Terrain (A):"
+      text: "$GRE0Base Terrain (A):"
     terrain:
       text: "$GRE0Terrain:"
     terrainAccent:
