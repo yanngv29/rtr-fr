@@ -5662,7 +5662,7 @@ worldMapGameModeConfigPanel:
   button:
     input:
       configName:
-        text: "Nom configuration"
+        text: "Nom config."
     tooltip:
       saveConfig:
         text: "Sauvegarder la configuartion"
@@ -5672,7 +5672,7 @@ worldMapGameModeConfigPanel:
       text: "Retour"
       
   header:
-    text: "$CYA1Configuration du mode de jeu"
+    text: "$CYA1Configuration du mode"
     
   corruption:
     tooltip:
@@ -5681,19 +5681,19 @@ worldMapGameModeConfigPanel:
       baseSpawnRate:
         text: "Le taux d'apparition global de base. Une valeur basse signifie plus de monstes ! $YEL1(1 en 1 - 20.000, ou aucun.)"
       boostedChanceMultiplierHeader:
-        text: "Multiplicateur de monstres renforcés"
+        text: "Monstres renforcés"
       boostedChanceMultiplier:
-        text: "Multiplie la probabilité 1 en X qu'un monstre soit boosté lorsqu'il apparait par le résultat final calculé. 0,5 serait le double, 2,0 serait la moitié. $YEL1(0.25 - 10.0)"
+        text: "Multiplicateur de la probabilité qu'un monstre soit boosté lorsqu'il apparait par le résultat final calculé. 0,5 serait le double, 2,0 serait la moitié. $YEL1(0.25 - 10.0)"
       corruptionStartDayHeader:
-        text: "Jour de départ pour la corruption"
+        text: "1er jour de corruption"
       corruptionStartDay:
         text: "Le premier jour où la première tache de corruption apparaîtra dans le monde. $YEL1(1 - 200, ou jamais.)"
       spreadRateHeader:
-        text: "Taux de propagation"
+        text: "Vitesse de propagation"
       spreadRate:
         text: "La vitesse à laquelle la corruption se répand. Une valeur basse signifie une propagation plus rapide ! $YEL1(1 en 5k jusqu'à 1 en 500k par tick d'horloge)"
       buildingRateHeader:
-        text: "Taux de construction"
+        text: "Vitesse de construction"
       buildingRate:
         text: "La fréquence à laquelle les drones corrompus construiront de nouveaux bâtiments. Une valeu basse signifie une construction plus rapide ! $YEL1(1 en 5k jusqu'à 1 en 500k par tick d'horloge)"
       buildingDensityHeader:
@@ -5701,15 +5701,15 @@ worldMapGameModeConfigPanel:
       buildingDensity:
         text: "La quantité de bâtiments que les drones peuvent construire dans une zone, la zone est déterminée par 'Portée de la densité de construction' ci-dessous. $YEL1(1 - 50)"
       buildingDensityRangeHeader:
-        text: "Portée de la densité de construction"
+        text: "Portée de la densité"
       buildingDensityRange:
         text: "La portée utilisée lorsqu'il faut déterminer la densité de construction, défini par 'Densité de construction' ci-dessus. $YEL1(8 - 128)"
       permanentCorruptionAmountMaxHeader:
-        text: "Mpntant max de corruption perma"
+        text: "Corruption perma. max"
       permanentCorruptionAmountMax:
         text: "La quantité maximale de tuiles qui peuvent être corrompues de façon permanente. Cela devrait être égal ou plus élevé que le paramètre 'Quantité de corruption permanente de départ' ci-dessus. $YEL1(64 - 64512)"
       permanentCorruptionMaxPerDayHeader:
-        text: "Montant max de corruption perma/jour"
+        text: "Corruption perma./jour max"
       permanentCorruptionMaxPerDay:
         text: "Combien de tuiles corrompues deviendront corrompues de façon permanente chaque jour. $YEL1(8 - 2048)"
       
@@ -5718,9 +5718,9 @@ worldMapGameModeConfigPanel:
     baseSpawnRate:
       text: "Taux d'apparition de base"
     boostedChanceMultiplier:
-      text: "Multiplicateur de monstres renforcés"
+      text: "Monstres renforcés"
     corruptionStartDay:
-      text: "Jour de départ pour la corruption"
+      text: "1er jour de corruption"
     spreadRate:
       text: "Vitesse de propagation"
     buildingRate:
@@ -5728,11 +5728,11 @@ worldMapGameModeConfigPanel:
     buildingDensity:
       text: "Densité de construction"
     buildingDensityRange:
-      text: "Portée de la densité de construction"
+      text: "Portée de la densité"
     permanentCorruptionAmountMax:
-      text: "Montant max de corruption perma"
+      text: "Corruption perma. max"
     permanentCorruptionMaxPerDay:
-      text: "Montant ma de corruption perma/jour"
+      text: "Corruption perma./jour max"
     
   lootBoxes:
     tooltip:
@@ -5765,7 +5765,7 @@ worldMapGameModeConfigPanel:
       baseSpawnRate:
         text: "La chance d'apparition de base de nomades durant la journée. Plus la valeur est basse, plus la chance est élevée. $YEL1(1 en 5k - 320k ou jamais)"
       spawnAmountMultiplierHeader:
-        text: "Multiplicateur qté d'apparition"
+        text: "Multiplicateur d'apparition"
       spawnAmountMultiplier:
         text: "Multiplie le montant final de nomades qui vont apparaitre. 0.5 serait la moitié, 2.0 serait le double. $YEL1(0.25 - 10.0)"
       spawnAmountMinimumHeader:
@@ -5782,7 +5782,7 @@ worldMapGameModeConfigPanel:
     baseSpawnRate:
       text: "Taux d'apparition de base"
     spawnAmountMultiplier:
-      text: "Multiplicateur qté d'apparition"
+      text: "Multiplicateur d'apparition"
     spawnAmountMinimum:
       text: "Quantité maximale"
     spawnAmountMax:
@@ -5791,7 +5791,7 @@ worldMapGameModeConfigPanel:
   other:
     tooltip:
       temperatureVarianceHeader:
-        text: "Variance de la température"
+        text: "Variance de température"
       temperatureVariance:
         text: "De combien la température moyenne d'une saison peut varier. $YEL1(0 - 20)"
       startingSeasonHeader:
@@ -5806,7 +5806,7 @@ worldMapGameModeConfigPanel:
     header:
       text: "$YEL0Autre"
     temperatureVariance:
-      text: "Variance de la température"
+      text: "Variance de température"
     startingSeason:
       text: "Saison de départ"
     dayLengthMultiplier:
@@ -5815,7 +5815,7 @@ worldMapGameModeConfigPanel:
   weather:
     tooltip:
       rainOrSnowChanceHeader:
-        text: "Chance de pluie ou neige"
+        text: "Chance de pluie/neige"
       rainOrSnowChance:
         text: "La chance qu'il pleuve lors de la saison {season}. Plus la valeur est basse, plus il y a de chances. $YEL1(1 en 1 - 300k, ou aucun.)"
       averageTemperatureHeader:
@@ -5838,7 +5838,7 @@ worldMapGameModeConfigPanel:
         text: "$YEL0Hiver"
         
     rainOrSnowChance:
-      text: "Chance de pluie ou neige"
+      text: "Chance de pluie/neige"
     averageTemperature:
       text: "Température moyenne"
     seasonLength:
@@ -5847,7 +5847,7 @@ worldMapGameModeConfigPanel:
   moonPhases:
     tooltip:
       fullMoonIntervalHeader:
-        text: "Intervalle entre les pleines lunes"
+        text: "Intervalle pleines lunes"
       fullMoonInterval:
         text: "Combien de jours passeront avant qu'une pleine lune ne se montre. $YEL1(1 - 30, ou aucun.)"
       bloodMoonChanceHeader:
@@ -5855,7 +5855,7 @@ worldMapGameModeConfigPanel:
       bloodMoonChance:
         text: "La chance journalière qu'une lune de sang se produise, après que le délai entre les lunes de sang soit terminé. $YEL1(1 - 30)"
       bloodMoonDelayHeader:
-        text: "Délai entre les lunes de sang"
+        text: "Intervalle lunes de sang"
       bloodMoonDelay:
         text: "Combien de jours doivent passer avant qu'une lune de sang puisse se produire. $YEL1(1 - 50, ou aucun.)"
       bloodMoonHeader:
@@ -5866,53 +5866,53 @@ worldMapGameModeConfigPanel:
     header:
       text: "$YEL0Phases de lune"
     fullMoonInterval:
-      text: "Intervalle entre les pleines lunes"
+      text: "Intervalle pleines lunes"
     bloodMoonChance:
       text: "Chance de lune de sang"
     bloodMoonDelay:
-      text: "Intervalle entre les lunes de sang"
+      text: "Intervalle lunes de sang"
     bloodMoon:
       text: "Lune de sang ({season})"
     
   disasters:
     tooltip:
       meteorShowerChanceHeader:
-        text: "Chance d'une pluie de météores"
+        text: "Pluies de météores"
       meteorShowerChance:
         text: "Chance qu'une pluie de météore se produire. $YEL1(1k - 3m, ou aucune.)"
       earthquakeChanceHeader:
-        text: "Chance d'un tremblement de terre"
+        text: "Tremblements de terre"
       earthquakeChance:
         text: "Chance qu'un tremblement de terre se produise. $YEL1(1k - 3m, ou aucune.)"
       electricalStormChanceHeader:
-        text: "Chance d'un orage"
+        text: "Orages"
       electricalStormChance:
         text: "Chance qu'un orage se produise. $YEL1(1k - 3m, ou aucune.)"
       hailStormChanceHeader:
-        text: "Chance d'une tempête de grêle"
+        text: "Tempêtes de grêle"
       hailStormChance:
         text: "Chance qu'une tempête de grêle se produise $YEL1(1k - 3m, ou aucune.)"
       blightChanceHeader:
-        text: "Chance d'une infection"
+        text: "Infections généralisées"
       blightChance:
         text: "Chance qu'une infection généralisée se produise. $YEL1(1k - 3m, ou aucune.)"
         
     header:
       text: "$YEL0Désastres"
     meteorShowerChance:
-      text: "Chance d'une pluie de météores"
+      text: "Pluies de météores"
     earthquakeChance:
-      text: "Chance d'un tremblement de terre"
+      text: "Tremblements de terre"
     electricalStormChance:
-      text: "Chance d'un orage"
+      text: "Orages"
     hailStormChance:
-      text: "Chance d'une tempête de grêle"
+      text: "Tempêtes de grêle"
     blightChance:
-      text: "Chance d'une infection"
+      text: "Infections généralisées"
       
   loadConfig:
     header:
-      text: "$YEL0Charger la config"
+      text: "$YEL0Charger"
     nightmare:
       text: "Cauchemard"
     survival:
@@ -5922,7 +5922,7 @@ worldMapGameModeConfigPanel:
     peaceful:
       text: "Paisible"
     configFileName:
-      text: "$YEL0Nom du fichier de config"
+      text: "$YEL0Nom du fichier"
     configBlocked:
       text: "$YEL0Vous devez abandonner le monde pour reconfigurer ces paramètres !"
     
