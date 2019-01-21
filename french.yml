@@ -9639,20 +9639,20 @@ gameMode:
   javaClass: "rtr.system.gamemodetemplates.*"
   
   nightmare:
-    text: "Nightmare"
+    text: "Cauchemard"
   survival:
-    text: "Survival"
+    text: "Survie"
   traditional:
-    text: "Traditional"
+    text: "Traditionnel"
   peaceful:
-    text: "Peaceful"
+    text: "Paisible"
   custom:
     text: "Custom"
   sandbox:
-    text: "Sandbox"
+    text: "Bac à sable"
   mainMenu:
-    text: "Main Menu"
+    text: "Menu principal"
   mapEditor:
-    text: "Map Editor"
+    text: "Éditeur de carte"
   worldMap:
-    text: "World Map"
+    text: "Carte monde"
