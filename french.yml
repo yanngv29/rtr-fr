@@ -9402,63 +9402,63 @@ resource:
   
   wood:
     single:
-      text: "Wood"
+      text: "Bois"
     plural:
-      text: "Wood"
+      text: "Bois"
 
   board:
     single:
-      text: "Board"
+      text: "Planche"
     plural:
-      text: "Boards"
+      text: "Planches"
 
   rock:
     single:
-      text: "Rock"
+      text: "Pierre"
     plural:
-      text: "Rocks"
+      text: "Pierres"
 
   cutStone:
     single:
-      text: "Cut Stone"
+      text: "Pierre taillée"
     plural:
-      text: "Cut Stones"
+      text: "Pierres taillées"
 
   ironOre:
     single:
-      text: "Iron Ore"
+      text: "Minerai de fer"
     plural:
-      text: "Iron Ore"
+      text: "Minerais de fer"
 
   ironIngot:
     single:
-      text: "Iron Ingot"
+      text: "Lingot de fer"
     plural:
-      text: "Iron Ingots"
+      text: "Lingots de fer"
 
   goldOre:
     single:
-      text: "Gold Ore"
+      text: "Minerai d'or"
     plural:
-      text: "Gold Ore"
+      text: "Minerais d'or"
 
   goldIngot:
     single:
-      text: "Gold Ingot"
+      text: "Lingot d'or"
     plural:
-      text: "Gold Ingots"
+      text: "Lingots d'or"
 
   goldCoinSack:
     single:
-      text: "Gold Coin Sack"
+      text: "Sac de pièces d'or"
     plural:
-      text: "Gold Coin Sacks"
+      text: "Sacs de pièces d'or"
 
   crystal:
     single:
-      text: "Crystal"
+      text: "Cristal"
     plural:
-      text: "Crystals"
+      text: "Cristaux"
 
   crylithium:
     single:
@@ -9468,9 +9468,9 @@ resource:
 
   rawFood:
     single:
-      text: "Raw Food"
+      text: "Nourriture crue"
     plural:
-      text: "Raw Food"
+      text: "Nourriture crue"
 
   ration:
     single:
@@ -9480,111 +9480,111 @@ resource:
 
   ballistaeBolts:
     single:
-      text: "Ballistae Bolts"
+      text: "Lance"
     plural:
-      text: "Ballistae Bolts"
+      text: "Lances"
 
   stoneBalls:
     single:
-      text: "Stone Balls"
+      text: "Balle de pierre"
     plural:
-      text: "Stone Balls"
+      text: "Balles de pierre"
 
   ironSword:
     single:
-      text: "Iron Sword"
+      text: "Épée en fer"
     plural:
-      text: "Iron Swords"
+      text: "Épées en fer"
 
   woodSword:
     single:
-      text: "Wood Sword"
+      text: "Épée en bois"
     plural:
-      text: "Wood Swords"
+      text: "Épées en bois"
 
   pickaxe:
     single:
-      text: "Pickaxe"
+      text: "Pioche"
     plural:
-      text: "Pickaxes"
+      text: "Pioches"
 
   axe:
     single:
-      text: "Axe"
+      text: "Hache"
     plural:
-      text: "Axes"
+      text: "Haches"
 
   hoe:
     single:
-      text: "Hoe"
+      text: "Houe"
     plural:
-      text: "Hoes"
+      text: "Houes"
 
   hammer:
     single:
-      text: "Hammer"
+      text: "Marteau"
     plural:
-      text: "Hammers"
+      text: "Marteaux"
 
   shovel:
     single:
-      text: "Shovel"
+      text: "Pelle"
     plural:
-      text: "Shovels"
+      text: "Pelles"
 
   leatherHelmet:
     single:
-      text: "Leather Helmet"
+      text: "Casque en cuir"
     plural:
-      text: "Leather Helmets"
+      text: "Casques en cuir"
 
   leatherChest:
     single:
-      text: "Leather Chest"
+      text: "Plastron en cuir"
     plural:
-      text: "Leather Chests"
+      text: "Plastrons en cuir"
 
   ironHelmet:
     single:
-      text: "Iron Helmet"
+      text: "Casque en fer"
     plural:
-      text: "Iron Helmets"
+      text: "Casques en fer"
 
   ironChestArmor:
     single:
-      text: "Iron Chest Armor"
+      text: "Plastron en fer"
     plural:
-      text: "Iron Chest Armor"
+      text: "Plastrons en fer"
 
   woodShield:
     single:
-      text: "Wood Shield"
+      text: "Bouclier en bois"
     plural:
-      text: "Wood Shields"
+      text: "Boucliers en bois"
 
   ironShield:
     single:
-      text: "Iron Shield"
+      text: "Bouclier en fer"
     plural:
-      text: "Iron Shields"
+      text: "Boucliers en fer"
 
   quiver:
     single:
-      text: "Quiver"
+      text: "Carquois"
     plural:
-      text: "Quivers"
+      text: "Carquois"
 
   bow:
     single:
-      text: "Bow"
+      text: "Arc"
     plural:
-      text: "Bows"
+      text: "Arcs"
 
   silk:
     single:
-      text: "Silk"
+      text: "Soie"
     plural:
-      text: "Silk"
+      text: "Soies"
 
   bandage:
     single:
@@ -9594,39 +9594,39 @@ resource:
 
   medkit:
     single:
-      text: "Medkit"
+      text: "Trousse de premiers secours"
     plural:
-      text: "Medkits"
+      text: "Trousses de premiers secours"
 
   healingPotion:
     single:
-      text: "Healing Potion"
+      text: "Potion de guérison"
     plural:
-      text: "Healing Potions"
+      text: "Potions de guérison"
 
   dirtyWaterBucket:
     single:
-      text: "Dirty Water Bucket"
+      text: "Seau d'eau sale"
     plural:
-      text: "Dirty Water Buckets"
+      text: "Seaux d'eau sale"
 
   waterBucket:
     single:
-      text: "Water Bucket"
+      text: "Seau d'eau"
     plural:
-      text: "Water Buckets"
+      text: "Seaux d'eau"
 
   waterBottle:
     single:
-      text: "Water Bottle"
+      text: "Bouteille d'eau"
     plural:
-      text: "Water Bottles"
+      text: "Bouteilles d'eau"
 
   suspiciousKey:
     single:
-      text: "Suspicious Key?!"
+      text: "Clé suspicieuse ?!"
     plural:
-      text: "Suspicious Keys?!"
+      text: "Clés suspicieuses ?!"
       
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Game Mode
