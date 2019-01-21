@@ -31,7 +31,7 @@ godXP:
   
   # Village Related
   nomadsJoinedVillage:
-    text: "Des nomades ont rejoint ton village"
+    text: "Des nomades ont rejoint votre village"
   buildingsUpgraded:
     text: "Bâtiments améliorés"
   buildingsConstructed:
@@ -1303,7 +1303,7 @@ console:
           text: "$GRE0Le soleil se couche.."
         subtitle:
           peaceful:
-            comment: "Aucun monstre ne va apparaître, mais tu es dans un mode de jeu où ils le peuvent."
+            comment: "Aucun monstre ne va apparaître, mais vous êtes dans un mode de jeu où ils le peuvent."
             text: "Tout semble paisible ?"
           restless:
             comment: "Des monstres commencent à apparaître."
@@ -1463,7 +1463,7 @@ console:
           9:
             text: "Quelle raison gênante à écrire sur sa tombe."
           10:
-            text: "Il y a de fortes chance que c'était de ta faute."
+            text: "Il y a de fortes chance pour que ça soit de votre faute."
           11:
             text: "(Il fera:Elle fera:Ils feront) un beau tas."
           12:
@@ -1889,11 +1889,11 @@ mainMenuDeleteProfilePanel:
       text: "J'ai dit OUI!"
       
   header:
-    text: "$ORA1En es-tu certain ?!"
+    text: "$ORA1En êtres-vous certain ?!"
   body:
-    text: "Es-tu certain de vouloir supprimer le profil $GRE1{profileName}$WHI0 ? Tu vas perdre toute ta progession !"
+    text: "Êtes-vous certain de vouloir supprimer le profil $GRE1{profileName}$WHI0 ? Vous allez perdre toute votre progession !"
   bodyConfirm:
-    text: "$RED1Serieusement, en es-tu ABSOLUMENT sûr ? Toute ta progession sera perdue pour toujours ! (C'est vraiment long !)"
+    text: "$RED1Serieusement, en êtes-vous ABSOLUMENT sûr ? Toute votre progession sera perdue pour toujours ! (C'est vraiment long !)"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Main Menu State
@@ -2027,11 +2027,11 @@ mainMenuMainMenuPanel:
     
   reviewPopup:
     header:
-      text: "$CYA1Envisages-tu d'écrire une critique ?"
+      text: "$CYA1Avez-vous envisagé d'écrire une critique ?"
     subHeader:
-      text: "$GRE1Aimes-tu Rise to Ruins?"
+      text: "$GRE1Aimez-vous Rise to Ruins?"
     body:
-      text: "Prend le temps d'écrire une critique. Les critiques comptent beaucoup pour aider les petits développeurs indépendants comme moi !"
+      text: "Prenez le temps d'écrire une critique. Les critiques comptent beaucoup pour aider les petits développeurs indépendants comme moi !"
     button:
       hide:
         text: "Cacher"
@@ -2068,11 +2068,11 @@ mapEditorLoadMapDeleteWarningPanel:
       text: "J'ai dit OUI !"
     
   header:
-    text: "$ORA1En es-tu certain ?!"
+    text: "$ORA1En êtes-vous certain ?!"
   body:
-    text: "Whoa, whoa, es-tu certain de~vouloir supprimer la carte $GRE1{mapName} ??"
+    text: "Whoa, whoa, êtes-vous certain de~vouloir supprimer la carte $GRE1{mapName} ??"
   bodyConfirm:
-    text: "$RED1Serieusement, en es-tu absolument certain ? La carte sera perdue pour toujours ! (C'est vraiment long !)"
+    text: "$RED1Serieusement, en êtes-vous absolument certain ? La carte sera perdue pour toujours ! (C'est vraiment long !)"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Main Menu State
@@ -2109,11 +2109,11 @@ mapEditorNewMapDeleteWarningPanel:
       text: "J'ai dit OUI !"
     
   header:
-    text: "$ORA1En es-tu certain ?!"
+    text: "$ORA1En êtes-vous certain ?!"
   body:
-    text: "Whoa, whoa, es-tu certain de vouloir~supprimer le lot de cartes $GRE1{mapName} $WHI0??"
+    text: "Whoa, whoa, êtes-vous certain de vouloir~supprimer le lot de cartes $GRE1{mapName} $WHI0??"
   bodyConfirm:
-    text: "$RED1Serieusement, en es-tu ABSOLUMENT sûr ? Le lot de cartes va être perdu pour toujours ! (C'est vraiment long !)"
+    text: "$RED1Serieusement, en êtes-vous ABSOLUMENT sûr ? Le lot de cartes va être perdu pour toujours ! (C'est vraiment long !)"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Main Menu State
@@ -2172,11 +2172,11 @@ mapEditorNewMapPanel:
     name:
         text: "Nom de la carte"
     author:
-        text: "Ton nom"
+        text: "Votre nom"
         
   header:
     selectPack:
-      text: "$ORA1Sélectionne un lot de cartes"
+      text: "$ORA1Sélectionnez un lot de cartes"
     mapName:
       text: "$ORA1Nom de la carte"
     author:
@@ -2206,13 +2206,13 @@ mainMenuNewProfilePanel:
       text: "Créer !"
     textInput:
       profileName:
-        text: "Le nom de ton profil"
+        text: "Le nom de votre profil"
       twitchChannel:
-        text: "Ta chaîne Twitch (Intégration Twitch, optionnelle)"  
+        text: "Votre chaîne Twitch (Intégration Twitch, optionnelle)"  
         
   header:
     inputProfileName:
-      text: "$ORA1Entre le nom de ton profil !"
+      text: "$ORA1Entrez le nom de votre profil !"
     tipsEnabled:
       text: "Conseils activés"
 
@@ -2286,11 +2286,11 @@ mainMenuSkirmishNewGameWarningPanel:
       text: "J'ai dit OUI !"
       
   header:
-    text: "$ORA1En es-tu certain ?!"
+    text: "$ORA1En êtes-vous certain ?!"
   body:
-    text: "Tu as déjà une partie {gameMode} active. Es-tu sûr de vouloir recommencer $GRE1{mapName} $WHI0?"
+    text: "Vous avez déjà une partie {gameMode} active. Êtes-vous sûr de vouloir recommencer $GRE1{mapName} $WHI0?"
   bodyConfirm:
-    text: "$RED1Serieusement, en es-tu ABSOLUMENT certain ? Cette sauvegarde sera perdue pour toujours ! (C'est très long !)"
+    text: "$RED1Serieusement, en êtes-vous ABSOLUMENT certain ? Cette sauvegarde sera perdue pour toujours ! (C'est très long !)"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Main Menu State
@@ -2390,9 +2390,9 @@ mainMenuUploadProfilePanel:
     sendingAttempt:
       text: "$RED0Essai : {attemptCount}"
     sendingAttemptFailure:
-      text: "$RED0Il y a peut-être un problème avec le pare-feu, ~ou tu n'es pas connecté à internet !"
+      text: "$RED0Il y a peut-être un problème avec le pare-feu,~ou vous n'êtes pas connecté à internet !"
     sendingFailure:
-      text: "$RED0Une erreur est survenue lors de l'envoi du profil ! Merci de vérifier la connexion internet et les paramètres du pare-feu."
+      text: "$RED0Une erreur est survenue lors de l'envoi du profil ! Merci de vérifier votre connexion internet et les paramètres du pare-feu."
     sendingSuccess:
       text: "Merci, le profil a bien été envoyé au développeur."
       
@@ -2427,7 +2427,7 @@ mapEditorMainMenuPanel:
   header:
     text: "Menu principal"
   exitWarning:
-    text: "$GRE1EN ES-TU SÛR ?~$RED1TA CARTE NE SERA~PAS SAUVEGARDÉE !"
+    text: "$GRE1EN ÊTES-VOUS SÛR ?~$RED1VOTRE CARTE NE SERA~PAS SAUVEGARDÉE !"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Map Editor State
@@ -2450,7 +2450,7 @@ mapEditorRegionalDataPanel:
   notSetPlaceholder:
     text: "Non défini"
   worldMapCoordinates:
-    text: "Coordonnées sur la map monde"
+    text: "Coordonnées sur la carte du monde"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Map Editor State / Play State
@@ -3157,11 +3157,11 @@ playBuildingListPanel:
     totalBuildingsHeader:
       text: "Total de bâtiments"
     totalBuildings:
-      text: "Le nombre total de bâtiments, et combien d'autres peuvent être construits. Ne compte pas les murs et entrepôts. Augmente le nombre de bâtiments pouvant être construits en construisant davantage d'entrepôts !"
+      text: "Le nombre total de bâtiments, et combien d'autres peuvent être construits. Ne compte pas les murs et entrepôts. Augmentez le nombre de bâtiments pouvant être construits en construisant davantage d'entrepôts !"
     totalAncillariesHeader:
       text: "Total d'entrepôts"
     totalAncillaries:
-      text: "Le nombre total d'entrepôts, et combien d'autres peuvent être construits. Augmente le nombre d'entrepôts pouvant être construits en améliorant ton camp/château."
+      text: "Le nombre total d'entrepôts, et combien d'autres peuvent être construits. Augmentez le nombre d'entrepôts pouvant être construits en améliorant votre camp/château."
     totalHomeOccupancyHeader:
       text: "Occupation totale des logements"
     totalHomeOccupancy:
@@ -3436,7 +3436,7 @@ playLeftPanel:
         requestWorkersHeader:
           text: "Solliciter"
         requestWorkers:
-          text: "Sollicite plus de travailleurs à effectuer cette tâche. Si le nombre devient rouge, tu as sollicité plus de travailleurs qu'il n'y a de villageois disponibles."
+          text: "Sollicite plus de travailleurs pour effectuer cette tâche. Si le nombre devient rouge, vous avez sollicité plus de travailleurs qu'il n'y a de villageois disponibles."
         pageUpHeader:
           text: "Page suivante"
         pageDownHeader:
@@ -3450,7 +3450,7 @@ playLeftPanel:
       desiredAndMaxWorkersHeader:
         text: "Travailleurs demandés/maximum"
       desiredAndMaxWorkers:
-        text: "Combien de travailleurs ont été sollicités pour ce travail et combien de plus peuvent y travailler. Si le nombre devient rouge, tu as sollicité plus de travailleurs qu'il n'y a de villageois disponibles."
+        text: "Combien de travailleurs ont été sollicités pour effectuer cette tâche et combien de plus peuvent y travailler. Si le nombre devient rouge, vous avez sollicité plus de travailleurs qu'il n'y a de villageois disponibles."
       totalAndEnRouteVillagersHeader:
         text: "Travailleurs assignés + en route"
       totalAndEnRouteVillagers:
@@ -3521,21 +3521,21 @@ playLeftPanel:
         increaseMigrantsToSendHeader:
           text: "Augmente le nombre de migrants à envoyer"
         increaseMigrantsToSend:
-          text: "Augmente le nombre de villageois à envoyer vers cette région. Les villageois se prépareront à quitter la région le matin et partiront l'après-midi. Si tu modifie ceci après le matin, les villageois ne partiront pas avant le jour suivant."
+          text: "Augmente le nombre de villageois à envoyer vers cette région. Les villageois se prépareront à quitter la région le matin et partiront l'après-midi. Si vous modifiez ce nombre après le matin, les villageois ne partiront pas avant le jour suivant."
         decreaseMigrantsToSendHeader:
           text: "Diminue le nombre de migrants à envoyer"
         decreaseMigrantsToSend:
-          text: "Diminue le nombre de villageois que tu veux envoyer vers cette région."
+          text: "Diminue le nombre de villageois que vous allez envoyer dans cette région."
           
     tooltip:
       migratableVillagersHeader:
         text: "Villageois migrables"
       migratableVillagers:
-        text: "Combien de villageis peuvent migrer vers d'autres régions. Seulement les jeunes adultes en bonne santé peuvent migrer. Tu dois maintenir une population locale minimale d'au moins 15 villageois pour pouvoir migrer."
+        text: "Combien de villageis peuvent migrer vers d'autres régions. Seulement les jeunes adultes en bonne santé peuvent migrer. Vous devez maintenir une population locale minimale d'au moins 15 villageois pour pouvoir migrer."
       maximumDailyMigrationHeader:
         text: "Migration journalière maximale"
       maximumDailyMigration:
-        text: "Combien de villageois peuvent quitter le village par jour. Augmente ce nombre en améliorant la station de migration ou en en construisant une nouvelle."
+        text: "Combien de villageois peuvent quitter le village chaque jour. Augmentez ce nombre en améliorant la station de migration ou en en construisant une nouvelle."
       readyToMigrateHeader:
         text: "Prêts à migrer"
       readyToMigrate:
@@ -3642,7 +3642,7 @@ playMainMenuPanel:
   header:
     text: "Menu principal"
   saveAndExitWarningMessage:
-    text: "$GRE1EN ES-TU CERTAIN ?"
+    text: "$GRE1EN ÊTES-VOUS CERTAIN ?"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Play State
@@ -3656,15 +3656,15 @@ playOverlay:
   
   slots:
     outOfAncillarySlotsNoCamp:
-      text: "Plus de capacité de construction d'entrepôts~Construis un $GRE0Campement $WHI0!"
+      text: "Plus de capacité de construction d'entrepôts~Construisez un $GRE0Campement $WHI0!"
     outOfAncillarySlotsUpgrade:
-      text: "Plus de capacité de construction d'entrepôts~Améliore ton $GRE0{castleName}"
+      text: "Plus de capacité de construction d'entrepôts~Améliorez votre $GRE0{castleName}"
     outOfAncillarySlots:
       text: "Plus de capacité de construction !"
     outOfBuildingSlotsNoCamp:
-      text: "Plus de capacité de construction~Construis un $GRE0Campement $WHI0!"
+      text: "Plus de capacité de construction~Construisez un $GRE0Campement $WHI0!"
     outOfBuildingSlotsUpgrade:
-      text: "Plus de capacité de construction~Améliore ton $GRE0{castleName}~$WHI0ou construis un $GRE0Entrepôt"
+      text: "Plus de capacité de construction~Améliorez votre $GRE0{castleName}~$WHI0ou construisez un $GRE0Entrepôt"
     outOfBuildingSlots:
       text: "Plus de capacité de construction !"
   
@@ -3678,13 +3678,13 @@ playOverlay:
   
   general:
     cancelAction:
-      text: "Appuie sur $GRE1{shortcutKey} $WHI0ou sur le $GRE1BOUTON CENTRAL DE LA SOURIS$WHI0 pour annuler l'action actuelle et revenir au mode de sélection."
+      text: "Appuyez sur $GRE1{shortcutKey} $WHI0ou sur le $GRE1BOUTON CENTRAL DE LA SOURIS$WHI0 pour annuler l'action actuelle et revenir au mode de sélection."
     unassignWork:
-      text: "Maintiens $GRE1{shortcutKey} $YEL1pour déattribuer."
+      text: "Maintenez $GRE1{shortcutKey} $YEL1pour déattribuer."
     deleteObjects:
-      text: "Maintiens $GRE1{shortcutKey} $YEL1pour supprimer l'objet."
+      text: "Maintenez $GRE1{shortcutKey} $YEL1pour supprimer l'objet."
     castFree:
-      text: "Maintiens $GRE1{shortcutKey} $YEL1pour lancer gratuitement."
+      text: "Maintenez $GRE1{shortcutKey} $YEL1pour lancer gratuitement."
     nothingToGrab:
       text: "Rien à attraper."
 
@@ -3788,11 +3788,11 @@ playPopulationListPanel:
     averageLifeExpectancyHeader:
       text: "Espérance de vie moyenne"
     averageLifeExpectancy:
-      text: "L'espérance de vie moyenne de tout le village. Tu peux augmenter ce nombre en prenant mieux soin de tes villageois, en les gardant heureux et en bonne santé !"
+      text: "L'espérance de vie moyenne de tout le village. Vous pouvez augmenter ce nombre en prenant mieux soin de tes villageois, en les gardant heureux et en bonne santé !"
     homelessHeader:
       text: "Sans-abri"
     homeless:
-      text: "Ce villageois n'a pas de logement. Tu manques peut-être de place dans tes logements, mais le villageois vient d'arriver ou que tu viens juste de construire de nouveaux logements, cela peut prendre quelques minutes pour qu'ils trouve une place."
+      text: "Ce villageois n'a pas de logement. Vous manquez peut-être de place dans tes logements, mais si le villageois vient d'arriver ou si vous venez juste de construire de nouveaux logements, cela peut prendre quelques minutes pour qu'ils trouve une place."
     pregnantHeader:
       text: "Enceinte"
     pregnant:
@@ -3808,7 +3808,7 @@ playPopulationListPanel:
     unemployedHeader:
       text: "Sans-emploi"
     unemployed:
-      text: "Ce villageois n'a actuellement pas d'emploi. Si tu viens récemment d'assigner plus de travailleurs, il est déjà peut-être en route vers son futur travail."
+      text: "Ce villageois n'a actuellement pas d'emploi. Si vous venez récemment d'assigner plus de travailleurs, il est peut-être en route vers son futur travail."
     levelHeader:
       text: "Niveau"
     level:
@@ -3863,11 +3863,11 @@ playPopulationTotalsPanel:
     totalAncillariesHeader:
       text: "Total d'entrepôts"
     totalAncillaries:
-      text: "Le nombre total d'entrepôts, et combien d'autres peuvent être construits. Augmente le nombre d'entrepôts pouvant être construits en améliorant ton camp/château."
+      text: "Le nombre total d'entrepôts, et combien d'autres peuvent être construits. Augmentez le nombre d'entrepôts pouvant être construits en améliorant votre camp/château."
     totalBuildingsHeader:
       text: "Total de bâtiments"
     totalBuildings:
-      text: "Le nombre total de bâtiments, et combien d'autres peuvent être construits. Ne compte pas les murs et entrepôts. Augmente le nombre de bâtiments pouvant être construits en construisant davantage d'entrepôts !"
+      text: "Le nombre total de bâtiments, et combien d'autres peuvent être construits. Ne compte pas les murs et entrepôts. Augmentez le nombre de bâtiments pouvant être construits en construisant davantage d'entrepôts !"
     totalChildrenHeader:
       text: "Total d'enfants"
     totalChildren:
@@ -4032,7 +4032,7 @@ playResourceAndInfluenceBar:
     totalInfluenceHeader:
       text: "Influence"
     totalInfluence:
-      text: "L'influence totale que tu possède et qui peut être utilisée pour lancer des sorts. L'influence se remplit lentement au fil du temps, ou en survolant de l'essence libre avec ta main. Tu peux améliorer ton influence maximale en augmentant la population de ton village."
+      text: "L'influence totale que vous possèdez et qui peut être utilisée pour lancer des sorts. L'influence se remplit lentement au fil du temps, ou en survolant de l'essence libre avec votre main. Vous pouvez améliorer votre influence maximale en augmentant la population de votre village."
   
   sort:
     total:
@@ -4225,7 +4225,7 @@ playSelectedObjectPanel:
     desiredAndMaxWorkersHeader:
       text: "Nb maximum/désiré de travailleurs"
     desiredAndMaxWorkers:
-      text: "Combien de travailleurs ont été sollicités pour ce travail et combien de plus peuvent y travailler. Si le nombre devient rouge, tu as sollicité plus de travailleurs qu'il n'y a de villageois disponibles."
+      text: "Combien de travailleurs ont été sollicités pour ce travail et combien de plus peuvent y travailler. Si le nombre devient rouge, vous avez sollicité plus de travailleurs qu'il n'y a de villageois disponibles."
     totalPlusEnrouteWorkersHeader:
       text: "Travailleurs assignés + en route"
     totalPlusEnrouteWorkers:
@@ -4305,7 +4305,7 @@ playSelectedObjectPanel:
       requestWorkersHeader:
         text: "Solliciter de la main d'oeuvre"
       requestWorkers:
-        text: "Sollicite plus de main d'oeuvre à prendre ce travail. Si le nombre devient rouge, tu as sollicité plus de travailleurs qu'il n'y a de villageois dusponibles."
+        text: "Incite plus de main d'oeuvre à prendre ce travail. Si le nombre devient rouge, vous avez sollicité plus de travailleurs qu'il n'y a de villageois disponibles."
       topPriorityHeader:
         text: "Première priorité"
       topPriority:
@@ -4354,7 +4354,7 @@ playSelectedObjectPanel:
   dismantling:
     text: "$GRE1(EN DEMANTÈLEMENT)"
   dismantlingWarning:
-    text: "$RED0Es-tu sur de vouloir démanteler ce bâtiment ? Tu ne peux récupérer qu'environ $GRE150%$RED0 du total des ressources en moyenne.~$RED1CELA NE PEUT PAS ÊTRE ANNULÉ"
+    text: "$RED0Êtes-vous sur de vouloir démanteler ce bâtiment ? Vous ne récupèrerez qu'environ $GRE150%$RED0 du total des ressources en moyenne.~$RED1CELA NE PEUT PAS ÊTRE ANNULÉ"
   staticTowerDamageOverride:
     text: "Damage"
   staticTowerDamageOverrideAmount:
@@ -4398,11 +4398,11 @@ playSelectedObjectPanel:
   healthRegenerationBoost:
     text: "$GRE0{amount} $WHI0régénération de la vie"
   reclaimMessage:
-    text: "Clique sur $GRE1récupérer$WHI0 pour reconstruire~ et utiliser ce bâtiment."
+    text: "Cliquez sur $GRE1récupérer$WHI0 pour reconstruire~et utiliser ce bâtiment."
   reclaimMessageNoSlotsNoCamp:
-    text: "Plus de capacité de construction.~Construis un $GRE0Campement $WHI0ou un $GRE0Entrepôt $WHI0~pour récupérer ce bâtiment."
+    text: "Plus de capacité de construction.~Construisz un $GRE0Campement $WHI0ou un $GRE0Entrepôt $WHI0~pour récupérer ce bâtiment."
   reclaimMessageNoSlots:
-    text: "Plus de capacité de construction.~Améliore ton $GRE0{castleName}~$WHI0ou construis un $GRE0Entrepôt $WHI0~pour récupérer ce bâtiment."
+    text: "Plus de capacité de construction.~Améliorez votre $GRE0{castleName}~$WHI0ou construis un $GRE0Entrepôt $WHI0~pour récupérer ce bâtiment."
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Play State
