@@ -4219,9 +4219,9 @@ playSelectedObjectPanel:
     providedDailyMigrations:
       text: "Augmente le nombre de villageois qui se prépareront à la migration le matin, chaque jour."
     providedWorkersHeader:
-      text: "Emplacements de travailleurs"
+      text: "Postes de travailleurs"
     providedWorkers:
-      text: "Combien d'emplacements de travailleurs sont fournis par ce bâtiment pour le travail concerné."
+      text: "Combien de postes sont fournis par ce bâtiment pour le travail concerné."
     desiredAndMaxWorkersHeader:
       text: "Nb maximum/désiré de travailleurs"
     desiredAndMaxWorkers:
@@ -5326,7 +5326,7 @@ playRightObjectDescriptionPanel:
   housingCapacity:
     text: "Capacité de logement : $GRE1{amount}"
   workersSlots:
-    text: "Emplacements de travailleurs : $GRE1{amount} {mobJobName}"
+    text: "Postes de travailleurs : $GRE1{amount} {mobJobName}"
   buildingSlotsProvided:
     text: "Emplacements de construction : $GRE1{amount}"
   acceptsEssence:
@@ -6208,7 +6208,7 @@ helpTip:
     workBuildingsHeader:
       text: "Bâtiments d'ouvrage"
     workBuildings:
-      text: "{buildingName}$WHI0 construit par vos villageois ! Ce bâtiment ajoute {amount} emplacements de $GRE1{mobJobName}$WHI0 ! Si vous voulez que vos villageois fassent ce travail, vous aurez besoin de libérer un certain nombre d'ouvriers et les assigner à ce bâtiment. Vous pouvez faire ça à deux endroits, dans le $GRE1panneau de main-d'oeuvre à gauche$WHI0, ou en cliquant sur le bâtiment {buildingName}$GRE1 et utiliser la fenêtre en bas$WHI0. Ensuite, $GRE1cliquez sur les boutons + ou -$WHI0 pour ajuster le nombre d'ouvriers désiré. $RED1Si vous n'avez aucun villageois disponible, assurez-vous de baisser le nombre de travailleurs désirés dans les autres bâtiments !$WHI0"
+      text: "{buildingName}$WHI0 construit par vos villageois ! Ce bâtiment ajoute {amount} postes de $GRE1{mobJobName}$WHI0 ! Si vous voulez que vos villageois fassent ce travail, vous aurez besoin de libérer un certain nombre d'ouvriers et les assigner à ce bâtiment. Vous pouvez faire ça à deux endroits, dans le $GRE1panneau de main-d'oeuvre à gauche$WHI0, ou en cliquant sur le bâtiment {buildingName}$GRE1 et utiliser la fenêtre en bas$WHI0. Ensuite, $GRE1cliquez sur les boutons + ou -$WHI0 pour ajuster le nombre d'ouvriers désiré. $RED1Si vous n'avez aucun villageois disponible, assurez-vous de baisser le nombre de travailleurs désirés dans les autres bâtiments !$WHI0"
     buildingDamageHeader:
       text: "Bâtiments endommagés"
     buildingDamage:
@@ -6228,9 +6228,9 @@ helpTip:
     refineHeader:
       text: "Matériaux raffinés"
     refineNew:   
-      text: "Certains bâtiments nécessitent des matériaux raffinés, comme les planches, la pierre ou le crylithium. Le bâtiment {buildingName}$WHI0 que vous venez de placer est l'un d'eux. Si un bâtiment nécessite l'une de ces ressources citée plus haut et que vous n'avez aucun moyen de fabriquer, ils feront ce qu'ils peuvent, mais le bâtiment ne sera jamais achevé. Vous pouvez raffiner la plupart des matériaux à l'intérieur des bâtiments de raffinage, tel que la $YEL1Cabanne du bûcheron$WHI0 ou le $YEL1Tailleur de pierres$WHI0. Les deux peuvent se trouvent dans la catégorie raffinage dans l'onglet de construction."
+      text: "Certains bâtiments nécessitent des matériaux raffinés, comme les planches, la pierre ou le crylithium. Le bâtiment {buildingName}$WHI0 que vous venez de placer est l'un d'eux. Si un bâtiment nécessite l'une de ces ressources citée plus haut et que vous n'avez aucun moyen de fabriquer, ils feront ce qu'ils peuvent, mais le bâtiment ne sera jamais achevé. Vous pouvez raffiner la plupart des matériaux à l'intérieur des bâtiments de raffinage, tel que la $YEL1Cabanne du bûcheron$WHI0 ou le $YEL1Tailleur de pierre$WHI0. Les deux peuvent se trouvent dans la catégorie raffinage dans l'onglet de construction."
     refineReclaim:
-      text: "Certains bâtiments nécessitent des matériaux raffinés, comme les planches, la pierre ou le crylithium. Le bâtiment {buildingName}$WHI0 que vous venez d'essayer de récupérer est l'un d'eux. Si un bâtiment nécessite l'une de ces ressources citée plus haut et que vous n'avez aucun moyen de fabriquer, ils feront ce qu'ils peuvent, mais le bâtiment ne sera jamais achevé. Vous pouvez raffiner la plupart des matériaux à l'intérieur des bâtiments de raffinage, tel que la $YEL1Cabanne du bûcheron$WHI0 ou le $YEL1Tailleur de pierres$WHI0. Les deux peuvent se trouvent dans la catégorie raffinage dans l'onglet de construction."
+      text: "Certains bâtiments nécessitent des matériaux raffinés, comme les planches, la pierre ou le crylithium. Le bâtiment {buildingName}$WHI0 que vous venez d'essayer de récupérer est l'un d'eux. Si un bâtiment nécessite l'une de ces ressources citée plus haut et que vous n'avez aucun moyen de fabriquer, ils feront ce qu'ils peuvent, mais le bâtiment ne sera jamais achevé. Vous pouvez raffiner la plupart des matériaux à l'intérieur des bâtiments de raffinage, tel que la $YEL1Cabanne du bûcheron$WHI0 ou le $YEL1Tailleur de pierre$WHI0. Les deux peuvent se trouvent dans la catégorie raffinage dans l'onglet de construction."
     farmingHeader:
       text: "Agriculture"
     farming:   
@@ -6250,7 +6250,7 @@ helpTip:
     noWaterHeader:
       text: "Eau"
     noWater:   
-      text: "Vous êtes au jour {day} et vous n'avez pas encore construit de $YEL1sources d'eau$WHI0. Vos villageois finiront par avoir besoin de boire de l'eau. Ne les laissez pas mourir de soif ! Essayez de construire une $YEL1station de purification$WHI0 et collecter les eaux de surface, ou un $YEL1puit$WHI0 pour automatiquement générer de l'eau souterraine propre, ou encore des $YEL1collecteurs d'eau$WHI0 pour collecter l'eau de pluie. Éventuellement, essayez d'avoir plus d'une source d'eau pour survivre aux diverses conditions tout au long de l'année. N'oubliez pas de leur assigner quelques ouvriers !"
+      text: "Vous êtes au jour {day} et vous n'avez pas encore construit de $YEL1sources d'eau$WHI0. Vos villageois finiront par avoir besoin de boire de l'eau. Ne les laissez pas mourir de soif ! Essayez de construire une $YEL1station de purification$WHI0 et collecter les eaux de surface, ou un $YEL1puits$WHI0 pour automatiquement générer de l'eau souterraine propre, ou encore des $YEL1collecteurs d'eau$WHI0 pour collecter l'eau de pluie. Éventuellement, essayez d'avoir plus d'une source d'eau pour survivre aux diverses conditions tout au long de l'année. N'oubliez pas de leur assigner quelques ouvriers !"
     noTowersHeader:
       text: "Défenses"
     noTowers:   
@@ -6280,9 +6280,9 @@ helpTip:
     villagerDehydrationHeader:
       text: "Déshydratation"
     villagerDehydrationMale:   
-      text: "{mobName}$WHI0 est en train de mourir de soif ! Trouvez vite de l'eau à ce pauvre villageois, sinon il risque de mourir ! Avez-vous construit un $YEL1Purificateur d'eau$WHI0, un $YEL1Puit$WHI0 ou un $YEL1Collecteur d'eau$WHI0 encore ? Est-ce qu'ils produisent assez d'eau ? Vous avez peut-être besoin d'en construire plus !"
+      text: "{mobName}$WHI0 est en train de mourir de soif ! Trouvez vite de l'eau à ce pauvre villageois, sinon il risque de mourir ! Avez-vous construit un $YEL1Purificateur d'eau$WHI0, un $YEL1Puits$WHI0 ou un $YEL1Collecteur d'eau$WHI0 encore ? Est-ce qu'ils produisent assez d'eau ? Vous avez peut-être besoin d'en construire plus !"
     villagerDehydrationFemale:   
-      text: "{mobName}$WHI0 est en train de mourir de soif ! Trouvez vite de l'eau à cette pauvre villageoise, sinon elle risque de mourir ! Avez-vous construit un $YEL1Purificateur d'eau$WHI0, un $YEL1Puit$WHI0 ou encore un $YEL1Collecteur d'eau$WHI0 ? Est-ce qu'ils produisent assez d'eau ? Vous avez peut-être besoin d'en construire plus !"
+      text: "{mobName}$WHI0 est en train de mourir de soif ! Trouvez vite de l'eau à cette pauvre villageoise, sinon elle risque de mourir ! Avez-vous construit un $YEL1Purificateur d'eau$WHI0, un $YEL1Puits$WHI0 ou encore un $YEL1Collecteur d'eau$WHI0 ? Est-ce qu'ils produisent assez d'eau ? Vous avez peut-être besoin d'en construire plus !"
     villagerSleepyHeader:
       text: "Épuisement"
     villagerSleepyNoHome:   
@@ -7907,1488 +7907,1488 @@ object:
     castle:
       camp:
         name:
-          text: "Camp"
+          text: "Campement"
         description:
-          text: "The center of your new village, provides building slots, builders and can store almost any resource in the game."
+          text: "Le centre de votre nouveau village, fournit des emplacements de construction, des constructeurs et peut stocker presque n'importe quelle ressource disponible dans le jeu."
       largeCamp:
         name:
-          text: "Large Camp"
+          text: "Grand campement"
         description:
-          text: "Grants a global speed bonus to all tasks, as well as an additional boost to building. Also increases maximum storage and building slots and gives the village additional builder job slots."
+          text: "Accorde un bonus de vitesse global à toutes les tâches, ainsi qu'une meilleure vitesse lors de la construction. Augmente également la capacité maximale de stockage et de construction et donne au village des postes de travail supplémentaires pour les constructeurs."
       smallSettlement:
         name:
-          text: "Small Settlement"
+          text: "Petit établissement"
         description:
-          text: "Grants a global speed bonus to all tasks, as well as an additional boost to building. Further increases maximum storage and building slots and gives the village additional builder job slots."
+          text: "Accorde un bonus de vitesse global à toutes les tâches, ainsi qu'une meilleure vitesse lors de la construction. Augmente encore la capacité maximale de stockage et de construction et donne au village des postes de travail supplémentaires pour les constructeurs."
       largeSettlement:
         name:
-          text: "Large Settlement"
+          text: "Grand établissement"
         description:
-          text: "Grants a global speed bonus to all tasks, as well as an additional boost to building. Further increases maximum storage and building slots and gives the village additional builder job slots."
+          text: "Accorde un bonus de vitesse global à toutes les tâches, ainsi qu'une meilleure vitesse lors de la construction. Augmente encore la capacité maximale de stockage et de construction et donne au village des postes de travail supplémentaires pour les constructeurs."
       villageCenter:
         name:
-          text: "Village Center"
+          text: "Centre du village"
         description:
-          text: "Grants a global speed bonus to all tasks, as well as an additional boost to building. Further increases maximum storage and building slots and gives the village additional builder job slots."
+          text: "Accorde un bonus de vitesse global à toutes les tâches, ainsi qu'une meilleure vitesse lors de la construction. Augmente encore la capacité maximale de stockage et de construction et donne au village des postes de travail supplémentaires pour les constructeurs."
       largeVillageCenter:
         name:
-          text: "Large Village Center"
+          text: "Grand centre de village"
         description:
-          text: "Grants a global speed bonus to all tasks, as well as an additional boost to building. Further increases maximum storage and building slots and gives the village additional builder job slots."
+          text: "Accorde un bonus de vitesse global à toutes les tâches, ainsi qu'une meilleure vitesse lors de la construction. Augmente encore la capacité maximale de stockage et de construction et donne au village des postes de travail supplémentaires pour les constructeurs."
       establishedVillageCenter:
         name:
-          text: "Established Village Center"
+          text: "Centre de village établi"
         description:
-          text: "Grants a global speed bonus to all tasks, as well as an additional boost to building. Further increases maximum storage and building slots and gives the village additional builder job slots."
+          text: "Accorde un bonus de vitesse global à toutes les tâches, ainsi qu'une meilleure vitesse lors de la construction. Augmente encore la capacité maximale de stockage et de construction et donne au village des postes de travail supplémentaires pour les constructeurs."
       smallKeep:
         name:
-          text: "Small Keep"
+          text: "Petit donjon"
         description:
-          text: "Grants a global speed bonus to all tasks, as well as an additional boost to building. Further increases maximum storage and building slots and gives the village additional builder job slots."
+          text: "Accorde un bonus de vitesse global à toutes les tâches, ainsi qu'une meilleure vitesse lors de la construction. Augmente encore la capacité maximale de stockage et de construction et donne au village des postes de travail supplémentaires pour les constructeurs."
       largeKeep:
         name:
-          text: "Large Keep"
+          text: "Grand donjon"
         description:
-          text: "Grants a global speed bonus to all tasks, as well as an additional boost to building. Further increases maximum storage and building slots and gives the village additional builder job slots."
+          text: "Accorde un bonus de vitesse global à toutes les tâches, ainsi qu'une meilleure vitesse lors de la construction. Augmente encore la capacité maximale de stockage et de construction et donne au village des postes de travail supplémentaires pour les constructeurs."
       establishedKeep:
         name:
-          text: "Established Keep"
+          text: "Donjon établi"
         description:
-          text: "Grants a global speed bonus to all tasks, as well as an additional boost to building. Further increases maximum storage and building slots and gives the village additional builder job slots."
+          text: "Accorde un bonus de vitesse global à toutes les tâches, ainsi qu'une meilleure vitesse lors de la construction. Augmente encore la capacité maximale de stockage et de construction et donne au village des postes de travail supplémentaires pour les constructeurs."
       smallStronghold:
         name:
-          text: "Small Stronghold"
+          text: "Petite forteresse"
         description:
-          text: "Grants a global speed bonus to all tasks, as well as an additional boost to building. Further increases maximum storage and building slots and gives the village additional builder job slots."
+          text: "Accorde un bonus de vitesse global à toutes les tâches, ainsi qu'une meilleure vitesse lors de la construction. Augmente encore la capacité maximale de stockage et de construction et donne au village des postes de travail supplémentaires pour les constructeurs."
       largeStronghold:
         name:
-          text: "Large Stronghold"
+          text: "Grande forteresse"
         description:
-          text: "Grants a global speed bonus to all tasks, as well as an additional boost to building. Further increases maximum storage and building slots and gives the village additional builder job slots."
+          text: "Accorde un bonus de vitesse global à toutes les tâches, ainsi qu'une meilleure vitesse lors de la construction. Augmente encore la capacité maximale de stockage et de construction et donne au village des postes de travail supplémentaires pour les constructeurs."
       establishedStronghold:
         name:
-          text: "Established Stronghold"
+          text: "Forteresse établie"
         description:
-          text: "Grants a global speed bonus to all tasks, as well as an additional boost to building. Further increases maximum storage and building slots and gives the village additional builder job slots."
+          text: "Accorde un bonus de vitesse global à toutes les tâches, ainsi qu'une meilleure vitesse lors de la construction. Augmente encore la capacité maximale de stockage et de construction et donne au village des postes de travail supplémentaires pour les constructeurs."
       smallCastle:
         name:
-          text: "Small Castle"
+          text: "Petit château"
         description:
-          text: "Grants a global speed bonus to all tasks, as well as an additional boost to building. Further increases maximum storage and building slots and gives the village additional builder job slots."
+          text: "Accorde un bonus de vitesse global à toutes les tâches, ainsi qu'une meilleure vitesse lors de la construction. Augmente encore la capacité maximale de stockage et de construction et donne au village des postes de travail supplémentaires pour les constructeurs."
       largeCastle:
         name:
-          text: "Large Castle"
+          text: "Grand château"
         description:
-          text: "Grants a global speed bonus to all tasks, as well as an additional boost to building. Further increases maximum storage and building slots and gives the village additional builder job slots."
+          text: "Accorde un bonus de vitesse global à toutes les tâches, ainsi qu'une meilleure vitesse lors de la construction. Augmente encore la capacité maximale de stockage et de construction et donne au village des postes de travail supplémentaires pour les constructeurs."
     
     ancillary:
       small:
         name:
-          text: "Small Ancillary"
+          text: "Petit entrepôt"
         description:
-          text: "A support building that can store almost any resource. Provides addititional building slots, and organizers that will assist in cleaning up and distributing resources on the map."
+          text: "Un bâtiment de soutien qui peut stocker presque toutes les ressources. Fournit des emplacements de construction supplémentaires et des organisateurs qui aideront à ramasser et à distribuer les ressources sur la carte."
       base:
         name:
-          text: "Ancillary"
+          text: "Entrepôt"
         description:
-          text: "Increases the maximum storage, workers and building slots provided."
+          text: "Augmente l'espace de stockage, le nombre d'employés dans le bâtiment et le nombre d'emplacements de construction."
       large:
         name:
-          text: "Large Ancillary"
+          text: "Grand entrepôt"
         description:
-          text: "Further increases the maximum storage, workers and building slots provided."
+          text: "Augmente encore l'espace de stockage, le nombre d'employés dans le bâtiment et le nombre d'emplacements de construction."
       established:
         name:
-          text: "Established Ancillary"
+          text: "Entrepôt établi"
         description:
-          text: "Further increases the maximum storage, workers and building slots provided."
+          text: "Augmente encore l'espace de stockage, le nombre d'employés dans le bâtiment et le nombre d'emplacements de construction."
       reinforced:
         name:
-          text: "Reinforced Ancillary"
+          text: "Entrepôt renforcé"
         description:
-          text: "Increases the maximum storage, workers and building slots provided to maximum."
+          text: "Augmente l'espace de stockage, le nombre d'employés dans le bâtiment et le nombre d'emplacements de construction au maximum."
     
     ancientCullisGate:
       name:
-        text: "Ancient Cullis Gate"
+        text: "Ancien portail cullis"
       description:
-        text: "An ancient sacrificial pond that will convert material items and living tissue into essence when dropped inside. If used too fast, it will overload!"
+        text: "Un ancien bassin sacrificiel qui convertira les matériaux et les tissus vivants en essence lorsqu'ils seront lâchés à l'intérieur. S'il est utilisé trop rapidement, il surchargera !"
     
     ancientRadiancePool:
       name:
-        text: "Ancient Radiance Pool"
+        text: "Ancien bassin rayonnant"
       description:
-        text: "An ancient old pool that attracts monsters."
+        text: "Un bassin vieux et ancien qui attire les monstres."
     
     armorsmithy:
       makeshift:
         name:
-          text: "Makeshift Armorsmithy"
+          text: "Armurerie de fortune"
         description:
-          text: "Provides workers who can turn iron ingots into armor for your villagers. Requires a forge to process raw ore into ingots."
+          text: "Fournit des postes de travailleurs qui peuvent transformer les lingots de fer en armure pour vos villageois. Nécessite une forge pour transformer le minerai brut en lingots."
       base:
         name:
-          text: "Armorsmithy"
+          text: "Armurerie"
         description:
-          text: "Grants a global speed bonus to all armor manufacturing, increases maximum storage and gives the village an additional armorsmith job slot."
+          text: "Octroie un bonus de vitesse global de création d'armure, augmente le stockage maximum et ajoute un poste d'armurier supplémentaire."
       established:
         name:
-          text: "Established Armorsmithy"
+          text: "Armurerie établie"
         description:
-          text: "Increases global speed bonus to all armor manufacturing, increases maximum storage and gives the village an additional armorsmith job slot."
+          text: "Augmente le bonus de vitesse global de la création d'armure, augmente le stockage maximum et ajoute un poste d'armurier supplémentaire."
     
     ammoStorage:
       small:
         name:
-          text: "Small Ammo Storage"
+          text: "Petit stockage de munitions"
         description:
-          text: "A storage building that can hold ammo for your villager's equipment and towers."
+          text: "Un bâtiment de stockage qui peut contenir des munitions pour les tours l'équippement de vos villageois."
       base:
         name:
-          text: "Ammo Storage"
+          text: "Stockage de munitions"
         description:
-          text: "Increases the amount of ammo the building can store."
+          text: "Augmente la quantité de munitions que le bâtiment peut stocker."
       large:
         name:
-          text: "Large Ammo Storage"
+          text: "Grand stockage de munitions"
         description:
-          text: "Further increases the amount of ammo the building can store."
+          text: "Augmente de nouveau la quantité de munitions que le bâtiment peut stocker."
       established:
         name:
-          text: "Established Ammo Storage"
+          text: "Stockage de munitions établi"
         description:
-          text: "Further increases the amount of ammo the building can store."
+          text: "Augmente de nouveau la quantité de munitions que le bâtiment peut stocker."
       reinforced:
         name:
-          text: "Reinforced Ammo Storage"
+          text: "Stockage de munitions renforcé"
         description:
-          text: "Increases the amount of ammo the building can store to maximum."
+          text: "Augmente au maximum la quantité de munitions que le bâtiment peut stocker."
     
     attractTower:
       makeshift:
         name:
-          text: "Makeshift Attract Tower"
+          text: "Tour attractive de fortune"
         description:
-          text: "Detects nearby recently dropped resources and items and teleports them to the tower. Requires an essence collector to run."
+          text: "Détecte les items et ressources récemment lâchées à proximité et les téléporte sur la tour. Requiert un collecteur d'essence pour fonctionner."
       base:
         name:
-          text: "Attract Tower"
+          text: "Tour attractive"
         description:
-          text: "Increases firing speed, range and maximum energy storage, while reducing firing cost."
+          text: "Augmente la cadence de tir, la portée et la capacité en énergie, le tout en réduisant le coût par tir."
       established:
         name:
-          text: "Established Attract Tower"
+          text: "Tour attractive établie"
         description:
-          text: "Further increases firing speed, range and maximum energy storage, while further reducing firing cost."
+          text: "Augmente de nouveau la cadence de tir, la portée et la capacité en énergie, le tout en réduisant le coût par tir."
       reinforced:
         name:
-          text: "Reinforced Attract Tower"
+          text: "Tour attractive renforcée"
         description:
-          text: "Further increases firing speed, range and maximum energy storage, while further reducing firing cost."
+          text: "Augmente de nouveau la cadence de tir, la portée et la capacité en énergie, le tout en réduisant le coût par tir au maximum."
     
     ballistaTower:
       makeshift:
         name:
-          text: "Makeshift Ballista Tower"
+          text: "Balliste de fortune"
         description:
-          text: "A heavyweight tower with extremely long range and damage but has a slow firing rate. Can shoot over anything. Requires a bowyer to manufacture ballista bolts for ammunition."
+          text: "Une tour lourde avec une très longue portée et des dégâts très importants, mais avec une vitesse de tir lente. Peut tirer au dessus de n'importe quel bâtiment. Nécessite une archerie pour fabriquer les lances."
       base:
         name:
-          text: "Ballista Tower"
+          text: "Balliste"
         description:
-          text: "Increases maximum range, damage and ammunition storage of the tower."
+          text: "Augmente la portée, les dégâts et le stockage de munitions de la tour."
       established:
         name:
-          text: "Established Ballista Tower"
+          text: "Balliste établie"
         description:
-          text: "Further increases maximum range, damage and ammunition storage of the tower."
+          text: "Augmente à nouveau la portée, les dégâts et le stockage de munitions de la tour."
       fire:
         name:
-          text: "Fire Ballista Tower"
+          text: "Balliste de feu"
         description:
-          text: "Adds fire damage to the tower, but consumes energy to fire. If the energy reserves are exhausted, it will continue to fire regular ballista arrows until its ammunition runs out."
+          text: "Ajoute des dégâts de feu à la tour, mais consome de l'énergie pour tirer. Si les réserves d'énergie sont épuisées, elle continuera à tirer des lances ordinaires jusqu'à épuisement de ses munitions."
       poison:
         name:
-          text: "Poison Ballista Tower"
+          text: "Balliste de poison"
         description:
-          text: "Adds poison damage to the tower, but consumes energy to fire. If the energy reserves are exhausted, it will continue to fire regular ballista arrows until its ammunition runs out."
+          text: "Ajoute des dégâts de poison à la tour, mais consome de l'énergie pour tirer. Si les réserves d'énergie sont épuisées, elle continuera à tirer des lances ordinaires jusqu'à épuisement de ses munitions."
       ice:
         name:
-          text: "Ice Ballista Tower"
+          text: "Balliste de glace"
         description:
-          text: "Adds ice damage to the tower, but consumes energy to fire. If the energy reserves are exhausted, it will continue to fire regular ballista arrows until its ammunition runs out."
+          text: "Ajoute des dégâts de glace à la tour, mais consome de l'énergie pour tirer. Si les réserves d'énergie sont épuisées, elle continuera à tirer des lances ordinaires jusqu'à épuisement de ses munitions."
     
     banishTower:
       makeshift:
         name:
-          text: "Makeshift Banish Tower"
+          text: "Tour bannisseuse de fortune"
         description:
-          text: "A short range, slow firing tower that will find a nearby foe in the area, and banish them to a random location on the map."
+          text: "Une tour à faible portée et à faible cadence qui va trouver les ennemis proches et les bannire à un endroit aléatoire sur la carte"
       base:
         name:
-          text: "Banish Tower"
+          text: "Tour bannisseuse"
         description:
-          text: "Increases the maximum energy and fire rate of the tower."
+          text: "Augmente l'énergie maximum et la cadence de la tour."
       established:
         name:
-          text: "Established Banish Tower"
+          text: "Tour bannisseuse établie"
         description:
-          text: "Further increases the maximum energy and fire rate of the tower."
+          text: "Augmente de nouveau l'énergie maximum et la cadence de la tour."
       reinforced:
         name:
-          text: "Reinforced Banish Tower"
+          text: "Tour bannisseuse renforcée"
         description:
-          text: "Further increases the maximum energy and fire rate of the tower."
+          text: "Augmente de nouveau l'énergie maximum et la cadence de la tour."
     
     barracks:
       makeshift:
         name:
-          text: "Makeshift Barracks"
+          text: "Caserne de fortune"
         description:
-          text: "Provides and houses guards that will protect and patrol the village, also provides slightly better health regeneration than regular homes at the cost of energy and happiness generation."
+          text: "Fournit et héberge des gardes qui protégeront et patrouilleront le village, fournit également une régénération de la santé légèrement meilleure que les logements normaux au détriment de l'énergie et du bonheur."
       base:
         name:
-          text: "Barracks"
+          text: "Caserne"
         description:
-          text: "Increases provided guards, storage space and the health regeneration bonus of guards resting in the barracks."
+          text: "Augmente la quantité de gardes, la capacité de stockage et le bonus de régénération de vie lorsque les gardes se reposent."
       established:
         name:
-          text: "Established Barracks"
+          text: "Caserne établie"
         description:
-          text: "Adds a small bow tower to the barracks, as well as further increases provided guards, storage space and the health regeneration bonus of guards resting in the barracks."
+          text: "Ajoute une petite tour sur la caserne, et augmente de nouveau la quantité de gardes, la capacité de stockage et le bonus de régénération de vie lorsque les gardes se reposent."
     
     bottler:
       makeshift:
         name:
-          text: "Makeshift Bottler"
+          text: "Embouteilleur de fortune"
         description:
-          text: "Provides workers who can bottles up water so villagers can carry some around with them, improving overall village efficiency by cutting down on trips to water sources around the village."
+          text: "Fournit des ouvriers qui peuvent embouteiller l'eau pour que les villageois puissent transporter des bouteilles et ainsi augmenter l'efficacité du village en supprimant des allers-retours pour aller chercher de l'eau."
       base:
         name:
-          text: "Bottler"
+          text: "Embouteilleur"
         description:
-          text: "Grants a global speed bonus to all bottler manufacturing, increases maximum storage and gives the village an additional bottler job slot."
+          text: "Octroie une amélioration globale de la vitesse des embouteilleurs, augmente le stockage maximum et fournit un poste d'embouteilleur supplémentaire."
       established:
         name:
-          text: "Established Bottler"
+          text: "Embouteilleur établi"
         description:
-          text: "Increases global speed bonus to all bottler manufacturing, increases maximum storage and gives the village an additional bottler job slot."
+          text: "Augmente la vitesse globale des embouteilleurs, augmente le stockage maximum et fournit un poste d'embouteilleur supplémentaire."
     
     bowTower:
       makeshift:
         name:
-          text: "Makeshift Bow Tower"
+          text: "Tour d'archers de fortune"
         description:
-          text: "A lightweight tower with decent range that can fire over most walls. Good for early defenses. Requires a bowyer to manufacture ballista bolts for ammunition."
+          text: "Une tour légère avec une portée raisonnable qui peut tirer au dessus de la plupart des murs. A lightweight tower with decent range that can fire over most walls. Idéale en tant que première défense. Nécessite une archerie pour fabriquer des flèches."
       base:
         name:
-          text: "Bow Tower"
+          text: "Tour d'archers"
         description:
-          text: "Increases maximum range, damage, firing rate and ammunition storage of the tower."
+          text: "Augmente la portée, les dégâts, la cadence et le capacité de stockage maximale."
       established:
         name:
-          text: "Established Bow Tower"
+          text: "Tour d'archers établie"
         description:
-          text: "Further increases maximum range, damage, firing rate and ammunition storage of the tower."
+          text: "Augmente de nouveaula portée, les dégâts, la cadence et le capacité de stockage maximale."
       fire:
         name:
-          text: "Fire Bow Tower"
+          text: "Tour d'archers de feu"
         description:
-          text: "Adds fire damage to the tower, but consumes energy to fire. If the energy reserves are exhausted, it will continue to fire regular arrows until its ammunition runs out."
+          text: "Ajoute des dégâts de feu à la tour, mais consomme de l'énergie pour tirer. Si les réserves d'énergie sont épuisées, elle continuera à tirer des flèches ordinaires jusqu'à épuisement de ses munitions."
       poison:
         name:
-          text: "Poison Bow Tower"
+          text: "Tour d'archers de poison"
         description:
-          text: "Adds poison damage to the tower, but consumes energy to fire. If the energy reserves are exhausted, it will continue to fire regular arrows until its ammunition runs out."
+          text: "Ajoute des dégâts de poison à la tour, mais consomme de l'énergie pour tirer. Si les réserves d'énergie sont épuisées, elle continuera à tirer des flèches ordinaires jusqu'à épuisement de ses munitions."
       ice:
         name:
-          text: "Ice Bow Tower"
+          text: "Tour d'archers de glace"
         description:
-          text: "Adds ice damage to the tower, but consumes energy to fire. If the energy reserves are exhausted, it will continue to fire regular arrows until its ammunition runs out."
+          text: "Ajoute des dégâts de glace à la tour, mais consomme de l'énergie pour tirer. Si les réserves d'énergie sont épuisées, elle continuera à tirer des flèches ordinaires jusqu'à épuisement de ses munitions."
     
     bowyer:
       makeshift:
         name:
-          text: "Makeshift Bowyer"
+          text: "Archerie de fortune"
         description:
-          text: "Provides workers who can manufacture bows and arrows for villagers as well as tower ammunition for bow based towers, like the bow and ballista tower."
+          text: "Fournit des travailleurs qui peuvent fabriquer des arcs et des flèches pour les villageois et des munitions pour les ballistes et les tours d'archers."
       base:
         name:
-          text: "Bowyer"
+          text: "Archerie"
         description:
-          text: "Grants a global speed bonus to all bow and arrow manufacturing, increases maximum storage and gives the village an additional bowyer job slot."
+          text: "Octroie un bonus global de vitesse à la fabrication d'arcs, de flèches et de lances, augmente le stockage maximum et fournit un poste de facteur d'arc supplémentaire."
       established:
         name:
-          text: "Established Bowyer"
+          text: "Archerie établie"
         description:
-          text: "Increases global speed bonus to all bow and arrow manufacturing, increases maximum storage and gives the village an additional bowyer job slot."
+          text: "Augmente bonus global de vitesse de fabrication d'arcs, de flèches et de lances, augmente le stockage maximum et fournit un poste de facteur d'arc supplémentaire."
     
     bulletTower:
       makeshift:
         name:
-          text: "Makeshift Bullet Tower"
+          text: "Tourelle de fortune"
         description:
-          text: "A lightweight tower that can fire over most walls. Good for early defenses. Requires a rock tumbler to manufacture bullets for ammunition."
+          text: "Une tour légère qui peut tirer au dessus de la plupart des murs. Idéale comme première défense. Requiert un fabricant de cartouche pour les munitions."
       base:
         name:
-          text: "Bullet Tower"
+          text: "Tourelle"
         description:
-          text: "Increases damage and ammunition storage of the tower."
+          text: "Augmente les dégâts et la capacité de stockage de munitions de la tour."
       established:
         name:
-          text: "Established Bullet Tower"
+          text: "Tourelle établie"
         description:
-          text: "Further increases damage and ammunition storage of the tower."
+          text: "Augmente de nouveau les dégâts et la capacité de stockage de munitions de la tour."
       fire:
         name:
-          text: "Fire Bullet Tower"
+          text: "Tourelle de feu"
         description:
-          text: "Adds fire damage to the tower, but consumes energy to fire. If the energy reserves are exhausted, it will continue to fire regular bullets until its ammunition runs out."
+          text: "Ajoute des dégâts de feu à la tour, mais consomme de l'énergie pour tirer. Si les réserves d'énergie sont épuisées, elle continuera à tirer des balles ordinaires jusqu'à épuisement de ses munitions."
       lightning:
         name:
-          text: "Lightning Bullet Tower"
+          text: "Tourelle-éclaie"
         description:
-          text: "Adds lightning damage to the tower, but consumes energy to fire. If the energy reserves are exhausted, it will continue to fire regular bullets until its ammunition runs out."
+          text: "Ajoute des dégâts de foudre à la tour, mais consomme de l'énergie pour tirer. Si les réserves d'énergie sont épuisées, elle continuera à tirer des balles ordinaires jusqu'à épuisement de ses munitions."
       ice:
         name:
-          text: "Ice Bullet Tower"
+          text: "Tourelle de glace"
         description:
-          text: "Adds ice damage to the tower, but consumes energy to fire. If the energy reserves are exhausted, it will continue to fire regular bullets until its ammunition runs out."
+          text: "Ajoute des dégâts de glace à la tour, mais consomme de l'énergie pour tirer. Si les réserves d'énergie sont épuisées, elle continuera à tirer des balles ordinaires jusqu'à épuisement de ses munitions."
     
     clinic:
       makeshift:
         name:
-          text: "Makeshift Clinic"
+          text: "Clinique de fortune"
         description:
-          text: "An aid station that provides medics who can heal the sick and wounded, as well as manufacture bandages villagers can carry with them to heal themselves in a pinch."
+          text: "Un poste de secours qui fournit des médecins qui peuvent soigner les malades et les blessés, ainsi que fabriquer des bandages que les villageois peuvent emporter avec eux pour se soigner eux-mêmes en un clin d'œil."
       base:
         name:
-          text: "Clinic"
+          text: "Clinique"
         description:
-          text: "Grants a global speed bonus to all bandage and medkit manufacturing, increases maximum storage and gives the village additional medic job slots."
+          text: "Octoire un bonus de vitesse global à la fabrication de trousses de premier soin et de bandages, augmente la capacité de stockage et donne des postes de médecin suplémentaires."
       established:
         name:
-          text: "Established Clinic"
+          text: "Clinique établie"
         description:
-          text: "Increases global speed bonus to all bandage and medkit manufacturing, increases maximum storage and gives the village additional medic job slots."
+          text: "Augmente le bonus de vitesse global de fabrication de trousses de premier soin et de bandages, augmente la capacité de stockage et donne des postes de médecin suplémentaires."
     
     crystalGolemCombobulator:
       makeshift:
         name:
-          text: "Makeshift Crystal Golem Combobulator"
+          text: "Combobulateur de golem de cristal de fortune"
         description:
-          text: "A host building that consumes energy and nearby crystals, creating defensive crystal golems with a ranged attack that will protect the village."
+          text: "Un bâtiment hôte qui consomme de l'énergie et les cristaux à proximité, créant des golems de cristal de défense attaquant à distance qui protégeront le village."
       base:
         name:
-          text: "Crystal Golem Combobulator"
+          text: "Combobulateur de golem de cristal"
         description:
-          text: "Increases how many crystal golems the combobulator can maintain, as well as increases the levels of newly spawned golems, but cost slightly more energy to produce a new golem."
+          text: "Augmente la quantité de golems que le combobulateur peut maintenir, augmente aussi le niveau des golems lorsqu'ils apparaissent, mais coûte un peu plus d'énergie lors de la production des golems."
       established:
         name:
-          text: "Established Crystal Golem Combobulator"
+          text: "Combobulateur de golem de cristal établi"
         description:
-          text: "Increases how many crystal golems the combobulator can maintain, as well as increases the levels of newly spawned golems, but cost slightly more energy to produce a new golem."
+          text: "Augmente la quantité de golems que le combobulateur peut maintenir, augmente aussi le niveau des golems lorsqu'ils apparaissent, mais coûte un peu plus d'énergie lors de la production des golems."
       lightning:
         name:
-          text: "Lightning Crystal Golem Combobulator"
+          text: "Combobulateur de golem-éclair de cristal"
         description:
-          text: "Increases how many crystal golems the combobulator can maintain, another level boost, as well as gives newly spawned golems lightning damage, but cost more energy to produce a new golem."
+          text: "Augmente la quantité de golems que le combobulateur peut maintenir, augmente encore l niveau d'apparition, et donne aussi des dégâts de foudre aux golems, mais coûte un peu plus d'énergie lors de la production des golems."
       ice:
         name:
-          text: "Ice Crystal Golem Combobulator"
+          text: "Comboblateur de golem de cristal de glace"
         description:
-          text: "Increases how many crystal golems the combobulator can maintain, another level boost, as well as gives newly spawned golems ice damage, but cost more energy to produce a new golem."
+          text: "Augmente la quantité de golems que le combobulateur peut maintenir, augmente encore l niveau d'apparition, et donne aussi des dégâts de glace aux golems, mais coûte un peu plus d'énergie lors de la production des golems."
       fire:
         name:
-          text: "Fire Crystal Golem Combobulator"
+          text: "Combobulateur de golem de feu"
         description:
-          text: "Increases how many crystal golems the combobulator can maintain, another level boost, as well as gives newly spawned golems fire damage, but cost more energy to produce a new golem."
+          text: "Augmente la quantité de golems que le combobulateur peut maintenir, augmente encore l niveau d'apparition, et donne aussi des dégâts de feu aux golems, mais coûte un peu plus d'énergie lors de la production des golems."
     
     crystalHarvestry:
       makeshift:
         name:
-          text: "Makeshift Crystal Harvestry"
+          text: "Exploitation de cristaux de fortune"
         description:
-          text: "Provides workers to harvest large quantities of crystal and create a stockpile, a staple resource in most magic based construction."
+          text: "Fournit des travailleurs qui peuvent récolter de larges quantités de cristaux et faire des réserves, une ressource de base dans la plupart des constructions basées sur la magie."
       base:
         name:
-          text: "Crystal Harvestry"
+          text: "Exploitation de cristaux"
         description:
-          text: "Grants a global speed bonus to all crystal harvesting, increases maximum storage and gives the village additional crystal harvester job slots."
+          text: "Octroie un bonus de vitesse global à la récolte de cristaux, augmente la capacité de stockage et donne un poste de travailleur supplémentaire."
       established:
         name:
-          text: "Established Crystal Harvestry"
+          text: "Exploitations de cristaux établie"
         description:
-          text: "Increases global speed bonus to all crystal harvesting, increases maximum storage and gives the village additional crystal harvester job slots."
+          text: "Augmente le bonus de vitesse global de récolte de cristaux, augmente la capacité de stockage et donne un poste de travailleur supplémentaire."
     
     crystalMotivator:
       name:
-        text: "Crystal Motivator"
+        text: "Motivateur de cristaux"
       description:
-        text: "Uses a small amount of energy to encourage nearby harvested crystal patches to grow faster."
+        text: "Utilise une petite quantité d'énergie pour encourager la croissance des cristaux proches."
     
     crystalStorage:
       small:
         name:
-          text: "Small Crystal Storage"
+          text: "Petit stockage de cristaux"
         description:
-          text: "A storage building that can hold crystals, crylithium and other crystal based materials."
+          text: "Un bâtiment de stockage qui peut contenir des cristaux, de crylithium, et d'autres matériaux à base de cristaux."
       base:
         name:
-          text: "Crystal Storage"
+          text: "Stockage de cristaux"
         description:
-          text: "Increases the amount of crystals, crylithium and other crystal based materials the building can store."
+          text: "Augmente la quantité de cristaux, de crylithium et d'autres matériaux à base de cristaux que le bâtiment peut stocker."
       large:
         name:
-          text: "Large Crystal Storage"
+          text: "Grand stockage de cristaux"
         description:
-          text: "Further increases the amount of crystals, crylithium and other crystal based materials the building can store."
+          text: "Augmente de nouveau la quantité de cristaux, de crylithium et d'autres matériaux à base de cristaux que le bâtiment peut stocker."
       established:
         name:
-          text: "Established Crystal Storage"
+          text: "Stokcage de cristaux établi"
         description:
-          text: "Further increases the amount of crystals, crylithium and other crystal based materials the building can store."
+          text: "Augmente de nouveau la quantité de cristaux, de crylithium et d'autres matériaux à base de cristaux que le bâtiment peut stocker."
       reinforced:
         name:
-          text: "Reinforced Crystal Storage"
+          text: "Stockage de cristaux renforcé"
         description:
-          text: "Increases the amount of crystals, crylithium and other crystal based materials the building can store to maximum."
+          text: "Augmente la quantité de cristaux, de crylithium et d'autres matériaux à base de cristaux que le bâtiment peut stocker au maximum."
     
     crystillery:
       makeshift:
         name:
-          text: "Makeshift Crystillery"
+          text: "Cristallerie de fortune"
         description:
-          text: "Provides workers who refine crystals harvested by the crystal harvestry into crylithium, a fuel that can be used to charge essence collectors, and is used in some construction."
+          text: "Fournit des travailleurs qui peuvent raffiner les cristaux récoltés par les exploitations de cristaix en crylithium, un combustible qui peut être utilisé pour recharger les collecteurs d'essence, et est utilisé dans quelques constructions."
       base:
         name:
-          text: "Crystillery"
+          text: "Cristallerie"
         description:
-          text: "Grants a global speed bonus to crylithium manufacturing, increases maximum storage and gives the village an additional crystiller job slot."
+          text: "Octroie un bonus de vitesse global à la fabrication de cristaux, augmente la capacité de stockage et donne un poste de travailleur supplémentaire."
       established:
         name:
-          text: "Established Crystillery"
+          text: "Cristallerie établie"
         description:
-          text: "Increases global speed bonus to crylithium manufacturing, increases maximum storage and gives the village an additional crystiller job slot."
+          text: "Améliore le bonus de vitesse global de fabrication de cristaux, augmente la capacité de stockage et donne un poste de travailleur supplémentaire."
     
     cullisGate:
       name:
-        text: "Cullis Gate"
+        text: "Portail cullis"
       description:
-        text: "A sacrificial pond that will convert material items and living tissue into essence when dropped inside. If used too fast, it will overload!"
+        text: "Un bassin sacrificiel qui convertira les matériaux et les tissus vivants en essence lorsqu'ils seront lâchés à l'intérieur. S'il est utilisé trop rapidement, il surchargera !"
     
     doggoHouse:
       name:
-        text: "Doggo House"
+        text: "Niche"
       description:
-        text: "A small house for your doggos to quickly recharge! If you already have doggos living in your housing, they will attempt to move into the doggo house, freeing up space for your villagers."
+        text: "Une petite maison pour vos chiens pour qu'ils se reposent rapidement ! Si des chiens vivent déjà dans les logements, ils essaieront de venir dans la niche, libérant ainsi de l'espace pour vos villageois."
     
     equipmentStorage:
       small:
         name:
-          text: "Small Equipment Storage"
+          text: "Petit stockage d'équipement"
         description:
-          text: "A storage building for most of the villager's tools, armor, weapons and other equipment."
+          text: "Un bâtiment de stockage pour les outils, l'armure, les armes et les autres équipements de vos villageois."
       base:
         name:
-          text: "Equipment Storage"
+          text: "Stockage d'équipement"
         description:
-          text: "Increases the amount of tools, armor, weapons and other equipment the building can store."
+          text: "Augmente la capacité de stockage d'outils, d'armure, d'armes et des autres équipements que le bâtiment peut stocker."
       large:
         name:
-          text: "Large Equipment Storage"
+          text: "Grand stockage d'équipement"
         description:
-          text: "Further increases the amount of tools, armor, weapons and other equipment the building can store."
+          text: "Augmente de nouveau la capacité de stockage d'outils, d'armure, d'armes et des autres équipements que le bâtiment peut stocker"
       established:
         name:
-          text: "Established Equipment Storage"
+          text: "Stockage d'équipement établi"
         description:
-          text: "Further increases the amount of tools, armor, weapons and other equipment the building can store."
+          text: "Augmente de nouveau la capacité de stockage d'outils, d'armure, d'armes et des autres équipements que le bâtiment peut stocker"
       reinforced:
         name:
-          text: "Reinforced Equipment Storage"
+          text: "Stockage d'équipement renforcé"
         description:
-          text: "Increases the amount of tools, armor, weapons and other equipment the building can store to maximum."
+          text: "Augmente la capacité de stockage d'outils, d'armure, d'armes et des autres équipements que le bâtiment peut stocker au maximum"
     
     essenceCollector:
       makeshift:
         name:
-          text: "Makeshift Essence Collector"
+          text: "Collecteur d'essence de fortune"
         description:
-          text: "Pulls in and stores loose essence on the map to later be used by other buildings, crystillers can also throw crylithium to charge it. You can wave your hand over it to sap energy in a pinch."
+          text: "Attire et stocke l'essence sur la carte pour être utilisée plus tard par d'autres bâtiments, les tailleurs de cristaux peuvent aussi y lancer du crylithium pour le charger. Vous pouvez agiter votre main au dessus pour récupérer de l'énergie."
       base:
         name:
           text: "Essence Collector"
         description:
-          text: "Increases the overall storage capacity of the essence collector, as well as boosts the energy generation rate when fueled with crylithium."
+          text: "Augmente la capacité de stockage du collecteur d'essence, et augmente le taux de production d'énergie quand il est alimenté en crylithium."
       established:
         name:
-          text: "Established Essence Collector"
+          text: "Collecteur d'essence établi"
         description:
-          text: "Further increases the overall storage capacity of the essence collector, as well as boosts the energy generation rate when fueled with crylithium."
+          text: "Augmente de nouveau la capacité de stockage du collecteur d'essence, et augmente le taux de production d'énergie quand il est alimenté en crylithium."
     
     elementalBoltTower:
       makeshift:
         name:
-          text: "Makeshift Elemental Bolt Tower"
+          text: "Tour-éclair de fortune"
         description:
-          text: "Fires energy blasts with splash damage at nearby enemies. Requires an essence collector to run."
+          text: "Tire des rafales d'énergie et inflige des dégâts aux ennemis proches. Nécessite un collecteur d'essence pour fonctionner."
       base:
         name:
-          text: "Elemental Bolt Tower"
+          text: "Tour-éclair"
         description:
-          text: "Increases the tower's damage and firing rate."
+          text: "Augmente les dégâts et la cadence de tir de la tour."
       established:
         name:
-          text: "Established Elemental Bolt Tower"
+          text: "Tour-éclair établie"
         description:
-          text: "Further increases the tower's damage and firing rate."
+          text: "Augmente de nouveau les dégâts et la cadence de tir de la tour."
       fire:
         name:
-          text: "Fire Bolt Tower"
+          text: "Tour-éclair de feu"
         description:
-          text: "Further increases the tower's damage, and converts a large amount of the damage into fire."
+          text: "Augmente de nouveau les dégâts et la cadence de tir de la tour et convertit une grande partie des dégâts en feu."
       lightning:
         name:
-          text: "Lightning Bolt Tower"
+          text: "Tour-éclair à foudre"
         description:
-          text: "Further increases the tower's damage, and converts a large amount of the damage into lightning."
+          text: "Augmente de nouveau les dégâts et la cadence de tir de la tour et convertit une grande partie des dégâts en foudre."
       ice:
         name:
-          text: "Ice Bolt Tower"
+          text: "tour-éclair de glace"
         description:
-          text: "Further increases the tower's damage, and converts a large amount of the damage into ice."
+          text: "Augmente de nouveau les dégâts et la cadence de tir de la tour et convertit une grande partie des dégâts en glace."
     
     farm:
       makeshift:
         name:
-          text: "Makeshift Farm"
+          text: "Ferme de fortune"
         description:
-          text: "Grow food to feed the village. Requires farmers to harvest wild food to seed the farm. Farmers can tend and water the crops to increase growth speed! Farms don't work well in the Summer or Winter."
+          text: "Cultive de la nourriture pour nourrir le village. Requiert des agriculteurs pour récolter de la nourriture sauvage et en planter dans la ferme. Les agriculteurs peuvent entretenir et arroser les plantations afin d'améliorer la vitesse de croissance ! Les fermes ne marchent pas très bien en été et en hiver."
       base:
         name:
-          text: "Farm"
+          text: "Ferme"
         description:
-          text: "Grants a global speed bonus to all food harvesting, increases maximum storage, gives the village additional farmer job slots and adds extra space for crops."
+          text: "Octroie un bonus de vitesse global à la récolte de nourriture, augmente la capacité de stockage, donne un poste d'agriculteur additionnel et ajoute de l'espace pour les plantations."
       established:
         name:
-          text: "Established Farm"
+          text: "Ferme établie"
         description:
-          text: "Increases global speed bonus to all food harvesting, increases maximum storage, gives the village additional farmer job slots and adds extra space for crops."
+          text: "Augmente le bonus de vitesse global de récolte de nourriture, augmente la capacité de stockage, donne un poste d'agriculteur additionnel et ajoute de l'espace pour les plantations"
     
     firePit:
       name:
-        text: "Fire Pit"
+        text: "Foyer"
       description:
-        text: "Just a basic light source. Will also increase your build range a bit! Monsters won't attack it, so feel free to build it into your walls."
+        text: "Juste une source de lumière de base. Augmente aussi un peu la portée de construction ! Les monstres ne l'attaqueront pas, alors n'hésitez pas à l'intégrer dans vos murs."
     
     largeFirePit:
       name:
-        text: "Large Fire Pit"
+        text: "Grand foyer"
       description:
-        text: "Just a basic light source, but slightly bigger! Will also increase your build range a bit! Monsters won't attack it, so feel free to build it into your walls."
+        text: "Juste une source de, mais un peu plus grande. Augmente aussi un peu la portée de construction  ! Les monstres ne l'attaqueront pas, alors n'hésitez pas à l'intégrer dans vos murs."
     
     foodStorage:
       small:
         name:
-          text: "Small Food Storage"
+          text: "Petit stockage de nourriture"
         description:
-          text: "A storage building that can hold food stuffs."
+          text: "Un bâtiment de stockage qui peut contenir de la nourriture."
       base:
         name:
-          text: "Food Storage"
+          text: "Stockage de nourriture"
         description:
-          text: "Increases the amount of food stuffs the building can store."
+          text: "Augmente la quantité de nourriture qui peut être stockée dans le bâtiment."
       large:
         name:
-          text: "Large Food Storage"
+          text: "Grand stockage de nourriture"
         description:
-          text: "Further increases the amount of food stuffs the building can store."
+          text: "Augmente de nouveau la quantité de nourriture qui peut être stockée dans le bâtiment"
       established:
         name:
-          text: "Established Food Storage"
+          text: "Stockage de nourriture établi"
         description:
-          text: "Further increases the amount of food stuffs the building can store."
+          text: "Augmente de nouveau la quantité de nourriture qui peut être stockée dans le bâtiment"
       reinforced:
         name:
-          text: "Reinforced Food Storage"
+          text: "Stockage de nourriture renforcé"
         description:
-          text: "Increases the amount of food stuffs the building can store to maximum."
+          text: "Augmente la quantité de nourriture qui peut être stockée dans le bâtiment au maximum"
     
     forge:
       makeshift:
         name:
-          text: "Makeshift Forge"
+          text: "Fonderie de fortune"
         description:
-          text: "Provides workers who can smelt ore into ingots, and gold ingots into gold coins to use later to buy goods in the marketplace."
+          text: "Fournit des travailleurs qui peuvent fondre les minerais en lingots et les lingots d'or en pièces d'or qui peuvent être utilisées pour acheter des biens sur le marché."
       base:
         name:
-          text: "Forge"
+          text: "Fonderie"
         description:
-          text: "Grants a global speed bonus to all ore smelting, increases maximum storage and gives the village additional smelter job slots."
+          text: "Octroie un bonus global de vitesse à la fonderie, augmente la capacité de stockage et donne un poste de fondeur."
       established:
         name:
-          text: "Established Forge"
+          text: "Fonderie établie"
         description:
-          text: "Increases global speed bonus to all ore smelting, increases maximum storage and gives the village additional smelter job slots."
+          text: "Augmente le bonus global de vitesse de la fonderie, augmente la capacité de stockage et donne un poste de fondeur."
     
     goldStorage:
       small:
         name:
-          text: "Small Gold Storage"
+          text: "Petit stockage d'or"
         description:
-          text: "A storage building that can hold overflow gold and gold ingots."
+          text: "Un bâtiment de stockage qui peut contenir les surplus d'or et de lingots d'or."
       base:
         name:
-          text: "Gold Storage"
+          text: "Stockage d'or"
         description:
-          text: "Increases the amount of gold and gold ingots the building can store."
+          text: "Augmente la quantité d'or et de lingots d'or que le bâtiment peut stocker."
       large:
         name:
-          text: "Large Gold Storage"
+          text: "Grand stockage d'or"
         description:
-          text: "Further increases the amount of gold and gold ingots the building can store."
+          text: "Augmente de nouveau la quantité d'or et de lingots d'or que le bâtiment peut stocker."
       established:
         name:
-          text: "Established Gold Storage"
+          text: "Stockage d'or établi"
         description:
-          text: "Further increases the amount of gold and gold ingots the building can store."
+          text: "Augmente de nouveau la quantité d'or et de lingots d'or que le bâtiment peut stocker."
       reinforced:
         name:
-          text: "Reinforced Gold Storage"
+          text: "Stockage d'or renforcé"
         description:
-          text: "Increases the amount of gold and gold ingots the building can store to maximum."
+          text: "Augmente la quantité d'or et de lingots d'or que le bâtiment peut stocker au maximum."
     
     housing:
       base:
         name:
-          text: "Housing"
+          text: "Logement"
       makeshift:
         name:
-          text: "Makeshift Housing"
+          text: "Logement de fortune"
         description:
-          text: "Foundation for new housing in your village, can be upgraded for higher occupancy, quality or a balance of both. Always want to make sure you have enough housing for everybody!"
+          text: "Fondation pour de nouveaux logements dans votre village, peut être amélioré pour une meilleure capacité, qualité ou un équilibre entre les deux. Vous devriez toujours vous assurer d'avoir suffisamment de logements pour tout le monde !"
       baseHighOccupancy:
         name:
-          text: "High Occupancy Housing"
+          text: "Logement à taux d'occupation élevé"
         description:
-          text: "Greatly increases the maximum occupancy and storage space, but at the cost of comfort. This is a good selection when overpopulation is a problem."
+          text: "Augmente grandement l'occupation et le stockage de la maison au coût du confort. C'est un bon choix en cas de surpopulation."
       largeHighOccupancy:
         name:
-          text: "Large High Occupancy Housing"
+          text: "Grande logement à taux d'occupation élevé"
         description:
-          text: "Further increases the maximum occupancy and storage space, but at an additional cost to comfort."
+          text: "Augmente de nouveau l'occupation et le stockage maximal de la maison à un coût plus important de confort."
       establishedHighOccupancy:
         name:
-          text: "Established High Occupancy Housing"
+          text: "Logement à taux d'occupation élevé établi"
         description:
-          text: "Further increases the maximum occupancy and storage space, but at an additional cost to comfort."
+          text: "Augmente de nouveau l'occupation et le stockage maximal de la maison à un coût plus important de confort."
       reinforcedHighOccupancy:
         name:
-          text: "Reinforced High Occupancy Housing"
+          text: "Logement à taux d'occupation élevé renforcé"
         description:
-          text: "Increases the maximum occupancy and storage space to the maximum levels high occupancy housing can have, but has the lowest comfort of any building in the game."
+          text: "Augmente l'occupation et d'espace de rangement jusqu'aux niveau maximal, mais offre le confort le plus bas de tous les bâtiments du jeu."
       baseStandard:
         name:
-          text: "Standard Housing"
+          text: "Logement standard"
         description:
-          text: "Increases the maximum occupancy, storage space and comfort fairly evenly. This is a good selection for a village where you want some space for villagers, but don't want the drawbacks of high occupancy."
+          text: "Augmente l'occupation maximale, l'espace de rangement et le confort de façon assez uniforme. C'est un bon choix pour un village où vous voulez de l'espace pour les villageois, mais ne voulez pas les inconvénients d'un taux d'occupation élevé."
       largeStandard:
         name:
-          text: "Large Standard Housing"
+          text: "Grand logement standard"
         description:
-          text: "Further increases the maximum occupancy, storage space and comfort."
+          text: "Augmente de nouveau l'occupation, le stockage et le confort maximal."
       establishedStandard:
         name:
-          text: "Established Standard Housing"
+          text: "Logement standard établi"
         description:
-          text: "Further increases the maximum occupancy, storage space and comfort."
+          text: "Augmente de nouveau l'occupation, le stockage et le confort maximal."
       reinforcedStandard:
         name:
-          text: "Reinforced Standard Housing"
+          text: "Logement standard renforcé"
         description:
-          text: "Increases the maximum occupancy, storage space and comfort to the maximum levels standard housing can have."
+          text: "Augmente l'occupation, le stockage et le confort maximal au niveau maximal qu'un logement standard peut avoir."
       baseHighQuality:
         name:
-          text: "High Quality Housing"
+          text: "Logement de haute qualité"
         description:
-          text: "Very slightly increases the maximum occupancy and storage space, but greatly increases comfort. This is good housing if you want the happiest and most productive villagers."
+          text: "Augmente très légèrement l'espace maximal d'occupation et de rangement, mais augmente considérablement le confort. C'est un bon logement si vous voulez les villageois les plus heureux et les plus productifs."
       largeHighQuality:
         name:
-          text: "Large High Quality Housing"
+          text: "Grand logement de haute qualité"
         description:
-          text: "Further increases the maximum occupancy, storage space and comfort."
+          text: "Augmente de nouveau l'occupation, le stockage et le confort maximal."
       establishedHighQuality:
         name:
-          text: "Established High Quality Housing"
+          text: "Logement de haute qualité établi"
         description:
-          text: "Further increases the maximum occupancy, storage space and comfort."
+          text: "Augmente de nouveau l'occupation, le stockage et le confort maximal."
       reinforcedHighQuality:
         name:
-          text: "Reinforced High Quality Housing"
+          text: "Logement de haute qualité renforcé"
         description:
-          text: "Increases the maximum occupancy, storage space and comfort to the maximum levels high quality housing can have."
+          text: "Augmente l'occupation, le stockage et le confort maximum au niveau maximal qu'un logement de haute qualité peut avoir."
     
     keyShack:
       small:
         name:
-          text: "Small Key Shack"
+          text: "Petite cabane à clés"
         description:
-          text: "A shack for your keys!"
+          text: "Une cabane pour vos clés !"
       base:
         name:
-          text: "Key Shack"
+          text: "Cabane à clés"
         description:
-          text: "Increases the amount of keys the building can store."
+          text: "Augmente la quantité de clés qui peuvent être stockées dans ce bâtiment."
       large:
         name:
-          text: "Large Key Shack"
+          text: "Grande cabane à clés"
         description:
-          text: "Further increases the amount of keys the building can store."
+          text: "Augmente à nouveau la quantité de clés qui peuvent être stockées dans ce bâtiment."
       established:
         name:
-          text: "Established Key Shack"
+          text: "Cabane à clés établie"
         description:
-          text: "Further increases the amount of keys the building can store."
+          text: "Augmente à nouveau la quantité de clés qui peuvent être stockées dans ce bâtiment."
       reinforced:
         name:
-          text: "Reinforced Key Shack"
+          text: "Cabane à clés renforcée"
         description:
-          text: "Increases the amount of keys the building can store to maximum."
+          text: "Augmente la quantité de clés qui peuvent être stockées dans ce bâtiment au maximum."
     
     largeFountain:
       name:
-        text: "Large Fountain"
+        text: "Grande fontaine"
       description:
-        text: "A place your villagers can go to get a refreshing drink. Works best with a well, raincatcher or water purifier and well masters to supply the fountain."
+        text: "Un endroit où vos villageois peuvent aller se rafraîchir. Fonctionne mieux avec un puits, un collecteur d'eau ou un purificateur d'eau et des responsables de l'eau pour alimenter la fontaine."
     
     lootBox:
       clicked:
-        text: "Locked?!"
+        text: "Fermé ?!"
       name:
-        text: "Loot Box?!"
+        text: "Coffre à butin ?!"
       description:
-        text: "Seriously? In a single player game?!"
+        text: "Sérieusement ? Dans un jeu solo ?!"
     
     lightningRod:
       makeshift:
         name:
-          text: "Makeshift Lightning Rod"
+          text: "Parratonnerre de fortune"
         description:
-          text: "A large rod of iron that will attract lightning, and convert it to essence. Very handy to protect the village from lightning storms."
+          text: "Une grosse barre de fer qui attirera la foudre et la convertira en essence. Très pratique pour protéger le village des orages."
       lightning:
         name:
-          text: "Lightning Rod"
+          text: "Parratonnerre"
         description:
-          text: "Increases the amount of energy the rod can store and boosts overall hit points."
+          text: "Augmente la quantité d'énergie que la tige peut stocker et augmente les points de vie."
       established:
         name:
-          text: "Established Lightning Rod"
+          text: "Parratonnerre établi"
         description:
-          text: "Increases the amount of energy the rod can store and the lightning rod's hit points to maximum."
+          text: "Augmente la quantité d'énergie que la tige peut stocker et augmente les points de vie au maximum."
     
     corruptedGraveyardSmall:
       name:
-        text: "Corrupted Graveyard"
+        text: "Cimetière corrompu"
       description:
-        text: "A corrupted building created in the depths of corrupted land."
+        text: "Un bâtiment corrompu créé aux tréfonds des terres corrompues."
     
     corruptedGraveyardMedium:
       name:
-        text: "Corrupted Graveyard"
+        text: "Cimetière corrompu"
       description:
-        text: "A corrupted building created in the depths of corrupted land."
+        text: "Un bâtiment corrompu créé aux tréfonds des terres corrompues."
     
     corruptedGraveyardLarge:
       name:
-        text: "Corrupted Graveyard"
+        text: "Cimetière corrompu"
       description:
-        text: "A corrupted building created in the depths of corrupted land."
+        text: "Un bâtiment corrompu créé aux tréfonds des terres corrompues."
     
     corruptedFireBowTower:
       name:
-        text: "Corrupted Fire Bow Tower"
+        text: "Tour d'archers de feu corrompue"
       description:
-        text: "A lightweight corrupted tower with decent range that can fire over most walls."
+        text: "Une tour légère avec une portée raisonnable qui peut tirer au dessus de la plupart des murs."
     
     corruptedIceBowTower:
       name:
-        text: "Corrupted Ice Bow Tower"
+        text: "Tour d'archers de glace corrompue"
       description:
-        text: "A lightweight corrupted tower with decent range that can fire over most walls."
+        text: "Une tour légère avec une portée raisonnable qui peut tirer au dessus de la plupart des murs."
     
     corruptedPoisonBowTower:
       name:
-        text: "Corrupted Poison Bow Tower"
+        text: "Tour d'archers de poison corrompue"
       description:
-        text: "A lightweight corrupted tower with decent range that can fire over most walls."
+        text: "Une tour légère avec une portée raisonnable qui peut tirer au dessus de la plupart des murs."
     
     corruptedLightningBowTower:
       name:
-        text: "Corrupted Lightning Bow Tower"
+        text: "Tour-éclair d'archers corrompue"
       description:
-        text: "A lightweight corrupted tower with decent range that can fire over most walls."
+        text: "Une tour légère avec une portée raisonnable qui peut tirer au dessus de la plupart des murs."
     
     corruptedFirePhantomDartTower:
       name:
-        text: "Corrupted Fire Phantom Dart Tower"
+        text: "Tour à fléchettes fantômes de feu corrompue"
       description:
-        text: "A small tower that fires low level magic damage and can be walked over."
+        text: "Une petite tour qui inflige des dégâts magiques de bas niveau et sur laquelle on peut marcher."
     
     corruptedIcePhantomDartTower:
       name:
-        text: "Corrupted Ice Phantom Dart Tower"
+        text: "Tour à fléchettes fantômes de glace corrompue"
       description:
-        text: "A small tower that fires low level magic damage and can be walked over."
+        text: "Une petite tour qui inflige des dégâts magiques de bas niveau et sur laquelle on peut marcher."
     
     corruptedPoisonPhantomDartTower:
       name:
-        text: "Corrupted Poison Phantom Dart Tower"
+        text: "Tour à fléchettes fantômes de poison corrompue"
       description:
-        text: "A small tower that fires low level magic damage and can be walked over."
+        text: "Une petite tour qui inflige des dégâts magiques de bas niveau et sur laquelle on peut marcher."
     
     corruptedLightningPhantomDartTower:
       name:
-        text: "Corrupted Lightning Phantom Dart Tower"
+        text: "Tour à fléchettes-éclair fantômes corrompue"
       description:
-        text: "A small tower that fires low level magic damage and can be walked over."
+        text: "Une petite tour qui inflige des dégâts magiques de bas niveau et sur laquelle on peut marcher."
     
     corruptedLargeFirePit:
       name:
-        text: "Corrupted Large Fire Pit"
+        text: "Grand foyer corrompu"
       description:
-        text: "Just a basic, but slightly larger light source, for the corruption."
+        text: "Juste une source de lumière de base, mais un peu plus large, pour la corruption."
     
     corruptedFirePit:
       name:
-        text: "Corrupted Fire Pit"
+        text: "Foyer corrompu"
       description:
-        text: "Just a basic light source, for the corruption."
+        text: "Juste une source de lumière de base, pour la corruption."
     
     courierStation:
       makeshift:
         name:
-          text: "Makeshift Courier Station"
+          text: "Station de courrier de fortune"
         description:
-          text: "A host building creates courier golems used to deliver resources to nearby regions. Also provides courier suppliers who can deliver the resources to the golems to prepare them for departure."
+          text: "Un bâtiment hôte qui crée des golems-facteurs utilisés pour livrer les ressources aux régions adjacentes. Fournit également les travailleurs qui peuvent livrer les ressources aux golems pour les préparer au départ."
       base:
         name:
-          text: "Courier Station"
+          text: "Station de courrier"
         description:
-          text: "Increases courier golems, as well as the amount of parking spots available, decreases their energy cost to spawn, and provides additional courier supplier job slots."
+        text: "Augmente le nombre de golems-facteurs, augmente la quantité d'espaces de stationnement disponibles, diminue le coût d'apparition et ajoute un poste de travailleur."
       established:
         name:
-          text: "Established Courier Station"
+          text: "Station de courrier établie"
         description:
-          text: "Further increases courier golems, as well as the amount of parking spots available, decreases their energy cost to spawn, and provides additional courier supplier job slots."
+          text: "Augmente de nouveau le nombre de golems-facteurs, augmente la quantité d'espaces de stationnement disponibles, diminue le coût d'apparition et ajoute un poste de travailleur."
     
     kitchen:
       makeshift:
         name:
-          text: "Makeshift Kitchen"
+          text: "Cuisine de fortune"
         description:
-          text: "Provides workers who can prepare efficient rations your villagers can carry with them. Effective at extending your food supply to survive harsher weather when crops won't grow."
+          text: "Fournit des cuisiniers qui peuvent préparer des rations que les villageois peuvent emmener avec eux pour être plus efficaces. Efficace pour prolonger votre approvisionnement alimentaire afin de survivre à des conditions climatiques plus rudes lorsque les récoltes ne poussent pas."
       base:
         name:
-          text: "Kitchen"
+          text: "Cuisine"
         description:
-          text: "Grants a global speed bonus to ration manufacturing, increases maximum storage and gives the village additional cook job slots."
+          text: "Octroie un bonus de vitesse à la cuisine de rations, augmente la capcité de stockage et donne un poste de cuisinier suplémentaire au village."
       established:
         name:
-          text: "Established Kitchen"
+          text: "Cuisine établie"
         description:
-          text: "Increases global speed bonus to ration manufacturing, increases maximum storage and gives the village additional cook job slots."
+          text: "Augmente le bonus de vitesse de la cuisine de rations, augmente la capcité de stockage et donne un poste de cuisinier suplémentaire au village."
     
     lumberMill:
       makeshift:
         name:
-          text: "Makeshift Lumber Mill"
+          text: "Scierie de fortune"
         description:
-          text: "A large mill that provides workers to convert logs harvested by your lumber shack into boards, required by many complex buildings."
+          text: "Une grande scierie qui fournit des menuisiers qui peuvent transformer les planches récoltées par vos bûcherons en planches requises par divers bâtiments complexes."
       base:
         name:
-          text: "Lumber Mill"
+          text: "Scierie"
         description:
-          text: "Grants a global speed bonus to board manufacturing, increases maximum storage and gives the village an additional carpenter job slot."
+          text: "Octroie un bonus de vitesse global à la création de planches, augmente la capacité de stockage maximale et donne un poste de menuisier supplémentaire."
       established:
         name:
-          text: "Established Lumber Mill"
+          text: "Scierie établie"
         description:
-          text: "Increases global speed bonus to board manufacturing, increases maximum storage and gives the village an additional carpenter job slot."
+          text: "Augmente le bonus de vitesse global de création de planches, augmente la capacité de stockage maximale et donne un poste de menuisier supplémentaire."
     
     lumberShack:
       makeshift:
         name:
-          text: "Makeshift Lumber Shack"
+          text: "Cabanne du bûcheron de fortune"
         description:
-          text: "Provides workers to harvest large quantities of wood and create a stockpile, a staple resource in almost all construction."
+          text: "Fournit des bûcherons qui peuvent couper de grandes quantités d'arbres et faire des réserves de bois, une ressource de base requise pour construire la majorité des bâtiments."
       base:
         name:
-          text: "Lumber Shack"
+          text: "Cabanne du bûcheron"
         description:
-          text: "Grants a global speed bonus to all wood harvesting, increases maximum storage and gives the village additional lumberjack job slots."
+          text: "Octroie un bonus de vitesse global à la coupe du bois, augmente la capacité de stockage du bâtiment et donne un poste de bûcheron supplémentaire au village."
       established:
         name:
-          text: "Established Lumber Shack"
+          text: "Cabanne du bûcheron établie"
         description:
-          text: "Increases global speed bonus to all wood harvesting, increases maximum storage and gives the village additional lumberjack job slots."
+          text: "Augmente bonus de vitesse global de la coupe du bois, augmente la capacité de stockage du bâtiment et donne un poste de bûcheron supplémentaire au village."
     
     outpost:
       makeshift:
         name:
-          text: "Makeshift Outpost"
+          text: "Avant-poste de fortune"
         description:
-          text: "Remote outpost your guards will use as a patrol point while protecting the village. Don't put it anywhere too dangerous!"
+          text: "Un avant-poste de surveillance éloigné que vos gardes utiliseront comme point de patrouille tout en protégeant le village. Ne le mettez pas dans un endroit trop dangereux !"
       base:
         name:
-          text: "Outpost"
+          text: "Avant-poste"
         description:
-          text: "Increases the amount of guards the outpost can provide."
+          text: "Augmente le nombre de postes de gardes que l'avant-poste peut fournir."
       established:
         name:
-          text: "Established Outpost"
+          text: "Avant-poste établi"
         description:
-          text: "Further increases the amount of guards the outpost can provide and adds a small defensive bow tower on top of the outpost."
+          text: "Augmente de nouveau le nombre de postes de gardes que l'avant-poste peut fournir et ajoute une petite tour d'archers défensive tout en haut."
     
     phantomDartTower:
       makeshift:
         name:
-          text: "Makeshift Phantom Dart Tower"
+          text: "Tour à fléchettes fantômes de fortune"
         description:
-          text: "A small tower that fires low level magic damage and can be walked over. Requires an essence collector to run."
+          text: "Une petite tour qui inflige des dégâts magiques de bas niveau et sur laquelle on peut marcher. Requiert un collecteur d'essence pour fonctionner."
       base:
         name:
-          text: "Phantom Dart Tower"
+          text: "Tour à fléchettes fantômes"
         description:
-          text: "Slightly increases the damage and maximum energy of the tower."
+          text: "Augmente légèrement les dégâts et la capacité en énergie de la tour."
       established:
         name:
-          text: "Established Phantom Dart Tower"
+          text: "Tour à fléchettes fantômes établie"
         description:
-          text: "Further increases the damage and maximum energy of the tower."
+          text: "Augmente de nouveau légèrement les dégâts et la capacité en énergie de la tour."
       base:
         name:
-          text: "Phantom Fire Dart Tower"
+          text: "Tour à fléchettes fantômes de feu"
         description:
-          text: "Further increases the damage and maximum energy of the tower, and converts a large amount of the damage into fire."
+          text: "Augmente de nouveau légèrement les dégâts et la capacité en énergie de la tour, et convertit une grande quantité des dégâts en dégâts de feu."
       base:
         name:
-          text: "Phantom Lightning Dart Tower"
+          text: "Tour à fléchettes-éclair fantômes"
         description:
-          text: "Further increases the damage and maximum energy of the tower, and converts a large amount of the damage into lightning."
+          text: "Augmente de nouveau légèrement les dégâts et la capacité en énergie de la tour, et convertit une grande quantité des dégâts en dégâts de foudre."
       base:
         name:
-          text: "Phantom Ice Dart Tower"
+          text: "Tour à fléchettes fantômes de glace"
         description:
-          text: "Further increases the damage and maximum energy of the tower, and converts a large amount of the damage into ice."
+          text: "Augmente de nouveau légèrement les dégâts et la capacité en énergie de la tour, et convertit une grande quantité des dégâts en dégâts de glace."
     
     maintenanceBuilding:
       makeshift:
         name:
-          text: "Makeshift Maintenance Building"
+          text: "Bâtiment d'entretien de fortune"
         description:
-          text: "Provides workers who can repair and dismantle buildings and well as maintain roads and clear terrain."
+          text: "Fournit des postes de travailleurs qui peuvent réparer et démanteler les bâtiments, ainsi qu'entretenir les routes et nettoyer le terrain."
       base:
         name:
-          text: "Maintenance Building"
+          text: "Bâtiment d'entretien'"
         description:
-          text: "Grants a global speed bonus to all building dismantling and repair work, road maintenance and terrain clearing, increases maximum storage and gives the village additional maintainer job slots."
+          text: "Octroie un bonus de vitesse global au démantèlement et la réparation de bâtiments, l'entretien des routes et le nettoyage du terrain. Augmente le nombre de postes de travailleurs."
       established:
         name:
-          text: "Established Maintenance Building"
+          text: "Bâtiment d'entretien établi"
         description:
-          text: "Increases global speed bonus to all building dismantling and repair work, road maintenance and terrain clearing, increases maximum storage and gives the village additional maintainer job slots."
+          text: "Augmente le bonus de vitesse global de démantèlement et de réparation de bâtiments, d'entretien des routes et de nettoyage du terrain. Augmente le nombre de postes de travailleurs."
     
     marketplace:
       makeshift:
         name:
-          text: "Makeshift Marketplace"
+          text: "Marché de fortune"
         description:
-          text: "Establishes trade in the region, inviting catjeet to visit the village to trade goods and labor. Make sure you have some gold!"
+          text: "Établit le commerce dans la région, invitant les paysans à visiter le village pour échanger des marchandises et de la main-d'œuvre. Assurez-vous d'avoir de l'or !"
       base:
         name:
-          text: "Marketplace"
+          text: "Marché"
         description:
-          text: "Increases how many Catjeet can be in the marketplace at once, as well as increases gold storage and provides additional provisioner job slots."
+          text: "Augmente le nombre de paysans qui peuvent venir au marché en même temps, augmente aussi la capacité en or et fournit des postes de provisionneur supplémentaires."
       established:
         name:
-          text: "Established Marketplace"
+          text: "Marché établi"
         description:
-          text: "Further increases how many Catjeet can be in the marketplace at once, as well as further increases gold storage and provides additional provisioner job slots."
+          text: "Augmente de nouveau le nombre de paysans qui peuvent venir au marché en même temps, augmente aussi la capacité en or et fournit des postes de provisionneur supplémentaires."
     
     migrationWayStation:
       makeshift:
         name:
-          text: "Makeshift Migration Way Station"
+          text: "Station de migration de fortune"
         description:
-          text: "Allows the village to send some villagers to nearby regions, once per day."
+          text: "Permet au village d'envoyer les villageois dans les régions voisines une fois par jour."
       base:
         name:
-          text: "Migration Way Station"
+          text: "Station de migration"
         description:
-          text: "Increases the total amount of villagers you can send to nearby regions per day."
+          text: "Augmente la quantité de villageois qui peuvent être envoyés dans les régions voisines par jour."
       established:
         name:
-          text: "Established Migration Way Station"
+          text: "Station de migration établie"
         description:
-          text: "Further increases the total amount of villagers you can send to nearby regions per day."
+          text: "FAugmente de nouveau la quantité de villageois qui peuvent être envoyés dans les régions voisines par jour."
     
     mineralStorage:
       small:
         name:
-          text: "Small Mineral Storage"
+          text: "Petit stockage de minerais"
         description:
-          text: "A storage building that can hold raw or processed minerals, like iron ore and ingots."
+          text: "Un bâtiment de stockage qui peut contenir des minéraux ou des lingots."
       base:
         name:
-          text: "Mineral Storage"
+          text: "Stockage de minerais"
         description:
-          text: "Increases the amount of raw or processed minerals the building can store."
+          text: "Augmente la capacité de stockage de minéraux et de lingots."
       large:
         name:
-          text: "Large Mineral Storage"
+          text: "Grand stockage de minerais"
         description:
-          text: "Further increases the amount of raw or processed minerals the building can store."
+          text: "Augmente de nouveau la capacité de stockage de minéraux et de lingots."
       established:
         name:
-          text: "Established Mineral Storage"
+          text: "Stockage de minerais établi"
         description:
-          text: "Further increases the amount of raw or processed minerals the building can store."
+          text: "Augmente de nouveau la capacité de stockage de minéraux et de lingots."
       reinforced:
         name:
-          text: "Reinforced Mineral Storage"
+          text: "Stockage de minerais renforcé"
         description:
-          text: "Increases the amount of raw or processed minerals the building can store to maximum."
+          text: "Augmente la capacité de stockage de minéraux et de lingots au maximum."
     
     miningFacility:
       makeshift:
         name:
-          text: "Makeshift Mining Facility"
+          text: "Exploitation minière de fortune"
         description:
-          text: "Provides workers to harvest large quantities of rock and create a stockpile, a staple resource in almost all construction."
+          text: "Fournit des mineurs qui peuvent miner en grande quantité et créer des réserves de pierres, une ressource de base requise pour construire la majorité des bâtiments."
       base:
         name:
-          text: "Mining Facility"
+          text: "Exploitation minière"
         description:
-          text: "Grants a global speed bonus to all rock harvesting, increases maximum storage and gives the village additional miner job slots."
+          text: "Octroie un bonus global à la récolte de pierres, augmente la capacité de stockage et donne un poste de mineur supplémentaire."
       established:
         name:
-          text: "Established Mining Facility"
+          text: "Exploitation minière établie"
         description:
-          text: "Increases global speed bonus to all rock harvesting, increases maximum storage and gives the village additional miner job slots."
+          text: "Augmente le bonus global de récolte de pierres, augmente la capacité de stockage et donne un poste de mineur supplémentaire."
     
     miscellaneousStorage:
       small:
         name:
-          text: "Small Miscellaneous Storage"
+          text: "Petit stockage divers"
         description:
-          text: "A storage building that can hold a little bit of (almost) everything, but at a cost to maximum storage space over the other storage buildings."
+          text: "Un bâtiment de stockage qui peut contenir un petit peu de tout (quasiment), mais au coût de la capacité de stockage maximale par rapport aux autres bâtiments de stockage."
       base:
         name:
-          text: "Miscellaneous Storage"
+          text: "Stockage divers"
         description:
-          text: "Increases the amount of miscellaneous resources the building can store."
+          text: "Augmente la quantité de ressources diverses qui peuvent être stockées."
       large:
         name:
-          text: "Large Miscellaneous Storage"
+          text: "Grand stockage divers"
         description:
-          text: "Further increases the amount of miscellaneous resources the building can store."
+          text: "Augmente de novueau la quantité de ressources diverses qui peuvent être stockées."
       established:
         name:
-          text: "Established Miscellaneous Storage"
+          text: "Stockage divers établi"
         description:
-          text: "Further increases the amount of miscellaneous resources the building can store."
+          text: "Augmente de nouveau la quantité de ressources diverses qui peuvent être stockées."
       reinforced:
         name:
-          text: "Reinforced Miscellaneous Storage"
+          text: "Stockage divers renforcé"
         description:
-          text: "Increases the amount of miscellaneous resources the building can store to maximum."
+          text: "Augmente la quantité de ressources diverses qui peuvent être stockées au maximum."
     
     slingTower:
       makeshift:
         name:
-          text: "Makeshift Sling Tower"
+          text: "Tour à fronde de fortune"
         description:
-          text: "A heavy tower that shoots round stone balls. Handy for specialty defense setups when built down a tight path. Requires a rock tumbler to produce ammunition, and cannot shoot over walls!"
+          text: "Une lourde tour qui tire des balles de pierre rondes. Pratique pour les installations spéciales : elles sont plus efficaces lorsqu'elles sont construites sur un chemin étroit. Ne peut pas tirer par-dessus les murs. Nécessite un fabricant de cartouches pour produire des munitions !"
       base:
         name:
-          text: "Sling Tower"
+          text: "Tour à fronde"
         description:
-          text: "Increases maximum damage, firing rate and ammunition storage of the tower."
+          text: "Augmente les dégâts, la cadence, et la capacité en munitions de la tour."
       established:
         name:
-          text: "Established Sling Tower"
+          text: "Tour à fronde établie"
         description:
-          text: "Further increases maximum damage, firing rate and ammunition storage of the tower."
+          text: "Augmente de nouveau les dégâts, la cadence, et la capacité en munitions de la tour."
       fire:
         name:
-          text: "Fire Sling Tower"
+          text: "Tour à fronde de feu"
         description:
-          text: "Adds explosive fire damage to the tower, but consumes energy to fire. If the energy reserves are exhausted, it will continue to fire regular stone balls until its ammunition runs out."
+          text: "Ajoute des dégâts de feu explosifs à la tour, mais consomme de l'énergie pour tirer. Si les réserves d'énergie sont épuisées, elle continuera à tirer des boules de pierre ordinaires jusqu'à ce que ses munitions soient épuisées."
       lightning:
         name:
-          text: "Lightning Sling Tower"
+          text: "Tour à fronde-éclair"
         description:
-          text: "Adds lightning damage to the tower, but consumes energy to fire. If the energy reserves are exhausted, it will continue to fire regular stone balls until its ammunition runs out."
+          text: "Ajoute des dégâts de foudre à la tour, mais consomme de l'énergie pour tirer. Si les réserves d'énergie sont épuisées, elle continuera à tirer des boules de pierre ordinaires jusqu'à ce que ses munitions soient épuisées."
       ice:
         name:
-          text: "Ice Sling Tower"
+          text: "Tour à fronde de glace"
         description:
-          text: "Adds ice damage to the tower, but consumes energy to fire. If the energy reserves are exhausted, it will continue to fire regular stone balls until its ammunition runs out."
+          text: "Ajoute des dégâts de glace à la tour, mais consomme de l'énergie pour tirer. Si les réserves d'énergie sont épuisées, elle continuera à tirer des boules de pierre ordinaires jusqu'à ce que ses munitions soient épuisées."
     
     smallFountain:
       name:
-        text: "Small Fountain"
+        text: "Petite fontaine"
       description:
-        text: "A place your villagers can go to get a refreshing drink. Works best with a well, raincatcher or water purifier and well masters to supply the fountain."
+        text: "Un endroit où vos villageois peuvent aller se rafraîchir. Fonctionne mieux avec un puits, un collecteur d'eau ou un purificateur d'eau et des responsables de l'eau pour alimenter la fontaine."
     
     sprayTower:
       makeshift:
         name:
-          text: "Makeshift Spray Tower"
+          text: "Tour pulvérisatrice de fortune"
         description:
-          text: "A lightweight tower that sprays tons of tiny pellet sized bullets in a large area. Good crowd control for large groups of weak mobs. Requires a rock tumbler to produce ammunition."
+          text: "Une tour légère qui pulvérise des tonnes de petites balles de pierre sur une grande zone. Idéale pour contrôler de larges groupes de monstres faibles. Requiert un fabricant de cartouche pour les munitions."
       base:
         name:
-          text: "Spray Tower"
+          text: "Tour pulvérisatrice"
         description:
-          text: "Increases maximum damage and ammunition storage of the tower."
+          text: "Augmente les dégâts et la capacité en munitions de la tour."
       established:
         name:
-          text: "Established Spray Tower"
+          text: "Tour pulvérisatrice établie"
         description:
-          text: "Further increases maximum damage and ammunition storage of the tower."
+          text: "Augmente les dégâts et la capacité en munitions de la tour."
       fire:
         name:
-          text: "Fire Spray Tower"
+          text: "Tour pulvérisatrice de feu"
         description:
-          text: "Adds fire damage to the tower, but consumes energy to fire. If the energy reserves are exhausted, it will continue to fire regular bullets until its ammunition runs out."
+          text: "Ajoute des dégâts de feu à la tour, mais consomme de l'énergie pour tirer. Si les réserves d'énergie sont épuisées, elle continuera à tirer des balles ordinaires jusqu'à ce que ses munitions soient épuisées."
       lightning:
         name:
-          text: "Lightning Spray Tower"
+          text: "Tour pulvérisatrice-éclair"
         description:
-          text: "Adds lightning damage to the tower, but consumes energy to fire. If the energy reserves are exhausted, it will continue to fire regular bullets until its ammunition runs out."
+          text: "Ajoute des dégâts de foudre à la tour, mais consomme de l'énergie pour tirer. Si les réserves d'énergie sont épuisées, elle continuera à tirer des balles ordinaires jusqu'à ce que ses munitions soient épuisées."
       ice:
         name:
-          text: "Ice Spray Tower"
+          text: "Tour pulvérisatrice de glace"
         description:
-          text: "Adds ice damage to the tower, but consumes energy to fire. If the energy reserves are exhausted, it will continue to fire regular bullets until its ammunition runs out."
+          text: "Ajoute des dégâts de glace à la tour, mais consomme de l'énergie pour tirer. Si les réserves d'énergie sont épuisées, elle continuera à tirer des balles ordinaires jusqu'à ce que ses munitions soient épuisées."
     
     staticTower:
       makeshift:
         name:
-          text: "Makeshift Static Tower"
+          text: "Tour statique de fortune"
         description:
-          text: "A tower that will do low level damage to any monster in range. Consumes more energy the more targets are in range."
+          text: "Une tour qui infligera de faibles dégâts à n'importe quel monstre à sa portée. Plus il y a de monstres à portée, plus elle consomme d'énergie."
       base:
         name:
-          text: "Static Tower"
+          text: "Tour statique"
         description:
-          text: "Increases the firing rate of the tower."
+          text: "Augmente la cadence de tir de la tour."
       established:
         name:
-          text: "Established Static Tower"
+          text: "Tour statique établie"
         description:
-          text: "Further increases the firing rate and increases the range of the tower"
+          text: "Augmente de nouveau la cadence de tir de la tour et augmente sa portée"
       reinforced:
         name:
-          text: "Reinforced Static Tower"
+          text: "Tour statique renforcée"
         description:
-          text: "Further increases the firing rate of the tower, and also reduces energy cost."
+          text: "Augmente de nouveu la cadence de tir de la tour et réduit son coût en énergie."
     
     rainCatcher:
       makeshift:
         name:
-          text: "Makeshift Rain Catcher"
+          text: "Collecteur d'eau de fortune"
         description:
-          text: "Collects rain water and provides water master job slots to distribute it around the village. A great way to rapidly collect large amounts of water when it rains."
+          text: "Collecte l'eau de pluie et fournit des postes de travail pour distribuer l'eau dans le village. Une excellente façon de recueillir rapidement de grandes quantités d'eau lorsqu'il pleut."
       base:
         name:
-          text: "Rain Catcher"
+          text: "Collecteur d'eau"
         description:
-          text: "Increases amount of water the the rain collector can store, as well as additional water master job slots."
+          text: "Augmente la quantité d'eau que le collecteur d'eau de pluie peut emmagasiner, ainsi qu'un poste de responsable de l'eau supplémentaire."
       established:
         name:
-          text: "Established Rain Catcher"
+          text: "Collecteur d'eau établi"
         description:
-          text: "Further increases amount of water the the rain collector can store, as well as additional water master job slots."
+          text: "Augmente de nouveau la quantité d'eau que le collecteur d'eau de pluie peut emmagasiner, ainsi qu'un poste de responsable de l'eau supplémentaire."
     
     recombobulatorTower:
       makeshift:
         name:
-          text: "Makeshift Recombobulator Tower"
+          text: "Tour recombobulatrice de fortune"
         description:
-          text: "A tower that will attract most friendly golems, and heal any that are damaged. Requires an essence collector to run."
+          text: "Une tour qui attire la plupart des golems du village et guérit ceux qui sont endommagés. Requiert un collecteur d'essence pour fonctionner."
       base:
         name:
-          text: "Recombobulator Tower"
+          text: "Tour recombobulatrice"
         description:
-          text: "Increases the tower's maximum energy, firing rate, and range, and decreases the firing cost."
+          text: "Augmente la capacité en énergie, la cadence de tir et la portée de la tour tout en diminuant le coût de tir."
       established:
         name:
-          text: "Established Recombobulator Tower"
+          text: "Tour recombobulatrice établie"
         description:
-          text: "Further increases the tower's maximum energy, firing rate, and range, and decreases the firing cost."
+          text: "Augmente de nouveau la capacité en énergie, la cadence de tir et la portée de la tour tout en diminuant le coût de tir."
       reinforced:
         name:
-          text: "Reinforced Recombobulator Tower"
+          text: "Tour recombobulatrice renforcée"
         description:
-          text: "Further increases the tower's maximum energy, firing rate, and range, and decreases the firing cost."
+          text: "Augmente de nouveau la capacité en énergie, la cadence de tir et la portée de la tour tout en diminuant le coût de tir."
     
     rockStorage:
       small:
         name:
-          text: "Small Rock Storage"
+          text: "Petit stockage de pierres"
         description:
-          text: "A storage building that can hold rocks, stone and other rock based materials."
+          text: "Un bâtiment de stockage qui peut contenir des pierres, des pierres taillées et d'autres ressources à base de pierre."
       base:
         name:
-          text: "Rock Storage"
+          text: "Stockage de pierres"
         description:
-          text: "Increases the amount of rocks, stone and other rock based materials the building can store."
+          text: "Augmente la quantité de pierre, de pierres taillées et d'autres ressources à base de pierres que le bâtiment peut stocker."
       large:
         name:
-          text: "Large Rock Storage"
+          text: "Grand stockage de pierres"
         description:
-          text: "Further increases the amount of rocks, stone and other rock based materials the building can store."
+          text: "Augmente de nouveau la quantité de pierre, de pierres taillées et d'autres ressources à base de pierres que le bâtiment peut stocker."
       established:
         name:
-          text: "Established Rock Storage"
+          text: "Stockages de pierres établi"
         description:
-          text: "Further increases the amount of rocks, stone and other rock based materials the building can store."
+          text: "Augmente de nouveau la quantité de pierre, de pierres taillées et d'autres ressources à base de pierres que le bâtiment peut stocker."
       reinforced:
         name:
-          text: "Reinforced Rock Storage"
+          text: "Stockage de pierres renforcé"
         description:
-          text: "Increases the amount of rocks, stone and other rock based materials the building can store to maximum."
+          text: "Augmente la quantité de pierre, de pierres taillées et d'autres ressources à base de pierres que le bâtiment peut stocker au maximum."
     
     rockTumbler:
       makeshift:
         name:
-          text: "Makeshift Rock Tumbler"
+          text: "Fabrique de cartouche de fortune"
         description:
-          text: "Provides workers who can manufacture bullets from rocks, a tower ammunition for sling and rock based towers, like the bullet, sling and spray tower."
+          text: "Fournit des travailleurs qui peuvent fabriquer des balles à partir de pierres, des munitions requises par les tours à fronde et autres projectiles à base de pierre."
       base:
         name:
-          text: "Rock Tumbler"
+          text: "Fabrique de cartouche"
         description:
-          text: "Grants a global speed bonus to bullet manufacturing, increases maximum storage and gives the village an additional tumbler job slot."
+          text: "Octroie un bonus de vitesse global à la fabrication de balles, augmente la capacité de stockage et donne un poste de travailleur supplémentaire."
       established:
         name:
-          text: "Established Rock Tumbler"
+          text: "Fabrique de cartouche établie"
         description:
-          text: "Increases global speed bonus to bullet manufacturing, increases maximum storage and gives the village an additional tumbler job slot."
+          text: "Augmente le bonus de vitesse global de fabrication de balles, augmente la capacité de stockage et donne un poste de travailleur supplémentaire."
     
     stoneCuttery:
       makeshift:
         name:
-          text: "Makeshift Stone Cuttery"
+          text: "Tailleur de pierre de fortune"
         description:
-          text: "A small building that provides workers to convert rocks harvested by your mining facility into cut stone, required by many complex buildings."
+          text: "Un petit bâtiment qui fournit des travailleurs qui peuvent tailler les pierres récoltées par vos mineurs. Les pierres taillées sont requises par plusieurs bâtiments complexes."
       base:
         name:
-          text: "Stone Cuttery"
+          text: "Tailleur de pierre"
         description:
-          text: "Grants a global speed bonus to cut stone manufacturing, increases maximum storage and gives the village an additional stone cutter job slot."
+          text: "Octroie un bonus global de vitesse à la taille de pierre, augmente le stockage maximum et donne un poste de tailleur de pierre supplémentaire."
       established:
         name:
-          text: "Established Stone Cuttery"
+          text: "Tailleur de pierre établi"
         description:
-          text: "Increases global speed bonus to cut stone manufacturing, increases maximum storage and gives the village an additional stone cutter job slot."
+          text: "Augmente le bonus global de vitesse de la taille de pierre, augmente le stockage maximum et donne un poste de tailleur de pierre supplémentaire."
     
     stoneGolemCombobulator:
       makeshift:
         name:
-          text: "Makeshift Stone Golem Combobulator"
+          text: "Combobulateur de golems de pierre de fortune"
         description:
-          text: "A host building that consumes energy and nearby rock, creating slow moving, high hit point defensive stone golems."
+          text: "Un bâtiment hôte qui consomme de l'énergie et des roches proches, créant ainsi des golems de pierre défensifs, lents mais à point de vie élevé."
       base:
         name:
-          text: "Stone Golem Combobulator"
+          text: "Combobulateur de golems de pierre"
         description:
-          text: "Increases how many stone golems the combobulator can maintain, as well as increases the levels of newly spawned golems, but cost slightly more energy to produce a new golem."
+          text: "Augmente le nombre de golems de pierre que le combobulateur peut maintenir, ainsi que le niveau des golems nouvellement invoqués, mais coûte légèrement plus d'énergie pour produire un nouveau golem."
       established:
         name:
-          text: "Established Stone Golem Combobulator"
+          text: "Combobulateur de golems de pierre établi"
         description:
-          text: "Increases how many stone golems the combobulator can maintain, as well as increases the levels of newly spawned golems, but cost slightly more energy to produce a new golem."
+          text: "Augmente le nombre de golems de pierre que le combobulateur peut maintenir, ainsi que le niveau des golems nouvellement invoqués, mais coûte légèrement plus d'énergie pour produire un nouveau golem."
       lightning:
         name:
-          text: "Lightning Stone Golem Combobulator"
+          text: "Combobulateur de golems-éclairs de pierre"
         description:
-          text: "Increases how many stone golems the combobulator can maintain, another level boost, as well as gives newly spawned golems lightning damage, but cost more energy to produce a new golem."
+          text: "Augmente le nombre de golems de pierre que le combobulateur peut maintenir, le niveau à l'apparition et donne aussi des dégâts de foudre aux nouveaux golems, mais coûte plus d'énergie pour produire un nouveau golem."
       ice:
         name:
-          text: "Ice Stone Golem Combobulator"
+          text: "Combobulateur de golems de pierre de glace"
         description:
-          text: "Increases how many stone golems the combobulator can maintain, another level boost, as well as gives newly spawned golems ice damage, but cost more energy to produce a new golem."
+          text: "Augmente le nombre de golems de pierre que le combobulateur peut maintenir, le niveau à l'apparition et donne aussi des dégâts de glace aux nouveaux golems, mais coûte plus d'énergie pour produire un nouveau golem."
       fire:
         name:
-          text: "Fire Stone Golem Combobulator"
+          text: "Combobulateur de golems de pierre de feu"
         description:
-          text: "Increases how many stone golems the combobulator can maintain, another level boost, as well as gives newly spawned golems fire damage, but cost more energy to produce a new golem."
+          text: "Augmente le nombre de golems de pierre que le combobulateur peut maintenir, le niveau à l'apparition et donne aussi des dégâts de feu aux nouveaux golems, mais coûte plus d'énergie pour produire un nouveau golem."
     
     toolsmithy:
       makeshift:
         name:
-          text: "Makeshift Toolsmithy"
+          text: "Outilleur de fortune"
         description:
-          text: "Provides workers who can turn iron ingots into tools for your villagers that will boost work efficiency. Requires a forge to process raw ore into ingots."
+          text: "Fournit des travailleurs qui peuvent transformer les lingots de fer en outils pour vos villageois afin d'augmenter leur efficacité au travail. Requiert une forge pour produire des lingots de fer."
       base:
         name:
-          text: "Toolsmithy"
+          text: "Outilleur"
         description:
-          text: "Grants a global speed bonus to all tool manufacturing, increases maximum storage and gives the village an additional toolsmith job slot."
+          text: "Octroie un bonus de vitesse global à tous les outilleurs, augmente la capacité de stockage et donne un poste d'outilleur supplémentaire."
       established:
         name:
-          text: "Established Toolsmithy"
+          text: "Outilleur établi"
         description:
-          text: "Increases global speed bonus to all tool manufacturing, increases maximum storage and gives the village an additional toolsmith job slot."
+          text: "Augmente bonus de vitesse global de tous les outilleurs, augmente la capacité de stockage et donne un poste d'outilleur supplémentaire."
     
     waterPurifier:
       makeshift:
         name:
-          text: "Makeshift Water Purifier"
+          text: "Purificateur d'eau de fortune"
         description:
-          text: "Converts dirty surface water into usable fresh water for your village. Requires a water master to bring surface water from nearby sources to operate effectively."
+          text: "Convertit l'eau de surface sale en eau douce et potable. Nécessite un responsable de l'eau pour amener l'eau de surface dans le bâtiment afin qu'il fonctionne efficacement."
       base:
         name:
-          text: "Water Purifier"
+          text: "Purificateur d'eau"
         description:
-          text: "Increases the water generation speed and maximum storage, as well as provides additional water master job slots."
+          text: "Augmente la vitesse de purification d'eau, le stockage maximum et fournit aussi un poste de responsable de l'eau supplémentaire."
       established:
         name:
-          text: "Established Water Purifier"
+          text: "Purificateur d'eau établi"
         description:
-          text: "Further increases the water generation speed and maximum storage, as well as provides additional water master job slots."
+          text: "Augmente de nouveau la vitesse de purification d'eau, le stockage maximum et fournit aussi un poste de responsable de l'eau supplémentaire."
     
     wayMakerShack:
       makeshift:
         name:
-          text: "Makeshift Way Maker Shack"
+          text: "Cabanne du responsable de voirie de fortune"
         description:
           text: "Provides workers who can create and maintain roads, clear terrain and dig out man made lakes to collect rain water for water purifiers."
       base:
         name:
-          text: "Way Maker Shack"
+          text: "Cabanne du responsable de voirie"
         description:
-          text: "Grants a global speed bonus to all road work, increases maximum storage and gives the village additional way maker job slots."
+          text: "Octroie un bonus global de vitesse des travaux liés aux routes, augmente la capacité de stockage du bâtiment et donne un poste de responsable de voirie supplémentaire."
       established:
         name:
-          text: "Established Way Maker Shack"
+          text: "Cabanne du responsable de voirie établi"
         description:
-          text: "Increases global speed bonus to all road work, increases maximum storage and gives the village additional way maker job slots."
+          text: "Augmente le bonus global de vitesse des travaux liés aux routes, augmente la capacité de stockage du bâtiment et donne un poste de responsable de voirie supplémentaire."
     
     well:
       makeshift:
         name:
-          text: "Makeshift Well"
+          text: "Puits de fortune"
         description:
-          text: "A slowly regenerating water supply for your village that works non-stop, year round. Also provides one water master job slot to redistribute water around the village."
+          text: "Une source d'eau se renouvelant lentement et qui fonctionne sans interruption, toute l'année. Fournit également un poste de responsable de l'eau pour redistribuer l'eau dans le village."
       base:
         name:
-          text: "Well"
+          text: "Puit"
         description:
-          text: "Increases water generation rate and maximum storage."
+          text: "Augmente la vitesse de renouvellement de l'eau et le stockage maximum."
       established:
         name:
-          text: "Established Well"
+          text: "Puits établi"
         description:
-          text: "Further increases water generation rate and maximum storage, as well as provides an additional water master job slot."
+          text: "Augmente de nouveau la vitesse de renouvellement de l'eau et le stockage maximum et fournit un poste de responsable de l'eau supplémentaire."
     
     woodGolemCombobulator:
       makeshift:
         name:
-          text: "Makeshift Wood Golem Combobulator"
+          text: "Combobulateur de golems de bois de fortune"
         description:
-          text: "A host building that consumes energy and nearby wood, creating moderate speed and hit point defensive wood golems."
+          text: "Un bâtiment hôte qui consomme de l'énergie et le bois à proximité, créant des golems de bois défensifs à vitesse et points de vie modérés."
       base:
         name:
-          text: "Wood Golem Combobulator"
+          text: "Combobulateur de golems de bois"
         description:
-          text: "Increases how many wood golems the combobulator can maintain, as well as increases the levels of newly spawned golems, but cost slightly more energy to produce a new golem."
+          text: "Augmente le nombre de golems de bois que le combobulateur peut maintenir, ainsi que le niveau des golems nouvellement invoqués, mais coûte légèrement plus d'énergie pour produire un nouveau golem."
       established:
         name:
-          text: "Established Wood Golem Combobulator"
+          text: "Combobulateur de golems de bois établi"
         description:
-          text: "Increases how many wood golems the combobulator can maintain, as well as increases the levels of newly spawned golems, but cost slightly more energy to produce a new golem."
+          text: "Augmente le nombre de golems de bois que le combobulateur peut maintenir, ainsi que le niveau des golems nouvellement invoqués, mais coûte légèrement plus d'énergie pour produire un nouveau golem."
       lightning:
         name:
-          text: "Lightning Wood Golem Combobulator"
+          text: "Combobulateur de golems-éclairs de bois"
         description:
-          text: "Increases how many wood golems the combobulator can maintain, another level boost, as well as gives newly spawned golems lightning damage, but cost more energy to produce a new golem."
+          text: "Augmente le nombre de golems de bois que le combobulateur peut maintenir, le niveau à l'apparition et donne aussi des dégâts de foudre aux nouveaux golems, mais coûte plus d'énergie pour produire un nouveau golem."
       ice:
         name:
-          text: "Ice Wood Golem Combobulator"
+          text: "Combobulateur de golems de bois de glace"
         description:
-          text: "Increases how many wood golems the combobulator can maintain, another level boost, as well as gives newly spawned golems ice damage, but cost more energy to produce a new golem."
+          text: "Augmente le nombre de golems de bois que le combobulateur peut maintenir, le niveau à l'apparition et donne aussi des dégâts de glace aux nouveaux golems, mais coûte plus d'énergie pour produire un nouveau golem."
       poison:
         name:
-          text: "Poison Wood Golem Combobulator"
+          text: "Combobulateur de golems de bois de poison"
         description:
-          text: "Increases how many wood golems the combobulator can maintain, another level boost, as well as gives newly spawned golems poison damage, but cost more energy to produce a new golem."
+          text: "Augmente le nombre de golems de bois que le combobulateur peut maintenir, le niveau à l'apparition et donne aussi des dégâts de poison aux nouveaux golems, mais coûte plus d'énergie pour produire un nouveau golem."
     
     woodStorage:
       small:
         name:
-          text: "Small Wood Storage"
+          text: "Petit stockage de bois"
         description:
-          text: "A storage building that can hold logs, boards and other wood based materials."
+          text: "Un bâtiment de stockage qui peut contenir des bûches, des planches et autres ressources à base de bois."
       base:
         name:
-          text: "Wood Storage"
+          text: "Stockage de bois"
         description:
-          text: "Increases the amount of logs, boards and other wood based materials the building can store."
+          text: "Augmente la quantité de bûches, des planches et autres ressources à base de bois que le bâtiment peut contenir."
       large:
         name:
-          text: "Large Wood Storage"
+          text: "Grand stockage de bois"
         description:
-          text: "Further increases the amount of logs, boards and other wood based materials the building can store."
+          text: "Augmente de nouveau la quantité de bûches, des planches et autres ressources à base de bois que le bâtiment peut contenir."
       established:
         name:
-          text: "Established Wood Storage"
+          text: "Stockage de bois établi"
         description:
-          text: "Further increases the amount of logs, boards and other wood based materials the building can store."
+          text: "Augmente de nouveau la quantité de bûches, des planches et autres ressources à base de bois que le bâtiment peut contenir."
       reinforced:
         name:
-          text: "Reinforced Wood Storage"
+          text: "Stockage de bois renforcé"
         description:
-          text: "Increases the amount of logs, boards and other wood based materials the building can store to maximum."
+          text: "Augmente la quantité de bûches, des planches et autres ressources à base de bois que le bâtiment peut contenir au maximum."
     
     woodFenceGateNS:
       name:
-        text: "Wood Fence Gate"
+        text: "Portillon en bois"
       description:
-        text: "A simple wood gate your villagers can use, but monsters cannot."
+        text: "Un simple portillon en bois qui peut être utilisé par vos villageois mais pas par les monstres."
     
     woodFenceGateWE:
       name:
-        text: "Wood Fence Gate"
+        text: "Portillon en bois"
       description:
-        text: "A simple wood gate your villagers can use, but monsters cannot."
+        text: "Un simple portillon en bois qui peut être utilisé par vos villageois mais pas par les monstres."
     
     stoneWallGateNS:
       name:
-        text: "Stone Wall Gate"
+        text: "Portillon en pierre"
       description:
-        text: "A simple stone gate your villagers can use, but monsters cannot."
+        text: "Un simple portillon en pierre qui peut être utilisé par vos villageois mais pas par les monstres."
     
     stoneWallGateWE:
       name:
-        text: "Stone Wall Gate"
+        text: "Portillon en pierre"
       description:
-        text: "A simple stone gate your villagers can use, but monsters cannot."
+        text: "Un simple portillon en pierre qui peut être utilisé par vos villageois mais pas par les monstres."
   
   wall:
     curtainWall:
       name:
-        text: "Curtain Wall"
+        text: "Muraille"
     stoneWall:
       name:
-        text: "Stone Wall"
+        text: "Muret de pierre"
     woodFence:
       name:
-        text: "Wood Fence"
+        text: "Clôture en bois"
         
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Resource Module
