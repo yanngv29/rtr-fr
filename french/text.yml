@@ -3714,6 +3714,8 @@ playOverlay:
       text: "Maintenez $GRE1{shortcutKey} $YEL1pour lancer gratuitement."
     nothingToGrab:
       text: "Rien à attraper."
+    autobuild:
+      text: "Maintenez $GRE1{shortcutKey}$WHI0 pour~construire automatiquement et ignorer~la portée de construction."
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Play State

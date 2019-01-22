@@ -3689,6 +3689,8 @@ playOverlay:
       text: "Hold $GRE1{shortcutKey} $YEL1to cast for free."
     nothingToGrab:
       text: "Nothing to grab."
+    autobuild:
+      text: "Hold $GRE1{shortcutKey}$WHI0 to autobuild~and ignore range map."
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Play State
