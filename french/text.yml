@@ -1242,13 +1242,13 @@ season:
   javaClass: "rtr.TimeModule.java"
   
   winter:
-    text: "En hiver"
+    text: "Hiver"
   spring:
-    text: "Au printemps"
+    text: "Printemps"
   summer:
-    text: "En été"
+    text: "Été"
   autumn:
-    text: "En automne"
+    text: "Automne"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Console
@@ -1595,7 +1595,7 @@ goal:
   
   unlockNewGoal:
     header:
-      text: "Déverrouille un objectif"
+      text: "Déverrouillez un objectif"
     body:
       days:
         text: "Survis $GRE1{days}$WHI0 jours pour $GRE1débloquer un objectif $WHI0!"
@@ -2232,7 +2232,7 @@ mainMenuNewProfilePanel:
         
   header:
     inputProfileName:
-      text: "$ORA1Entrez le nom de votre profil !"
+      text: "$ORA1Le nom de votre profil !"
     tipsEnabled:
       text: "Conseils activés"
 
@@ -2254,7 +2254,7 @@ mainMenuRestartGamePanel:
       text: "Quitter"
       
   body:
-    text: "$CYA0Vous devez redémarrer le jeu pour que ces changements prennent effet. Merci d'appuyer sur le bouton 'Quitter' et de relancer le jeu."
+    text: "$CYA0Vous devez redémarrer le jeu pour appliquer les changements. Merci de cliquer sur 'Quitter' et de relancer le jeu."
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Main Menu State
@@ -2835,17 +2835,17 @@ mapEditorPlayRightPanel:
       logPath:
         text: "Chemin en bois"
       cobbleAndLogPathDebris:
-        text: "Débris de chemin en bois et pierre"
+        text: "Débris de chemin bois/pierre"
       cobbleAndLogPath:
         text: "Chemin en bois et pierre"
       cobbleAndBoardRoadDebris:
-        text: "Débris de chemin en planches et pierre"
+        text: "Débris de chemin pierre/planches"
       cobbleAndBoardRoad:
-        text: "Chemin en planches et pierre"
+        text: "Chemin en pierre et planches"
       cutStoneAndBoardRoadDebris:
-        text: "Débris de route pavée/planches"
+        text: "Débris de route pavée"
       cutStoneAndBoardRoad:
-        text: "Route pavée/planches"
+        text: "Route pavée"
       
     rock:
       blackRock:
@@ -2925,15 +2925,15 @@ mapEditorPlayRightPanel:
       comment: Sandbox Mode Only
       
       spawnMob:
-        text: "Invoquer monstres"
+        text: "Invoquer des monstres"
       spawnResource:
-        text: "Invoquer ressources"
+        text: "Invoquer des ressources"
       
     particles:
       comment: Sandbox Mode Only
       
       emitParticles:
-        text: "Émettre particules"
+        text: "Émettre des particules"
       
     miscellaneous:
       comment: Sandbox Mode Only
@@ -2945,7 +2945,7 @@ mapEditorPlayRightPanel:
       lightning:
         text: "Éclair"
       restoreBasicNeeds:
-        text: "Rest. besoins de base"
+        text: "Rest. besoins"
       restoreHealth:
         text: "Restaurer vie"
       fireMissile:
@@ -3669,7 +3669,7 @@ playMainMenuPanel:
   header:
     text: "Menu"
   saveAndExitWarningMessage:
-    text: "$GRE1EN ÊTES-VOUS SUR ?"
+    text: "$GRE1VRAIMENT ?"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Play State
@@ -4163,7 +4163,7 @@ playSelectedMobPanel:
     intelligence:
       text: "Améliore toutes les vitesses de travail et d'efficacité au combat de manière globale et augmente la quantité d'expérience acquise en exécutant des tâches."
     experienceBarHeader:
-      text: "Bar d'expérience"
+      text: "Barre d'expérience"
 
   inventorySlot:
     head:
@@ -4384,11 +4384,11 @@ playSelectedObjectPanel:
   topPriority:
     text: "HAUT"
   notInRange:
-    text: "$GRE1(HORS PORTÉE)"
+    text: "$GRE1(DISTANT)"
   dismantling:
-    text: "$GRE1(DEMANTÈLEMENT)"
+    text: "$GRE1(DÉMOLITION)"
   dismantlingWarning:
-    text: "$RED0Êtes-vous sur de vouloir démanteler ce bâtiment ? Vous ne récupèrerez qu'environ $GRE150%$RED0 du total des ressources en moyenne.~$RED1CELA NE PEUT PAS ÊTRE ANNULÉ"
+    text: "$RED0Voulez-vous vraiment démanteler ce bâtiment ? Vous ne récupèrerez qu'environ $GRE150%$RED0 des ressources dépensées.~$RED1NE PEUT PAS ÊTRE ANNULÉ"
   staticTowerDamageOverride:
     text: "Dégât"
   staticTowerDamageOverrideAmount:
@@ -4466,7 +4466,7 @@ playSelectedObjectUpgradePanel:
       text: "Tour défensive"
       
   constructionRequirements:
-    text: "Requiert $RED1{buildingName}$WHI0 pour la production de $RED1{resourceName}"
+    text: "Requiert $RED1{buildingName}$WHI0 pour produire $RED1{resourceName}"
   supportConjuntion:
     comment: "In some cases, some buildings may require or support multiple buildings, this is the conjuntion portion of the string."
     text: "$WHI0 ou $RED0"
@@ -4532,7 +4532,7 @@ playSelectedObjectUpgradePanel:
   maximumSpawns:
     text: "Nb d'invocations maximum : $GRE1+{amount}"
   spawnNeedsResourcesAndEnergy:
-    text: "Requiert $GRE1{resourceName} $WHI0et $GRE1+{amount} d'énergie $WHI0pour invoquer"
+    text: "L'invocation nécessite $GRE1{resourceName} $WHI0et $GRE1+{amount} d'énergie"
   spawnNeedsEnergy:
     text: "Requiert $GRE1+{amount} d'énergie $WHI0pour invoquer"
   spawnNeedsResources:
@@ -4556,7 +4556,7 @@ playSelectedObjectUpgradePanel:
   canCollectRawEssence:
     text: "Peut collecter de l'essence brute"
   consumesCrylithium:
-    text: "Consomme du crylithium en tant que carburant"
+    text: "Consomme du crylithium comme carburant"
   canBuildRoads:
     text: "Peut construire des routes"
 
@@ -4574,7 +4574,7 @@ playSpellBar:
     header:
       text: "Changer de sort"
     tooltip:
-      text: "Ouvre la liste des sorts et change le sort occupant l'emplacement n°{slotNumber}."
+      text: "Ouvre la liste des sorts et change le sort occupant l'emplacement {slotNumber}."
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Play State
@@ -4630,9 +4630,9 @@ playStatisticsPanel:
       births:
         text: "Naissances"
       grownUp:
-        text: "Passage à l'âge adulte"
+        text: "Passages à l'âge adulte"
       coitus:
-        text: "Coït"
+        text: "Coïts"
       pregnancies:
         text: "Grossesses"
       newPregnancies:
@@ -4676,7 +4676,7 @@ playStatisticsPanel:
       upgradedBuildings:
         text: "Améliorés"
       destroyedBuildings:
-        text: "Détruis"
+        text: "Détruits"
       dismantledBuildings:
         text: "Démantelés"
         
@@ -4703,7 +4703,7 @@ playStatisticsPanel:
       drones:
         text: "Total de drones"
       spawned:
-        text: "Apparitions de monstres"
+        text: "Apparitions monstres"
       killed:
         text: "Tués"
         
@@ -4712,15 +4712,15 @@ playStatisticsPanel:
         text: "Total"
         forceCount: "true"
       productionRate:
-        text: "Rythme de production"
+        text: "Rythme de prod."
       foodAndWater:
-        text: "Rythme nourriture/eau"
+        text: "Prod. nourriture/eau"
     
     magicAndEnergy:
       essenceGenerated:
         text: "Essence générée"
       essenceDecayed:
-        text: "Décomposition d'essence"
+        text: "Essence décomposée"
       energy:
         text: "Énergie"
       influenceSpent:
@@ -4763,7 +4763,7 @@ playStatisticsPanel:
       deaths:
         text: "Combien de villageois sont morts chaque jour."
       catjeetHired:
-        text: "Combien de paysans ont été employés chaque jour."
+        text: "Combien de paysans ont été recrutés chaque jour."
       nomadsJoined:
         text: "Combien de nomades ont rejoint le village chaque jour."
       nomadsVisited:
@@ -4795,7 +4795,7 @@ playStatisticsPanel:
       genderBarTwo:
         text: "Femelle"
       gender:
-        text: "La population journalière d'animaux domestiqués séparés par genre dans le village."
+        text: "La population journalière d'animaux domestiqués dans le village, séparés par genre."
       domesticated:
         text: "Combien d'animaux ont été domestiqués chaque jour."
       deaths:
@@ -4819,13 +4819,13 @@ playStatisticsPanel:
       spreadAmount:
         text: "La quantité totale de cases corrompues additionnelles chaque jour."
       buildings:
-        text: "Montant total de bâtiments corrompus sur la carte."
+        text: "Quantité totale de bâtiments corrompus sur la carte."
       drones:
-        text: "Montant total de drones dans la zone corrompue."
+        text: "Quantité totale de drones dans la zone corrompue."
       spawned:
         text: "Combien de monstres sont apparus chaque jour."
       killed:
-        text: "Combien de monstres se sont faits tuer chaque jour."
+        text: "Combien de monstres se sont fait tuer chaque jour."
     
     buildings:
       totalBuildingsBarOne:
@@ -4833,7 +4833,7 @@ playStatisticsPanel:
       totalBuildingsBarTwo:
         text: "Emplacements disponibles"
       totalBuildings:
-        text: "Tous les bâtiments qui prennent un emplacement de construction dans la village et combien d'emplacements de bâtiment sont disponibles."
+        text: "Nombre de bâtiments qui prennent un emplacement de construction et combien d'emplacements sont disponibles."
       builtBuildings:
         text: "Combien de nouveaux bâtiments ont été construits chaque jour. Ne compte pas les murs."
       upgradedBuildings:
@@ -4845,25 +4845,25 @@ playStatisticsPanel:
     
     defenses:
       totalDefense:
-        text: "Montant total de toutes les tours du village."
+        text: "Nombre total de tours dans le village."
       combobulatorsBarOne:
         text: "Total de golems"
       combobulatorsBarTwo:
         text: "Total de combobulateurs"
       combobulators:
-        text: "Montant total de golems et de combobulateurs de golems."
+        text: "Nombre total de golems et de combobulateurs de golems."
       golems:
         text: "Combien de golems sont en train de travailler à défendre le village."
       guards:
         text: "Tous les gardes du village."
       walls:
-        text: "Le montant total de murs présents dans la portée du village."
+        text: "Le nombre total de murs présents dans la portée du village."
     
     resources:
       totalResources:
         text: "Combien de ressources possédées par le village au total."
       productionRate:
-        text: "Une comparaison des ressources acquises par rapport à celles consummées dans le village."
+        text: "Une comparaison des ressources produites par rapport à celles consummées dans le village."
       foodAndWaterBarOne:
         text: "Nourriture"
       foodAndWaterBarTwo:
@@ -4891,7 +4891,7 @@ playStatisticsPanel:
     statistics:
       text: "Statistiques"
     category:
-      text: "Categorie"
+      text: "Catégorie"
     villagers:
       text: "Villageois"
     immigration:
@@ -4925,7 +4925,7 @@ playStatisticsPanel:
   
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Play State
-# System and Data Bar"
+# System and Data Bar
 # rtr.gui.states.playstate.SystemAndDataBar.java
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
@@ -4948,17 +4948,17 @@ playSystemAndDataBar:
       statistics:
         text: "Visualisez différentes données du jeu."
       dataViewsHeader:
-        text: "Vue de données ({shortcutKey})"
+        text: "Données ({shortcutKey})"
       dataViews:
         text: "Visualisez diverses cartes de données."
       problemPanelHeader:
         text: "Problèmes ({shortcutKey})"
       problemPanel:
-        text: "Listes plusieurs alertes et problèmes concernant le village dont vous devriez vous occuper."
+        text: "Listes plusieurs alertes et problèmes concernant le village et dont vous devriez vous occuper."
       buildingListHeader:
         text: "Liste des bâtiments ({shortcutKey})"
       buildingList:
-        text: "Réorganisez les proprités de construction et visualisez une liste de tous les bâtiments dans le village."
+        text: "Réorganisez les priorités de construction et visualisez une liste de tous les bâtiments dans le village."
       populationListHeader:
         text: "Liste de la population ({shortcutKey})"
       populationList:
@@ -4991,7 +4991,7 @@ playToolsBar:
       dismantleBuildingsHeader:
         text: "Démanteler des bâtiments ({shortcutKey})"
       dismantleBuildings:
-        text: "Démantèle un bâtiment en réupérant quelques ressources du coût de construction en matériaux. $RED1Cela NE PEUT PAS être annulé !"
+        text: "Démantèle un bâtiment en récupérant quelques ressources du coût de construction en matériaux. $RED1Cela NE PEUT PAS être annulé !"
       digHeader:
         text: "Creuse un trou ({shortcutKey})"
       dig:
@@ -4999,7 +4999,7 @@ playToolsBar:
       createOrUpgradeRoadsHeader:
         text: "Créer ou améliorer des routes"
       createOrUpgradeRoads:
-        text: "Sélectionnez des cases libres sur lesquelles construire des chemins ou améliorer des routes et chemins existants.Les routes et les chemins améliorent la vitesse de déplacement de toutes les créatures qui marchent dessus."
+        text: "Sélectionnez des cases libres sur lesquelles construire des chemins ou améliorer des routes et chemins existants. Les routes et les chemins améliorent la vitesse de déplacement de toutes les créatures qui marchent dessus."
       dismantleRoadsHeader:
         text: "Démanteler des routes"
       dismantleRoads:
@@ -5025,9 +5025,9 @@ playVillageEfficiencyPanel:
     general:
       text: "$YEL1Général"
     harvestSpeed:
-      text: "$YEL1Vitesse de récolte"
+      text: "$YEL1Vitesse récolte"
     refiningSpeed:
-      text: "$YEL1Vitesse de raffinage"
+      text: "$YEL1Vitesse raffinage"
       
   globalSpeed:
     text: "Vitesse globale"
@@ -5075,7 +5075,7 @@ playWeatherPanel:
     timeHeader:
       text: "Temps"
     time:
-      text: "Jour, année, heure du jour et progrès de la journée."
+      text: "Jour, année, heure du jour et avancement de la journée."
 
   weather:
     snowing:
@@ -5083,11 +5083,11 @@ playWeatherPanel:
     veryCold:
       text: "$BLU1Très froid"
     coldRain:
-      text: "$CYA1Pluie froide"
+      text: "$CYA1Pluie glaciale"
     cold:
       text: "$CYA1Froid"
     chillyRain:
-      text: "$CYA0Pluie fraîche" #find synonym
+      text: "$CYA0Pluie fraîche"
     chilly:
       text: "$CYA0Frais"
     raining:
@@ -5103,7 +5103,7 @@ playWeatherPanel:
     hot:
       text: "$ORA0Chaud"
     coolRain:
-      text: "$YEL0Pluie fraîche" #find synonym
+      text: "$YEL0Pluie froide"
     warm:
       text: "$YEL0Tiède"
        
@@ -5159,7 +5159,7 @@ sharedDataViewsPanel:
   
   button:
     resourceValues:
-      text: "Valeur en ressources"
+      text: "Valeur des ressources"
     movementCosts:
       text: "Coûts de mouvement"
     blockMap:
@@ -5169,13 +5169,13 @@ sharedDataViewsPanel:
     perimeter:
       text: "Périmètre"
     corruptionResistance:
-      text: "Résistance à la corruption"
+      text: "Résistance à la corr."
     desirability:
       text: "Attractivité"
     towerRange:
       text: "Portée des tours"
     lightningRodRange:
-      text: "Portée des paratonnerres"
+      text: "Portée paratonnerres"
     hideTopography:
       text: "Cacher la topographie"
     collisionMap:
@@ -5194,7 +5194,7 @@ sharedDataViewsPanel:
       text: "Durée de vie des routes"
       
   header:
-    text: "Vue de données"
+    text: "Données"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Shared (Used in multiple states)
@@ -5219,7 +5219,7 @@ sharedDebugData:
   mouseTile:
     text: "Case de la souris :"
   mouseMap:
-    text: "Carte de la souris :"
+    text: "Position sur la carte :"
   gpuModel:
     text: "Modèle du GPU : {gpuModelName}"
   usedMemory:
@@ -5227,15 +5227,15 @@ sharedDebugData:
   freeMemory:
     text: "$CYA1Mémoire disponible :"
   totalMemory:
-    text: "$CYA1Mémoire totale"
+    text: "$CYA1Mémoire totale :"
   maxMemory:
-    text: "$CYA1Mémoire maximale:"
+    text: "$CYA1Mémoire maximale :"
   resolution:
     text: "$ORA1Résolution : $YEL1{width}x{height}"
   uiScale:
-    text: "$PIN1Échelle de l'UI:"
+    text: "$PIN1Échelle UI :"
   worldScale:
-    text: "$PIN1Échelle du monde:"
+    text: "$PIN1Échelle monde :"
   
   terrain:
     baseTerrain:
@@ -5251,15 +5251,15 @@ sharedDebugData:
     roads:
       text: "$GRE0Routes :"
     lowerTopography:
-      text: "$GRE0Basse topographie:"
+      text: "$GRE0Basse topographie :"
     lowerTopographyAccent:
-      text: "$GRE0Basse topographie (A):"
+      text: "$GRE0Basse topographie (A) :"
     bridges:
       text: "$GRE0Ponts :"
     upperTopography:
       text: "$GRE0Haute topographie :"
     upperTopographyAccent:
-      text: "$GRE0Haute topographie (A):"
+      text: "$GRE0Haute topographie (A) :"
     objects:
       text: "$GRE0Objets :"
     outOfBounds:
@@ -5330,7 +5330,7 @@ playRightObjectDescriptionPanel:
   energy:
     text: "$YEL1{amount} d'énergie"
   staticTowerDamageOverride:
-    text: "Dégâts : $GRE1Electrique (3-8)"
+    text: "Dégâts : $GRE1Électrique (3-8)"
   chargedDamage:
     text: "Dégâts chargés : $GRE1{damageType} ({damageMinimum}-{damageMaximum})"
   damage:
@@ -5354,7 +5354,7 @@ playRightObjectDescriptionPanel:
   maximumSpawns:
     text: "Invocations max. : $GRE1{amount}"
   spawnNeedsResourcesAndEnergy:
-    text: "Nécessite $GRE1{resourceName}$WHI0 et $GRE1{amount} d'énergie $WHI0pour invoquer"
+    text: "Invocation : $GRE1{resourceName}$WHI0 et $GRE1{amount} d'énergie"
   spawnNeedsEnergy:
     text: "Nécessite $GRE1{amount} d'énergie $WHI0pour invoquer"
   spawnNeedsResources:
@@ -5372,11 +5372,11 @@ playRightObjectDescriptionPanel:
   housingCapacity:
     text: "Capacité de logement : $GRE1{amount}"
   workersSlots:
-    text: "Postes de travailleurs : $GRE1{amount} {mobJobName}"
+    text: "Postes : $GRE1{amount} {mobJobName}"
   buildingSlotsProvided:
     text: "Emplacements de construction : $GRE1{amount}"
   acceptsEssence:
-    text: "Accepte de l'essence venant des collecteurs"
+    text: "Accepte l'essence venant des collecteurs"
   canCollectRawEssence:
     text: "Peut collecter de l'essence brute"
   consumesCrylithium:
@@ -5451,7 +5451,7 @@ sharedSettingsPanel:
     mapInformation:
       text: "Informations de la carte"
     dataViews:
-      text: "Vue de données"
+      text: "Données"
     problemPanel:
       text: "Panneau des problèmes"
     buildingList:
@@ -5517,7 +5517,7 @@ sharedSettingsPanel:
     header:
       text: "$ORA1Contrôles"
     invertMapScrolling:
-      text: "Inv. défilement de la carte"
+      text: "Inv. défilement de carte"
     edgeScrolling:
       text: "Défilement bordures"
     edgeScrollingFullScreenRecommended:
@@ -5561,7 +5561,7 @@ sharedSettingsPanel:
     shadows:
       text: "Ombres"
     autosaveFrequency:
-      text: "Fréq. de sauvegarde auto"
+      text: "Fréquence de sauvegarde"
     clouds:
       text: "Nuages"
     background:
@@ -6231,7 +6231,7 @@ helpTip:
     sandboxMode:
       text: "Bienvenue dans le mode bac à sable ! Le mode bac à sable vous permet de jouer avec le moteur du jeu et les mécaniques. Vous pouvez faire apparaitre des monstres, placer des bâtiments préconstruits, dessiner le terrain et plein d'autres choses amusantes. Soyez simplement averti, le mode bac à sable vous permet de faire des choses bien au-delà des limites du jeu. Si vous abusez trop du jeu en mode bac à sable, le jeu risque d'être surchargé et de geler. Vous avez été prévenu ! Amusez-vous bien. :)"
     gameSpeedHeader:
-      text: "AVERTISSEMENT SUR LE CONTRÔLE DE LA VITESSE !"
+      text: "AVERTISSEMENT CONTRÔLE DE LA VITESSE !"
     gameSpeed:
       text: "Les contrôles de vitesse sont encore très récents et expérimentaux. $RED1Le fait de régler la vitesse au-delà de 2x peut causer de graves problèmes de performance tard dans la partie. $WHI0Faites le à vos risques et périls ! Si le jeu arrête de répondre, vous pouvez $GRE1appuyer sur la barre d'espace $WHI0pour mettre le jeu en pause et baisser la vitesse du jeu avant de reprendre la partie."
     worldMapWelcomeHeader:
@@ -6603,17 +6603,17 @@ tileSet:
     logPath:
       text: "Chemin en bois"
     cobbleAndLogPathDebris:
-      text: "Débris de chemin en bois et pierre"
+      text: "Débris de chemin bois/pierre"
     cobbleAndLogPath:
       text: "Chemin en bois et pierre"
     cobbleAndBoardRoadDebris:
-      text: "Débris de chemin en planches et pierre"
+      text: "Débris de chemin planches/pierres"
     cobbleAndBoardRoad:
       text: "Chemin en planches et pierre"
     cutStoneAndBoardRoadDebris:
-      text: "Débris de route pavée/planches"
+      text: "Débris de route pavée"
     cutStoneAndBoardRoad:
-      text: "Route pavée/planches"
+      text: "Route pavée"
 
   terrain:
     treeStumps:
@@ -8655,7 +8655,7 @@ object:
         name:
           text: "Logement standard"
         description:
-          text: "Augmente l'occupation maximale, l'espace de rangement et le confort de façon assez uniforme. C'est un bon choix pour un village où vous voulez de l'espace pour les villageois, mais ne voulez pas les inconvénients d'un taux d'occupation élevé."
+          text: "Augmente l'occupation maximale, le stockage et le confort de façon assez uniforme. C'est un bon choix pour laisser de l'espace à vos villageois sans les inconvénients d'un taux d'occupation élevé."
       largeStandard:
         name:
           text: "Grand logement standard"
@@ -8675,7 +8675,7 @@ object:
         name:
           text: "Logement de haute qualité"
         description:
-          text: "Augmente très légèrement l'espace maximal d'occupation et de rangement, mais augmente considérablement le confort. C'est un bon logement si vous voulez les villageois les plus heureux et les plus productifs."
+          text: "Augmente légèrement l'espace d'occupation et de rangement, mais augmente considérablement le confort. C'est un bon logement si vous voulez des villageois plus heureux et plus productifs."
       largeHighQuality:
         name:
           text: "Grand logement de haute qualité"
@@ -8833,7 +8833,7 @@ object:
         name:
           text: "Station de courrier de fortune"
         description:
-          text: "Un bâtiment hôte qui crée des golems-facteurs utilisés pour livrer les ressources aux régions adjacentes. Fournit également les travailleurs qui peuvent livrer les ressources aux golems pour les préparer au départ."
+          text: "Un bâtiment hôte qui crée des golems-facteurs utilisés pour livrer les ressources aux régions adjacentes. Fournit également les travailleurs qui chargent les golems."
       base:
         name:
           text: "Station de courrier"
@@ -8843,14 +8843,14 @@ object:
         name:
           text: "Station de courrier établie"
         description:
-          text: "Augmente de nouveau le nombre de golems-facteurs, augmente la quantité d'espaces de stationnement disponibles, diminue le coût d'apparition et ajoute un poste de travailleur."
+          text: "Augmente de nouveau le nombre de golems-facteurs, augmente la quantité d'espaces de stationnement, diminue le coût d'apparition et ajoute un poste de travailleur."
     
     kitchen:
       makeshift:
         name:
           text: "Cuisine de fortune"
         description:
-          text: "Fournit des cuisiniers qui peuvent préparer des rations que les villageois peuvent emmener avec eux pour être plus efficaces. Efficace pour prolonger votre approvisionnement alimentaire afin de survivre à des conditions climatiques plus rudes lorsque les récoltes ne poussent pas."
+          text: "Fournit des cuisiniers qui peuvent préparer des rations. Efficace pour prolonger votre approvisionnement alimentaire afin de survivre à des conditions climatiques plus rudes."
       base:
         name:
           text: "Cuisine"
@@ -9072,7 +9072,7 @@ object:
         name:
           text: "Tour à fronde de fortune"
         description:
-          text: "Une lourde tour qui tire des balles de pierre rondes. Pratique pour les installations spéciales : elles sont plus efficaces lorsqu'elles sont construites sur un chemin étroit. Ne peut pas tirer par-dessus les murs. Nécessite un fabricant de cartouches pour produire des munitions !"
+          text: "Une tour lourde qui tire des boulets. Plus efficaces lorsqu'elles sont construites sur un chemin étroit mais ne peuvent pas tirer par-dessus des murs. Nécessite un fabricant de cartouches !"
       base:
         name:
           text: "Tour à fronde"
@@ -9087,17 +9087,17 @@ object:
         name:
           text: "Tour à fronde de feu"
         description:
-          text: "Ajoute des dégâts de feu explosifs à la tour, mais consomme de l'énergie pour tirer. Si les réserves d'énergie sont épuisées, elle continuera à tirer des boules de pierre ordinaires jusqu'à ce que ses munitions soient épuisées."
+          text: "Ajoute des dégâts de feu explosifs à la tour, mais consomme de l'énergie pour tirer. Si les réserves d'énergie sont épuisées, elle continuera à tirer des boulets ordinaires jusqu'à ce que ses munitions soient épuisées."
       lightning:
         name:
           text: "Tour à fronde-éclair"
         description:
-          text: "Ajoute des dégâts de foudre à la tour, mais consomme de l'énergie pour tirer. Si les réserves d'énergie sont épuisées, elle continuera à tirer des boules de pierre ordinaires jusqu'à ce que ses munitions soient épuisées."
+          text: "Ajoute des dégâts de foudre à la tour, mais consomme de l'énergie pour tirer. Si les réserves d'énergie sont épuisées, elle continuera à tirer des boulets ordinaires jusqu'à ce que ses munitions soient épuisées."
       ice:
         name:
           text: "Tour à fronde de glace"
         description:
-          text: "Ajoute des dégâts de glace à la tour, mais consomme de l'énergie pour tirer. Si les réserves d'énergie sont épuisées, elle continuera à tirer des boules de pierre ordinaires jusqu'à ce que ses munitions soient épuisées."
+          text: "Ajoute des dégâts de glace à la tour, mais consomme de l'énergie pour tirer. Si les réserves d'énergie sont épuisées, elle continuera à tirer des boulets ordinaires jusqu'à ce que ses munitions soient épuisées."
     
     smallFountain:
       name:
@@ -9110,7 +9110,7 @@ object:
         name:
           text: "Tour pulvérisatrice de fortune"
         description:
-          text: "Une tour légère qui pulvérise des tonnes de petites balles de pierre sur une grande zone. Idéale pour contrôler de larges groupes de monstres faibles. Requiert un fabricant de cartouche pour les munitions."
+          text: "Une tour légère qui pulvérise des tonnes de petites balles sur une grande zone. Idéale pour contrôler de larges groupes de monstres faibles. Requiert un fabricant de cartouche."
       base:
         name:
           text: "Tour pulvérisatrice"
@@ -9513,9 +9513,9 @@ resource:
 
   goldCoinSack:
     single:
-      text: "Sac de pièces d'or"
+      text: "Pièces d'or"
     plural:
-      text: "Sacs de pièces d'or"
+      text: "Pièces d'or"
 
   crystal:
     single:
@@ -9663,15 +9663,15 @@ resource:
 
   medkit:
     single:
-      text: "Trousse de premiers secours"
+      text: "Kit médical"
     plural:
-      text: "Trousses de premiers secours"
+      text: "Kits médicaux"
 
   healingPotion:
     single:
-      text: "Potion de guérison"
+      text: "Potion de santé"
     plural:
-      text: "Potions de guérison"
+      text: "Potions de santé"
 
   dirtyWaterBucket:
     single:
@@ -9693,9 +9693,9 @@ resource:
 
   suspiciousKey:
     single:
-      text: "Clé suspicieuse ?!"
+      text: "Clé suspicieuse"
     plural:
-      text: "Clés suspicieuses ?!"
+      text: "Clés suspicieuses"
       
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Game Mode
