@@ -7955,7 +7955,49 @@ mobJob:
       text: "Approvisionneurs de facteurs"
     description:
       text: "Livre des ressources aux golems-facteurs pour qu'ils les envoient dans d'autres régions."
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# Object Module
+# Object Overlay Messages
+# rtr.objects.ObjectBase.java
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+objectOverlay:
+  comment: "Object Module - Object Overlay Messages"
+  javaClass: "rtr.objects.ObjectBase.java" 
   
+  requiredBuilding:
+    text: "$RED1Requiert~{buildingName}"
+  requiredBuildingAdditional:
+    comment: "This is used to join a list of required buildings, if more than one will meet the objects requirements."
+    text: "$WHI0 ou $RED1{buildingName}"
+  
+  farms:
+    tooCold:
+      text: "$RED1Trop $BLU0froid$RED1 pour cultiver !"
+    cropsDying:
+      text: "$RED1Les cultures meurent!"
+    poorlyTended:
+      text: "$YEL1Mal entretenues."
+    poorlyWatered:
+      text: "$YEL1Mal arrosées."  
+  
+  lowEnergy:
+    text: "$YEL1Peu d'énergie !"
+  noWorkers:
+    text: "$YEL1Aucun travailleur !"
+  understaffed:
+    text: "$YEL1En sous-effectif !"
+  noProduction:
+    text: "$YEL1Rien en fabrication !"
+  noSpawningResources:
+    comment: "This is almost exclusively used for combobulator to warn the player no usable materials are nearby"
+    text: "$YEL1Pas de {resourceName} proche !"
+  
+  noResources:
+    comment: "This is for when there's no resources available to build a building under construction."
+    text: "$YEL1Pas de {resourceName} !"
+
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Object Module
 # Names and Descriptions

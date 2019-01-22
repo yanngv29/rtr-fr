@@ -7894,6 +7894,48 @@ mobJob:
       text: "Courier Suppliers"
     description:
       text: "Delivers resources to courier golems to be taken to other regions."
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# Object Module
+# Object Overlay Messages
+# rtr.objects.ObjectBase.java
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+objectOverlay:
+  comment: "Object Module - Object Overlay Messages"
+  javaClass: "rtr.objects.ObjectBase.java" 
+  
+  requiredBuilding:
+    text: "$RED1Requires~{buildingName}"
+  requiredBuildingAdditional:
+    comment: "This is used to join a list of required buildings, if more than one will meet the objects requirements."
+    text: "$WHI0 or $RED1{buildingName}"
+  
+  farms:
+    tooCold:
+      text: "$RED1Too $BLU0cold$RED1 to grow food!"
+    cropsDying:
+      text: "$RED1Crops are dying!"
+    poorlyTended:
+      text: "$YEL1Poorly tended."
+    poorlyWatered:
+      text: "$YEL1Poorly watered."  
+  
+  lowEnergy:
+    text: "$YEL1Low energy!"
+  noWorkers:
+    text: "$YEL1No workers!"
+  understaffed:
+    text: "$YEL1Understaffed!"
+  noProduction:
+    text: "$YEL1No Production Set!"
+  noSpawningResources:
+    comment: "This is almost exclusively used for combobulator to warn the player no usable materials are nearby"
+    text: "$YEL1No nearby {resourceName}!"
+  
+  noResources:
+    comment: "This is for when there's no resources available to build a building under construction."
+    text: "$YEL1No available {resourceName}!"
   
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Object Module
