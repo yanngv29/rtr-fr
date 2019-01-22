@@ -19,6 +19,8 @@
 
 # Any time a line is left blank or removed, the game will load the default English version. Although I recommend not touching any lines you do not wish to translate.
 
+# you can add forceCount: true directly below any text: line to tell the game that line is in fact translated, in the rare case no translation is actually required.
+
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # God Module
 # God XP Types
@@ -3664,7 +3666,7 @@ playOverlay:
     outOfBuildingSlotsNoCamp:
       text: "Out of building slots~Build a $GRE0Camp!"
     outOfBuildingSlotsUpgrade:
-      text: "Out of building slots~Upgrade your $GRE{castleName}0~$WHI0or build an $GRE0Ancillary"
+      text: "Out of building slots~Upgrade your $GRE0{castleName}~$WHI0or build an $GRE0Ancillary"
     outOfBuildingSlots:
       text: "Out of building slots!"
   
@@ -4337,7 +4339,7 @@ playSelectedObjectPanel:
       buildingPriority:
         text: "Current construction priority level of the building, lower numbers are a higher priority."
       reclaimHeader:
-        textHeader: "Reclaim"
+        text: "Reclaim"
       reclaim:
         text: "Reclaim this abandoned building. Usually, reclaiming a building costs about half as much resources as building a new one from scratch."
       upgradeHeader:
@@ -7129,51 +7131,51 @@ aiTask:
   
   base:
     drinkingWater:
-      text: "Drinking a $YEL1{resourceName}."
+      text: "Drinking a $YEL1{resourceName}"
     eatingFood:
-      text: "Eating a $YEL1{resourceName}."
+      text: "Eating a $YEL1{resourceName}"
     pathfindingBruteForce:
-      text: "Clearing obstacles in the way."
+      text: "Clearing obstacles in the way"
     recoveringHealth:
-      text: "Recovering health with a $YEL1{resourceName}."
+      text: "Recovering health with a $YEL1{resourceName}"
 
     droppingResource:
       findingLocation:
-        text: "Finding location to drop a resource."
+        text: "Finding location to drop a resource"
       pathfinding:
-        text: "Walking to an open space to drop the resource in their hand."
+        text: "Walking to an open space to drop the resource in their hand"
       dropping:
-        text: "Dropping resource on ground."
+        text: "Dropping resource on ground"
         
   birth:  
     findSafeLocation:
-      text: "Finding a safe place to give birth."
+      text: "Finding a safe place to give birth"
     pathfindToSafeLocation:
-      text: "Walking to a safe place to give birth."
+      text: "Walking to a safe place to give birth"
   
   buildWork:
     pathfindToBuilding:
-      text: "Walking to {buildingName} to build."
+      text: "Walking to {buildingName} to build"
     build:
-      text: "Building {buildingName}."
+      text: "Building {buildingName}"
 
   buyFromProvisioner:
     pathfindToProvisioner:
-      text: "Buying resource from $YEL1a catjeet provisioner."
+      text: "Buying resource from $YEL1a catjeet provisioner"
 
   buyLaborer:
     pathfindToLaborer:
-      text: "Hiring $YEL1a catjeet laborer."
+      text: "Hiring $YEL1a catjeet laborer"
 
   chat:
     pathfindToChatPartner:
-      text: "Visiting {mobName}."
+      text: "Visiting {mobName}"
     chat:
-      text: "Chatting with {mobName}."
+      text: "Chatting with {mobName}"
 
   clearoutResourceFromBuilding:
     pathfindToBuilding:
-      text: "Clearing out $YEL1{resourceName}$WHI0 topography at {buildingName}."
+      text: "Clearing out $YEL1{resourceName}$WHI0 topography at {buildingName}"
 
   clearTopographyFromRoadWork:
     pathfindToTopography:
@@ -7189,109 +7191,109 @@ aiTask:
       
   combatBuildings:
     pathfindToTarget:
-      text: "Attacking {buildingName}."
+      text: "Attacking {buildingName}"
       
   combatMobs:
     fleeTarget:
-      text: "Fleeing {mobName}."
+      text: "Fleeing {mobName}"
     pathfindToTarget:
-      text: "Attacking {mobName}."
+      text: "Attacking {mobName}"
 
   confused:
     beConfused:
-      text: "Confused."
+      text: "Confused"
     wanderAround:
-      text: "Wandering around confused."
+      text: "Wandering around confused"
 
   constructionHarvestWork:
     pathfindToHarvestWork:
-      text: "Walking to worksite harvest some materials."
+      text: "Walking to worksite harvest some materials"
     harvestResource:
-      text: "Harvesting materials."
+      text: "Harvesting materials"
 
   courierArriveBehavior:
     pathfindToDropOffCoordinatesNoRegion:
-      text: "Delivering resources from another region."
+      text: "Delivering resources from another region"
     pathfindToDropOffCoordinates:
-      text: "Delivering resources from $YEL1{regionName}."
+      text: "Delivering resources from $YEL1{regionName}"
     dropOffResourcesNoRegion:
-      text:  "Dropping off resources from another region."
+      text:  "Dropping off resources from another region"
     dropOffResources:
-      text:  "Dropping off resources from $YEL1{regionName}."
+      text:  "Dropping off resources from $YEL1{regionName}"
       
   courierDepartBehavior:
     pathfindToLeaveCoordinates:
-      text: "Departing the region to deliver resources to $YEL1{regionName}."
+      text: "Departing the region to deliver resources to $YEL1{regionName}"
 
   courierParkBehavior:
     pathfindToParkingSpot:
-      text: "Parking at $YEL1{buildingName}."
+      text: "Parking at $YEL1{buildingName}"
     park:
-      text: "Waiting for resources at $YEL1{buildingName}."
+      text: "Waiting for resources at $YEL1{buildingName}"
 
   criticalRepairWork:
     pathfindToBuilding:
-      text: "Walking to {buildingName} to repair."
+      text: "Walking to {buildingName} to repair"
     repairBuilding:
-      text: "Repairing {buildingName}."
+      text: "Repairing {buildingName}"
 
   death:
     death:
-      text: "Dead."
+      text: "Dead"
       
   deliverConstructionResource:
     pathfindToResourceOnGround:
-      text: "Picking up resource on the ground to deliver to {buildingName}."
+      text: "Picking up resource on the ground to deliver to {buildingName}"
     pathfindToBuilding:
-      text: "Delivering resource at {buildingNameSource} to {buildingNameDestination}."
+      text: "Delivering resource at {buildingNameSource} to {buildingNameDestination}"
 
   deliverConstructionResourceInHand:
     pathfindToBuilding:
-      text: "Delivering resource to {buildingName}."
+      text: "Delivering resource to {buildingName}"
     pathfindToExtraResource:
-      text: "Picking up additional delivery resource for {buildingName}."
+      text: "Picking up additional delivery resource for {buildingName}"
 
   deliverCourierResource:
     pathfindToResourceOnGround:
-      text: "Picking up resource on the ground to give to $YEL1a courier$WHI0 going to $YEL1{regionName}."
+      text: "Picking up resource on the ground to give to $YEL1a courier$WHI0 going to $YEL1{regionName}"
     pathfindToBuilding:
-      text: "Picking up resource at {buildingName}$WHI0 to give to a $YEL1a courier$WHI0 going to $YEL1{regionName}."
+      text: "Picking up resource at {buildingName}$WHI0 to give to a $YEL1a courier$WHI0 going to $YEL1{regionName}"
 
   deliverCourierResourceInHand:
     pathfindToCourier:
-      text: "Delivering resource to $YEL1a courier$WHI0 to send to $YEL1{regionName}."
+      text: "Delivering resource to $YEL1a courier$WHI0 to send to $YEL1{regionName}"
     pathfindToExtraResource:
-      text: "Picking up additional resource to deliver to a courier."
+      text: "Picking up additional resource to deliver to $YEL1a courier"
 
   deliverRoadConstructionResource:
     pathfindToResourceOnGround:
-      text: "Picking up resource on the ground to deliver to a road."
+      text: "Picking up resource on the ground to deliver to a road"
     pathfindToBuilding:
-      text: "Delivering resource at {buildingName} to a road."
+      text: "Delivering resource at {buildingName} to a road"
 
   deliverRoadConstructionResourceInHand:
     pathfindToRoad:
-      text: "Delivering resource to a road."
+      text: "Delivering resource to a road"
     pathfindToExtraResource:
-      text: "Picking up additional delivery resource for a road."
+      text: "Picking up additional delivery resource for a road"
       
   digWork:
     pathfindToTerrain:
       text: "Walking to worksite dig a hole."
     dig:
-      text: "Digging hole."
+      text: "Digging hole"
       
   dismantleWork:
     pathfindToBuilding:
-      text: "Walking to {buildingName} to dismantle."
+      text: "Walking to {buildingName} to dismantle"
     dismantle:
-      text: "Dismantling {buildingName}."
+      text: "Dismantling {buildingName}"
       
   equipResource:
     pathfindToEquipmentOnGround:
-      text: "Equipping resource on the ground."
+      text: "Equipping resource on the ground"
     pathfindToBuilding:
-      text: "Equipping resource at {buildingName}."
+      text: "Equipping resource at {buildingName}"
       
   findBetterHome:
     visitNewHome:
@@ -7301,15 +7303,15 @@ aiTask:
       
   findFood:
     pathfindToResourceOnGround:
-      text: "Walking to nearby food on the ground."
+      text: "Walking to nearby food on the ground"
     pathfindToBuilding:
-      text: "Stealing food at {buildingName}."
+      text: "Stealing food at {buildingName}"
 
   findFoodHarvest:
     pathfindToFood:
-      text: "Walking to some unharvested food."
+      text: "Walking to some unharvested food"
     harvestFood:
-      text: "Harvesting raw food to eat."
+      text: "Harvesting raw food to eat"
       
   findHome:
     searchForHome:
@@ -7333,7 +7335,7 @@ aiTask:
     pathfindToWaterFountain:
       text: "Going to {buildingName} to drink water."
     drinkFromWaterFountain:
-      text: "Drinking water from {buildingName}."
+      text: "Drinking water from {buildingName}"
       
   findWaterHarvest:
     pathfindToWater:
@@ -7347,11 +7349,11 @@ aiTask:
 
   goHome:
     findHome:
-      text: "Finding a path to home {buildingName}."
+      text: "Finding a path to home {buildingName}"
     pathfindToHome:
-      text: "Going home to {buildingName}."
+      text: "Going home to {buildingName}"
     enterHome:
-      text: "Trying to enter {buildingName}."
+      text: "Trying to enter {buildingName}"
       
   golemHealBehavior:
     findRecombobulator:
@@ -7361,7 +7363,7 @@ aiTask:
       
   golemPatrolBehavior:
     pathfindToWaypoint:
-      text: "Patrolling the village."
+      text: "Patrolling the village"
       
   grabbed:
     grabbed:
@@ -7369,53 +7371,53 @@ aiTask:
       
   guardPatrolFrontLine:
     pathfindToWaypoint:
-      text: "Patrolling the front lines."
+      text: "Patrolling the front lines"
       
   guardPatrolPerimeter:
     pathfindToWaypoint:
-      text: "Patrolling the perimeter."
+      text: "Patrolling the perimeter"
       
   guardPatrolVillage:
     pathfindToWaypoint:
-      text: "Patrolling the village."
+      text: "Patrolling the village"
       
   guardPost:
     pathfindToBuilding:
-      text: "Posting at $YEL1{buildingName}."
+      text: "Posting at {buildingName}"
     posting:
-      text: "Posted at $YEL1{buildingName}."
+      text: "Posted at {buildingName}"
     pathfindToNewPostPosition:
-      text: "Posted at $YEL1{buildingName}."
+      text: "Posted at {buildingName}"
       
   guardSummoned:
     pathfindToSummons:
-      text: "Running to protect {mobName}."
+      text: "Running to protect {mobName}"
       
   harvestFarmWork:
     pathfindToResource:
-      text: "Walking to farm to harvest food."
+      text: "Walking to farm to harvest food"
     harvestResource:
-      text: "Harvesting materials."
+      text: "Harvesting materials"
       
   harvestWaterWork:
     pathfindToWater:
-      text: "Walking to worksite harvest some water."
+      text: "Walking to worksite harvest some water"
     harvestWater:
-      text: "Harvesting water."
+      text: "Harvesting water"
       
   harvestWork:
     pathfindToResource:
-      text: "Walking to worksite harvest some materials."
+      text: "Walking to worksite harvest some materials"
     harvestResource:
-      text: "Harvesting materials."
+      text: "Harvesting materials"
       
   healthRepair:
     pathfindToBuilding:
-      text: "Going to $YEL1{buildingName} for medical attention."
+      text: "Going to $YEL1{buildingName} for medical attention"
     postingWaitingForMedic:
       text: "Waiting for {mobName}$WHI0 to apply first aid."
     postingWaiting:
-      text: "Waiting for medical attention at $YEL1{buildingName}."
+      text: "Waiting for medical attention at $YEL1{buildingName}"
       
   incapacitated:
     incapacitated:
@@ -7423,73 +7425,73 @@ aiTask:
       
   inHome:
     inHome:
-      text: "Inside their home."
+      text: "Inside their home"
     sleeping:
-      text: "Sleeping."
+      text: "Sleeping"
       
   inHomeHiding:
     hiding:
-      text: "Hiding inside their home."
+      text: "Hiding inside their home"
       
   laborerLeave:
     pathfindToLeaveCoordinates:
-      text: "Leaving the region."
+      text: "Leaving the region"
       
   laborerPost:
     pathfindToMarketplace:
-      text: "Setting up shop at $YEL1{buildingName}."
+      text: "Setting up shop at $YEL1{buildingName}"
     sellLabor:
-      text: "Selling labor at $YEL1{buildingName}."
+      text: "Selling labor at $YEL1{buildingName}"
       
   mateCoitus:
     awaitCoitusWaiting:
       text: "Waiting for {mobName} to arrive for coitus."
     awaitCoitus:
-      text: "Coitusing with {mobName}."
+      text: "Coitusing with {mobName}"
 
   mateGoCoitus:
     findHome:
-      text: "Finding a path to home {buildingName}."
+      text: "Finding a path to home {buildingName}"
     pathfindToHome:
-      text: "Going home to have coitus with {mobName}."
+      text: "Going home to have coitus with {mobName}"
     enterHome:
-      text: "Entering home to have coitus with {mobName}."
+      text: "Entering home to have coitus with {mobName}"
       
   mateGoCoitusOther:
     findHome:
-      text: "Finding a path to home {buildingName}."
+      text: "Finding a path to home {buildingName}"
     pathfindToHome:
-      text: "Going home to have coitus with {mobName}."
+      text: "Going home to have coitus with {mobName}"
     enterHome:
-      text: "Entering home to have coitus with {mobName}."
+      text: "Entering home to have coitus with {mobName}"
       
   medicWork:
     pathfindToBuilding:
-      text: "Posting at $YEL1{buildingName}."
+      text: "Posting at {buildingName}"
     posting:
-      text: "Posted at $YEL1{buildingName}."
+      text: "Posted at {buildingName}"
     pathfindToHurtVillager:
       text: "Going to {mobName}$WHI0 to apply first aid."
     healSelf:
-      text: "Applying first aid to self."
+      text: "Applying first aid to self"
     healVillager:
-      text: "Applying first aid to {mobName}."
+      text: "Applying first aid to {mobName}"
 
   migrantDepartBehavior:
     pathfindToLeaveCoordinates:
-      text: "Departing the region to migrate to $YEL1{regionName}."
+      text: "Departing the region to migrate to $YEL1{regionName}"
       
   migrationPreperationBehavior:
     pathfindToLeaveCoordinates:
-      text: "Preparing to leave region."
+      text: "Preparing to leave region"
       
   nomadBehavior:
     pathfindToVillage:
-      text: "Wandering into the village."
+      text: "Wandering into the village"
       
   nomadBehaviorOther:
     pathfindToVillage:
-      text: "Wandering into the village."
+      text: "Wandering into the village"
       
   onFirePanic:
     onFire:
@@ -7501,25 +7503,25 @@ aiTask:
       
   plantResource:
     pathfindToResourceOnGround:
-      text: "Picking up resource on the ground to plant."
+      text: "Picking up resource on the ground to plant"
     pathfindToBuilding:
-      text: "Picking up resource at {buildingName} to plant it."
+      text: "Picking up resource at {buildingName} to plant it"
       
   plantResourceInHand:
     pathfindToBuilding:
-      text: "Planting resource in a farm."
+      text: "Planting resource in a farm"
     pathfindToExtraResource:
-      text: "Picking up additional planting resource."
+      text: "Picking up additional planting resource"
       
   provisionerLeave:
     pathfindToLeaveCoordinates:
-      text: "Leaving the region."
+      text: "Leaving the region"
       
   provisionerPost:
     pathfindToMarketplace:
-      text: "Setting up shop at $YEL1{buildingName}."
+      text: "Setting up shop at $YEL1{buildingName}"
     sellWares:
-      text: "Selling wares at $YEL1{buildingName}."
+      text: "Selling wares at $YEL1{buildingName}"
       
   quitJob:
     pathfindToWorkBuilding:
@@ -7527,23 +7529,23 @@ aiTask:
       
   redistributeResources:
     pathfindToBuilding:
-      text: "Redistributing resource at {buildingNameSource} to {buildingNameDestination}."
+      text: "Redistributing resource at {buildingNameSource} to {buildingNameDestination}"
     pathfindToDelivery:
-      text: "Distributing resource to {buildingName}."
+      text: "Distributing resource to {buildingName}"
     pathfindToExtraResource:
-      text: "Picking up additional storage resource for {buildingName}."
+      text: "Picking up additional storage resource for {buildingName}"
       
   refineResource:
     pathfindToWork:
-      text: "Refining resource at {buildingName}."
+      text: "Refining resource at {buildingName}"
     refineResource:
-      text: "Refining materials."
+      text: "Refining materials"
       
   refineWaterBottle:
     pathfindToWork:
-      text: "Refining resource at {buildingName}."
+      text: "Bottling water at {buildingName}"
     refineResource:
-      text: "Refining materials."
+      text: "Bottling water"
       
   removeRoadWork:
     pathfindToRoad:
@@ -7553,65 +7555,65 @@ aiTask:
       
   repairRoadWork:
     pathfindToRoad:
-      text: "Walking to a road to repair it."
+      text: "Walking to a road to repair it"
     repairRoad:
-      text: "Repairing road."
+      text: "Repairing road"
       
   repairWork:
     pathfindToRoad:
-      text: "Walking to {buildingName} to repair."
+      text: "Walking to {buildingName} to repair"
     repairRoad:
-      text: "Repairing {buildingName}."
+      text: "Repairing {buildingName}"
       
   roadWork:
     pathfindToRoad:
-      text: "Walking to worksite build a road."
+      text: "Walking to worksite build a road"
     buildRoad:
-      text: "Building road."
+      text: "Building road"
       
   sellResource:
     pathfindToResourceOnGround:
-      text: "Picking up resource on the ground to sell to $YEL1a catjeet provisioner."
+      text: "Picking up resource on the ground to sell to $YEL1a catjeet provisioner"
     pathfindToBuilding:
-      text: "Picking up resource at {buildingName} to sell to a $YEL1a catjeet provisioner."
+      text: "Picking up resource at {buildingName} to sell to a $YEL1a catjeet provisioner"
       
   sellResourceInHand:
     pathfindToProvisioner:
-      text: "Delivering resource to $YEL1a catjeet provisioner."
+      text: "Delivering resource to $YEL1a catjeet provisioner"
     pathfindToExtraResource:
-      text: "Picking up additional planting resource."
+      text: "Picking up additional planting resource"
       
   sleepOutside:
     findSafeLocation:
-      text: "Finding a safe place to sleep outside."
+      text: "Finding a safe place to sleep outside"
     pathfindToSafeLocation:
-      text: "Walking to a safe place to sleep."
+      text: "Walking to a safe place to sleep"
     sleepOutside:
-      text: "Sleeping outside."
+      text: "Sleeping outside"
       
   spawnRepair:
     pathfindToSpawner:
-      text: "Walking to {buildingName} to repair."
+      text: "Walking to {buildingName} to repair"
     repair:
-      text: "Repairing {buildingName}."
+      text: "Repairing {buildingName}"
       
   start:
     idle:
-      text: "Idle."
+      text: "Idle"
       
   storeResource:
     pathfindToResource:
-      text: "Picking up resource on ground to store in a building."
+      text: "Picking up resource on ground to store in a building"
       
   storeResourceInHand:
     pathfindToBuilding:
-      text: "Storing resource in {buildingName}."
+      text: "Storing resource in {buildingName}"
     pathfindToExtraResource:
-      text: "Picking up additional storage resource for {buildingName}."
+      text: "Picking up additional storage resource for {buildingName}"
       
   stuck:
     pathfindOffBlockedTerrain:
-      text: "Walking off of blocked terrain."
+      text: "Walking off of blocked terrain"
       
   tendFarmsWork:
     pathfindToFarmland:
@@ -7621,31 +7623,31 @@ aiTask:
       
   trade:
     pathfindToTradePartner:
-      text: "Getting a $YEL1{resourceName}$BLU0 from {mobName}."
+      text: "Getting a $YEL1{resourceName}$BLU0 from {mobName}"
       
   visitMate:
     pathfindToMate:
-      text: "Visiting {mobName}."
+      text: "Visiting {mobName}"
       
   wander:
     pathfindToWanderCoordinatesMob:
-      text: "Wandering to {mobName}."
+      text: "Wandering to {mobName}"
     pathfindToWanderCoordinates:
-      text: "Wandering around."
+      text: "Wandering around"
       
   wildDoggoWanderIn:
     pathfindToVillage:
-      text: "Wandering into the village."
+      text: "Wandering into the village"
   
   corruptionBuildingPlacement:
     create:
-      text: "Creating a new building."
+      text: "Creating a new building"
       
   corruptionBuildWork:
     pathfindToBuilding:
-      text: "Walking to {buildingName} to build."
+      text: "Walking to {buildingName} to build"
     build:
-      text: "Building {buildingName}."
+      text: "Building {buildingName}"
       
   corruptionClearTopographyWork:
     pathfindToTopography:
@@ -7655,33 +7657,33 @@ aiTask:
       
   corruptionDeliverResourceInHand:
     pathfindToBuilding:
-      text: "Delivering resource to {buildingName}."
+      text: "Delivering resource to {buildingName}"
     pathfindToExtraResource:
-      text: "Picking up additional delivery resource for {buildingName}."
+      text: "Picking up additional delivery resource for {buildingName}"
       
   corruptionDeliverResourceOnGround:
     pathfindToResource:
-      text: "Picking up resource on the ground to deliver."
+      text: "Picking up resource on the ground to deliver"
       
   corruptionDeliverRoadResourceInHand:
     pathfindToRoad:
-      text: "Delivering resource to a road."
+      text: "Delivering resource to a road"
       
   corruptionDeliverRoadResourceOnGround:
     pathfindToResource:
-      text: "Picking up resource on the ground to deliver to road."
+      text: "Picking up resource on the ground to deliver to road"
       
   corruptionHarvestWork:
     pathfindToHarvestWork:
-      text: "Walking to worksite harvest some materials."
+      text: "Walking to worksite harvest some materials"
     harvestResource:
-      text: "Harvesting materials."
+      text: "Harvesting materials"
       
   corruptionRoadWork:
     pathfindToRoad:
-      text: "Walking to worksite build a road."
+      text: "Walking to worksite build a road"
     buildRoad:
-      text: "Building road."
+      text: "Building road"
       
   hostileBehaviorAttack:
     pathfindToTarget:
@@ -7689,7 +7691,7 @@ aiTask:
       
   hostileBehaviorLeave:
     pathfindToLeaveCoordinates:
-      text: "Escaping to the corruption."
+      text: "Escaping to the corruption"
     
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Mob Job Module

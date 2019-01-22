@@ -19,6 +19,8 @@
 
 # Any time a line is left blank or removed, the game will load the default English version. Although I recommend not touching any lines you do not wish to translate.
 
+# You can add forceCount: "true" directly below any text: line to tell the game that line is in fact translated, in the rare case no translation is actually required.
+
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # God Module
 # God XP Types
@@ -60,6 +62,7 @@ godXP:
     text: "Entretien des routes"
   combat:
     text: "Combat"
+    forceCount: "true"
   clearingTopography:
     text: "Déblaiement de la topographie"
   harvestingResources:
@@ -86,7 +89,7 @@ godXP:
     text: "Troux creusés"
   dismantlingBuildings:
     text: "Démantèlement de bâtiments"
-  equipingResources:
+  equippingResources:
     text: "Équipement de ressources"
   findingNewHome:
     text: "Emménagements"
@@ -116,6 +119,7 @@ godXP:
     text: "Rendu visite à un compagnon"
   domestication:
     text: "Domestication"
+    forceCount: "true"
   destroyingRoads:
     text: "Destructions de routes"
   plantingCrops:
@@ -170,7 +174,7 @@ module:
       text: "Démarrage..."
     module:
       text: "Module {moduleName}"
-      forceCount: true
+      forceCount: "true"
     syncing:
       text: "Synchronisation du module {moduleName}"
     mapFBO:
@@ -198,10 +202,10 @@ module:
     text: "Son"
   stats:
     text: "Stats"
-    forceCount: true
+    forceCount: "true"
   transition:
     text: "Transition"
-    forceCount: true
+    forceCount: "true"
   chest:
     text: "Coffre"
   font:
@@ -210,18 +214,18 @@ module:
     text: "Aide"
   influence:
     text: "Influence"
-    forceCount: true
+    forceCount: "true"
   lighting:
     text: "Éclairage"
   collision:
     text: "Collision"
-    forceCount: true
+    forceCount: "true"
   depth:
     text: "Profondeur"
   map:
     text: "Carte"
   miniMap:
-    text: "Minicarte"
+    text: "Mini-carte"
   waypoint:
     text: "Balise"
   workSelection:
@@ -230,15 +234,15 @@ module:
     text: "IA de la carte"
   missile:
     text: "Missile"
-    forceCount: true
+    forceCount: "true"
   migration:
     text: "Migration"
-    forceCount: true
+    forceCount: "true"
   mob:
     text: "Créature"
   essence:
     text: "Essence"
-    forceCount: true
+    forceCount: "true"
   mobJob:
     text: "Travail de créature"
   object:
@@ -255,14 +259,14 @@ module:
     text: "Sauvegarde"
   corruption:
     text: "Corruption"
-    forceCount: true
+    forceCount: "true"
   spawn:
     text: "Apparition"
   weather:
     text: "Temps"
   projectile:
     text: "Projectile"
-    forceCount: true
+    forceCount: "true"
   profile:
     text: "Profil"
 
@@ -568,7 +572,7 @@ perk:
   owensPace:
     text: "Allure d'Owen"
   lillysProtection:
-    text: "Proection de Lilly"
+    text: "Protection de Lilly"
   giosToughness:
     text: "Robustesse de Gio"
   skinofPriamus:
@@ -1591,7 +1595,7 @@ goal:
   
   unlockNewGoal:
     header:
-      text: "Déverrouille un nouvel objectif"
+      text: "Déverrouille un objectif"
     body:
       days:
         text: "Survis $GRE1{days}$WHI0 jours pour $GRE1débloquer un objectif $WHI0!"
@@ -1630,7 +1634,7 @@ goal:
 
   migration:
     header:
-      text: "Migration vers une nouvelle région"
+      text: "Migrer vers une région"
     body:
       single:
         text: "Migre vers une $GRE1nouvelle région $WHI0!"
@@ -1667,6 +1671,7 @@ goal:
   population:
     header:
       text: "Population"
+      forceCount: "true"
     body:
       any:
         text: "Atteins une population $GRE1globale $WHI0de $GRE1{amount} $WHI0!"
@@ -1675,7 +1680,7 @@ goal:
         
   stockpile:
     header:
-      text: "Stocke des {resourceNamePlural}"
+      text: "Stocks de {resourceNamePlural}"
     body:
       any:
         text: "Stocke $GRE1{amount} {resourceNamePlural} n'importe où $WHI0!"
@@ -1776,6 +1781,7 @@ goal:
   domestication:
     header:
       text: "Domestication"
+      forceCount: "true"
     body:
       any:
         text: "Domestique $GRE1{amount} chiens n'importe où $WHI0!"
@@ -1811,7 +1817,7 @@ goal:
       
   throwMonsterInCullisGate:
     header:
-      text: "Jetté de monstres dans les portails cullis"
+      text: "Jetté de monstres"
     body:
       any:
         any:
@@ -1932,7 +1938,7 @@ mainMenuLanguageSelectPanel:
   javaClass: "rtr.gui.states.mainmenu.LanguageSelectPanel.java"
   
   header:
-    text: "$ORA1Sélectionner une langue"
+    text: "$ORA1Sélection langue"
     
   button:
     refresh:
@@ -1946,6 +1952,7 @@ mainMenuLanguageSelectPanel:
         text: "Le jeu pourrait complètement se bloquer durant quelques secondes. Si vous venez de vous abonner ou d'installer un nouveau pack linguistique, vous devriez peut-être attendre un moment avant de rafraîchir la liste pour qu'il se télécharge et s'installe."
       steamWorkshopHeader:
         text: "Steam Workshop"
+        forceCount: "true"
       steamWorkshop:
         text: "Trouvez d'autres packs linguistiques à télécharger sur le site du Steam Workshop. En cliquant sur ce bouton, vous accéderez directement au workshop dans votre navigateur. N'oubliez pas de cliquer sur le bouton rafraîchir après s'être abonné à un pack."
       languageLinksHeader:
@@ -1956,7 +1963,7 @@ mainMenuLanguageSelectPanel:
         text: "Pourcentage traduit"
       
   languageAccuracy:
-    text: "$CYA0Les packs linguistiques sont conçus par des membres de la communauté qui travaillent dur, mais peuvent ne pas être précis ou complets à 100 % ! Si vous trouvez une erreur, veuillez la signaler au joueur qui a fait le pack que vous avez téléchargé !"
+    text: "$CYA0Les packs linguistiques sont conçus par des membres de la communauté qui travaillent dur, mais peuvent ne pas être précis ou complets à 100% ! Si vous trouvez une erreur, veuillez la signaler au joueur qui a fait le pack que vous avez téléchargé !"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Main Menu State
@@ -1988,7 +1995,8 @@ mainMenuMainMenuPanel:
     worldMap:
       text: "Carte monde"
     skirmish:
-      text: "Skirmish" #check for possible alternatives
+      text: "Skirmish"
+      forceCount: "true"
     mapEditor:
       text: "Éditeur de carte"
     newMap:
@@ -2034,7 +2042,7 @@ mainMenuMainMenuPanel:
     text: "~{amount} lignes de code"
   buildVersion:
     text: "$CYA1Build {version}"
-    forceCount: true
+    forceCount: "true"
     
   reviewPopup:
     header:
@@ -2097,7 +2105,7 @@ mapEditorLoadMapPanel:
   
   button:
     loadMap:
-      text: "Charger la carte"
+      text: "Ouvrir la carte"
     deleteMap:
       text: "Supprimer la carte"
 
@@ -2172,6 +2180,7 @@ mapEditorNewMapPanel:
     mapSize:
       large:
         text: "Large"
+        forceCount: "true"
       medium:
         text: "Moyenne"
       small:
@@ -2381,6 +2390,7 @@ mainMenuUploadProfilePanel:
       text: "Envoyer"
     crash:
       text: "Crash"
+      forceCount: "true"
     laggy:
       text: "Lags/lent"
     corrupt:
@@ -2503,6 +2513,7 @@ mapEditorPlayRightPanel:
     build:
       ancient:
         text: "Ancient"
+        forceCount: "true"
       civics:
         text: "Civil"
       defense:
@@ -2785,12 +2796,12 @@ mapEditorPlayRightPanel:
     food:
       cactus:
         text: "Cactus"
-        forceCount: true
+        forceCount: "true"
       carrots:
         text: "Carottes"
       melons:
         text: "Melons"
-        forceCount: true
+        forceCount: "true"
       potatoes:
         text: "Pommes de terre"
       turnips:
@@ -3014,9 +3025,9 @@ mapEditorSystemAndDataBar:
       saveMapHeader:
         text: "Sauvegarder la carte"
       minimapHeader:
-        text: "Minicarte ({shortcutKey})"
+        text: "Mini-carte ({shortcutKey})"
       minimap:
-        text: "Visualiser la minicarte entière."
+        text: "Visualiser la mini-carte entière."
       dataViewsHeader:
         text: "Vue de données ({shortcutKey})"
       dataViews:
@@ -3148,19 +3159,19 @@ playBuildingListPanel:
       increasePriorityHeader:
         text: "Augmenter la priorité"
       increasePriority:
-        text: "Augmente la priorité de construction du bâtiment. Plus elle est élevée, plus ce bâtiment sera important aux yeux des ouvriers, recevant ainsi les ressources et étant construit plus tôt."
+        text: "Augmente la priorité de construction du bâtiment. Plus elle est élevée, plus ce bâtiment sera important aux yeux des ouvriers, recevant ainsi les ressources en premier et étant construit plus tôt."
       decreasePriorityHeader:
         text: "Diminuer la priorité"
       decreasePriority:
-        text: "Diminue la priorité de construction du bâtiment. Plus elle est élevée, plus ce bâtiment sera important aux yeux des ouvriers, recevant ainsi les ressources et étant construit plus tôt."
+        text: "Diminue la priorité de construction du bâtiment. Plus elle est élevée, plus ce bâtiment sera important aux yeux des ouvriers, recevant ainsi les ressources en premier et étant construit plus tôt."
       topPriorityHeader:
         text: "Première priorité"
       topPriority:
-        text: "Met ce bâtiment en haut de la liste des priorités. Plus il est vers le haut, plus ce bâtiment sera important aux yeux des ouvriers, recevant ainsi les ressources et étant construit plus tôt."
+        text: "Met ce bâtiment en haut de la liste des priorités. Plus il est vers le haut, plus ce bâtiment sera important aux yeux des ouvriers, recevant ainsi les ressources en premier et étant construit plus tôt."
       lastPriorityHeader:
-        text: "Last Priority"
+        text: "Dernière priorité"
       lastPriority:
-        text: "Met ce bâtiment en bas de la liste des priorités. Plus il est vers le haut, plus ce bâtiment sera important aux yeux des ouvriers, recevant ainsi les ressources et étant construit plus tôt."
+        text: "Met ce bâtiment en bas de la liste des priorités. Plus il est vers le haut, plus ce bâtiment sera important aux yeux des ouvriers, recevant ainsi les ressources en premier et étant construit plus tôt."
       prioritySortOrderHeader:
         text: "Ordonnés par priorité"
       prioritySortOrder:
@@ -3170,23 +3181,23 @@ playBuildingListPanel:
     totalBuildingsHeader:
       text: "Total de bâtiments"
     totalBuildings:
-      text: "Le nombre total de bâtiments et combien d'autres peuvent être construits. Ne compte pas les murs et entrepôts. Augmentez le nombre de bâtiments pouvant être construits en construisant davantage d'entrepôts !"
+      text: "Le nombre total de bâtiments et combien d'autres peuvent être construits. Ne compte pas les murs et entrepôts. Augmentez le nombre de bâtiments pouvant être construit en construisant davantage d'entrepôts !"
     totalAncillariesHeader:
       text: "Total d'entrepôts"
     totalAncillaries:
-      text: "Le nombre total d'entrepôts et combien d'autres peuvent être construits. Augmentez le nombre d'entrepôts pouvant être construits en améliorant votre camp/château."
+      text: "Le nombre total d'entrepôts et combien d'autres peuvent être construits. Augmentez le nombre d'entrepôts pouvant être construit en améliorant votre camp/château."
     totalHomeOccupancyHeader:
       text: "Occupation totale des logements"
     totalHomeOccupancy:
-      text: "Le nombre total d'espaces habitables utilisés, ainsi que le nombre total disponible dans les logements."
+      text: "La quantité totale d'espace habitable utilisée, ainsi que l'espace total disponible dans les logements."
     totalBarracksOccupancyHeader:
       text: "Occupation totale des casernes"
     totalBarracksOccupancy:
-      text: "Le nombre total d'espaces habitables utilisés, ainsi que le nombre total disponible dans les casernes."
+      text: "La quantité totale d'espace habitable utilisée, ainsi que l'espace total disponible dans les casernes."
     totalWorkersHeader:
       text: "Total de travailleurs"
     totalWorkers:
-      text: "Nombre total de villageois auxquelles une tâche est assignée quelque part dans le village et le nombre maximum de postes occupables."
+      text: "Nombre total de villageois auxquels une tâche est assignée quelque part dans le village ainsi que le nombre maximal de postes occupables."
     workersHeader:
       text: "Travailleurs"
     workers:
@@ -3194,11 +3205,11 @@ playBuildingListPanel:
     occupancyHeader:
       text: "Occupation"
     occupancy:
-      text: "Combien de villageois vivent dans ce bâtiment, ainsi que la quantité totale d'espace habitable fournie par ce bâtiment."
+      text: "Combien de villageois vivent dans ce bâtiment ainsi que la quantité totale d'espace habitable fournie par ce bâtiment."
     energyHeader:
-      text: "Energie"
+      text: "Énergie"
     energy:
-      text: "La quantité d'énergie stockée par ce bâtiment, ainsi que la quantité maximale qu'il peut stocker."
+      text: "La quantité d'énergie stockée dans ce bâtiment ainsi que la quantité maximale qu'il peut stocker."
     dirtyWaterHeader:
       text: "Eau sale"
     dirtyWater:
@@ -3214,7 +3225,7 @@ playBuildingListPanel:
     ammoHeader:
       text: "Munitions"
     ammo:
-      text: "La quantité de munitions chargées dans ce bâtiment, ainsi que la quantité maximum qu'il peut charger. Ce nombre ne prend pas en compte les munitions non chargées qui sont stockées dans le bâtiment."
+      text: "La quantité de munitions chargées dans ce bâtiment ainsi que la quantité maximale qu'il peut charger. Ce nombre ne prend pas en compte les munitions non chargées qui sont stockées dans le bâtiment."
 
   header:
     text: "Liste des bâtiments"
@@ -3235,18 +3246,18 @@ playCastlePanel:
   
   button:
     placeCamp:
-      text: "Place Camp"
+      text: "Placer le campement"
       
     tooltip:
       hidePanelHeader:
-        text: "Hide Panel"
+        text: "Cacher"
       hidePanel:
-        text: "Disregard this panel. If you need to build the camp later, it will be in the right hand build menu under 'Special'"
+        text: "Ne tient pas compte de ce panneau. Si vous avez besoin de construire le campement plus tard, il sera disponible dans le menu à droite, dans la catégorie 'Spécial'"
 
   header:
-    text: "$GRE1Place Camp"
+    text: "$GRE1Placer le campement"
   body:
-    text: "Get started by placing your camp!~Place it near some rock, trees and food!"
+    text: "Commencez en plaçant votre~campement ! Placez le près d'arbres,~de roches et de nourriture sauvage !"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Play State
@@ -3261,7 +3272,7 @@ playConsolePanel:
   button:
     tooltip:
       hidePanelHeader:
-        text: "Cacher le panneau"
+        text: "Masquer le panneau"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Play State
@@ -3291,7 +3302,7 @@ playLeftJobDescriptionPanel:
     canPlant:
       text: "Peut planter"
     canDeliverToCourierGolems:
-      text: "Peut livrer (aux golems-facteur)"
+      text: "Peut livrer (aux golems-facteurs)"
     canStore:
       text: "Peut stocker"
     preferredTools:
@@ -3353,15 +3364,15 @@ playLeftPanel:
         text: "Requiert un marché"
       migrationHeader:
         text: "Migration"
-        forceCount: true
+        forceCount: "true"
       migration:
         text: "Requiert une station de migration"
       courierHeader:
-        text: "Poste de courier"
+        text: "Poste de courrier"
       courier:
-        text: "Requiert un poste de courier"
+        text: "Requiert un poste de courrier"
       hidePanelHeader:
-        text: "Hide Panel Toggle"
+        text: "Masquer le panneau"
         
   trade:
     button:
@@ -3379,7 +3390,7 @@ playLeftPanel:
         decreaseBuyOrderHeader:
           text: "Diminution quantité achetée"
         decreaseBuyOrder:
-          text: "Diminute combien de {resourceName} que le village essaie d'acheter. Peut être plus élevé que la quantité de ressources disponible, elles seront achetées une fois disponibles."
+          text: "Diminue combien de {resourceName} le village essaie d'acheter. Peut être plus élevé que la quantité de ressources disponible, elles seront achetées une fois disponibles."
         increaseBuyOrderHeader:
           text: "Augmentation quantité achetée"
         increaseBuyOrder:
@@ -3395,7 +3406,7 @@ playLeftPanel:
         hireLaborHeader:
           text: "Recruter de la main-d'œuvre"
         hireLabor:
-          text: "Si disponible, une main-d'œuvre paysanne rejoindra le village"
+          text: "Si disponible, de la main-d'œuvre paysanne rejoindra le village"
         decraseCatjeetOrderHeader:
           text: "Diminuer la quantité"
         decraseCatjeetOrder:
@@ -3446,7 +3457,7 @@ playLeftPanel:
         reduceWorkersHeader:
           text: "Réduire"
         reduceWorkers:
-          text: "Réduit le nombre de travailleurs pour cette tâche, les libère pour qu'ils travaillent ailleurs."
+          text: "Réduit le nombre de travailleurs pour cette tâche et les libère pour qu'ils travaillent ailleurs."
         requestWorkersHeader:
           text: "Solliciter"
         requestWorkers:
@@ -3460,7 +3471,7 @@ playLeftPanel:
       unemployedVillagersHeader:
         text: "Villageois disponibles"
       unemployedVillagers:
-        text: "Le nombre de villageois adultes disponible pour travailler auxquelles aucune tâche n'a été assignée."
+        text: "Le nombre de villageois adultes disponibles pour travailler et auxquels aucune tâche n'a été assigné."
       desiredAndMaxWorkersHeader:
         text: "Travailleurs demandés/maximum"
       desiredAndMaxWorkers:
@@ -3480,7 +3491,7 @@ playLeftPanel:
         makeHeader:
           text: "Faire"
         make:
-          text: "Ordonne de faire tant de {resourceName} aussi tôt que possible."
+          text: "Ordonne de faire tant de {resourceName} dès que possible."
         maintainHeader:
           text: "Garder"
         maintain:
@@ -3509,9 +3520,9 @@ playLeftPanel:
     sort:
       total:
         text: "Total"
-        forceCount: true
+        forceCount: "true"
       equip:
-        text: "Equipé"
+        text: "Équipé"
       carry:
         text: "Porté"
       ground:
@@ -3520,13 +3531,13 @@ playLeftPanel:
         text: "Stocké"
         
     producedByWaterSource:
-      text: "$BLA2Production par sources d'eau"
+      text: "$BLA2Produit par les sources d'eau"
     rareDrop:
       text: "$YEL2Récompense rare ({resourceOrMonsterType})"
     monsterDrop:
       text: "$BLA2Récompense de monstre"
     requiresWaterSource:
-      text: "$BLA2Requiert source d'eau"
+      text: "$BLA2Requiert des sources d'eau"
     requiresBuilding:
       text: "$BLA2Requiert {buildingName}"
 
@@ -3554,7 +3565,7 @@ playLeftPanel:
       readyToMigrateHeader:
         text: "Prêts à migrer"
       readyToMigrate:
-        text: "Combien de villageois se sont préparés à migrer ce matin et quitteront la région l'après midi."
+        text: "Combien de villageois se sont préparés à migrer ce matin et quitteront la région durant l'après midi."
       totalMigratedTodayHeader:
         text: "Nombre total de migrations"
       totalMigratedToday:
@@ -3587,11 +3598,11 @@ playLeftPanel:
         sendNowHeader:
           text: "Envoyer maintenant"
         sendNow:
-          text: "Envoie tant de {resourceName} dès que possible, en plus du montant journalier défini. Les golems-facteur quitteront la région avant le soir."
+          text: "Envoie tant de {resourceName} dès que possible, en plus du montant journalier défini. Les golems-facteurs quitteront la région avant le soir."
         sendDailyHeader:
           text: "Envois journaliers"
         sendDaily:
-          text: "Si disponible, envoie tant de {resourceName} chaque jour. Les golems-facteur quitteront la région avant le soir. Le nombre deviendra rouge si ils n'arrivent pas à satisfair le quota journalier, jaune si c'est en cours et vert si ils ont réussi."
+          text: "Si disponible, envoie tant de {resourceName} chaque jour. Les golems-facteurs quitteront la région avant le soir. Le nombre deviendra rouge si ils n'arrivent pas à satisfair le quota journalier, jaune si c'est en cours et vert si ils ont réussi."
         previousCategoryHeader:
           text: "Catégorie précédente"
         nextCategoryHeader:
@@ -3607,11 +3618,11 @@ playLeftPanel:
         
     tooltip:
       parkedCourierGolemsHeader:
-        text: "Golems-facteur stationnés"
+        text: "Golems-facteurs stationnés"
       parkedCourierGolems:
-        text: "Combien de golems-facteur sont stationnés et prêts à livrer des ressources."
+        text: "Combien de golems-facteurs sont stationnés et prêts à livrer des ressources."
       sendInfinityHeader:
-        text: "En envoyer une inifinité"
+        text: "En envoyer une infinité"
          
     header:
       selectedRegion:
@@ -3624,9 +3635,9 @@ playLeftPanel:
     sort:
       total:
         text: "Total"
-        forceCount: true
+        forceCount: "true"
       equip:
-        text: "Equipé"
+        text: "Équipé"
       carry:
         text: "Porté"
       ground:
@@ -3635,7 +3646,7 @@ playLeftPanel:
         text: "Stocké"
         
     regionLost:
-      text: "$RED0Région perdue face à la corruption !~Impossible d'envoyer des ressources."
+      text: "$RED0Région perdue face à la corruption !~Impossible d'y envoyer des ressources."
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Play State
@@ -3656,9 +3667,9 @@ playMainMenuPanel:
       text: "Oui !"
       
   header:
-    text: "Menu principal"
+    text: "Menu"
   saveAndExitWarningMessage:
-    text: "$GRE1EN ÊTES-VOUS CERTAIN ?"
+    text: "$GRE1EN ÊTES-VOUS SUR ?"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Play State
@@ -3696,7 +3707,7 @@ playOverlay:
     cancelAction:
       text: "Appuyez sur $GRE1{shortcutKey} $WHI0ou sur le $GRE1BOUTON CENTRAL DE LA SOURIS$WHI0 pour annuler l'action actuelle et revenir au mode de sélection."
     unassignWork:
-      text: "Maintenez $GRE1{shortcutKey} $YEL1pour déattribuer."
+      text: "Maintenez $GRE1{shortcutKey} $YEL1pour désassigner."
     deleteObjects:
       text: "Maintenez $GRE1{shortcutKey} $YEL1pour supprimer l'objet."
     castFree:
@@ -3717,7 +3728,7 @@ playPauseBanner:
   header:
     text: "$YEL0EN PAUSE"
   body:
-    text: "APPUIE SUR $GRE1{shortcutKey}$WHI0 POUR REPRENDRE."
+    text: "APPUYEZ SUR $GRE1{shortcutKey}$WHI0 POUR REPRENDRE."
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Play State
@@ -3784,7 +3795,7 @@ playPopulationListPanel:
     totalHomlessHeader:
       text: "Total de sans-abri"
     totalHomless:
-      text: "Le nombre total de villageois qui n'ont aucun endroit où vivre. Construis ou améliore tes logements pour laisser un peu plus d'espace de vie à tes villageois."
+      text: "Le nombre total de villageois qui n'ont aucun endroit où vivre. Construisez ou améliorez vos logements pour laisser un peu plus d'espace de vie à vos villageois."
     totalPregnantHeader:
       text: "Total de femmes enceintes"
     totalPregnant:
@@ -3804,11 +3815,11 @@ playPopulationListPanel:
     averageLifeExpectancyHeader:
       text: "Espérance de vie moyenne"
     averageLifeExpectancy:
-      text: "L'espérance de vie moyenne de tout le village. Vous pouvez augmenter ce nombre en prenant mieux soin de tes villageois, en les gardant heureux et en bonne santé !"
+      text: "L'espérance de vie moyenne de tout le village. Vous pouvez augmenter ce nombre en prenant mieux soin de vos villageois et en les gardant heureux et en bonne santé !"
     homelessHeader:
       text: "Sans-abri"
     homeless:
-      text: "Ce villageois n'a pas de logement. Vous manquez peut-être de place dans tes logements, mais si le villageois vient d'arriver ou si vous venez juste de construire de nouveaux logements, cela peut prendre quelques minutes pour qu'ils trouve une place."
+      text: "Ce villageois n'a pas de logement. Vous manquez peut-être de place dans vos logements, mais si le villageois vient d'arriver ou si vous venez juste de construire de nouveaux logements, cela peut prendre quelques minutes pour qu'il trouve une place."
     pregnantHeader:
       text: "Enceinte"
     pregnant:
@@ -3832,7 +3843,7 @@ playPopulationListPanel:
     ageHeader:
       text: "Âge"
     age:
-      text: "Son age va s'incrémenter par 1 chaque jour qui passe."
+      text: "Son âge va s'incrémenter par 1 chaque jour qui passe."
   
   sort:
     all:
@@ -3847,7 +3858,7 @@ playPopulationListPanel:
       text: "$GRE1Enfants"
     golems:
       text: "$GRE1Golems"
-      forceCount: true
+      forceCount: "true"
     animals:
       text: "$GRE1Animaux"
   
@@ -3872,26 +3883,27 @@ playPopulationTotalsPanel:
     totalHomeOccupancyHeader:
       text: "Occupation totale des logements"
     totalHomeOccupancy:
-      text: "Le nombre total d'espaces habitables utilisés, ainsi que le nombre total disponible dans les logements."
+      text: "La quantité totale d'espace habitable utilisé, ainsi que l'espace total disponible dans les logements."
     totalBarracksOccupancyHeader:
       text: "Occupation totale des casernes"
     totalBarracksOccupancy:
-      text: "Le nombre total d'espaces habitables utilisés, ainsi que le nombre total disponible dans les casernes."
+      text: "La quantité totale d'espace habitable utilisé, ainsi que l'espace total disponible dans les casernes."
     totalAncillariesHeader:
       text: "Total d'entrepôts"
     totalAncillaries:
-      text: "Le nombre total d'entrepôts et combien d'autres peuvent être construits. Augmentez le nombre d'entrepôts pouvant être construits en améliorant votre camp/château."
+      text: "Le nombre total d'entrepôts et combien d'autres peuvent être construits. Augmentez le nombre d'entrepôts pouvant être construit en améliorant votre camp/château."
     totalBuildingsHeader:
       text: "Total de bâtiments"
     totalBuildings:
-      text: "Le nombre total de bâtiments et combien d'autres peuvent être construits. Ne compte pas les murs et entrepôts. Augmentez le nombre de bâtiments pouvant être construits en construisant davantage d'entrepôts !"
+      text: "Le nombre total de bâtiments et combien d'autres peuvent être construits. Ne compte pas les murs et entrepôts. Augmentez le nombre de bâtiments pouvant être construit en construisant davantage d'entrepôts !"
     totalChildrenHeader:
       text: "Total d'enfants"
     totalChildren:
-      text: "Nombre total d'enfants qui ne sont pas encore assez agés pour travailler."
+      text: "Nombre total d'enfants qui ne sont pas encore assez âgés pour travailler."
   
   header:
     text: "Population"
+    forceCount: "true"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Play State
@@ -3918,7 +3930,7 @@ playProblemPanel:
     noWater:
       text: "* $RED1Il n'y a pas d'eau potable."
     noHomes:
-      text: "* $RED1Il n'y a pas de maison."
+      text: "* $RED1Il n'y a pas de logement."
     lowVillagers:
       text: "* $ORA1Il y a très peu de villageois."
     tooMuchConstruction:
@@ -3954,7 +3966,7 @@ playProblemPanel:
     villagersHomeless:
       text: "* $YEL1{amount} villageois est sans-abri."
     villagersHomelessPlural:
-      text: "* $YEL1{amount} villageois sont sans-abris."
+      text: "* $YEL1{amount} villageois sont sans-abri."
     villagersConfused:
       text: "* $YEL1{amount} villageois est confus."
     villagersConfusedPlural:
@@ -4039,7 +4051,7 @@ playResourceAndInfluenceBar:
     totalGoldCoins:
       text: "Montant total de pièces d'or dans l'entièreté du village."
     totalWaterHeader:
-      text: "Quantité total d'eau"
+      text: "Quantité totale d'eau"
     totalWater:
       text: "Quantité totale d'eau potable dans tous les bâtiments qui peuvent en contenir comme les collecteurs d'eau, les logements et les puits. Ne compte pas l'eau sale."
     totalEnergyHeader:
@@ -4048,16 +4060,16 @@ playResourceAndInfluenceBar:
       text: "Montant total d'énergie dans tous les bâtiments qui peuvent en contenir comme les collecteurs d'essence, les combobulateurs de golems et les tours utilisant de la magie."
     totalInfluenceHeader:
       text: "Influence"
-      forceCount: true
+      forceCount: "true"
     totalInfluence:
       text: "L'influence totale que vous possèdez et qui peut être utilisée pour lancer des sorts. L'influence se remplit lentement au fil du temps, ou en survolant de l'essence libre avec votre main. Vous pouvez améliorer votre influence maximale en augmentant la population de votre village."
   
   sort:
     total:
      text: "Total"
-     forceCount: true
+     forceCount: "true"
     equip:
-      text: "Equipé"
+      text: "Équipé"
     carry:
       text: "Porté"
     ground:
@@ -4083,15 +4095,15 @@ playSelectedMobPanel:
     hungerHeader:
       text: "Faim"
     hunger:
-      text: "Si leur faim atteint un niveau critique, ils prendront lentement des dégâts en mourrant de faim. Diminue un peu plus vite au combat ou au travail."
+      text: "Si leur faim atteint un niveau critique, ils prendront lentement des dégâts en mourant de faim. Diminue un peu plus vite au combat ou au travail."
     thirstHeader:
-      text: "Thirst"
+      text: "Soif"
     thirst:
-      text: "Si leur soif atteint un niveau critique, ils prendront lentement des dégâts en mourrant de déshydratation. Diminue un peu plus vite au combat, au travail ou en étant en surchauffe."
+      text: "Si leur soif atteint un niveau critique, ils prendront lentement des dégâts en mourant de déshydratation. Diminue un peu plus vite au combat, au travail ou en étant en surchauffe."
     happinessHeader:
       text: "Bonheur"
     happiness:
-      text: "Un faible niveau de bonheur aura une incidence sur leur rendement au travail et leur espérance de vie. Selon le type de créature, on peut l'augmenter en répondant à ses besoins fondamentaux en nourriture, en eau, en logement, en services sociaux et autres paramètres."
+      text: "Un faible niveau de bonheur aura une incidence sur leur rendement au travail et leur espérance de vie. Selon le type de créature, on peut l'augmenter en répondant à ses besoins fondamentaux en nourriture, en eau, en logement, en relations sociales et autres paramètres."
     bodyTemperatureHeader:
       text: "Température corporelle"
     bodyTemperature:
@@ -4111,31 +4123,32 @@ playSelectedMobPanel:
     levelHeader:
       text: "Niveau"
     level:
-      text: "Les créatures gagnent en niveau en accomplissant divers tâches, comme travailler, se battre ou même s'accoupler !"
+      text: "Les créatures gagnent en niveau en accomplissant diverses tâches, comme travailler, se battre ou même s'accoupler !"
     ageHeader:
       text: "Âge"
     age:
-      text: "M'âge de cette créature va s'incrémenter par 1 chaque jour qui passe."
+      text: "L'âge de cette créature va s'incrémenter par 1 chaque jour qui passe."
     lifeExpectancyHeader:
       text: "Espérance de vie"
     lifeExpectancy:
-      text: "Combien de temps cette créature est censée vivre, en lien avec sa nature. Moins ses besoins fondamentaux sont satisfaits et plus elle participe à des combats, se fait blesser ou tombe malade, plus leur état de vie diminue rapidement et par conséquent, leur espérance de vie."
+      text: "Combien de temps cette créature est censé vivre, en lien avec sa nature. Moins ses besoins fondamentaux sont satisfaits et plus elle participe à des combats, se fait blesser ou tombe malade, plus son état de vie diminue rapidement et par conséquent, son espérance de vie."
     immortalHeader:
       text: "Immortel"
     immortal:
       text: "Cette créature ne mourra jamais de vieillissement."
     energyHeader:
-      text: "Energie"
+      text: "Énergie"
     energy:
       text: "Si l'énergie diminue de trop, cette créature ira se reposer. L'énergie diminue légèrement plus rapidement au combat ou au travail."
     lifelongConstitutionHeader:
       text: "État de vie"
     lifelongConstitution:
-      text: "L'état global de la créature, lié à son espérance de vie. Moins ses besoins fondamentaux sont satisfaits et plus elle participe à des combats, se fait blesser ou tombe malade, plus leur état de vie diminue rapidement et par conséquent, leur espérance de vie."
+      text: "L'état global de la créature, lié à son espérance de vie. Moins ses besoins fondamentaux sont satisfaits et plus elle participe à des combats, se fait blesser ou tombe malade, plus son état de vie diminue rapidement et par conséquent, son espérance de vie."
     socialHeader:
       text: "Social"
+      forceCount: "true"
     social:
-      text: "Un faible niveau social fera chuter le bonheur. Mais si il y a des créatures à proximité avec qui cette créature peut parler, elle prendra une pause et bavardera pour améliorer ses relations sociales. Les doyens partageront leur sagesse en discutant et transmettent ainsi leur experience à leur interlocuteur."
+      text: "Un faible niveau social fera chuter le bonheur. Mais si il y a des créatures à proximité avec qui cette créature peut parler, elle prendra une pause et bavardera pour améliorer ses relations sociales. Les doyens partageront leur sagesse en discutant et transmettent ainsi leur expérience à leur interlocuteur."
     strengthHeader:
       text: "Force"
     strength:
@@ -4146,8 +4159,9 @@ playSelectedMobPanel:
       text: "Propriété primaire déterminant la vitesse d'attaque de cette créature et secondaire pour déterminer les dégâts d'attaque. Permet aussi d'améliorer les vitesses de travail et de déplacement."
     intelligenceHeader:
       text: "Intelligence"
+      forceCount: "true"
     intelligence:
-      text: "Améliore toutes les vitesses de travail et l'efficacité au combat de manière globale et augmente la quantité d'expérience acquise en exécutant des tâches."
+      text: "Améliore toutes les vitesses de travail et d'efficacité au combat de manière globale et augmente la quantité d'expérience acquise en exécutant des tâches."
     experienceBarHeader:
       text: "Bar d'expérience"
 
@@ -4174,7 +4188,7 @@ playSelectedMobPanel:
       text: "Emplacement de munitions d'arme de jet"
             
   boostedMobPrefix:
-    text: "Le {mobName} $CYA1renforcé$WHI0 !"
+    text: "Le {mobName}$CYA1 renforcé $WHI0!"
   mobNamePrefix:
     text: "Le {mobName}"
   mobJobNamePrefix:
@@ -4258,7 +4272,7 @@ playSelectedObjectPanel:
     occupancy:
       text: "Combien de villageois vivent dans ce bâtiment, ainsi que la quantité totale d'espace habitable fournie par ce bâtiment."
     barracksOccupancyHeader:
-      text: "Barracks Occupancy"
+      text: "Occupation de la caserne"
     barracksOccupancy:
       text: "Le nombre de gardes vivant dans ce bâtiment ainsi que l'espace habitable total fournit par ce bâtiment."
     currentAndMaxStorageHeader:
@@ -4274,7 +4288,7 @@ playSelectedObjectPanel:
     hitPoints:
       text: "Le nombre maximal de points de vie est basé sur la valeur en ressource du bâtiment. Les bâtiments plus compliqués ont plus de points de vie."
     energyHeader:
-      text: "Energie"
+      text: "Énergie"
     energy:
       text: "La quantité d'énergie stockée dans ce bâtiment ainsi que la quantité maximale qu'il peut contenir."
     waterHeader:
@@ -4291,6 +4305,7 @@ playSelectedObjectPanel:
       text: "La quantité d'eau sale contenue dans ce bâtiment."
     chargeHeader:
       text: "Charge"
+      forceCount: "true"
     charge:
       text: "État de charge du bâtiment. La plupart des bâtiments se rechargent lentement en consommant de l'énergie, mais certains autres peuvent charger d'eux mêmes sans rien consommer."
     ammoHeader:
@@ -4304,7 +4319,7 @@ playSelectedObjectPanel:
           
   button:
     reclaim:
-      text: "Reprendre"
+      text: "Récupérer"
     upgrade:
       text: "Améliorer"
     startUpgrade:
@@ -4318,13 +4333,13 @@ playSelectedObjectPanel:
     
     tooltip:
       reduceWorkersHeader:
-        text: "Réduire la main-d'oeuvre"
+        text: "Réduire la main-d'œuvre"
       reduceWorkers:
-        text: "Réduit la main-d'oeuvre affectée à ce travail, les libérant ainsi pour travailler ailleurs."
+        text: "Réduit la main-d'œuvre affectée à ce travail, les libérant ainsi pour travailler ailleurs."
       requestWorkersHeader:
-        text: "Solliciter de la main d'oeuvre"
+        text: "Solliciter de la main d'œuvre"
       requestWorkers:
-        text: "Incite plus de main d'oeuvre à prendre ce travail. Si le nombre devient rouge, vous avez sollicité plus de travailleurs qu'il n'y a de villageois disponibles."
+        text: "Incite plus de main d'œuvre à prendre ce travail. Si le nombre devient rouge, vous avez sollicité plus de travailleurs qu'il n'y a de villageois disponibles."
       topPriorityHeader:
         text: "Première priorité"
       topPriority:
@@ -4334,7 +4349,7 @@ playSelectedObjectPanel:
       increasePriority:
         text: "Augmente la priorité de construction du bâtiment. Plus elle est élevée, plus ce bâtiment sera important aux yeux des ouvriers, recevant ainsi les ressources et étant construit plus tôt."
       decreasePriorityHeader:
-        text: "Decrease Priority"
+        text: "Diminuer la priorité"
       decreasePriority:
         text: "Diminue la priorité de construction du bâtiment. Plus elle est élevée, plus ce bâtiment sera important aux yeux des ouvriers, recevant ainsi les ressources et étant construit plus tôt."
       lastPriorityHeader:
@@ -4342,7 +4357,7 @@ playSelectedObjectPanel:
       lastPriority:
         text: "Met ce bâtiment en bas de la liste des priorités. Plus il est vers le haut, plus ce bâtiment sera important aux yeux des ouvriers, recevant ainsi les ressources et étant construit plus tôt."
       pauseBuildingHeader:
-        text: "Mettre le bâtiment en pause"
+        text: "Mettre en pause"
       pauseBuilding:
         text: "Mettre ce bâtiment en pause va arrêter la plupart des interactions avec les villageois."
       resumeBuildingHeader:
@@ -4356,7 +4371,7 @@ playSelectedObjectPanel:
       buildingPriority:
         text: "Le niveau de priorité de construction de ce bâtiment, plus le nombre est élevé, plus le bâtiment est prioritaire."
       reclaimHeader:
-        textHeader: "Récupérer"
+        text: "Récupérer"
       reclaim:
         text: "Récupère ce bâtiment abandonné. La plupart du temps, récupérer un bâtiment coûte environ deux fois moins de ressources que d'en reconstruire un nouveau."
       upgradeHeader:
@@ -4369,17 +4384,17 @@ playSelectedObjectPanel:
   topPriority:
     text: "HAUT"
   notInRange:
-    text: "$GRE1(HORS DE PORTÉE)"
+    text: "$GRE1(HORS PORTÉE)"
   dismantling:
-    text: "$GRE1(EN DEMANTÈLEMENT)"
+    text: "$GRE1(DEMANTÈLEMENT)"
   dismantlingWarning:
     text: "$RED0Êtes-vous sur de vouloir démanteler ce bâtiment ? Vous ne récupèrerez qu'environ $GRE150%$RED0 du total des ressources en moyenne.~$RED1CELA NE PEUT PAS ÊTRE ANNULÉ"
   staticTowerDamageOverride:
-    text: "Damage"
+    text: "Dégât"
   staticTowerDamageOverrideAmount:
     text: "$GRE1Électrique $RED0(3-8)"
   chargedDamage:
-    text: "Dégpat chargé"
+    text: "Dégât chargé"
   damage:
     text: "Dégât"
   unchargedDamage:
@@ -4388,6 +4403,7 @@ playSelectedObjectPanel:
     text: "$CYA1Bonus globaux"
   globalSpeed:
     text: "$GRE0{amount}% $WHI0global"
+    forceCount: "true"
   buildingSpeed:
     text: "$GRE0{amount}% $WHI0construction"
   buildRoadSpeed:
@@ -4417,11 +4433,11 @@ playSelectedObjectPanel:
   healthRegenerationBoost:
     text: "$GRE0{amount} $WHI0régénération de la vie"
   reclaimMessage:
-    text: "Cliquez sur $GRE1récupérer$WHI0 pour reconstruire~et utiliser ce bâtiment."
+    text: "Cliquez sur $GRE1récupérer$WHI0 pour~reconstruire et utiliser~ce bâtiment."
   reclaimMessageNoSlotsNoCamp:
-    text: "Plus de capacité de construction.~Construisz un $GRE0Campement $WHI0ou un $GRE0Entrepôt $WHI0~pour récupérer ce bâtiment."
+    text: "Plus de capacité de construction.~Construisz un $GRE0Campement $WHI0ou~un $GRE0Entrepôt $WHI0 pour récupérer ce bâtiment."
   reclaimMessageNoSlots:
-    text: "Plus de capacité de construction.~Améliorez votre $GRE0{castleName}~$WHI0ou construis un $GRE0Entrepôt $WHI0~pour récupérer ce bâtiment."
+    text: "Plus de capacité de construction.~Améliorez votre $GRE0{castleName}~$WHI0ou construisez un $GRE0Entrepôt $WHI0~pour récupérer ce bâtiment."
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Play State
@@ -4453,13 +4469,14 @@ playSelectedObjectUpgradePanel:
     text: "Requiert $RED1{buildingName}$WHI0 pour la production de $RED1{resourceName}"
   supportConjuntion:
     comment: "In some cases, some buildings may require or support multiple buildings, this is the conjuntion portion of the string."
-    text: "$WHI0 or $RED0"
+    text: "$WHI0 ou $RED0"
   maximumStorage:
     text: "Stockage maximal : $GRE1+{amount}"
   energy:
-    text: "$YEL1+{amount} Energie"
+    text: "$YEL1+{amount} énergie"
   globalSpeed:
     text: "$GRE0+{amount}% $WHI0global"
+    forceCount: "true"
   buildingSpeed:
     text: "$GRE0+{amount}% $WHI0construction"
   buildRoadSpeed:
@@ -4591,15 +4608,15 @@ playStatisticsPanel:
     villagers:
       total:
         text: "Total"
-        forceCount: true
+        forceCount: "true"
       gender:
         text: "Genre"
       immigration:
         text: "Immigration"
-        forceCount: true
+        forceCount: "true"
       reproduction:
         text: "Reproduction"
-        forceCount: true
+        forceCount: "true"
       deaths:
         text: "Morts"
       needs:
@@ -4632,7 +4649,7 @@ playStatisticsPanel:
     animals:
       total:
         text: "Total"
-        forceCount: true
+        forceCount: "true"
       gender:
         text: "Genre"
       domesticated:
@@ -4653,7 +4670,7 @@ playStatisticsPanel:
     buildings:
       totalBuildings:
         text: "Total"
-        forceCount: true
+        forceCount: "true"
       builtBuildings:
         text: "Construits"
       upgradedBuildings:
@@ -4670,7 +4687,7 @@ playStatisticsPanel:
         text: "Combobulateurs"
       golems:
         text: "Golems"
-        forceCount: true
+        forceCount: "true"
       guards:
         text: "Gardes"
       walls:
@@ -4693,7 +4710,7 @@ playStatisticsPanel:
     resources:
       totalResources:
         text: "Total"
-        forceCount: true
+        forceCount: "true"
       productionRate:
         text: "Rythme de production"
       foodAndWater:
@@ -4879,10 +4896,10 @@ playStatisticsPanel:
       text: "Villageois"
     immigration:
       text: "Immigration"
-      forceCount: true
+      forceCount: "true"
     reproduction:
       text: "Reproduction"
-      forceCount: true
+      forceCount: "true"
     needs:
       text: "Besoins"
     animals:
@@ -4901,7 +4918,7 @@ playStatisticsPanel:
       text: "Autre"
     configuration:
       text: "Configuration"
-      forceCount: true
+      forceCount: "true"
 
   filter:
     text: "Filtre : seulement $GRE0{mobOrResourceName}"
@@ -4923,7 +4940,7 @@ playSystemAndDataBar:
       mainMenu:
         text: "Quittez le jeu, ou changez des paramètres."
       minimapHeader:
-        text: "Minicarte ({shortcutKey})"
+        text: "Mini-carte ({shortcutKey})"
       minimap:
         text: "Visualisez la carte en entier."
       statisticsHeader:
@@ -5265,7 +5282,7 @@ sharedMinimapPanel:
       text: "Grand"
       
   header:
-    text: "Minicarte"
+    text: "Mini-carte"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Shared (Used in multiple states)
@@ -5408,7 +5425,7 @@ sharedSettingsPanel:
     gameSpeedDown:
       text: "Diminuer la vitesse du jeu"
     minimap:
-      text: "Minicarte"
+      text: "Mini-carte"
     cycleBrushType:
       text: "Parcourir les types de pinceaux"
     brushSizeUp:
@@ -5453,6 +5470,7 @@ sharedSettingsPanel:
       text: "Trou (éditeur de carte)"
     pause:
       text: "Pause"
+      forceCount: "true"
     pauseObject:
       text: "Mettre un objet en pause"
     dismantleObject:
@@ -5488,6 +5506,7 @@ sharedSettingsPanel:
     comment: "Audio column."
     header:
       text: "$ORA1Audio"
+      forceCount: "true"
     musicVolume:
       text: "$BLU0Volume de la musique"
     soundVolume:
@@ -5498,13 +5517,13 @@ sharedSettingsPanel:
     header:
       text: "$ORA1Contrôles"
     invertMapScrolling:
-      text: "Inverser le défilement de la carte"
+      text: "Inv. défilement de la carte"
     edgeScrolling:
-      text: "Défilement aux bordures"
+      text: "Défilement bordures"
     edgeScrollingFullScreenRecommended:
       text: "$GRE1Plein écran recommandé"
     edgeScrollingAmount:
-      text: "Vitesse de défilement aux bordures"
+      text: "Vitesse défilement bordures"
 
   videoConfiguration:
     comment: "Video configuration column."
@@ -5513,7 +5532,7 @@ sharedSettingsPanel:
     fullScreen:
       text: "Plein écran"
     borderlessFullScreen:
-      text: "Plein écran sans bordures"
+      text: "Plein écran sans bordure"
     edgeScrollingNotRecommended:
       text: "Défilement aux bordures DÉCONSEILLÉ"
     requiresFullScreen:
@@ -5524,6 +5543,7 @@ sharedSettingsPanel:
       text: "Seulement pour plein écran réel"
     vSync:
       text: "vSync"
+      forceCount: "true"
     particles:
       text: "Particules"
     particlesRetro:
@@ -5535,12 +5555,13 @@ sharedSettingsPanel:
     comment: "Performance column."
     header:
       text: "$ORA1Performance"
+      forceCount: "true"
     particleAmount:
       text: "Quantité de particules"
     shadows:
       text: "Ombres"
     autosaveFrequency:
-      text: "Fréquence de sauvegarde automatique"
+      text: "Fréq. de sauvegarde auto"
     clouds:
       text: "Nuages"
     background:
@@ -5576,7 +5597,7 @@ sharedSettingsPanel:
   twitch:
     comment: "Twitch integration column."
     header:
-      text: "$ORA1Intégration de Twitch"
+      text: "$ORA1Intégration Twitch"
 
   changeKeyPanel:
     comment: "Change key pop up panel."
@@ -5642,16 +5663,16 @@ worldMapCorruptionThreatBar:
     corruptionPowerHeader:
       text: "Force de la corruption"
     corruptionPower:
-      text: "Il s'agit du calcul numérique de la barre de menace ci-dessous. Des valeurs positives signifient que la menace est plus élevée que le niveau de référence et des valeurs négatives signifie qu'elle est plus faible. Vous pouvez réduire la force de la corruption en remplissant des objectifs ou en migrant vers d'autres régions."
+      text: "Valeur numérique de la barre ci-dessous. Une valeur positive signifie que la menace est plus élevée que le niveau de référence et une valeur négative signifie qu'elle est plus faible. Vous pouvez réduire la force de la corruption en remplissant des objectifs ou en migrant vers d'autres régions."
     worldCorruptionThreatHeader:
-      text: "Menace de la corruption du monde"
+      text: "Menace de la corruption"
     worldCorruptionThreat:
       text: "Plus cette barre est remplie, plus le monde sera dangereux pour vos villageois. Plus de monstres apparaîtront la nuit, des monstres plus forts apparaîtront plus tôt et la corruption se propagera de manière plus agressive."  
 
   worldDay:
     text: "Jour du monde : $GRE1{day}"
   globalCorruptionPowerGood:
-    text: "Force globale de lacorruption : $GRE1{amount}" 
+    text: "Force globale de la corruption : $GRE1{amount}" 
   globalCorruptionPowerBad:
     text: "Force globale de la corruption : +$YEL1{amount}"
     
@@ -5673,7 +5694,7 @@ worldMapDoomWorldPanel:
       text: "CONFIRMEZ ICI"
   
   warning:
-    text: "$RED1ATTENTION : RÉINITIALISERA TOUTES LES RÉGIONS POUR CETTE DIFFICULTÉ ! VOUS GARDEREZ LES AVANTAGES ET L'EXPERIENCE DIVINE."
+    text: "$RED1RÉINITIALISERA TOUTES LES RÉGIONS POUR CETTE DIFFICULTÉ ! VOUS GARDEREZ LES AVANTAGES ET L'EXPÉRIENCE DIVINE."
   instructions:
     comment: "This should remain in all-caps if it can, because the {reset} variable is also in all-caps."
     text: "$ORA1ÉCRIS {reset} DANS LE CHAMP CI-DESSOUS POUR CONFIRMER CETTE ACTION !"
@@ -5744,7 +5765,7 @@ worldMapGameModeConfigPanel:
       
     header:
       text: "$YEL0Corruption"
-      forceCount: true
+      forceCount: "true"
     baseSpawnRate:
       text: "Taux d'apparition de base"
     boostedChanceMultiplier:
@@ -5993,7 +6014,7 @@ worldMapGameModeSelectPanel:
       text: "Paisible"
     custom:
       text: "Custom"
-      forceCount: true
+      forceCount: "true"
     sandbox:
       text: "Bac à sable"
   
@@ -6008,7 +6029,7 @@ worldMapGameModeSelectPanel:
       text: "$GRE1Paisible"
     custom:
       text: "$CYA1Custom"
-      forceCount: true
+      forceCount: "true"
     sandbox:
       text: "$BLU1Bac à sable"
     selectGameMode:
@@ -6016,7 +6037,7 @@ worldMapGameModeSelectPanel:
       
   description:
     nightmare:
-      text: "Un mode de jeu presque impossible conçu pour mettre en difficulté les meilleurs joueurs. Attendez-vous à une experience impitoyable. Ce mode est fait pour le masochiste qui se cache en chacun de nous.~~$RED0Ne choisissez PAS ce mode de jeu. Sérieusement, ne le faites pas !~~"
+      text: "Un mode de jeu presque impossible conçu pour mettre en difficulté les meilleurs joueurs. Attendez-vous à une expérience impitoyable. Ce mode est fait pour le masochiste qui se cache en chacun de nous.~~$RED0Ne choisissez PAS ce mode de jeu. Sérieusement, ne le faites pas !~~"
     survival:
       text: "La façon dont le jeu est censé être joué. Impitoyablement brutal, avec une courbe d'apprentissage abrupte.~~$RED0Attendez-vous à perdre fréquemment !~~$GRE0Essayez le mode traditionnel si le mode survie est trop compliqué pour vous."
     traditional:
@@ -6100,7 +6121,7 @@ worldMapMapSelectPanel:
       rollbackSaveHeader:
         text: "Sauvegarde précédente"
       rollbackSave:  
-        text: "$RED1ATTENTION: Cela ne peut PAS être annulé et pourrait avoir des effets secondaires négatifs sur le progrès de votre monde. Cela ne devrait jamais être utiliser pour tricher. Seulement pour réparer des sauvegardes corrompues !"
+        text: "$RED1ATTENTION : Cela ne peut PAS être annulé et pourrait avoir des effets secondaires négatifs sur le progrès de votre monde. Cela ne devrait jamais être utiliser pour tricher. Seulement pour réparer des sauvegardes corrompues !"
   
   tooltip:
     corruptionThreatHeader:
@@ -6157,7 +6178,7 @@ worldMapRewardChestPanel:
   godExperience:
     text: "Gagnez de l'expérience divine en maintenant votre village en bonne santé ou en débloquant et en atteignant des objectifs."
   chestGrantProgressHeader:
-    text: "Progrès avant le coffre récompense"
+    text: "Progrès du coffre de récompense"
   chestGrantProgress:
     text: "Votre progrès avant de recevoir un autre coffre. Les coffres sont donnés lentement en faiant survivre votre village. Une fois reçu, le coffre doit être ouvert avec l'expérience divine."
   chestGrantProgressFull:
@@ -6175,7 +6196,7 @@ worldMapSystemPanel:
   
   button:
     changeGameMode:
-      text: "Changer de mode de jeu"
+      text: "Changer de difficulté"
     
     tooltip:
       mainMenuHeader:
@@ -6192,7 +6213,7 @@ worldMapSystemPanel:
         text: "Visionnez les configurations du mode de jeu que vous allez définir avant de commencer le monde. Ces configurations ne peuvent pas être changées sans abandonner le monde et recommencer à zéro."
 
   header:
-    text: "Panneau système" 
+    text: "Panneau de contrôle" 
     
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Help Module
@@ -6236,11 +6257,11 @@ helpTip:
     villageWorkersHeader:
       text: "Ouvriers"
     villageWorkers:
-      text: "De nombreux bâtiments peuvent être assignés à des travailleurs et permettront d'effectuer différentes tâches. Les $YEL1ouvriers$WHI0 assignées au $YEL1Centre du village$WHI0 pourront, par exemple, construire, réparer et démanteler différentes structures. Ils peuvent aussi récolter des matières premières, mais seulement si ils en ont besoin pour construire quelque chose. En revanche, les $YEL1Récolteurs$WHI0 dans les bâtiments tels que les $YEL1Cabannes de bûcherons$WHI0 continueront à récolter des matériaux quoi qu'il arrive et feront des réserves. $YEL1Vous pouvez avoir une vue d'ensemble de tous les ouvriers dans le panneau de main-d'oeuvre à gauche."
+      text: "De nombreux bâtiments peuvent être assignés à des travailleurs et permettront d'effectuer différentes tâches. Les $YEL1ouvriers$WHI0 assignées au $YEL1Centre du village$WHI0 pourront, par exemple, construire, réparer et démanteler différentes structures. Ils peuvent aussi récolter des matières premières, mais seulement si ils en ont besoin pour construire quelque chose. En revanche, les $YEL1Récolteurs$WHI0 dans les bâtiments tels que les $YEL1Cabannes de bûcherons$WHI0 continueront à récolter des matériaux quoi qu'il arrive et feront des réserves. $YEL1Vous pouvez avoir une vue d'ensemble de tous les ouvriers dans le panneau de main-d'œuvre à gauche."
     workBuildingsHeader:
       text: "Bâtiments d'ouvrage"
     workBuildings:
-      text: "{buildingName}$WHI0 construit par vos villageois ! Ce bâtiment ajoute {amount} postes de $GRE1{mobJobName}$WHI0 ! Si vous voulez que vos villageois fassent ce travail, vous aurez besoin de libérer un certain nombre d'ouvriers et les assigner à ce bâtiment. Vous pouvez faire ça à deux endroits, dans le $GRE1panneau de main-d'oeuvre à gauche$WHI0, ou en cliquant sur le bâtiment {buildingName}$GRE1 et utiliser la fenêtre en bas$WHI0. Ensuite, $GRE1cliquez sur les boutons + ou -$WHI0 pour ajuster le nombre d'ouvriers désiré. $RED1Si vous n'avez aucun villageois disponible, assurez-vous de baisser le nombre de travailleurs désirés dans les autres bâtiments !$WHI0"
+      text: "{buildingName}$WHI0 construit par vos villageois ! Ce bâtiment ajoute {amount} postes de $GRE1{mobJobName}$WHI0 ! Si vous voulez que vos villageois fassent ce travail, vous aurez besoin de libérer un certain nombre d'ouvriers et les assigner à ce bâtiment. Vous pouvez faire ça à deux endroits, dans le $GRE1panneau de main-d'œuvre à gauche$WHI0, ou en cliquant sur le bâtiment {buildingName}$GRE1 et utiliser la fenêtre en bas$WHI0. Ensuite, $GRE1cliquez sur les boutons + ou -$WHI0 pour ajuster le nombre d'ouvriers désiré. $RED1Si vous n'avez aucun villageois disponible, assurez-vous de baisser le nombre de travailleurs désirés dans les autres bâtiments !$WHI0"
     buildingDamageHeader:
       text: "Bâtiments endommagés"
     buildingDamage:
@@ -6250,7 +6271,7 @@ helpTip:
     resouceManagement:
       text: "Le bâtiment {buildingName}$WHI0 que vous venez de construire peut fabriquer des ressources tel que $YEL1{resourceName}, $WHI0 mais pour que vous villageois y travaillent $RED1vous devez assigner des {mobJobName} $RED1et leur dire de produire des ressources dans l'onglet de gestion des ressources à gauche. $WHI0Mettre une valeur $GRE1'Maintenir'$WHI0 à la ressources va essayer d'en garder autant dans le village tout le temps, alors que $GRE1'Faire'$WHI0 va juste leur en faire faire un certain nombre. Vous pouvez aussi mettre la valeur au dessus de 500 pour qu'ils en produisent/maintiennent à l'infini. Vous pouvez contrôler la quantité de ressources récoltées de la même manière."
     energyHeader:
-      text: "Energie"
+      text: "Énergie"
     energy:
       text: "Le bâtiment {buildingName} $WHI0que vos villageois viennent de construire utilise de l'énergie. Les vâtiments qui utilisent de l'énergie doivent être  alimentés en essence. Vous pouvez générer de l'essence en remplissant des $YEL1Collecteurs d'essence$WHI0 avec du $GRE1crylithum$WHI0 qui est raffiné dans les $YEL1Cristalleries$WHI0. Les créatures vivantes telles que les montres, les animaux et les villageois vont aussi lâcher de l'essence en mourrant, si vous avez des $YEL1Collecteurs d'essence$WHI0, l'essence perdue sera recueillie et livrée aux bâtiments qui peuvent l'utiliser."
     ammoHeader:
@@ -6346,14 +6367,14 @@ helpTip:
     pregnantHeader:
       text: "Enceinte"
     pregnant:   
-      text: "{mobName}$WHI0 est enceinte ! Bientôt, elle donnera naissance à un nouvel enfant qui deviendra un jour une autre abeille ouvrière adulte ! Les villageoises enceintes consomment plus de nourriture et d'énergie et se déplacent un peu plus lentement. Alors gardez un oeil sur elles."
+      text: "{mobName}$WHI0 est enceinte ! Bientôt, elle donnera naissance à un nouvel enfant qui deviendra un jour une autre abeille ouvrière adulte ! Les villageoises enceintes consomment plus de nourriture et d'énergie et se déplacent un peu plus lentement. Alors gardez un œil sur elles."
     nomadHeader:
       text: "Nomades !"
     nomad:   
       text: "Des $YEL1nomades$WHI0 viennent d'arriver dans votre région, ils sont amicaux. S'ils peuvent se rendre dans votre village sans être tués, ils vous rejoindront. Si vous voulez augmenter vos chances d'obtenir plus de $YEL1nomades$WHI0, construisez un grand village avec beaucoup de logements et de défenses."
     essenceHeader:
       text: "Essence"
-      forceCount: true
+      forceCount: "true"
     essence:   
       text: "Avez-vous remarqué ces points verts scintillants sur la carte lorsque quelque chose meurt ou que vous détruisez une partie du terrain ? C'est l'$GRE1essence$WHI0 qui a été libérée dans votre monde. Vous pouvez collecter de l'essence en agitant votre main près d'elle et cela rechargera votre barre d'influence plus rapidement afin de pouvoir jeter des sorts. L'essence est aussi la source d'énergie de certiain bâtiments tels que les $YEL1Tours-éclair de feu$WHI0. Vous pouvez collecter de l'essence en construisant des $YEL1collecteurs d'essence$WHI0."
     abandonedBuildingsHeader:
@@ -6439,7 +6460,7 @@ influence:
 # rtr.influence.*
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
-spells:
+spell:
   comment: "Influence Module - Spell Names and Descriptions"
   javaClass: "rtr.influence.*"
   
@@ -6537,7 +6558,7 @@ spells:
     name:
       text: "Invoquer un golem-ouvrier"
     description:
-      text: "Invoque un golem stupide qui travaillera en tant que main-d'oeuvre dans votre village jusqu'à ce qu'il meurt."
+      text: "Invoque un golem stupide qui travaillera en tant que main-d'œuvre dans votre village jusqu'à ce qu'il meurt."
   illuminate:
     name:
       text: "Illuminer"
@@ -6555,7 +6576,7 @@ spells:
       text: "Électrise un monstre avec une boule d'énergie."
   coldAura:
     name:
-      text: "Aurea glaciale"
+      text: "Aura glaciale"
     description:
       text: "Rend la zone extrêmement froide, refroidissant, ralentissant et parfois gelant les créatures proches."
   regenerate:
@@ -6619,12 +6640,12 @@ tileSet:
       text: "Navets"
     cactus:
       text: "Cactus"
-      forceCount: true
+      forceCount: "true"
     carrots:
       text: "Carottes"
     melons:
       text: "Melons"
-      forceCount: true
+      forceCount: "true"
     bricks:
       text: "Briques"
     dirt:
@@ -6653,7 +6674,7 @@ tileSet:
       text: "Boue glacée"
     corruption:
       text: "Corruption"
-      forceCount: true
+      forceCount: "true"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Missile Module
@@ -6840,10 +6861,10 @@ mobName:
   slime:
     single:
       text: "Slime"
-      forceCount: true
+      forceCount: "true"
     plural:
       text: "Slimes"
-      forceCount: true
+      forceCount: "true"
   smallBloodSlime:
     single:
       text: "Petit slime de sang"
@@ -6862,17 +6883,17 @@ mobName:
   drone:
     single:
       text: "Drone"
-      forceCount: true
+      forceCount: "true"
     plural:
       text: "Drones"
-      forceCount: true
+      forceCount: "true"
   zombie:
     single:
       text: "Zombie"
-      forceCount: true
+      forceCount: "true"
     plural:
       text: "Zombies"
-      forceCount: true
+      forceCount: "true"
   childZombie:
     single:
       text: "Enfant zombie"
@@ -7227,7 +7248,7 @@ aiTask:
     pathfindToTopography:
       text: "Se rend sur un chantier pour nettoyer la topographie."
     clearTopography:
-      text: "Nettoire la topographie."
+      text: "Nettoie la topographie."
       
   combatBuildings:
     pathfindToTarget:
@@ -7249,7 +7270,7 @@ aiTask:
     pathfindToHarvestWork:
       text: "Se rend au chantier pour récolter quelques matériaux."
     harvestResource:
-      text: "Harvesting materials."
+      text: "Récolte des matériaux."
 
   courierArriveBehavior:
     pathfindToDropOffCoordinatesNoRegion:
@@ -7267,7 +7288,7 @@ aiTask:
 
   courierParkBehavior:
     pathfindToParkingSpot:
-      text: "Sationné au bâtiment $YEL1{buildingName}."
+      text: "Stationné au bâtiment $YEL1{buildingName}."
     park:
       text: "Attend des ressources au bâtiment $YEL1{buildingName}."
 
@@ -7519,7 +7540,7 @@ aiTask:
 
   migrantDepartBehavior:
     pathfindToLeaveCoordinates:
-      text: "Quitter la région, en partance vers $YEL1{regionName}."
+      text: "Quitte la région, en partance vers $YEL1{regionName}."
       
   migrationPreperationBehavior:
     pathfindToLeaveCoordinates:
@@ -8387,7 +8408,7 @@ object:
           text: "Augmente de nouveau la quantité de cristaux, de crylithium et d'autres matériaux à base de cristaux que le bâtiment peut stocker."
       established:
         name:
-          text: "Stokcage de cristaux établi"
+          text: "Stockage de cristaux établi"
         description:
           text: "Augmente de nouveau la quantité de cristaux, de crylithium et d'autres matériaux à base de cristaux que le bâtiment peut stocker."
       reinforced:
@@ -8497,7 +8518,7 @@ object:
           text: "Augmente de nouveau les dégâts et la cadence de tir de la tour et convertit une grande partie des dégâts en foudre."
       ice:
         name:
-          text: "tour-éclair de glace"
+          text: "Tour-éclair de glace"
         description:
           text: "Augmente de nouveau les dégâts et la cadence de tir de la tour et convertit une grande partie des dégâts en glace."
     
@@ -8973,7 +8994,7 @@ object:
         name:
           text: "Station de migration établie"
         description:
-          text: "FAugmente de nouveau la quantité de villageois qui peuvent être envoyés dans les régions voisines par jour."
+          text: "Augmente de nouveau la quantité de villageois qui peuvent être envoyés dans les régions voisines par jour."
     
     mineralStorage:
       small:
@@ -9309,7 +9330,7 @@ object:
         name:
           text: "Cabanne du responsable de voirie de fortune"
         description:
-          text: "Provides workers who can create and maintain roads, clear terrain and dig out man made lakes to collect rain water for water purifiers."
+          text: "Fournit des travailleurs qui peuvent créer et maintenir les routes, nettoyer le terrain et creuser des lacs artificiels pour collecter de l'eau pour les purificateurs d'eau."
       base:
         name:
           text: "Cabanne du responsable de voirie"
@@ -9329,7 +9350,7 @@ object:
           text: "Une source d'eau se renouvelant lentement et qui fonctionne sans interruption, toute l'année. Fournit également un poste de responsable de l'eau pour redistribuer l'eau dans le village."
       base:
         name:
-          text: "Puit"
+          text: "Puits"
         description:
           text: "Augmente la vitesse de renouvellement de l'eau et le stockage maximum."
       established:
@@ -9505,10 +9526,10 @@ resource:
   crylithium:
     single:
       text: "Crylithium"
-      forceCount: true
+      forceCount: "true"
     plural:
       text: "Crylithium"
-      forceCount: true
+      forceCount: "true"
 
   rawFood:
     single:
@@ -9519,10 +9540,10 @@ resource:
   ration:
     single:
       text: "Ration"
-      forceCount: true
+      forceCount: "true"
     plural:
       text: "Rations"
-      forceCount: true
+      forceCount: "true"
 
   ballistaeBolts:
     single:
@@ -9635,10 +9656,10 @@ resource:
   bandage:
     single:
       text: "Bandage"
-      forceCount: true
+      forceCount: "true"
     plural:
       text: "Bandages"
-      forceCount: true
+      forceCount: "true"
 
   medkit:
     single:
@@ -9696,7 +9717,7 @@ gameMode:
     text: "Paisible"
   custom:
     text: "Custom"
-    forceCount: true
+    forceCount: "true"
   sandbox:
     text: "Bac à sable"
   mainMenu:
