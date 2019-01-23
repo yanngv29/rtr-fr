@@ -170,8 +170,10 @@ module:
   javaClass: "rtr.ModuleBase.java"
 
   loading:
+    loading:
+      text: "$GRE1Chargement !"
     starting:
-      text: "Démarrage..."
+      text: "Démarrage !"
     module:
       text: "Module {moduleName}"
       forceCount: "true"
@@ -189,7 +191,7 @@ module:
   data:
     text: "Donnée"
   goal:
-    text: "But"
+    text: "Objectif"
   god:
     text: "Dieu"
   perk:
@@ -1745,7 +1747,7 @@ goal:
   immigrateNomads:
     header:
       text: "Accueil de nomades"
-    header:
+    body:
       any:
         text: "Accueille $GRE1{amount} nomades n'importe où $WHI0!"
       specific:
@@ -2235,6 +2237,10 @@ mainMenuNewProfilePanel:
       text: "$ORA1Le nom de votre profil !"
     tipsEnabled:
       text: "Conseils activés"
+    tipsEnabledTrue:
+      text: "OUI"
+    tipsEnabledFalse:
+      text: "NON"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Main Menu State
@@ -3927,11 +3933,11 @@ playProblemPanel:
     text: "$RED1{amount} problèmes majeurs"
 
   problem:
-    noFood:
+    noFoodAnywhere:
       text: "* $RED1Il n'y a pas de nourriture récoltée."
-    noWater:
+    noWaterAnywhere:
       text: "* $RED1Il n'y a pas d'eau potable."
-    noHomes:
+    noHomesAnywhere:
       text: "* $RED1Il n'y a pas de logement."
     lowVillagers:
       text: "* $ORA1Il y a très peu de villageois."
@@ -4599,7 +4605,7 @@ playStatisticsPanel:
       buildings:
         text: "Bâtiments"
       defenses:
-        text: "Défenses"
+        text: "Défense"
       resources:
         text: "Ressources"
       magicAndEnergy:
@@ -5163,7 +5169,7 @@ sharedDataViewsPanel:
     resourceValues:
       text: "Valeur des ressources"
     movementCosts:
-      text: "Coûts de mouvement"
+      text: "Coûts mouvements"
     blockMap:
       text: "Endroits bloqués"
     range:
@@ -5193,7 +5199,7 @@ sharedDataViewsPanel:
     traffic:
       text: "Trafic"
     roadDurability:
-      text: "Durée de vie des routes"
+      text: "Durabilité des routes"
       
   header:
     text: "Données"
@@ -5370,9 +5376,9 @@ playRightObjectDescriptionPanel:
   providedMigrationsPerDay:
     text: "Migration journalière fournie : $GRE1{amount}"
   guardHousingCapacity:
-    text: "Capacité de logement des gardes : $GRE1{amount}"
+    text: "Capacité de gardes : $GRE1{amount}"
   housingCapacity:
-    text: "Capacité de logement : $GRE1{amount}"
+    text: "Espace habitable : $GRE1{amount}"
   workersSlots:
     text: "Postes : $GRE1{amount} {mobJobName}"
   buildingSlotsProvided:
@@ -5382,7 +5388,7 @@ playRightObjectDescriptionPanel:
   canCollectRawEssence:
     text: "Peut collecter de l'essence brute"
   consumesCrylithium:
-    text: "Consomme du crylithium en tant que carburant"
+    text: "Consomme du crylithium comme carburant"
   canBuildRoads:
     text: "Peut construire des routes"
     
@@ -5441,7 +5447,7 @@ sharedSettingsPanel:
     hideGUI:
       text: "Cacher l'interface"
     gridView:
-      text: "Vuisionner de la grille"
+      text: "Visionner la grille"
     hideTopography:
       text: "Cacher la topographie (éditeur de carte)"
     fullScreen:
@@ -5542,16 +5548,16 @@ sharedSettingsPanel:
     fixedResolution:
       text: "Résolution fixe"
     fullscreenWithoutBorderlessOnly:
-      text: "Seulement pour plein écran réel"
+      text: "Seulement en plein écran réel"
     vSync:
       text: "vSync"
       forceCount: "true"
     particles:
       text: "Particules"
     particlesRetro:
-      text: "RÉTRO"
+      text: "Rétro"
     particlesSmooth:
-      text: "DOUX"
+      text: "Doux"
 
   performance:
     comment: "Performance column."
@@ -5560,10 +5566,22 @@ sharedSettingsPanel:
       forceCount: "true"
     particleAmount:
       text: "Quantité de particules"
+    particleAmountMinimal:
+      text: "Minimum"
+    particleAmountReduced:
+      text: "Reduit"
+    particleAmountFull:
+      text: "Toutes"
     shadows:
       text: "Ombres"
     autosaveFrequency:
       text: "Fréquence de sauvegarde"
+    autosaveFrequencyMinimal:
+      text: "Minimum"
+    autosaveFrequencyReduced:
+      text: "Réduit"
+    autosaveFrequencyFull:
+      text: "Fréquent"
     clouds:
       text: "Nuages"
     background:
@@ -5600,6 +5618,8 @@ sharedSettingsPanel:
     comment: "Twitch integration column."
     header:
       text: "$ORA1Intégration Twitch"
+    channelName:
+      text: "Nom de la chaîne"
 
   changeKeyPanel:
     comment: "Change key pop up panel."
@@ -5611,9 +5631,9 @@ sharedSettingsPanel:
   miscellaneous:
     comment: "Extra strings used in various parts of the panel."
     'false':
-      text: "NON"
+      text: "Non"
     'true':
-      text: "OUI"
+      text: "Oui"
     nothingHere:
       text: "Rien !"
 
@@ -5735,7 +5755,7 @@ worldMapGameModeConfigPanel:
       boostedChanceMultiplierHeader:
         text: "Monstres renforcés"
       boostedChanceMultiplier:
-        text: "Multiplicateur de la probabilité qu'un monstre soit boosté lorsqu'il apparait par le résultat final calculé. 0,5 serait le double, 2,0 serait la moitié. $YEL1(0.25 - 10.0)"
+        text: "Multiplicateur de la probabilité qu'un monstre soit boosté lorsqu'il apparait. 0,5 serait le double, 2,0 serait la moitié. $YEL1(0.25 - 10.0)"
       corruptionStartDayHeader:
         text: "1er jour de corruption"
       corruptionStartDay:
@@ -5747,11 +5767,11 @@ worldMapGameModeConfigPanel:
       buildingRateHeader:
         text: "Vitesse de construction"
       buildingRate:
-        text: "La fréquence à laquelle les drones corrompus construiront de nouveaux bâtiments. Une valeu basse signifie une construction plus rapide ! $YEL1(1 en 5k jusqu'à 1 en 500k par tick d'horloge)"
+        text: "La fréquence à laquelle les drones corrompus construiront de nouveaux bâtiments. Une valeur basse signifie une construction plus rapide ! $YEL1(1 en 5k jusqu'à 1 en 500k par tick d'horloge)"
       buildingDensityHeader:
         text: "Densité de construction"
       buildingDensity:
-        text: "La quantité de bâtiments que les drones peuvent construire dans une zone, la zone est déterminée par 'Portée de la densité de construction' ci-dessous. $YEL1(1 - 50)"
+        text: "La quantité de bâtiments que les drones peuvent construire dans une zone, la zone est déterminée par 'Portée de la densité' ci-dessous. $YEL1(1 - 50)"
       buildingDensityRangeHeader:
         text: "Portée de la densité"
       buildingDensityRange:
@@ -5796,7 +5816,7 @@ worldMapGameModeConfigPanel:
       uncoverChanceHeader:
         text: "Chance de coffres"
       uncoverChance:
-        text: "La chance de trouver un coffre non-découverts en récoltant des ressources. $YEL1(1 en 1 - 5000 ou jamais)"
+        text: "La chance de trouver un coffre non-découvert en récoltant des ressources. $YEL1(1 en 1 - 5000 ou jamais)"
       keyChanceHeader:
         text: "Chance des clés"
       keyChance:
@@ -5820,7 +5840,7 @@ worldMapGameModeConfigPanel:
       spawnAmountMultiplierHeader:
         text: "Multiplicateur d'apparition"
       spawnAmountMultiplier:
-        text: "Multiplie le montant final de nomades qui vont apparaitre. 0.5 serait la moitié, 2.0 serait le double. $YEL1(0.25 - 10.0)"
+        text: "Multiplie le nombre final de nomades qui vont apparaitre. 0.5 serait la moitié, 2.0 serait le double. $YEL1(0.25 - 10.0)"
       spawnAmountMinimumHeader:
         text: "Quantité minimale"
       spawnAmountMinimum:
@@ -5854,7 +5874,7 @@ worldMapGameModeConfigPanel:
       dayLengthMultiplierHeader:
         text: "Durée de la journée"
       dayLengthMultiplier:
-        text: "Augmente ou diminue la durée total d'une journée. 1.5x est +50% de durée, 0.5x est -50% de durée $YEL1(0.1x - 30.0x)"
+        text: "Augmente ou diminue la durée totale d'une journée. 1.5x est +50% de durée, 0.5x est -50% de durée $YEL1(0.1x - 30.0x)"
         
     header:
       text: "$YEL0Autre"
@@ -5910,7 +5930,7 @@ worldMapGameModeConfigPanel:
       bloodMoonDelayHeader:
         text: "Intervalle lunes de sang"
       bloodMoonDelay:
-        text: "Combien de jours doivent passer avant qu'une lune de sang puisse se produire. $YEL1(1 - 50, ou aucun.)"
+        text: "Combien de jours doivent passer avant qu'une lune de sang ne puisse se produire. $YEL1(1 - 50, ou aucun.)"
       bloodMoonHeader:
         text: "Lune de sang ({season})"
       bloodMoon:
@@ -6807,12 +6827,12 @@ missileName:
       
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Mob Module
-# Names
+# Mob Names
 # rtr.mobs.MobBase.java
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
 mobName:
-  comment: "Mob Module - Names"
+  comment: "Mob Module - Mob Names"
   javaClass: "rtr.mobs.MobBase.java" 
       
   villageElder:
@@ -7181,7 +7201,125 @@ mobName:
       text: "Golem crischien-éclair"
     plural:
       text: "Golems crischiens-éclairs"
-      
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# Mob Module
+# Damage Type Names
+# rtr.mobs.MobBase.java
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+damageTypeName:
+  comment: "Mob Module - Damage Type Names"
+  javaClass: "rtr.mobs.MobBase.java" 
+
+  regular:
+    text: "Ordinaire"
+  crushing:
+    text: "Broyage"
+  piercing:
+    text: "Perçant"
+  slashing:
+    text: "Lacérant"
+  fire:
+    text: "Feu"
+  ice:
+    text: "Glace"
+  electric:
+    text: "Électrique"
+  poison:
+    text: "Poison"
+    forceCount: "true"
+  poisoned:
+    text: "Empoisonné"
+  dysentery:
+    text: "Dysentérique"
+  blight:
+    text: "Infection"
+  blighted:
+    text: "Infecté"
+  nutrients:
+    text: "Nutriments"
+  magic:
+    text: "Magique"
+  magicFire:
+    text: "Feu magique"
+  magicElectric:
+    text: "Électricité magique"
+  magicIce:
+    text: "Glace magique"
+  water:
+    text: "Eau"
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# Mob Module
+# Damage Cause Names
+# rtr.mobs.MobBase.java
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+damageCauseName:
+  comment: "Mob Module - Damage Cause Names"
+  javaClass: "rtr.mobs.MobBase.java" 
+  
+  regular:
+    text: "Ordinaire"
+  fire:
+    text: "Feu"
+  onFire:
+    text: "En feu"
+  ice:
+    text: "Glace"
+  cold:
+    text: "Froid"
+  frozen:
+    text: "Gelé"
+  poison:
+    text: "Poison"
+    forceCount: "true"
+  poisoned:
+    text: "Empoisonné"
+  dysentery:
+    text: "Dysentérique"
+  dehydration:
+    text: "Déshydration"
+  starving:
+    text: "Affamé"
+  heat:
+    text: "Chaud"
+  lightning:
+    text: "Éclair"
+  crushing:
+    text: "Broyage"
+  piercing:
+    text: "Perçant"
+  magic:
+    text: "Magique"
+  blight:
+    text: "Infection"
+  blighted:
+    text: "Infecté"
+  combat:
+    text: "Combat"
+    forceCount: "true"
+  dropped:
+    text: "Lâché"
+  tower:
+    text: "Tour"
+  god:
+    text: "Dieu"
+  earthquake:
+    text: "Séisme"
+  hail:
+    text: "Grêle"
+  meteor:
+    text: "Météore"
+  rain:
+    text: "Pluie"
+  water:
+    text: "Eau"
+  naturalCauses:
+    text: "Causes naturelles"
+  childBirth:
+    text: "Accouchement"
+
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Mob AI
 # Task Messages
@@ -7993,7 +8131,7 @@ objectOverlay:
   noProduction:
     text: "$YEL1Rien en fabrication !"
   noSpawningResources:
-    comment: "This is almost exclusively used for combobulator to warn the player no usable materials are nearby"
+    comment: "This is almost exclusively used for combobulators to warn the player no usable materials are nearby"
     text: "$YEL1Pas de {resourceName} proche !"
   
   noResources:
@@ -8003,12 +8141,12 @@ objectOverlay:
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Object Module
 # Names and Descriptions
-# rtr.map.tileSets.*
+# rtr.objects.*
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
 object:
   comment: "Object Module - Names and Descriptions"
-  javaClass: "rtr.map.tileSets.*" 
+  javaClass: "rtr.objects.*" 
     
   building:
     castle:
@@ -8973,17 +9111,17 @@ object:
           text: "Tour à fléchettes fantômes établie"
         description:
           text: "Augmente de nouveau légèrement les dégâts et la capacité en énergie de la tour."
-      base:
+      fire:
         name:
           text: "Tour à fléchettes fantômes de feu"
         description:
           text: "Augmente de nouveau légèrement les dégâts et la capacité en énergie de la tour et convertit une grande quantité des dégâts en dégâts de feu."
-      base:
+      lightning:
         name:
           text: "Tour à fléchettes-éclair fantômes"
         description:
           text: "Augmente de nouveau légèrement les dégâts et la capacité en énergie de la tour et convertit une grande quantité des dégâts en dégâts de foudre."
-      base:
+      ice:
         name:
           text: "Tour à fléchettes fantômes de glace"
         description:

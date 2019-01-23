@@ -19,8 +19,8 @@
 
 # Any time a line is left blank or removed, the game will load the default English version. Although I recommend not touching any lines you do not wish to translate.
 
-# you can add forceCount: true directly below any text: line to tell the game that line is in fact translated, in the rare case no translation is actually required.
-
+# you can add forceCount: "true" directly below any text: line to tell the game that line is in fact translated, in the rare case no translation is actually required.
+    
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # God Module
 # God XP Types
@@ -88,8 +88,8 @@ godXP:
     text: "Digging Holes"
   dismantlingBuildings:
     text: "Dismantling Buildings"
-  equipingResources:
-    text: "Equiping Resources"
+  equippingResources:
+    text: "Equipping Resources"
   findingNewHome:
     text: "Finding New Home"
   growingUp:
@@ -168,8 +168,10 @@ module:
   javaClass: "rtr.ModuleBase.java"
 
   loading:
+    loading:
+      text: "$GRE1Loading!"
     starting:
-      text: "Starting..."
+      text: "$CYA1Starting!"
     module:
       text: "{moduleName} Module"
     syncing:
@@ -1404,7 +1406,7 @@ console:
           fire:
             text: "{mobName}{mobTitle}$RED1 burned to death!"
           god:
-            text: "{mobName}{mobTitle}$RED1 was mudered by their god!"
+            text: "{mobName}{mobTitle}$RED1 was murdered by their god!"
           heat:
             text: "{mobName}{mobTitle}$RED1 died of heat exhaustion!"
           lightning:
@@ -1652,7 +1654,7 @@ goal:
       text: "Send Resources"
     body:
       any:
-        text:  "Send $GRE1{amount} {resourceNamePlural}$WHI0 via courier golems to $GRE1another region$WHI0."
+        text: "Send $GRE1{amount} {resourceNamePlural}$WHI0 via courier golems to $GRE1another region$WHI0."
       specific:
         text: "Send $GRE1{amount} {resourceNamePlural}$WHI0 via courier golems to $GRE1{mapName}$WHI0!"
         
@@ -1732,7 +1734,7 @@ goal:
   immigrateNomads:
     header:
       text: "Immigrate Nomads"
-    header:
+    body:
       any:
         text: "Immigrate $GRE1{amount} nomads anywhere$WHI0!"
       specific:
@@ -2217,6 +2219,10 @@ mainMenuNewProfilePanel:
       text: "$ORA1Input Your Profile Name!"
     tipsEnabled:
       text: "Tips Enabled"
+    tipsEnabledTrue:
+      text: "True"
+    tipsEnabledFalse:
+      text: "False"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Main Menu State
@@ -3900,11 +3906,11 @@ playProblemPanel:
     text: "$RED1{amount} Major Issues"
 
   problem:
-    noFood:
+    noFoodAnywhere:
       text: "* $RED1There is no harvested food."
-    noWater:
+    noWaterAnywhere:
       text: "* $RED1There is no drinkable water."
-    noHomes:
+    noHomesAnywhere:
       text: "* $RED1There are no homes."
     lowVillagers:
       text: "* $ORA1There are very few villagers."
@@ -5502,9 +5508,9 @@ sharedSettingsPanel:
     particles:
       text: "Particles"
     particlesRetro:
-      text: "RETRO"
+      text: "Retro"
     particlesSmooth:
-      text: "SMOOTH"
+      text: "Smooth"
 
   performance:
     comment: "Performance column."
@@ -5512,10 +5518,22 @@ sharedSettingsPanel:
       text: "$ORA1Performance"
     particleAmount:
       text: "Particle Amount"
+    particleAmountMinimal:
+      text: "Minimal"
+    particleAmountReduced:
+      text: "Reduced"
+    particleAmountFull:
+      text: "Full"
     shadows:
       text: "Shadows"
     autosaveFrequency:
       text: "Autosave Frequency"
+    autosaveFrequencyMinimal:
+      text: "Minimal"
+    autosaveFrequencyReduced:
+      text: "Reduced"
+    autosaveFrequencyFull:
+      text: "Full"
     clouds:
       text: "Clouds"
     background:
@@ -5552,6 +5570,8 @@ sharedSettingsPanel:
     comment: "Twitch integration column."
     header:
       text: "$ORA1Twitch Integration"
+    channelName:
+      text: "Channel Name"
 
   changeKeyPanel:
     comment: "Change key pop up panel."
@@ -5563,9 +5583,9 @@ sharedSettingsPanel:
   miscellaneous:
     comment: "Extra strings used in various parts of the panel."
     'false':
-      text: "FALSE"
+      text: "False"
     'true':
-      text: "TRUE"
+      text: "True"
     nothingHere:
       text: "Nothing here!"
 
@@ -6042,7 +6062,7 @@ worldMapGoalsPanel:
       text: "Reset"
     
   warning: 
-   text: "$GRE1Are you sure? This will remove the~goal, and a new one must be earned."
+    text: "$GRE1Are you sure? This will remove the~goal, and a new one must be earned."
    
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # World Map State
@@ -6752,12 +6772,12 @@ missileName:
       
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Mob Module
-# Names
+# Mob Names
 # rtr.mobs.MobBase.java
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
 mobName:
-  comment: "Mob Module - Names"
+  comment: "Mob Module - Mob Names"
   javaClass: "rtr.mobs.MobBase.java" 
       
   villageElder:
@@ -7120,7 +7140,127 @@ mobName:
       text: "Lightning Cryggo Golem"
     plural:
       text: "Lightning Cryggo Golems"
-      
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# Mob Module
+# Damage Type Names
+# rtr.mobs.MobBase.java
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+damageTypeName:
+  comment: "Mob Module - Damage Type Names"
+  javaClass: "rtr.mobs.MobBase.java" 
+
+  regular:
+    text: "Regular"
+  crushing:
+    text: "Crushing"
+  piercing:
+    text: "Piercing"
+  slashing:
+    text: "Slashing"
+  fire:
+    text: "Fire"
+  ice:
+    text: "Ice"
+  electric:
+    text: "Electric"
+  poison:
+    text: "Poison"
+  poisoned:
+    text: "Poisoned"
+  dysentery:
+    text: "Dysentery"
+  dysentery:
+    text: "Dysentery"
+  blight:
+    text: "Blight"
+  blighted:
+    text: "Blighted"
+  nutrients:
+    text: "Nutrients"
+  magic:
+    text: "Magic"
+  magicFire:
+    text: "Magic Fire"
+  magicElectric:
+    text: "Magic Electric"
+  magicIce:
+    text: "Magic Ice"
+  water:
+    text: "Water"
+    
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# Mob Module
+# Damage Cause Names
+# rtr.mobs.MobBase.java
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+damageCauseName:
+  comment: "Mob Module - Damage Cause Names"
+  javaClass: "rtr.mobs.MobBase.java" 
+  
+  regular:
+    text: "Regular"
+  fire:
+    text: "Fire"
+  onFire:
+    text: "On Fire"
+  ice:
+    text: "Ice"
+  cold:
+    text: "Cold"
+  frozen:
+    text: "Frozen"
+  poison:
+    text: "Poison"
+  poisoned:
+    text: "Poisoned"
+  dysentery:
+    text: "Dysentery"
+  dysentery:
+    text: "Dysentery"
+  dehydration:
+    text: "Dehydration"
+  starving:
+    text: "Starving"
+  heat:
+    text: "Heat"
+  lightning:
+    text: "Lightning"
+  crushing:
+    text: "Crushing"
+  piercing:
+    text: "Piercing"
+  magic:
+    text: "Magic"
+  blight:
+    text: "Blight"
+  blighted:
+    text: "Blighted"
+  combat:
+    text: "Combat"
+  dropped:
+    text: "Dropped"
+  tower:
+    text: "Tower"
+  god:
+    text: "God"
+  earthquake:
+    text: "Earthquake"
+  hail:
+    text: "Hail"
+  meteor:
+    text: "Meteor"
+  rain:
+    text: "Rain"
+  water:
+    text: "Water"
+  naturalCauses:
+    text: "Natural Causes"
+  childBirth:
+    text: "Child Birth"
+    
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Mob AI
 # Task Messages
@@ -7219,9 +7359,9 @@ aiTask:
     pathfindToDropOffCoordinates:
       text: "Delivering resources from $YEL1{regionName}"
     dropOffResourcesNoRegion:
-      text:  "Dropping off resources from another region"
+      text: "Dropping off resources from another region"
     dropOffResources:
-      text:  "Dropping off resources from $YEL1{regionName}"
+      text: "Dropping off resources from $YEL1{regionName}"
       
   courierDepartBehavior:
     pathfindToLeaveCoordinates:
@@ -7896,7 +8036,7 @@ mobJob:
       text: "Courier Suppliers"
     description:
       text: "Delivers resources to courier golems to be taken to other regions."
-
+  
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Object Module
 # Object Overlay Messages
@@ -7932,22 +8072,22 @@ objectOverlay:
   noProduction:
     text: "$YEL1No Production Set!"
   noSpawningResources:
-    comment: "This is almost exclusively used for combobulator to warn the player no usable materials are nearby"
+    comment: "This is almost exclusively used for combobulators to warn the player no usable materials are nearby"
     text: "$YEL1No nearby {resourceName}!"
   
   noResources:
     comment: "This is for when there's no resources available to build a building under construction."
     text: "$YEL1No available {resourceName}!"
-  
+    
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Object Module
 # Names and Descriptions
-# rtr.map.tileSets.*
+# rtr.objects.*
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
 object:
   comment: "Object Module - Names and Descriptions"
-  javaClass: "rtr.map.tileSets.*" 
+  javaClass: "rtr.objects.*" 
     
   building:
     castle:
@@ -8912,17 +9052,17 @@ object:
           text: "Established Phantom Dart Tower"
         description:
           text: "Further increases the damage and maximum energy of the tower."
-      base:
+      fire:
         name:
           text: "Phantom Fire Dart Tower"
         description:
           text: "Further increases the damage and maximum energy of the tower, and converts a large amount of the damage into fire."
-      base:
+      lightning:
         name:
           text: "Phantom Lightning Dart Tower"
         description:
           text: "Further increases the damage and maximum energy of the tower, and converts a large amount of the damage into lightning."
-      base:
+      ice:
         name:
           text: "Phantom Ice Dart Tower"
         description:
