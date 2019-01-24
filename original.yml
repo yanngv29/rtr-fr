@@ -1521,10 +1521,10 @@ console:
           36:
             text: "Thoughts and prayers probably won't fix this one..."
       
-      migrantDepartBehavior:
-        leaveRegion:
-          subtitle:
-            text: "has departed to {regionName}"
+    migrantDepartBehavior:
+      leaveRegion:
+        subtitle:
+          text: "has departed to {regionName}"
     
     object:       
       sacrificeToCullisGate:
@@ -1849,6 +1849,30 @@ mainMenuMapListButton:
     text: "Page: {currentPage} of {totalPages}"
    
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# World Map State
+# World Map Selection Buttons
+# rtr.gui.buttons.GUIButtonWorldMapSelection.java
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+worldMapSelectionButton:
+  comment: "World Map State - World Map Selection Buttons"
+  javaClass: "rtr.gui.buttons.GUIButtonWorldMapSelection.java"
+  
+  lostToCorruption:
+    text: "$RED1REGION LOST~TO CORRUPTION!"
+  establishVillage:
+    text: "$GRE1CAN ESTABLISH~NEW VILLAGE!"
+      
+  survivedDay:
+    text: "$GRE1Survived $WHI0{days}$GRE1 days"
+  survivedDays:
+    text: "$GRE1Survived $WHI0{days}$GRE1 days"
+  population:
+    text: "$YEL1Population: $WHI0{amount}"
+  migrantsEnRoute:
+    text: "$YEL1Migrants En Route: $WHI0{amount}"
+    
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Main Menu State
 # Credits
 # rtr.gui.states.mainmenu.Credits.java
@@ -2018,6 +2042,8 @@ mainMenuMainMenuPanel:
         text: "Follow on Twitter!"
       discord:
         text: "Join The Discord!" 
+      announcement:
+        text: "Click for more!"
     tooltip:
       setLanguageHeader:
         text: "Set Language"
@@ -2263,6 +2289,11 @@ mainMenuSelectProfilePanel:
       text: "Exit"
     createNewProfile:
       text: "Create New Profile"
+    tooltip:
+      sendProfileHeader:
+        text: "Upload"
+      sendProfile:
+        text: "Send this profile to the developer!"
       
   header:
     profiles:
@@ -4561,6 +4592,9 @@ playStatisticsPanel:
   javaClass: "rtr.gui.states.playstate.StatisticsPanel.java"
   
   button:
+    back:
+      text: "Back"
+      
     primary:
       villagers:
         text: "Villagers"
@@ -7171,8 +7205,6 @@ damageTypeName:
     text: "Poisoned"
   dysentery:
     text: "Dysentery"
-  dysentery:
-    text: "Dysentery"
   blight:
     text: "Blight"
   blighted:
@@ -7216,8 +7248,6 @@ damageCauseName:
     text: "Poison"
   poisoned:
     text: "Poisoned"
-  dysentery:
-    text: "Dysentery"
   dysentery:
     text: "Dysentery"
   dehydration:

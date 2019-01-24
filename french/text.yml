@@ -1357,7 +1357,7 @@ console:
     migration:
       migrantsArrived:
         header:
-          text: "$GRE1{amount}$WHI0 migrants viennent d'arriver"
+          text: "$GRE1{amount} $WHI0migrants viennent d'arriver"
         subtitle:
           text: "depuis $YEL1{regionName} $WHI0!"
     mob:
@@ -1400,53 +1400,53 @@ console:
           text: " $WHI0le {mobType}"
         header:
           frozen:
-            text: "{mobName}{mobTitle}$RED1 est mort de froid !"
+            text: "{mobName}{mobTitle} $RED1est mort de froid !"
           byMob:
-            text: "{mobName}{mobTitle}$WHI0 a été tué par {killerMob} $WHI0!"
+            text: "{mobName}{mobTitle} $WHI0a été tué par {killerMob} $WHI0!"
           byBuilding:
-            text: "{mobName}{mobTitle}$WHI0 a été tué par une {buildingName} $WHI0!"
+            text: "{mobName}{mobTitle} $WHI0a été tué par une {buildingName} $WHI0!"
           byUnknown:
-            text: "{mobName}{mobTitle}$WHI0 est mort !"
+            text: "{mobName}{mobTitle} $WHI0est mort !"
           crashing:
-            text: "{mobName}{mobTitle}$RED1 est mort écrasé !"
+            text: "{mobName}{mobTitle} $RED1est mort écrasé !"
           dehydration:
-            text: "{mobName}{mobTitle}$RED1 est mort déshydraté !"
+            text: "{mobName}{mobTitle} $RED1est mort déshydraté !"
           blight:
-            text: "{mobName}{mobTitle}$RED1 est mort d'infection !"
+            text: "{mobName}{mobTitle} $RED1est mort d'infection !"
           dropped:
-            text: "{mobName}{mobTitle}$RED1 a été lancé trop fort sur le sol et est mort !"
+            text: "{mobName}{mobTitle} $RED1a été lancé trop fort sur le sol et est mort !"
           fire:
-            text: "{mobName}{mobTitle}$RED1 est mort brûlé !"
+            text: "{mobName}{mobTitle} $RED1est mort brûlé !"
           god:
-            text: "{mobName}{mobTitle}$RED1 s'est fait tuer par son dieu !"
+            text: "{mobName}{mobTitle} $RED1s'est fait tuer par son dieu !"
           heat:
-            text: "{mobName}{mobTitle}$RED1 est mort d'épuisement par la chaleur!"
+            text: "{mobName}{mobTitle} $RED1est mort d'épuisement par la chaleur!"
           lightning:
-            text: "{mobName}{mobTitle}$RED1 s'est fait frapper par la foudre !"
+            text: "{mobName}{mobTitle} $RED1s'est fait frapper par la foudre !"
           magic:
-            text: "{mobName}{mobTitle}$RED1 s'est fait tuer par quelque chose de magique !"
+            text: "{mobName}{mobTitle} $RED1s'est fait tuer par quelque chose de magique !"
           unknown:
-            text: "{mobName}{mobTitle}$RED1 est mort mystérieusement ?"
+            text: "{mobName}{mobTitle} $RED1est mort mystérieusement ?"
           piercing:
-            text: "{mobName}{mobTitle}$RED1 a été tué par un coup perçant!"
+            text: "{mobName}{mobTitle} $RED1a été tué par un coup perçant!"
           poisoned:
-            text: "{mobName}{mobTitle}$RED1 était empoisonné et est mort !"
+            text: "{mobName}{mobTitle} $RED1était empoisonné et est mort !"
           dysentery:
-            text: "{mobName}{mobTitle}$RED1 est mort de dysenterie !"
+            text: "{mobName}{mobTitle} $RED1est mort de dysenterie !"
           starved:
-            text: "{mobName}{mobTitle}$RED1 est mot de faim !"
+            text: "{mobName}{mobTitle} $RED1est mot de faim !"
           tower:
-            text: "{mobName}{mobTitle}$RED1 s'est fait tuer par une tour de défense !"
+            text: "{mobName}{mobTitle} $RED1s'est fait tuer par une tour de défense !"
           earthquake:
-            text: "{mobName}{mobTitle}$RED1 est mort dans un terrible tremblement de terre !"
+            text: "{mobName}{mobTitle} $RED1est mort dans un terrible tremblement de terre !"
           hail:
-            text: "{mobName}{mobTitle}$RED1 s'est fait marteller à mort par la grêle !"
+            text: "{mobName}{mobTitle} $RED1s'est fait marteller à mort par la grêle !"
           meteor:
-            text: "{mobName}{mobTitle}$RED1 a été écrasé par un météore !"
+            text: "{mobName}{mobTitle} $RED1a été écrasé par un météore !"
           age:
-            text: "{mobName}{mobTitle}$RED1 est mort de causes naturelles."
+            text: "{mobName}{mobTitle} $RED1est mort de causes naturelles."
           birth:
-            text: "{mobName}{mobTitle}$RED1 est mort en donnant naissance !"
+            text: "{mobName}{mobTitle} $RED1est mort en donnant naissance !"
             
         ageSubtitle:
           male:
@@ -1597,18 +1597,18 @@ goal:
   
   unlockNewGoal:
     header:
-      text: "Déverrouillez un objectif"
+      text: "Débloquez un objectif"
     body:
       days:
-        text: "Survis $GRE1{days}$WHI0 jours pour $GRE1débloquer un objectif $WHI0!"
+        text: "Survis $GRE1{days} $WHI0jours pour $GRE1débloquer un objectif $WHI0!"
       additionalDays:
-        text: "Survis $GRE1{days}$WHI0 jours supplémentaires pour $GRE1débloquer un objectif $WHI0!"
+        text: "Survis $GRE1{days} $WHI0jours supplémentaires pour $GRE1débloquer un objectif $WHI0!"
    
   win:
     header:
       text: "Victoire"
     body:
-      text: "Survis $GRE1une année$WHI0 dans $GRE1chaque région du monde$WHI0."
+      text: "Survis $GRE1une année $WHI0dans $GRE1chaque région du monde$WHI0."
 
   harvest:
     header:
@@ -1863,6 +1863,30 @@ mainMenuMapListButton:
     text: "Page : {currentPage} de {totalPages}"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# World Map State
+# World Map Selection Buttons
+# rtr.gui.buttons.GUIButtonWorldMapSelection.java
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+worldMapSelectionButton:
+  comment: "World Map State - World Map Selection Buttons"
+  javaClass: "rtr.gui.buttons.GUIButtonWorldMapSelection.java"
+  
+  lostToCorruption:
+    text: "$RED1RÉGION PERDUE~FACE À LA CORRUPTION!"
+  establishVillage:
+    text: "$GRE1PEUT ÉTABLIR UN~NOUVEAU VILLAGE !"
+      
+  survivedDay:
+    text: "$GRE1$WHI0{days}$GRE1 jour survécu"
+  survivedDays:
+    text: "$GRE1$WHI0{days}$GRE1 jours survécus"
+  population:
+    text: "$YEL1Population : $WHI0{amount}"
+  migrantsEnRoute:
+    text: "$YEL1Migrants en route : $WHI0{amount}"
+  
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Main Menu State
 # Credits
 # rtr.gui.states.mainmenu.Credits.java
@@ -1909,7 +1933,7 @@ mainMenuDeleteProfilePanel:
   header:
     text: "$ORA1En êtes-vous certain ?!"
   body:
-    text: "Êtes-vous certain de vouloir supprimer le profil $GRE1{profileName}$WHI0 ? Vous allez perdre toute votre progession !"
+    text: "Êtes-vous certain de vouloir supprimer le profil $GRE1{profileName} $WHI0? Vous allez perdre toute votre progession !"
   bodyConfirm:
     text: "$RED1Sérieusement, en êtes-vous ABSOLUMENT sûr ? Toute votre progession sera perdue pour toujours ! (C'est vraiment long !)"
 
@@ -2033,7 +2057,9 @@ mainMenuMainMenuPanel:
       twitter:
         text: "Suivre sur Twitter !"
       discord:
-        text: "Rejoindre le Discord !" 
+        text: "Rejoindre le Discord !"
+      announcement:
+        text: "Cliquez pour en voir plus !"
     tooltip:
       setLanguageHeader:
         text: "Changer de langue"
@@ -2281,6 +2307,11 @@ mainMenuSelectProfilePanel:
       text: "Quitter"
     createNewProfile:
       text: "Créer un nouveau profil"
+    tooltip:
+      sendProfileHeader:
+        text: "Envoyer"
+      sendProfile:
+        text: "Envoie ce profil au développeur !"
       
   header:
     profiles:
@@ -2424,7 +2455,7 @@ mainMenuUploadProfilePanel:
       text: "Merci, le profil a bien été envoyé au développeur."
       
   body:
-    text: "Cet outil de publication va empaqueter et envoyer le profil sélectionné et les logs au développeur pour résoudre les problèmes. Merci de sélectionner problème que vous rencontrez et, si besoin, d'écrire un bref commentaire."
+    text: "Cet outil va empaqueter et envoyer le profil sélectionné et les logs au développeur pour résoudre les problèmes. Merci de sélectionner problème que vous rencontrez et, si besoin, d'écrire un bref commentaire."
   header:
     text: "Profil sélectionné"
   category:
@@ -3238,7 +3269,7 @@ playBuildingListPanel:
   buildingListPage:
     text: "Liste des bâtiments       Pge: {currentPage} de {totalPages}"
   buildingPaused:
-    text: "$YEL1 (en pause)"
+    text: " $YEL1(en pause)"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Play State
@@ -3711,7 +3742,7 @@ playOverlay:
   
   general:
     cancelAction:
-      text: "Appuyez sur $GRE1{shortcutKey} $WHI0ou sur le $GRE1BOUTON CENTRAL DE LA SOURIS$WHI0 pour annuler l'action actuelle et revenir au mode de sélection."
+      text: "Appuyez sur $GRE1{shortcutKey} $WHI0ou sur le $GRE1BOUTON CENTRAL DE LA SOURIS $WHI0pour annuler l'action actuelle et revenir au mode de sélection."
     unassignWork:
       text: "Maintenez $GRE1{shortcutKey} $YEL1pour désassigner."
     deleteObjects:
@@ -3721,7 +3752,7 @@ playOverlay:
     nothingToGrab:
       text: "Rien à attraper."
     autobuild:
-      text: "Maintenez $GRE1{shortcutKey}$WHI0 pour~construire automatiquement et ignorer~la portée de construction."
+      text: "Maintenez $GRE1{shortcutKey} $WHI0pour~construire automatiquement et ignorer~la portée de construction."
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Play State
@@ -3736,7 +3767,7 @@ playPauseBanner:
   header:
     text: "$YEL0EN PAUSE"
   body:
-    text: "APPUYEZ SUR $GRE1{shortcutKey}$WHI0 POUR REPRENDRE."
+    text: "APPUYEZ SUR $GRE1{shortcutKey} $WHI0POUR REPRENDRE."
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Play State
@@ -4196,7 +4227,7 @@ playSelectedMobPanel:
       text: "Emplacement de munitions d'arme de jet"
             
   boostedMobPrefix:
-    text: "Le {mobName}$CYA1 renforcé $WHI0!"
+    text: "Le {mobName} $CYA1renforcé $WHI0!"
   mobNamePrefix:
     text: "Le {mobName}"
   mobJobNamePrefix:
@@ -4264,7 +4295,7 @@ playSelectedObjectPanel:
     providedWorkers:
       text: "Combien de postes sont fournis par ce bâtiment pour le travail concerné."
     desiredAndMaxWorkersHeader:
-      text: "Nb maximum/désiré de travailleurs"
+      text: "Nb travailleurs maximum/désiré"
     desiredAndMaxWorkers:
       text: "Combien de travailleurs ont été sollicités pour ce travail et combien de plus peuvent y travailler. Si le nombre devient rouge, vous avez sollicité plus de travailleurs qu'il n'y a de villageois disponibles."
     totalPlusEnrouteWorkersHeader:
@@ -4286,7 +4317,7 @@ playSelectedObjectPanel:
     currentAndMaxStorageHeader:
       text: "Stockage actuel/maximum"
     currentAndMaxStorage:
-      text: "Combien de ressources sont actuellement stockées dans ce bâtiment ainsi que la quantité maximale de ressources qui peut être contenue par ce bâtiment."
+      text: "Combien de ressources sont actuellement stockées dans ce bâtiment ainsi que la quantité maximale de ressources qui peut être contenue dans ce bâtiment."
     buildingResourceValueHeader:
       text: "Valeur en ressources du bâtiment"
     buildingResourceValue:
@@ -4388,15 +4419,15 @@ playSelectedObjectPanel:
         text: "Améliore ce bâtiment au prochain niveau. Ce bâtiment sera toujours fonctionnel pendant que les villageois l'améliorent."
 
   bottomPriority:
-    text: "BAS"
+    text: "MIN"
   topPriority:
-    text: "HAUT"
+    text: "MAX"
   notInRange:
     text: "$GRE1(DISTANT)"
   dismantling:
     text: "$GRE1(DÉMOLITION)"
   dismantlingWarning:
-    text: "$RED0Voulez-vous vraiment démanteler ce bâtiment ? Vous ne récupèrerez qu'environ $GRE150%$RED0 des ressources dépensées.~$RED1NE PEUT PAS ÊTRE ANNULÉ"
+    text: "$RED0Voulez-vous vraiment démanteler ce bâtiment ? Vous ne récupèrerez qu'environ $GRE150% $RED0des ressources dépensées.~$RED1NE PEUT PAS ÊTRE ANNULÉ"
   staticTowerDamageOverride:
     text: "Dégât"
   staticTowerDamageOverrideAmount:
@@ -4433,17 +4464,17 @@ playSelectedObjectPanel:
   refiningSpeed:
     text: "$YEL1Vitesse de raffinage"
   homeBonusesHeader:
-    text: "$CYA1Bonus de logements"
+    text: "$CYA1Bonus logements"
   sleepSpeedBoost:
-    text: "$GRE0{amount}% $WHI0vitesse de sommeil"
+    text: "$GRE0{amount}% $WHI0vitesse repos"
   happinessBoost:
     text: "$GRE0{amount} $WHI0amélioration du bonheur"
   healthRegenerationBoost:
     text: "$GRE0{amount} $WHI0régénération de la vie"
   reclaimMessage:
-    text: "Cliquez sur $GRE1récupérer$WHI0 pour~reconstruire et utiliser~ce bâtiment."
+    text: "Cliquez sur $GRE1récupérer $WHI0pour~reconstruire et l'utiliser."
   reclaimMessageNoSlotsNoCamp:
-    text: "Plus de capacité de construction.~Construisz un $GRE0Campement $WHI0ou~un $GRE0Entrepôt $WHI0 pour récupérer ce bâtiment."
+    text: "Plus de capacité de construction.~Construisz un $GRE0Campement $WHI0ou~un $GRE0Entrepôt  $WHI0pour récupérer ce bâtiment."
   reclaimMessageNoSlots:
     text: "Plus de capacité de construction.~Améliorez votre $GRE0{castleName}~$WHI0ou construisez un $GRE0Entrepôt $WHI0~pour récupérer ce bâtiment."
 
@@ -4474,10 +4505,10 @@ playSelectedObjectUpgradePanel:
       text: "Tour défensive"
       
   constructionRequirements:
-    text: "Requiert $RED1{buildingName}$WHI0 pour produire $RED1{resourceName}"
+    text: "$RED1{buildingName} $WHI0pour $RED1{resourceName}"
   supportConjuntion:
     comment: "In some cases, some buildings may require or support multiple buildings, this is the conjuntion portion of the string."
-    text: "$WHI0 ou $RED0"
+    text: " $WHI0ou $RED0"
   maximumStorage:
     text: "Stockage maximal : $GRE1+{amount}"
   energy:
@@ -4595,6 +4626,9 @@ playStatisticsPanel:
   javaClass: "rtr.gui.states.playstate.StatisticsPanel.java"
   
   button:
+    back:
+      text: "Retour"
+
     primary:
       villagers:
         text: "Villageois"
@@ -5149,9 +5183,9 @@ playYouLosePanel:
   youLose:
     text: "$GRE1Vous avez perdu la région !"
   daysSurvived:
-    text: "$WHI0Le village a survécu $GRE1{days}$WHI0 jour !"
+    text: "$WHI0Le village a survécu $GRE1{days} $WHI0jour !"
   daysSurvivedPlural:
-    text: "$WHI0Le village a survécu $GRE1{days}$WHI0 jours !"
+    text: "$WHI0Le village a survécu $GRE1{days} $WHI0jours !"
   acceptFate:
     text: "$RED0Accepter le destin.."
 
@@ -5330,9 +5364,9 @@ playRightObjectDescriptionPanel:
       text: "Tour défensive"
     
   constructionRequirements:
-    text: "Requiert $RED1{buildingName}$WHI0 pour la production de $RED1{resourceName}"
+    text: "$RED1{buildingName} $WHI0pour $RED1{resourceName}"
   supportConjuntion:
-    text: "$WHI0 ou $RED0"
+    text: " $WHI0ou $RED0"
   maximumStorage:
     text: "Stockage maximum : $GRE1{amount}"
   energy:
@@ -5362,11 +5396,11 @@ playRightObjectDescriptionPanel:
   maximumSpawns:
     text: "Invocations max. : $GRE1{amount}"
   spawnNeedsResourcesAndEnergy:
-    text: "Invocation : $GRE1{resourceName}$WHI0 et $GRE1{amount} d'énergie"
+    text: "Invocation : $GRE1{resourceName} $WHI0et $GRE1{amount} d'énergie"
   spawnNeedsEnergy:
     text: "Nécessite $GRE1{amount} d'énergie $WHI0pour invoquer"
   spawnNeedsResources:
-    text: "Nécessite $GRE1{resourceName}$WHI0 pour invoquer"
+    text: "Nécessite $GRE1{resourceName} $WHI0pour invoquer"
   rangeGenerated:
     text: "Portée générée : $GRE1{amount}"
   desirability:
@@ -5719,7 +5753,7 @@ worldMapDoomWorldPanel:
     text: "$RED1RÉINITIALISERA TOUTES LES RÉGIONS POUR CETTE DIFFICULTÉ ! VOUS GARDEREZ LES AVANTAGES ET L'EXPÉRIENCE DIVINE."
   instructions:
     comment: "This should remain in all-caps if it can, because the {reset} variable is also in all-caps."
-    text: "$ORA1ÉCRIS {reset} DANS LE CHAMP CI-DESSOUS POUR CONFIRMER CETTE ACTION !"
+    text: "$ORA1ÉCRIVEZ {reset} DANS LE CHAMP CI-DESSOUS POUR CONFIRMER CETTE ACTION !"
   
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # World Map State
@@ -6179,7 +6213,7 @@ worldMapMapSelectPanel:
         text: "$YEL1Sauvegarde précédente"
       
   moreResourceTypes:
-    text: "Plus $GRE1{amount}$WHI0 autres types."
+    text: "Plus $GRE1{amount} $WHI0autres types."
   total:
     text: "$YEL1TOTAL : {amount}"
   none:
@@ -6267,45 +6301,45 @@ helpTip:
     welcomeCampHeader:
       text: "Le campement"
     welcomeCamp:
-      text: "Bienvenue dans votre première région ! La première chose à faire est de placer votre $YEL1Campement $WHI0quelque part ! Une bonne position de départ devrait être proche d'arbres, de roches, de cristaux, de nourriture et d'eau. Pour placer votre campement, appuyer d'abord sur $GRE1'OK!'$WHI0 pour fermer ce conseil et automatiquement sortir le jeu de pause, $GRE1puis sélectionnez le bouton clignotant 'Placer le campement' à droite.~~$WHI1Bonne chance !"
+      text: "Bienvenue dans votre première région ! La première chose à faire est de placer votre $YEL1Campement $WHI0quelque part ! Une bonne position de départ devrait être proche d'arbres, de roches, de cristaux, de nourriture et d'eau. Pour placer votre campement, appuyer d'abord sur $GRE1'OK!' $WHI0pour fermer ce conseil et automatiquement sortir le jeu de pause, $GRE1puis sélectionnez le bouton clignotant 'Placer le campement' à droite.~~$WHI1Bonne chance !"
     welcomeTipsHeader:
       text: "Conseils !"
     welcomeTips:
-      text: "Il est temps de commencer ! Comme c'est votre première fois, vous obtiendrez des tonnes de conseils pendant que vous jouez. $RED1Ce jeu a une courbe d'apprentissage raide$WHI0 et vous aurez besoin de toute l'aide que vous pouvez obtenir ! $GRE1Le jeu est en pause quand un conseil est affiché $WHI0, donc prenez le temps de les lire !~~Vous pouvez désactiver ces conseils dans les paramètres, mais si vous n'avez jamais joué avant, cela n'est pas recommandé !"
+      text: "Il est temps de commencer ! Comme c'est votre première fois, vous obtiendrez des tonnes de conseils pendant que vous jouez. $RED1Ce jeu a une courbe d'apprentissage raide $WHI0et vous aurez besoin de toute l'aide que vous pouvez obtenir ! $GRE1Le jeu est en pause quand un conseil est affiché $WHI0, donc prenez le temps de les lire !~~Vous pouvez désactiver ces conseils dans les paramètres, mais si vous n'avez jamais joué avant, cela n'est pas recommandé !"
     harvestingResourcesHeader:
       text: "Récolter des ressources"
     harvestingResources:
-      text: "Pleins d'ouvriers assignés aux bâtiments tels que les $YEL1Cabannes de bûcherons$WHI0, les $YEL1Exploitations minières$WHI0 et le $YEL1Centre du village$WHI0 sont autorisés à récolter des ressources comme la pierre et le bois sur la carte. Vous pouvez affecter des ouvriers en utilisant les $GRE1boutons d'assignation de récolte en bas à gauche de l'interface graphique $WHI0afin de récolter les matériaux que vous voulez en sélectionnant les ressources sur la carte. Si il y a des ouvriers autorisés à collecter des ressources, ils le feront d'eux mêmes !"
+      text: "Pleins d'ouvriers assignés aux bâtiments tels que les $YEL1Cabannes de bûcherons$WHI0, les $YEL1Exploitations minières $WHI0et le $YEL1Centre du village $WHI0sont autorisés à récolter des ressources comme la pierre et le bois sur la carte. Vous pouvez affecter des ouvriers en utilisant les $GRE1boutons d'assignation de récolte en bas à gauche de l'interface graphique $WHI0afin de récolter les matériaux que vous voulez en sélectionnant les ressources sur la carte. Si il y a des ouvriers autorisés à collecter des ressources, ils le feront d'eux mêmes !"
     villageWorkersHeader:
       text: "Ouvriers"
     villageWorkers:
-      text: "De nombreux bâtiments peuvent être assignés à des travailleurs et permettront d'effectuer différentes tâches. Les $YEL1ouvriers$WHI0 assignées au $YEL1Centre du village$WHI0 pourront, par exemple, construire, réparer et démanteler différentes structures. Ils peuvent aussi récolter des matières premières, mais seulement si ils en ont besoin pour construire quelque chose. En revanche, les $YEL1Récolteurs$WHI0 dans les bâtiments tels que les $YEL1Cabannes de bûcherons$WHI0 continueront à récolter des matériaux quoi qu'il arrive et feront des réserves. $YEL1Vous pouvez avoir une vue d'ensemble de tous les ouvriers dans le panneau de main-d'œuvre à gauche."
+      text: "De nombreux bâtiments peuvent être assignés à des travailleurs et permettront d'effectuer différentes tâches. Les $YEL1ouvriers $WHI0assignées au $YEL1Centre du village $WHI0pourront, par exemple, construire, réparer et démanteler différentes structures. Ils peuvent aussi récolter des matières premières, mais seulement si ils en ont besoin pour construire quelque chose. En revanche, les $YEL1Récolteurs $WHI0dans les bâtiments tels que les $YEL1Cabannes de bûcherons $WHI0continueront à récolter des matériaux quoi qu'il arrive et feront des réserves. $YEL1Vous pouvez avoir une vue d'ensemble de tous les ouvriers dans le panneau de main-d'œuvre à gauche."
     workBuildingsHeader:
       text: "Bâtiments d'ouvrage"
     workBuildings:
-      text: "{buildingName}$WHI0 construit par vos villageois ! Ce bâtiment ajoute {amount} postes de $GRE1{mobJobName}$WHI0 ! Si vous voulez que vos villageois fassent ce travail, vous aurez besoin de libérer un certain nombre d'ouvriers et les assigner à ce bâtiment. Vous pouvez faire ça à deux endroits, dans le $GRE1panneau de main-d'œuvre à gauche$WHI0, ou en cliquant sur le bâtiment {buildingName}$GRE1 et utiliser la fenêtre en bas$WHI0. Ensuite, $GRE1cliquez sur les boutons + ou -$WHI0 pour ajuster le nombre d'ouvriers désiré. $RED1Si vous n'avez aucun villageois disponible, assurez-vous de baisser le nombre de travailleurs désirés dans les autres bâtiments !$WHI0"
+      text: "{buildingName} $WHI0construit par vos villageois ! Ce bâtiment ajoute {amount} postes de $GRE1{mobJobName} $WHI0! Si vous voulez que vos villageois fassent ce travail, vous aurez besoin de libérer un certain nombre d'ouvriers et les assigner à ce bâtiment. Vous pouvez faire ça à deux endroits, dans le $GRE1panneau de main-d'œuvre à gauche$WHI0, ou en cliquant sur le bâtiment {buildingName} $GRE1et utiliser la fenêtre en bas$WHI0. Ensuite, $GRE1cliquez sur les boutons + ou - $WHI0pour ajuster le nombre d'ouvriers désiré. $RED1Si vous n'avez aucun villageois disponible, assurez-vous de baisser le nombre de travailleurs désirés dans les autres bâtiments !$WHI0"
     buildingDamageHeader:
       text: "Bâtiments endommagés"
     buildingDamage:
-      text: "Le bâtiment {buildingName}$WHI0 est endommagé ! Si vous avez des constructeurs et que la structure est à portée de votre village, ils essaieront automatiquement de la réparer quand ils en auront le temps."
+      text: "Le bâtiment {buildingName} $WHI0est endommagé ! Si vous avez des constructeurs et que la structure est à portée de votre village, ils essaieront automatiquement de la réparer quand ils en auront le temps."
     resouceManagementHeader:
       text: "Gestion de ressources"
     resouceManagement:
-      text: "Le bâtiment {buildingName}$WHI0 que vous venez de construire peut fabriquer des ressources tel que $YEL1{resourceName}, $WHI0 mais pour que vous villageois y travaillent $RED1vous devez assigner des {mobJobName} $RED1et leur dire de produire des ressources dans l'onglet de gestion des ressources à gauche. $WHI0Mettre une valeur $GRE1'Maintenir'$WHI0 à la ressources va essayer d'en garder autant dans le village tout le temps, alors que $GRE1'Faire'$WHI0 va juste leur en faire faire un certain nombre. Vous pouvez aussi mettre la valeur au dessus de 500 pour qu'ils en produisent/maintiennent à l'infini. Vous pouvez contrôler la quantité de ressources récoltées de la même manière."
+      text: "Le bâtiment {buildingName} $WHI0que vous venez de construire peut fabriquer des ressources tel que $YEL1{resourceName},  $WHI0mais pour que vous villageois y travaillent $RED1vous devez assigner des {mobJobName} $RED1et leur dire de produire des ressources dans l'onglet de gestion des ressources à gauche. $WHI0Mettre une valeur $GRE1'Maintenir' $WHI0à la ressources va essayer d'en garder autant dans le village tout le temps, alors que $GRE1'Faire' $WHI0va juste leur en faire faire un certain nombre. Vous pouvez aussi mettre la valeur au dessus de 500 pour qu'ils en produisent/maintiennent à l'infini. Vous pouvez contrôler la quantité de ressources récoltées de la même manière."
     energyHeader:
       text: "Énergie"
     energy:
-      text: "Le bâtiment {buildingName} $WHI0que vos villageois viennent de construire utilise de l'énergie. Les vâtiments qui utilisent de l'énergie doivent être  alimentés en essence. Vous pouvez générer de l'essence en remplissant des $YEL1Collecteurs d'essence$WHI0 avec du $GRE1crylithum$WHI0 qui est raffiné dans les $YEL1Cristalleries$WHI0. Les créatures vivantes telles que les montres, les animaux et les villageois vont aussi lâcher de l'essence en mourrant, si vous avez des $YEL1Collecteurs d'essence$WHI0, l'essence perdue sera recueillie et livrée aux bâtiments qui peuvent l'utiliser."
+      text: "Le bâtiment {buildingName} $WHI0que vos villageois viennent de construire utilise de l'énergie. Les vâtiments qui utilisent de l'énergie doivent être  alimentés en essence. Vous pouvez générer de l'essence en remplissant des $YEL1Collecteurs d'essence $WHI0avec du $GRE1crylithum $WHI0qui est raffiné dans les $YEL1Cristalleries$WHI0. Les créatures vivantes telles que les montres, les animaux et les villageois vont aussi lâcher de l'essence en mourrant, si vous avez des $YEL1Collecteurs d'essence$WHI0, l'essence perdue sera recueillie et livrée aux bâtiments qui peuvent l'utiliser."
     ammoHeader:
       text: "Munitions"
     ammo:   
-      text: "Le bâtiment {buildingName} $WHI0que vos villageois viennent de terminer de construire nécessite des munitions pour fonctionner. Vous aurez besoin de construire une fabrique de munitions pour l'accompagner, tel qu'une $YEL1Archerie$WHI0 ou un $YEL1Fabriquant de cartouches$WHI0."
+      text: "Le bâtiment {buildingName} $WHI0que vos villageois viennent de terminer de construire nécessite des munitions pour fonctionner. Vous aurez besoin de construire une fabrique de munitions pour l'accompagner, tel qu'une $YEL1Archerie $WHI0ou un $YEL1Fabriquant de cartouches$WHI0."
     refineHeader:
       text: "Matériaux raffinés"
     refineNew:   
-      text: "Certains bâtiments nécessitent des matériaux raffinés, comme les planches, la pierre ou le crylithium. Le bâtiment {buildingName}$WHI0 que vous venez de placer est l'un d'eux. Si un bâtiment nécessite l'une de ces ressources citée plus haut et que vous n'avez aucun moyen de fabriquer, ils feront ce qu'ils peuvent, mais le bâtiment ne sera jamais achevé. Vous pouvez raffiner la plupart des matériaux à l'intérieur des bâtiments de raffinage, tel que la $YEL1Cabanne du bûcheron$WHI0 ou le $YEL1Tailleur de pierre$WHI0. Les deux peuvent se trouvent dans la catégorie raffinage dans l'onglet de construction."
+      text: "Certains bâtiments nécessitent des matériaux raffinés, comme les planches, la pierre ou le crylithium. Le bâtiment {buildingName} $WHI0que vous venez de placer est l'un d'eux. Si un bâtiment nécessite l'une de ces ressources citée plus haut et que vous n'avez aucun moyen de fabriquer, ils feront ce qu'ils peuvent, mais le bâtiment ne sera jamais achevé. Vous pouvez raffiner la plupart des matériaux à l'intérieur des bâtiments de raffinage, tel que la $YEL1Cabanne du bûcheron $WHI0ou le $YEL1Tailleur de pierre$WHI0. Les deux peuvent se trouvent dans la catégorie raffinage dans l'onglet de construction."
     refineReclaim:
-      text: "Certains bâtiments nécessitent des matériaux raffinés, comme les planches, la pierre ou le crylithium. Le bâtiment {buildingName}$WHI0 que vous venez d'essayer de récupérer est l'un d'eux. Si un bâtiment nécessite l'une de ces ressources citée plus haut et que vous n'avez aucun moyen de fabriquer, ils feront ce qu'ils peuvent, mais le bâtiment ne sera jamais achevé. Vous pouvez raffiner la plupart des matériaux à l'intérieur des bâtiments de raffinage, tel que la $YEL1Cabanne du bûcheron$WHI0 ou le $YEL1Tailleur de pierre$WHI0. Les deux peuvent se trouvent dans la catégorie raffinage dans l'onglet de construction."
+      text: "Certains bâtiments nécessitent des matériaux raffinés, comme les planches, la pierre ou le crylithium. Le bâtiment {buildingName} $WHI0que vous venez d'essayer de récupérer est l'un d'eux. Si un bâtiment nécessite l'une de ces ressources citée plus haut et que vous n'avez aucun moyen de fabriquer, ils feront ce qu'ils peuvent, mais le bâtiment ne sera jamais achevé. Vous pouvez raffiner la plupart des matériaux à l'intérieur des bâtiments de raffinage, tel que la $YEL1Cabanne du bûcheron $WHI0ou le $YEL1Tailleur de pierre$WHI0. Les deux peuvent se trouvent dans la catégorie raffinage dans l'onglet de construction."
     farmingHeader:
       text: "Agriculture"
     farming:   
@@ -6313,7 +6347,7 @@ helpTip:
     buildingPriorityHeader:
       text: "Priorité de construction"
     buildingPriority:   
-      text: "Saviez-vous que vous pouvez ajuster les priorités de construction ? Il vous suffit de sélectionner l'option $YEL1'Liste des bâtiments'$WHI0 en $YEL1haut à droite$WHI0 puis de cliquer sur les $YEL1flèches haut/bas$WHI0 pour réarranger les priorités de certains bâtiments par rapport à d'autres. Un bâtiment avec une priorité plus élevée va être construit,démantelé et réparé avant les autres."
+      text: "Saviez-vous que vous pouvez ajuster les priorités de construction ? Il vous suffit de sélectionner l'option $YEL1'Liste des bâtiments' $WHI0en $YEL1haut à droite $WHI0puis de cliquer sur les $YEL1flèches haut/bas $WHI0pour réarranger les priorités de certains bâtiments par rapport à d'autres. Un bâtiment avec une priorité plus élevée va être construit,démantelé et réparé avant les autres."
     noHomesHeader:
       text: "Logements"
     noHomes:   
@@ -6321,11 +6355,11 @@ helpTip:
     noFarmsHeader:
       text: "Agriculture"
     noFarms:   
-      text: "Vous êtes au jour {day} et vous n'avez pas encore construit de $YEL1ferme$WHI0, vos villageois finiront par avoir besoin de manger. Ne les laissez pas mourir de faim ! Une fois que vous aurez construit une $YEL1ferme$WHI0 et que vous y aurez assigné des travailleurs, vous pourrez leur dire de récolter de la nourriture crue et ils l'apporteront à la ferme pour la planter. Une fois planté, ils la récolteront automatiquement lorsqu'elle aura poussé !"
+      text: "Vous êtes au jour {day} et vous n'avez pas encore construit de $YEL1ferme$WHI0, vos villageois finiront par avoir besoin de manger. Ne les laissez pas mourir de faim ! Une fois que vous aurez construit une $YEL1ferme $WHI0et que vous y aurez assigné des travailleurs, vous pourrez leur dire de récolter de la nourriture crue et ils l'apporteront à la ferme pour la planter. Une fois planté, ils la récolteront automatiquement lorsqu'elle aura poussé !"
     noWaterHeader:
       text: "Eau"
     noWater:   
-      text: "Vous êtes au jour {day} et vous n'avez pas encore construit de $YEL1sources d'eau$WHI0. Vos villageois finiront par avoir besoin de boire de l'eau. Ne les laissez pas mourir de soif ! Essayez de construire une $YEL1station de purification$WHI0 et collecter les eaux de surface, ou un $YEL1puits$WHI0 pour automatiquement générer de l'eau souterraine propre, ou encore des $YEL1collecteurs d'eau$WHI0 pour collecter l'eau de pluie. Éventuellement, essayez d'avoir plus d'une source d'eau pour survivre aux diverses conditions tout au long de l'année. N'oubliez pas de leur assigner quelques ouvriers !"
+      text: "Vous êtes au jour {day} et vous n'avez pas encore construit de $YEL1sources d'eau$WHI0. Vos villageois finiront par avoir besoin de boire de l'eau. Ne les laissez pas mourir de soif ! Essayez de construire une $YEL1station de purification $WHI0et collecter les eaux de surface, ou un $YEL1puits $WHI0pour automatiquement générer de l'eau souterraine propre, ou encore des $YEL1collecteurs d'eau $WHI0pour collecter l'eau de pluie. Éventuellement, essayez d'avoir plus d'une source d'eau pour survivre aux diverses conditions tout au long de l'année. N'oubliez pas de leur assigner quelques ouvriers !"
     noTowersHeader:
       text: "Défenses"
     noTowers:   
@@ -6333,7 +6367,7 @@ helpTip:
     buildingSlotsHeader:
       text: "Emplacements de construction"
     buildingSlots:   
-      text: "Vous n'avez plus de place pour construire, afin de gérer votre village en pleine croissance, vous aurez besoin d'améliorer votre $YEL1Campement$WHI0 ou de construire quelques $YEL1Entrepôts$WHI0. Vous pouvez améliorer votre $YEL1Campement$WHI0 en cliquant dessus et en cliquant sur le bouton améliorer sur le panneau en bas. Alternativement, si vous préférez construire un $YEL1Entrepôt$WHI0, vous pouvez les trouver dans la sous-catégorie Civil de votre onglet de construction."
+      text: "Vous n'avez plus de place pour construire, afin de gérer votre village en pleine croissance, vous aurez besoin d'améliorer votre $YEL1Campement $WHI0ou de construire quelques $YEL1Entrepôts$WHI0. Vous pouvez améliorer votre $YEL1Campement $WHI0en cliquant dessus et en cliquant sur le bouton améliorer sur le panneau en bas. Alternativement, si vous préférez construire un $YEL1Entrepôt$WHI0, vous pouvez les trouver dans la sous-catégorie Civil de votre onglet de construction."
     lifeExpectancyHeader:
       text: "Espérance de vie"
     lifeExpectancy:   
@@ -6345,33 +6379,33 @@ helpTip:
     ghostsHeader:
       text: "Fantômes"
     ghosts:   
-      text: "Parfois, on peut ressusciter des villageois morts ! Au $YEL1Crépuscule$WHI0 et durant la $YEL1Nuit$WHI0 vous verrez occasionnellement certains de vos villageois décédés errer dans le village. Si vous en remarquez un, vous pouvez le zapper avec le sort de ressuscitation et essayer de le ramener à la vie !"
+      text: "Parfois, on peut ressusciter des villageois morts ! Au $YEL1Crépuscule $WHI0et durant la $YEL1Nuit $WHI0vous verrez occasionnellement certains de vos villageois décédés errer dans le village. Si vous en remarquez un, vous pouvez le zapper avec le sort de ressuscitation et essayer de le ramener à la vie !"
     villagerStarvingHeader:
       text: "Famine"
     villagerStarvingMale:   
-      text: "{mobName}$WHI0 est affamé ! Trouvez vite à manger à ce pauvre villageois, sinon il risque de mourir ! Avez-vous construit une $YEL1ferme $WHI0ou des $YEL1logements $WHI0? Les villageois sont désespérés lorsqu'ils sont affamés et essaieront de trouver de la nourriture par eux-mêmes, même si cela les met en danger."
+      text: "{mobName} $WHI0est affamé ! Trouvez vite à manger à ce pauvre villageois, sinon il risque de mourir ! Avez-vous construit une $YEL1ferme $WHI0ou des $YEL1logements $WHI0? Les villageois sont désespérés lorsqu'ils sont affamés et essaieront de trouver de la nourriture par eux-mêmes, même si cela les met en danger."
     villagerStarvingFemale:   
-      text: "{mobName}$WHI0 est affamée ! Trouvez vite à manger à cette pauvre villageoise, sinon elle risque de mourir ! Avez-vous construit une $YEL1ferme $WHI0ou des $YEL1logements $WHI0? Les villageois sont désespérés lorsqu'ils sont affamés et essaieront de trouver de la nourriture par eux-mêmes, même si cela les met en danger."
+      text: "{mobName} $WHI0est affamée ! Trouvez vite à manger à cette pauvre villageoise, sinon elle risque de mourir ! Avez-vous construit une $YEL1ferme $WHI0ou des $YEL1logements $WHI0? Les villageois sont désespérés lorsqu'ils sont affamés et essaieront de trouver de la nourriture par eux-mêmes, même si cela les met en danger."
     villagerDehydrationHeader:
       text: "Déshydratation"
     villagerDehydrationMale:   
-      text: "{mobName}$WHI0 est en train de mourir de soif ! Trouvez vite de l'eau à ce pauvre villageois, sinon il risque de mourir ! Avez-vous construit un $YEL1Purificateur d'eau$WHI0, un $YEL1Puits$WHI0 ou un $YEL1Collecteur d'eau$WHI0 encore ? Est-ce qu'ils produisent assez d'eau ? Vous avez peut-être besoin d'en construire plus !"
+      text: "{mobName} $WHI0est en train de mourir de soif ! Trouvez vite de l'eau à ce pauvre villageois, sinon il risque de mourir ! Avez-vous construit un $YEL1Purificateur d'eau$WHI0, un $YEL1Puits $WHI0ou un $YEL1Collecteur d'eau $WHI0encore ? Est-ce qu'ils produisent assez d'eau ? Vous avez peut-être besoin d'en construire plus !"
     villagerDehydrationFemale:   
-      text: "{mobName}$WHI0 est en train de mourir de soif ! Trouvez vite de l'eau à cette pauvre villageoise, sinon elle risque de mourir ! Avez-vous construit un $YEL1Purificateur d'eau$WHI0, un $YEL1Puits$WHI0 ou encore un $YEL1Collecteur d'eau$WHI0 ? Est-ce qu'ils produisent assez d'eau ? Vous avez peut-être besoin d'en construire plus !"
+      text: "{mobName} $WHI0est en train de mourir de soif ! Trouvez vite de l'eau à cette pauvre villageoise, sinon elle risque de mourir ! Avez-vous construit un $YEL1Purificateur d'eau$WHI0, un $YEL1Puits $WHI0ou encore un $YEL1Collecteur d'eau $WHI0? Est-ce qu'ils produisent assez d'eau ? Vous avez peut-être besoin d'en construire plus !"
     villagerSleepyHeader:
       text: "Épuisement"
     villagerSleepyNoHome:   
-      text: "{mobName}$WHI0 commence à avoir sommeil. Si vos villageois sont trop fatigués et n'ont pas d'endroit où se reposer, ils finiront par dormir dehors."
+      text: "{mobName} $WHI0commence à avoir sommeil. Si vos villageois sont trop fatigués et n'ont pas d'endroit où se reposer, ils finiront par dormir dehors."
     villagerSleepy:   
-      text: "{mobName}$WHI0 commence à avoir sommeil. Si vos villageois sont trop fatigués et n'ont pas d'endroit où se reposer, ils finiront par dormir dehors. Heureusement, {mobName} $WHI0a un logement, il devrait donc y retourner bientôt pour un petit somme !"
+      text: "{mobName} $WHI0commence à avoir sommeil. Si vos villageois sont trop fatigués et n'ont pas d'endroit où se reposer, ils finiront par dormir dehors. Heureusement, {mobName} $WHI0a un logement, il devrait donc y retourner bientôt pour un petit somme !"
     villagerFreezingHeader:
       text: "Mort de froid"
     villagerFreezingNoHome:   
-      text: "{mobName}$WHI0 est en train de mourir de froid ! S'il fait trop froid dehors et que vos villageois n'ont pas de maison pour se réchauffer, ils pourraient mourir ! Essayez d'avoir assez de maisons pour vos villageois dès que possible !"
+      text: "{mobName} $WHI0est en train de mourir de froid ! S'il fait trop froid dehors et que vos villageois n'ont pas de maison pour se réchauffer, ils pourraient mourir ! Essayez d'avoir assez de maisons pour vos villageois dès que possible !"
     villagerFreezingMale:   
-      text: "{mobName}$WHI0 est en train de mourir de froid ! S'il fait trop froid dehors et que vos villageois n'ont pas de maison pour se réchauffer, ils pourraient mourir ! Heureusement, {mobName} $WHI0a un logement, il devrait donc essayer d'y retourner sous peu pour se réchauffer !"
+      text: "{mobName} $WHI0est en train de mourir de froid ! S'il fait trop froid dehors et que vos villageois n'ont pas de maison pour se réchauffer, ils pourraient mourir ! Heureusement, {mobName} $WHI0a un logement, il devrait donc essayer d'y retourner sous peu pour se réchauffer !"
     villagerFreezingFemale:   
-      text: "{mobName}$WHI0 est en train de mourir de froid ! S'il fait trop froid dehors et que vos villageois n'ont pas de maison pour se réchauffer, ils pourraient mourir ! Heureusement, {mobName} $WHI0a un logement, il devrait donc essayer d'y retourner sous peu pour se réchauffer !"
+      text: "{mobName} $WHI0est en train de mourir de froid ! S'il fait trop froid dehors et que vos villageois n'ont pas de maison pour se réchauffer, ils pourraient mourir ! Heureusement, {mobName} $WHI0a un logement, il devrait donc essayer d'y retourner sous peu pour se réchauffer !"
     villagerOverheatingHeader:
       text: "Surchauffe"
     villagerOverheatingNoHome:   
@@ -6379,7 +6413,7 @@ helpTip:
     villagerOverheatingMale:   
       text: "{mobName} $WHI0brûle sous la chaleur ! S'il fait trop chaud dehors et que vos villageois n'ont pas de maison pour se rafraîchir, ils pourraient mourir d'épuisement par la chaleur ! Heureusement, {mobName} $WHI0a un logement, il devrait donc y retourner sous peu pour se rafraîchir !"
     villagerOverheatingFemale:   
-      text: "{mobName} $WHI0brûle sous la chaleur ! S'il fait trop chaud dehors et que vos villageois n'ont pas de maison pour se rafraîchir, ils pourraient mourir d'épuisement par la chaleur ! Heureusement, {mobName}$WHI0 a un logement, elle devrait donc y retourner sous peu pour se rafraîchir !"
+      text: "{mobName} $WHI0brûle sous la chaleur ! S'il fait trop chaud dehors et que vos villageois n'ont pas de maison pour se rafraîchir, ils pourraient mourir d'épuisement par la chaleur ! Heureusement, {mobName} $WHI0a un logement, elle devrait donc y retourner sous peu pour se rafraîchir !"
     matingHeader:
       text: "En couple"
     matingDifferentGender:
@@ -6389,20 +6423,20 @@ helpTip:
     pregnantHeader:
       text: "Enceinte"
     pregnant:   
-      text: "{mobName}$WHI0 est enceinte ! Bientôt, elle donnera naissance à un nouvel enfant qui deviendra un jour une autre abeille ouvrière adulte ! Les villageoises enceintes consomment plus de nourriture et d'énergie et se déplacent un peu plus lentement. Alors gardez un œil sur elles."
+      text: "{mobName} $WHI0est enceinte ! Bientôt, elle donnera naissance à un nouvel enfant qui deviendra un jour une autre abeille ouvrière adulte ! Les villageoises enceintes consomment plus de nourriture et d'énergie et se déplacent un peu plus lentement. Alors gardez un œil sur elles."
     nomadHeader:
       text: "Nomades !"
     nomad:   
-      text: "Des $YEL1nomades$WHI0 viennent d'arriver dans votre région, ils sont amicaux. S'ils peuvent se rendre dans votre village sans être tués, ils vous rejoindront. Si vous voulez augmenter vos chances d'obtenir plus de $YEL1nomades$WHI0, construisez un grand village avec beaucoup de logements et de défenses."
+      text: "Des $YEL1nomades $WHI0viennent d'arriver dans votre région, ils sont amicaux. S'ils peuvent se rendre dans votre village sans être tués, ils vous rejoindront. Si vous voulez augmenter vos chances d'obtenir plus de $YEL1nomades$WHI0, construisez un grand village avec beaucoup de logements et de défenses."
     essenceHeader:
       text: "Essence"
       forceCount: "true"
     essence:   
-      text: "Avez-vous remarqué ces points verts scintillants sur la carte lorsque quelque chose meurt ou que vous détruisez une partie du terrain ? C'est l'$GRE1essence$WHI0 qui a été libérée dans votre monde. Vous pouvez collecter de l'essence en agitant votre main près d'elle et cela rechargera votre barre d'influence plus rapidement afin de pouvoir jeter des sorts. L'essence est aussi la source d'énergie de certiain bâtiments tels que les $YEL1Tours-éclair de feu$WHI0. Vous pouvez collecter de l'essence en construisant des $YEL1collecteurs d'essence$WHI0."
+      text: "Avez-vous remarqué ces points verts scintillants sur la carte lorsque quelque chose meurt ou que vous détruisez une partie du terrain ? C'est l'$GRE1essence $WHI0qui a été libérée dans votre monde. Vous pouvez collecter de l'essence en agitant votre main près d'elle et cela rechargera votre barre d'influence plus rapidement afin de pouvoir jeter des sorts. L'essence est aussi la source d'énergie de certiain bâtiments tels que les $YEL1Tours-éclair de feu$WHI0. Vous pouvez collecter de l'essence en construisant des $YEL1collecteurs d'essence$WHI0."
     abandonedBuildingsHeader:
       text: "Bâtiments abandonnés"
     abandonedBuildings:   
-      text: "{buildingName}$WHI0 est un bâtiment abandonné, vos villageois devront le réparer pour l'utiliser. Si le bâtiment est à portée de votre village, vous pouvez cliquer sur le bâtiment puis cliquer sur le bouton $GRE1récupérer $WHI0dans le panneau en bas. "
+      text: "{buildingName} $WHI0est un bâtiment abandonné, vos villageois devront le réparer pour l'utiliser. Si le bâtiment est à portée de votre village, vous pouvez cliquer sur le bâtiment puis cliquer sur le bouton $GRE1récupérer $WHI0dans le panneau en bas. "
     rainHeader:
       text: "Pluie !"
     rain:   
@@ -6426,23 +6460,23 @@ helpTip:
     seasonAutumnHeader:
       text: "Automne"
     seasonAutumn:   
-      text: "C'est l'$ORA1automne$WHI0. L'$ORA1automne$WHI0 est une saison assez légère et habituellement un bon moment pour construire des logement et accumuler une grande quantité $RED1de nourriture et d'eau $WHI0pour survivre à l'$CYA1hiver$WHI0."
+      text: "C'est l'$ORA1automne$WHI0. L'$ORA1automne $WHI0est une saison assez légère et habituellement un bon moment pour construire des logement et accumuler une grande quantité $RED1de nourriture et d'eau $WHI0pour survivre à l'$CYA1hiver$WHI0."
     seasonWinterHeader:
       text: "Hiver"
     seasonWinter:   
-      text: "L'$CYA1hiver$WHI0 est arrivé ! L'hiver est l'une des saisons les plus difficiles pour la survie. Vos plantations cesseront de croître, tout comme la plupart des ressources naturelles sur la carte. J'espère que vous avez fait des réserves de nourriture et d'eau et que vous avez assez de logements pour empêcher vos villageois de mourir de froid !"
+      text: "L'$CYA1hiver $WHI0est arrivé ! L'hiver est l'une des saisons les plus difficiles pour la survie. Vos plantations cesseront de croître, tout comme la plupart des ressources naturelles sur la carte. J'espère que vous avez fait des réserves de nourriture et d'eau et que vous avez assez de logements pour empêcher vos villageois de mourir de froid !"
     seasonSpringHeader:
       text: "Printemps"
     seasonSpring:   
-      text: "Une pause plaisante après les ravages de l'$CYA1hiver$WHI0, le $GRE1printemps $WHI0 est arrivé ! Le printemps est la saison la plus facile pour survivre. Vous trouverez qu'il est très facile de cultiver de la nourriture et de reconstituer les ressources. Bien que la pluie constante puisse affecter les villageois et que les orages puissent endommager les bâtiments. Alors faites attention ! N'oubliez pas de $RED1faire le plein de nourriture et d'eau $WHI0avant l'arrivée de l'$YEL1été$WHI1 !"
+      text: "Une pause plaisante après les ravages de l'$CYA1hiver$WHI0, le $GRE1printemps  $WHI0est arrivé ! Le printemps est la saison la plus facile pour survivre. Vous trouverez qu'il est très facile de cultiver de la nourriture et de reconstituer les ressources. Bien que la pluie constante puisse affecter les villageois et que les orages puissent endommager les bâtiments. Alors faites attention ! N'oubliez pas de $RED1faire le plein de nourriture et d'eau $WHI0avant l'arrivée de l'$YEL1été$WHI1 !"
     seasonSummerHeader:
       text: "Été"
     seasonSummer:   
-      text: "L'$YEL1ét$WHI0 est là. Vos villageois vont devoir travailler par une chaleur torride et devront fréquemment rentrer chez eux pour se rafraîchir. Ne vous attendez pas à beaucoup de pluie et attendez-vous à ce que la croissance des cultures soit plus lente. J'espère que vous avez fait le plein de nourriture et d'eau pendant le $GRE1printemps $WHI0!"
+      text: "L'$YEL1ét $WHI0est là. Vos villageois vont devoir travailler par une chaleur torride et devront fréquemment rentrer chez eux pour se rafraîchir. Ne vous attendez pas à beaucoup de pluie et attendez-vous à ce que la croissance des cultures soit plus lente. J'espère que vous avez fait le plein de nourriture et d'eau pendant le $GRE1printemps $WHI0!"
     destroyTerrainHeader:
       text: "Détruire du terrain"
     destroyTerrain:   
-      text: "Vous pouvez rapidement enlever du terrain qui vous gène en utilisant l'outil $GRE1'Detruire du terrain'$WHI0. $YEL1Cliquez sur le bouton en bas à droite de l'interface graphique, sélectionnez ce que vous voulez retirer$WHI0 et vos ouvriers se précipiteront là-bas pour nettoyer !"
+      text: "Vous pouvez rapidement enlever du terrain qui vous gène en utilisant l'outil $GRE1'Detruire du terrain'$WHI0. $YEL1Cliquez sur le bouton en bas à droite de l'interface graphique, sélectionnez ce que vous voulez retirer $WHI0et vos ouvriers se précipiteront là-bas pour nettoyer !"
     cullisGateHeader:
       text: "Portail cullis"
     cullisGate:   
@@ -7376,7 +7410,7 @@ aiTask:
 
   clearoutResourceFromBuilding:
     pathfindToBuilding:
-      text: "Enlève des $YEL1{resourceName}$WHI0 à {buildingName}."
+      text: "Enlève des $YEL1{resourceName} $WHI0à {buildingName}."
 
   clearTopographyFromRoadWork:
     pathfindToTopography:
@@ -7456,9 +7490,9 @@ aiTask:
 
   deliverCourierResource:
     pathfindToResourceOnGround:
-      text: "Ramasse des ressources sur le sol pour donner à $YEL1un facteur$WHI0 en partance vers $YEL1{regionName}."
+      text: "Ramasse des ressources sur le sol pour donner à $YEL1un facteur $WHI0en partance vers $YEL1{regionName}."
     pathfindToBuilding:
-      text: "Prend des ressources au bâtiment {buildingName}$WHI0 pour donner à $YEL1un facteur $WHI0en partance vers $YEL1{regionName}."
+      text: "Prend des ressources au bâtiment {buildingName} $WHI0pour donner à $YEL1un facteur $WHI0en partance vers $YEL1{regionName}."
 
   deliverCourierResourceInHand:
     pathfindToCourier:
@@ -7616,7 +7650,7 @@ aiTask:
     pathfindToBuilding:
       text: "Se dirige vers $YEL1{buildingName} pour de l'assistance médicale."
     postingWaitingForMedic:
-      text: "Attend {mobName}$WHI0 pour lui administrer les premiers soins."
+      text: "Attend {mobName} $WHI0pour lui administrer les premiers soins."
     postingWaiting:
       text: "Attend de l'assistance médicale au bâtiment $YEL1{buildingName}."
       
@@ -7672,7 +7706,7 @@ aiTask:
     posting:
       text: "En poste à $YEL1{buildingName}."
     pathfindToHurtVillager:
-      text: "Se dirige vers {mobName}$WHI0 pour appliquer les premiers soins."
+      text: "Se dirige vers {mobName} $WHI0pour appliquer les premiers soins."
     healSelf:
       text: "S'applique les premiers soins."
     healVillager:
@@ -7824,7 +7858,7 @@ aiTask:
       
   trade:
     pathfindToTradePartner:
-      text: "Prend l'objet $YEL1{resourceName}$BLU0 à {mobName}."
+      text: "Prend l'objet $YEL1{resourceName} $BLU0à {mobName}."
       
   visitMate:
     pathfindToMate:
@@ -8110,11 +8144,11 @@ objectOverlay:
     text: "$RED1Requiert~{buildingName}"
   requiredBuildingAdditional:
     comment: "This is used to join a list of required buildings, if more than one will meet the objects requirements."
-    text: "$WHI0 ou $RED1{buildingName}"
+    text: " $WHI0ou $RED1{buildingName}"
   
   farms:
     tooCold:
-      text: "$RED1Trop $BLU0froid$RED1 pour cultiver !"
+      text: "$RED1Trop $BLU0froid $RED1pour cultiver !"
     cropsDying:
       text: "$RED1Les cultures meurent!"
     poorlyTended:
@@ -8159,72 +8193,72 @@ object:
         name:
           text: "Grand campement"
         description:
-          text: "Accorde un bonus de vitesse global à toutes les tâches, ainsi qu'une meilleure vitesse lors de la construction. Augmente également la capacité maximale de stockage et de construction et donne au village des postes de travail supplémentaires pour les constructeurs."
+          text: "Octroie un bonus de vitesse global à toutes les tâches et une meilleure vitesse de construction. Augmente également le stockage et fournit des postes de travail supplémentaires pour les constructeurs."
       smallSettlement:
         name:
           text: "Petit établissement"
         description:
-          text: "Accorde un bonus de vitesse global à toutes les tâches, ainsi qu'une meilleure vitesse lors de la construction. Augmente encore la capacité maximale de stockage et de construction et donne au village des postes de travail supplémentaires pour les constructeurs."
+          text: "Octroie un bonus de vitesse global à toutes les tâches et une meilleure vitesse de construction. Augmente également le stockage et fournit des postes de travail supplémentaires pour les constructeurs."
       largeSettlement:
         name:
           text: "Grand établissement"
         description:
-          text: "Accorde un bonus de vitesse global à toutes les tâches, ainsi qu'une meilleure vitesse lors de la construction. Augmente encore la capacité maximale de stockage et de construction et donne au village des postes de travail supplémentaires pour les constructeurs."
+          text: "Octroie un bonus de vitesse global à toutes les tâches et une meilleure vitesse de construction. Augmente également le stockage et fournit des postes de travail supplémentaires pour les constructeurs."
       villageCenter:
         name:
           text: "Centre du village"
         description:
-          text: "Accorde un bonus de vitesse global à toutes les tâches, ainsi qu'une meilleure vitesse lors de la construction. Augmente encore la capacité maximale de stockage et de construction et donne au village des postes de travail supplémentaires pour les constructeurs."
+          text: "Octroie un bonus de vitesse global à toutes les tâches et une meilleure vitesse de construction. Augmente également le stockage et fournit des postes de travail supplémentaires pour les constructeurs."
       largeVillageCenter:
         name:
           text: "Grand centre de village"
         description:
-          text: "Accorde un bonus de vitesse global à toutes les tâches, ainsi qu'une meilleure vitesse lors de la construction. Augmente encore la capacité maximale de stockage et de construction et donne au village des postes de travail supplémentaires pour les constructeurs."
+          text: "Octroie un bonus de vitesse global à toutes les tâches et une meilleure vitesse de construction. Augmente également le stockage et fournit des postes de travail supplémentaires pour les constructeurs."
       establishedVillageCenter:
         name:
           text: "Centre de village établi"
         description:
-          text: "Accorde un bonus de vitesse global à toutes les tâches, ainsi qu'une meilleure vitesse lors de la construction. Augmente encore la capacité maximale de stockage et de construction et donne au village des postes de travail supplémentaires pour les constructeurs."
+          text: "Octroie un bonus de vitesse global à toutes les tâches et une meilleure vitesse de construction. Augmente également le stockage et fournit des postes de travail supplémentaires pour les constructeurs."
       smallKeep:
         name:
           text: "Petit donjon"
         description:
-          text: "Accorde un bonus de vitesse global à toutes les tâches, ainsi qu'une meilleure vitesse lors de la construction. Augmente encore la capacité maximale de stockage et de construction et donne au village des postes de travail supplémentaires pour les constructeurs."
+          text: "Octroie un bonus de vitesse global à toutes les tâches et une meilleure vitesse de construction. Augmente également le stockage et fournit des postes de travail supplémentaires pour les constructeurs."
       largeKeep:
         name:
           text: "Grand donjon"
         description:
-          text: "Accorde un bonus de vitesse global à toutes les tâches, ainsi qu'une meilleure vitesse lors de la construction. Augmente encore la capacité maximale de stockage et de construction et donne au village des postes de travail supplémentaires pour les constructeurs."
+          text: "Octroie un bonus de vitesse global à toutes les tâches et une meilleure vitesse de construction. Augmente également le stockage et fournit des postes de travail supplémentaires pour les constructeurs."
       establishedKeep:
         name:
           text: "Donjon établi"
         description:
-          text: "Accorde un bonus de vitesse global à toutes les tâches, ainsi qu'une meilleure vitesse lors de la construction. Augmente encore la capacité maximale de stockage et de construction et donne au village des postes de travail supplémentaires pour les constructeurs."
+          text: "Octroie un bonus de vitesse global à toutes les tâches et une meilleure vitesse de construction. Augmente également le stockage et fournit des postes de travail supplémentaires pour les constructeurs."
       smallStronghold:
         name:
           text: "Petite forteresse"
         description:
-          text: "Accorde un bonus de vitesse global à toutes les tâches, ainsi qu'une meilleure vitesse lors de la construction. Augmente encore la capacité maximale de stockage et de construction et donne au village des postes de travail supplémentaires pour les constructeurs."
+          text: "Octroie un bonus de vitesse global à toutes les tâches et une meilleure vitesse de construction. Augmente également le stockage et fournit des postes de travail supplémentaires pour les constructeurs."
       largeStronghold:
         name:
           text: "Grande forteresse"
         description:
-          text: "Accorde un bonus de vitesse global à toutes les tâches, ainsi qu'une meilleure vitesse lors de la construction. Augmente encore la capacité maximale de stockage et de construction et donne au village des postes de travail supplémentaires pour les constructeurs."
+          text: "Octroie un bonus de vitesse global à toutes les tâches et une meilleure vitesse de construction. Augmente également le stockage et fournit des postes de travail supplémentaires pour les constructeurs."
       establishedStronghold:
         name:
           text: "Forteresse établie"
         description:
-          text: "Accorde un bonus de vitesse global à toutes les tâches, ainsi qu'une meilleure vitesse lors de la construction. Augmente encore la capacité maximale de stockage et de construction et donne au village des postes de travail supplémentaires pour les constructeurs."
+          text: "Octroie un bonus de vitesse global à toutes les tâches et une meilleure vitesse de construction. Augmente également le stockage et fournit des postes de travail supplémentaires pour les constructeurs."
       smallCastle:
         name:
           text: "Petit château"
         description:
-          text: "Accorde un bonus de vitesse global à toutes les tâches, ainsi qu'une meilleure vitesse lors de la construction. Augmente encore la capacité maximale de stockage et de construction et donne au village des postes de travail supplémentaires pour les constructeurs."
+          text: "Octroie un bonus de vitesse global à toutes les tâches et une meilleure vitesse de construction. Augmente également le stockage et fournit des postes de travail supplémentaires pour les constructeurs."
       largeCastle:
         name:
           text: "Grand château"
         description:
-          text: "Accorde un bonus de vitesse global à toutes les tâches, ainsi qu'une meilleure vitesse lors de la construction. Augmente encore la capacité maximale de stockage et de construction et donne au village des postes de travail supplémentaires pour les constructeurs."
+          text: "Octroie un bonus de vitesse global à toutes les tâches et une meilleure vitesse de construction. Augmente également le stockage et fournit des postes de travail supplémentaires pour les constructeurs."
     
     ancillary:
       small:
@@ -8837,7 +8871,7 @@ object:
         name:
           text: "Logement standard"
         description:
-          text: "Augmente l'occupation maximale, le stockage et le confort de façon assez uniforme. C'est un bon choix pour laisser de l'espace à vos villageois sans les inconvénients d'un taux d'occupation élevé."
+          text: "Augmente l'occupation maximale, le stockage et le confort de façon uniforme. Idéal pour laisser de l'espace à vos villageois sans les inconvénients d'un taux d'occupation élevé."
       largeStandard:
         name:
           text: "Grand logement standard"
@@ -8857,7 +8891,7 @@ object:
         name:
           text: "Logement de haute qualité"
         description:
-          text: "Augmente légèrement l'espace d'occupation et de rangement, mais augmente considérablement le confort. C'est un bon logement si vous voulez des villageois plus heureux et plus productifs."
+          text: "Augmente légèrement l'espace d'occupation et de rangement, mais augmente considérablement le confort. Idéal si vous voulez des villageois plus heureux et plus productifs."
       largeHighQuality:
         name:
           text: "Grand logement de haute qualité"
