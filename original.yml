@@ -1864,7 +1864,7 @@ worldMapSelectionButton:
     text: "$GRE1CAN ESTABLISH~NEW VILLAGE!"
       
   survivedDay:
-    text: "$GRE1Survived $WHI0{days}$GRE1 days"
+    text: "$GRE1Survived $WHI0{days}$GRE1 day"
   survivedDays:
     text: "$GRE1Survived $WHI0{days}$GRE1 days"
   population:
@@ -9605,7 +9605,34 @@ object:
     woodFence:
       name:
         text: "Wood Fence"
-        
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# Resource Module
+# Resource Category Names
+# rtr.resources.ResourceModule.java*
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+     
+resourceCategory:
+  comment: "Resource Module - Resource Category Names"
+  javaClass: "rtr.resources.ResourceModule.java"
+  
+  armor:
+    text: "Armor"
+  raw:
+    text: "Raw"
+  recovery:
+    text: "Recovery"
+  refined:
+    text: "Refined"
+  tools:
+    text: "Tools"
+  towerAmmo:
+    text: "Tower Ammo"
+  weaponsandAmmo:
+    text: "Weapons and Ammo"
+  miscellaneous:
+    text: "Miscellaneous"
+       
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Resource Module
 # Names
@@ -9843,7 +9870,7 @@ resource:
       text: "Suspicious Key?!"
     plural:
       text: "Suspicious Keys?!"
-      
+    
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Game Mode
 # Names

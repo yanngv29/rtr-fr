@@ -1533,10 +1533,10 @@ console:
           36:
             text: "Les pensées et les prières ne vont probablement pas arranger ça..."
       
-      migrantDepartBehavior:
-        leaveRegion:
-          subtitle:
-            text: "est parti vers {regionName}"
+    migrantDepartBehavior:
+      leaveRegion:
+        subtitle:
+          text: "est parti vers {regionName}"
     
     object:       
       sacrificeToCullisGate:
@@ -2256,7 +2256,7 @@ mainMenuNewProfilePanel:
       profileName:
         text: "Le nom de votre profil"
       twitchChannel:
-        text: "Votre chaîne Twitch (Intégration Twitch, optionnelle)"  
+        text: "Votre chaîne Twitch (Intégration Twitch, optionnel)"  
         
   header:
     inputProfileName:
@@ -3327,7 +3327,7 @@ playLeftJobDescriptionPanel:
     buildRoadsUsing:
       text: "Construisent des routes en utilisant"
     canDeliverToBuildRoads:
-      text: "Peut livrer (construction de routes)"
+      text: "Peut livrer (construction routes)"
     canHarvestToBuild:
       text: "Peut récolter (construction)"
     canDeliverToBuild:
@@ -3339,7 +3339,7 @@ playLeftJobDescriptionPanel:
     canPlant:
       text: "Peut planter"
     canDeliverToCourierGolems:
-      text: "Peut livrer (aux golems-facteurs)"
+      text: "Peut livrer (golems-facteurs)"
     canStore:
       text: "Peut stocker"
     preferredTools:
@@ -3568,9 +3568,9 @@ playLeftPanel:
         text: "Stocké"
         
     producedByWaterSource:
-      text: "$BLA2Produit par les sources d'eau"
+      text: "$BLA2Produit par sources d'eau"
     rareDrop:
-      text: "$YEL2Récompense rare ({resourceOrMonsterType})"
+      text: "$YEL2Objet rare ({resourceOrMonsterType})"
     monsterDrop:
       text: "$BLA2Récompense de monstre"
     requiresWaterSource:
@@ -4419,9 +4419,9 @@ playSelectedObjectPanel:
         text: "Améliore ce bâtiment au prochain niveau. Ce bâtiment sera toujours fonctionnel pendant que les villageois l'améliorent."
 
   bottomPriority:
-    text: "MIN"
+    text: "BAS"
   topPriority:
-    text: "MAX"
+    text: "HAUT"
   notInRange:
     text: "$GRE1(DISTANT)"
   dismantling:
@@ -6089,7 +6089,7 @@ worldMapGameModeSelectPanel:
     sandbox:
       text: "$BLU1Bac à sable"
     selectGameMode:
-      text: "$BLU1Sélectionnez un mode de jeu"
+      text: "$BLU1Sélection du mode"
       
   description:
     nightmare:
@@ -6097,7 +6097,7 @@ worldMapGameModeSelectPanel:
     survival:
       text: "La façon dont le jeu est censé être joué. Impitoyablement brutal, avec une courbe d'apprentissage abrupte.~~$RED0Attendez-vous à perdre fréquemment !~~$GRE0Essayez le mode traditionnel si le mode survie est trop compliqué pour vous."
     traditional:
-      text: "Une expérience de simulateur de village traditionnelle, avec beaucoup moins de monstres.~~Ce mode est recommandé si vous voulez une expérience plus relaxante, mais vous voulez tout de même des monstres et une mécanique de défense légère.~~$GRE0Le mode de jeu idéal pour apprendre à jouer. Mais une fois que vous avez appris les ficelles du métier, passez à la survie !"
+      text: "Une expérience de simulateur de village traditionnelle, avec beaucoup moins de monstres.~~Ce mode est recommandé si vous voulez une expérience plus relaxante, mais vous voulez tout de même des monstres et une mécanique de défense légère.~~$GRE0Idéal pour apprendre à jouer. Mais une fois que vous avez appris les ficelles du métier, passez à la survie !"
     peaceful:
       text: "Un mode sans aucun monstre, quel qu'il soit. Souciez-vous de prendre soin de votre village et de survivre aux saisons qui passent.~~$GRE0Ce mode n'est pas recommandé à moins que vous ne recherchiez une expérience décontractée, tranquille et sans aucun défi, quel qu'il soit."
     custom:
@@ -6189,7 +6189,7 @@ worldMapMapSelectPanel:
     header:
       text: "$YEL1Nouvelle région"
     noMigrants:
-      text: "$YEL1Nécessite plus de migrants~pour y établir un village !"
+      text: "$YEL1Exige plus de migrants~pour établir un village !"
     migrantsEnRoute:
       text: "Migrants en route : $GRE1{amount}"
     migrantsRequired:
@@ -6313,7 +6313,7 @@ helpTip:
     villageWorkersHeader:
       text: "Ouvriers"
     villageWorkers:
-      text: "De nombreux bâtiments peuvent être assignés à des travailleurs et permettront d'effectuer différentes tâches. Les $YEL1ouvriers $WHI0assignées au $YEL1Centre du village $WHI0pourront, par exemple, construire, réparer et démanteler différentes structures. Ils peuvent aussi récolter des matières premières, mais seulement si ils en ont besoin pour construire quelque chose. En revanche, les $YEL1Récolteurs $WHI0dans les bâtiments tels que les $YEL1Cabannes de bûcherons $WHI0continueront à récolter des matériaux quoi qu'il arrive et feront des réserves. $YEL1Vous pouvez avoir une vue d'ensemble de tous les ouvriers dans le panneau de main-d'œuvre à gauche."
+      text: "De nombreux bâtiments peuvent être assignés à des travailleurs afin d'effectuer différentes tâches. Les $YEL1ouvriers $WHI0assignées au $YEL1Centre du village $WHI0pourront, par exemple, construire, réparer et démanteler différentes structures. Ils peuvent aussi récolter des matières premières si ils en ont besoin pour construire. En revanche, les $YEL1Récolteurs $WHI0dans les bâtiments tels que les $YEL1Cabannes de bûcherons $WHI0continueront à récolter des matériaux quoi qu'il arrive. $YEL1Vous pouvez avoir une vue d'ensemble de tous les ouvriers dans le panneau de main-d'œuvre à gauche."
     workBuildingsHeader:
       text: "Bâtiments d'ouvrage"
     workBuildings:
@@ -7952,7 +7952,7 @@ mobJob:
     plural:
       text: "Constructeurs"
     description:
-      text: "Un travail incontournable dans votre village, les constructeurs s'assureront que tout est construit et réparé. Ils récolteront aussi des matériaux, mais seulement quand ils en ont besoin pour construire quelque chose et qu'il n'y en a pas."
+      text: "Un travail incontournable, ils s'assureront que tout est construit et réparé. Ils peuvent aussi récolter des matériaux si ils en ont besoin pour construire et qui ne sont pas dans le village."
 
   carpenter:
     single:
@@ -7984,7 +7984,7 @@ mobJob:
     plural:
       text: "Agriculteurs"
     description:
-      text: "Récolte de la nourriture crue, en plante dans les fermes et entretient les cultures et les arrose pour favoriser leur croissance. En général, plus vous avez d'agriculteurs, plus vos fermes produiront de la nourriture rapidement."
+      text: "Récolte de la nourriture, en plante, entretient les cultures et les arrose pour aider leur croissance. En général, plus il y a d'agriculteurs, plus vos fermes produiront rapidement."
 
   fletcher:
     single:
@@ -8170,7 +8170,7 @@ objectOverlay:
   
   noResources:
     comment: "This is for when there's no resources available to build a building under construction."
-    text: "$YEL1Pas de {resourceName} !"
+    text: "$YEL1Pas de {resourceName} disponible !"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Object Module
@@ -8193,79 +8193,79 @@ object:
         name:
           text: "Grand campement"
         description:
-          text: "Octroie un bonus de vitesse global à toutes les tâches et une meilleure vitesse de construction. Augmente également le stockage et fournit des postes de travail supplémentaires pour les constructeurs."
+          text: "Octroie un bonus de vitesse global à toutes les tâches et à la vitesse de construction. Augmente également le stockage et fournit des postes de constructeurs supplémentaires."
       smallSettlement:
         name:
           text: "Petit établissement"
         description:
-          text: "Octroie un bonus de vitesse global à toutes les tâches et une meilleure vitesse de construction. Augmente également le stockage et fournit des postes de travail supplémentaires pour les constructeurs."
+          text: "Octroie un bonus de vitesse global à toutes les tâches et à la vitesse de construction. Augmente également le stockage et fournit des postes de constructeurs supplémentaires."
       largeSettlement:
         name:
           text: "Grand établissement"
         description:
-          text: "Octroie un bonus de vitesse global à toutes les tâches et une meilleure vitesse de construction. Augmente également le stockage et fournit des postes de travail supplémentaires pour les constructeurs."
+          text: "Octroie un bonus de vitesse global à toutes les tâches et à la vitesse de construction. Augmente également le stockage et fournit des postes de constructeurs supplémentaires."
       villageCenter:
         name:
           text: "Centre du village"
         description:
-          text: "Octroie un bonus de vitesse global à toutes les tâches et une meilleure vitesse de construction. Augmente également le stockage et fournit des postes de travail supplémentaires pour les constructeurs."
+          text: "Octroie un bonus de vitesse global à toutes les tâches et à la vitesse de construction. Augmente également le stockage et fournit des postes de constructeurs supplémentaires."
       largeVillageCenter:
         name:
           text: "Grand centre de village"
         description:
-          text: "Octroie un bonus de vitesse global à toutes les tâches et une meilleure vitesse de construction. Augmente également le stockage et fournit des postes de travail supplémentaires pour les constructeurs."
+          text: "Octroie un bonus de vitesse global à toutes les tâches et à la vitesse de construction. Augmente également le stockage et fournit des postes de constructeurs supplémentaires."
       establishedVillageCenter:
         name:
           text: "Centre de village établi"
         description:
-          text: "Octroie un bonus de vitesse global à toutes les tâches et une meilleure vitesse de construction. Augmente également le stockage et fournit des postes de travail supplémentaires pour les constructeurs."
+          text: "Octroie un bonus de vitesse global à toutes les tâches et à la vitesse de construction. Augmente également le stockage et fournit des postes de constructeurs supplémentaires."
       smallKeep:
         name:
           text: "Petit donjon"
         description:
-          text: "Octroie un bonus de vitesse global à toutes les tâches et une meilleure vitesse de construction. Augmente également le stockage et fournit des postes de travail supplémentaires pour les constructeurs."
+          text: "Octroie un bonus de vitesse global à toutes les tâches et à la vitesse de construction. Augmente également le stockage et fournit des postes de constructeurs supplémentaires."
       largeKeep:
         name:
           text: "Grand donjon"
         description:
-          text: "Octroie un bonus de vitesse global à toutes les tâches et une meilleure vitesse de construction. Augmente également le stockage et fournit des postes de travail supplémentaires pour les constructeurs."
+          text: "Octroie un bonus de vitesse global à toutes les tâches et à la vitesse de construction. Augmente également le stockage et fournit des postes de constructeurs supplémentaires."
       establishedKeep:
         name:
           text: "Donjon établi"
         description:
-          text: "Octroie un bonus de vitesse global à toutes les tâches et une meilleure vitesse de construction. Augmente également le stockage et fournit des postes de travail supplémentaires pour les constructeurs."
+          text: "Octroie un bonus de vitesse global à toutes les tâches et à la vitesse de construction. Augmente également le stockage et fournit des postes de constructeurs supplémentaires."
       smallStronghold:
         name:
           text: "Petite forteresse"
         description:
-          text: "Octroie un bonus de vitesse global à toutes les tâches et une meilleure vitesse de construction. Augmente également le stockage et fournit des postes de travail supplémentaires pour les constructeurs."
+          text: "Octroie un bonus de vitesse global à toutes les tâches et à la vitesse de construction. Augmente également le stockage et fournit des postes de constructeurs supplémentaires."
       largeStronghold:
         name:
           text: "Grande forteresse"
         description:
-          text: "Octroie un bonus de vitesse global à toutes les tâches et une meilleure vitesse de construction. Augmente également le stockage et fournit des postes de travail supplémentaires pour les constructeurs."
+          text: "Octroie un bonus de vitesse global à toutes les tâches et à la vitesse de construction. Augmente également le stockage et fournit des postes de constructeurs supplémentaires."
       establishedStronghold:
         name:
           text: "Forteresse établie"
         description:
-          text: "Octroie un bonus de vitesse global à toutes les tâches et une meilleure vitesse de construction. Augmente également le stockage et fournit des postes de travail supplémentaires pour les constructeurs."
+          text: "Octroie un bonus de vitesse global à toutes les tâches et à la vitesse de construction. Augmente également le stockage et fournit des postes de constructeurs supplémentaires."
       smallCastle:
         name:
           text: "Petit château"
         description:
-          text: "Octroie un bonus de vitesse global à toutes les tâches et une meilleure vitesse de construction. Augmente également le stockage et fournit des postes de travail supplémentaires pour les constructeurs."
+          text: "Octroie un bonus de vitesse global à toutes les tâches et à la vitesse de construction. Augmente également le stockage et fournit des postes de constructeurs supplémentaires."
       largeCastle:
         name:
           text: "Grand château"
         description:
-          text: "Octroie un bonus de vitesse global à toutes les tâches et une meilleure vitesse de construction. Augmente également le stockage et fournit des postes de travail supplémentaires pour les constructeurs."
+          text: "Octroie un bonus de vitesse global à toutes les tâches et à la vitesse de construction. Augmente également le stockage et fournit des postes de constructeurs supplémentaires."
     
     ancillary:
       small:
         name:
           text: "Petit entrepôt"
         description:
-          text: "Un bâtiment de soutien qui peut stocker presque toutes les ressources. Fournit des emplacements de construction supplémentaires et des organisateurs qui aideront à ramasser et à distribuer les ressources sur la carte."
+          text: "Un bâtiment qui peut stocker presque toutes les ressources. Fournit des emplacements de construction et des organisateurs qui aideront à ramasser et distribuer les ressources."
       base:
         name:
           text: "Entrepôt"
@@ -8370,7 +8370,7 @@ object:
         name:
           text: "Balliste de fortune"
         description:
-          text: "Une tour lourde avec une très longue portée et des dégâts très importants, mais avec une vitesse de tir lente. Peut tirer au dessus de n'importe quel bâtiment. Nécessite une archerie pour fabriquer les lances."
+          text: "Une tour lourde avec une très longue portée et des dégâts très importants, mais avec une vitesse de tir lente. Peut tirer au dessus de tout. Nécessite une archerie."
       base:
         name:
           text: "Balliste"
@@ -8385,17 +8385,17 @@ object:
         name:
           text: "Balliste de feu"
         description:
-          text: "Ajoute des dégâts de feu à la tour, mais consome de l'énergie pour tirer. Si les réserves d'énergie sont épuisées, elle continuera à tirer des lances ordinaires jusqu'à épuisement de ses munitions."
+          text: "Ajoute des dégâts de feu à la tour, mais consomme de l'énergie pour tirer. Si les réserves d'énergie sont épuisées, elle continuera à tirer des lances ordinaires."
       poison:
         name:
           text: "Balliste de poison"
         description:
-          text: "Ajoute des dégâts de poison à la tour, mais consome de l'énergie pour tirer. Si les réserves d'énergie sont épuisées, elle continuera à tirer des lances ordinaires jusqu'à épuisement de ses munitions."
+          text: "Ajoute des dégâts de poison à la tour, mais consomme de l'énergie pour tirer. Si les réserves d'énergie sont épuisées, elle continuera à tirer des lances ordinaires."
       ice:
         name:
           text: "Balliste de glace"
         description:
-          text: "Ajoute des dégâts de glace à la tour, mais consome de l'énergie pour tirer. Si les réserves d'énergie sont épuisées, elle continuera à tirer des lances ordinaires jusqu'à épuisement de ses munitions."
+          text: "Ajoute des dégâts de glace à la tour, mais consomme de l'énergie pour tirer. Si les réserves d'énergie sont épuisées, elle continuera à tirer des lances ordinaires."
     
     banishTower:
       makeshift:
@@ -8424,7 +8424,7 @@ object:
         name:
           text: "Caserne de fortune"
         description:
-          text: "Fournit et héberge des gardes qui protégeront et patrouilleront le village, fournit également une régénération de la santé légèrement meilleure que les logements normaux au détriment de l'énergie et du bonheur."
+          text: "Fournit et héberge des gardes qui protégeront et patrouilleront le village, avec une meilleure régénération de la santé que les logements au détriment de l'énergie et du bonheur."
       base:
         name:
           text: "Caserne"
@@ -8441,7 +8441,7 @@ object:
         name:
           text: "Embouteilleur de fortune"
         description:
-          text: "Fournit des ouvriers qui peuvent embouteiller l'eau pour que les villageois puissent transporter des bouteilles et ainsi augmenter l'efficacité du village en supprimant des allers-retours pour aller chercher de l'eau."
+          text: "Fournit des ouvriers qui peuvent embouteiller l'eau et ainsi augmenter l'efficacité du village en supprimant des allers-retours pour aller chercher de l'eau."
       base:
         name:
           text: "Embouteilleur"
@@ -8458,7 +8458,7 @@ object:
         name:
           text: "Tour d'archers de fortune"
         description:
-          text: "Une tour légère avec une portée raisonnable qui peut tirer au dessus de la plupart des murs. A lightweight tower with decent range that can fire over most walls. Idéale en tant que première défense. Nécessite une archerie pour fabriquer des flèches."
+          text: "Une tour légère avec une portée raisonnable qui peut tirer au dessus de la plupart des murs. Idéale en tant que première défense. Nécessite une archerie pour fabriquer des flèches."
       base:
         name:
           text: "Tour d'archers"
@@ -8473,17 +8473,17 @@ object:
         name:
           text: "Tour d'archers de feu"
         description:
-          text: "Ajoute des dégâts de feu à la tour, mais consomme de l'énergie pour tirer. Si les réserves d'énergie sont épuisées, elle continuera à tirer des flèches ordinaires jusqu'à épuisement de ses munitions."
+          text: "Ajoute des dégâts de feu à la tour, mais consomme de l'énergie pour tirer. Si les réserves d'énergie sont épuisées, elle continuera à tirer des flèches ordinaires."
       poison:
         name:
           text: "Tour d'archers de poison"
         description:
-          text: "Ajoute des dégâts de poison à la tour, mais consomme de l'énergie pour tirer. Si les réserves d'énergie sont épuisées, elle continuera à tirer des flèches ordinaires jusqu'à épuisement de ses munitions."
+          text: "Ajoute des dégâts de poison à la tour, mais consomme de l'énergie pour tirer. Si les réserves d'énergie sont épuisées, elle continuera à tirer des flèches ordinaires."
       ice:
         name:
           text: "Tour d'archers de glace"
         description:
-          text: "Ajoute des dégâts de glace à la tour, mais consomme de l'énergie pour tirer. Si les réserves d'énergie sont épuisées, elle continuera à tirer des flèches ordinaires jusqu'à épuisement de ses munitions."
+          text: "Ajoute des dégâts de glace à la tour, mais consomme de l'énergie pour tirer. Si les réserves d'énergie sont épuisées, elle continuera à tirer des flèches ordinaires."
     
     bowyer:
       makeshift:
@@ -8539,7 +8539,7 @@ object:
         name:
           text: "Clinique de fortune"
         description:
-          text: "Un poste de secours qui fournit des médecins qui peuvent soigner les malades et les blessés, ainsi que fabriquer des bandages que les villageois peuvent emporter avec eux pour se soigner eux-mêmes en un clin d'œil."
+          text: Fournit des médecins qui peuvent soigner les malades et blessés, ainsi que fabriquer des bandages que les villageois peuvent emporter avec eux pour se soigner eux-mêmes."
       base:
         name:
           text: "Clinique"
@@ -8638,7 +8638,7 @@ object:
         name:
           text: "Cristallerie de fortune"
         description:
-          text: "Fournit des travailleurs qui peuvent raffiner les cristaux récoltés par les exploitations de cristaix en crylithium, un combustible qui peut être utilisé pour recharger les collecteurs d'essence et est utilisé dans quelques constructions."
+          text: "Fournit des travailleurs qui peuvent raffiner les cristaux en crylithium, un combustible qui peut être utilisé dans quelques constructions et pour recharger les collecteurs d'essence."
       base:
         name:
           text: "Cristallerie"
@@ -8660,7 +8660,7 @@ object:
       name:
         text: "Niche"
       description:
-        text: "Une petite maison pour vos chiens pour qu'ils se reposent rapidement ! Si des chiens vivent déjà dans les logements, ils essaieront de venir dans la niche, libérant ainsi de l'espace pour vos villageois."
+        text: "Une petite maison pour vos chiens pour qu'ils se reposent rapidement ! Si des chiens vivent dans les logements, ils viendront dans la niche, libérant ainsi l'espace pour vos villageois."
     
     equipmentStorage:
       small:
@@ -8694,7 +8694,7 @@ object:
         name:
           text: "Collecteur d'essence de fortune"
         description:
-          text: "Attire et stocke l'essence sur la carte pour être utilisée plus tard par d'autres bâtiments, les tailleurs de cristaux peuvent aussi y lancer du crylithium pour le charger. Vous pouvez agiter votre main au dessus pour récupérer de l'énergie."
+          text: "Attire et stocke l'essence pour être utilisée par des bâtiments, les tailleurs de cristaux peuvent le charger avec du crylithium. Agiter votre main au dessus donnera de l'influence."
       base:
         name:
           text: "Collecteur d'essence"
@@ -8846,7 +8846,7 @@ object:
         name:
           text: "Logement de fortune"
         description:
-          text: "Fondation pour de nouveaux logements dans votre village, peut être amélioré pour une meilleure capacité, qualité ou un équilibre entre les deux. Vous devriez toujours vous assurer d'avoir suffisamment de logements pour tout le monde !"
+          text: "Fondation pour de nouveaux logements, améliorable pour une meilleure capacité, qualité ou un équilibre entre les deux. Vous devriez vous assurer d'avoir suffisamment de logements !"
       baseHighOccupancy:
         name:
           text: "Logement à taux d'occupation élevé"
@@ -9563,7 +9563,7 @@ object:
         name:
           text: "Puits de fortune"
         description:
-          text: "Une source d'eau se renouvelant lentement et qui fonctionne sans interruption, toute l'année. Fournit également un poste de responsable de l'eau pour redistribuer l'eau dans le village."
+          text: "Une source d'eau se renouvelant lentement et qui fonctionne toute l'année sans interruption. Fournit également un poste de responsable de l'eau pour redistribuer l'eau au village."
       base:
         name:
           text: "Puits"
@@ -9668,7 +9668,34 @@ object:
     woodFence:
       name:
         text: "Clôture en bois"
-        
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# Resource Module
+# Resource Category Names
+# rtr.resources.ResourceModule.java*
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+     
+resourceCategory:
+  comment: "Resource Module - Resource Category Names"
+  javaClass: "rtr.resources.ResourceModule.java"
+  
+  armor:
+    text: "Armure"
+  raw:
+    text: "Brut"
+  recovery:
+    text: "Récupération"
+  refined:
+    text: "Raffiné"
+  tools:
+    text: "Outils"
+  towerAmmo:
+    text: "Munitions de tours"
+  weaponsandAmmo:
+    text: "Armes et munitions"
+  miscellaneous:
+    text: "Divers"
+
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Resource Module
 # Names
