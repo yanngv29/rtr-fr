@@ -1600,75 +1600,75 @@ goal:
       text: "Débloquez un objectif"
     body:
       days:
-        text: "Survis $GRE1{days} $WHI0jours pour $GRE1débloquer un objectif $WHI0!"
+        text: "Survivez $GRE1{days} $WHI0jours pour $GRE1débloquer l'objectif $WHI0!"
       additionalDays:
-        text: "Survis $GRE1{days} $WHI0jours supplémentaires pour $GRE1débloquer un objectif $WHI0!"
+        text: "Survivez $GRE1{days} $WHI0jours de plus pour $GRE1débloquer l'objectif $WHI0!"
    
   win:
     header:
       text: "Victoire"
     body:
-      text: "Survis $GRE1une année $WHI0dans $GRE1chaque région du monde$WHI0."
+      text: "Survivez $GRE1une année $WHI0dans $GRE1chaque région du monde$WHI0."
 
   harvest:
     header:
       text: "Récolte {resourceName}"
     body:
       any: 
-        text: "Récolte $GRE1{amount} {resourceName} n'importe où $WHI0!"
+        text: "Récoltez $GRE1{amount} {resourceName} n'importe où $WHI0!"
       specific:
-        text: "Récolte $GRE1{amount} {resourceName} $WHI0dans $GRE1{mapName} $WHI0!"
+        text: "Récoltez $GRE1{amount} {resourceName} $WHI0dans $GRE1{mapName} $WHI0!"
 
   manufacture:
     header:
       text: "Création de {resourceName}"
     body:
       any:
-        text: "Crée $GRE1{amount} {resourceName} $WHI0dans $GRE1n'importe quelle région $WHI0!"
+        text: "Créez $GRE1{amount} {resourceName} $WHI0dans $GRE1n'importe quelle région $WHI0!"
       specific:
-        text: "Crée $GRE1{amount} {resourceName} $WHI0dans $GRE1{mapName} $WHI0!"
+        text: "Créez $GRE1{amount} {resourceName} $WHI0dans $GRE1{mapName} $WHI0!"
         
   survive:
     header:
       text: "Survie"
     body:
-      text: "Survis au jour $GRE1{days} $WHI0dans $GRE1{mapName} $WHI0!"
+      text: "Survivez au jour $GRE1{days} $WHI0dans $GRE1{mapName} $WHI0!"
 
   migration:
     header:
       text: "Migrer vers une région"
     body:
       single:
-        text: "Migre vers une $GRE1nouvelle région $WHI0!"
+        text: "Migrez vers une $GRE1nouvelle région $WHI0!"
       multiple:
-        text: "Migre vers $GRE1{amount} nouvelles régions $WHI0!"
+        text: "Migrez vers $GRE1{amount} nouvelles régions $WHI0!"
       
   sendVillagers:
     header:
       text: "Envoi de villageois"
     body:
       any:
-        text: "Envoie $GRE1{amount} villageois $WHI0vers $GRE1une autre région$WHI0."
+        text: "Envoyez $GRE1{amount} villageois $WHI0vers $GRE1une autre région$WHI0."
       specific:
-        text: "Envoie $GRE1{amount} villageois $WHI0vers $GRE1{mapName} $WHI0!"
+        text: "Envoyez $GRE1{amount} villageois $WHI0vers $GRE1{mapName} $WHI0!"
       
   sendCourierGolems:
     header:
       text: "Envoi de golems-facteur"
     body:
       any:
-        text: "Envoie $GRE1{amount} golems-facteurs $WHI0vers $GRE1une autre région$WHI0."
+        text: "Envoyez $GRE1{amount} golems-facteurs $WHI0vers $GRE1une autre région$WHI0."
       specific:
-        text: "Envoie $GRE1{amount} golems-facteurs $WHI0vers $GRE1{mapName} $WHI0!"
+        text: "Envoyez $GRE1{amount} golems-facteurs $WHI0vers $GRE1{mapName} $WHI0!"
       
   sendResourcesGoal:
     header:
       text: "Envoi de ressources"
     body:
       any:
-        text: "Envoie $GRE1{amount} {resourceNamePlural} $WHI0via des golems-facteurs vers $GRE1une autre région$WHI0."
+        text: "Envoyez $GRE1{amount} {resourceNamePlural} $WHI0via des golems-facteurs vers $GRE1une autre région$WHI0."
       specific:
-        text: "Envoie $GRE1{amount} {resourceNamePlural} $WHI0via des golems-facteurs vers $GRE1{mapName} $WHI0!"
+        text: "Envoyez $GRE1{amount} {resourceNamePlural} $WHI0via des golems-facteurs vers $GRE1{mapName} $WHI0!"
         
   population:
     header:
@@ -1676,18 +1676,18 @@ goal:
       forceCount: "true"
     body:
       any:
-        text: "Atteins une population $GRE1globale $WHI0de $GRE1{amount} $WHI0!"
+        text: "Atteignez une population $GRE1globale $WHI0de $GRE1{amount} $WHI0!"
       specific:
-        text: "Atteins une population de $GRE1{amount} $WHI0sur $GRE1{mapName} $WHI0!"
+        text: "Atteignez une population de $GRE1{amount} $WHI0sur $GRE1{mapName} $WHI0!"
         
   stockpile:
     header:
       text: "Stocks de {resourceNamePlural}"
     body:
       any:
-        text: "Stocke $GRE1{amount} {resourceNamePlural} n'importe où $WHI0!"
+        text: "Stockez $GRE1{amount} {resourceNamePlural} n'importe où $WHI0!"
       specific:
-        text: "Stocke $GRE1{amount} {resourceNamePlural} $WHI0dans $GRE1{mapName} $WHI0!"
+        text: "Stockez $GRE1{amount} {resourceNamePlural} $WHI0dans $GRE1{mapName} $WHI0!"
       
   killMonsters:
     header:
@@ -1698,14 +1698,14 @@ goal:
     body:
       any:
         any:
-          text: "Tue $GRE1{amount} monstres n'importe où $WHI0!"
+          text: "Tuez $GRE1{amount} monstres n'importe où $WHI0!"
         specific:
-          text: "Tue $GRE1{amount} {mobNamePlural} n'importe où $WHI0!"
+          text: "Tuez $GRE1{amount} {mobNamePlural} n'importe où $WHI0!"
       specific:
         any:
-          text: "Tue $GRE1{amount} monstres $WHI0dans $GRE1{mapName} $WHI0!"
+          text: "Tuez $GRE1{amount} monstres $WHI0dans $GRE1{mapName} $WHI0!"
         specific:
-          text: "Tue $GRE1{amount} {mobNamePlural} $WHI0dans $GRE1{mapName} $WHI0!"
+          text: "Tuez $GRE1{amount} {mobNamePlural} $WHI0dans $GRE1{mapName} $WHI0!"
       
   castSpells:
     header:
@@ -1716,14 +1716,14 @@ goal:
     body:
       any:
         any:
-          text: "Lance $GRE1{amount} sorts n'importe où $WHI0!"
+          text: "Lancez $GRE1{amount} sorts n'importe où $WHI0!"
         specific:
-          text: "Lance $GRE1{amount} {spellName} n'importe où $WHI0!"
+          text: "Lancez $GRE1{amount} {spellName} n'importe où $WHI0!"
       specific:
         any:
-          text: "Lance $GRE1{amount} sorts $WHI0dans $GRE1{mapName} $WHI0!"
+          text: "Lancez $GRE1{amount} sorts $WHI0dans $GRE1{mapName} $WHI0!"
         specific:
-          text: "Lance $GRE1{amount} {spellName} $WHI0dans $GRE1{mapName} $WHI0!"
+          text: "Lancez $GRE1{amount} {spellName} $WHI0dans $GRE1{mapName} $WHI0!"
       
       
   grabResources:
@@ -1731,18 +1731,18 @@ goal:
       text: "Saisie de ressources"
     body:
       any:
-        text: "Saisis $GRE1{amount} ressources n'importe où $WHI0!"
+        text: "Saisissez $GRE1{amount} ressources n'importe où $WHI0!"
       specific:
-        text: "Saisis $GRE1{amount} ressources $WHI0dans $GRE1{mapName} $WHI0!"
+        text: "Saisissez $GRE1{amount} ressources $WHI0dans $GRE1{mapName} $WHI0!"
       
   hireCatjeet:
     header:
       text: "Emploi de paysans"
     body:
       any:
-        text: "Emploie $GRE1{amount} paysans n'importe où $WHI0!"
+        text: "Employez $GRE1{amount} paysans n'importe où $WHI0!"
       specific:
-        text: "Emploie $GRE1{amount} paysans $WHI0dans $GRE1{mapName} $WHI0!"
+        text: "Employez $GRE1{amount} paysans $WHI0dans $GRE1{mapName} $WHI0!"
       
   immigrateNomads:
     header:
@@ -2131,6 +2131,9 @@ mapEditorLoadMapPanel:
   comment: "Main Menu State - Map Editor - Load Map Panel"
   javaClass: "rtr.gui.states.mainmenu.MapEditorLoadMapPanel.java"
   
+  mapAuthor:
+    text: "$YEL1Par : {authorName}"
+
   button:
     loadMap:
       text: "Ouvrir la carte"
@@ -2224,7 +2227,7 @@ mapEditorNewMapPanel:
         
   header:
     selectPack:
-      text: "$ORA1Sélectionnez un lot de cartes"
+      text: "$ORA1Lot de cartes"
     mapName:
       text: "$ORA1Nom de la carte"
     author:
@@ -2264,9 +2267,9 @@ mainMenuNewProfilePanel:
     tipsEnabled:
       text: "Conseils activés"
     tipsEnabledTrue:
-      text: "OUI"
+      text: "Oui"
     tipsEnabledFalse:
-      text: "NON"
+      text: "Non"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Main Menu State
@@ -2476,16 +2479,16 @@ mapEditorMainMenuPanel:
     settings:
       text: "Paramètres"
     saveAndExit:
-      text: "Sauvegarder et quitter"
+      text: "Sauvegarder & quitter"
     exitOnly:
       text: "Quitter seulement"
     'yes':
       text: "Oui !"
       
   header:
-    text: "Menu principal"
+    text: "Menu"
   exitWarning:
-    text: "$GRE1EN ÊTES-VOUS SÛR ?~$RED1VOTRE CARTE NE SERA~PAS SAUVEGARDÉE !"
+    text: "$GRE1VRAIMENT ?~$RED1VOTRE CARTE NE~ SERA PAS~SAUVEGARDÉE !"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Map Editor State
@@ -2578,11 +2581,11 @@ mapEditorPlayRightPanel:
       
     ancient:
       ancientCullisGateAbandoned:
-        text: "Ancien portail cullis (abandonné)"
+        text: "Anc. portail cullis (abandonné)"
       ancientCullisGate:
         text: "Ancien portail cullis"
       ancientRadiancePoolAbandoned:
-        text: "Anc. bassin rayonnant (abandonné)"
+        text: "Anc. bassin rayonnt. (abandonné)"
       ancientRadiancePool:
         text: "Ancient bassin rayonnant"
       
@@ -3325,7 +3328,7 @@ playLeftJobDescriptionPanel:
     canBuildUsing:
       text: "Peuvent construire en utilisant"
     buildRoadsUsing:
-      text: "Construisent des routes en utilisant"
+      text: "Construisent des routes avec"
     canDeliverToBuildRoads:
       text: "Peut livrer (construction routes)"
     canHarvestToBuild:
@@ -3418,7 +3421,7 @@ playLeftPanel:
       sell:
         text: "Vente"
       hire:
-        text: "Recruter"
+        text: "Prendre"
       tooltip:
         buyHeader:
           text: "Acheter {resourceName}"
@@ -3478,15 +3481,15 @@ playLeftPanel:
     empty:
       text: "$BLA1Vide"
     sellAmountAndPrice:
-      text: "$YEL1{amount} $WHI0pour $GRE1{price}"
+      text: "$YEL1{amount} $WHI0à $GRE1{price}"
     buyAmountAndPriceTooHigh:
-      text: "$RED1{amount} $WHI0pour $RED1{price}"
+      text: "$RED1{amount} $WHI0à $RED1{price}"
     buyAmountAndPrice:
-      text: "$GRE1{amount} $WHI0pour {price}"
+      text: "$GRE1{amount} $WHI0à {price}"
     catjeetLaborersHeader:
       text: "Main-d'œuvre paysanne"
     noLaborers:
-      text: "Pas de main-d'œuvre"
+      text: "Pas de paysan"
 
   workforce:
     button:
@@ -3699,7 +3702,7 @@ playMainMenuPanel:
     settings:
       text: "Paramètres"
     saveAndExit:
-      text: "Sauvegarder et quitter"
+      text: "Sauvegarder & quitter"
     'yes':
       text: "Oui !"
       
@@ -4227,11 +4230,11 @@ playSelectedMobPanel:
       text: "Emplacement de munitions d'arme de jet"
             
   boostedMobPrefix:
-    text: "Le {mobName} $CYA1renforcé $WHI0!"
+    text: "{mobName} $CYA1renforcé $WHI0!" ##REMOVED "THE"
   mobNamePrefix:
-    text: "Le {mobName}"
+    text: "{mobName}" ##REMOVED "THE"
   mobJobNamePrefix:
-    text: "Le {mobJobName}"
+    text: "{mobJobName}" ##REMOVED "THE"
   pregnant:
     text: "$BLU1Enceinte"
   damageResistance:
@@ -4446,7 +4449,7 @@ playSelectedObjectPanel:
   buildingSpeed:
     text: "$GRE0{amount}% $WHI0construction"
   buildRoadSpeed:
-    text: "$GRE0{amount}% $WHI0construction de routes"
+    text: "$GRE0{amount}% $WHI0constr. routes"
   dismantlingSpeed:
     text: "$GRE0{amount}% $WHI0démantèlement"
   clearingSpeed:
@@ -4454,7 +4457,7 @@ playSelectedObjectPanel:
   repairingSpeed:
     text: "$GRE0{amount}% $WHI0réparation"
   repairRoadSpeed:
-    text: "$GRE0{amount}% $WHI0entretien des routes"
+    text: "$GRE0{amount}% $WHI0entret. routes"
   farmingSpeed:
     text: "$GRE0{amount}% $WHI0agriculture"
   medicWorkSpeed:
@@ -4462,15 +4465,15 @@ playSelectedObjectPanel:
   harvestingSpeed:
     text: "$YEL1Vitesse de récolte"
   refiningSpeed:
-    text: "$YEL1Vitesse de raffinage"
+    text: "$YEL1Vitesse raffinage"
   homeBonusesHeader:
     text: "$CYA1Bonus logements"
   sleepSpeedBoost:
     text: "$GRE0{amount}% $WHI0vitesse repos"
   happinessBoost:
-    text: "$GRE0{amount} $WHI0amélioration du bonheur"
+    text: "$GRE0{amount} $WHI0amélio. bonheur"
   healthRegenerationBoost:
-    text: "$GRE0{amount} $WHI0régénération de la vie"
+    text: "$GRE0{amount} $WHI0régén. vie"
   reclaimMessage:
     text: "Cliquez sur $GRE1récupérer $WHI0pour~reconstruire et l'utiliser."
   reclaimMessageNoSlotsNoCamp:
@@ -4571,7 +4574,7 @@ playSelectedObjectUpgradePanel:
   maximumSpawns:
     text: "Nb d'invocations maximum : $GRE1+{amount}"
   spawnNeedsResourcesAndEnergy:
-    text: "L'invocation nécessite $GRE1{resourceName} $WHI0et $GRE1+{amount} d'énergie"
+    text: "L'invoc. nécessite $GRE1{resourceName} $WHI0et $GRE1+{amount} d'énergie"
   spawnNeedsEnergy:
     text: "Requiert $GRE1+{amount} d'énergie $WHI0pour invoquer"
   spawnNeedsResources:
@@ -4595,7 +4598,7 @@ playSelectedObjectUpgradePanel:
   canCollectRawEssence:
     text: "Peut collecter de l'essence brute"
   consumesCrylithium:
-    text: "Consomme du crylithium comme carburant"
+    text: "Consomme du crylithium"
   canBuildRoads:
     text: "Peut construire des routes"
 
@@ -5153,7 +5156,7 @@ playWeatherPanel:
     full:
       text: "$BLU0Pleine lune"
     blood:
-      text: "$RED1Lune de sand"
+      text: "$RED1Lune de sang"
     eclipse:
       text: "$YEL1Éclipse"
       
@@ -5418,7 +5421,7 @@ playRightObjectDescriptionPanel:
   buildingSlotsProvided:
     text: "Emplacements de construction : $GRE1{amount}"
   acceptsEssence:
-    text: "Accepte l'essence venant des collecteurs"
+    text: "Accepte l'essence des collecteurs"
   canCollectRawEssence:
     text: "Peut collecter de l'essence brute"
   consumesCrylithium:
@@ -5565,7 +5568,7 @@ sharedSettingsPanel:
     edgeScrollingFullScreenRecommended:
       text: "$GRE1Plein écran recommandé"
     edgeScrollingAmount:
-      text: "Vitesse défilement bordures"
+      text: "Vitesse défil. aux bordures"
 
   videoConfiguration:
     comment: "Video configuration column."
@@ -5719,7 +5722,7 @@ worldMapCorruptionThreatBar:
     corruptionPowerHeader:
       text: "Force de la corruption"
     corruptionPower:
-      text: "Valeur numérique de la barre ci-dessous. Une valeur positive signifie que la menace est plus élevée que le niveau de référence et une valeur négative signifie qu'elle est plus faible. Vous pouvez réduire la force de la corruption en remplissant des objectifs ou en migrant vers d'autres régions."
+      text: "Valeur numérique de la barre ci-dessous. Une valeur positive signifie une menace plus élevée que le niveau de référence et une valeur négative signifie qu'elle est plus faible. Vous pouvez réduire la force de la corruption en remplissant des objectifs ou en migrant vers d'autres régions."
     worldCorruptionThreatHeader:
       text: "Menace de la corruption"
     worldCorruptionThreat:
@@ -6103,9 +6106,9 @@ worldMapGameModeSelectPanel:
     custom:
       text: "Un mode dans lequel vous définissez tous les paramètres de difficulté avant de jouer. Mais une fois qu'ils sont réglés, ils ne peuvent pas être modifiés sans réinitialiser le monde.~~$GRE0Ce mode est recommandé pour les joueurs expérimentés qui veulent explorer la difficulté de base du jeu.."
     sandbox:
-      text: "Pas de règles ! Jouez avec les mécanismes du jeu, changez l'heure du jour, faites apparaître des ressources et des monstres, générez des particules. Faites ce que vous voulez et amusez-vous !~~Recommandé si jouer avec les mécaniques du jeu vous intéresse.~~N'est pas destiné à un expérience de jeu sérieuse, quelle qu'elle soit..."
+      text: "Pas de règles ! Jouez avec les mécanismes du jeu, changez l'heure du jour, faites apparaître des ressources et des monstres, générez des particules. Faites ce que vous voulez et amusez-vous !~~Recommandé si jouer avec les mécaniques du jeu vous intéresse.~~N'est pas destiné à un expérience de jeu sérieuse quelle qu'elle soit..."
     selectGameMode:
-      text: "Sélectionnez l'un des six modes de jeu dans le menu de gauche. Chaque mode est indépendant des cinq autres et vous pouvez changer de mode quand vous le souhaitez. Si vous faites trop d'erreurs, ou si vous voulez repartir à zéro dans n'importe quel mode, vous pouvez réinitialiser un mode de jeu en cliquant sur le bouton abandonner le monde.~~$GRE0Si vous êtes un nouveau player, le mode Traditionnel est fortement recommandé."
+      text: "Sélectionnez l'un des six modes de jeu dans le menu de gauche. Chaque mode est indépendant des cinq autres et vous pouvez changer de mode quand vous le souhaitez. Si vous faites trop d'erreurs, ou si vous voulez repartir à zéro dans n'importe quel mode, vous pouvez réinitialiser un monde en cliquant sur le bouton abandonner le monde.~~$GRE0Si vous êtes un nouveau joueur, le mode Traditionnel est fortement recommandé."
   
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # World Map State
@@ -6147,7 +6150,7 @@ worldMapGoalsPanel:
       text: "Réinitialiser"
     
   warning: 
-   text: "$GRE1En êtes-vous sur ? Cela va retirer~l'objectif et un nouveau doit être acquis."
+   text: "$GRE1En êtes-vous sur ? L'objectif sera~retiré et un nouveau doit être acquis."
    
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # World Map State
@@ -6173,11 +6176,11 @@ worldMapMapSelectPanel:
       visitRegionResetAIHeader:
         text: "Réinitialiser l'IA"
       visitRegionResetAI:
-        text: "Cela va réinitialiser toutes les IA des créatures et les passer en inactif, utile dans de rares cas où l'IA pourrait bloquer le jeu ou le faire crasher. Il est recommandé d'essayer avant d'utiliser les sauvegardes précédentes."
+        text: "Cela va réinitialiser toutes les IA des créatures et les passer en inactif, utile dans de rares cas où l'IA pourrait bloquer le jeu ou le faire crasher. Il est recommandé d'essayer ça avant d'utiliser les sauvegardes précédentes."
       rollbackSaveHeader:
         text: "Sauvegarde précédente"
       rollbackSave:  
-        text: "$RED1ATTENTION : Cela ne peut PAS être annulé et pourrait avoir des effets secondaires négatifs sur le progrès de votre monde. Cela ne devrait jamais être utiliser pour tricher. Seulement pour réparer des sauvegardes corrompues !"
+        text: "$RED1ATTENTION : Cela ne peut PAS être annulé et pourrait avoir des effets secondaires négatifs sur le progrès de votre monde. Cela ne devrait jamais être utilisé pour tricher. Seulement pour réparer des sauvegardes corrompues !"
   
   tooltip:
     corruptionThreatHeader:
@@ -6232,7 +6235,7 @@ worldMapRewardChestPanel:
   godExperienceHeader:
     text: "Expérience divine"
   godExperience:
-    text: "Gagnez de l'expérience divine en maintenant votre village en bonne santé ou en débloquant et en atteignant des objectifs."
+    text: "Gagnez de l'expérience divine en maintenant votre village en bonne santé ou en débloquant et en remplissant des objectifs."
   chestGrantProgressHeader:
     text: "Progrès du coffre de récompense"
   chestGrantProgress:
@@ -6264,7 +6267,7 @@ worldMapSystemPanel:
       doomWorld:
         text: "Réinitialise le monde complètement et supprime toute votre progression. Vous garderez tout de même les avantages débloqués, l'expérience divine et les coffres."
       viewGameModeConfigHeader:
-        text: "Visionner les configurations du mode de jeu"
+        text: "Visionner la configuration du mode de jeu"
       viewGameModeConfig:
         text: "Visionnez les configurations du mode de jeu que vous allez définir avant de commencer le monde. Ces configurations ne peuvent pas être changées sans abandonner le monde et recommencer à zéro."
 
@@ -6289,7 +6292,7 @@ helpTip:
     gameSpeedHeader:
       text: "AVERTISSEMENT CONTRÔLE DE LA VITESSE !"
     gameSpeed:
-      text: "Les contrôles de vitesse sont encore très récents et expérimentaux. $RED1Le fait de régler la vitesse au-delà de 2x peut causer de graves problèmes de performance tard dans la partie. $WHI0Faites le à vos risques et périls ! Si le jeu arrête de répondre, vous pouvez $GRE1appuyer sur la barre d'espace $WHI0pour mettre le jeu en pause et baisser la vitesse du jeu avant de reprendre la partie."
+      text: "Les contrôles de vitesse sont encore très récents et expérimentaux. $RED1Le fait de régler la vitesse au-delà de 2x peut causer de graves problèmes de performance tard dans la partie. $WHI0Faites le à vos risques et périls ! Si le jeu arrête de répondre, vous pouvez $GRE1appuyer sur la barre espace $WHI0pour mettre le jeu en pause et baisser la vitesse du jeu avant de reprendre la partie."
     worldMapWelcomeHeader:
       text: "Bienvenue !"
     worldMapWelcome:
@@ -6297,7 +6300,7 @@ helpTip:
     worldMapMigrationHeader:
       text: "Migrer !"
     worldMapMigration:
-      text: "Vous avez assez de villageois pour migrer vers $YEL1{regionName}$WHI0! Si vous êtes prêt, cliquez sur la région et sélectionnez 'Créer un village'. Les villageois arriveront peu de temps un fois votre nouveau campement placé. Contrairement à votre première région, vous n'obtiendrez pas de villageois ou de ressources gratuites."
+      text: "Vous avez assez de villageois pour migrer vers $YEL1{regionName}$WHI0! Si vous êtes prêt, cliquez sur la région et sélectionnez 'Créer un village'. Les villageois arriveront peu de temps après avoir placé votre nouveau campement. Contrairement à votre première région, vous n'obtiendrez pas de villageois ou de ressources gratuites."
     welcomeCampHeader:
       text: "Le campement"
     welcomeCamp:
@@ -6321,7 +6324,7 @@ helpTip:
     buildingDamageHeader:
       text: "Bâtiments endommagés"
     buildingDamage:
-      text: "Le bâtiment {buildingName} $WHI0est endommagé ! Si vous avez des constructeurs et que la structure est à portée de votre village, ils essaieront automatiquement de la réparer quand ils en auront le temps."
+      text: "Le bâtiment {buildingName} $WHI0est endommagé ! Si vous avez des constructeurs et la structure est à portée de votre village, ils essaieront automatiquement de la réparer quand ils en auront le temps."
     resouceManagementHeader:
       text: "Gestion de ressources"
     resouceManagement:
@@ -6337,29 +6340,29 @@ helpTip:
     refineHeader:
       text: "Matériaux raffinés"
     refineNew:   
-      text: "Certains bâtiments nécessitent des matériaux raffinés, comme les planches, la pierre ou le crylithium. Le bâtiment {buildingName} $WHI0que vous venez de placer est l'un d'eux. Si un bâtiment nécessite l'une de ces ressources citée plus haut et que vous n'avez aucun moyen de fabriquer, ils feront ce qu'ils peuvent, mais le bâtiment ne sera jamais achevé. Vous pouvez raffiner la plupart des matériaux à l'intérieur des bâtiments de raffinage, tel que la $YEL1Cabanne du bûcheron $WHI0ou le $YEL1Tailleur de pierre$WHI0. Les deux peuvent se trouvent dans la catégorie raffinage dans l'onglet de construction."
+      text: "Certains bâtiments nécessitent des matériaux raffinés, comme les planches, la pierre ou le crylithium. Le bâtiment {buildingName} $WHI0que vous venez de placer est l'un d'eux. Si un bâtiment nécessite l'une de ces ressources citée plus haut et que vous n'avez aucun moyen de fabriquer, ils feront ce qu'ils peuvent, mais le bâtiment ne sera jamais achevé. Vous pouvez raffiner la plupart des matériaux à l'intérieur des bâtiments de raffinage, tel que la $YEL1Scierie $WHI0ou le $YEL1Tailleur de pierre$WHI0. Les deux se trouvent dans la catégorie raffinage dans l'onglet de construction."
     refineReclaim:
-      text: "Certains bâtiments nécessitent des matériaux raffinés, comme les planches, la pierre ou le crylithium. Le bâtiment {buildingName} $WHI0que vous venez d'essayer de récupérer est l'un d'eux. Si un bâtiment nécessite l'une de ces ressources citée plus haut et que vous n'avez aucun moyen de fabriquer, ils feront ce qu'ils peuvent, mais le bâtiment ne sera jamais achevé. Vous pouvez raffiner la plupart des matériaux à l'intérieur des bâtiments de raffinage, tel que la $YEL1Cabanne du bûcheron $WHI0ou le $YEL1Tailleur de pierre$WHI0. Les deux peuvent se trouvent dans la catégorie raffinage dans l'onglet de construction."
+      text: "Certains bâtiments nécessitent des matériaux raffinés, comme les planches, la pierre ou le crylithium. Le bâtiment {buildingName} $WHI0que vous venez d'essayer de récupérer est l'un d'eux. Si un bâtiment nécessite l'une de ces ressources citée plus haut et que vous n'avez aucun moyen de fabriquer, ils feront ce qu'ils peuvent, mais le bâtiment ne sera jamais achevé. Vous pouvez raffiner la plupart des matériaux à l'intérieur des bâtiments de raffinage, tel que la $YEL1Scierie $WHI0ou le $YEL1Tailleur de pierre$WHI0. Les deux se trouvent dans la catégorie raffinage dans l'onglet de construction."
     farmingHeader:
       text: "Agriculture"
     farming:   
-      text: "Vos villageois ont construit leur première ferme ! Une fois que vous y aurez assigné des travailleurs, ils essaieront de démarrer les cultures en récoltant $GRE1de la nourriture sauvage et de l'eau$WHI0. Vous pouvez récolter les deux en cliquant sur le bouton $GRE1'Récolter eau/nourriture' $WHI0dans l'onglet à gauche. La nourriture pousse dans les fermes et est maintenue et récoltée automatiquement !"
+      text: "Vos villageois ont construit leur première ferme ! Une fois que vous y aurez assigné des travailleurs, ils essaieront de faire des cultures en récoltant $GRE1de la nourriture sauvage et de l'eau$WHI0. Vous pouvez récolter les deux en cliquant sur le bouton $GRE1'Récolter eau/nourriture' $WHI0dans l'onglet à gauche. La nourriture pousse dans les fermes et est maintenue et récoltée automatiquement !"
     buildingPriorityHeader:
       text: "Priorité de construction"
     buildingPriority:   
-      text: "Saviez-vous que vous pouvez ajuster les priorités de construction ? Il vous suffit de sélectionner l'option $YEL1'Liste des bâtiments' $WHI0en $YEL1haut à droite $WHI0puis de cliquer sur les $YEL1flèches haut/bas $WHI0pour réarranger les priorités de certains bâtiments par rapport à d'autres. Un bâtiment avec une priorité plus élevée va être construit,démantelé et réparé avant les autres."
+      text: "Saviez-vous que vous pouvez ajuster les priorités de construction ? Il vous suffit de sélectionner l'option $YEL1'Liste des bâtiments' $WHI0en $YEL1haut à droite $WHI0puis de cliquer sur les $YEL1flèches haut/bas $WHI0pour réarranger les priorités de certains bâtiments par rapport à d'autres. Un bâtiment avec une priorité plus petite va être construit, démantelé et réparé avant les autres."
     noHomesHeader:
       text: "Logements"
     noHomes:   
-      text: "Vous êtes au jour {day} et vous n'avez pas encore construit de $YEL1logement$WHI0, vos villageois ont besoin d'un endroit où vivre ou ils deviendront malheureux. Vous avez aussi besoin de logements pour que vos villageois se mettent en couple et qu'ils aient des enfants un jour, avec un peu de chance."
+      text: "Vous êtes au jour {day} et vous n'avez pas encore construit de $YEL1Logement$WHI0, vos villageois ont besoin d'un endroit où vivre ou ils deviendront malheureux. Vous avez aussi besoin de logements pour que vos villageois s'accouplent et qu'ils aient des enfants un jour, avec un peu de chance."
     noFarmsHeader:
       text: "Agriculture"
     noFarms:   
-      text: "Vous êtes au jour {day} et vous n'avez pas encore construit de $YEL1ferme$WHI0, vos villageois finiront par avoir besoin de manger. Ne les laissez pas mourir de faim ! Une fois que vous aurez construit une $YEL1ferme $WHI0et que vous y aurez assigné des travailleurs, vous pourrez leur dire de récolter de la nourriture crue et ils l'apporteront à la ferme pour la planter. Une fois planté, ils la récolteront automatiquement lorsqu'elle aura poussé !"
+      text: "Vous êtes au jour {day} et vous n'avez pas encore construit de $YEL1ferme$WHI0, vos villageois finiront par avoir besoin de manger. Ne les laissez pas mourir de faim ! Une fois que vous aurez construit une $YEL1ferme $WHI0et que vous y aurez assigné des travailleurs, vous pourrez leur dire de récolter de la nourriture crue et ils l'apporteront à la ferme pour la planter. Une fois plantée, ils la récolteront automatiquement lorsqu'elle aura poussé !"
     noWaterHeader:
       text: "Eau"
     noWater:   
-      text: "Vous êtes au jour {day} et vous n'avez pas encore construit de $YEL1sources d'eau$WHI0. Vos villageois finiront par avoir besoin de boire de l'eau. Ne les laissez pas mourir de soif ! Essayez de construire une $YEL1station de purification $WHI0et collecter les eaux de surface, ou un $YEL1puits $WHI0pour automatiquement générer de l'eau souterraine propre, ou encore des $YEL1collecteurs d'eau $WHI0pour collecter l'eau de pluie. Éventuellement, essayez d'avoir plus d'une source d'eau pour survivre aux diverses conditions tout au long de l'année. N'oubliez pas de leur assigner quelques ouvriers !"
+      text: "Vous êtes au jour {day} et vous n'avez pas encore construit de $YEL1sources d'eau$WHI0. Vos villageois finiront par avoir besoin de boire de l'eau. Ne les laissez pas mourir de soif ! Essayez de construire une $YEL1station de purification $WHI0et de collecter les eaux de surface, ou un $YEL1puits $WHI0pour automatiquement générer de l'eau souterraine propre, ou encore des $YEL1collecteurs d'eau $WHI0pour collecter l'eau de pluie. Éventuellement, essayez d'avoir plus d'une source d'eau pour survivre aux diverses conditions tout au long de l'année. N'oubliez pas de leur assigner quelques ouvriers !"
     noTowersHeader:
       text: "Défenses"
     noTowers:   
@@ -6389,7 +6392,7 @@ helpTip:
     villagerDehydrationHeader:
       text: "Déshydratation"
     villagerDehydrationMale:   
-      text: "{mobName} $WHI0est en train de mourir de soif ! Trouvez vite de l'eau à ce pauvre villageois, sinon il risque de mourir ! Avez-vous construit un $YEL1Purificateur d'eau$WHI0, un $YEL1Puits $WHI0ou un $YEL1Collecteur d'eau $WHI0encore ? Est-ce qu'ils produisent assez d'eau ? Vous avez peut-être besoin d'en construire plus !"
+      text: "{mobName} $WHI0est en train de mourir de soif ! Trouvez vite de l'eau à ce pauvre villageois, sinon il risque de mourir ! Avez-vous construit un $YEL1Purificateur d'eau$WHI0, un $YEL1Puits $WHI0ou encore un $YEL1Collecteur d'eau $WHI0? Est-ce qu'ils produisent assez d'eau ? Vous avez peut-être besoin d'en construire plus !"
     villagerDehydrationFemale:   
       text: "{mobName} $WHI0est en train de mourir de soif ! Trouvez vite de l'eau à cette pauvre villageoise, sinon elle risque de mourir ! Avez-vous construit un $YEL1Purificateur d'eau$WHI0, un $YEL1Puits $WHI0ou encore un $YEL1Collecteur d'eau $WHI0? Est-ce qu'ils produisent assez d'eau ? Vous avez peut-être besoin d'en construire plus !"
     villagerSleepyHeader:
@@ -6401,23 +6404,23 @@ helpTip:
     villagerFreezingHeader:
       text: "Mort de froid"
     villagerFreezingNoHome:   
-      text: "{mobName} $WHI0est en train de mourir de froid ! S'il fait trop froid dehors et que vos villageois n'ont pas de maison pour se réchauffer, ils pourraient mourir ! Essayez d'avoir assez de maisons pour vos villageois dès que possible !"
+      text: "{mobName} $WHI0est en train de mourir de froid ! S'il fait trop froid dehors et que vos villageois n'ont pas de logement pour se réchauffer, ils pourraient mourir ! Essayez d'avoir assez de maisons pour vos villageois dès que possible !"
     villagerFreezingMale:   
-      text: "{mobName} $WHI0est en train de mourir de froid ! S'il fait trop froid dehors et que vos villageois n'ont pas de maison pour se réchauffer, ils pourraient mourir ! Heureusement, {mobName} $WHI0a un logement, il devrait donc essayer d'y retourner sous peu pour se réchauffer !"
+      text: "{mobName} $WHI0est en train de mourir de froid ! S'il fait trop froid dehors et que vos villageois n'ont pas de logement pour se réchauffer, ils pourraient mourir ! Heureusement, {mobName} $WHI0a un logement, il devrait donc essayer d'y retourner sous peu pour se réchauffer !"
     villagerFreezingFemale:   
-      text: "{mobName} $WHI0est en train de mourir de froid ! S'il fait trop froid dehors et que vos villageois n'ont pas de maison pour se réchauffer, ils pourraient mourir ! Heureusement, {mobName} $WHI0a un logement, il devrait donc essayer d'y retourner sous peu pour se réchauffer !"
+      text: "{mobName} $WHI0est en train de mourir de froid ! S'il fait trop froid dehors et que vos villageois n'ont pas de logement pour se réchauffer, ils pourraient mourir ! Heureusement, {mobName} $WHI0a un logement, elle devrait donc essayer d'y retourner sous peu pour se réchauffer !"
     villagerOverheatingHeader:
       text: "Surchauffe"
     villagerOverheatingNoHome:   
-      text: "{mobName} $WHI0brûle sous la chaleur ! S'il fait trop chaud dehors et que vos villageois n'ont pas de maison pour se rafraîchir, ils pourraient mourir d'épuisement par la chaleur ! Essayez d'avoir assez de maisons pour vos villageois dès que possible !"
+      text: "{mobName} $WHI0brûle sous la chaleur ! S'il fait trop chaud dehors et que vos villageois n'ont pas de logement pour se rafraîchir, ils pourraient mourir d'épuisement par la chaleur ! Essayez d'avoir assez de maisons pour vos villageois dès que possible !"
     villagerOverheatingMale:   
-      text: "{mobName} $WHI0brûle sous la chaleur ! S'il fait trop chaud dehors et que vos villageois n'ont pas de maison pour se rafraîchir, ils pourraient mourir d'épuisement par la chaleur ! Heureusement, {mobName} $WHI0a un logement, il devrait donc y retourner sous peu pour se rafraîchir !"
+      text: "{mobName} $WHI0brûle sous la chaleur ! S'il fait trop chaud dehors et que vos villageois n'ont pas de logement pour se rafraîchir, ils pourraient mourir d'épuisement par la chaleur ! Heureusement, {mobName} $WHI0a un logement, il devrait donc y retourner sous peu pour se rafraîchir !"
     villagerOverheatingFemale:   
-      text: "{mobName} $WHI0brûle sous la chaleur ! S'il fait trop chaud dehors et que vos villageois n'ont pas de maison pour se rafraîchir, ils pourraient mourir d'épuisement par la chaleur ! Heureusement, {mobName} $WHI0a un logement, elle devrait donc y retourner sous peu pour se rafraîchir !"
+      text: "{mobName} $WHI0brûle sous la chaleur ! S'il fait trop chaud dehors et que vos villageois n'ont pas de logement pour se rafraîchir, ils pourraient mourir d'épuisement par la chaleur ! Heureusement, {mobName} $WHI0a un logement, elle devrait donc y retourner sous peu pour se rafraîchir !"
     matingHeader:
       text: "En couple"
     matingDifferentGender:
-      text: "Avez-vous remarqué que {mobName} $WHI0a trouvé un nouveau partenaire, {mobMateName} $WHI0? Si l'un d'entre eux a un foyer et qu'ils sont assez heureux, ils essaieront peut-être de rentrer chez eux pour faire un bébé ! Ils se rendent aussi souvent visite pour améliorer leur humeur, ou essaient de vivre dans la même maison dès que possible."
+      text: "Avez-vous remarqué que {mobName} $WHI0a trouvé un nouveau partenaire, {mobMateName} $WHI0? Si l'un d'entre eux a un foyer et qu'ils sont assez heureux, ils essaieront peut-être de rentrer chez eux pour faire un bébé ! Ils se rendent aussi souvent visite pour améliorer leur humeur et essaient de vivre dans la même maison dès que possible."
     matingSameGender:   
       text: "Avez-vous remarqué que {mobName} $WHI0a trouvé un nouveau partenaire, {mobMateName} $WHI0? Si l'un d'entre eux a une maison et qu'ils sont assez heureux, il pourront essayer de rentrer chez eux et de s'amuser en privé ! Ils ne sont peut-être pas très efficaces pour se reproduire comme leurs homologues hétéros, mais ils auront quand même un petit coup de boost dans leur humeur ! Ils se rendent aussi souvent visite pour améliorer leur humeur et essaieront de vivre dans la même maison dès que possible."
     pregnantHeader:
@@ -6432,7 +6435,7 @@ helpTip:
       text: "Essence"
       forceCount: "true"
     essence:   
-      text: "Avez-vous remarqué ces points verts scintillants sur la carte lorsque quelque chose meurt ou que vous détruisez une partie du terrain ? C'est l'$GRE1essence $WHI0qui a été libérée dans votre monde. Vous pouvez collecter de l'essence en agitant votre main près d'elle et cela rechargera votre barre d'influence plus rapidement afin de pouvoir jeter des sorts. L'essence est aussi la source d'énergie de certiain bâtiments tels que les $YEL1Tours-éclair de feu$WHI0. Vous pouvez collecter de l'essence en construisant des $YEL1collecteurs d'essence$WHI0."
+      text: "Avez-vous remarqué ces points verts scintillants sur la carte lorsque quelque chose meurt ou que vous détruisez une partie du terrain ? C'est l'$GRE1essence $WHI0qui a été libérée dans votre monde. Vous pouvez collecter de l'essence en agitant votre main près d'elle et cela rechargera votre barre d'influence plus rapidement afin de pouvoir jeter des sorts. L'essence est aussi la source d'énergie de certain bâtiments tels que les $YEL1Tours-éclair de feu$WHI0. Vous pouvez collecter de l'essence en construisant des $YEL1Collecteurs d'essence$WHI0."
     abandonedBuildingsHeader:
       text: "Bâtiments abandonnés"
     abandonedBuildings:   
@@ -6456,7 +6459,7 @@ helpTip:
     corruptionHeader:
       text: "Corruption !"
     corruption:   
-      text: "Comme vous l'avez probablement déjà découvert, vos villageois ne sont pas les seuls dans cette région ! Avec le temps, $RED1la corruption $WHI0se propage lentement et conquérir la carte, augmentant les taux de d'apparition des monstres et causant généralement des problèmes. Il y a des moyens de repousser la corruption. $GRE1De nombreux bâtiments offrent une résistance à la corruption $WHI0et une résistance élevée empêchera la corruption de se propager et peut même parfois la repousser. Pas tous les bâtiments peuvent résister à la corruption, assurez-vous en en regardant leurs statistiques."
+      text: "Comme vous l'avez probablement déjà découvert, vos villageois ne sont pas les seuls dans cette région ! Avec le temps, $RED1la corruption $WHI0se propage lentement et conquérira la carte, augmentant les taux de d'apparition des monstres et causant des problèmes. Il y a des moyens de repousser la corruption. $GRE1De nombreux bâtiments offrent une résistance à la corruption $WHI0et une résistance élevée empêchera la corruption de se propager et peut même parfois la repousser. Pas tous les bâtiments peuvent résister à la corruption, assurez-vous en en regardant leurs statistiques."
     seasonAutumnHeader:
       text: "Automne"
     seasonAutumn:   
@@ -6472,7 +6475,7 @@ helpTip:
     seasonSummerHeader:
       text: "Été"
     seasonSummer:   
-      text: "L'$YEL1ét $WHI0est là. Vos villageois vont devoir travailler par une chaleur torride et devront fréquemment rentrer chez eux pour se rafraîchir. Ne vous attendez pas à beaucoup de pluie et attendez-vous à ce que la croissance des cultures soit plus lente. J'espère que vous avez fait le plein de nourriture et d'eau pendant le $GRE1printemps $WHI0!"
+      text: "L'$YEL1été $WHI0est là. Vos villageois vont devoir travailler par une chaleur torride et devront fréquemment rentrer chez eux pour se rafraîchir. Ne vous attendez pas à beaucoup de pluie et attendez-vous à ce que la croissance des cultures soit plus lente. J'espère que vous avez fait le plein de nourriture et d'eau pendant le $GRE1printemps $WHI0!"
     destroyTerrainHeader:
       text: "Détruire du terrain"
     destroyTerrain:   
@@ -6482,9 +6485,9 @@ helpTip:
     cullisGate:   
       text: "La plupart des cartes sont parsemées d'$YEL1anciens portails cullis$WHI0. Vous pouvez y jeter des monstres, des ressources ou même des villageois, en les sacrifiant pour obtenir de l'essence. Mais faites tout de même attention, les $YEL1portails cullis $WHI0ont tendance à surcharger si ils sont trop utilisés."
     speedControlsHeader:
-      text: "Contrôles de vitesse et de pause"
+      text: "Contrôles de vitesse et pause"
     speedControls:   
-      text: "Saviez-vous que vous pouvez mettre le jeu en pause en appuyant sur $GRE1{shortcutKey}$WHI0, ou ajuster le passage du temps en utilisant l'horloge ?"
+      text: "Saviez-vous que vous pouvez mettre le jeu en pause en appuyant sur $GRE1{shortcutKey}$WHI0, ou ajuster la vitesse du jeu en utilisant l'horloge ?"
     dismantleHeader:
       text: "Démantèlement de bâtiment"
     dismantle:
@@ -6539,7 +6542,7 @@ spell:
     name:
       text: "Lâcher"
     description:
-      text: "Lâche une ressource on une créature présente dans votre main. Ce sort ne devrait pas être directement accessible."
+      text: "Lâche une ressource ou une créature présente dans votre main. Ce sort ne devrait pas être directement accessible."
   meteor:
     name:
       text: "Météore"
@@ -6569,7 +6572,7 @@ spell:
     name:
       text: "Tremblement de terre"
     description:
-      text: "Secoue le sol, endommage tout ce qui se trouve dans la zone et fait parfois apparaitre des rochers."
+      text: "Secoue le sol, endommage tout ce qui se trouve dans la zone et fait parfois apparaître des rochers."
   recall:
     name:
       text: "Rappeler"
@@ -6594,12 +6597,12 @@ spell:
     name:
       text: "Invoquer de l'essence"
     description:
-      text: "Invoque de l'essence à partir de rien ! Attention à ce qu'elle ne soit pas reaspirée dans votre main."
+      text: "Invoque de l'essence à partir de rien ! Attention à ce qu'elle ne soit pas réaspirée dans votre main."
   lightningBolt:
     name:
       text: "Éclair"
     description:
-      text: "Électrocute les depuis  les cieux ! Ne marche pas très bien près des paratonnerres."
+      text: "Électrocutez-les depuis les cieux ! Ne marche pas très bien près des paratonnerres."
   conjureMaterial:
     name:
       text: "Invoquer des matériaux"
@@ -6609,7 +6612,7 @@ spell:
     name:
       text: "Raccomoder"
     description:
-      text: "Répare les golems et les bâtiments dans une petite zone pour une courte période."
+      text: "Répare les golems et les bâtiments dans une petite zone pendant une courte période."
   summonLaborGolem:
     name:
       text: "Invoquer un golem-ouvrier"
@@ -6624,7 +6627,7 @@ spell:
     name:
       text: "Charmer"
     description:
-      text: "Charme un monstre à se retourner contre ses amis, mais ils ne vont pas toujours coopérer et pourraient même se retourner contre vous."
+      text: "Charme un monstre et l'incite à se retourner contre ses amis, mais ils ne vont pas toujours coopérer et pourraient même se retourner contre vous."
   magicBolts:
     name:
       text: "Éclair magique"
@@ -6787,11 +6790,11 @@ missileName:
   reinforcedSprayBullet:
     text: "Balle de tour pulvérisatrice renforcée"
   fireSprayBullet:
-    text: "Balle de tour pulvérisatrice enflammée"
+    text: "Balle enflammée de tour pulvérisatrice"
   lightningSprayBullet:
     text: "Balle-éclair de tour pulvérisatrice"
   iceSprayBullet:
-    text: "Balle de tour pulvérisatrice glacée"
+    text: "Balle glacée de tour pulvérisatrice"
   smallElementalBolt:
     text: "Petit éclair élémentaire"
   elementalBolt:
@@ -6868,7 +6871,11 @@ missileName:
 mobName:
   comment: "Mob Module - Mob Names"
   javaClass: "rtr.mobs.MobBase.java" 
-      
+
+  article:
+    comment: "This is used in a few rare cases where the game is referencing the mob as a noun and not a proper name. Like 'a Skeleton' instead of 'Bob Vance'. For example, 'Bob Vance is attacking a Skeleton' or 'a Skeleton is attacking Bob Vance'"
+    text: "un {mobName}"
+
   villageElder:
     single:
       text: "Doyen"
@@ -6911,7 +6918,7 @@ mobName:
       text: "Ouvriers paysans"
   smallSlime:
     single:
-      text: "Petits slime"
+      text: "Petit slime"
     plural:
       text: "Petits slimes"
   slime:
@@ -6952,29 +6959,29 @@ mobName:
       forceCount: "true"
   childZombie:
     single:
-      text: "Enfant zombie"
+      text: "Enfant-zombie"
     plural:
-      text: "Enfants zombies"
+      text: "Enfants-zombies"
   zombieDoggo:
     single:
-      text: "Chien zombie"
+      text: "Chien-zombie"
     plural:
-      text: "Chiens zombies"
+      text: "Chiens-zombies"
   doofyZombieDoggo:
     single:
-      text: "Chien zombie stupide"
+      text: "Chien-zombie stupide"
     plural:
-      text: "Chiens zombies stupides"
+      text: "Chiens-zombies stupides"
   zombieCatjeet:
     single:
-      text: "Zombie paysan"
+      text: "Paysan-zombie"
     plural:
-      text: "Zombies paysans"
+      text: "Paysans-zombies"
   catjeetChildZombie:
     single:
-      text: "Enfant zombie paysan"
+      text: "Paysan enfant-zombie"
     plural:
-      text: "Enfants zombies paysans"
+      text: "Paysans enfants-zombies"
   skeleton:
     single:
       text: "Squelette"
@@ -7044,7 +7051,7 @@ mobName:
     single:
       text: "Migrant arrivant"
     plural:
-      text: "Migrants arrivant"
+      text: "Migrants arrivants"
   nomadChild:
     single:
       text: "Enfant nomade"
@@ -7069,7 +7076,7 @@ mobName:
     single:
       text: "Paysan migrant arrivant"
     plural:
-      text: "Paysans migrants arrivant"
+      text: "Paysans migrants arrivants"
   catjeetNomadChild:
     single:
       text: "Enfant paysan nomade"
@@ -7952,7 +7959,7 @@ mobJob:
     plural:
       text: "Constructeurs"
     description:
-      text: "Un travail incontournable, ils s'assureront que tout est construit et réparé. Ils peuvent aussi récolter des matériaux si ils en ont besoin pour construire et qui ne sont pas dans le village."
+      text: "Travail incontournable, ils s'assurent que tout est construit et réparé. Ils peuvent aussi récolter des matériaux si ils en ont besoin pour construire et qui ne sont pas dans le village."
 
   carpenter:
     single:
@@ -8012,7 +8019,7 @@ mobJob:
 
   organizer:
     single:
-      text: "Oraniseur"
+      text: "Organiseur"
     plural:
       text: "Organiseurs"
     description:
@@ -8955,7 +8962,7 @@ object:
           text: "Paratonnerre de fortune"
         description:
           text: "Une grosse barre de fer qui attirera la foudre et la convertira en essence. Très pratique pour protéger le village des orages."
-      lightning:
+      base:
         name:
           text: "Paratonnerre"
         description:
@@ -9485,27 +9492,27 @@ object:
         name:
           text: "Combobulateur de golems de pierre"
         description:
-          text: "Augmente le nombre de golems de pierre que le combobulateur peut maintenir, ainsi que le niveau des golems nouvellement invoqués, mais coûte légèrement plus d'énergie pour produire un nouveau golem."
+          text: "Augmente le nombre de golems de pierre que le combobulateur peut maintenir, le niveau des golems nouvellement invoqués, mais coûte légèrement plus d'énergie pour produire un nouveau golem."
       established:
         name:
           text: "Combobulateur de golems de pierre établi"
         description:
-          text: "Augmente le nombre de golems de pierre que le combobulateur peut maintenir, ainsi que le niveau des golems nouvellement invoqués, mais coûte légèrement plus d'énergie pour produire un nouveau golem."
+          text: "Augmente le nombre de golems de pierre que le combobulateur peut maintenir, le niveau des golems nouvellement invoqués, mais coûte légèrement plus d'énergie pour produire un nouveau golem."
       lightning:
         name:
           text: "Combobulateur de golems-éclairs de pierre"
         description:
-          text: "Augmente le nombre de golems de pierre que le combobulateur peut maintenir, le niveau à l'apparition et donne aussi des dégâts de foudre aux nouveaux golems, mais coûte plus d'énergie pour produire un nouveau golem."
+          text: "Augmente le nombre de golems de pierre que le combobulateur peut maintenir, le niveau à l'apparition et donne des dégâts de foudre aux nouveaux golems, mais coûte plus d'énergie."
       ice:
         name:
           text: "Combobulateur de golems de pierre de glace"
         description:
-          text: "Augmente le nombre de golems de pierre que le combobulateur peut maintenir, le niveau à l'apparition et donne aussi des dégâts de glace aux nouveaux golems, mais coûte plus d'énergie pour produire un nouveau golem."
+          text: "Augmente le nombre de golems de pierre que le combobulateur peut maintenir, le niveau à l'apparition et donne aussi des dégâts de glace aux nouveaux golems, mais coûte plus d'énergie."
       fire:
         name:
           text: "Combobulateur de golems de pierre de feu"
         description:
-          text: "Augmente le nombre de golems de pierre que le combobulateur peut maintenir, le niveau à l'apparition et donne aussi des dégâts de feu aux nouveaux golems, mais coûte plus d'énergie pour produire un nouveau golem."
+          text: "Augmente le nombre de golems de pierre que le combobulateur peut maintenir, le niveau à l'apparition et donne aussi des dégâts de feu aux nouveaux golems, mais coûte plus d'énergie."
     
     toolsmithy:
       makeshift:
@@ -9563,7 +9570,7 @@ object:
         name:
           text: "Puits de fortune"
         description:
-          text: "Une source d'eau se renouvelant lentement et qui fonctionne toute l'année sans interruption. Fournit également un poste de responsable de l'eau pour redistribuer l'eau au village."
+          text: "Une source d'eau se renouvelant lentement et fonctionnant toute l'année sans interruption. Fournit également un poste de responsable de l'eau qui redistribue l'eau au village."
       base:
         name:
           text: "Puits"
@@ -9662,12 +9669,17 @@ object:
     curtainWall:
       name:
         text: "Muraille"
+      description:
+        text: "Un mur géant qui à travers lequel il est difficile de passer ou tirer. Seules les ballistes peuvent tirer au dessus de ce mur."
     stoneWall:
       name:
         text: "Muret de pierre"
+      description:
+        text: "Un mur fort au dessus duquel la plupart des tours peuvent tirer. Les monstres ne les attaqueront que si ils ne peuvent pas trouver de chemin raisonnable vers le village."
     woodFence:
       name:
         text: "Clôture en bois"
+      description: "Une clôture basique qui aide à rediriger les ennemis, la plupart des tours peuvent tirer au dessus. Les monstres ne les attaqueront que si ils ne peuvent pas trouver de chemin raisonnable vers le village"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Resource Module

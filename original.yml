@@ -2114,6 +2114,9 @@ mapEditorLoadMapPanel:
   comment: "Main Menu State - Map Editor - Load Map Panel"
   javaClass: "rtr.gui.states.mainmenu.MapEditorLoadMapPanel.java"
   
+  mapAuthor:
+    text: "$YEL1Par : {authorName}"
+  
   button:
     loadMap:
       text: "Load Map"
@@ -6813,7 +6816,11 @@ missileName:
 mobName:
   comment: "Mob Module - Mob Names"
   javaClass: "rtr.mobs.MobBase.java" 
-      
+  
+  article:
+    comment: "This is used in a few rare cases where the game is referencing the mob as a noun and not a proper name. Like 'a Skeleton' instead of 'Bob Vance'. For example, 'Bob Vance is attacking a Skeleton' or 'a Skeleton is attacking Bob Vance'"
+    text: "a {mobName}"
+
   villageElder:
     single:
       text: "Village Elder"
@@ -8892,7 +8899,7 @@ object:
           text: "Makeshift Lightning Rod"
         description:
           text: "A large rod of iron that will attract lightning, and convert it to essence. Very handy to protect the village from lightning storms."
-      lightning:
+      base:
         name:
           text: "Lightning Rod"
         description:
@@ -9599,12 +9606,17 @@ object:
     curtainWall:
       name:
         text: "Curtain Wall"
+      description:
+        text: "A huge wall that's hard to get through, or shoot over. Only the ballista tower can shoot over this wall."
     stoneWall:
       name:
         text: "Stone Wall"
+      description:
+        text: "A strong wall, can be shot over by most towers and ranged attacks. Monsters will only attack them if they can not find another reasonable way into the village."
     woodFence:
       name:
         text: "Wood Fence"
+      description: "A basic fence to help reroute incoming enemies, can be shot over by most towers and ranged attacks. Monsters will only attack them if they can not find another reasonable way into the village."
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Resource Module
