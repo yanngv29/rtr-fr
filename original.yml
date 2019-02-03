@@ -1,8 +1,26 @@
-# How to edit: simply change the text inside the quotes!
+# How to edit: simply change the text inside the quotes following the text: parameter!
 
-# Variables: The curly braces {mobName}, {resourceName}, etc are variables for the phrase, to print dynamic data on screen. For example "You have {amount} villagers", {amount} would be the villager count itself. These must remain in the translated version as well, or the actual data will never be displayed.
+# Variables: The curly braces {mobName}, {resourceName}, etc are variables for the phrase, to print dynamic data on
+# screen. For example "You have {amount} villagers", {amount} would be the villager count itself. These must remain
+# in the translated version as well, or the actual data will never be displayed.
 
-# Colors: If you need to change around the coloring of text, it's fairly simple. All text by default is white, you need to add $COL1 where "COL" is the color code, and 0 through 2 is the brightness. Most text should have brightness set to 1. I recommend not changing the color codes used in each line (Although you can, it won't hurt anything), but for your language you may have to rearrange them a bit. Remember, changing the color will change all the color following that line until another color code is entered. So "My cat is $RED1red, and it's pretty!" will make "red, and it's pretty!" all in red. Where as "My cat is $RED1red$WHI0, and it's pretty!" will only set the word "red" to the color RED1.
+# Currently ONLY SUPPORTED IN DEATH MESSAGES there is a gender variable, for example a line you need to translate may
+# say "No one liked (him:her:them) anyway.", the variable inside is always formatting (male:female:none), and the correct 
+# gender will be picked based on (obviously) the gender of the mob that died. You can change the contents of the variables 
+# in any way you desire, as long as all three are there. You may also add or remove them as needed. Some languages 
+# (particularly the romance languages) may require you to change the entire structure of the sentence based on the 
+# gender reporting the message. For now, there's a small work around for this. Because you can put anything you want in 
+# the variables, you can do something like this; "(No one liked him anyway.:No one liked her anyway.:No one liked them anyway.)"
+# and rather than just replacing him, her or them, it'll replace the entire line. This will allow you to restructure the 
+# entire sentence depending on what gender has died.
+
+# Colors: If you need to change around the coloring of text, it's fairly simple. Most text by default is white, you need
+# to add $COL1 where "COL" is the color code, and 0 through 2 is the brightness. Most text should have brightness set
+# to 1. I recommend not changing the color codes used in each line (Although you can, it won't hurt anything), but for
+# your language you may have to rearrange them a bit. Remember, changing the color will change all the color following
+# that line until another color code is entered. So "My cat is $RED1red, and it's pretty!" will make "red, and it's
+# pretty!" all in red. Where as "My cat is $RED1red$WHI0, and it's pretty!" will only set the word "red" to the color RED1.
+
 # Valid Color Codes:
 # White/Default:  WHI0
 # Yellow:         YEL0, YEL1, YEL2
@@ -15,11 +33,19 @@
 # Orange:         ORA0, ORA1, ORA2
 # Magenta:        MAG0, MAG1, MAG2
 
-# Line Breaks: DO NOT EVER HIT ENTER/RETURN TO MAKE LINE BREAKS. To make a line break you must use the tilde (~) key. For example; "This is Line 1,~and this is Line 2" will print two lines, with "This is Line 1" on line one, and "and this is Line 2." on the second.
+# Line Breaks: DO NOT EVER HIT ENTER/RETURN TO MAKE LINE BREAKS. To make a line break you must use the tilde (~) key.
+# For example; "This is Line 1,~and this is Line 2" will print two lines, with "This is Line 1" on line one, and "and
+# this is Line 2." on the second.
 
-# Any time a line is left blank or removed, the game will load the default English version. Although I recommend not touching any lines you do not wish to translate.
+# Any time a line is left blank or removed, the game will load the default English version. Although I recommend not
+# touching any lines you do not wish to translate.
 
-# you can add forceCount: "true" directly below any text: line to tell the game that line is in fact translated, in the rare case no translation is actually required.
+# If an entry has optional: "true" directly below any text:, you are not required to translate that line. But you
+# may if you choose to, it just won't count to reaching 100%.
+
+# You can add forceCount: "true" directly below any text: line to tell the game that line is in fact translated,
+# in the rare case no translation is actually required. For example, the word "Bandage" is the same in English and
+# French, and thus there's no reason to translate it.
     
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # God Module
@@ -453,750 +479,1123 @@ perk:
   
   farellesConstitution:
     text: "Farelle's Constitution"
+    optional: "true"
   kevorkianBloom:
     text: "Kevorkian Bloom"
+    optional: "true"
   stensForm:
     text: "Sten's Form"
+    optional: "true"
   hardinessofMergen:
     text: "Hardiness of Mergen"
+    optional: "true"
   vitalityofFecht:
     text: "Vitality of Fecht"
+    optional: "true"
   shohunsRecovery:
     text: "Shohun's Recovery"
+    optional: "true"
   kanesathsResumption:
     text: "Kanesath's Resumption"
+    optional: "true"
   sulansRehabilitation:
     text: "Sulan's Rehabilitation"
+    optional: "true"
   lunnithunsReformation:
     text: "Lunnithun's Reformation"
+    optional: "true"
   sythumsRestoration:
     text: "Sythum's Restoration"
+    optional: "true"
   cravingsofJokur:
     text: "Cravings of Jokur"
+    optional: "true"
   karachosLonging:
     text: "Karacho's Longing"
+    optional: "true"
   namsansGluttony:
     text: "Namsan's Gluttony"
+    optional: "true"
   dixonpuffsCraving:
     text: "Dixonpuff's Craving"
+    optional: "true"
   riyasAppetite:
     text: "Riya's Appetite"
+    optional: "true"
   sagewingsGill:
     text: "Sagewing's Gill"
+    optional: "true"
   stonestandsGlut:
     text: "Stonestand's Glut"
+    optional: "true"
   brisksongsWholeness:
     text: "Brisksong's Wholeness"
+    optional: "true"
   ositansPlenty:
     text: "Ositan's Plenty"
+    optional: "true"
   mullarmsAmpleness:
     text: "Mullarm's Ampleness"
+    optional: "true"
   alamarsThirst:
     text: "Alamar's Thirst"
+    optional: "true"
   tearsofRaevyr:
     text: "Tears of Raevyr"
+    optional: "true"
   jaycesonsSucculences:
     text: "Jayceson's Succulences"
+    optional: "true"
   napthasSplashing:
     text: "Naptha's Splashing"
+    optional: "true"
   dobmmonsWetness:
     text: "Dobmmons Wetness"
+    optional: "true"
   gavtarlsSurplus:
     text: "Gavtarl's Surplus"
+    optional: "true"
   thranuraksSaliva:
     text: "Thranurak's Saliva"
+    optional: "true"
   gerardsLibation:
     text: "Gerard's Libation"
+    optional: "true"
   beasantsPreservative:
     text: "Beasant's Preservative"
+    optional: "true"
   burtonsBroth:
     text: "Burton's Broth"
+    optional: "true"
   enduranceofXandal:
     text: "Endurance of Xandal"
+    optional: "true"
   ilirithsActivity:
     text: "Ilirith's Activity"
+    optional: "true"
   shiraRestlessness:
     text: "Shira Restlessness"
+    optional: "true"
   dashofFabian:
     text: "Dash of Fabian"
+    optional: "true"
   namerusExertion:
     text: "Nameru's Exertion"
+    optional: "true"
   dittmarsLiveliness:
     text: "Dittmar's Liveliness"
+    optional: "true"
   ridleysEnterprise:
     text: "Ridley's Enterprise"
+    optional: "true"
   anselsEnergy:
     text: "Ansel's Energy"
+    optional: "true"
   appletonsFlurry:
     text: "Appleton's Flurry"
+    optional: "true"
   andreasAlertness:
     text: "Andrea's Alertness"
+    optional: "true"
   sinestrasIntellect:
     text: "Sinestra's Intellect"
+    optional: "true"
   cordialofHansard:
     text: "Cordial of Hansard"
+    optional: "true"
   narsFriendliness:
     text: "Nar's Friendliness"
+    optional: "true"
   morladsSociablility:
     text: "Morlad's Sociablility"
+    optional: "true"
   tiberiumkylesWisdom:
     text: "Tiberiumkyle's Wisdom"
+    optional: "true"
   musisLilly:
     text: "Musi's Lilly"
+    optional: "true"
   hachimasLifeblood:
     text: "Hachima's Lifeblood"
+    optional: "true"
   dundarsDetermination:
-    text: "Dundar's Determination"
+    text: "Dundar’s Determination"
+    optional: "true"
   soteriasGift:
     text: "Soteria's Gift"
+    optional: "true"
   dudasMortality:
     text: "Duda's Mortality"
+    optional: "true"
   speedofTheOterions:
     text: "Speed of The Oterions"
+    optional: "true"
   hasteofGriseus:
     text: "Haste of Griseus"
+    optional: "true"
   nonimadsVelocity:
     text: "Nonimad's Velocity"
+    optional: "true"
   enicarsAgility:
     text: "Enicar's Agility"
+    optional: "true"
   owensPace:
     text: "Owen's Pace"
+    optional: "true"
   lillysProtection:
     text: "Lilly's Protection"
+    optional: "true"
   giosToughness:
     text: "Gio's Toughness"
+    optional: "true"
   skinofPriamus:
     text: "Skin of Priamus"
+    optional: "true"
   rivaresWard:
     text: "Rivare's Ward"
+    optional: "true"
   mushusBarrier:
     text: "Mushu's Barrier"
+    optional: "true"
   bargsSkirmish:
     text: "Barg's Skirmish"
+    optional: "true"
   filiconsStrike:
     text: "Filicon's Strike"
+    optional: "true"
   samansAggression:
     text: "Saman's Aggression"
+    optional: "true"
   shansealaRage:
     text: "Shanseala Rage"
+    optional: "true"
   magmelsFall:
     text: "Magmel's Fall"
+    optional: "true"
   darlonsDispatch:
     text: "Darlon's Dispatch"
+    optional: "true"
   exonsStrike:
     text: "Exon's Strike"
+    optional: "true"
   skalvernsCharge:
     text: "Skalvern's Charge"
+    optional: "true"
   norominsWrath:
     text: "Noromin's Wrath"
+    optional: "true"
   flamesofBivattus:
     text: "Flames of Bivattus"
+    optional: "true"
   daggarothsLift:
     text: "Daggaroth's Lift"
+    optional: "true"
   ginjasArms:
     text: "Ginja's Arms"
+    optional: "true"
   zerosGravitas:
     text: "Zero's Gravitas"
+    optional: "true"
   bibikisStamina:
     text: "Bibiki's Stamina"
+    optional: "true"
   clerothsLustiness:
     text: "Cleroth's Lustiness"
+    optional: "true"
   embraceofSpritus:
     text: "Embrace of Spritus"
+    optional: "true"
   snobosSatisfaction:
     text: "Snobo's Satisfaction"
+    optional: "true"
   rainsFlower:
     text: "Rain's Flower"
+    optional: "true"
   eldsResourcefulness:
     text: "Eld's Resourcefulness"
+    optional: "true"
   ciphersCataloguing:
     text: "Cipher's Cataloguing"
+    optional: "true"
   svarogsArrangement:
     text: "Svarog's Arrangement"
+    optional: "true"
   voxsStacking:
     text: "Vox's Stacking"
+    optional: "true"
   serakersArranging:
     text: "Seraker's Arranging"
+    optional: "true"
   vargsHabitation:
     text: "Varg's Habitation"
+    optional: "true"
   shelterofCingularis:
     text: "Shelter of Cingularis"
+    optional: "true"
   koshkasQuarterage:
     text: "Koshka's Quarterage"
+    optional: "true"
   xentiransHospitality:
     text: "Xentiran's Hospitality"
+    optional: "true"
   alendrusAccomodations:
     text: "Alendru's Accomodations"
+    optional: "true"
   fusrohsIntensity:
     text: "Fusroh's Intensity"
+    optional: "true"
   powerofCeris:
     text: "Power of Ceris"
+    optional: "true"
   handinessofZacharias:
     text: "Handiness of Zacharias"
+    optional: "true"
   aarkisEfficaciousness:
     text: "Aarki's Efficaciousness"
+    optional: "true"
   torlightUsefulness:
     text: "Torlight Usefulness"
+    optional: "true"
   leonhardsProliferation:
     text: "Leonhard's Proliferation"
+    optional: "true"
   brutaniansSprouting:
     text: "Brutanian's Sprouting"
+    optional: "true"
   growthoftheEverbloom:
     text: "Growth of the Everbloom"
+    optional: "true"
   lorrainesGrace:
     text: "Lorraine's Grace"
+    optional: "true"
   tranyasProduce:
     text: "Tranya's Produce"
+    optional: "true"
   eulersAlacrity:
     text: "Euler's Alacrity"
+    optional: "true"
   bormacsHeadway:
     text: "Bormac's Headway"
+    optional: "true"
   wrismokesHustle:
     text: "Wrismoke's Hustle"
+    optional: "true"
   raphimasBreeze:
     text: "Raphima's Breeze"
+    optional: "true"
   shrogersBriskness:
     text: "Shroger's Briskness"
+    optional: "true"
   rivarynsZeal:
     text: "Rivaryn's Zeal"
+    optional: "true"
   borasRush:
     text: "Bora's Rush"
+    optional: "true"
   returnofSilentis:
     text: "Return of Silentis"
+    optional: "true"
   ellongsYield:
     text: "Ellong's Yield"
+    optional: "true"
   reyekorasReaping:
     text: "Reyekora's Reaping"
+    optional: "true"
   shogunsPassion:
     text: "Shogun's Passion"
+    optional: "true"
   blacksIntensity:
     text: "Black's Intensity"
+    optional: "true"
   solairesForging:
     text: "Solaire's Forging"
+    optional: "true"
   raindonsMolding:
     text: "Raindon's Molding"
+    optional: "true"
   webbshinesTooling:
     text: "Webbshine's Tooling"
+    optional: "true"
   ariannasEagerness:
     text: "Arianna's Eagerness"
+    optional: "true"
   wuggysErection:
     text: "Wuggy's Erection"
+    optional: "true"
   xaerysArchitecture:
     text: "Xaerys Architecture"
+    optional: "true"
   visersterSkill:
     text: "Viserster Skill"
+    optional: "true"
   stewarbowCraftsmanship:
     text: "Stewarbow Craftsmanship"
+    optional: "true"
   lascerandisFabrication:
     text: "Lascerandi's Fabrication"
+    optional: "true"
   shapingofSayres:
     text: "Shaping of Sayres"
+    optional: "true"
   thollsJoining:
     text: "Tholl's Joining"
+    optional: "true"
   lollikersEngineering:
     text: "Lolliker's Engineering"
+    optional: "true"
   caclopsApex:
     text: "Caclop's Apex"
+    optional: "true"
   lyteniansDismembering:
     text: "Lytenian's Dismembering"
+    optional: "true"
   araxielsWrack:
     text: "Araxiel's Wrack"
+    optional: "true"
   dobgibsonsRuin:
     text: "Dobgibson's Ruin"
+    optional: "true"
   hawksSwiftness:
     text: "Hawk's Swiftness"
+    optional: "true"
   jamellsMania:
     text: "Jamell's Mania"
+    optional: "true"
   amaraesUrgency:
     text: "Amarae's Urgency"
+    optional: "true"
   anonlolisExpanse:
     text: "Anonloli's Expanse"
+    optional: "true"
   levelingofDracoreyes:
     text: "Leveling of Dracoreyes"
+    optional: "true"
   glittersmisHeadroom:
     text: "Glittersmi's Headroom"
+    optional: "true"
   tuxiaClearcutting:
     text: "Tuxia Clearcutting"
+    optional: "true"
   aeonsPatching:
     text: "Aeon's Patching"
+    optional: "true"
   andreisReconstruction:
     text: "Andrei's Reconstruction"
+    optional: "true"
   jimelightsReformation:
     text: "Jimelight's Reformation"
+    optional: "true"
   wookorasMending:
     text: "Wookora's Mending"
+    optional: "true"
   silvergarsOverhaul:
     text: "Silvergar's Overhaul"
+    optional: "true"
   fuguesRectification:
     text: "Fugue's Rectification"
+    optional: "true"
   anastrianasGrind:
     text: "Anastriana's Grind"
+    optional: "true"
   droghoffmansService:
     text: "Droghoffman's Service"
+    optional: "true"
   spiritofValiya:
     text: "Spirit of Valiya"
+    optional: "true"
   thollsReform:
     text: "Tholl's Reform"
+    optional: "true"
   kiplingsHoeing:
     text: "Kipling's Hoeing"
+    optional: "true"
   alvinsAgriculture:
     text: "Alvin's Agriculture"
+    optional: "true"
   woogsCultivation:
     text: "Woog's Cultivation"
+    optional: "true"
   tranyasAgronomy:
     text: "Tranya's Agronomy"
+    optional: "true"
   rhaelmartinsSeeding:
     text: "Rhaelmartin's Seeding"
+    optional: "true"
   leviathansCuring:
     text: "Leviathan's Curing"
+    optional: "true"
   alathasInvigoration:
     text: "Alatha's Invigoration"
+    optional: "true"
   cralightsPlacebo:
     text: "Cralight's Placebo"
+    optional: "true"
   bakerolasRecovery:
     text: "Bakerola's Recovery"
+    optional: "true"
   millsellsReparation:
     text: "Millsell's Reparation"
+    optional: "true"
   sagarsBottle:
     text: "Sagar's Bottle"
+    optional: "true"
   destonsCanteen:
     text: "Deston's Canteen"
+    optional: "true"
   ronjasCapsule:
     text: "Ronja's Capsule"
+    optional: "true"
   venettasTank:
     text: "Venetta's Tank"
+    optional: "true"
   damiasTub:
     text: "Damia's Tub"
+    optional: "true"
   oliviasDevelopment:
     text: "Olivia's Development"
+    optional: "true"
   rivasEscalation:
     text: "Riva's Escalation"
+    optional: "true"
   alyshasUpgrade:
     text: "Alysha's Upgrade"
+    optional: "true"
   yseultsInflation:
     text: "Yseult's Inflation"
+    optional: "true"
   tyndallsExaggeration:
     text: "Tyndall's Exaggeration"
+    optional: "true"
   tiffaniesSpread:
     text: "Tiffanie's Spread"
+    optional: "true"
   shelleysUpsurge:
     text: "Shelley's Upsurge"
+    optional: "true"
   lickashsOptimization:
     text: "Lickash's Optimization"
+    optional: "true"
   krunluksFlow:
     text: "Krunluk's Flow"
+    optional: "true"
   glithasStimulation:
     text: "Glitha's Stimulation"
+    optional: "true"
   bellowflowsInvigoration:
     text: "Bellowflow's Invigoration"
+    optional: "true"
   finespansBoost:
     text: "Finespan's Boost"
+    optional: "true"
   wigglespellsAccrual:
     text: "Wigglespell's Accrual"
+    optional: "true"
   bunameenksWaxing:
     text: "Bunameenk's Waxing"
+    optional: "true"
   ublathozzsBuild-up:
     text: "Ublathozz's Build-up"
+    optional: "true"
   thylinklazsAddition:
     text: "Thylinklaz's Addition"
+    optional: "true"
   klerosNumbers:
     text: "Klero's Numbers"
+    optional: "true"
   noldicksAmassing:
     text: "Noldick's Amassing"
+    optional: "true"
   fabiansInfusion:
     text: "Fabian's Infusion"
+    optional: "true"
   bemarinsBuild:
     text: "Bemarin's Build"
+    optional: "true"
   inemeonsEnergizing:
     text: "Inemeon's Energizing"
+    optional: "true"
   jovimaviasAccumulation:
     text: "Jovimavia's Accumulation"
+    optional: "true"
   zanliasGain:
     text: "Zanlia's Gain"
+    optional: "true"
   hodisAugmentation:
     text: "Hodi's Augmentation"
+    optional: "true"
   balthisEnlargement:
     text: "Balthi's Enlargement"
+    optional: "true"
   jeremiahsEnflanginator:
     text: "Jeremiah's Enflanginator"
+    optional: "true"
   drengundsExtension:
     text: "Drengund's Extension"
+    optional: "true"
   bhuldemsSupplements:
     text: "Bhuldem's Supplements"
+    optional: "true"
   egusSurge:
     text: "Egu's Surge"
+    optional: "true"
   uglasCharge:
     text: "Ugla's Charge"
+    optional: "true"
   omarsExciter:
     text: "Omar's Exciter"
+    optional: "true"
   rowansVitalization:
     text: "Rowan's Vitalization"
+    optional: "true"
   ramseysAccumulation:
     text: "Ramsey's Accumulation"
+    optional: "true"
   patstricksAllurement:
     text: "Patstrick's Allurement"
+    optional: "true"
   divinationofAidos:
     text: "Divination of Aidos"
+    optional: "true"
   aronsAscension:
     text: "Arons Ascension"
+    optional: "true"
   hughsGambit:
     text: "Hugh's Gambit"
+    optional: "true"
   vigorofAngerris:
     text: "Vigor of Angerris"
+    optional: "true"
   braktarsRighteousness:
     text: "Braktar's Righteousness"
+    optional: "true"
   glendaysInflation:
     text: "Glenday's Inflation"
+    optional: "true"
   serarosAccession:
     text: "Seraro's Accession"
+    optional: "true"
   additionsofAngerris:
     text: "Additions of Angerris"
+    optional: "true"
   agerrasBuildup:
     text: "Agerra's Buildup"
+    optional: "true"
   pixrtonsGains:
     text: "Pixrton's Gains"
+    optional: "true"
   bloomsGlorification:
     text: "Bloom's Glorification"
+    optional: "true"
   acurasAccumulation:
     text: "Acura's Accumulation"
+    optional: "true"
   galmisExpansion:
     text: "Galmi's Expansion"
+    optional: "true"
   lolliwoodsSurge:
     text: "Lolliwood's Surge"
+    optional: "true"
   drogverasUpgrade:
     text: "Drogvera's Upgrade"
+    optional: "true"
   solairesAugmentation:
     text: "Solaire's Augmentation"
+    optional: "true"
   wendusContinuance:
     text: "Wendu's Continuance"
+    optional: "true"
   raindonsPerpetuation:
     text: "Raindon's Perpetuation"
+    optional: "true"
   gibsonshinesStretch:
     text: "Gibsonshine's Stretch"
+    optional: "true"
   redsPerpetuation:
     text: "Red's Perpetuation"
+    optional: "true"
   belindasRadius:
     text: "Belinda's Radius"
+    optional: "true"
   jaedensBringing:
     text: "Jaeden's Bringing"
+    optional: "true"
   redfieldsDraw:
     text: "Redfield's Draw"
+    optional: "true"
   jeremiasReload:
     text: "Jeremia's Reload"
+    optional: "true"
   reubensAcceleration:
     text: "Reuben's Acceleration"
+    optional: "true"
   clarksMomentum:
     text: "Clark's Momentum"
+    optional: "true"
   cristobalsRenewal:
     text: "Cristobal's Renewal"
+    optional: "true"
   goransPace:
     text: "Goran's Pace"
+    optional: "true"
   marcosRubio:
     text: "Marco's Rubio"
+    optional: "true"
   godfreysExpenditure:
     text: "Godfrey's Expenditure"
+    optional: "true"
   rutlandsConsumption:
     text: "Rutland's Consumption"
+    optional: "true"
   edgesAssimilation:
     text: "Edge's Assimilation"
+    optional: "true"
   fleurettesRetention:
     text: "Fleurette's Retention"
+    optional: "true"
   lizettesVision:
     text: "Lizette's Vision"
+    optional: "true"
   belindasField:
     text: "Belinda's Field"
+    optional: "true"
   astleysTerritory:
     text: "Astley's Territory"
+    optional: "true"
   hametsRestock:
     text: "Hamet's Restock"
+    optional: "true"
   knotleysFleetness:
     text: "Knotley's Fleetness"
+    optional: "true"
   xixsExpeditiousness:
     text: "Xix's Expeditiousness"
+    optional: "true"
   xandersSwiftness:
     text: "Xander's Swiftness"
+    optional: "true"
   farksRush:
     text: "Fark's Rush"
+    optional: "true"
   malinsInvestment:
     text: "Malin's Investment"
+    optional: "true"
   marianesUtilization:
     text: "Mariane's Utilization"
+    optional: "true"
   angelettasFusion:
     text: "Angeletta's Fusion"
+    optional: "true"
   lillynsAdaptability:
     text: "Lillyn's Adaptability"
+    optional: "true"
   glowvalesQuantity:
     text: "Glowvale's Quantity"
+    optional: "true"
   lynnesRange:
     text: "Lynne's Range"
+    optional: "true"
   kowalskisScope:
     text: "Kowalski's Scope"
+    optional: "true"
   hannahsLength:
     text: "Hannah's Length"
+    optional: "true"
   jakesReplacing:
     text: "Jake's Replacing"
+    optional: "true"
   daxtersPromptitude:
     text: "Daxter's Promptitude"
+    optional: "true"
   kamilsAlacrity:
     text: "Kamil's Alacrity"
+    optional: "true"
   horseysHustle:
     text: "Horsey's Hustle"
+    optional: "true"
   huntersUrgency:
     text: "Hunter's Urgency"
+    optional: "true"
   foxsLimits:
     text: "Fox's Limits"
+    optional: "true"
   gwenaelsDomain:
     text: "Gwenael's Domain"
+    optional: "true"
   albertonsSwing:
     text: "Alberton's Swing"
+    optional: "true"
   sporksReplenishment:
     text: "Spork's Replenishment"
+    optional: "true"
   benjaminsScale:
     text: "Benjamin's Scale"
+    optional: "true"
   costellosProgression:
     text: "Costello's Progression"
+    optional: "true"
   stephaniesInsistence:
     text: "Stephanie's Insistence"
+    optional: "true"
   lonnebroodsExigency:
     text: "Lonnebrood's Exigency"
+    optional: "true"
   albertsSpan:
     text: "Albert's Span"
+    optional: "true"
   johnsonsWidth:
     text: "Johnson's Width"
+    optional: "true"
   poindextersBreadth:
     text: "Poindexter's Breadth"
+    optional: "true"
   belsamethsProficiency:
     text: "Belsameth's Proficiency"
+    optional: "true"
   jadesDestruction:
     text: "Jade's Destruction"
+    optional: "true"
   nedrasProductivity:
     text: "Nedra's Productivity"
+    optional: "true"
   sengoretsAbundance:
     text: "Sengoret's Abundance"
+    optional: "true"
   elesiasAmplitude:
     text: "Elesia's Amplitude"
+    optional: "true"
   loransFarness:
     text: "Loran's Farness"
+    optional: "true"
   stephensHorizon:
     text: "Stephen's Horizon"
+    optional: "true"
   rydwaltsSweep:
     text: "Rydwalt's Sweep"
+    optional: "true"
   gregorsProgression:
     text: "Gregor's Progression"
+    optional: "true"
   rowsdowersDivvy:
     text: "Rowsdower's Divvy"
+    optional: "true"
   maximiliansTempo:
     text: "Maximilian's Tempo"
+    optional: "true"
   guybrushsPace:
     text: "Guybrush's Pace"
+    optional: "true"
   mcAllistersSkills:
     text: "McAllister's Skills"
+    optional: "true"
   threepwoodsFaculty:
     text: "Threepwood's Faculty"
+    optional: "true"
   ajarnsStandard:
     text: "Ajarn's Standard"
+    optional: "true"
   chartsScale:
     text: "Chart's Scale"
+    optional: "true"
   martinsOvercharge:
     text: "Martin's Overcharge"
+    optional: "true"
   nathansPotential:
     text: "Nathan's Potential"
+    optional: "true"
   marcsMuscle:
     text: "Marc's Muscle"
+    optional: "true"
   camillesPush:
     text: "Camille's Push"
+    optional: "true"
   vichetsRange:
     text: "Vichet's Range"
+    optional: "true"
   alexandersQuota:
     text: "Alexander's Quota"
+    optional: "true"
   qinsApportionment:
     text: "Qin's Apportionment"
+    optional: "true"
   johsRate:
     text: "Joh's Rate"
+    optional: "true"
   earnestsDispatchment:
     text: "Earnest's Dispatchment"
+    optional: "true"
   troysCelerity:
     text: "Troy's Celerity"
+    optional: "true"
   morikhanninsPowder:
     text: "Morikhannin's Powder"
+    optional: "true"
   gaborsSupercharge:
     text: "Gabor's Supercharge"
+    optional: "true"
   ushalgsClout:
     text: "Ushalg's Clout"
+    optional: "true"
   billsShifting:
     text: "Bill's Shifting"
+    optional: "true"
   wesleysCreation:
     text: "Wesley's Creation"
+    optional: "true"
   bondesExpansion:
     text: "Bonde's Expansion"
+    optional: "true"
   roguesSpread:
     text: "Rogue's Spread"
+    optional: "true"
   hatschimakisFoundation:
     text: "Hatschimaki's Foundation"
+    optional: "true"
   uptonsDuress:
     text: "Upton's Duress"
+    optional: "true"
   jonasFury:
     text: "Jona's Fury"
+    optional: "true"
   leonidsExhaustion:
     text: "Leonid's Exhaustion"
+    optional: "true"
   damianosFormulation:
     text: "Damiano's Formulation"
+    optional: "true"
   raissasProduction:
     text: "Raissa's Production"
+    optional: "true"
   lilosReprisal:
     text: "Lilo's Reprisal"
+    optional: "true"
   hildasCache:
     text: "Hilda's Cache"
+    optional: "true"
   charmainesReserve:
     text: "Charmaine's Reserve"
+    optional: "true"
   fridasAuxiliary:
     text: "Frida's Auxiliary"
+    optional: "true"
   faithofPompeii:
     text: "Faith of Pompeii"
+    optional: "true"
   brigettesMotility:
     text: "Brigette's Motility"
+    optional: "true"
   ceciliasEstate:
     text: "Cecilia's Estate"
+    optional: "true"
   almasAdjuvant:
     text: "Alma's Adjuvant"
+    optional: "true"
   jordansEquity:
     text: "Jordan's Equity"
+    optional: "true"
   marquisasAllotment:
     text: "Marquisa's Allotment"
+    optional: "true"
   piasPower:
     text: "Pia's Power"
+    optional: "true"
   madalenesDisembark:
     text: "Madalene's Disembark"
+    optional: "true"
   huldasFleetness:
     text: "Hulda's Fleetness"
+    optional: "true"
   olympesGenesis:
     text: "Olympe's Genesis"
+    optional: "true"
   ashleesAnchor:
     text: "Ashlee's Anchor"
+    optional: "true"
   lorrainasAccess:
     text: "Lorraina's Access"
+    optional: "true"
   mckenziesattainanance:
     text: "Mckenzie's attainanance"
+    optional: "true"
   parksSubservience:
     text: "Park's Subservience"
+    optional: "true"
   corinsWeight:
     text: "Corin's Weight"
+    optional: "true"
   roswellsMobility:
     text: "Roswell's Mobility"
+    optional: "true"
   hammettsVoyaging:
     text: "Hammett's Voyaging"
+    optional: "true"
   wadesPromptness:
     text: "Wade's Promptness"
+    optional: "true"
   nottleysBriskness:
     text: "Nottley's Briskness"
+    optional: "true"
   colbysBustle:
     text: "Colby's Bustle"
+    optional: "true"
   pellsFlight:
     text: "Pell's Flight"
+    optional: "true"
   chestersEmbarkment:
     text: "Chester's Embarkment"
+    optional: "true"
   brooksOrbit:
     text: "Brook's Orbit"
+    optional: "true"
   xaverinesCompass:
     text: "Xaverine's Compass"
+    optional: "true"
   mariechensHorizon:
     text: "Mariechen's Horizon"
+    optional: "true"
   mildenhallsGrowth:
     text: "Mildenhall's Growth"
+    optional: "true"
   finjasFarness:
     text: "Finja's Farness"
+    optional: "true"
   stampersExtent:
     text: "Stamper's Extent"
+    optional: "true"
   mikklesEagerness:
     text: "Mikkle's Eagerness"
+    optional: "true"
   ahmedsGait:
     text: "Ahmed's Gait"
+    optional: "true"
   gavinsPromptitude:
     text: "Gavin's Promptitude"
+    optional: "true"
   howellsExertion:
     text: "Howell's Exertion"
+    optional: "true"
   dalyngriggesMoxie:
     text: "Dalyngrigge's Moxie"
+    optional: "true"
   igorsEnergy:
     text: "Igor's Energy"
+    optional: "true"
   kilosDrive:
     text: "Kilo's Drive"
+    optional: "true"
   caseysEfficiency:
     text: "Casey's Efficiency"
+    optional: "true"
   mcChrystalsFlurry:
     text: "McChrystal's Flurry"
+    optional: "true"
   boltonsRush:
     text: "Bolton's Rush"
+    optional: "true"
   edwardsMunitions:
     text: "Edward's Munitions"
+    optional: "true"
   middlecoatsArms:
     text: "Middlecoat's Arms"
+    optional: "true"
   caseysOrdnance:
     text: "Casey's Ordnance"
+    optional: "true"
   oslauthsDepository:
     text: "Oslauth's Depository"
+    optional: "true"
   manlysArsenal:
     text: "Manly's Arsenal"
+    optional: "true"
   terimortsAbridgment:
     text: "Terimort's Abridgment"
+    optional: "true"
   unveilingofVaelophis:
     text: "Unveiling of Vaelophis"
+    optional: "true"
   leyasCompression:
     text: "Leya's Compression"
+    optional: "true"
   scottaugsIntroduction:
     text: "Scottaug's Introduction"
+    optional: "true"
   serarosActualization:
     text: "Seraro's Actualization"
+    optional: "true"
   avenarMultiplication:
     text: "Avenar Multiplication"
+    optional: "true"
   nyxsExaggeration:
     text: "Nyx's Exaggeration"
+    optional: "true"
   garkneesAugmentation:
     text: "Garknee's Augmentation"
+    optional: "true"
   drogcartersAccumulation:
     text: "Drogcarter's Accumulation"
+    optional: "true"
   visermyersRise:
     text: "Visermyer's Rise"
+    optional: "true"
   gingersSpirit:
     text: "Ginger's Spirit"
+    optional: "true"
   rainesGrowth:
     text: "Raine's Growth"
+    optional: "true"
   blessingofNoveriah:
     text: "Blessing of Noveriah"
+    optional: "true"
   perookiesScent:
     text: "Perookie's Scent"
+    optional: "true"
   hadrinasHabitat:
     text: "Hadrina's Habitat"
+    optional: "true"
   limbysThrift:
     text: "Limby's Thrift"
+    optional: "true"
   deductionofSalvak:
     text: "Deduction of Salvak"
+    optional: "true"
   noteofBlasphemy:
     text: "Note of Blasphemy"
+    optional: "true"
   dayaphimasBarter:
     text: "Dayaphima's Barter"
+    optional: "true"
   tamanesRecession:
     text: "Tamane's Recession"
+    optional: "true"
   keithsFlourishing:
     text: "Keith's Flourishing"
+    optional: "true"
   nizzsStrengthening:
     text: "Nizz's Strengthening"
+    optional: "true"
   robertsUnwrinkling:
     text: "Robert's Unwrinkling"
+    optional: "true"
   rugmuksIndelibility:
     text: "Rugmuk's Indelibility "
+    optional: "true"
   austinsFiber:
     text: "Austin's Fiber"
+    optional: "true"
   domorosTake:
     text: "Domoro's Take"
+    optional: "true"
   marcelosHaul:
     text: "Marcelo's Haul"
+    optional: "true"
   kittenheartsBooty:
     text: "Kittenheart's Booty"
+    optional: "true"
   pettigrewsSqueeze:
     text: "Pettigrew's Squeeze"
+    optional: "true"
   sungwoosPillages:
     text: "Sungwoo's Pillages"
+    optional: "true"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Time Module
@@ -1829,12 +2228,12 @@ goal:
      
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Main Menu State
-# Map List Buttons
+# Map and Map Pack List Buttons
 # rtr.gui.buttons.GUIButtonMapList.java
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
 mainMenuMapListButton:
-  comment: "Main Menu State - Map List Buttons"
+  comment: "Main Menu State - Map and Map Pack List Buttons"
   javaClass: "rtr.gui.buttons.GUIButtonMapList.java"
   
   button:
@@ -1974,7 +2373,7 @@ mainMenuLanguageSelectPanel:
         text: "Percentage Translated"
       
   languageAccuracy:
-    text: "$CYA0Language packs are made by hard working members of the community, but may not be 100% accurate or complete! If you find an error, please report it to the player who made the pack you downloaded!"
+    text: "$CYA0Language packs are made by hard working members of the community, $YEL0but may not be 100% accurate or complete!$CYA0 If you find an error, please report it to the player who made the pack you downloaded!"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Main Menu State
@@ -2015,6 +2414,7 @@ mainMenuMainMenuPanel:
       text: "Load Map"
     devTools:
       text: "Dev Tools"
+      optional: "true"
     tutorialVideo:
       text: "Tutorial Video"
     settings:
@@ -2029,12 +2429,16 @@ mainMenuMainMenuPanel:
       text: "Back"
     scrubMapImages:
       text: "Scrub Map Images"
+      optional: "true"
     generateMapSheet:
       text: "Generate Map Sheet"
+      optional: "true"
     runLineCounter:
       text: "Run Line Counter"
+      optional: "true"
     generateVideoSheet:
       text: "Generate Video Sheet"
+      optional: "true"
     rollover:
       twitch:
         text: "Follow on Twitch!"
@@ -2100,7 +2504,7 @@ mapEditorLoadMapDeleteWarningPanel:
   header:
     text: "$ORA1Are you sure?!"
   body:
-    text: "Whoa, whoa, are you sure~you want to delete map $GRE1{mapName}??"
+    text: "Whoa, whoa, are you sure you want to delete map $GRE1{mapName}??"
   bodyConfirm:
     text: "$RED1Seriously are you ABSOLUTELY sure? The map will be lost forever! (That's a really long time!)"
 
@@ -2114,14 +2518,14 @@ mapEditorLoadMapPanel:
   comment: "Main Menu State - Map Editor - Load Map Panel"
   javaClass: "rtr.gui.states.mainmenu.MapEditorLoadMapPanel.java"
   
-  mapAuthor:
-    text: "$YEL1Par : {authorName}"
-  
   button:
     loadMap:
       text: "Load Map"
     deleteMap:
       text: "Delete Map"
+  
+  mapAuthor:
+    text: "$YEL1By: {authorName}"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Main Menu State
@@ -2144,7 +2548,7 @@ mapEditorNewMapDeleteWarningPanel:
   header:
     text: "$ORA1Are you sure?!"
   body:
-    text: "Whoa, whoa, are you sure~you want to delete map pack $GRE1{mapName}??"
+    text: "Whoa, whoa, are you sure you want to delete map pack $GRE1{mapName}??"
   bodyConfirm:
     text: "$RED1Seriously are you ABSOLUTELY sure? The map pack will be lost forever! (That's a really long time!)"
 
@@ -2484,15 +2888,20 @@ mapEditorRegionalDataPanel:
   button:
     save:
       text: "Save"
+      optional: "true"
       
   header:
     text: "Region List"
+    optional: "true"
   connectedRegions:
     text: "Connected Regions"
+    optional: "true"
   notSetPlaceholder:
     text: "Not Set"
+    optional: "true"
   worldMapCoordinates:
     text: "World Map Coordinates"
+    optional: "true"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Map Editor State / Play State
@@ -5193,6 +5602,8 @@ sharedDataViewsPanel:
       text: "Traffic"
     roadDurability:
       text: "Road Durability"
+    villageThreatMap:
+      text: "Vil. Threat Map"
       
   header:
     text: "Data Views"
@@ -5209,6 +5620,7 @@ sharedDebugData:
   
   fps:
     text: "$GRE1FPS: {fps}"
+    optional: true
   totalRuntime:
     text: "$GRE1Total Runtime: {hours}:{minutes}:{seconds}"
   mapPosition:
@@ -6045,7 +6457,7 @@ worldMapGameModeSelectPanel:
       
   description:
     nightmare:
-      text: "A nearly impossible game mode designed to challenge even the best players. Expect an unfair and ruthless experience. This mode is for the masochist in all of us.~~$RED0Do NOT pick this game mode. Seriously, just don't!~~"
+      text: "A nearly impossible game mode designed to challenge even the best players. Expect an unfair and ruthless experience. This mode is for the masochist in all of us.~~$RED0Do NOT pick this game mode. Seriously, just don't!"
     survival:
       text: "The way the game is meant to be played. Unforgivingly brutal, with a steep learning curve.~~$RED0Expect to lose frequently!~~$GRE0Try out traditional mode if survival is too much for you."
     traditional:
@@ -6816,11 +7228,11 @@ missileName:
 mobName:
   comment: "Mob Module - Mob Names"
   javaClass: "rtr.mobs.MobBase.java" 
-  
+      
   article:
-    comment: "This is used in a few rare cases where the game is referencing the mob as a noun and not a proper name. Like 'a Skeleton' instead of 'Bob Vance'. For example, 'Bob Vance is attacking a Skeleton' or 'a Skeleton is attacking Bob Vance'"
+    comment: "This is used in a few rare cases where the game is referencing the mob as a common noun and not a proper noun. Like 'a Skeleton' instead of 'Bob Vance'. For example, 'Bob Vance is attacking a Skeleton' or 'a Skeleton is attacking Bob Vance'"
     text: "a {mobName}"
-
+      
   villageElder:
     single:
       text: "Village Elder"
@@ -9616,7 +10028,8 @@ object:
     woodFence:
       name:
         text: "Wood Fence"
-      description: "A basic fence to help reroute incoming enemies, can be shot over by most towers and ranged attacks. Monsters will only attack them if they can not find another reasonable way into the village."
+      description:
+        text: "A basic fence to help reroute incoming enemies, can be shot over by most towers and ranged attacks. Monsters will only attack them if they can not find another reasonable way into the village."
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Resource Module

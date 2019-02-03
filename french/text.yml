@@ -1,8 +1,26 @@
-# How to edit: simply change the text inside the quotes!
+# How to edit: simply change the text inside the quotes following the text: parameter!
 
-# Variables: The curly braces {mobName}, {resourceName}, etc are variables for the phrase, to print dynamic data on screen. For example "You have {amount} villagers", {amount} would be the villager count itself. These must remain in the translated version as well, or the actual data will never be displayed.
+# Variables: The curly braces {mobName}, {resourceName}, etc are variables for the phrase, to print dynamic data on
+# screen. For example "You have {amount} villagers", {amount} would be the villager count itself. These must remain
+# in the translated version as well, or the actual data will never be displayed.
 
-# Colors: If you need to change around the coloring of text, it's fairly simple. All text by default is white, you need to add $COL1 where "COL" is the color code, and 0 through 2 is the brightness. Most text should have brightness set to 1. I recommend not changing the color codes used in each line (Although you can, it won't hurt anything), but for your language you may have to rearrange them a bit. Remember, changing the color will change all the color following that line until another color code is entered. So "My cat is $RED1red, and it's pretty!" will make "red, and it's pretty!" all in red. Where as "My cat is $RED1red$WHI0, and it's pretty!" will only set the word "red" to the color RED1.
+# Currently ONLY SUPPORTED IN DEATH MESSAGES there is a gender variable, for example a line you need to translate may
+# say "No one liked (him:her:them) anyway.", the variable inside is always formatting (male:female:none), and the correct 
+# gender will be picked based on (obviously) the gender of the mob that died. You can change the contents of the variables 
+# in any way you desire, as long as all three are there. You may also add or remove them as needed. Some languages 
+# (particularly the romance languages) may require you to change the entire structure of the sentence based on the 
+# gender reporting the message. For now, there's a small work around for this. Because you can put anything you want in 
+# the variables, you can do something like this; "(No one liked him anyway.:No one liked her anyway.:No one liked them anyway.)"
+# and rather than just replacing him, her or them, it'll replace the entire line. This will allow you to restructure the 
+# entire sentence depending on what gender has died.
+
+# Colors: If you need to change around the coloring of text, it's fairly simple. Most text by default is white, you need
+# to add $COL1 where "COL" is the color code, and 0 through 2 is the brightness. Most text should have brightness set
+# to 1. I recommend not changing the color codes used in each line (Although you can, it won't hurt anything), but for
+# your language you may have to rearrange them a bit. Remember, changing the color will change all the color following
+# that line until another color code is entered. So "My cat is $RED1red, and it's pretty!" will make "red, and it's
+# pretty!" all in red. Where as "My cat is $RED1red$WHI0, and it's pretty!" will only set the word "red" to the color RED1.
+
 # Valid Color Codes:
 # White/Default:  WHI0
 # Yellow:         YEL0, YEL1, YEL2
@@ -15,11 +33,19 @@
 # Orange:         ORA0, ORA1, ORA2
 # Magenta:        MAG0, MAG1, MAG2
 
-# Line Breaks: DO NOT EVER HIT ENTER/RETURN TO MAKE LINE BREAKS. To make a line break you must use the tilde (~) key. For example; "This is Line 1,~and this is Line 2" will print two lines, with "This is Line 1" on line one, and "and this is Line 2." on the second.
+# Line Breaks: DO NOT EVER HIT ENTER/RETURN TO MAKE LINE BREAKS. To make a line break you must use the tilde (~) key.
+# For example; "This is Line 1,~and this is Line 2" will print two lines, with "This is Line 1" on line one, and "and
+# this is Line 2." on the second.
 
-# Any time a line is left blank or removed, the game will load the default English version. Although I recommend not touching any lines you do not wish to translate.
+# Any time a line is left blank or removed, the game will load the default English version. Although I recommend not
+# touching any lines you do not wish to translate.
 
-# You can add forceCount: "true" directly below any text: line to tell the game that line is in fact translated, in the rare case no translation is actually required.
+# If an entry has optional: "true" directly below any text:, you are not required to translate that line. But you
+# may if you choose to, it just won't count to reaching 100%.
+
+# You can add forceCount: "true" directly below any text: line to tell the game that line is in fact translated,
+# in the rare case no translation is actually required. For example, the word "Bandage" is the same in English and
+# French, and thus there's no reason to translate it.
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # God Module
@@ -1749,36 +1775,36 @@ goal:
       text: "Accueil de nomades"
     body:
       any:
-        text: "Accueille $GRE1{amount} nomades n'importe où $WHI0!"
+        text: "Accueillez $GRE1{amount} nomades n'importe où $WHI0!"
       specific:
-        text: "Accueille $GRE1{amount} nomades $WHI0dans $GRE1{mapName} $WHI0!"
+        text: "Accueillez $GRE1{amount} nomades $WHI0dans $GRE1{mapName} $WHI0!"
       
   build:
     header:
       text: "Construction"
     body:
       any:
-        text: "Construis $GRE1{amount} {buildingName} n'importe où $WHI0!"
+        text: "Construisez $GRE1{amount} {buildingName} n'importe où $WHI0!"
       specific:
         any:
-          text: "Construis $GRE1{amount} bâtiments n'importe où $WHI0!"
+          text: "Construisez $GRE1{amount} bâtiments n'importe où $WHI0!"
         specific:
-          text: "Construis $GRE1{amount} bâtiments $WHI0dans $GRE1{mapName} $WHI0!"
+          text: "Construisez $GRE1{amount} bâtiments $WHI0dans $GRE1{mapName} $WHI0!"
           
   upgrade:
     header:
       any:
         text: "Amélioration"
       specific:
-        text: "Améliore $GRE1{buildingName}"
+        text: "Améliorez $GRE1{buildingName}"
     body:
       any:
-        text: "Améliore $GRE1{amount} {buildingName} n'importe où $WHI0!"
+        text: "Améliorez $GRE1{amount} {buildingName} n'importe où $WHI0!"
       specific:
         any:
-          text: "Améliore $GRE1{amount} bâtiments n'importe où $WHI0!"
+          text: "Améliorez $GRE1{amount} bâtiments n'importe où $WHI0!"
         specific:
-          text: "Améliore $GRE1{amount} bâtiments $WHI0dans $GRE1{mapName} $WHI0!"
+          text: "Améliorez $GRE1{amount} bâtiments $WHI0dans $GRE1{mapName} $WHI0!"
           
   domestication:
     header:
@@ -1786,18 +1812,18 @@ goal:
       forceCount: "true"
     body:
       any:
-        text: "Domestique $GRE1{amount} chiens n'importe où $WHI0!"
+        text: "Domestiquez $GRE1{amount} chiens n'importe où $WHI0!"
       specific:
-        text: "Domestique $GRE1{amount} chiens $WHI0dans $GRE1{mapName} $WHI0!"
+        text: "Domestiquez $GRE1{amount} chiens $WHI0dans $GRE1{mapName} $WHI0!"
       
   levelUp:
     header:
       text: "Niveau supérieur"
     body:
       any:
-        text: "Améliore le niveau de $GRE1{amount} villageois n'importe où $WHI0!"
+        text: "Améliorez le niveau de $GRE1{amount} villageois n'importe où $WHI0!"
       specific:
-        text: "Améliore le niveau de $GRE1{amount} villageois $WHI0dans $GRE1{mapName} $WHI0!"
+        text: "Améliorez le niveau de $GRE1{amount} villageois $WHI0dans $GRE1{mapName} $WHI0!"
       
   childBirth:
     header:
@@ -1813,9 +1839,9 @@ goal:
       text: "Ouverture de coffres"
     body:
       any:
-        text: "Ouvre $GRE1{amount} coffres à butin n'importe où $WHI0!"
+        text: "Ouvrez $GRE1{amount} coffres à butin n'importe où $WHI0!"
       specific:
-        text: "Ouvre $GRE1{amount} coffres à butin $WHI0dans $GRE1{mapName} $WHI0!"
+        text: "Ouvrez $GRE1{amount} coffres à butin $WHI0dans $GRE1{mapName} $WHI0!"
       
   throwMonsterInCullisGate:
     header:
@@ -1823,32 +1849,32 @@ goal:
     body:
       any:
         any:
-          text: "Jette $GRE1{amount} monstres $WHI0dans un portail cullis $GRE1n'importe où $WHI0!"
+          text: "Jettez $GRE1{amount} monstres $WHI0dans un portail cullis $GRE1n'importe où $WHI0!"
         specific:
-          text: "Jette $GRE1{amount} {mobNamePlural} $WHI0dans un portail cullis $GRE1n'importe où $WHI0!"
+          text: "Jettez $GRE1{amount} {mobNamePlural} $WHI0dans un portail cullis $GRE1n'importe où $WHI0!"
       specific:
         any:
-          text: "Jette $GRE1{amount} monstres $WHI0dans un portail cullis dans $GRE1{mapName} $WHI0!"
+          text: "Jettez $GRE1{amount} monstres $WHI0dans un portail cullis dans $GRE1{mapName} $WHI0!"
         specific:
-          text: "Jette $GRE1{amount} {mobNamePlural} $WHI0dans un portail cullis dans $GRE1{mapName} $WHI0!"
+          text: "Jettez $GRE1{amount} {mobNamePlural} $WHI0dans un portail cullis dans $GRE1{mapName} $WHI0!"
       
   resurrectGhosts:
     header:
       text: "Ressuscitation de fantômes"
     body:
       any:
-        text: "Ressuscite $GRE1{amount} $WHI0fantômes $GRE1n'importe où$WHI0."
+        text: "Ressuscitez $GRE1{amount} $WHI0fantômes $GRE1n'importe où$WHI0."
       specific:
-        text: "Ressuscite $GRE1{amount} $WHI0fantômes dans $GRE1{mapName} $WHI0!"
-
+        text: "Ressuscitez $GRE1{amount} $WHI0fantômes dans $GRE1{mapName} $WHI0!"
+     
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Main Menu State
-# Map List Buttons
+# Map and Map Pack List Buttons
 # rtr.gui.buttons.GUIButtonMapList.java
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
 mainMenuMapListButton:
-  comment: "Main Menu State - Map List Buttons"
+  comment: "Main Menu State - Map and Map Pack List Buttons"
   javaClass: "rtr.gui.buttons.GUIButtonMapList.java"
   
   button:
@@ -1989,7 +2015,7 @@ mainMenuLanguageSelectPanel:
         text: "Pourcentage traduit"
       
   languageAccuracy:
-    text: "$CYA0Les packs linguistiques sont conçus par des membres de la communauté qui travaillent dur, mais peuvent ne pas être précis ou complets à 100% ! Si vous trouvez une erreur, veuillez la signaler au joueur qui a fait le pack que vous avez téléchargé !"
+    text: "$CYA0Les packs linguistiques sont conçus par des membres de la communauté qui travaillent dur, $YEL1mais peuvent ne pas être précis ou complets à 100% ! $CYA0Si vous trouvez une erreur, veuillez la signaler au joueur qui a fait le pack que vous avez téléchargé !"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Main Menu State
@@ -2117,7 +2143,7 @@ mapEditorLoadMapDeleteWarningPanel:
   header:
     text: "$ORA1En êtes-vous certain ?!"
   body:
-    text: "Whoa, whoa, êtes-vous certain de~vouloir supprimer la carte $GRE1{mapName} ??"
+    text: "Whoa, whoa, êtes-vous certain de vouloir supprimer la carte $GRE1{mapName} ??"
   bodyConfirm:
     text: "$RED1Sérieusement, en êtes-vous absolument certain ? La carte sera perdue pour toujours ! (C'est vraiment long !)"
 
@@ -2130,15 +2156,15 @@ mapEditorLoadMapDeleteWarningPanel:
 mapEditorLoadMapPanel:
   comment: "Main Menu State - Map Editor - Load Map Panel"
   javaClass: "rtr.gui.states.mainmenu.MapEditorLoadMapPanel.java"
-  
-  mapAuthor:
-    text: "$YEL1Par : {authorName}"
 
   button:
     loadMap:
       text: "Ouvrir la carte"
     deleteMap:
       text: "Supprimer la carte"
+  
+  mapAuthor:
+    text: "$YEL1Par : {authorName}"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Main Menu State
@@ -2161,7 +2187,7 @@ mapEditorNewMapDeleteWarningPanel:
   header:
     text: "$ORA1En êtes-vous certain ?!"
   body:
-    text: "Whoa, whoa, êtes-vous certain de vouloir~supprimer le lot de cartes $GRE1{mapName} $WHI0??"
+    text: "Whoa, whoa, êtes-vous certain de vouloir supprimer le lot de cartes $GRE1{mapName} $WHI0??"
   bodyConfirm:
     text: "$RED1Sérieusement, en êtes-vous ABSOLUMENT sûr ? Le lot de cartes va être perdu pour toujours ! (C'est vraiment long !)"
 
@@ -3122,7 +3148,7 @@ mapEditorPlayHarvestAndTerrainBar:
       harvestFoodAndWaterHeader:
         text: "Récolter nourriture et eau ({shortcutKey})"
       harvestFoodAndWater:
-        text: "Définit la nourriture sauvage et les sources d'eau qui doivent être utilisées par les agriculteurs et les responsables de l'eau afin d'être utilisées dans les fermes et les purificateurs d'eau. Les agriculteurs n'iront chercher de l'eau que pour l'utiliser dans leurs fermes."
+        text: "Définit la nourriture sauvage et les sources d'eau qui doivent être utilisées par les agriculteurs et les responsables de l'eau afin d'être utilisées dans les fermes et les purificateurs d'eau. Les agriculteurs n'iront chercher de l'eau que pour leurs fermes."
       harvestCrystalHeader:
         text: "Récolter du cristal ({shortcutKey})"
       harvestCrystal:
@@ -3670,7 +3696,7 @@ playLeftPanel:
       send:
         text: "Envoyer"
       daily:
-        text: "Journalièrement"
+        text: "Par jour"
          
     sort:
       total:
@@ -4594,7 +4620,7 @@ playSelectedObjectUpgradePanel:
   buildingSlotsProvided:
     text: "Capacité de construction fournie : $GRE1+{amount}"
   acceptsEssence:
-    text: "Accepte l'essence des collecteurs d'essence"
+    text: "Prend l'essence des collecteurs d'essence"
   canCollectRawEssence:
     text: "Peut collecter de l'essence brute"
   consumesCrylithium:
@@ -5237,6 +5263,8 @@ sharedDataViewsPanel:
       text: "Trafic"
     roadDurability:
       text: "Durabilité des routes"
+    villageThreatMap:
+      text: "Carte des menaces"
       
   header:
     text: "Données"
@@ -5722,7 +5750,7 @@ worldMapCorruptionThreatBar:
     corruptionPowerHeader:
       text: "Force de la corruption"
     corruptionPower:
-      text: "Valeur numérique de la barre ci-dessous. Une valeur positive signifie une menace plus élevée que le niveau de référence et une valeur négative signifie qu'elle est plus faible. Vous pouvez réduire la force de la corruption en remplissant des objectifs ou en migrant vers d'autres régions."
+      text: "Valeur numérique de la barre ci-dessous. Une valeur positive signifie une menace plus élevée que le niveau de référence et une valeur négative signifie qu'elle est plus faible. Vous pouvez la réduire en remplissant des objectifs ou en migrant vers d'autres régions."
     worldCorruptionThreatHeader:
       text: "Menace de la corruption"
     worldCorruptionThreat:
@@ -6096,7 +6124,7 @@ worldMapGameModeSelectPanel:
       
   description:
     nightmare:
-      text: "Un mode de jeu presque impossible conçu pour mettre en difficulté les meilleurs joueurs. Attendez-vous à une expérience impitoyable. Ce mode est fait pour le masochiste qui se cache en chacun de nous.~~$RED0Ne choisissez PAS ce mode de jeu. Sérieusement, ne le faites pas !~~"
+      text: "Un mode de jeu presque impossible conçu pour mettre en difficulté les meilleurs joueurs. Attendez-vous à une expérience impitoyable. Ce mode est fait pour le masochiste qui se cache en chacun de nous.~~$RED0Ne choisissez PAS ce mode de jeu. Sérieusement, ne le faites pas !"
     survival:
       text: "La façon dont le jeu est censé être joué. Impitoyablement brutal, avec une courbe d'apprentissage abrupte.~~$RED0Attendez-vous à perdre fréquemment !~~$GRE0Essayez le mode traditionnel si le mode survie est trop compliqué pour vous."
     traditional:
@@ -6168,7 +6196,7 @@ worldMapMapSelectPanel:
     establishVillage:
       text: "Établir un village"
     visitRegionResetAI:
-      text: "Entrer dans la région (Réinitialiser l'IA)"
+      text: "Entrer (Réinit. IA)"
     close:
       text: "Fermer"
     
@@ -6213,7 +6241,7 @@ worldMapMapSelectPanel:
       monsters:
         text: "$RED1Monstres"
       saveRollback:
-        text: "$YEL1Sauvegarde précédente"
+        text: "$YEL1Sauvegardes"
       
   moreResourceTypes:
     text: "Plus $GRE1{amount} $WHI0autres types."
@@ -6873,7 +6901,7 @@ mobName:
   javaClass: "rtr.mobs.MobBase.java" 
 
   article:
-    comment: "This is used in a few rare cases where the game is referencing the mob as a noun and not a proper name. Like 'a Skeleton' instead of 'Bob Vance'. For example, 'Bob Vance is attacking a Skeleton' or 'a Skeleton is attacking Bob Vance'"
+    comment: "This is used in a few rare cases where the game is referencing the mob as a common noun and not a proper noun. Like 'a Skeleton' instead of 'Bob Vance'. For example, 'Bob Vance is attacking a Skeleton' or 'a Skeleton is attacking Bob Vance'"
     text: "un {mobName}"
 
   villageElder:
@@ -7873,7 +7901,7 @@ aiTask:
       
   wander:
     pathfindToWanderCoordinatesMob:
-      text: "Erre vers {mobName}."
+      text: "Se dirige vers {mobName}."
     pathfindToWanderCoordinates:
       text: "Errant."
       
@@ -7995,11 +8023,11 @@ mobJob:
 
   fletcher:
     single:
-      text: "Facteur d'arc"
+      text: "Facteur d'arcs"
     plural:
-      text: "Facteurs d'arc"
+      text: "Facteurs d'arcs"
     description:
-      text: "Transofmr le bois en faisceaux de flèches ou en arcs pour ls utiliser dans les tours."
+      text: "Transforme le bois en faisceaux de flèches ou en arcs pour vos villageois et pour les utiliser dans les tours."
 
   lumberjack:
     single:
@@ -8131,9 +8159,9 @@ mobJob:
 
   courierSupplier:
     single:
-      text: "Approvisionneur de facteurs"
+      text: "Ravitailleur de facteurs"
     plural:
-      text: "Approvisionneurs de facteurs"
+      text: "Ravitailleur de facteurs"
     description:
       text: "Livre des ressources aux golems-facteurs pour qu'ils les envoient dans d'autres régions."
 
@@ -8529,17 +8557,17 @@ object:
         name:
           text: "Tourelle de feu"
         description:
-          text: "Ajoute des dégâts de feu à la tour, mais consomme de l'énergie pour tirer. Si les réserves d'énergie sont épuisées, elle continuera à tirer des balles ordinaires jusqu'à épuisement de ses munitions."
+          text: "Ajoute des dégâts de feu à la tour, mais consomme de l'énergie pour tirer. Si les réserves d'énergie sont épuisées, elle continuera à tirer des balles ordinaires."
       lightning:
         name:
           text: "Tourelle-éclaie"
         description:
-          text: "Ajoute des dégâts de foudre à la tour, mais consomme de l'énergie pour tirer. Si les réserves d'énergie sont épuisées, elle continuera à tirer des balles ordinaires jusqu'à épuisement de ses munitions."
+          text: "Ajoute des dégâts de foudre à la tour, mais consomme de l'énergie pour tirer. Si les réserves d'énergie sont épuisées, elle continuera à tirer des balles ordinaires."
       ice:
         name:
           text: "Tourelle de glace"
         description:
-          text: "Ajoute des dégâts de glace à la tour, mais consomme de l'énergie pour tirer. Si les réserves d'énergie sont épuisées, elle continuera à tirer des balles ordinaires jusqu'à épuisement de ses munitions."
+          text: "Ajoute des dégâts de glace à la tour, mais consomme de l'énergie pour tirer. Si les réserves d'énergie sont épuisées, elle continuera à tirer des balles ordinaires."
     
     clinic:
       makeshift:
@@ -8568,27 +8596,27 @@ object:
         name:
           text: "Combobulateur de golem de cristal"
         description:
-          text: "Augmente la quantité de golems que le combobulateur peut maintenir, augmente aussi le niveau des golems lorsqu'ils apparaissent, mais coûte un peu plus d'énergie lors de la production des golems."
+          text: "Augmente le nombre de golems maintenus, augmente aussi le niveau des golems lorsqu'ils apparaissent, mais coûte un peu plus d'énergie lors de l'invocation'."
       established:
         name:
           text: "Combobulateur de golem de cristal établi"
         description:
-          text: "Augmente la quantité de golems que le combobulateur peut maintenir, augmente aussi le niveau des golems lorsqu'ils apparaissent, mais coûte un peu plus d'énergie lors de la production des golems."
+          text: "Augmente le nombre de golems maintenus, augmente le niveau des golems lorsqu'ils apparaissent, mais coûte un peu plus d'énergie lors de l'invocation'."
       lightning:
         name:
           text: "Combobulateur de golem-éclair de cristal"
         description:
-          text: "Augmente la quantité de golems que le combobulateur peut maintenir, augmente encore l niveau d'apparition et donne aussi des dégâts de foudre aux golems, mais coûte un peu plus d'énergie lors de la production des golems."
+          text: "Augmente le nombre de golems maintenus, augmente le niveau à l'apparition et donne des dégâts de foudre aux golems, mais coûte plus d'énergie lors de l'invocation."
       ice:
         name:
           text: "Comboblateur de golem de cristal de glace"
         description:
-          text: "Augmente la quantité de golems que le combobulateur peut maintenir, augmente encore l niveau d'apparition et donne aussi des dégâts de glace aux golems, mais coûte un peu plus d'énergie lors de la production des golems."
+          text: "Augmente le nombre de golems maintenus, augmente le niveau à l'apparition et donne des dégâts de glace aux golems, mais coûte plus d'énergie lors de l'invocation."
       fire:
         name:
           text: "Combobulateur de golem de feu"
         description:
-          text: "Augmente la quantité de golems que le combobulateur peut maintenir, augmente encore l niveau d'apparition et donne aussi des dégâts de feu aux golems, mais coûte un peu plus d'énergie lors de la production des golems."
+          text: "Augmente le nombre de golems maintenus, augmente le niveau à l'apparition et donne des dégâts de feu aux golems, mais coûte plus d'énergie lors de l'invocation."
     
     crystalHarvestry:
       makeshift:
@@ -8750,7 +8778,7 @@ object:
         name:
           text: "Ferme de fortune"
         description:
-          text: "Cultive de la nourriture pour nourrir le village. Requiert des agriculteurs pour récolter de la nourriture sauvage et en planter dans la ferme. Les agriculteurs peuvent entretenir et arroser les plantations afin d'améliorer la vitesse de croissance ! Les fermes ne marchent pas très bien en été et en hiver."
+          text: "Cultive de la nourriture pour nourrir le village. Les agriculteurs récolteront de la nourriture sauvage, entretiendront et arroseront les plantations. Produisent moins en été et en hiver."
       base:
         name:
           text: "Ferme"
@@ -8966,12 +8994,12 @@ object:
         name:
           text: "Paratonnerre"
         description:
-          text: "Augmente la quantité d'énergie que la tige peut stocker et augmente les points de vie."
+          text: "Augmente la quantité d'énergie que le paratonnerre peut stocker et augmente les points de vie."
       established:
         name:
           text: "Paratonnerre établi"
         description:
-          text: "Augmente la quantité d'énergie que la tige peut stocker et augmente les points de vie au maximum."
+          text: "Augmente la quantité d'énergie que le paratonnerre peut stocker et augmente les points de vie au maximum."
     
     corruptedGraveyardSmall:
       name:
@@ -9176,7 +9204,7 @@ object:
           text: "Fournit des postes de travailleurs qui peuvent réparer et démanteler les bâtiments, ainsi qu'entretenir les routes et nettoyer le terrain."
       base:
         name:
-          text: "Bâtiment d'entretien'"
+          text: "Bâtiment d'entretien"
         description:
           text: "Octroie un bonus de vitesse global au démantèlement et la réparation de bâtiments, l'entretien des routes et le nettoyage du terrain. Augmente le nombre de postes de travailleurs."
       established:
@@ -9295,7 +9323,7 @@ object:
         name:
           text: "Tour à fronde de fortune"
         description:
-          text: "Une tour lourde qui tire des boulets. Plus efficaces lorsqu'elles sont construites sur un chemin étroit mais ne peuvent pas tirer par-dessus des murs. Nécessite un fabricant de cartouches !"
+          text: "Une tour lourde qui tire des boulets. Plus efficace lorsqu'elle est construite dans un chemin étroit mais ne peut pas tirer au-dessus des murs. Nécessite un fabricant de cartouches !"
       base:
         name:
           text: "Tour à fronde"
@@ -9310,17 +9338,17 @@ object:
         name:
           text: "Tour à fronde de feu"
         description:
-          text: "Ajoute des dégâts de feu explosifs à la tour, mais consomme de l'énergie pour tirer. Si les réserves d'énergie sont épuisées, elle continuera à tirer des boulets ordinaires jusqu'à ce que ses munitions soient épuisées."
+          text: "Ajoute des dégâts de feu explosifs à la tour, mais consomme de l'énergie pour tirer. Si les réserves d'énergie sont épuisées, elle continuera à tirer des boulets ordinaires."
       lightning:
         name:
           text: "Tour à fronde-éclair"
         description:
-          text: "Ajoute des dégâts de foudre à la tour, mais consomme de l'énergie pour tirer. Si les réserves d'énergie sont épuisées, elle continuera à tirer des boulets ordinaires jusqu'à ce que ses munitions soient épuisées."
+          text: "Ajoute des dégâts de foudre à la tour, mais consomme de l'énergie pour tirer. Si les réserves d'énergie sont épuisées, elle continuera à tirer des boulets ordinaires."
       ice:
         name:
           text: "Tour à fronde de glace"
         description:
-          text: "Ajoute des dégâts de glace à la tour, mais consomme de l'énergie pour tirer. Si les réserves d'énergie sont épuisées, elle continuera à tirer des boulets ordinaires jusqu'à ce que ses munitions soient épuisées."
+          text: "Ajoute des dégâts de glace à la tour, mais consomme de l'énergie pour tirer. Si les réserves d'énergie sont épuisées, elle continuera à tirer des boulets ordinaires."
     
     smallFountain:
       name:
@@ -9348,17 +9376,17 @@ object:
         name:
           text: "Tour pulvérisatrice de feu"
         description:
-          text: "Ajoute des dégâts de feu à la tour, mais consomme de l'énergie pour tirer. Si les réserves d'énergie sont épuisées, elle continuera à tirer des balles ordinaires jusqu'à ce que ses munitions soient épuisées."
+          text: "Ajoute des dégâts de feu à la tour, mais consomme de l'énergie pour tirer. Si les réserves d'énergie sont épuisées, elle continuera à tirer des balles ordinaires."
       lightning:
         name:
           text: "Tour pulvérisatrice-éclair"
         description:
-          text: "Ajoute des dégâts de foudre à la tour, mais consomme de l'énergie pour tirer. Si les réserves d'énergie sont épuisées, elle continuera à tirer des balles ordinaires jusqu'à ce que ses munitions soient épuisées."
+          text: "Ajoute des dégâts de foudre à la tour, mais consomme de l'énergie pour tirer. Si les réserves d'énergie sont épuisées, elle continuera à tirer des balles ordinaires."
       ice:
         name:
           text: "Tour pulvérisatrice de glace"
         description:
-          text: "Ajoute des dégâts de glace à la tour, mais consomme de l'énergie pour tirer. Si les réserves d'énergie sont épuisées, elle continuera à tirer des balles ordinaires jusqu'à ce que ses munitions soient épuisées."
+          text: "Ajoute des dégâts de glace à la tour, mais consomme de l'énergie pour tirer. Si les réserves d'énergie sont épuisées, elle continuera à tirer des balles ordinaires."
     
     staticTower:
       makeshift:
@@ -9387,7 +9415,7 @@ object:
         name:
           text: "Collecteur d'eau de fortune"
         description:
-          text: "Collecte l'eau de pluie et fournit des postes de travail pour distribuer l'eau dans le village. Une excellente façon de recueillir rapidement de grandes quantités d'eau lorsqu'il pleut."
+          text: "Collecte l'eau de pluie et fournit des postes de travail pour distribuer l'eau dans le village. Un excellent moyen de recueillir rapidement de grandes quantités d'eau lorsqu'il pleut."
       base:
         name:
           text: "Collecteur d'eau"
@@ -9492,34 +9520,34 @@ object:
         name:
           text: "Combobulateur de golems de pierre"
         description:
-          text: "Augmente le nombre de golems de pierre que le combobulateur peut maintenir, le niveau des golems nouvellement invoqués, mais coûte légèrement plus d'énergie pour produire un nouveau golem."
+          text: "Augmente le nombre de golems de pierre maintenus, le niveau des golems nouvellement invoqués, mais coûte légèrement plus d'énergie pour produire un nouveau golem."
       established:
         name:
           text: "Combobulateur de golems de pierre établi"
         description:
-          text: "Augmente le nombre de golems de pierre que le combobulateur peut maintenir, le niveau des golems nouvellement invoqués, mais coûte légèrement plus d'énergie pour produire un nouveau golem."
+          text: "Augmente le nombre de golems de pierre maintenus, le niveau des golems nouvellement invoqués, mais coûte légèrement plus d'énergie pour produire un nouveau golem."
       lightning:
         name:
           text: "Combobulateur de golems-éclairs de pierre"
         description:
-          text: "Augmente le nombre de golems de pierre que le combobulateur peut maintenir, le niveau à l'apparition et donne des dégâts de foudre aux nouveaux golems, mais coûte plus d'énergie."
+          text: "Augmente le nombre de golems de pierre maintenus, le niveau à l'apparition et donne des dégâts de foudre aux nouveaux golems, mais coûte plus d'énergie."
       ice:
         name:
           text: "Combobulateur de golems de pierre de glace"
         description:
-          text: "Augmente le nombre de golems de pierre que le combobulateur peut maintenir, le niveau à l'apparition et donne aussi des dégâts de glace aux nouveaux golems, mais coûte plus d'énergie."
+          text: "Augmente le nombre de golems de pierre maintenus, le niveau à l'apparition et donne aussi des dégâts de glace aux nouveaux golems, mais coûte plus d'énergie."
       fire:
         name:
           text: "Combobulateur de golems de pierre de feu"
         description:
-          text: "Augmente le nombre de golems de pierre que le combobulateur peut maintenir, le niveau à l'apparition et donne aussi des dégâts de feu aux nouveaux golems, mais coûte plus d'énergie."
+          text: "Augmente le nombre de golems de pierre maintenus, le niveau à l'apparition et donne aussi des dégâts de feu aux nouveaux golems, mais coûte plus d'énergie."
     
     toolsmithy:
       makeshift:
         name:
           text: "Outilleur de fortune"
         description:
-          text: "Fournit des travailleurs qui peuvent transformer les lingots de fer en outils pour vos villageois afin d'augmenter leur efficacité au travail. Requiert une forge pour produire des lingots de fer."
+          text: "Fournit des travailleurs qui peuvent transformer les lingots de fer en outils pour vos villageois afin d'augmenter leur efficacité. Requiert une forge pour produire des lingots de fer."
       base:
         name:
           text: "Outilleur"
@@ -9561,7 +9589,7 @@ object:
           text: "Octroie un bonus global de vitesse des travaux liés aux routes, augmente la capacité de stockage du bâtiment et donne un poste de responsable de voirie supplémentaire."
       established:
         name:
-          text: "Cabanne du responsable de voirie établi"
+          text: "Cabanne du responsable de voirie établie"
         description:
           text: "Augmente le bonus global de vitesse des travaux liés aux routes, augmente la capacité de stockage du bâtiment et donne un poste de responsable de voirie supplémentaire."
     
@@ -9592,27 +9620,27 @@ object:
         name:
           text: "Combobulateur de golems de bois"
         description:
-          text: "Augmente le nombre de golems de bois que le combobulateur peut maintenir, ainsi que le niveau des golems nouvellement invoqués, mais coûte légèrement plus d'énergie pour produire un nouveau golem."
+          text: "Augmente le nombre de golems de bois maintenus, ainsi que le niveau des golems nouvellement invoqués, mais coûte légèrement plus d'énergie pour en produire."
       established:
         name:
           text: "Combobulateur de golems de bois établi"
         description:
-          text: "Augmente le nombre de golems de bois que le combobulateur peut maintenir, ainsi que le niveau des golems nouvellement invoqués, mais coûte légèrement plus d'énergie pour produire un nouveau golem."
+          text: "Augmente le nombre de golems de bois maintenus, ainsi que le niveau des golems nouvellement invoqués, mais coûte légèrement plus d'énergie pour en produire."
       lightning:
         name:
           text: "Combobulateur de golems-éclairs de bois"
         description:
-          text: "Augmente le nombre de golems de bois que le combobulateur peut maintenir, le niveau à l'apparition et donne aussi des dégâts de foudre aux nouveaux golems, mais coûte plus d'énergie pour produire un nouveau golem."
+          text: "Augmente le nombre de golems de bois maintenus, le niveau à l'apparition et donne des dégâts de foudre aux golems, mais coûte plus d'énergie pour en produire."
       ice:
         name:
           text: "Combobulateur de golems de bois de glace"
         description:
-          text: "Augmente le nombre de golems de bois que le combobulateur peut maintenir, le niveau à l'apparition et donne aussi des dégâts de glace aux nouveaux golems, mais coûte plus d'énergie pour produire un nouveau golem."
+          text: "Augmente le nombre de golems de bois maintenus, le niveau à l'apparition et donne des dégâts de glace aux golems, mais coûte plus d'énergie pour en produire."
       poison:
         name:
           text: "Combobulateur de golems de bois de poison"
         description:
-          text: "Augmente le nombre de golems de bois que le combobulateur peut maintenir, le niveau à l'apparition et donne aussi des dégâts de poison aux nouveaux golems, mais coûte plus d'énergie pour produire un nouveau golem."
+          text: "Augmente le nombre de golems de bois maintenus, le niveau à l'apparition et donne des dégâts de poison aux golems, mais coûte plus d'énergie pour en produire."
     
     woodStorage:
       small:
@@ -9679,7 +9707,8 @@ object:
     woodFence:
       name:
         text: "Clôture en bois"
-      description: "Une clôture basique qui aide à rediriger les ennemis, la plupart des tours peuvent tirer au dessus. Les monstres ne les attaqueront que si ils ne peuvent pas trouver de chemin raisonnable vers le village"
+      description: 
+        text: "Une clôture basique qui aide à rediriger les ennemis, la plupart des tours peuvent tirer au dessus. Les monstres les attaqueront si ils ne toruvent pas de chemin raisonnable vers le village."
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Resource Module
