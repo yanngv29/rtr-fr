@@ -1,0 +1,64 @@
+Nomads in trouble? Recall them!
+If you have a well functioning village with plenty of housing, food and jobs, you may attract some nomads to join your village!
+You can buy and sell resources at the marketplace. Build one!
+Increasing your population will also increase your influence bar.
+Fire elementals can't swim.
+Take good care of your doggos.
+The outpost and barracks gain a small tower when upgraded to maximum.
+Good Doggos can help out the village sometimes.
+Specters can walk through almost anything and are highly resistant to physical damage.
+Corruption spreads slowly on the map, the more corruption and corrupted buildings on the map, the more monsters will spawn at night.
+Villagers can die of old age! But they'll live a little longer if you take care of them.
+Don't forget to build water sources for villagers.
+Press Shift+F2 to take a screen shot of the entire map, it will be placed in your screenShots folder in Rise to Ruins install directory.
+You can hold left shift while using tools, like the brush, road placement, road, building and many others to lock the mouse axis and draw straight lines.
+Nomads will sometimes visit your region and try to become citizens of your village. You can increase the chance they'll appear by building a large village with plenty of housing and defenses.
+Essence can be sucked into your hand, increasing your influence bar.
+You can adjust the amount of desired workers for a job by using the workforce tab on the left side of the GUI and pressing the plus and minus buttons for that job.
+Villagers need food! Don't forget to build some farms.
+Can't figure out how to play? Read the in-game tips!
+Skeletons can't catch on fire.
+Slimes like to split into more slimes, they can become a hassle real quick!
+Having trouble surviving past day 3 or 4? Build some Bow Towers.
+Trouble breeding? Give your villagers some free time, and plenty of housing.
+You can pause the game by clicking on the clock or pressing the pause hotkey (Default: Spacebar)
+Try to create choke points in your village designs so monsters have trouble getting in.
+Don't completely wall yourself in! You'll regret it.
+There's always friendly fire, try not to accidentally hurt anyone.
+Magic towers need essence, build Essence Collectors!
+A Lumber Mill is needed to refine logs into boards, used for many advanced buildings.
+A Stone Cuttery is needed to refine rocks into stones, used for many advanced buildings.
+A Crystillery is needed to refine crystals into crylithum, a very important fuel source.
+You can disable in-game tips in the settings menu.
+You can change hotkeys and various other settings in the settings menu.
+You can take a screenshot by pressing F2, it'll be saved in the screenshots folder.
+You can hide the GUI by pressing F4.
+Game crash? There's crash logs in the logs folder. Send it to the developer!
+Many buildings require refined materials, check the requires of a building before you place it!
+In-game tips are your friend, read them!
+Villagers being swarmed by monsters? Cast recall or banish!
+Builders will only harvest materials if they need to build something. If you want to create a stockpile, build a harvesting building!
+Farmers only need to be told what wild resources to gather, once they have a farm running they'll take care of it on their own.
+Villagers may burst into flames randomly in the summer if they get too hot for too long.
+Villagers sometimes freeze rock solid if they're extremely cold for a long period of time.
+Make sure you stockpile food for the winter!
+Motivate Land is a lot less effective in colder weather.
+Villagers unhappy? Don't overwork them!
+The best time to use Motivate Land is when the weather is warm, and it's raining.
+Most towers can shoot over most walls. Use this to your advantage!
+Running out of food in the winter? Stock up! In an emergency you can use the grab spell to pickup unharvested food outside your village.
+Did you know the grab spell can grab unharvested materials on the map? Handy when you need resources in a pinch.
+Villagers need homes to cool off in the summer, and warm up in the Winter.
+Starving in the winter? Use the grab spell to grab food that's otherwise inaccessible.
+Labor Golems are really handy early game to haul around some extra resources.
+Spring is usually the best time to grow food.
+Food and trees are not the only thing that stop growing in the extreme hot or cold, crystals too!
+Most towers can shoot over low walls, try building a monster maze!
+Villagers warm up when they work, this is great in the Winter but terrible in the Summer.
+Want to move faster? Build a Way-Maker Shack and get some roads going!
+Over time, natural paths will pop up in areas your villagers walk around in often.
+Roads decay slowly over time, make sure you have a few way-makers around to repair them!
+Roads decay faster in the rain.
+Basic paths don't last very long, consider putting up a proper road system!
+Running out of building slots? Upgrade your Camp or build some Ancillaries early.
+Need refined resources faster? Build an extra building for it.
