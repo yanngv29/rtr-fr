@@ -1,0 +1,64 @@
+Des nomades en difficulté ? Rappelez-les !
+Si vous avez un bon village avec plein de logements, de nourriture, et de postes, cela va peut-être inciter quelques nomades à vous rejoindre !
+Vous pouvez acheter et vendre des ressources au marché. Construisez en un !
+Augmenter votre population va aussi augmenter votre barre d'influence.
+Les éléments de feu ne peuvent pas nager.
+Prenez soin de vos chiens.
+Les avant-postes et casernes ont une petite tour d'archers lorsqu'ils sont améliorés au maximum.
+Les bons chiens aideront parfois les villageois.
+Les spectres peuvent passer à travers presque tout et sont très résistants aux dégâts physiques.
+La corruption se répand lentement sur la carte, plus il y a de corruption et de bâtiments corrompus sur la carte, plus il y aura de monstres la nuit.
+Les villageois peuvent mourir de vieillesse ! Mais ils vivront un peu plus longtemps si vous prenez soin d'eux.
+N'oubliez pas de construire des sources d'eau pour les villageois.
+Appuyez sur Shift + F2 pour prendre une capture d'écran de l'entièreté de la carte qui sera enregistrée dans screenShots, dans le dossier d'installation de Rise to Ruins.
+Vous pouvez maintenir shift gauche en utilisant les outils tels que les pinceaux, l'ajout de route, les bâtiments et pleins d'autres pour verrouiller l'axe de la souris et les placer en ligne droite.
+Les nomades visiteront parfois votre région et essaieront de devenir des citoyens de votre village. Vous pouvez augmenter la chance qu'ils apparaissent en construisant un grand village avec plein de logements et de défenses.
+L'essence peut être aspirée par votre main, augmentant ainsi votre influence.
+Vous pouvez ajuster la quantité de travailleurs assignés à une tâche en utilisant le panneau de main-d'œuvre à gauche dans l'interface graphique et en appuyant sur les boutons plus ou moins de la tâche désirée.
+Les villageois ont besoin de nourriture ! N'oubliez pas de construire des fermes.
+Vous ne comprenez pas comment jouer ? Lisez les conseils qui apparaissent une fois en jeu !
+Les squelettes ne peuvent pas prendre feu
+Les slimes ont tendance à se séparer en pleins d'autres slimes, ils peuvent vite devenir embêtants !
+Vous avez des difficultés à survivre au-delà du jour 3 ou 4 ? Construisez quelques tours d'archers.
+Des difficultés à avoir des enfants ? Donnez à vos villageois du temps libre et beaucoup de logement.
+Vous pouvez mettre le jeu en pause en appuyant sur l'horloge ou sur la touche que vous avez défini (par défaut : barre d'espace)
+Essayez de créer des points d'étranglement dans votre villages pour que les monstres aient du mal à s'y introduire.
+Ne vous emmurez pas complètement ! Vous allez le regretter.
+Le tir ami est toujours activé, essayez de ne blesser personne par accident.
+Les tours magiques ont besoin d'essence, construisez des collecteurs d'essence !
+Une scierie est nécessaire pour transformer les bûches en planches qui sont utilisées pour construire des bâtiments avancés.
+Un tailleur de pierre est nécessaire pour transformer les pierres en pierres taillées qui sont utilisées pour construire des bâtiments avancés.
+Une cristallerie est nécessaire pour transformer les cristaux en crylithium, un carburant très utilisé.
+Vous pouvez désactiver les astuces en jeu dans le menu paramètres.
+Vous pouvez modifier les raccourcis clavier et divers autres paramètres dans le menu paramètres.
+Vous pouvez prendre une capture d'écran en appuyant sur F2, il sera sauvegardé dans le dossier screenshots.
+Vous pouvez cacher l'interface graphique en appuyant sur F4
+Le jeu crashe ? Il y a les logs dans le dossier logs. Envoyez les au développeur !
+Plusieurs bâtiments requièrent des matériaux raffinés, vérifiez les besoins du bâtiment avant de le construire !
+Les conseils en jeu sont vos amis, lisez-les !
+Des villageois envahis par les monstres ? Rappelez ou bannissez les !
+Les constructeurs ne récolteront les matériaux que s'ils ont besoin de construire quelque chose. Si vous voulez constituer des réserves, construisez un bâtiment de récolte !
+Il suffit de dire aux agriculteurs où récolter de la nourriture sauvage, une fois que leur ferme fonctionne, ils iront s'en occuper.
+Les villageois peuvent prendre feu aléatoirement si ils surchauffent pendant trop longtemps en été.
+Les villageois gèlent à en devenir dur comme la pierre si ils sont restés dans le froid pendant trop longtemps
+Assurez-vous de faire des réserves de nourriture pour l'hiver !
+Le sort de motivation de la terre est beaucoup moins efficace lorsqu'il fait froid.
+Les villageois sont malheureux ? Ne les surmenez pas !
+Le meilleur moment pour utiliser le sort de motivation est lorsqu'il fait tiède et qu'il pleut.
+La plupart des tours peuvent tirer au dessus de la plupart des murs. Utilisez ça à votre avantage !
+Vous manquez de nourriture en hiver ? Faites le plein ! En cas d'urgence, vous pouvez utiliser des sorts pour ramasser la nourriture non récoltée à l'extérieur de votre village.
+Saviez-vous que le sort Attraper vous permet de récolter des matériaux sur la carte ? Pratique lorsque vous avez besoin de ressources rapidement.
+Les villageois ont besoin de maisons pour se rafraîchir en été et se réchauffer en hiver.
+Ils meurent de faim en hiver ? Utilisez le sort pour attraper de la nourriture qui serait autrement inaccessible.
+Les golems-ouvriers sont vraiment très pratiques au début du jeu pour transporter des ressources supplémentaires.
+Le printemps est la meilleure saison pour cultiver de la nourriture.
+La nourriture et les arbres ne sont pas les seules choses qui s'arrêtent de pousser dans le froid ou le chaud extrême, les cristaux aussi !
+La plupart des tours peuvent tirer au-dessus des murets, essayez de construire un labyrinthe de monstres !
+Les villageois chauffent quand ils travaillent, c'est génial en hiver mais terrible en été.
+Vous voulez aller plus vite ? Construisez une cabane de responsable de voirie et créer des routes !
+Avec le temps, des sentiers naturels apparaîtront dans les zones où vos villageois se promènent souvent.
+Les routes se détériorent lentement avec le temps, assurez-vous d'avoir quelques responsables de voirie pour les réparer !
+Les routes se détériorent plus rapidement sous la pluie.
+Les chemins de base ne durent pas très longtemps, pensez à mettre en place un réseau routier adéquat !
+Plus d'emplacements de construction ? Améliorez votre campement ou construisez des entrepôts !
+Besoin de ressources raffinées plus rapidement ? Construisez un bâtiment supplémentaire.
