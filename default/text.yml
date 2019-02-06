@@ -619,7 +619,7 @@ perk:
     text: "Hachima's Lifeblood"
     optional: "true"
   dundarsDetermination:
-    text: "Dundar’s Determination"
+    text: "Dundar's Determination"
     optional: "true"
   soteriasGift:
     text: "Soteria's Gift"
@@ -1651,7 +1651,7 @@ console:
   
   panel:
     coitus:
-      text: "{mobName} $WHI0mated with {mateMobName} $WHI0!"
+      text: "{mobName} $WHI0mated with {mateMobName}$WHI0!"
     isPregnant:
       text: "{mobName} $PIN1is pregnant!"
     object:
@@ -10296,6 +10296,148 @@ resource:
     plural:
       text: "Suspicious Keys?!"
     
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# State Base
+# Loading Messages
+# rtr.states.StateBase.java
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+     
+stateBase:
+  comment: "Loading Messages"
+  javaClass: "rtr.states.StateBase.java"
+  
+  loadingMessage:
+    0:
+      text: "Need refined resources faster? Build an extra building for it."
+    1:
+      text: "Nomads in trouble? Recall them!"
+    2:
+      text: "If you have a well functioning village with plenty of housing, food and jobs, you may attract some nomads to join your village!"
+    3:
+      text: "You can buy and sell resources at the marketplace. Build one!"
+    4:
+      text: "Increasing your population will also increase your influence bar."
+    5:
+      text: "Fire elementals can't swim."
+    6:
+      text: "Take good care of your doggos."
+    7:
+      text: "The outpost and barracks gain a small tower when upgraded to maximum."
+    8:
+      text: "Good Doggos can help out the village sometimes."
+    9:
+      text: "Specters can walk through almost anything and are highly resistant to physical damage."
+    10:
+      text: "Corruption spreads slowly on the map, the more corruption and corrupted buildings on the map, the more monsters will spawn at night."
+    11:
+      text: "Villagers can die of old age! But they'll live a little longer if you take care of them."
+    12:
+      text: "Don't forget to build water sources for villagers."
+    13:
+      text: "Press Shift+F2 to take a screen shot of the entire map, it will be placed in your screenShots folder in Rise to Ruins install directory."
+    14:
+      text: "You can hold left shift while using tools, like the brush, road placement, road, building and many others to lock the mouse axis and draw straight lines."
+    15:
+      text: "Nomads will sometimes visit your region and try to become citizens of your village. You can increase the chance they'll appear by building a large village with plenty of housing and defenses."
+    16:
+      text: "Essence can be sucked into your hand, increasing your influence bar."
+    17:
+      text: "You can adjust the amount of desired workers for a job by using the workforce tab on the left side of the GUI and pressing the plus and minus buttons for that job."
+    18:
+      text: "Villagers need food! Don't forget to build some farms."
+    19:
+      text: "Can't figure out how to play? Read the in-game tips!"
+    20:
+      text: "Skeletons can't catch on fire."
+    21:
+      text: "Slimes like to split into more slimes, they can become a hassle real quick!"
+    22:
+      text: "Having trouble surviving past day 3 or 4? Build some Bow Towers."
+    23:
+      text: "Trouble breeding? Give your villagers some free time, and plenty of housing."
+    24:
+      text: "You can pause the game by clicking on the clock or pressing the pause hotkey (Default: Spacebar)"
+    25:
+      text: "Try to create choke points in your village designs so monsters have trouble getting in."
+    26:
+      text: "Don't completely wall yourself in! You'll regret it."
+    27:
+      text: "There's always friendly fire, try not to accidentally hurt anyone."
+    28:
+      text: "Magic towers need essence, build Essence Collectors!"
+    29:
+      text: "A Lumber Mill is needed to refine logs into boards, used for many advanced buildings."
+    30:
+      text: "A Stone Cuttery is needed to refine rocks into stones, used for many advanced buildings."
+    31:
+      text: "A Crystillery is needed to refine crystals into crylithum, a very important fuel source."
+    32:
+      text: "You can disable in-game tips in the settings menu."
+    33:
+      text: "You can change hotkeys and various other settings in the settings menu."
+    34:
+      text: "You can take a screenshot by pressing F2, it'll be saved in the screenshots folder."
+    35:
+      text: "You can hide the GUI by pressing F4."
+    36:
+      text: "Game crash? There's crash logs in the logs folder. Send it to the developer!"
+    37:
+      text: "Many buildings require refined materials, check the requires of a building before you place it!"
+    38:
+      text: "In-game tips are your friend, read them!"
+    39:
+      text: "Villagers being swarmed by monsters? Cast recall or banish!"
+    40:
+      text: "Builders will only harvest materials if they need to build something. If you want to create a stockpile, build a harvesting building!"
+    41:
+      text: "Farmers only need to be told what wild resources to gather, once they have a farm running they'll take care of it on their own."
+    42:
+      text: "42"
+    43:
+      text: "Villagers may burst into flames randomly in the summer if they get too hot for too long."
+    44:
+      text: "Villagers sometimes freeze rock solid if they're extremely cold for a long period of time."
+    45:
+      text: "Make sure you stockpile food for the winter!"
+    46:
+      text: "Motivate Land is a lot less effective in colder weather."
+    47:
+      text: "Villagers unhappy? Don't overwork them!"
+    48:
+      text: "The best time to use Motivate Land is when the weather is warm, and it's raining."
+    49:
+      text: "Most towers can shoot over most walls. Use this to your advantage!"
+    50:
+      text: "Running out of food in the winter? Stock up! In an emergency you can use the grab spell to pickup unharvested food outside your village."
+    51:
+      text: "Did you know the grab spell can grab unharvested materials on the map? Handy when you need resources in a pinch."
+    52:
+      text: "Villagers need homes to cool off in the summer, and warm up in the Winter."
+    53:
+      text: "Starving in the winter? Use the grab spell to grab food that's otherwise inaccessible."
+    54:
+      text: "Labor Golems are really handy early game to haul around some extra resources."
+    55:
+      text: "Spring is usually the best time to grow food."
+    56:
+      text: "Food and trees are not the only thing that stop growing in the extreme hot or cold, crystals too!"
+    57:
+      text: "Most towers can shoot over low walls, try building a monster maze!"
+    58:
+      text: "Villagers warm up when they work, this is great in the Winter but terrible in the Summer."
+    59:
+      text: "Want to move faster? Build a Way-Maker Shack and get some roads going!"
+    60:
+      text: "Over time, natural paths will pop up in areas your villagers walk around in often."
+    61:
+      text: "Roads decay slowly over time, make sure you have a few way-makers around to repair them!"
+    62:
+      text: "Roads decay faster in the rain."
+    63:
+      text: "Basic paths don't last very long, consider putting up a proper road system!"
+    64:
+      text: "Running out of building slots? Upgrade your Camp or build some Ancillaries early."
+
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Game Mode
 # Names

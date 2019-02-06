@@ -9980,7 +9980,148 @@ resource:
       text: "Clé suspicieuse"
     plural:
       text: "Clés suspicieuses"
-      
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# State Base
+# Loading Messages
+# rtr.states.StateBase.java
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+     
+stateBase:
+  comment: "Loading Messages"
+  javaClass: "rtr.states.StateBase.java"
+  
+  loadingMessage:
+    0:
+      text: "Des nomades en difficulté ? Rappelez-les !"
+    1:
+      text: "Si vous avez un bon village avec plein de logements, de nourriture, et de postes, cela va peut-être inciter quelques nomades à vous rejoindre !"
+    2:
+      text: "Vous pouvez acheter et vendre des ressources au marché. Construisez en un !"
+    3:
+      text: "Augmenter votre population va aussi augmenter votre barre d'influence."
+    4:
+      text: "Les éléments de feu ne peuvent pas nager."
+    5:
+      text: "Prenez soin de vos chiens."
+    6:
+      text: "Les avant-postes et casernes ont une petite tour d'archers lorsqu'ils sont améliorés au maximum."
+    7:
+      text: "Les bons chiens aideront parfois les villageois."
+    8:
+      text: "Les spectres peuvent passer à travers presque tout et sont très résistants aux dégâts physiques."
+    9:
+      text: "La corruption se répand lentement sur la carte, plus il y a de corruption et de bâtiments corrompus sur la carte, plus il y aura de monstres la nuit."
+    10:
+      text: "Les villageois peuvent mourir de vieillesse ! Mais ils vivront un peu plus longtemps si vous prenez soin d'eux."
+    11:
+      text: "N'oubliez pas de construire des sources d'eau pour les villageois."
+    12:
+      text: "Appuyez sur Shift + F2 pour prendre une capture d'écran de l'entièreté de la carte qui sera enregistrée dans screenShots, dans le dossier d'installation de Rise to Ruins."
+    13:
+      text: "Vous pouvez maintenir shift gauche en utilisant les outils tels que les pinceaux, l'ajout de route, les bâtiments et pleins d'autres pour verrouiller l'axe de la souris et les placer en ligne droite."
+    14:
+      text: "Les nomades visiteront parfois votre région et essaieront de devenir des citoyens de votre village. Vous pouvez augmenter la chance qu'ils apparaissent en construisant un grand village avec plein de logements et de défenses."
+    15:
+      text: "L'essence peut être aspirée par votre main, augmentant ainsi votre influence."
+    16:
+      text: "Vous pouvez ajuster la quantité de travailleurs assignés à une tâche en utilisant le panneau de main-d'œuvre à gauche dans l'interface graphique et en appuyant sur les boutons plus ou moins de la tâche désirée."
+    17:
+      text: "Les villageois ont besoin de nourriture ! N'oubliez pas de construire des fermes."
+    18:
+      text: "Vous ne comprenez pas comment jouer ? Lisez les conseils qui apparaissent une fois en jeu !"
+    19:
+      text: "Les squelettes ne peuvent pas prendre feu"
+    20:
+      text: "Les slimes ont tendance à se séparer en pleins d'autres slimes, ils peuvent vite devenir embêtants !"
+    21:
+      text: "Vous avez des difficultés à survivre au-delà du jour 3 ou 4 ? Construisez quelques tours d'archers."
+    22:
+      text: "Des difficultés à avoir des enfants ? Donnez à vos villageois du temps libre et beaucoup de logement."
+    23:
+      text: "Vous pouvez mettre le jeu en pause en appuyant sur l'horloge ou sur la touche que vous avez défini (par défaut : barre d'espace)"
+    24:
+      text: "Essayez de créer des points d'étranglement dans votre villages pour que les monstres aient du mal à s'y introduire."
+    25:
+      text: "Ne vous emmurez pas complètement ! Vous allez le regretter."
+    26:
+      text: "Le tir ami est toujours actif, essayez de ne blesser personne par accident."
+    27:
+      text: "Les tours magiques ont besoin d'essence, construisez des collecteurs d'essence !"
+    28:
+      text: "Une scierie est nécessaire pour transformer les bûches en planches qui sont utilisées pour construire des bâtiments avancés."
+    29:
+      text: "Un tailleur de pierre est nécessaire pour transformer les pierres en pierres taillées qui sont utilisées pour construire des bâtiments avancés."
+    30:
+      text: "Une cristallerie est nécessaire pour transformer les cristaux en crylithium, un carburant très utilisé."
+    31:
+      text: "Vous pouvez désactiver les astuces en jeu dans le menu paramètres."
+    32:
+      text: "Vous pouvez modifier les raccourcis clavier et divers autres paramètres dans le menu paramètres."
+    33:
+      text: "Vous pouvez prendre une capture d'écran en appuyant sur F2, il sera sauvegardé dans le dossier screenshots."
+    34:
+      text: "Vous pouvez cacher l'interface graphique en appuyant sur F4"
+    35:
+      text: "Le jeu crashe ? Il y a les logs dans le dossier logs. Envoyez les au développeur !"
+    36:
+      text: "Plusieurs bâtiments requièrent des matériaux raffinés, vérifiez les besoins du bâtiment avant de le construire !"
+    37:
+      text: "Les conseils en jeu sont vos amis, lisez-les !"
+    38:
+      text: "Des villageois envahis par les monstres ? Rappelez ou bannissez les !"
+    39:
+      text: "Les constructeurs ne récolteront les matériaux que s'ils ont besoin de construire quelque chose. Si vous voulez constituer des réserves, construisez un bâtiment de récolte !"
+    40:
+      text: "Il suffit de dire aux agriculteurs où récolter de la nourriture sauvage, une fois que leur ferme fonctionne, ils iront s'en occuper."
+    41:
+      text: "Les villageois peuvent prendre feu aléatoirement si ils surchauffent pendant trop longtemps en été."
+    42:
+      text: "42"    
+    43:
+      text: "Les villageois gèlent à en devenir dur comme la pierre si ils sont restés dans le froid pendant trop longtemps"
+    44:
+      text: "Assurez-vous de faire des réserves de nourriture pour l'hiver !"
+    45:
+      text: "Le sort de motivation de la terre est beaucoup moins efficace lorsqu'il fait froid."
+    46:
+      text: "Les villageois sont malheureux ? Ne les surmenez pas !"
+    47:
+      text: "Le meilleur moment pour utiliser le sort de motivation est lorsqu'il fait tiède et qu'il pleut."
+    48:
+      text: "La plupart des tours peuvent tirer au dessus de la plupart des murs. Utilisez ça à votre avantage !"
+    49:
+      text: "Vous manquez de nourriture en hiver ? Faites le plein ! En cas d'urgence, vous pouvez utiliser des sorts pour ramasser la nourriture non récoltée à l'extérieur de votre village."
+    50:
+      text: "Saviez-vous que le sort Attraper vous permet de récolter des matériaux sur la carte ? Pratique lorsque vous avez besoin de ressources rapidement."
+    51:
+      text: "Les villageois ont besoin de maisons pour se rafraîchir en été et se réchauffer en hiver."
+    52:
+      text: "Ils meurent de faim en hiver ? Utilisez le sort pour attraper de la nourriture qui serait autrement inaccessible."
+    53:
+      text: "Les golems-ouvriers sont vraiment très pratiques au début du jeu pour transporter des ressources supplémentaires."
+    54:
+      text: "Le printemps est la meilleure saison pour cultiver de la nourriture."
+    55:
+      text: "La nourriture et les arbres ne sont pas les seules choses qui s'arrêtent de pousser dans le froid ou le chaud extrême, les cristaux aussi !"
+    56:
+      text: "La plupart des tours peuvent tirer au-dessus des murets, essayez de construire un labyrinthe de monstres !"
+    57:
+      text: "Les villageois chauffent quand ils travaillent, c'est génial en hiver mais terrible en été."
+    58:
+      text: "Vous voulez aller plus vite ? Construisez une cabane de responsable de voirie et créer des routes !"
+    59:
+      text: "Avec le temps, des sentiers naturels apparaîtront dans les zones où vos villageois se promènent souvent."
+    60:
+      text: "Les routes se détériorent lentement avec le temps, assurez-vous d'avoir quelques responsables de voirie pour les réparer !"
+    61:
+      text: "Les routes se détériorent plus rapidement sous la pluie."
+    62:
+      text: "Les chemins de base ne durent pas très longtemps, pensez à mettre en place un réseau routier adéquat !"
+    63:
+      text: "Plus d'emplacements de construction ? Améliorez votre campement ou construisez des entrepôts !"
+    64:
+      text: "Besoin de ressources raffinées plus rapidement ? Construisez un bâtiment supplémentaire."
+
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Game Mode
 # Names
