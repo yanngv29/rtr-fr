@@ -2998,8 +2998,10 @@ mapEditorPlayRightPanel:
     particles:
       comment: Sandbox Mode Only
       
-      emitParticles:
-        text: "Émettre des particules"
+      emitSingleParticles:
+        text: "Particules stables"
+      emitGroupParticles:
+        text: "Particules volatiles"
       
     miscellaneous:
       comment: Sandbox Mode Only
@@ -3053,6 +3055,8 @@ mapEditorPlayRightPanel:
       
       particleType:
         text: "Type de particule"
+      particleGroup:
+        text: "Grpe. de particule"
       particleColor:
         text: "Couleur des particules"
       particleAmount:
@@ -3318,7 +3322,7 @@ playCastlePanel:
       hidePanelHeader:
         text: "Cacher"
       hidePanel:
-        text: "Ne tient pas compte de ce panneau. Si vous avez besoin de construire le campement plus tard, il sera disponible dans le menu à droite, dans la catégorie 'Spécial'"
+        text: "Fermer ce panneau. Si vous avez besoin de construire le campement plus tard, il sera disponible dans le menu à droite, dans la catégorie 'Spécial'"
 
   header:
     text: "$GRE1Placer le campement"
@@ -4058,7 +4062,7 @@ playProblemPanel:
     villagersHot:
       text: "* $YEL1{amount} villageois a chaud."
     villagersHotPlural:
-      text: "* $YEL1{amount} villagers ont chaud."
+      text: "* $YEL1{amount} villageois ont chaud."
     villagersOverHeating:
       text: "* $RED1{amount} villageois surchauffe."
     villagersOverHeatingPlural:
@@ -8800,7 +8804,7 @@ object:
       name:
         text: "Grand foyer"
       description:
-        text: "Juste une source de, mais un peu plus grande. Augmente aussi un peu la portée de construction  ! Les monstres ne l'attaqueront pas, alors n'hésitez pas à l'intégrer dans vos murs."
+        text: "Juste une source de lumière, mais un peu plus grande. Augmente aussi un peu la portée de construction  ! Les monstres ne l'attaqueront pas, alors n'hésitez pas à l'intégrer dans vos murs."
     
     foodStorage:
       small:

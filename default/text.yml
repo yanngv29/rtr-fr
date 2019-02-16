@@ -3359,8 +3359,10 @@ mapEditorPlayRightPanel:
     particles:
       comment: Sandbox Mode Only
       
-      emitParticles:
-        text: "Emit Particles"
+      emitSingleParticles:
+        text: "Emit Single Particles"
+      emitGroupParticles:
+        text: "Emit Group Particles"
       
     miscellaneous:
       comment: Sandbox Mode Only
@@ -3414,6 +3416,8 @@ mapEditorPlayRightPanel:
       
       particleType:
         text: "Particle Type"
+      particleGroup:
+        text: "Particle Group"
       particleColor:
         text: "Particle Color"
       particleAmount:
@@ -10393,6 +10397,7 @@ stateBase:
       text: "Farmers only need to be told what wild resources to gather, once they have a farm running they'll take care of it on their own."
     42:
       text: "42"
+      optional: "true"
     43:
       text: "Villagers may burst into flames randomly in the summer if they get too hot for too long."
     44:
