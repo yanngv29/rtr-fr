@@ -1302,10 +1302,23 @@ console:
         text: "{buildingName} $WHI0vient d'être terminé."
       dismantled:
         text: "{buildingName} $YEL1vient d'être démantelé."
-    autosave:
-      text: "$GRE1Sauvegarde automatique $WHI0-$GRE2 {time}"
     save:
-      text: "$GRE1Sauvegarde terminée, durée : $WHI0-$GRE2 {time}"
+      region:
+        auto:
+          dataGather:
+            text: "$GRE1Sauvegarde automatique : données de la région récoltées en $YEL2 {time}"
+          dataWritten:
+            text: "$GRE1Sauvegarde automatique : données de la région écrites en $YEL2{time}$GRE1, sauvegarde n°$YEL2{saveNumber}"
+        full:
+          text: "$GRE1Sauvegarde complète : données de la région récoltées et écrites en $GRE2{time}"
+      world:
+        auto:
+          dataGather:
+            text: "$GRE1Sauvegarde automatique : données du monde récoltées en $YEL2{time}"
+          dataWritten:
+            text: "$GRE1Sauvegarde automatique : données du monde écrites en $YEL2{time}$GRE1, sauvegarde n°$YEL2{saveNumber}"
+        full:
+          text: "$GRE1Sauvegarde complète : données du monde récoltées et écrites en $GRE2{time}"
     fullMapScreenshot:
       text: "Capture de l'entièreté de la carte sauvegardé dans $GRE1{filePath}"
     screenshot:
@@ -2234,16 +2247,6 @@ mapEditorNewMapPanel:
       text: "Sable (noir)"
     sandRed:
       text: "Sable (rouge)"
-    mapSize:
-      large:
-        text: "Large"
-        forceCount: "true"
-      medium:
-        text: "Moyenne"
-      small:
-        text: "Petite"
-      empty:
-        text: "Vide"
         
   textInput:
     name:
@@ -4464,7 +4467,8 @@ playSelectedObjectPanel:
   staticTowerDamageOverride:
     text: "Dégât"
   staticTowerDamageOverrideAmount:
-    text: "$GRE1Électrique $RED0(3-8)"
+    text: "$GRE1Électrique $RED0(10-50)"
+    revision: "1"
   chargedDamage:
     text: "Dégât chargé"
   damage:
@@ -4582,7 +4586,7 @@ playSelectedObjectUpgradePanel:
   healthRegenerationMinus:
     text: "$RED0{amount} $WHI0régénération de la vie"
   staticTowerDamageOverride:
-    text: "Dégâts : $GRE1électrique (3-8)"
+    text: "Dégâts : $GRE1électrique $RED0(10-50)"
   chargedDamage:
     text: "Dégâts chargés : $GRE1{damageType} (+{damageMinimum}-{damageMaximum})"
   damage:
@@ -5406,8 +5410,9 @@ playRightObjectDescriptionPanel:
     text: "Stockage maximum : $GRE1{amount}"
   energy:
     text: "$YEL1{amount} d'énergie"
-  staticTowerDamageOverride:
-    text: "Dégâts : $GRE1Électrique (3-8)"
+  staticTowerDamageOverrideAmount:
+    text: "Dégâts : $GRE1électrique (10-50)"
+    revision: "1"
   chargedDamage:
     text: "Dégâts chargés : $GRE1{damageType} ({damageMinimum}-{damageMaximum})"
   damage:
@@ -5846,11 +5851,11 @@ worldMapGameModeConfigPanel:
       buildingDensityRange:
         text: "La portée utilisée lorsqu'il faut déterminer la densité de construction, défini par 'Densité de construction' ci-dessus. $YEL1(8 - 128)"
       permanentCorruptionAmountMaxHeader:
-        text: "Corruption perma. max"
+        text: "Corruption permanente"
       permanentCorruptionAmountMax:
         text: "La quantité maximale de tuiles qui peuvent être corrompues de façon permanente. Cela devrait être égal ou plus élevé que le paramètre 'Quantité de corruption permanente de départ' ci-dessus. $YEL1(64 - 64512)"
       permanentCorruptionMaxPerDayHeader:
-        text: "Corruption perma./jour max"
+        text: "Corruption perma./jour"
       permanentCorruptionMaxPerDay:
         text: "Combien de tuiles corrompues deviendront corrompues de façon permanente chaque jour. $YEL1(8 - 2048)"
       
@@ -5926,9 +5931,9 @@ worldMapGameModeConfigPanel:
     spawnAmountMultiplier:
       text: "Multiplicateur d'apparition"
     spawnAmountMinimum:
-      text: "Quantité maximale"
-    spawnAmountMax:
       text: "Quantité minimale"
+    spawnAmountMax:
+      text: "Quantité maximale"
     
   other:
     tooltip:

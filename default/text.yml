@@ -1663,10 +1663,23 @@ console:
         text: "{buildingName} $WHI0has been completed."
       dismantled:
         text: "{buildingName} $YEL1has been dismantled."
-    autosave:
-      text: "$GRE1Autosave $WHI0-$GRE2 {time}"
     save:
-      text: "$GRE1Save Complete, took $WHI0-$GRE2 {time}"
+      region:
+        auto:
+          dataGather:
+            text: "$GRE1Autosave: Region Data Gathered, took $YEL2 {time}"
+          dataWritten:
+            text: "$GRE1Autosave: Region Data Written, took $YEL2{time}$GRE1, Save Number $YEL2{saveNumber}"
+        full:
+          text: "$GRE1Full Save: Region Data Gathered and Written, took$GRE2 {time}"
+      world:
+        auto:
+          dataGather:
+            text: "$GRE1Autosave: World Data Gathered, took $YEL2 {time}"
+          dataWritten:
+            text: "$GRE1Autosave: World Data Written, took $YEL2{time}$GRE1, Save Number $YEL2{saveNumber}"
+        full:
+          text: "$GRE1Full Save: World Data Gathered and Written, took$GRE2 {time}"
     fullMapScreenshot:
       text: "Full map screenshot saved to $GRE1{filePath}"
     screenshot:
@@ -2002,7 +2015,7 @@ goal:
       text: "Harvest {resourceName}"
     body:
       any: 
-        text: "Harvest $GRE1{amount}$WHI0 {resourceName}$GRE1in any region$WHI0!"
+        text: "Harvest $GRE1{amount}$WHI0 {resourceName}$GRE1 in any region$WHI0!"
       specific:
         text: "Harvest $GRE1{amount}$WHI0 {resourceName}$WHI0 on $GRE1{mapName}$WHI0!"
 
@@ -2595,15 +2608,6 @@ mapEditorNewMapPanel:
       text: "Sand (Black)"
     sandRed:
       text: "Sand (Red)"
-    mapSize:
-      large:
-        text: "Large"
-      medium:
-        text: "Medium"
-      small:
-        text: "Small"
-      empty:
-        text: "Empty"
         
   textInput:
     name:
@@ -2620,8 +2624,6 @@ mapEditorNewMapPanel:
       text: "$ORA1Map Author"
     baseTerrain:
       text: "$ORA1Base Terrain"
-    size:
-      text: "$ORA1Size"
       
   mapExistsWarning:
     text: "$RED1MAP ALREADY EXISTS IN MAP PACK {mapPackName}"
@@ -4815,7 +4817,8 @@ playSelectedObjectPanel:
   staticTowerDamageOverride:
     text: "Damage"
   staticTowerDamageOverrideAmount:
-    text: "$GRE1Electric $RED0(3-8)"
+    text: "$GRE1Electric $RED0(10-50)"
+    revision: "1"
   chargedDamage:
     text: "Charged Damage"
   damage:
@@ -4931,7 +4934,8 @@ playSelectedObjectUpgradePanel:
   healthRegenerationMinus:
     text: "$RED0{amount} $WHI0Health Regeneration"
   staticTowerDamageOverride:
-    text: "Damage: $GRE1Electric (3-8)"
+    text: "Damage: $GRE1Electric (10-50)"
+    revision: "1"
   chargedDamage:
     text: "Charged Damage: $GRE1{damageType} (+{damageMinimum}-{damageMaximum})"
   damage:
@@ -5747,7 +5751,8 @@ playRightObjectDescriptionPanel:
   energy:
     text: "$YEL1{amount} Energy"
   staticTowerDamageOverride:
-    text: "Damage: $GRE1Electric (3-8)"
+    text: "Damage: $GRE1Electric (10-50)"
+    revision: "1"
   chargedDamage:
     text: "Charged Damage: $GRE1{damageType} ({damageMinimum}-{damageMaximum})"
   damage:
