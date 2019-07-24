@@ -134,9 +134,11 @@ godXP:
   couriersDeparting:
     text: "Départs de golems-facteurs"
   redistributingResources:
-    text: "Redistribution des ressources"
+    text: "Redistribution de ressources"
   refiningResources:
     text: "Raffinage de ressources"
+  processingResources:
+    text: "Traitement de ressources"
   sellingResources:
     text: "Vente de ressources"
   storingResources:
@@ -1666,7 +1668,16 @@ goal:
         text: "Créez $GRE1{amount} {resourceName} $WHI0dans $GRE1n'importe quelle région $WHI0!"
       specific:
         text: "Créez $GRE1{amount} {resourceName} $WHI0dans $GRE1{mapName} $WHI0!"
-        
+   
+  trash:
+    header:
+      text: "Traitement de {resourceName}"
+    body:
+      any:
+        text: "Traitez $GRE1{amount}$WHI0 {resourceName} $GRE1dans n'importe quelle région $WHI0!"
+      specific:
+        text: "Traitez $GRE1{amount}$WHI0 {resourceName} $WHI0dans $GRE1{mapName} $WHI0!"
+             
   survive:
     header:
       text: "Survie"
@@ -2084,6 +2095,8 @@ mainMenuMainMenuPanel:
       text: "Retour"
     scrubMapImages:
       text: "Brosser les images de la carte"
+    generateMobSheet:
+      text: "Générer une feuille des monstres"
     generateMapSheet:
       text: "Générer une feuille de la carte"
     runLineCounter:
@@ -2603,6 +2616,8 @@ mapEditorPlayRightPanel:
         text: "Raffinage"
       storage:
         text: "Stockage"
+      trash:
+        text: "Ordures"
       walls:
         text: "Murs"
       special:
@@ -2629,10 +2644,10 @@ mapEditorPlayRightPanel:
         text: "Bâtiment d'entretien"
       marketplace:
         text: "Marché"
-      wayMakerShack:
-        text: "Cabanne du responsable voirie"
       migrationWayStation:
         text: "Station de migration"
+      wayMakerShack:
+        text: "Cabanne du responsable voirie"
       
     defense:
       guardsAndGolems:
@@ -2770,21 +2785,37 @@ mapEditorPlayRightPanel:
       woodStorage:
         text: "Stockage de bois"
       
+    trash:
+      burner:
+        text: "Incinérateur"
+      cubeEGolemCombobulator:
+        text: "Combobulateur de golems Cube-E"
+      landfill:
+        text: "Déchetterie"
+      processor:
+        text: "Centre de recyclage"
+      trashCan:
+        text: "Poubelle"
+      trashyCubePile:
+        text: "Tas de déchets"
+      
     walls:
-      woodFence:
-        text: "Clôture en bois"
-      woodFenceGateNS:
-        text: "Portillon en bois (N/S)"
-      woodFenceGateWE:
-        text: "Portillon en bois (O/E)"
+      curtainWall:
+        text: "Muraille"
       stoneWallGateNS:
         text: "Portillon en pierre (N/S)"
       stoneWallGateWE:
         text: "Portillon en pierre (O/E)"
       stoneWall:
         text: "Muret de pierre"
-      curtainWall:
-        text: "Muraille"
+      trashyCubeWall:
+        text: "Muret de déchets"
+      woodFence:
+        text: "Clôture en bois"
+      woodFenceGateNS:
+        text: "Portillon en bois (N/S)"
+      woodFenceGateWE:
+        text: "Portillon en bois (O/E)"
       
     special:
       camp:
@@ -3306,6 +3337,71 @@ playBuildingListPanel:
     text: "Liste des bâtiments       Pge: {currentPage} de {totalPages}"
   buildingPaused:
     text: " $YEL1(en pause)"
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# Play State
+# Resource List Panel
+# rtr.gui.states.playstate.ResourceListPanel.java
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+playResourceListPanel:
+  comment: "Play State - Resource List Panel Bar"
+  javaClass: "rtr.gui.states.playstate.ResourceListPanel.java"
+  
+  button:
+    tooltip:
+      sortingHeader:
+        text: "Affichage"
+      sorting:
+        text: "Change les totaux affichés."
+        
+  tooltip:
+    resourceCountAndStorageHeader:
+      text: "Ressource quantité/stockage"
+    resourceCountAndStorage:
+      text: "Quantité de {resourceNamePlural} dans le village, en fonction du filtre sélectionné et du total d'espace de stockage inutilisé qui peut contenir la ressource {resourceName}."
+    totalGoldCoinsHeader:
+      text: "Quantité de pièces d'or"
+    totalGoldCoins:
+      text: "Quantité totale de pièces d'or dans l'entièreté du village."
+    totalWaterHeader:
+      text: "Quantité totale d'eau potable"
+    totalWater:
+      text: "Quantité totale d'eau potable dans tous les bâtiments qui peuvent en contenir comme les collecteurs d'eau, les logements et les puits. Ne compte pas l'eau sale."
+    totalDirtyWaterHeader:
+      text: "Quantité totale d'eau sale"
+    totalDirtyWater:
+      text: "Quantité totale d'eau sale dans tous les bâtiments qui peuvent en contenir comme les fermes et les purificateurs d'eau. Ne compte pas l'eau potable."
+    totalResourcesHeader:
+      text: "Quantité totale de ressources"
+    totalResources:
+      text: "Quantité totale de ressources dans l'entièreté du village, en prenant en compte le filtre sélectionné sur la gauche du panneau."
+    showResourceOnBarHeader:
+      text: "Montrer {resourceName}"
+    showResourceOnBar:
+      text: "Montre {resourceName} et sa quantité dans la barre des ressources en haut."
+    fullResourceOnBarHeader:
+      text: "Barre pleine !"
+    hideResourceOnBarHeader:
+      text: "Cacher {resourceName}"
+    hideResourceOnBar:
+      text: "Cacje {resourceName} et sa quantité de la barre des ressources en haut."
+      
+  sort:
+    total:
+      text: "Total"
+      forceCount: "true"
+    equip:
+      text: "Équipé"
+    carry:
+      text: "Porté"
+    ground:
+      text: "Au sol"
+    stored:
+      text: "Stocké"
+      
+  header:
+    text: "Liste des ressources"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Play State
@@ -4121,6 +4217,10 @@ playResourceAndInfluenceBar:
         text: "Change les totaux affichés."
         
   tooltip:
+    resourceCountAndStorageHeader:
+      text: "Ressource quantité/stockage"
+    resourceCountAndStorage:
+      text: "Quantité de {resourceNamePlural} dans le village, en fonction du filtre sélectionné et du total d'espace de stockage inutilisé qui peut contenir la ressource {resourceName}."
     totalGoldCoinsHeader:
       text: "Total de pièces d'or"
     totalGoldCoins:
@@ -4138,6 +4238,10 @@ playResourceAndInfluenceBar:
       forceCount: "true"
     totalInfluence:
       text: "L'influence totale que vous possèdez et qui peut être utilisée pour lancer des sorts. L'influence se remplit lentement au fil du temps, ou en survolant de l'essence libre avec votre main. Vous pouvez améliorer votre influence maximale en augmentant la population de votre village."
+    corruptionThreatHeader:
+      text: "Menace de la corruption"
+    corruptionThreat:
+      text: "Le degré de menace de la corruption augmente lorsque la corruption est contenue. Plus il y aura d'espace que la corruption désire contrôller mais ne peut contrôller, plus cette barre se remplira. Ainsi, des monstres apparaîtront en plus du taux d'apparition journalier."
   
   sort:
     total:
@@ -4179,6 +4283,10 @@ playSelectedMobPanel:
       text: "Bonheur"
     happiness:
       text: "Un faible niveau de bonheur aura une incidence sur leur rendement au travail et leur espérance de vie. Selon le type de créature, on peut l'augmenter en répondant à ses besoins fondamentaux en nourriture, en eau, en logement, en relations sociales et autres paramètres."
+    trashHeader:
+      text: "Quantité d'ordures"
+    trash:
+      text: "La quantité d'ordures stockées dans cette créature. Les créatures telles que les golems Cube-E produiront un cube d'ordures lorsque cette barre sera pleine."
     bodyTemperatureHeader:
       text: "Température corporelle"
     bodyTemperature:
@@ -4318,10 +4426,6 @@ playSelectedObjectPanel:
       text: "Attractivité du terrain"
     landDesirability:
       text: "De combien ce bâtiment améliore l'attractivité du terrain à la portée de ce bâtiment. Les villageois sont naturellement attirés par les terrains plus attractifs quand ils ne sont pas en train de travailler dans le village."
-    corruptionResistanceHeader:
-      text: "Resistance à la corruption"
-    corruptionResistance:
-      text: "De combien ce bâtiment augmente la résistance à la corruption autour de lui. La résistance à la corruption repousse, voir même, arrête la propagation de la corruption autour du bâtiment."
     providedDailyMigrationsHeader:
       text: "Migration journalière fournie"
     providedDailyMigrations:
@@ -4480,6 +4584,8 @@ playSelectedObjectPanel:
   globalSpeed:
     text: "$GRE0{amount}% $WHI0global"
     forceCount: "true"
+  processingTrashSpeed:
+    text: "$GRE0{amount}% $WHI0traitement d'ordures"
   buildingSpeed:
     text: "$GRE0{amount}% $WHI0construction"
   buildRoadSpeed:
@@ -4555,6 +4661,8 @@ playSelectedObjectUpgradePanel:
     forceCount: "true"
   buildingSpeed:
     text: "$GRE0+{amount}% $WHI0construction"
+  processingTrashSpeed:
+    text: "$GRE0{amount}% $WHI0traitement d'ordures"
   buildRoadSpeed:
     text: "$GRE0+{amount}% $WHI0construction de routes"
   dismantlingSpeed:
@@ -4617,8 +4725,6 @@ playSelectedObjectUpgradePanel:
     text: "Portée générée : $GRE1+{amount}"
   desirability:
     text: "Attractivité : $GRE1+{amount}"
-  corruptionResistance:
-    text: "Résistance à la corruption : $GRE1+{amount}"
   guardHousingCapacity:
     text: "Capacité d'hébergement de gardes : $GRE1+{amount}"
   housingCapacity:
@@ -5033,11 +5139,15 @@ playSystemAndDataBar:
       problemPanelHeader:
         text: "Problèmes ({shortcutKey})"
       problemPanel:
-        text: "Listes plusieurs alertes et problèmes concernant le village et dont vous devriez vous occuper."
+        text: "Liste plusieurs alertes et problèmes concernant le village et dont vous devriez vous occuper."
       buildingListHeader:
         text: "Liste des bâtiments ({shortcutKey})"
       buildingList:
         text: "Réorganisez les priorités de construction et visualisez une liste de tous les bâtiments dans le village."
+      resourceListHeader:
+        text: "Liste des ressources"
+      resourceList:
+        text: "Liste les ressources du village et modification de la barre des ressources."
       populationListHeader:
         text: "Liste de la population ({shortcutKey})"
       populationList:
@@ -5112,6 +5222,8 @@ playVillageEfficiencyPanel:
     text: "Vitesse globale"
   weather:
     text: "Météorologie"
+  processTrash:
+    text: "Traîtement des ordures"
   building:
     text: "Bâtiments"
   repairing:
@@ -5247,8 +5359,6 @@ sharedDataViewsPanel:
       text: "Portée du village"
     perimeter:
       text: "Périmètre"
-    corruptionResistance:
-      text: "Résistance à la corr."
     desirability:
       text: "Attractivité"
     towerRange:
@@ -5740,38 +5850,7 @@ worldMapChestOpenPanel:
   button:
     takeIt:
       text: "Prendre !"
-      
-# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
-# World Map State
-# Corruption Threat Bar
-# rtr.gui.states.worldmap.CorruptionThreatBar.java
-# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
-worldMapCorruptionThreatBar:
-  comment: "World Map State - Corruption Threat Bar"
-  javaClass: "rtr.gui.states.worldmap.CorruptionThreatBar.java"
-  
-  tooltip:
-    worldDayHeader:
-      text: "Jour du monde"
-    worldDay:
-      text: "Le nombre de jours passés sur toutes les régions actives combinées. C'est une des statistiques primaires utilisées pour calculer le niveau de menace de la corruption dans l'entièreté du monde."
-    corruptionPowerHeader:
-      text: "Force de la corruption"
-    corruptionPower:
-      text: "Valeur numérique de la barre ci-dessous. Une valeur positive signifie une menace plus élevée que le niveau de référence et une valeur négative signifie qu'elle est plus faible. Vous pouvez la réduire en remplissant des objectifs ou en migrant vers d'autres régions."
-    worldCorruptionThreatHeader:
-      text: "Menace de la corruption"
-    worldCorruptionThreat:
-      text: "Plus cette barre est remplie, plus le monde sera dangereux pour vos villageois. Plus de monstres apparaîtront la nuit, des monstres plus forts apparaîtront plus tôt et la corruption se propagera de manière plus agressive."  
-
-  worldDay:
-    text: "Jour du monde : $GRE1{day}"
-  globalCorruptionPowerGood:
-    text: "Force globale de la corruption : $GRE1{amount}" 
-  globalCorruptionPowerBad:
-    text: "Force globale de la corruption : +$YEL1{amount}"
-    
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # World Map State
 # Doom World Panel
@@ -5945,19 +6024,12 @@ worldMapGameModeConfigPanel:
         text: "Saison de départ"
       startingSeason:
         text: "La saison dans laquelle le jeu commence."
-      dayLengthMultiplierHeader:
-        text: "Durée de la journée"
-      dayLengthMultiplier:
-        text: "Augmente ou diminue la durée totale d'une journée. 1.5x est +50% de durée, 0.5x est -50% de durée $YEL1(0.1x - 30.0x)"
-        
     header:
       text: "$YEL0Autre"
     temperatureVariance:
       text: "Variance de température"
     startingSeason:
       text: "Saison de départ"
-    dayLengthMultiplier:
-      text: "Durée de la journée"
     
   weather:
     tooltip:
@@ -6163,8 +6235,6 @@ worldMapGoalClaimPanel:
       
   godExperience: 
     text: "Expérience divine : $YEL0{amount}"
-  globalCorruptionPowerAmount:
-    text: "-{amount} force de corruption globale"
   morePerks:
     text: "$YEL0{amount} autres de plus !"
     
@@ -6369,7 +6439,7 @@ helpTip:
     energyHeader:
       text: "Énergie"
     energy:
-      text: "Le bâtiment {buildingName} $WHI0que vos villageois viennent de construire utilise de l'énergie. Les vâtiments qui utilisent de l'énergie doivent être  alimentés en essence. Vous pouvez générer de l'essence en remplissant des $YEL1Collecteurs d'essence $WHI0avec du $GRE1crylithum $WHI0qui est raffiné dans les $YEL1Cristalleries$WHI0. Les créatures vivantes telles que les montres, les animaux et les villageois vont aussi lâcher de l'essence en mourrant, si vous avez des $YEL1Collecteurs d'essence$WHI0, l'essence perdue sera recueillie et livrée aux bâtiments qui peuvent l'utiliser."
+      text: "Le bâtiment {buildingName} $WHI0que vos villageois viennent de construire utilise de l'énergie. Les bâtiments qui utilisent de l'énergie doivent être  alimentés en essence. Vous pouvez générer de l'essence en remplissant des $YEL1Collecteurs d'essence $WHI0avec du $GRE1crylithum $WHI0qui est raffiné dans les $YEL1Cristalleries$WHI0. Les créatures vivantes telles que les montres, les animaux et les villageois vont aussi lâcher de l'essence en mourrant, si vous avez des $YEL1Collecteurs d'essence$WHI0, l'essence perdue sera recueillie et livrée aux bâtiments qui peuvent l'utiliser."
     ammoHeader:
       text: "Munitions"
     ammo:   
@@ -6693,84 +6763,172 @@ tileSet:
   
   road:
     path:
-      text: "Chemin"
+      name:
+        text: "Chemin"
+      description:
+        text: "Se forme naturellement lorsque des créatures marchent régulièrement à un endroit. Augmente légèrement la vitesse de déplacement."
     logPathDebris:
-      text: "Débris de chemin en bois"
+      name:
+        text: "Débris de chemin en bois"
+      description:
+        text: "Chemin détérioré pouvant être réparé par les responsables de voirie ou de l'entretien. Ils risquent de disparaître totalement si ils ne sont pas réparés à temps."
     logPath:
-      text: "Chemin en bois"
+      name:
+        text: "Chemin en bois"
+      description:
+        text: "Un chemin basique améliorant la vitesse de déplacement."
     cobbleAndLogPathDebris:
-      text: "Débris de chemin bois/pierre"
+      name:
+        text: "Débris de chemin bois/pierre"
+      description:
+        text: "Chemin détérioré pouvant être réparé par les responsables de voirie ou de l'entretien. Ils risquent de disparaître totalement si ils ne sont pas réparés à temps."
     cobbleAndLogPath:
-      text: "Chemin en bois et pierre"
+      name:
+        text: "Chemin en bois et pierre"
+      description:
+        text: "A well built path that will boost movement speed."
     cobbleAndBoardRoadDebris:
-      text: "Débris de chemin planches/pierres"
+      name:
+        text: "Débris de chemin planches/pierres"
+      description:
+        text: "Chemin détérioré pouvant être réparé par les responsables de voirie ou de l'entretien. Ils risquent de disparaître totalement si ils ne sont pas réparés à temps."
     cobbleAndBoardRoad:
-      text: "Chemin en planches et pierre"
+      name:
+        text: "Chemin en planches et pierre"
+      description:
+        text: "Une route solide et bien construite qui augmentera considérablement la vitesse de déplacement."
     cutStoneAndBoardRoadDebris:
-      text: "Débris de route pavée"
+      name:
+        text: "Débris de route pavée"
+      description:
+        text: "Chemin détérioré pouvant être réparé par les responsables de voirie ou de l'entretien. Ils risquent de disparaître totalement si ils ne sont pas réparés à temps.."
     cutStoneAndBoardRoad:
-      text: "Route pavée"
+      name:
+        text: "Route pavée"
+      description:
+        text: "Route avancée qui augmente considérablement la vitesse de déplacement."
 
   terrain:
     treeStumps:
-      text: "Souches d'arbre"
+      name:
+        text: "Souches d'arbre"
+      description:
+        text: "Arbres coupés précédemment et qui repousseront éventuellement."
     trees:
-      text: "Arbres"
+      name:
+        text: "Arbres"
+      description:
+        text: "Fournit du bois pour le village, récoltez et stockez en en construisant une cabane du bûcheron. Les constructeurs peuvent aussi en récolter au besoin pour la construction de bâtiments."
     deadTrees:
-      text: "Arbres morts"
+      name:
+        text: "Arbres morts"
+      description:
+        text: "Fournit une petite quantité de bois pour le village, récoltez et stockez en en construisant une cabane du bûcheron. Les constructeurs peuvent aussi en récolter au besoin pour la construction de bâtiments. Il finira par revenir à la vie s'il est laissé tranquille."
     rock:
-      text: "Pierre"
+      name:
+        text: "Pierre"
+      description:
+        text: "Fournit de la roche pour le village, récoltez en et faites des réserves en construisant une exploitation minière. Les constructeurs peuvent également en extraire au besoin pour la construction de bâtiments."
+    rockCollected:
+      name:
+        text: "Gravats"
+      description:
+        text: "De la roche exploitée qui n'a plus aucune valeur."
     sandstone:
-      text: "Grès"
-    redCrystals:
-      text: "Cristaux rouges"
-    greenCrystals:
-      text: "Cristaux verts"
-    blueCrystals:
-      text: "Cristaux bleus"
-    purpleCrystals:
-      text: "Cristaux pourpres"
+      name:
+        text: "Grès"
+      description:
+        text: "Fournit de la roche pour le village, récoltez en et faites des réserves en construisant une exploitation minière. Les constructeurs peuvent également en extraire au besoin pour la construction de bâtiments."
+    sandstoneCollected:
+      name:
+        text: "Gravats de grès"
+      description:
+        text: "De la roche exploitée qui n'a plus aucune valeur."
+    crystals:
+      name:
+        text: "Cristaux"
+      description:
+        text: "Fournit des cristaux pour le village, déterrez en creusant et empilez-les en construisant une exploitation de cristaux. Les constructeurs peuvent aussi les extraire au besoin pour la construction de bâtiments."
+    crystalsCollected:
+      name:
+        text: "Cristaux récoltés"
+      description:
+        text: "Cristaux récoltés, qui repousseront éventuellement et pourront être récoltés de nouveau."
     potatoes:
-      text: "Pommes de terre"
+      name:
+        text: "Pommes de terre"
+      description:
+        text: "Fournit de la nourriture pour le village, les agriculteurs peuvent les récolter pour créer un stock ou planter dans une ferme pour commencer ou augmenter la production alimentaire dans le village."
     turnips:
-      text: "Navets"
+      name:
+        text: "Navets"
+      description:
+        text: "Fournit de la nourriture pour le village, les agriculteurs peuvent les récolter pour créer un stock ou planter dans une ferme pour commencer ou augmenter la production alimentaire dans le village."
     cactus:
-      text: "Cactus"
-      forceCount: "true"
+      name:
+        text: "Cactus"
+        forceCount: "true"
+      description:
+        text: "Fournit de la nourriture pour le village, les agriculteurs peuvent les récolter pour créer un stock ou planter dans une ferme pour commencer ou augmenter la production alimentaire dans le village."
     carrots:
-      text: "Carottes"
+      name:
+        text: "Carottes"
+      description:
+        text: "Fournit de la nourriture pour le village, les agriculteurs peuvent les récolter pour créer un stock ou planter dans une ferme pour commencer ou augmenter la production alimentaire dans le village."
     melons:
-      text: "Melons"
-      forceCount: "true"
+      name:
+        text: "Pastèques"
+      description:
+        text: "Fournit de la nourriture pour le village, les agriculteurs peuvent les récolter pour créer un stock ou planter dans une ferme pour commencer ou augmenter la production alimentaire dans le village."
     bricks:
-      text: "Briques"
+      name:
+        text: "Briques"
     dirt:
-      text: "Terre"
+      name:
+        text: "Terre"
     flowers:
-      text: "Fleurs"
+      name:
+        text: "Fleurs"
     grass:
-      text: "Herbe"
+      name:
+        text: "Herbe"
     gravel:
-      text: "Gravier"
+      name:
+        text: "Gravier"
     lava:
-      text: "Lave"
+      name:
+        text: "Lave"
     sand:
-      text: "Sable"
+      name:
+        text: "Sable"
     tar:
-      text: "Goudron"
+      name:
+        text: "Goudron"
+      description:
+        text: "Impossible à enlever, et ralentit drastiquement la vitesse de déplacement."
     tiles:
-      text: "Carreaux"
+      name:
+        text: "Carreaux"
     water:
-      text: "Eau"
+      name:
+        text: "Eau"
+      description:
+        text: "Fournit de l'eau sale (non potable) au village, les agriculteurs peuvent collecter l'eau pour irriguer les cultures et les responsables de l'eau peuvent livrer l'eau aux purificateurs pour la rendre potable."
     mud:
-      text: "Boue"
+      name:
+        text: "Boue"
     ice:
-      text: "Glace"
+      name:
+        text: "Glace"
     frozenMud:
-      text: "Boue glacée"
+      name:
+        text: "Boue glacée"
     corruption:
-      text: "Corruption"
+      name:
+        text: "Corruption"
       forceCount: "true"
+      description:
+        text: "Des trucs diaboliques, restez à l'écart !"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Missile Module
@@ -6965,6 +7123,16 @@ mobName:
     plural:
       text: "Slimes"
       forceCount: "true"
+  smallTrashySlime:
+    single:
+      text: "Petit slime détritus"
+    plural:
+      text: "Petits slimes détritus"
+  trashySlime:
+    single:
+      text: "Slime détritus"
+    plural:
+      text: "Slimes détritus"
   smallBloodSlime:
     single:
       text: "Petit slime de sang"
@@ -7189,6 +7357,11 @@ mobName:
       text: "Golem ouvrier"
     plural:
       text: "Golems ouvriers"
+  cubeEGolem:
+    single:
+      text: "Golem Cube-E"
+    plural:
+      text: "Golems Cube-E"
   poisonWoodGolem:
     single:
       text: "Golem de bois de poison"
@@ -7721,7 +7894,15 @@ aiTask:
       text: "Met en place une boutique au $YEL1{buildingName}."
     sellLabor:
       text: "Vend des ouvriers au $YEL1{buildingName}."
-      
+  
+  makeTrashyCube:
+    pathfindToTrashOnGround:
+      text: "Se dirige vers {resourceName} posé sur le sol"
+    pathfindToBuilding:
+      text: "Se dirige vers {resourceName} dans {buildingName}"
+    processTrash:
+      text: "Transforme {resourceName} en cube"
+  
   mateCoitus:
     awaitCoitusWaiting:
       text: "Attend l'arrivée de {mobName} pour faire le coït."
@@ -7791,7 +7972,13 @@ aiTask:
       text: "Plante des graines dans une ferme."
     pathfindToExtraResource:
       text: "Ramasse des graines additionnelles."
-      
+  
+  processTrash:
+    pathfindToWork:
+      text: "Traite des ordures dans {buildingName}"
+    processTrash:
+      text: "Traite des ordures"
+  
   provisionerLeave:
     pathfindToLeaveCoordinates:
       text: "Quitte la région."
@@ -7883,12 +8070,22 @@ aiTask:
   storeResource:
     pathfindToResource:
       text: "Ramasse des ressources sur le sol pour les stocker dans un bâtiment."
+  
+  storeTrashInTrashCan:
+    pathfindToTrash:
+      text: "Ramasse des ordures sur le sol pour les stocker dans un bâtiment."
       
   storeResourceInHand:
     pathfindToBuilding:
-      text: "Stocke des ressources dans le bâtiment {buildingName}."
+      text: "Entrepose des ressources dans le bâtiment {buildingName}."
     pathfindToExtraResource:
       text: "Prend des ressources supplémentaires pour le bâtiment {buildingName}."
+      
+  storeTrashInTrashCanInHand:
+    pathfindToBuilding:
+      text: "Entrepose des déchets dans {buildingName}"
+    pathfindToExtraTrash:
+      text: "Ramasse des ordures supplémentaires pour les apporter dans {buildingName}"
       
   stuck:
     pathfindOffBlockedTerrain:
@@ -7919,6 +8116,8 @@ aiTask:
       text: "Flâne dans le village."
   
   corruptionBuildingPlacement:
+    pathfindToTarget:
+      text: "Se dirige vers un emplacement pour construire un nouveau bâtiment"
     create:
       text: "Crée un nouveau bâtiment."
       
@@ -8070,6 +8269,14 @@ mobJob:
     description:
       text: "Transforme la pierre en pierre taillée pour construire des structures plus avancées."
 
+  trasher:
+    single:
+      text: "Éboueur"
+    plural:
+      text: "Éboueurs"
+    description:
+      text: "Ramasse les ordures à l'intérieur et autour du village et les dépose dans les déchetteries, incinétaeurs ou centres de recyclement."
+      
   tumbler:
     single:
       text: "Facteur de balles"
@@ -8232,7 +8439,7 @@ object:
         name:
           text: "Campement"
         description:
-          text: "Le centre de votre nouveau village, fournit des emplacements de construction, des constructeurs et peut stocker presque n'importe quelle ressource disponible dans le jeu."
+          text: "Le centre de votre village, fournit des emplacements de construction, des constructeurs et peut stocker presque n'importe quelle ressource disponible dans le jeu."
       largeCamp:
         name:
           text: "Grand campement"
@@ -8341,7 +8548,7 @@ object:
       name:
         text: "Ancien bassin rayonnant"
       description:
-        text: "Un bassin vieux et ancien qui attire les monstres."
+        text: "Un ancien bassin qui génère de petites quantités d'énergie au cours du temps."
     
     armorsmithy:
       makeshift:
@@ -8545,6 +8752,23 @@ object:
           text: "Archerie établie"
         description:
           text: "Augmente bonus global de vitesse de fabrication d'arcs, de flèches et de lances, augmente le stockage maximum et fournit un poste de facteur d'arc supplémentaire."
+       
+    burner:
+      makeshift:
+        name:
+          text: "Incinérateur de fortune"
+        description:
+          text: "Fournit des éboueurs qui peuvent nettoyer les ordures autour du village, et brûle lentement les ordures stockées dans l'incinérateur, libérant de l'essence une fois que sa barre d'énergie est pleine."
+      base:
+        name:
+          text: "Incinérateur"
+        description:
+          text: "Augmente la vitesse à laquelle l'incinérateur peut brûler les ordures et ajoute un poste d'éboueur supplémentaire au village."
+      established:
+        name:
+          text: "Incinérateur établi"
+        description:
+          text: "Augmente la vitesse maximale à laquelle l'incinérateur peut brûler les ordures et ajoute un poste d'éboueur supplémentaire au village."
     
     bulletTower:
       makeshift:
@@ -8694,6 +8918,23 @@ object:
         description:
           text: "Améliore le bonus de vitesse global de fabrication de cristaux, augmente la capacité de stockage et donne un poste de travailleur supplémentaire."
     
+    cubeEGolemCombobulator:
+      makeshift:
+        name:
+          text: "Combobulateur de golems Cube-E de fortune"
+        description:
+          text: "Un bâtiment hôte qui consomme l'énergie et les lingots de fer à proximité, créant des golems qui peuvent fabriquer des cubes de déchets et construire quelques structures à base de déchets. N'a aucune capacité de défense."
+      base:
+        name:
+          text: "Combobulateur de golems Cube-E"
+        description:
+          text: "Augmente le nombre de golems cube-e que le combobulateur peut maintenir, ainsi que le niveau des golems nouvellement apparus, mais coûte légèrement plus cher en énergie pour produire un nouveau golem."
+      established:
+        name:
+          text: "Combobulateur de golems Cube-E établi"
+        description:
+          text: "Augmente le nombre de golems cube-e que le combobulateur peut maintenir, ainsi que le niveau des golems nouvellement apparus, mais coûte légèrement plus cher en énergie pour produire un nouveau golem."
+      
     cullisGate:
       name:
         text: "Portail cullis"
@@ -8890,7 +9131,7 @@ object:
         name:
           text: "Logement de fortune"
         description:
-          text: "Fondation pour de nouveaux logements, améliorable pour une meilleure capacité, qualité ou un équilibre entre les deux. Vous devriez vous assurer d'avoir suffisamment de logements !"
+          text: "Logements pour votre village fournissant un endroit où vos villageois peuvent manger, dormir, se soigner ou juste récupérer. Vous devriez vous assurer d'avoir suffisamment de logements !"
       baseHighOccupancy:
         name:
           text: "Logement à taux d'occupation élevé"
@@ -9014,19 +9255,19 @@ object:
       name:
         text: "Cimetière corrompu"
       description:
-        text: "Un bâtiment corrompu créé aux tréfonds des terres corrompues."
+        text: "Un bâtiment corrompu créé aux tréfonds des terres corrompues. Augmente le taux d'apparition des monstres dans la zone corrompue."
     
     corruptedGraveyardMedium:
       name:
         text: "Cimetière corrompu"
       description:
-        text: "Un bâtiment corrompu créé aux tréfonds des terres corrompues."
+        text: "Un bâtiment corrompu créé aux tréfonds des terres corrompues. Augmente le taux d'apparition des monstres dans la zone corrompue."
     
     corruptedGraveyardLarge:
       name:
         text: "Cimetière corrompu"
       description:
-        text: "Un bâtiment corrompu créé aux tréfonds des terres corrompues."
+        text: "Un bâtiment corrompu créé aux tréfonds des terres corrompues. Augmente le taux d'apparition des monstres dans la zone corrompue."
     
     corruptedFireBowTower:
       name:
@@ -9056,25 +9297,25 @@ object:
       name:
         text: "Tour à fléchettes fantômes de feu corrompue"
       description:
-        text: "Une petite tour qui inflige des dégâts magiques de bas niveau et sur laquelle on peut marcher."
+        text: "Une petite tour corrompue qui inflige des dégâts magiques de bas niveau et sur laquelle on peut marcher."
     
     corruptedIcePhantomDartTower:
       name:
         text: "Tour à fléchettes fantômes de glace corrompue"
       description:
-        text: "Une petite tour qui inflige des dégâts magiques de bas niveau et sur laquelle on peut marcher."
+        text: "Une petite tour corrompue qui inflige des dégâts magiques de bas niveau et sur laquelle on peut marcher."
     
     corruptedPoisonPhantomDartTower:
       name:
         text: "Tour à fléchettes fantômes de poison corrompue"
       description:
-        text: "Une petite tour qui inflige des dégâts magiques de bas niveau et sur laquelle on peut marcher."
+        text: "Une petite tour corrompue qui inflige des dégâts magiques de bas niveau et sur laquelle on peut marcher."
     
     corruptedLightningPhantomDartTower:
       name:
         text: "Tour à fléchettes-éclair fantômes corrompue"
       description:
-        text: "Une petite tour qui inflige des dégâts magiques de bas niveau et sur laquelle on peut marcher."
+        text: "Une petite tour corrompue qui inflige des dégâts magiques de bas niveau et sur laquelle on peut marcher."
     
     corruptedLargeFirePit:
       name:
@@ -9121,7 +9362,24 @@ object:
           text: "Cuisine établie"
         description:
           text: "Augmente le bonus de vitesse de la cuisine de rations, augmente la capcité de stockage et donne un poste de cuisinier suplémentaire au village."
-    
+        
+    landfill:
+      makeshift:
+        name:
+          text: "Déchetterie de fortune"
+        description:
+          text: "Fournit des éboueurs qui peuvent nettoyer les ordures autour du village et permet au village d'entreposer de grandes quantités d'ordures dans un endroit centralisé."
+      base:
+        name:
+          text: "Déchetterie"
+        description:
+          text: "Augmente la quantité de déchets que la déchetterie peut stocker et donne au village une poste d'éboueur supplémentaire."
+      established:
+        name:
+          text: "Déchetterie établie"
+        description:
+          text: "Augmente au maximum la quantité de déchets que la déchetterie peut stocker et donne au village une poste d'éboueur supplémentaire."
+   
     lumberMill:
       makeshift:
         name:
@@ -9173,6 +9431,23 @@ object:
         description:
           text: "Augmente de nouveau le nombre de postes de gardes que l'avant-poste peut fournir et ajoute une petite tour d'archers défensive tout en haut."
     
+    processor:
+      makeshift:
+        name:
+          text: "Centre de recyclage de fortune"
+        description:
+          text: "Fournit des éboueurs qui peuvent nettoyer les ordures autour du village et leur permet de traiter les ordures et d'essayer d'en obtenir des ressources utilisables."
+      base:
+        name:
+          text: "Centre de recyclage"
+        description:
+          text: "Octroie un bonus de vitesse globale à la vitesse de traitement des déchets, augmente la capacité de stockage maximale et donne au village un poste d'éboueur supplémentaire."
+      established:
+        name:
+          text: "Centre de recyclage établi"
+        description:
+          text: "Augmente le bonus de vitesse global pour le traitement des déchets, augmente le stockage maximum et donne au village un poste d'éboueur supplémentaire."
+   
     phantomDartTower:
       makeshift:
         name:
@@ -9568,6 +9843,29 @@ object:
         description:
           text: "Augmente bonus de vitesse global de tous les outilleurs, augmente la capacité de stockage et donne un poste d'outilleur supplémentaire."
     
+    trashCan:
+      makeshift:
+        name:
+          text: "Poubelle de fortune"
+        description:
+          text: "Un endroit pour jeter les ordures à l'intérieur ou autour du village. N'importe qui peut l'utiliser, mais seuls les éboueurs peuvent la vider et mettre son contenu dans un incinétateur, un centre de recyclage ou une déchetterie."
+      base:
+        name:
+          text: "Poubelle"
+        description:
+          text: "Augmente la quantité de déchets que la poubelle peut stocker."
+      established:
+        name:
+          text: "Poubelle établie"
+        description:
+          text: "Augmente la quantité de déchets que la poubelle peut stocker à son maximum."
+          
+    trashyCubePile:
+      name:
+        text: "Pile de déchets"
+      description:
+        text: "Une énorme structure de cubes de déchets. Ne sert pas de stockage. La seule façon de récupérer les cubes est de détruire ou de démonter le tas de cubes. Ne peut être construit que par les golems Cube-E."
+          
     waterPurifier:
       makeshift:
         name:
@@ -9718,6 +10016,11 @@ object:
         text: "Clôture en bois"
       description: 
         text: "Une clôture basique qui aide à rediriger les ennemis, la plupart des tours peuvent tirer au dessus. Les monstres les attaqueront si ils ne toruvent pas de chemin raisonnable vers le village."
+    trashyCubeWall:
+      name:
+        text: "Muret de déchets"
+      description:
+        text: "Un mur de déchets qui ne peut être construit que par des golems Cube-E. La plupart des tours et des attaques à distance peuvent passer au dessus. Les monstres ne les attaqueront que s'ils ne peuvent pas trouver un autre moyen raisonnable d'entrer dans le village."
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Resource Module
@@ -9741,8 +10044,10 @@ resourceCategory:
     text: "Outils"
   towerAmmo:
     text: "Munitions de tours"
-  weaponsandAmmo:
-    text: "Armes et munitions"
+  weapons:
+    text: "Armes"
+  trash:
+    text: "Déchets"
   miscellaneous:
     text: "Divers"
 
@@ -9756,65 +10061,109 @@ resource:
   comment: "Resource Module - Names"
   javaClass: "rtr.resources.templates.*"
   
+  woodyTrash:
+    single:
+      text: "Déchet de bois"
+    plural:
+      text: "Déchets de bois"
+    description:
+      text: "Un tas d'ordures qui peuvent contenir des restes de bois utilisable. Envoyez-le dans un centre de recyclage pour en extraire des ressources, ou brûlez le dans un incinérateur pour générer de l'essence."
+      
   wood:
     single:
       text: "Bois"
     plural:
       text: "Bois"
+    description:
+      text: "Ressource de base pour construire des tonnes de choses, y compris des planches, des outils et la plupart des bâtiments."
 
   board:
     single:
       text: "Planche"
     plural:
       text: "Planches"
+    description:
+      text: "Comme le bois, mais plus plat. Surtout utilisé pour la construction de bâtiments plus avancés."
+
+  rockyTrash:
+    single:
+      text: "Déchets de pierre"
+    plural:
+      text: "Déchets de pierre"
+    description:
+      text: "Un tas d'ordures qui peut contenir des restes de pierre utilisables. Envoyez-le dans un centre de recyclage pour en extraire des ressources, ou brûlez le dans un incinérateur pour générer de l'essence."
 
   rock:
     single:
       text: "Pierre"
     plural:
       text: "Pierres"
+    description:
+      text: "Ressource de base pour construire des tonnes de choses, y compris la pierre taillée et la plupart des bâtiments."
 
   cutStone:
     single:
       text: "Pierre taillée"
     plural:
       text: "Pierres taillées"
+    description:
+      text: "Comme des pierres, mais carrées. Principalement utilisées pour la construction de bâtiments plus avancés."
 
   ironOre:
     single:
       text: "Minerai de fer"
     plural:
       text: "Minerais de fer"
+    description:
+      text: "Du fer pur qui doit être fondu en lingots avant d'être utilisé"
 
   ironIngot:
     single:
       text: "Lingot de fer"
     plural:
       text: "Lingots de fer"
+    description:
+      text: "Utilisé pour la construction de divers bâtiments et pour faire des outils, armes, de l'armure."
 
   goldOre:
     single:
       text: "Minerai d'or"
     plural:
       text: "Minerais d'or"
+    description:
+      text: "De l'or pur qui doit être fondu en lingots avant d'être utilisé"
 
   goldIngot:
     single:
       text: "Lingot d'or"
     plural:
       text: "Lingots d'or"
+    description:
+      text: "Juste utile à faire des pièces d'or."
 
   goldCoinSack:
     single:
       text: "Pièces d'or"
     plural:
       text: "Pièces d'or"
+    description:
+      text: "De l'argent ! Utilisez les pour acheter des choses au marché."
+
+  crystallyTrash:
+    single:
+      text: "Déchet de cristal"
+    plural:
+      text: "Déchets de cristaux"
+    description:
+      text: "Un tas d'ordures qui peut contenir des restes de cristaux utilisables. Envoyez-le dans un centre de recyclage pour en extraire des ressources, ou brûlez le dans un incinérateur pour générer de l'essence."
 
   crystal:
     single:
       text: "Cristal"
     plural:
       text: "Cristaux"
+    description:
+      text: "Ressource de base avec laquelle vous pouvez construire des tonnes de choses, principalement en rapport avec la magie."
 
   crylithium:
     single:
@@ -9823,12 +10172,24 @@ resource:
     plural:
       text: "Crylithium"
       forceCount: "true"
+    description:
+      text: "Du cristal purifié utilisé comme source d'énergie dans plusieurs bâtiments magiques, ou comme carburant dans les collecteurs d'essence."
+
+  organicyTrash:
+    single:
+      text: "Déchet organique"
+    plural:
+      text: "Déchets organiques"
+    description:
+      text: "Un tas d'ordures qui peut contenir des restes de nourriture utilisable. Envoyez-le dans un centre de recyclage pour en extraire des ressources, ou brûlez le dans un incinérateur pour générer de l'essence."
 
   rawFood:
     single:
       text: "Nourriture crue"
     plural:
       text: "Nourriture crue"
+    description:
+      text: "De la nourriture crue comestible !"
 
   ration:
     single:
@@ -9837,114 +10198,152 @@ resource:
     plural:
       text: "Rations"
       forceCount: "true"
+    description:
+      text: "Des aliments bien emballés qui durent plus longtemps !"
 
   ballistaeBolts:
     single:
       text: "Lance"
     plural:
       text: "Lances"
+    description:
+      text: "Des lances pouvant être utilisées dans diverses tours telles que les ballistes ou tours d'archers"
 
   stoneBalls:
     single:
       text: "Balle de pierre"
     plural:
       text: "Balles de pierre"
+    description:
+      text: "Des balles de pierre pouvant être utilisées dans diverses tours telles que les tours pulvérisatrices ou frondes."
 
   ironSword:
     single:
       text: "Épée en fer"
     plural:
       text: "Épées en fer"
+    description:
+      text: "Une arme en fer aiguisée qui augmente les dégâts maximum. Utile pour hacher ses ennemis."
 
   woodSword:
     single:
       text: "Épée en bois"
     plural:
       text: "Épées en bois"
+    description:
+      text: "Arme en bois assez tranchante, qui augmente les dégâts maximum. Utile pour frapper un ennemi."
 
   pickaxe:
     single:
       text: "Pioche"
     plural:
       text: "Pioches"
+    description:
+      text: "Augmente la vitesse de travail pour les travailleurs qui peuvent l'utiliser, comme les mineurs, les ramasseurs de cristaux et les tailleurs de pierre."
 
   axe:
     single:
       text: "Hache"
     plural:
       text: "Haches"
+    description:
+      text: "Augmente la vitesse de travail des travailleurs qui peuvent l'utiliser, comme les charpentiers, les ébénistes, les facteurs d'arcs et les bûcherons."
 
   hoe:
     single:
       text: "Houe"
     plural:
       text: "Houes"
+    description:
+      text: "Augmente la vitesse de travail pour les travailleurs qui peuvent l'utiliser, comme les agriculteurs."
 
   hammer:
     single:
       text: "Marteau"
     plural:
       text: "Marteaux"
+    description:
+      text: "Augmente la vitesse de travail pour les ouvriers qui peuvent l'utiliser, comme les constructeurs, les forgerons et ceux qui raffinent les cristaux."
 
   shovel:
     single:
       text: "Pelle"
     plural:
       text: "Pelles"
+    description:
+      text: "Augmente la vitesse de travail pour les travailleurs qui peuvent l'utiliser, comme les armuriers, les constructeurs, les agriculteurs et les mineurs."
 
   leatherHelmet:
     single:
       text: "Casque en cuir"
     plural:
       text: "Casques en cuir"
+    description:
+      text: "Une armure fragile pour réduire les dégâts."
 
   leatherChest:
     single:
       text: "Plastron en cuir"
     plural:
       text: "Plastrons en cuir"
+    description:
+      text: "Une armure fragile pour réduire les dégâts."
 
   ironHelmet:
     single:
       text: "Casque en fer"
     plural:
       text: "Casques en fer"
+    description:
+      text: "Une armure solide pour réduire les dégâts."
 
   ironChestArmor:
     single:
       text: "Plastron en fer"
     plural:
       text: "Plastrons en fer"
+    description:
+      text: "Une armure solide pour réduire les dégâts."
 
   woodShield:
     single:
       text: "Bouclier en bois"
     plural:
       text: "Boucliers en bois"
+    description:
+      text: "Protection de base qui a une petite chance de dévier une attaque entrante."
 
   ironShield:
     single:
       text: "Bouclier en fer"
     plural:
       text: "Boucliers en fer"
+    description:
+      text: "Une bonne protection qui a une chance de dévier une attaque entrante."
 
   quiver:
     single:
       text: "Carquois"
     plural:
       text: "Carquois"
+    description:
+      text: "Fournit des flèches pour les archers."
 
   bow:
     single:
       text: "Arc"
     plural:
       text: "Arcs"
+    description:
+      text: "Pour tirer sur des choses lointaines que vous n'aimez pas."
 
   silk:
     single:
       text: "Soie"
     plural:
       text: "Soies"
+    description:
+      text: "Utilisé pour faire des bandages."
 
   bandage:
     single:
@@ -9953,42 +10352,81 @@ resource:
     plural:
       text: "Bandages"
       forceCount: "true"
+    description:
+      text: "Des pansements d'urgence qui peuvent être transportés par n'importe qui, utilisés pour guérir s'ils sont gravement blessés."
 
   medkit:
     single:
       text: "Kit médical"
     plural:
       text: "Kits médicaux"
+    description:
+      text: "Augmente la vitesse de travail pour les travailleurs qui peuvent l'utiliser. Utilisé exclusivement par les médecins."
 
   healingPotion:
     single:
       text: "Potion de santé"
     plural:
       text: "Potions de santé"
+    description:
+      text: "Potion d'urgence qui va rapidement redonner de la vie."
 
   dirtyWaterBucket:
     single:
       text: "Seau d'eau sale"
     plural:
       text: "Seaux d'eau sale"
+    description:
+      text: "De l'eau non-potable qui peut être utilisée dans les fermes, ou purifiée dans un purificateur d'eau."
 
   waterBucket:
     single:
       text: "Seau d'eau"
     plural:
       text: "Seaux d'eau"
+    description:
+      text: "De l'eau potable qui peut être mise en bouteille, ou déposée directement dans une maison ou fontaine."
 
   waterBottle:
     single:
       text: "Bouteille d'eau"
     plural:
       text: "Bouteilles d'eau"
+    description:
+      text: "De l'eau en bouteille qui peut être facilement transportée."
 
   suspiciousKey:
     single:
       text: "Clé suspicieuse"
     plural:
-      text: "Clés suspicieuses"
+      text: "Clés suspicieuses"   
+    description:
+      text: "Quel type de coffre cette clé pourrait-elle bien ouvrir ?!"
+
+  suspiciousyTrash:
+    single:
+      text: "Déchet suspicieux ?!"
+    plural:
+      text: "Déchets suspicieux ?!"
+    description:
+      text: "Qu'est-ce que c'est que ce truc ?"
+      
+  trashyTrash:
+    single:
+      text: "Déchets"
+    plural:
+      text: "Déchets"
+    description:
+      text: "Complètement inutile, peut être brûlé dans un incinérateur pour de l'essence gratuite, ou transformé en cube pour brûler plus efficacement."
+      
+  trashyCube:
+    single:
+      text: "Cube de déchets"
+    plural:
+      text: "Cube de déchets"
+    description:
+      text: "Des ordures compressées qui peuvent fournir plus d'essence lorsqu'elles sont brûlées, ou utilisées pour construire un grand cube à ordures ou des murs d'ordures en un clin d'œil."
+  
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # State Base
 # Loading Messages
