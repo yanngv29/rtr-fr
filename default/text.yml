@@ -2026,7 +2026,7 @@ goal:
       text: "Create {resourceName}"
     body:
       any:
-        text: "Create $GRE1{amount}$WHI0 {resourceName}$GRE1in any region$WHI0!"
+        text: "Create $GRE1{amount}$WHI0 {resourceName}$GRE1 in any region$WHI0!"
       specific:
         text: "Create $GRE1{amount}$WHI0 {resourceName}$WHI0 on $GRE1{mapName}$WHI0!"
         
@@ -2035,7 +2035,7 @@ goal:
       text: "Process {resourceName}"
     body:
       any:
-        text: "Process $GRE1{amount}$WHI0 {resourceName}$GRE1in any region$WHI0!"
+        text: "Process $GRE1{amount}$WHI0 {resourceName}$GRE1 in any region$WHI0!"
       specific:
         text: "Process $GRE1{amount}$WHI0 {resourceName}$WHI0 on $GRE1{mapName}$WHI0!"
         
@@ -2309,11 +2309,23 @@ mainMenuCredits:
     back:
       text: "Back"
   
+  creditLine:
+    fallenShogun:
+      text: "Tutorial Brit"
+    shade:
+      text: "Creating the Red Sands Biome"
+    veldrin:
+      text: "Miscellaneous Minor and Major Bug Fixes"
+      
   header:
     developer:
       text: "$GRE1Lead Developer, Programmer and Artist"
     music:
       text: "$GRE1Original Sound Track"
+    communityModerator:
+      text: "$GRE1Community Moderator"
+    contributors:
+      text: "$GRE1Contributors From The Community"
     thanks:
       text: "$YEL1Special thanks to all my Patreons and Kickstarter backers!"
     patreons:
@@ -2929,6 +2941,18 @@ mapEditorPlayRightPanel:
   javaClass2: "rtr.gui.states.playstate.RightPanel.java"
   
   button:
+    tooltip:
+      buildHeader:
+        text: "Build"
+      roadsAndDiggingHeader:
+        text: "Roads and Digging"
+      roadsAndDigging:
+        text: "Requires Way Maker Shack"
+      tilesHeader:
+        text: "Tiles"
+      sandboxToolsHeader:
+        text: "Sandbox Tools"
+        
     navigation:
       back:
         text: "Back a Page"
@@ -3182,7 +3206,18 @@ mapEditorPlayRightPanel:
         text: "Camp"
       lootBox:
         text: "Loot Box"
-      
+        
+    roadsAndDigging:
+      tooltip:
+        digHoleHeader:
+          text: "Dig a Hole"
+        digHole:
+          text: "Dig holes in the ground that will fill with water the next time it rains."
+        dismantleRoadsHeader:
+          text: "Dismantle Roads"
+        dismantleRoads:
+          text: "Completely remove a road or path."
+          
     tiles:
       bricks:
         text: "Bricks"
@@ -3304,6 +3339,10 @@ mapEditorPlayRightPanel:
         text: "Cut Stone and Board Road Debris"
       cutStoneAndBoardRoad:
         text: "Cut Stone and Board Road"
+      digHole:
+        text: "Dig Hole"
+      dismantleRoads:
+        text: "Dismantle Roads"
       
     rock:
       blackRock:
@@ -4221,16 +4260,24 @@ playOverlay:
   roads:
     canNotImprove:
       text: "Can not improve"
+    sameOrBetter:
+      text: "Same or Better"
+    noRoadSelected:
+      text: "No Road Selected"
     roadCostFree:
-      text: "{nextRoadName}~$GRE1Cost: FREE"
+      text: "$YEL1Cost: $GRE1FREE"
+      revision: "1"
     roadCost:
-      text: "{nextRoadName}~$YEL1Cost: 1 {resourceName}"
-  
+      text: "$YEL1Cost: $GRE1{amount}$YEL1 {resourceName}"
+      revision: "1"
+      
   general:
     cancelAction:
       text: "Press $GRE1{shortcutKey} $WHI0or the $GRE1MIDDLE MOUSE BUTTON$WHI0 to cancel current action and return to select mode."
     unassignWork:
       text: "Hold $GRE1{shortcutKey} $YEL1to unassign."
+    selectAllConnected:
+      text: "Hold $GRE1{shortcutKey} $YEL1to select all connected."
     deleteObjects:
       text: "Hold $GRE1{shortcutKey} $YEL1to delete object."
     castFree:
@@ -4891,7 +4938,8 @@ playSelectedObjectPanel:
       dismantleBuildingHeader:
         text: "Dismantle Building"
       dismantleBuilding:
-        text: "Dismantle the building and recover some of its original construction costs."
+        text: "Dismantle the building and recover some of its original construction costs, but can also generate excess trash."
+        revision: "1"
       buildingPriorityHeader:
         text: "Building Priority"
       buildingPriority:
@@ -5055,18 +5103,14 @@ playSelectedObjectUpgradePanel:
     text: "Reload Time: $GRE1+{amount}"
   firingRange:
     text: "Firing Range: $GRE1+{amount}"
-  canSpawnCreatures:
-    text: "Can Spawn Creatures"
-  spawnsMob:
+  canSpawnGolems:
+    text: "Can Spawn Golems"
+  spawnsGolems:
     text: "Spawns $GRE1{mobName}"
-  maximumSpawns:
-    text: "Maximum Spawns: $GRE1+{amount}"
-  spawnNeedsResourcesAndEnergy:
+  maximumGolems:
+    text: "Maximum Golems: $GRE1+{amount}"
+  combobulatorNeedsResourcesAndEnergy:
     text: "Needs $GRE1{resourceName}$WHI0 and $GRE1+{amount} Energy$WHI0 to Spawn"
-  spawnNeedsEnergy:
-    text: "Needs $GRE1+{amount} Energy $WHI0to Spawn"
-  spawnNeedsResources:
-    text: "Needs $GRE1{resourceName}$WHI0 to Spawn"
   rangeGenerated:
     text: "Range Generated: $GRE1+{amount}"
   desirability:
@@ -5517,18 +5561,6 @@ playToolsBar:
         text: "Dismantle Buildings ({shortcutKey})"
       dismantleBuildings:
         text: "Dismantle a building and recover some of its original construction costs. $RED1This CAN NOT be undone!"
-      digHeader:
-        text: "Dig a Hole ({shortcutKey})"
-      dig:
-        text: "Dig holes in the ground that will fill with water the next time it rains."
-      createOrUpgradeRoadsHeader:
-        text: "Create or Upgrade Roads"
-      createOrUpgradeRoads:
-        text: "Select open tiles to build paths on, or upgrade existing roads and paths. Roads and paths increase movement speed of all creatures that walk on them."
-      dismantleRoadsHeader:
-        text: "Dismantle Roads"
-      dismantleRoads:
-        text: "Completely remove a road or path."
       destroyTerrainHeader:
         text: "Destroy Terrain"
       destroyTerrain:
@@ -5721,6 +5753,8 @@ sharedDataViewsPanel:
       text: "Road Durability"
     villageThreatMap:
       text: "Vil. Threat Map"
+    threatenedTileMap:
+      text: "Thrt. Tile Map"
       
   header:
     text: "Data Views"
@@ -5878,18 +5912,14 @@ playRightObjectDescriptionPanel:
     text: "Reload Time: $GRE1{amount}"
   firingRange:
     text: "Firing Range: $GRE1{amount}"
-  canSpawnCreatures:
-    text: "Can Spawn Creatures"
-  spawnsMob:
+  canSpawnGolems:
+    text: "Can Spawn Golems"
+  spawnsGolems:
     text: "Spawns $GRE1{mobName}"
-  maximumSpawns:
-    text: "Maximum Spawns: $GRE1{amount}"
-  spawnNeedsResourcesAndEnergy:
+  maximumGolems:
+    text: "Maximum Golems: $GRE1{amount}"
+  combobulatorNeedsResourcesAndEnergy:
     text: "Needs $GRE1{resourceName}$WHI0 and $GRE1{amount} Energy$WHI0 to Spawn"
-  spawnNeedsEnergy:
-    text: "Needs $GRE1{amount} Energy $WHI0to Spawn"
-  spawnNeedsResources:
-    text: "Needs $GRE1{resourceName}$WHI0 to Spawn"
   rangeGenerated:
     text: "Range Generated: $GRE1{amount}"
   desirability:
@@ -5991,8 +6021,8 @@ sharedSettingsPanel:
       text: "Accent/Alt Function"
     erase:
       text: "Erase (Map Editor)"
-    objectGrab:
-      text: "Object Grab (Map Editor)"
+    unassign:
+      text: "Unassign"
     patch:
       text: "Patch (Map Editor)"
     hole:
@@ -6025,8 +6055,6 @@ sharedSettingsPanel:
       text: "Harvest Crystals"
     destroyTerrain:
       text: "Destroy Terrain"
-    nextTip:
-      text: "Next Tip"
     axisLock:
       text: "Axis Lock"
 
@@ -6070,12 +6098,6 @@ sharedSettingsPanel:
       text: "Fullscreen without Borderless Only"
     vSync:
       text: "vSync"
-    particles:
-      text: "Particles"
-    particlesRetro:
-      text: "Retro"
-    particlesSmooth:
-      text: "Smooth"
 
   performance:
     comment: "Performance column."
@@ -6167,8 +6189,6 @@ sharedTipsPanel:
   button:
     ok:
       text: "OK!"
-    nextTip:
-      text: "Next Tip"
       
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # World Map State
@@ -6237,7 +6257,8 @@ worldMapGameModeConfigPanel:
       baseSpawnRateHeader:
         text: "Base Spawn Rate"
       baseSpawnRate:
-        text: "The overall base spawn rate chance. Lower means more monsters! $YEL1(1 in 1 - 20,000, or none.)"
+        text: "The overall base spawn rate chance. Higher means more monsters! $YEL1(1 - 1,000, or none.)"
+        revision: "1"
       boostedChanceMultiplierHeader:
         text: "Boosted Chance Multiplier"
       boostedChanceMultiplier:
@@ -6246,10 +6267,18 @@ worldMapGameModeConfigPanel:
         text: "Corruption Start Day"
       corruptionStartDay:
         text: "The first day the first corruption spots will spawn in the game world. $YEL1(1 - 200, or never.)"
-      spreadRateHeader:
-        text: "Spread Rate"
-      spreadRate:
-        text: "How fast the corruption spreads. Lower numbers mean faster spreading! $YEL1(1 in 5k to 1 in 500k per update tick)"
+      corruptionDesiredAmountStartHeader:
+        text: "Desired Start"
+      corruptionDesiredAmountStart:
+        text: "How many corruption tiles the corruption will desire from the start. Higher numbers mean faster spreading! $YEL1(64 - 8192)"
+      corruptionDesiredAmountPerDayHeader:
+        text: "Desired Per Day"
+      corruptionDesiredAmountPerDay:
+        text: "How many additional tiles the corruption desires to have per day. Higher numbers mean faster spreading! $YEL1(+64 - 8192 a day)"
+      corruptionDesiredAmountPerBuildingHeader:
+        text: "Desired Per Building"
+      corruptionDesiredAmountPerBuilding:
+        text: "How much each constructed building in the corruption will boost spawn rates. Higher numbers mean faster spreading! $YEL1(+16 - 512 a day)"
       buildingRateHeader:
         text: "Building Rate"
       buildingRate:
@@ -6262,14 +6291,6 @@ worldMapGameModeConfigPanel:
         text: "Building Density Range"
       buildingDensityRange:
         text: "The range looked at when determining building density, set by 'Building Density' above. $YEL1(8 - 128)"
-      permanentCorruptionAmountMaxHeader:
-        text: "Perm. Corr. Amt Max"
-      permanentCorruptionAmountMax:
-        text: "The maximum amount of tiles that can be permanently corrupted. This should be the same or higher than the 'Permanent Corruption Start Amount' above. $YEL1(64 - 64512)"
-      permanentCorruptionMaxPerDayHeader:
-        text: "Perm. Corr. Max Per Day"
-      permanentCorruptionMaxPerDay:
-        text: "How much additional corruption tiles become permanent per day. $YEL1(8 - 2048)"
       
     header:
       text: "$YEL0Corruption"
@@ -6279,8 +6300,12 @@ worldMapGameModeConfigPanel:
       text: "Boosted Chance Multiplier"
     corruptionStartDay:
       text: "Corruption Start Day"
-    spreadRate:
-      text: "Spread Rate"
+    corruptionDesiredAmountStart:
+      text: "Desired Start"
+    corruptionDesiredAmountPerDay:
+      text: "Desired Per Day"
+    corruptionDesiredAmountPerBuilding:
+      text: "Desired Per Building"
     buildingRate:
       text: "Building Rate"
     buildingDensity:
@@ -6896,7 +6921,8 @@ helpTip:
     corruptionHeader:
       text: "Corruption!"
     corruption:   
-      text: "As you've probably already discovered, your villagers are not the only ones in this region! As time passes, $RED1the corruption$WHI0 will slowly spread and take over the map, increasing monster spawn rates and generally causing trouble. There are ways you can push back the corruption though. $GRE1Many buildings offer corruption resistance$WHI0, and high resistance will prevent the corruption from spreading, and can even sometimes push it back. Not all buildings can resist the corruption, be sure to check their stats."
+      text: "As you've probably already discovered, your villagers are not the only ones in this region! As time passes, $RED1the corruption$WHI0 will slowly spread and take over the map, and will get threatened if you try to push it back too far, increasing monster spawn rates and generally causing trouble. Your village's corruption resistance will prevent the corruption from spreading, and can even sometimes push it back. But, if you're greedy and try to claim all the land for yourself, you're going to be in big trouble!"
+      revision: "1"
     seasonAutumnHeader:
       text: "Autumn"
     seasonAutumn:   
@@ -6913,6 +6939,10 @@ helpTip:
       text: "Summer"
     seasonSummer:   
       text: "$YEL1Summer$WHI0 is here. Your villagers are going to have to work in blistering hot weather pretty often, and will have to go home to cool down frequently. Don't expect much rain, and expect substainally slower crop growth. Hopefully you stocked up on food and water during the $GRE1Spring$WHI0!"
+    trashHeader:
+      text: "Trash"
+    trash:   
+      text: "You have trash all over the place! You're going to have to do something about that, or $YEL1Trashy Slimes$WHI0 may start to spawn! You can get trash off the ground by building $YEL1Landfills$WHI0 and $YEL1Trashcans$WHI0. You also have various ways to manage trash, like the $YEL1Burners$WHI0 and $YEL1Processors$WHI0. Once you get the swing of things, you may even find trash to be a powerful ally in your village's resource management."
     destroyTerrainHeader:
       text: "Destroy Terrain"
     destroyTerrain:   
@@ -6929,6 +6959,18 @@ helpTip:
       text: "Dismantle Building"
     dismantle:
       text: "You can dismantle buildings by clicking on the $YEL1Dismantle Buildings and Objects$WHI0 buttons on the bottom right of the GUI, and then clicking on the building you'd like to tear down. Once flagged to be dismantled your builders will destroy the building."
+    overharvestingHeader:
+      text: "Overharvesting"
+    overharvesting:
+      text: "Whoa! Slow down there. $RED1You have way too many resources on the ground$WHI0. Are you building enough storage? $RED1If resources are left on the ground too long they can decay into trash and start spawning trashy slimes$WHI0! If you'd like to get a stockpile of resources, $YEL1you should build some storage buildings$WHI0! They're under the $YEL1storage tab$WHI0 on the build panel. You can also slow down harvesting by just reducing how many harvester workers you have or even set a harvesting cap in the $YEL1left hand GUI$WHI0's production panel."
+    decayingResourcesHeader:
+      text: "Decaying Resources"
+    decayingResources:
+      text: "$RED1Tons of resources on the ground are starting to decay into trash!$WHI0 If you don't keep resources off the ground, they'll liter your village with trash and start spawning trashy slimes! You should build some storage for your resources, or don't harvest as much. If trash is already becoming a problem, be sure to $YEL1build some landfills$WHI0."
+    wallAttackedHeader:
+      text: "Walls Are Being Attacked!"
+    wallAttacked:
+      text: "$RED1Monsters are about to attack your {buildingName} and poke a hole in your defenses!$WHI0 Monsters will attack your walls if the main entry to the village is too congested. You can avoid this by building your perimeter walls thicker, or by making your main entry to the village wider or shorter.~~As monster counts increase, your maze will become increasingly more congested, encouraging them to attack the walls. Make sure you're not making an excessively long, tight maze. Give them some breathing room and they'll continue to funnel into where $GRE1you$WHI0 want them to!"
       
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Influence Module
@@ -7947,8 +7989,13 @@ aiTask:
 
   clearoutResourceFromBuilding:
     pathfindToBuilding:
-      text: "Clearing out $YEL1{resourceName}$WHI0 topography at {buildingName}"
-
+      text: "Clearing out $YEL1{resourceName}$WHI0 at {buildingName}"
+      revision: "1"
+      
+  clearResourcesFromRoad:
+    pathfindToResource:
+      text: "Clearing $YEL1{resourceName}$WHI0 off the road"
+      
   clearTopographyFromRoadWork:
     pathfindToTopography:
       text: "Walking to worksite clear some topography from a road."
@@ -8760,7 +8807,7 @@ object:
           text: "Camp"
         description:
           text: "The center of your village, provides building slots, builders and can store almost any resource in the game."
-          revision: 1
+          revision: "1"
       largeCamp:
         name:
           text: "Large Camp"
@@ -9145,7 +9192,8 @@ object:
         name:
           text: "Makeshift Crystal Golem Combobulator"
         description:
-          text: "A host building that consumes energy and nearby crystals, creating defensive crystal golems with a ranged attack that will protect the village."
+          text: "A host building that consumes energy and nearby crystals, creating defensive crystal golems with a ranged attack that will protect the village. Requires a steady stream of energy, or the golems will die."
+          revision: "2"
       base:
         name:
           text: "Crystal Golem Combobulator"
@@ -9244,7 +9292,8 @@ object:
         name:
           text: "Makeshift Cube-E Golem Combobulator"
         description:
-          text: "A host building that consumes energy and nearby iron ingots, creating golems that can manufacture trashy cubes and build some basic trash based structures. Has no defense capabilities."
+          text: "A host building that consumes energy and nearby iron ingots, creating golems that can manufacture trashy cubes and build trash based structures. Requires a steady stream of energy, or the golems will die."
+          revision: "2"
       base:
         name:
           text: "Cube-E Golem Combobulator"
@@ -9478,7 +9527,8 @@ object:
         name:
           text: "Standard Housing"
         description:
-          text: "Increases the maximum occupancy, storage space and comfort fairly evenly. This is a good selection for a village where you want some space for villagers, but don't want the drawbacks of high occupancy."
+          text: "Increases the maximum occupancy, storage space and comfort evenly. A good selection for a village where you want some space for villagers, but don't want the drawbacks of high occupancy."
+          revision: "1"
       largeStandard:
         name:
           text: "Large Standard Housing"
@@ -9765,7 +9815,7 @@ object:
         name:
           text: "Makeshift Processor"
         description:
-          text: "Provides trasher workers who can clean up trash around the village, and allowers them to process trash and try to get usable resources from them."
+          text: "Provides trasher workers who can clean up trash around the village, and allows them to process trash and try to get usable resources from them."
       base:
         name:
           text: "Processor"
@@ -10128,7 +10178,8 @@ object:
         name:
           text: "Makeshift Stone Golem Combobulator"
         description:
-          text: "A host building that consumes energy and nearby rock, creating slow moving, high hit point defensive stone golems."
+          text: "A host building that consumes energy and nearby rock, creating slow moving, high hit point defensive stone golems. Requires a steady stream of energy, or the golems will die."
+          revision: "2"
       base:
         name:
           text: "Stone Golem Combobulator"
@@ -10251,7 +10302,8 @@ object:
         name:
           text: "Makeshift Wood Golem Combobulator"
         description:
-          text: "A host building that consumes energy and nearby wood, creating moderate speed and hit point defensive wood golems."
+          text: "A host building that consumes energy and nearby wood, creating moderate speed and hit point defensive wood golems. Requires a steady stream of energy, or the golems will die."
+          revision: "2"
       base:
         name:
           text: "Wood Golem Combobulator"
@@ -10516,7 +10568,7 @@ resource:
     plural:
       text: "Raw Food"
     description:
-      text: "Raw food for to eating!"
+      text: "Raw food for eating!"
 
   ration:
     single:
@@ -10556,7 +10608,7 @@ resource:
     plural:
       text: "Wood Swords"
     description:
-      text: "Kinda sharp (Well, more spintery?) wood weapon, that increases maximum damage. Useful for swinging at an enemy."
+      text: "Kinda sharp (Well, more splintery?) wood weapon, that increases maximum damage. Useful for swinging at an enemy."
 
   pickaxe:
     single:

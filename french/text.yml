@@ -1950,11 +1950,23 @@ mainMenuCredits:
     back:
       text: "Retour"
   
+  creditLine:
+    fallenShogun:
+      text: "Tutorial Brit"
+    shade:
+      text: "Création des biomes de sable rouge"
+    veldrin:
+      text: "Diverses corrections de bugs mineurs et majeurs"
+      
   header:
     developer:
       text: "$GRE1Développeur, programmeur et artiste en chef"
     music:
       text: "$GRE1Bande son originale"
+    communityModerator:
+      text: "$GRE1Modérateur de la communauté"
+    contributors:
+      text: "$GRE1Contributeurs de la communauté"
     thanks:
       text: "$YEL1Un remerciement particulier aux contributeurs sur Patreon et Kickstarter !"
     patreons:
@@ -2568,6 +2580,18 @@ mapEditorPlayRightPanel:
   javaClass2: "rtr.gui.states.playstate.RightPanel.java"
   
   button:
+    tooltip:
+      buildHeader:
+        text: "Construction"
+      roadsAndDiggingHeader:
+        text: "Routes et excavation"
+      roadsAndDigging:
+        text: "Requiert un responsable de voirie"
+      tilesHeader:
+        text: "Cases"
+      sandboxToolsHeader:
+        text: "Outils bac à sable"
+        
     navigation:
       back:
         text: "Page précédente"
@@ -2823,6 +2847,17 @@ mapEditorPlayRightPanel:
       lootBox:
         text: "Coffre à butin"
       
+    roadsAndDigging:
+      tooltip:
+        digHoleHeader:
+          text: "Creuser un trou"
+        digHole:
+          text: "Creuse des trous dans le sol qui se rempliront d'eau la prochaine fois qu'il pleuvra."
+        dismantleRoadsHeader:
+          text: "Démantèlement des routes"
+        dismantleRoads:
+          text: "Retire une route ou un chemin complètement."
+          
     tiles:
       bricks:
         text: "Briques"
@@ -2946,6 +2981,10 @@ mapEditorPlayRightPanel:
         text: "Débris de route pavée"
       cutStoneAndBoardRoad:
         text: "Route pavée"
+      digHole:
+        text: "Creuser un trou"
+      dismantleRoads:
+        text: "Démanteler des routes"
       
     rock:
       blackRock:
@@ -3867,16 +3906,24 @@ playOverlay:
   roads:
     canNotImprove:
       text: "Ne peut pas être amélioré"
+    sameOrBetter:
+      text: "Pareil ou mieux"
+    noRoadSelected:
+      text: "Aucune route sélectionnée"
     roadCostFree:
-      text: "{nextRoadName}~$GRE1Coût : GRATUIT"
+      text: "$YEL1Coût : $GRE1GRATUIT"
+      revision: "1"
     roadCost:
-      text: "{nextRoadName}~$YEL1Coût : 1 {resourceName}"
+      text: "$YEL1Coût : $GRE1{amount}$YEL1 {resourceName}"
+      revision: "1"
   
   general:
     cancelAction:
       text: "Appuyez sur $GRE1{shortcutKey} $WHI0ou sur le $GRE1BOUTON CENTRAL DE LA SOURIS $WHI0pour annuler l'action actuelle et revenir au mode de sélection."
     unassignWork:
       text: "Maintenez $GRE1{shortcutKey} $YEL1pour désassigner."
+    selectAllConnected:
+      text: "Maintenez $GRE1{shortcutKey} $YEL1pour sélectionner toutes les connexions."
     deleteObjects:
       text: "Maintenez $GRE1{shortcutKey} $YEL1pour supprimer l'objet."
     castFree:
@@ -4544,7 +4591,8 @@ playSelectedObjectPanel:
       dismantleBuildingHeader:
         text: "Démanteler le bâtiment"
       dismantleBuilding:
-        text: "Démantèle le bâtiment en récupérant une partie du coût de construction en matériaux."
+        text: "Démantèle le bâtiment en récupérant une partie du coût de construction en matériaux, mais peux aussi générer des déchets."
+        revision: "1"
       buildingPriorityHeader:
         text: "Priorité de construction"
       buildingPriority:
@@ -4709,18 +4757,14 @@ playSelectedObjectUpgradePanel:
     text: "Temps de rechargement : $GRE1+{amount}"
   firingRange:
     text: "Portée de tir : $GRE1+{amount}"
-  canSpawnCreatures:
-    text: "Peut invoquer des créatures"
-  spawnsMob:
+  canSpawnGolems:
+    text: "Peut invoquer des golems"
+  spawnsGolems:
     text: "Invocation de $GRE1{mobName}"
-  maximumSpawns:
-    text: "Nb d'invocations maximum : $GRE1+{amount}"
-  spawnNeedsResourcesAndEnergy:
+  maximumGolems:
+    text: "Nb de golems maximum : $GRE1+{amount}"
+  combobulatorNeedsResourcesAndEnergy:
     text: "L'invoc. nécessite $GRE1{resourceName} $WHI0et $GRE1+{amount} d'énergie"
-  spawnNeedsEnergy:
-    text: "Requiert $GRE1+{amount} d'énergie $WHI0pour invoquer"
-  spawnNeedsResources:
-    text: "Requiert $GRE1{resourceName} $WHI0pour invoquer"
   rangeGenerated:
     text: "Portée générée : $GRE1+{amount}"
   desirability:
@@ -5181,18 +5225,6 @@ playToolsBar:
         text: "Démanteler des bâtiments ({shortcutKey})"
       dismantleBuildings:
         text: "Démantèle un bâtiment en récupérant quelques ressources du coût de construction en matériaux. $RED1Cela NE PEUT PAS être annulé !"
-      digHeader:
-        text: "Creuse un trou ({shortcutKey})"
-      dig:
-        text: "Creuse des trous dans le sol. Ces trous se rempliront d'eau la prochaine fois qu'il pleut."
-      createOrUpgradeRoadsHeader:
-        text: "Créer ou améliorer des routes"
-      createOrUpgradeRoads:
-        text: "Sélectionnez des cases libres sur lesquelles construire des chemins ou améliorer des routes et chemins existants. Les routes et les chemins améliorent la vitesse de déplacement de toutes les créatures qui marchent dessus."
-      dismantleRoadsHeader:
-        text: "Démanteler des routes"
-      dismantleRoads:
-        text: "Enlève complètement un chemin ou une route."
       destroyTerrainHeader:
         text: "Détruire le terrain"
       destroyTerrain:
@@ -5383,6 +5415,8 @@ sharedDataViewsPanel:
       text: "Durabilité des routes"
     villageThreatMap:
       text: "Carte des menaces"
+    threatenedTileMap:
+      text: "Cases menacées"
       
   header:
     text: "Données"
@@ -5539,18 +5573,14 @@ playRightObjectDescriptionPanel:
     text: "Durée de rechargement : $GRE1{amount}"
   firingRange:
     text: "Portée de tir : $GRE1{amount}"
-  canSpawnCreatures:
-    text: "Peut invoquer des créatures"
-  spawnsMob:
+  canSpawnGolems:
+    text: "Peut invoquer des golems"
+  spawnsGolems:
     text: "Invoque $GRE1{mobName}"
-  maximumSpawns:
+  maximumGolems:
     text: "Invocations max. : $GRE1{amount}"
   spawnNeedsResourcesAndEnergy:
     text: "Invocation : $GRE1{resourceName} $WHI0et $GRE1{amount} d'énergie"
-  spawnNeedsEnergy:
-    text: "Nécessite $GRE1{amount} d'énergie $WHI0pour invoquer"
-  spawnNeedsResources:
-    text: "Nécessite $GRE1{resourceName} $WHI0pour invoquer"
   rangeGenerated:
     text: "Portée générée : $GRE1{amount}"
   desirability:
@@ -5654,8 +5684,8 @@ sharedSettingsPanel:
       text: "Accentuer/fonction alternative"
     erase:
       text: "Supprimer (éditeur de carte)"
-    objectGrab:
-      text: "Attraper un objet (éditeur de carte)"
+    unassign:
+      text: "Désassigner"
     patch:
       text: "Replacer (éditeur de carte)"
     hole:
@@ -5689,8 +5719,6 @@ sharedSettingsPanel:
       text: "Récolter du cristal"
     destroyTerrain:
       text: "Détruire le terrain"
-    nextTip:
-      text: "Conseil suivant"
     axisLock:
       text: "Verrouillage d'axe"
 
@@ -5736,12 +5764,6 @@ sharedSettingsPanel:
     vSync:
       text: "vSync"
       forceCount: "true"
-    particles:
-      text: "Particules"
-    particlesRetro:
-      text: "Rétro"
-    particlesSmooth:
-      text: "Doux"
 
   performance:
     comment: "Performance column."
@@ -5834,8 +5856,6 @@ sharedTipsPanel:
   button:
     ok:
       text: "OK !"
-    nextTip:
-      text: "Conseil suivant"
       
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # World Map State
@@ -5904,7 +5924,8 @@ worldMapGameModeConfigPanel:
       baseSpawnRateHeader:
         text: "Taux d'apparition de base"
       baseSpawnRate:
-        text: "Le taux d'apparition global de base. Une valeur basse signifie plus de monstes ! $YEL1(1 en 1 - 20.000, ou aucun.)"
+        text: "Le taux d'apparition global de base. Une valeur élevée signifie plus de monstes ! $YEL1(1 en 1 - 1.000, ou aucun.)"
+        revision: "1"
       boostedChanceMultiplierHeader:
         text: "Monstres renforcés"
       boostedChanceMultiplier:
@@ -5913,10 +5934,18 @@ worldMapGameModeConfigPanel:
         text: "1er jour de corruption"
       corruptionStartDay:
         text: "Le premier jour où la première tache de corruption apparaîtra dans le monde. $YEL1(1 - 200, ou jamais.)"
-      spreadRateHeader:
-        text: "Vitesse de propagation"
-      spreadRate:
-        text: "La vitesse à laquelle la corruption se répand. Une valeur basse signifie une propagation plus rapide ! $YEL1(1 en 5k jusqu'à 1 en 500k par tick d'horloge)"
+      corruptionDesiredAmountStartHeader:
+        text: "Désir de départ"
+      corruptionDesiredAmountStart:
+        text: "Combien de cases la corruption va désirer posséder dès le début. Un nombre plus élevé signifie une propagation plus rapide ! $YEL1(64 - 8192)"
+      corruptionDesiredAmountPerDayHeader:
+        text: "Désir par jour"
+      corruptionDesiredAmountPerDay:
+        text: "Combien de cases supplémentaires la corruption désirera posséder par jour. Un nombre plus élevé signifie une propagation plus rapide ! $YEL1(+64 - 8192 par jour)"
+      corruptionDesiredAmountPerBuildingHeader:
+        text: "Désir par bâtiment"
+      corruptionDesiredAmountPerBuilding:
+        text: "De combien chaque bâtiment augmentera le taux d'apparition. Un nombre plus élevé signifie une propagation plus rapide ! $YEL1(+16 - 512 par jour)"
       buildingRateHeader:
         text: "Vitesse de construction"
       buildingRate:
@@ -5929,15 +5958,7 @@ worldMapGameModeConfigPanel:
         text: "Portée de la densité"
       buildingDensityRange:
         text: "La portée utilisée lorsqu'il faut déterminer la densité de construction, défini par 'Densité de construction' ci-dessus. $YEL1(8 - 128)"
-      permanentCorruptionAmountMaxHeader:
-        text: "Corruption permanente"
-      permanentCorruptionAmountMax:
-        text: "La quantité maximale de tuiles qui peuvent être corrompues de façon permanente. Cela devrait être égal ou plus élevé que le paramètre 'Quantité de corruption permanente de départ' ci-dessus. $YEL1(64 - 64512)"
-      permanentCorruptionMaxPerDayHeader:
-        text: "Corruption perma./jour"
-      permanentCorruptionMaxPerDay:
-        text: "Combien de tuiles corrompues deviendront corrompues de façon permanente chaque jour. $YEL1(8 - 2048)"
-      
+
     header:
       text: "$YEL0Corruption"
       forceCount: "true"
@@ -5947,8 +5968,12 @@ worldMapGameModeConfigPanel:
       text: "Monstres renforcés"
     corruptionStartDay:
       text: "1er jour de corruption"
-    spreadRate:
-      text: "Vitesse de propagation"
+    corruptionDesiredAmountStart:
+      text: "Désir de départ"
+    corruptionDesiredAmountPerDay:
+      text: "Désir par jour"
+    corruptionDesiredAmountPerBuilding:
+      text: "Désir par bâtiment"
     buildingRate:
       text: "Vitesse de construction"
     buildingDensity:
@@ -6566,7 +6591,8 @@ helpTip:
     corruptionHeader:
       text: "Corruption !"
     corruption:   
-      text: "Comme vous l'avez probablement déjà découvert, vos villageois ne sont pas les seuls dans cette région ! Avec le temps, $RED1la corruption $WHI0se propage lentement et conquérira la carte, augmentant les taux de d'apparition des monstres et causant des problèmes. Il y a des moyens de repousser la corruption. $GRE1De nombreux bâtiments offrent une résistance à la corruption $WHI0et une résistance élevée empêchera la corruption de se propager et peut même parfois la repousser. Pas tous les bâtiments peuvent résister à la corruption, assurez-vous en en regardant leurs statistiques."
+      text: "As you've probably already discovered, your villagers are not the only ones in this region! As time passes, $RED1the corruption$WHI0 will slowly spread and take over the map, and will get threatened if you try to push it back too far, increasing monster spawn rates and generally causing trouble. Your village's corruption resistance will prevent the corruption from spreading, and can even sometimes push it back. But, if you're greedy and try to claim all the land for yourself, you're going to be in big trouble!"
+      revision: "1"
     seasonAutumnHeader:
       text: "Automne"
     seasonAutumn:   
@@ -6583,6 +6609,10 @@ helpTip:
       text: "Été"
     seasonSummer:   
       text: "L'$YEL1été $WHI0est là. Vos villageois vont devoir travailler par une chaleur torride et devront fréquemment rentrer chez eux pour se rafraîchir. Ne vous attendez pas à beaucoup de pluie et attendez-vous à ce que la croissance des cultures soit plus lente. J'espère que vous avez fait le plein de nourriture et d'eau pendant le $GRE1printemps $WHI0!"
+    trashHeader:
+      text: "Déchets"
+    trash:   
+      text: "Il y a des déchets partout ! Vous allez devoir vous en occuper ou des $YEL1Slimes détritus$WHI0 risquent d'apparaître ! Vous pouvez vous débarasser des déchets en construisant des $YEL1déchetteries$WHI0 et des $YEL1poubelles$WHI0. Il y a différents moyens d'utiliser les détritus tels que les $YEL1incinérateurs$WHI0 et les $YEL1centres de recyclage$WHI0. Une fois ces bonnes habitudes prises, les déchets pourront s'avérer être un puissant allié dans la gestion des ressources de votre village."
     destroyTerrainHeader:
       text: "Détruire du terrain"
     destroyTerrain:   
@@ -6599,6 +6629,18 @@ helpTip:
       text: "Démantèlement de bâtiment"
     dismantle:
       text: "Vous pouvez démanteler des bâtiments en cliquant sur le bouton $YEL1Démanteler des bâtiments et objets $WHI0en bas à droite de l'interface graphique, puis sur le bâtiment que vous souhaitez démanteler. Une fois marqués pour être démantelés, vos constructeurs détruiront le bâtiment."
+    overharvestingHeader:
+      text: "Surexploitation"
+    overharvesting:
+      text: "Hé ! Ralentis. $RED1Il y a beaucoup trop de ressources sur le sol$WHI0. Avez-vous construit assez de stockage ? $RED1Si les ressources sont laissées par terre trop longtemps, elles peuvent se dégrader en déchets et faire apparaître des slimes $WHI0! Si vous voulez créer un stock de ressources, $YEL1vous devriez construire quelques bâtiments de stockage $WHI0! Ils sont dans $YEL1l'onglet stockage$WHI0 dans le panneau de construction. Vous pouvez aussi réduire la récolte de ressources en réduisant le nombre d'ouvriers assignés dans le panneau de gestion des ouvriers $YEL1à gauche GUI$WHI0."
+    decayingResourcesHeader:
+      text: "Ressources en décomposition"
+    decayingResources:
+      text: "$RED1Des tonnes de ressources sur le sol commencent à se décomposer en déchets !$WHI0 Si vous ne gardez pas les ressources dans des bâtiments de stockage, votre village sera jonché d'ordures et commencera à faire apparaître des slimes ! Vous devriez construire des espaces de stockage pour vos ressources, ou ne pas en récolter autant. Si les déchets sont déjà un problème, assurez-vous de $YEL1$construire des déchetteries$WHI0."
+    wallAttackedHeader:
+      text: "Les murs sont attaqués !"
+    wallAttacked:
+      text: "$RED1Les monstres sont sur le point d'attaquer votre {buildingName} et de percer un trou dans vos défenses !$WHI0 Les monstres attaqueront vos murs si l'entrée principale du village est trop congestionnée. Vous pouvez éviter cela en construisant des murailles plus épaisses ou en élargissant ou raccourcissant l'entrée principale du village ~~À mesure que le nombre de monstres augmente, votre labyrinthe devient de plus en plus encombré, ce qui les encourage à attaquer les murs. Assurez-vous de ne pas faire un labyrinthe trop long et trop serré. Donnez-leur un peu d'espace pour respirer et ils continueront à s'engouffrer là où $GRE1vous$WHI0 voulez qu'ils aillent !"
       
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Influence Module
@@ -7628,6 +7670,11 @@ aiTask:
   clearoutResourceFromBuilding:
     pathfindToBuilding:
       text: "Enlève des $YEL1{resourceName} $WHI0à {buildingName}."
+      revision: "1"
+      
+  clearResourcesFromRoad:
+    pathfindToResource:
+      text: "Retire $YEL1{resourceName}$WHI0 de la route"
 
   clearTopographyFromRoadWork:
     pathfindToTopography:
@@ -8440,6 +8487,7 @@ object:
           text: "Campement"
         description:
           text: "Le centre de votre village, fournit des emplacements de construction, des constructeurs et peut stocker presque n'importe quelle ressource disponible dans le jeu."
+          revision: "1"
       largeCamp:
         name:
           text: "Grand campement"
@@ -8824,7 +8872,8 @@ object:
         name:
           text: "Combobulateur de golem de cristal de fortune"
         description:
-          text: "Un bâtiment hôte qui consomme de l'énergie et les cristaux à proximité, créant des golems de cristal de défense attaquant à distance qui protégeront le village."
+          text: "Un bâtiment hôte qui consomme de l'énergie et les cristaux à proximité créant ainsi des golems de cristal de défense attaquant à distance qui protégeront le village. Requiert un flux stable d'énergie, sinon les golems mourront."
+          revision: "2"
       base:
         name:
           text: "Combobulateur de golem de cristal"
@@ -8923,7 +8972,8 @@ object:
         name:
           text: "Combobulateur de golems Cube-E de fortune"
         description:
-          text: "Un bâtiment hôte qui consomme l'énergie et les lingots de fer à proximité, créant des golems qui peuvent fabriquer des cubes de déchets et construire quelques structures à base de déchets. N'a aucune capacité de défense."
+          text: "Un bâtiment hôte qui consomme l'énergie et les lingots de fer à proximité, créant des golems qui peuvent fabriquer des cubes de déchets et construire quelques structures à base de déchets. N'a aucune capacité de défense. Requiert un flux stable d'énergie, sinon les golems mourront."
+          revision: "2"
       base:
         name:
           text: "Combobulateur de golems Cube-E"
@@ -9157,6 +9207,7 @@ object:
           text: "Logement standard"
         description:
           text: "Augmente l'occupation maximale, le stockage et le confort de façon uniforme. Idéal pour laisser de l'espace à vos villageois sans les inconvénients d'un taux d'occupation élevé."
+          revision: "1"
       largeStandard:
         name:
           text: "Grand logement standard"
@@ -9799,7 +9850,8 @@ object:
         name:
           text: "Combobulateur de golems de pierre de fortune"
         description:
-          text: "Un bâtiment hôte qui consomme de l'énergie et des roches proches, créant ainsi des golems de pierre défensifs, lents mais à point de vie élevé."
+          text: "Un bâtiment hôte qui consomme de l'énergie et des roches proches, créant ainsi des golems de pierre défensifs, lents mais à point de vie élevé. Requiert un flux stable d'énergie, sinon les golems mourront."
+          revision: "2"
       base:
         name:
           text: "Combobulateur de golems de pierre"
@@ -9922,7 +9974,8 @@ object:
         name:
           text: "Combobulateur de golems de bois de fortune"
         description:
-          text: "Un bâtiment hôte qui consomme de l'énergie et le bois à proximité, créant des golems de bois défensifs à vitesse et points de vie modérés."
+          text: "Un bâtiment hôte qui consomme de l'énergie et le bois à proximité, créant des golems de bois défensifs à vitesse et points de vie modérés. Requiert un flux stable d'énergie, sinon les golems mourront."
+          revision: "2"
       base:
         name:
           text: "Combobulateur de golems de bois"
