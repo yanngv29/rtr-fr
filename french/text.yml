@@ -190,6 +190,12 @@ godXP:
     text: "Ressources jetées dans des portails cullis"
   throwCreaturesInCullisGate:
     text: "Créatures jetées dans des portails cullis"
+  breeding:
+    text: "Reproduction"
+  animalImpregnated:
+    text: "Animaux fécondés"  
+  eggsLaid:
+    text: "Œufs pondus"  
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Module Base
@@ -1959,6 +1965,7 @@ mainMenuCredits:
   creditLine:
     fallenShogun:
       text: "Tutorial Brit"
+      forceCount: "true"
     shade:
       text: "Création des biomes de sable rouge"
     veldrin:
@@ -2682,6 +2689,7 @@ mapEditorPlayRightPanel:
     defense:
       golems:
         text: "Golems"
+        forceCount: "true"
       towers:
         text: "Tours"
       miscellaneous:
@@ -4755,7 +4763,8 @@ playSelectedObjectUpgradePanel:
   healthRegenerationMinus:
     text: "$RED0{amount} $WHI0régénération de la vie"
   staticTowerDamageOverride:
-    text: "Dégâts : $GRE1électrique $RED0(10-50)"
+    text: "Dégâts : $GRE1électrique (10-50)"
+    revision: "1"
   chargedDamage:
     text: "Dégâts chargés : $GRE1{damageType} (+{damageMinimum}-{damageMaximum})"
   damage:
@@ -4928,6 +4937,7 @@ playStatisticsPanel:
         forceCount: "true"
       rangers:
         text: "Rangers"
+        forceCount: "true"
       walls:
         text: "Murs"
           
@@ -5395,6 +5405,8 @@ sharedDataViewsPanel:
       text: "Endroits bloqués"
     range:
       text: "Portée du village"
+    corruptionResistance:
+      text: "Résistance à la corruption"
     desirability:
       text: "Attractivité"
     towerRange:
@@ -5560,7 +5572,7 @@ playRightObjectDescriptionPanel:
     text: "Stockage maximum : $GRE1{amount}"
   energy:
     text: "$YEL1{amount} d'énergie"
-  staticTowerDamageOverrideAmount:
+  staticTowerDamageOverride:
     text: "Dégâts : $GRE1électrique (10-50)"
     revision: "1"
   chargedDamage:
@@ -5585,14 +5597,12 @@ playRightObjectDescriptionPanel:
     text: "Invoque $GRE1{mobName}"
   maximumGolems:
     text: "Invocations max. : $GRE1{amount}"
-  spawnNeedsResourcesAndEnergy:
-    text: "Invocation : $GRE1{resourceName} $WHI0et $GRE1{amount} d'énergie"
+  combobulatorNeedsResourcesAndEnergy:
+    text: "L'invoc. nécessite $GRE1{resourceName} $WHI0et $GRE1+{amount} d'énergie"
   rangeGenerated:
     text: "Portée générée : $GRE1{amount}"
   desirability:
     text: "Attractivité : $GRE1{amount}"
-  corruptionResistance:
-    text: "Résistance à la corruption : $GRE1{amount}"
   providedMigrationsPerDay:
     text: "Migration journalière fournie : $GRE1{amount}"
   rangerHousingCapacity:
@@ -6424,137 +6434,138 @@ helpTip:
   
   loadingTip:
     welcomeBack:
-      text: "Bienvenue à nouveau ! Voici un conseil."
+      text: "Enfin de retour ! Voici un conseil."
     0:
-      text: "Des nomades en difficulté ? Rappelez-les !"
-    1:
-      text: "Si vous avez un bon village avec plein de logements, de nourriture, et de postes, cela va peut-être inciter quelques nomades à vous rejoindre !"
-    2:
-      text: "Vous pouvez acheter et vendre des ressources au marché. Construisez en un !"
-    3:
-      text: "Augmenter votre population va aussi augmenter votre barre d'influence."
-    4:
-      text: "Les éléments de feu ne peuvent pas nager."
-    5:
-      text: "Prenez soin de vos chiens."
-    6:
-      text: "Les avant-postes et casernes ont une petite tour d'archers lorsqu'ils sont améliorés au maximum."
-    7:
-      text: "Les bons chiens aideront parfois les villageois."
-    8:
-      text: "Les spectres peuvent passer à travers presque tout et sont très résistants aux dégâts physiques."
-    9:
-      text: "La corruption se répand lentement sur la carte, plus il y a de corruption et de bâtiments corrompus sur la carte, plus il y aura de monstres la nuit."
-    10:
-      text: "Les villageois peuvent mourir de vieillesse ! Mais ils vivront un peu plus longtemps si vous prenez soin d'eux."
-    11:
-      text: "N'oubliez pas de construire des sources d'eau pour les villageois."
-    12:
-      text: "Appuyez sur Shift + F2 pour prendre une capture d'écran de l'entièreté de la carte qui sera enregistrée dans screenShots, dans le dossier d'installation de Rise to Ruins."
-    13:
-      text: "Vous pouvez maintenir shift gauche en utilisant les outils tels que les pinceaux, l'ajout de route, les bâtiments et pleins d'autres pour verrouiller l'axe de la souris et les placer en ligne droite."
-    14:
-      text: "Les nomades visiteront parfois votre région et essaieront de devenir des citoyens de votre village. Vous pouvez augmenter la chance qu'ils apparaissent en construisant un grand village avec plein de logements et de défenses."
-    15:
-      text: "L'essence peut être aspirée par votre main, augmentant ainsi votre influence."
-    16:
-      text: "Vous pouvez ajuster la quantité de travailleurs assignés à une tâche en utilisant le panneau de main-d'œuvre à gauche dans l'interface graphique et en appuyant sur les boutons plus ou moins de la tâche désirée."
-    17:
-      text: "Les villageois ont besoin de nourriture ! N'oubliez pas de construire des fermes."
-    18:
-      text: "Vous ne comprenez pas comment jouer ? Lisez les conseils qui apparaissent une fois en jeu !"
-    19:
-      text: "Les squelettes ne peuvent pas prendre feu"
-    20:
-      text: "Les slimes ont tendance à se séparer en pleins d'autres slimes, ils peuvent vite devenir embêtants !"
-    21:
-      text: "Vous avez des difficultés à survivre au-delà du jour 3 ou 4 ? Construisez quelques tours d'archers."
-    22:
-      text: "Des difficultés à avoir des enfants ? Donnez à vos villageois du temps libre et beaucoup de logement."
-    23:
-      text: "Vous pouvez mettre le jeu en pause en appuyant sur l'horloge ou sur la touche que vous avez défini (par défaut : barre d'espace)"
-    24:
-      text: "Essayez de créer des points d'étranglement dans votre villages pour que les monstres aient du mal à s'y introduire."
-    25:
-      text: "Ne vous emmurez pas complètement ! Vous allez le regretter."
-    26:
-      text: "Le tir ami est toujours actif, essayez de ne blesser personne par accident."
-    27:
-      text: "Les tours magiques ont besoin d'essence, construisez des collecteurs d'essence !"
-    28:
-      text: "Une scierie est nécessaire pour transformer les bûches en planches qui sont utilisées pour construire des bâtiments avancés."
-    29:
-      text: "Un tailleur de pierre est nécessaire pour transformer les pierres en pierres taillées qui sont utilisées pour construire des bâtiments avancés."
-    30:
-      text: "Une cristallerie est nécessaire pour transformer les cristaux en crylithium, un carburant très utilisé."
-    31:
-      text: "Vous pouvez désactiver les astuces en jeu dans le menu paramètres."
-    32:
-      text: "Vous pouvez modifier les raccourcis clavier et divers autres paramètres dans le menu paramètres."
-    33:
-      text: "Vous pouvez prendre une capture d'écran en appuyant sur F2, il sera sauvegardé dans le dossier screenshots."
-    34:
-      text: "Vous pouvez cacher l'interface graphique en appuyant sur F4"
-    35:
-      text: "Le jeu crashe ? Il y a les logs dans le dossier logs. Envoyez les au développeur !"
-    36:
-      text: "Plusieurs bâtiments requièrent des matériaux raffinés, vérifiez les besoins du bâtiment avant de le construire !"
-    37:
-      text: "Les conseils en jeu sont vos amis, lisez-les !"
-    38:
-      text: "Des villageois envahis par les monstres ? Rappelez ou bannissez les !"
-    39:
-      text: "Les constructeurs ne récolteront les matériaux que s'ils ont besoin de construire quelque chose. Si vous voulez constituer des réserves, construisez un bâtiment de récolte !"
-    40:
-      text: "Il suffit de dire aux agriculteurs où récolter de la nourriture sauvage, une fois que leur ferme fonctionne, ils iront s'en occuper."
-    41:
-      text: "Les villageois peuvent prendre feu aléatoirement si ils surchauffent pendant trop longtemps en été."
-    42:
-      text: "42"    
-    43:
-      text: "Les villageois gèlent à en devenir dur comme la pierre si ils sont restés dans le froid pendant trop longtemps"
-    44:
-      text: "Assurez-vous de faire des réserves de nourriture pour l'hiver !"
-    45:
-      text: "Le sort de motivation de la terre est beaucoup moins efficace lorsqu'il fait froid."
-    46:
-      text: "Les villageois sont malheureux ? Ne les surmenez pas !"
-    47:
-      text: "Le meilleur moment pour utiliser le sort de motivation est lorsqu'il fait tiède et qu'il pleut."
-    48:
-      text: "La plupart des tours peuvent tirer au dessus de la plupart des murs. Utilisez ça à votre avantage !"
-    49:
-      text: "Vous manquez de nourriture en hiver ? Faites le plein ! En cas d'urgence, vous pouvez utiliser des sorts pour ramasser la nourriture non récoltée à l'extérieur de votre village."
-    50:
-      text: "Saviez-vous que le sort Attraper vous permet de récolter des matériaux sur la carte ? Pratique lorsque vous avez besoin de ressources rapidement."
-    51:
-      text: "Les villageois ont besoin de maisons pour se rafraîchir en été et se réchauffer en hiver."
-    52:
-      text: "Ils meurent de faim en hiver ? Utilisez le sort pour attraper de la nourriture qui serait autrement inaccessible."
-    53:
-      text: "Les golems-ouvriers sont vraiment très pratiques au début du jeu pour transporter des ressources supplémentaires."
-    54:
-      text: "Le printemps est la meilleure saison pour cultiver de la nourriture."
-    55:
-      text: "La nourriture et les arbres ne sont pas les seules choses qui s'arrêtent de pousser dans le froid ou le chaud extrême, les cristaux aussi !"
-    56:
-      text: "La plupart des tours peuvent tirer au-dessus des murets, essayez de construire un labyrinthe de monstres !"
-    57:
-      text: "Les villageois chauffent quand ils travaillent, c'est génial en hiver mais terrible en été."
-    58:
-      text: "Vous voulez aller plus vite ? Construisez une cabane de responsable de voirie et créer des routes !"
-    59:
-      text: "Avec le temps, des sentiers naturels apparaîtront dans les zones où vos villageois se promènent souvent."
-    60:
-      text: "Les routes se détériorent lentement avec le temps, assurez-vous d'avoir quelques responsables de voirie pour les réparer !"
-    61:
-      text: "Les routes se détériorent plus rapidement sous la pluie."
-    62:
-      text: "Les chemins de base ne durent pas très longtemps, pensez à mettre en place un réseau routier adéquat !"
-    63:
-      text: "Plus d'emplacements de construction ? Améliorez votre campement ou construisez des entrepôts !"
-    64:
       text: "Besoin de ressources raffinées plus rapidement ? Construisez un bâtiment supplémentaire."
+    1:
+      text: "Des nomades en difficulté ? Rappelez-les !"
+    2:
+      text: "Si vous avez un bon village avec plein de logements, de nourriture, et de postes, cela va peut-être inciter quelques nomades à vous rejoindre !"
+    3:
+      text: "Vous pouvez acheter et vendre des ressources au marché. Construisez en un !"
+    4:
+      text: "Augmenter votre population va aussi augmenter votre barre d'influence."
+    5:
+      text: "Les éléments de feu ne peuvent pas nager."
+    6:
+      text: "Prenez soin de vos chiens."
+    7:
+      text: "Les avant-postes et loges de rangers ont une petite tour d'archers lorsqu'ils sont améliorés au maximum."
+      revision: "1"
+    8:
+      text: "Les bons chiens aideront parfois les villageois."
+    9:
+      text: "Les spectres peuvent passer à travers presque tout et sont très résistants aux dégâts physiques."
+    10:
+      text: "La corruption se répand lentement sur la carte, plus il y a de corruption et de bâtiments corrompus sur la carte, plus il y aura de monstres la nuit."
+    11:
+      text: "Les villageois peuvent mourir de vieillesse ! Mais ils vivront un peu plus longtemps si vous prenez soin d'eux."
+    12:
+      text: "N'oubliez pas de construire des sources d'eau pour les villageois."
+    13:
+      text: "Appuyez sur Shift + F2 pour prendre une capture d'écran de l'entièreté de la carte qui sera enregistrée dans screenShots, dans le dossier d'installation de Rise to Ruins."
+    14:
+      text: "Vous pouvez maintenir shift gauche en utilisant les outils tels que les pinceaux, l'ajout de route, les bâtiments et pleins d'autres pour verrouiller l'axe de la souris et les placer en ligne droite."
+    15:
+      text: "Les nomades visiteront parfois votre région et essaieront de devenir des citoyens de votre village. Vous pouvez augmenter la chance qu'ils apparaissent en construisant un grand village avec plein de logements et de défenses."
+    16:
+      text: "L'essence peut être aspirée par votre main, augmentant ainsi votre influence."
+    17:
+      text: "Vous pouvez ajuster la quantité de travailleurs assignés à une tâche en utilisant le panneau de main-d'œuvre à gauche dans l'interface graphique et en appuyant sur les boutons plus ou moins de la tâche désirée."
+    18:
+      text: "Les villageois ont besoin de nourriture ! N'oubliez pas de construire des fermes."
+    19:
+      text: "Vous ne comprenez pas comment jouer ? Lisez les conseils qui apparaissent une fois en jeu !"
+    20:
+      text: "Les squelettes ne peuvent pas prendre feu"
+    21:
+      text: "Les slimes ont tendance à se séparer en pleins d'autres slimes, ils peuvent vite devenir embêtants !"
+    22:
+      text: "Vous avez des difficultés à survivre au-delà du jour 3 ou 4 ? Construisez quelques tours d'archers."
+    23:
+      text: "Des difficultés à avoir des enfants ? Donnez à vos villageois du temps libre et beaucoup de logement."
+    24:
+      text: "Vous pouvez mettre le jeu en pause en appuyant sur l'horloge ou sur la touche que vous avez défini (par défaut : barre d'espace)"
+    25:
+      text: "Essayez de créer des points d'étranglement dans votre villages pour que les monstres aient du mal à s'y introduire."
+    26:
+      text: "Ne vous emmurez pas complètement ! Vous allez le regretter."
+    27:
+      text: "Le tir ami est toujours actif, essayez de ne blesser personne par accident."
+    28:
+      text: "Les tours magiques ont besoin d'essence, construisez des collecteurs d'essence !"
+    29:
+      text: "Une scierie est nécessaire pour transformer les bûches en planches qui sont utilisées pour construire des bâtiments avancés."
+    30:
+      text: "Un tailleur de pierre est nécessaire pour transformer les pierres en pierres taillées qui sont utilisées pour construire des bâtiments avancés."
+    31:
+      text: "Une cristallerie est nécessaire pour transformer les cristaux en crylithium, un carburant très utilisé."
+    32:
+      text: "Vous pouvez désactiver les astuces en jeu dans le menu paramètres."
+    33:
+      text: "Vous pouvez modifier les raccourcis clavier et divers autres paramètres dans le menu paramètres."
+    34:
+      text: "Vous pouvez prendre une capture d'écran en appuyant sur F2, il sera sauvegardé dans le dossier screenshots."
+    35:
+      text: "Vous pouvez cacher l'interface graphique en appuyant sur F4"
+    36:
+      text: "Le jeu crashe ? Il y a les logs dans le dossier logs. Envoyez les au développeur !"
+    37:
+      text: "Plusieurs bâtiments requièrent des matériaux raffinés, vérifiez les besoins du bâtiment avant de le construire !"
+    38:
+      text: "Les conseils en jeu sont vos amis, lisez-les !"
+    39:
+      text: "Des villageois envahis par les monstres ? Rappelez ou bannissez les !"
+    40:
+      text: "Les constructeurs ne récolteront les matériaux que s'ils ont besoin de construire quelque chose. Si vous voulez constituer des réserves, construisez un bâtiment de récolte !"
+    41:
+      text: "Il suffit de dire aux agriculteurs où récolter de la nourriture sauvage, une fois que leur ferme fonctionne, ils iront s'en occuper."
+    42:
+      text: "42"
+    43:
+      text: "Les villageois peuvent prendre feu aléatoirement si ils surchauffent pendant trop longtemps en été."
+    44:
+      text: "Les villageois gèlent à en devenir dur comme la pierre si ils sont restés dans le froid pendant trop longtemps"
+    45:
+      text: "Assurez-vous de faire des réserves de nourriture pour l'hiver !"
+    46:
+      text: "Le sort de motivation de la terre est beaucoup moins efficace lorsqu'il fait froid."
+    47:
+      text: "Les chiens sont les meilleurs amis des villageois."
+    48:
+      text: "Le meilleur moment pour utiliser le sort de motivation est lorsqu'il fait tiède et qu'il pleut."
+    49:
+      text: "La plupart des tours peuvent tirer au dessus de la plupart des murs. Utilisez ça à votre avantage !"
+    50:
+      text: "Vous manquez de nourriture en hiver ? Faites le plein ! En cas d'urgence, vous pouvez utiliser des sorts pour ramasser la nourriture non récoltée à l'extérieur de votre village."
+    51:
+      text: "Saviez-vous que le sort Attraper vous permet de récolter des matériaux sur la carte ? Pratique lorsque vous avez besoin de ressources rapidement."
+    52:
+      text: "Les villageois ont besoin de maisons pour se rafraîchir en été et se réchauffer en hiver."
+    53:
+      text: "Ils meurent de faim en hiver ? Utilisez le sort pour attraper de la nourriture qui serait autrement inaccessible."
+    54:
+      text: "Les golems-ouvriers sont vraiment très pratiques au début du jeu pour transporter des ressources supplémentaires."
+    55:
+      text: "Le printemps est la meilleure saison pour cultiver de la nourriture."
+    56:
+      text: "La nourriture et les arbres ne sont pas les seules choses qui s'arrêtent de pousser dans le froid ou le chaud extrême, les cristaux aussi !"
+    57:
+      text: "La plupart des tours peuvent tirer au-dessus des murets, essayez de construire un labyrinthe de monstres !"
+    58:
+      text: "Les villageois chauffent quand ils travaillent, c'est génial en hiver mais terrible en été."
+    59:
+      text: "Vous voulez aller plus vite ? Construisez une cabane de responsable de voirie et créer des routes !"
+    60:
+      text: "Avec le temps, des sentiers naturels apparaîtront dans les zones où vos villageois se promènent souvent."
+    61:
+      text: "Les routes se détériorent lentement avec le temps, assurez-vous d'avoir quelques responsables de voirie pour les réparer !"
+    62:
+      text: "Les routes se détériorent plus rapidement sous la pluie."
+    63:
+      text: "Les chemins de base ne durent pas très longtemps, pensez à mettre en place un réseau routier adéquat !"
+    64:
+      text: "Plus d'emplacements de construction ? Améliorez votre campement ou construisez des entrepôts !"
 
   tip:
     sandboxModeHeader:
@@ -6734,7 +6745,7 @@ helpTip:
     corruptionHeader:
       text: "Corruption !"
     corruption:   
-      text: "As you've probably already discovered, your villagers are not the only ones in this region! As time passes, $RED1the corruption$WHI0 will slowly spread and take over the map, and will get threatened if you try to push it back too far, increasing monster spawn rates and generally causing trouble. Your village's corruption resistance will prevent the corruption from spreading, and can even sometimes push it back. But, if you're greedy and try to claim all the land for yourself, you're going to be in big trouble!"
+      text: "Comme vous l'avez probablement déjà découvert, vos villageois ne sont pas les seuls dans cette région ! Avec le temps, $RED1la corruption$WHI0 se propagera lentement et prendra le dessus sur la carte, et se sentira menacée si vous essayez de la repousser trop loin, augmentant ainsi le taux d'apparition des monstres et causant généralement des problèmes. La résistance de votre village à la corruption empêchera la corruption de s'étendre, et peut même parfois la repousser. Mais, si vous êtes gourmand et que vous essayez de vous approprier toute la carte, vous allez avoir de gros problèmes !"
       revision: "1"
     seasonAutumnHeader:
       text: "Automne"
@@ -6971,7 +6982,7 @@ tileSet:
       name:
         text: "Chemin en bois et pierre"
       description:
-        text: "A well built path that will boost movement speed."
+        text: "Un chemin bien construit qui augmentera la vitesse de déplacement."
     cobbleAndBoardRoadDebris:
       name:
         text: "Débris de chemin planches/pierres"
@@ -7111,7 +7122,7 @@ tileSet:
     corruption:
       name:
         text: "Corruption"
-      forceCount: "true"
+        forceCount: "true"
       description:
         text: "Des trucs diaboliques, restez à l'écart !"
 
@@ -8633,8 +8644,10 @@ mobJob:
   ranger:
     single:
       text: "Ranger"
+      forceCount: "true"
     plural:
       text: "Rangers"
+      forceCount: "true"
     description:
       text: "Chasse des animaux le jour et garde le village la nuit. Capture les animaux et les ramène au village s'il y a des bâtiments disponibles pour les héberger. Bénéficie d'un bonus en défense et en puissance d'attaque."
 
@@ -9451,6 +9464,7 @@ object:
           text: "Logement de fortune"
         description:
           text: "Logements pour votre village fournissant un endroit où vos villageois peuvent manger, dormir, se soigner ou juste récupérer. Vous devriez vous assurer d'avoir suffisamment de logements !"
+          revision: "1"
       baseHighOccupancy:
         name:
           text: "Logement à taux d'occupation élevé"
@@ -9576,18 +9590,21 @@ object:
         text: "Cimetière corrompu"
       description:
         text: "Un bâtiment corrompu créé aux tréfonds des terres corrompues. Augmente le taux d'apparition des monstres dans la zone corrompue."
-    
+        revision: "1"
+
     corruptedGraveyardMedium:
       name:
         text: "Cimetière corrompu"
       description:
         text: "Un bâtiment corrompu créé aux tréfonds des terres corrompues. Augmente le taux d'apparition des monstres dans la zone corrompue."
-    
+        revision: "1"
+
     corruptedGraveyardLarge:
       name:
         text: "Cimetière corrompu"
       description:
         text: "Un bâtiment corrompu créé aux tréfonds des terres corrompues. Augmente le taux d'apparition des monstres dans la zone corrompue."
+        revision: "1"
     
     corruptedFireBowTower:
       name:
@@ -9618,24 +9635,28 @@ object:
         text: "Tour à fléchettes fantômes de feu corrompue"
       description:
         text: "Une petite tour corrompue qui inflige des dégâts magiques de bas niveau et sur laquelle on peut marcher."
+        revision: "1"
     
     corruptedIcePhantomDartTower:
       name:
         text: "Tour à fléchettes fantômes de glace corrompue"
       description:
         text: "Une petite tour corrompue qui inflige des dégâts magiques de bas niveau et sur laquelle on peut marcher."
+        revision: "1"
     
     corruptedPoisonPhantomDartTower:
       name:
         text: "Tour à fléchettes fantômes de poison corrompue"
       description:
         text: "Une petite tour corrompue qui inflige des dégâts magiques de bas niveau et sur laquelle on peut marcher."
-    
+        revision: "1"
+
     corruptedLightningPhantomDartTower:
       name:
         text: "Tour à fléchettes-éclair fantômes corrompue"
       description:
         text: "Une petite tour corrompue qui inflige des dégâts magiques de bas niveau et sur laquelle on peut marcher."
+        revision: "1"
     
     corruptedLargeFirePit:
       name:
@@ -9956,7 +9977,7 @@ object:
           text: "Tour à fronde établie"
         description:
           text: "Augmente de nouveau les dégâts, la cadence et la capacité en munitions de la tour."
-      explosing:
+      exploding:
         name:
           text: "Tour à fronde explosive"
         description:
