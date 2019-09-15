@@ -158,7 +158,11 @@ godXP:
     text: "Villagers Impregnated"
   livedFullLife:
     text: "Lived Full Life"
-  
+  hunting:
+    text: "Hunting"
+  slaughteringAnimals:
+    text: "Slaughtering Animals"
+    
   # God Intervention
   castingSpells:
     text: "Casting Spells"
@@ -184,6 +188,12 @@ godXP:
     text: "Throw Resources in Cullis Gate"
   throwCreaturesInCullisGate:
     text: "Throw Creatures in Cullis Gate"
+  breeding:
+    text: "Breeding"
+  animalImpregnated:
+    text: "Animal Impregnated"  
+  eggsLaid:
+    text: "Eggs Laid"  
   
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Module Base
@@ -1809,8 +1819,10 @@ console:
             text: "{mobName}{mobTitle}$WHI0 was killed by a {buildingName}$WHI0!"
           byUnknown:
             text: "{mobName}{mobTitle}$WHI0 died!"
-          crashing:
+          crushing:
             text: "{mobName}{mobTitle}$RED1 was crushed to death!"
+          beingSlaughtered:
+            text: "{mobName}{mobTitle}$RED1 was slaughtered!"
           dehydration:
             text: "{mobName}{mobTitle}$RED1 died of dehydration!"
           blight:
@@ -3034,18 +3046,14 @@ mapEditorPlayRightPanel:
         text: "Way Maker Shack"
       
     defense:
-      guardsAndGolems:
-        text: "Guards and Golems"
+      golems:
+        text: "Golems"
       towers:
         text: "Towers"
       miscellaneous:
         text: "Miscellaneous"
       
-    guardsAndGolems:
-      barracks:
-        text: "Barracks"
-      outpost:
-        text: "Outpost"
+    golems:
       crystalGolemCombobulator:
         text: "Crystal Golem Combobulator"
       stoneGolemCombobulator:
@@ -3082,16 +3090,26 @@ mapEditorPlayRightPanel:
         text: "Recombobulator Tower"
       
     foodAndWater:
+      animalPen:
+        text: "Animal Pen"
       bottler:
         text: "Bottler"
+      cluckerCoop:
+        text: "Clucker Coop"
       farm:
         text: "Farm"
+      fishingHut:
+        text: "Fishing Hut"
       smallFountain:
         text: "Small Fountain"
       largeFountain:
         text: "Large Fountain"
       kitchen:
         text: "Kitchen"
+      outpost:
+        text: "Outpost"
+      rangerLodge:
+        text: "Ranger Lodge"
       rainCatcher:
         text: "Rain Catcher"
       waterPurifier:
@@ -3691,10 +3709,10 @@ playBuildingListPanel:
       text: "Total Home Occupancy"
     totalHomeOccupancy:
       text: "The total amount of living space currently being used, as well as the total available you have in your homes."
-    totalBarracksOccupancyHeader:
-      text: "Total Barracks Occupancy"
-    totalBarracksOccupancy:
-      text: "The total amount of living space currently being used, as well as the total available you have in your barracks."
+    totalRangerLodgeOccupancyHeader:
+      text: "Total Ranger Lodge Occupancy"
+    totalRangerLodgeOccupancy:
+      text: "The total amount of living space currently being used, as well as the total available you have in your ranger lodge."
     totalWorkersHeader:
       text: "Total Workers"
     totalWorkers:
@@ -3862,8 +3880,10 @@ playLeftJobDescriptionPanel:
       text: "Can Deliver (To Build)"
     canHarvestToStore:
       text: "Can Harvest (To Store)"
-    canRefineManufacture:
+    canRefineOrManufacture:
       text: "Can Refine/Manufacture"
+    canSlaughter:
+      text: "Can Slaughter"
     canPlant:
       text: "Can Plant"
     canDeliverToCourierGolems:
@@ -4068,8 +4088,20 @@ playLeftPanel:
     tooltip:
       makeInfinityHeader:
         text: "Make Infinity"
+      makeInfinite:
+        text: "Will make unlimited {resourceName} regardless if there is space to store it in the village."
+      makeStorageHeader:
+        text: "Make To Storage Limit"
+      makeStorage:
+        text: "Will make unlimited {resourceName}, only stopping if there is no space to store it."
       maintainInfinityHeader:
         text: "Maintain Infinity"
+      maintainInfinity:
+        text: "Will maintain unlimited {resourceName} regardless if there is space to store it in the village."
+      maintainStorageHeader:
+        text: "Maintain To Storage Limit"
+      maintainStorage:
+        text: "Will maintain unlimited {resourceName}, only stopping if there is no space to store it."
       requiresResource:
         text: "Requires {resourceName}"
   
@@ -4344,10 +4376,6 @@ playPopulationListPanel:
       text: "Total Golems"
     totalGolems:
       text: "Total golems currently in the village."
-    averageHappinessHeader:
-      text: "Average Happiness"
-    averageHappiness:
-      text: "The average happiness levels of the entire village."
     averageAgeHeader:
       text: "Average Age"
     averageAge:
@@ -4454,11 +4482,11 @@ playPopulationTotalsPanel:
     totalHomeOccupancyHeader:
       text: "Total Home Occupancy"
     totalHomeOccupancy:
-      text: "The total amount of living space currently being used used, as well as the total available you have in your homes."
-    totalBarracksOccupancyHeader:
-      text: "Total Barracks Occupancy"
-    totalBarracksOccupancy:
-      text: "The total amount of living space currently being used used, as well as the total available you have in your barracks."
+      text: "The total amount of living space currently being used, as well as the total available you have in your homes."
+    totalRangerLodgeOccupancyHeader:
+      text: "Total Ranger Lodge Occupancy"
+    totalRangerLodgeOccupancy:
+      text: "The total amount of living space currently being used used, as well as the total available you have in your ranger lodge."
     totalAncillariesHeader:
       text: "Total Ancillaries"
     totalAncillaries:
@@ -4565,10 +4593,6 @@ playProblemPanel:
       text: "* $RED1{amount} villager is over heating."
     villagersOverHeatingPlural:
       text: "* $RED1{amount} villagers are over heating."
-    villagersUnhappy:
-      text: "* $YEL1{amount} villager is unhappy."
-    villagersUnhappyPlural:
-      text: "* $YEL1{amount} villagers are unhappy."
     villagersOnFire:
       text: "* $RED1{amount} villager is on fire."
     villagersOnFirePlural:
@@ -4639,7 +4663,7 @@ playResourceAndInfluenceBar:
     corruptionThreatHeader:
       text: "Corruption Threat"
     corruptionThreat:
-      text: "Threat increases as the corruption becomes trapped. The more space on the map the corruption desires to control and can't, the higher this bar will be. As a result, more monsters will spawn be in addition to the already steadily increasing daily spawn rates."
+      text: "Threat increases as the corruption becomes trapped. The more space on the map the corruption desires to control and can't, the higher this bar will be. As a result, more monsters will spawn in addition to the already steadily increasing daily spawn rates."
   
   sort:
     total:
@@ -4676,14 +4700,14 @@ playSelectedMobPanel:
       text: "Thirst"
     thirst:
       text: "If their thirst gets to critical levels, they will slowly take damage as they die of dehydration. Will drop slightly faster when in combat, working or overheating."
-    happinessHeader:
-      text: "Happiness"
-    happiness:
-      text: "Low happiness will effect their work performance and life expectancy. Depending on the type of creature this can be increased by meeting their basic needs for food, water, housing, social and other statistics."
     trashHeader:
       text: "Trash Level"
     trash:
       text: "The amount of trash that is being stored inside this creature. Creature like the Cube-E Golem will produce a trashy cube when this bar is full."
+    eggHeader:
+      text: "Egg Progress"
+    egg:
+      text: "How close this ceature is to laying an egg, this bar goes up slowly as the creature eats food. Once full, the creature will immediately lay an egg."
     bodyTemperatureHeader:
       text: "Body Temperature"
     bodyTemperature:
@@ -4727,7 +4751,8 @@ playSelectedMobPanel:
     socialHeader:
       text: "Social"
     social:
-      text: "Low social will cause happiness to drop. But if there are creatures nearby to chat with, they will take a break and chat to increasing their social. Elders will share their wisdom while chatting, giving the recipient experience."
+      text: "Low social will cause a mob to find someone to interact with. If there are creatures nearby to chat with, they will take a break and chat to increasing their social. Elders will share their wisdom while chatting, giving the recipient experience."
+      revision: "1"
     strengthHeader:
       text: "Strength"
     strength:
@@ -4845,10 +4870,10 @@ playSelectedObjectPanel:
       text: "Occupancy"
     occupancy:
       text: "How many villagers are living in this building, as well as the total amount of living space this building supplies."
-    barracksOccupancyHeader:
-      text: "Barracks Occupancy"
-    barracksOccupancy:
-      text: "How many guards are living in this building, as well as the total amount of living space this building supplies."
+    rangerLodgeOccupancyHeader:
+      text: "Ranger Lodge Occupancy"
+    rangerLodgeOccupancy:
+      text: "How many rangers are living in this building, as well as the total amount of living space this building supplies."
     currentAndMaxStorageHeader:
       text: "Current / Max Storage"
     currentAndMaxStorage:
@@ -5004,8 +5029,6 @@ playSelectedObjectPanel:
     text: "$CYA1Home Bonuses"
   sleepSpeedBoost:
     text: "$GRE0{amount}% $WHI0Sleep Speed"
-  happinessBoost:
-    text: "$GRE0{amount} $WHI0Happiness Boost"
   healthRegenerationBoost:
     text: "$GRE0{amount} $WHI0Health Regen"
   reclaimMessage:
@@ -5078,10 +5101,6 @@ playSelectedObjectUpgradePanel:
     text: "$GRE0{amount}% $WHI0Sleep Speed"
   sleepSpeedMinus:
     text: "$RED0{amount}% $WHI0Sleep Speed"
-  happinessBoostPlus:
-    text: "$GRE0+{amount} $WHI0Happiness Boost"
-  happinessBoostMinus:
-    text: "$RED0{amount} $WHI0Happiness Boost"
   healthRegenerationPlus:
     text: "$GRE0+{amount} $WHI0Health Regeneration"
   healthRegenerationMinus:
@@ -5115,8 +5134,8 @@ playSelectedObjectUpgradePanel:
     text: "Range Generated: $GRE1+{amount}"
   desirability:
     text: "Desirability: $GRE1+{amount}"
-  guardHousingCapacity:
-    text: "Guard Housing Capacity: $GRE1+{amount}"
+  rangerHousingCapacity:
+    text: "Ranger Housing Capacity: $GRE1+{amount}"
   housingCapacity:
     text: "Housing Capacity: $GRE1+{amount}"
   workersSlots:
@@ -5215,8 +5234,6 @@ playStatisticsPanel:
         text: "Average Thirst"
       averageEnergy:
         text: "Average Energy"
-      averageHappiness:
-        text: "Average Happiness"
     
     animals:
       total:
@@ -5235,8 +5252,6 @@ playStatisticsPanel:
         text: "Average Thirst"
       averageEnergy:
         text: "Average Energy"
-      averageHappiness:
-        text: "Average Happiness"
         
     buildings:
       totalBuildings:
@@ -5257,8 +5272,8 @@ playStatisticsPanel:
         text: "Combobulators"
       golems:
         text: "Golems"
-      guards:
-        text: "Guards"
+      rangers:
+        text: "Rangers"
       walls:
         text: "Walls"
           
@@ -5352,8 +5367,6 @@ playStatisticsPanel:
         text: "The average thirst levels of the village per day."
       averageEnergy:
         text: "The average energy levels of the village per day."
-      averageHappiness:
-        text: "The average happiness levels of the village per day."
     
     animals:
       total:
@@ -5374,8 +5387,6 @@ playStatisticsPanel:
         text: "The average thirst levels of the domesticated animals per day."
       averageEnergy:
         text: "The average energy levels of the domesticated animals per day."
-      averageHappiness:
-        text: "The average happiness levels of the domesticated animals per day."
     
     monsters:
       totalCorruptionBar:
@@ -5422,8 +5433,8 @@ playStatisticsPanel:
         text: "Total count of all golem combobulators and golems."
       golems:
         text: "How many golems are working in or defending the village."
-      guards:
-        text: "All of the guards in the village."
+      rangers:
+        text: "All of the rangers in the village."
       walls:
         text: "The total count of all walls in range of the village."
     
@@ -5564,8 +5575,9 @@ playToolsBar:
       destroyTerrainHeader:
         text: "Destroy Terrain"
       destroyTerrain:
-        text: "Quickly destroy nearly any topography, including forest, tree stumps, rocks, rubble, water and even flowers. No resources will be gained from destroying the topography."
-
+        text: "Quickly destroy nearly any topography, including forest, tree stumps, rocks, rubble, water and even flowers. A small amount of resources will be gained from destroying the topography, but so with excess trash."
+        revision: "1"
+        
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Play State
 # Village Efficiency Panel"
@@ -5725,8 +5737,6 @@ sharedDataViewsPanel:
       text: "Block Map"
     range:
       text: "Range"
-    perimeter:
-      text: "Perimeter"
     corruptionResistance:
       text: "Corruption Resistance"
     desirability:
@@ -5882,6 +5892,8 @@ playRightObjectDescriptionPanel:
       text: "Can Store"
     canRefineOrManufacture:
       text: "Can Refine/Manufacture"
+    canSlaughter:
+      text: "Can Slaughter"
     defensiveTower:
       text: "Defensive Tower"
     
@@ -5926,8 +5938,8 @@ playRightObjectDescriptionPanel:
     text: "Desirability: $GRE1{amount}"
   providedMigrationsPerDay:
     text: "Provided Migrations Per Day: $GRE1{amount}"
-  guardHousingCapacity:
-    text: "Guard Housing Capacity: $GRE1{amount}"
+  rangerHousingCapacity:
+    text: "Ranger Housing Capacity: $GRE1{amount}"
   housingCapacity:
     text: "Housing Capacity: $GRE1{amount}"
   workersSlots:
@@ -6747,6 +6759,142 @@ helpTip:
   comment: "Help Module - Pop-up Help Tips"
   javaClass: "rtr.help.HelpModule.java"
   
+  loadingTip:
+    welcomeBack:
+      text: "Welcome Back! Here's a tip."
+    0:
+      text: "Need refined resources faster? Build an extra building for it."
+    1:
+      text: "Nomads in trouble? Recall them!"
+    2:
+      text: "If you have a well functioning village with plenty of housing, food and jobs, you may attract some nomads to join your village!"
+    3:
+      text: "You can buy and sell resources at the marketplace. Build one!"
+    4:
+      text: "Increasing your population will also increase your influence bar."
+    5:
+      text: "Fire elementals can't swim."
+    6:
+      text: "Take good care of your doggos."
+    7:
+      text: "The outpost and ranger lodge gain a small tower when upgraded to maximum."
+      revision: "1"
+    8:
+      text: "Good Doggos can help out the village sometimes."
+    9:
+      text: "Specters can walk through almost anything and are highly resistant to physical damage."
+    10:
+      text: "Corruption spreads slowly on the map, the more corruption and corrupted buildings on the map, the more monsters will spawn at night."
+    11:
+      text: "Villagers can die of old age! But they'll live a little longer if you take care of them."
+    12:
+      text: "Don't forget to build water sources for villagers."
+    13:
+      text: "Press Shift+F2 to take a screen shot of the entire map, it will be placed in your screenShots folder in Rise to Ruins install directory."
+    14:
+      text: "You can hold left shift while using tools, like the brush, road placement, road, building and many others to lock the mouse axis and draw straight lines."
+    15:
+      text: "Nomads will sometimes visit your region and try to become citizens of your village. You can increase the chance they'll appear by building a large village with plenty of housing and defenses."
+    16:
+      text: "Essence can be sucked into your hand, increasing your influence bar."
+    17:
+      text: "You can adjust the amount of desired workers for a job by using the workforce tab on the left side of the GUI and pressing the plus and minus buttons for that job."
+    18:
+      text: "Villagers need food! Don't forget to build some farms."
+    19:
+      text: "Can't figure out how to play? Read the in-game tips!"
+    20:
+      text: "Skeletons can't catch on fire."
+    21:
+      text: "Slimes like to split into more slimes, they can become a hassle real quick!"
+    22:
+      text: "Having trouble surviving past day 3 or 4? Build some Bow Towers."
+    23:
+      text: "Trouble breeding? Give your villagers some free time, and plenty of housing."
+    24:
+      text: "You can pause the game by clicking on the clock or pressing the pause hotkey (Default: Spacebar)"
+    25:
+      text: "Try to create choke points in your village designs so monsters have trouble getting in."
+    26:
+      text: "Don't completely wall yourself in! You'll regret it."
+    27:
+      text: "There's always friendly fire, try not to accidentally hurt anyone."
+    28:
+      text: "Magic towers need essence, build Essence Collectors!"
+    29:
+      text: "A Lumber Mill is needed to refine logs into boards, used for many advanced buildings."
+    30:
+      text: "A Stone Cuttery is needed to refine rocks into stones, used for many advanced buildings."
+    31:
+      text: "A Crystillery is needed to refine crystals into crylithum, a very important fuel source."
+    32:
+      text: "You can disable in-game tips in the settings menu."
+    33:
+      text: "You can change hotkeys and various other settings in the settings menu."
+    34:
+      text: "You can take a screenshot by pressing F2, it'll be saved in the screenshots folder."
+    35:
+      text: "You can hide the GUI by pressing F4."
+    36:
+      text: "Game crash? There's crash logs in the logs folder. Send it to the developer!"
+    37:
+      text: "Many buildings require refined materials, check the requires of a building before you place it!"
+    38:
+      text: "In-game tips are your friend, read them!"
+    39:
+      text: "Villagers being swarmed by monsters? Cast recall or banish!"
+    40:
+      text: "Builders will only harvest materials if they need to build something. If you want to create a stockpile, build a harvesting building!"
+    41:
+      text: "Farmers only need to be told what wild resources to gather, once they have a farm running they'll take care of it on their own."
+    42:
+      text: "42"
+      optional: "true"
+    43:
+      text: "Villagers may burst into flames randomly in the Summer if they get too hot for too long."
+    44:
+      text: "Villagers sometimes freeze rock solid if they're extremely cold for a long period of time."
+    45:
+      text: "Make sure you stockpile food for the Winter!"
+    46:
+      text: "Motivate Land is a lot less effective in colder weather."
+    47:
+      text: "Doggos are a villager's best friend."
+    48:
+      text: "The best time to use Motivate Land is when the weather is warm, and it's raining."
+    49:
+      text: "Most towers can shoot over most walls. Use this to your advantage!"
+    50:
+      text: "Running out of food in the Winter? Stock up! In an emergency you can use the grab spell to pickup unharvested food outside your village."
+    51:
+      text: "Did you know the grab spell can grab unharvested materials on the map? Handy when you need resources in a pinch."
+    52:
+      text: "Villagers need homes to cool off in the Summer, and warm up in the Winter."
+    53:
+      text: "Starving in the Winter? Use the grab spell to grab food that's otherwise inaccessible."
+    54:
+      text: "Labor Golems are really handy early game to haul around some extra resources."
+    55:
+      text: "Spring is usually the best time to grow food."
+    56:
+      text: "Food and trees are not the only thing that stop growing in the extreme hot or cold, crystals too!"
+    57:
+      text: "Most towers can shoot over low walls, try building a monster maze!"
+    58:
+      text: "Villagers warm up when they work, this is great in the Winter but terrible in the Summer."
+    59:
+      text: "Want to move faster? Build a Way-Maker Shack and get some roads going!"
+    60:
+      text: "Over time, natural paths will pop up in areas your villagers walk around in often."
+    61:
+      text: "Roads decay slowly over time, make sure you have a few way-makers around to repair them!"
+    62:
+      text: "Roads decay faster in the rain."
+    63:
+      text: "Basic paths don't last very long, consider putting up a proper road system!"
+    64:
+      text: "Running out of building slots? Upgrade your Camp or build some Ancillaries early."
+      
   tip:
     sandboxModeHeader:
       text: "Sandbox Mode!"
@@ -6791,7 +6939,8 @@ helpTip:
     resouceManagementHeader:
       text: "Resource Management"
     resouceManagement:
-      text: "The {buildingName}$WHI0 you just built can manufacture resources like $YEL1{resourceName} $WHI0but in order to get your villagers working on them $RED1you need to both assign {mobJobName} $RED1and assign the resources in the Resource Management tab on the left hand GUI.$WHI0 Setting a resource to $GRE1'Maintain'$WHI0 will try to keep at least that many of a resource in the village at all times, where as $GRE1'Make'$WHI0 will just immediately make that many for you. You can also set the value range over 500 for infinity, as well as control harvesting limits in the same manner."
+      text: "The {buildingName}$WHI0 you just built can manufacture resources like $YEL1{resourceName} $WHI0but in order to get your villagers working on them $RED1you need to both assign {mobJobName} $RED1and assign the resources in the Resource Management tab on the left hand GUI.$WHI0 Setting a resource to $GRE1'Maintain'$WHI0 will try to keep at least that many of a resource in the village at all times, where as $GRE1'Make'$WHI0 will just immediately make that many for you. You can also set the value range over 500 to store up to the maximum amount of total storage you have, or infinity to just produce resources endlessly. You can also control harvesting limits in the same manner."
+      revision: "1"
     energyHeader:
       text: "Energy"
     energy:
@@ -6817,7 +6966,8 @@ helpTip:
     noHomesHeader:
       text: "Homes"
     noHomes:   
-      text: "You're on day {day} and you have not built any $YEL1housing$WHI0, your villagers will need a place to live, or they will be become very unhappy. You also need homes so your villagers can mate, and hopefully have children someday."
+      text: "You're on day {day} and you have not built any $YEL1housing$WHI0, your villagers will need a place to live! You also need homes so your villagers can mate, and hopefully have children someday."
+      revision: "1"
     noFarmsHeader:
       text: "Farming"
     noFarms:   
@@ -6833,11 +6983,13 @@ helpTip:
     buildingSlotsHeader:
       text: "Building Slots"
     buildingSlots:   
-      text: "You have run out of building slot, in order to manage your ever growing village you will need to upgrade your $YEL1Camp$WHI0 or build some $YEL1Ancillaries$WHI0. You can upgrade your $YEL1Camp$WHI0 by clicking on it and then clicking the upgrade button on the bottom panel. Alternatively, if you'd rather build an $YEL1Ancillary$WHI0, you can find them in the Aid subcaregory on your build tab."
+      text: "You have run out of building slot, in order to manage your ever growing village you will need to upgrade your $YEL1Camp$WHI0 or build some $YEL1Ancillaries$WHI0. You can upgrade your $YEL1Camp$WHI0 by clicking on it and then clicking the upgrade button on the bottom panel. Alternatively, if you'd rather build an $YEL1Ancillary$WHI0, you can find them in the Civics subcaregory on your build tab."
+      revision: "1"
     lifeExpectancyHeader:
       text: "Life Expectancy"
     lifeExpectancy:   
-      text: "Villagers who have lived a hard life, won't live quite as long of one! Villager's life expectancy can drop if they are injured, starving, extremely unhappy, or just generally have a bad life. $YEL1Once their life expectancy drops, it is never coming back!$WHI0 So make sure you take care of your villagers so you can have a strong, healthy, long living work force!"
+      text: "Villagers who have lived a hard life, won't live quite as long of one! Villager's life expectancy can drop if they are injured, starving, or just generally have a bad life. $YEL1Once their life expectancy drops, it is never coming back!$WHI0 So make sure you take care of your villagers so you can have a strong, healthy, long living work force!"
+      revision: "1"
     eldersHeader:
       text: "Elder Villagers"
     elders:   
@@ -6883,9 +7035,11 @@ helpTip:
     matingHeader:
       text: "Mating"
     matingDifferentGender:
-      text: "Did you notice that {mobName}$WHI0 has found a new mate, {mobMateName}$WHI0? If either one of them have a home and they're happy enough, they may try to go home and make a baby! They'll also visit each other often to boost their mood, or try to live in the same house whenever possible."
+      text: "Did you notice that {mobName}$WHI0 has found a new mate, {mobMateName}$WHI0? If either one of them have a home, they may try to go home and make a baby! They'll also visit each other often to boost their mood, or try to live in the same house whenever possible."
+      revision: "1"
     matingSameGender:   
-      text: "Did you notice that {mobName}$WHI0 has found a new mate, {mobMateName}$WHI0? If either one of them have a home and they're happy enough, they may try to go home and have some private fun time! They may not be very effective at reproducing like their straight counterparts but they'll still get a boost to their mood! They'll also visit each other often to boost their mood, or try to live in the same house whenever possible."
+      text: "Did you notice that {mobName}$WHI0 has found a new mate, {mobMateName}$WHI0? If either one of them have a home, they may try to go home and have some private fun time! They may not be very effective at reproducing like their straight counterparts but they'll still get a boost to their mood! They'll also visit each other often to boost their mood, or try to live in the same house whenever possible."
+      revision: "1"
     pregnantHeader:
       text: "Pregnant"
     pregnant:   
@@ -6905,15 +7059,13 @@ helpTip:
     rainHeader:
       text: "Rain!"
     rain:   
-      text: "Whoa, it's raining! Rain will cause your villager's happiness to drop slowly and slow down their movement speed a bit, but it will also $GRE1water your crops, fill your rain collectors and put out fires!$WHI0 Just cross your fingers and hope the lightning bolts don't zap anything too important."
+      text: "Whoa, it's raining! Rain will cause your villagers to slow down a bit, but it will also $GRE1water your crops, fill your rain collectors and put out fires!$WHI0 Just cross your fingers and hope the lightning bolts don't zap anything too important."
+      revision: "1"
     snowHeader:
       text: "Snow!"
     snow:   
-      text: "Whoa, it's snowing! Snow will cause your villager's happiness to drop slowly and slow down their movement speed a bit. Be careful, snow also drops the current temperature, it could drop to freezing levels and kill off crops or hurt villagers who can't find a place to warm up."
-    happinessLowHeader:
-      text: "Low Happiness"
-    happinessLow:   
-      text: "Your villagers are extremely unhappy. You should consider giving them some down time. Happy villagers will work harder, and breed more often. Villagers are also more happy in general if they're well fed, have a home, and a mate."
+      text: "Whoa, it's snowing! Snow will cause your villagers to slow down a bit. Be careful, snow also drops the current temperature, it could drop to freezing levels and kill off crops or hurt villagers who can't find a place to warm up."
+      revision: "1"
     timeDuskHeader:
       text: "Night"
     timeDusk:   
@@ -7526,17 +7678,17 @@ mobName:
       text: "Zombie"
     plural:
       text: "Zombies"
-  childZombie:
+  zombieChild:
     single:
-      text: "Child Zombie"
+      text: "Zombie Child"
     plural:
-      text: "Child Zombies"
+      text: "Zombie Children"
   zombieDoggo:
     single:
       text: "Zombie Doggo"
     plural:
       text: "Zombie Doggos"
-  doofyZombieDoggo:
+  zombieDoofyDoggo:
     single:
       text: "Doofy Zombie Doggo"
     plural:
@@ -7546,7 +7698,7 @@ mobName:
       text: "Zombie Catjeet"
     plural:
       text: "Catjeet Zombies"
-  catjeetChildZombie:
+  zombieCatjeetChild:
     single:
       text: "Catjeet Child Zombie"
     plural:
@@ -7571,11 +7723,11 @@ mobName:
       text: "Ghost Doggo"
     plural:
       text: "Ghost Doggos"
-  doofyGhostDoggo:
+  ghostDoofyDoggo:
     single:
-      text: "Doofy Ghost Doggo"
+      text: "Ghost Doofy Doggo"
     plural:
-      text: "Doofy Ghost Doggos"
+      text: "Ghost Doofy Doggos"
   ghostCatjeet:
     single:
       text: "Ghost Catjeet"
@@ -7656,21 +7808,81 @@ mobName:
       text: "Doggo"
     plural:
       text: "Doggos"
-  doofyDoggo:
-    single:
-      text: "Doofy Doggo"
-    plural:
-      text: "Doofy Doggos"
   wildDoggo:
     single:
       text: "Wild Doggo"
     plural:
       text: "Wild Doggos"
-  doofyWildDoggo:
+  doofyDoggo:
     single:
-      text: "Doofy Wild Doggo"
+      text: "Doofy Doggo"
     plural:
-      text: "Doofy Wild Doggos"
+      text: "Doofy Doggos"
+  wildDoofyDoggo:
+    single:
+      text: "Wild Doofy Doggo"
+    plural:
+      text: "Wild Doofy Doggos"
+  beefalo:
+    single:
+      text: "Beefalo"
+    plural:
+      text: "Beefaloes"
+  wildBeefalo:
+    single:
+      text: "Wild Beefalo"
+    plural:
+      text: "Wild Beefaloes"
+  zombieBeefalo:
+    single:
+      text: "Zombie Beefalo"
+    plural:
+      text: "Zombie Beefaloes"
+  entler:
+    single:
+      text: "Entler"
+    plural:
+      text: "Entlers"
+  wildEntler:
+    single:
+      text: "Wild Entler"
+    plural:
+      text: "Wild Entlers"
+  zombieEntler:
+    single:
+      text: "Zombie Entler"
+    plural:
+      text: "Zombie Entlers"
+  rous:
+    single:
+      text: "Rous"
+    plural:
+      text: "Rous"
+  wildRous:
+    single:
+      text: "Wild Rous"
+    plural:
+      text: "Wild Rous"
+  zombieRous:
+    single:
+      text: "Zombie Rous"
+    plural:
+      text: "Zombie Rous"
+  clucker:
+    single:
+      text: "Clucker"
+    plural:
+      text: "Cluckers"
+  wildClucker:
+    single:
+      text: "Wild Clucker"
+    plural:
+      text: "Wild Cluckers"
+  zombieClucker:
+    single:
+      text: "Zombie Clucker"
+    plural:
+      text: "Zombie Cluckers"
   stoneGolem:
     single:
       text: "Stone Golem"
@@ -7932,6 +8144,8 @@ damageCauseName:
     text: "Natural Causes"
   childBirth:
     text: "Child Birth"
+  beingSlaughtered:
+    text: "Being Slaughtered"
     
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Mob AI
@@ -7960,7 +8174,29 @@ aiTask:
         text: "Walking to an open space to drop the resource in their hand"
       dropping:
         text: "Dropping resource on ground"
-        
+
+  animalWanderBehavior:  
+    pathfindToWaypoint:
+      text: "Finding a safe location to settle"
+      
+  attemptBreed:  
+    pathfindToMate:
+      text: "Visiting potiental mate"
+      
+  beingSlaughtered:  
+    beSlaughtered:
+      text: "Being slaughtered!"
+      
+  captureAnimals:  
+    huntingAnimals:
+      text: "Hunting animals"
+    chaseAnimal:
+      text: "Chasing a {mobName}$WHI0!"
+         
+  captureAnimalsInHand:  
+    pathfindToBuilding:
+      text: "Taking {mobName} to {buildingName}"
+      
   birth:  
     findSafeLocation:
       text: "Finding a safe place to give birth"
@@ -8009,6 +8245,8 @@ aiTask:
       text: "Clearing topography."
       
   combatBuildings:
+    fleeTarget:
+      text: "Fleeing {buildingName}"
     pathfindToTarget:
       text: "Attacking {buildingName}"
       
@@ -8188,30 +8426,6 @@ aiTask:
     grabbed:
       text: "Being held by god himself!"
       
-  guardPatrolFrontLine:
-    pathfindToWaypoint:
-      text: "Patrolling the front lines"
-      
-  guardPatrolPerimeter:
-    pathfindToWaypoint:
-      text: "Patrolling the perimeter"
-      
-  guardPatrolVillage:
-    pathfindToWaypoint:
-      text: "Patrolling the village"
-      
-  guardPost:
-    pathfindToBuilding:
-      text: "Posting at {buildingName}"
-    posting:
-      text: "Posted at {buildingName}"
-    pathfindToNewPostPosition:
-      text: "Posted at {buildingName}"
-      
-  guardSummoned:
-    pathfindToSummons:
-      text: "Running to protect {mobName}"
-      
   harvestFarmWork:
     pathfindToResource:
       text: "Walking to farm to harvest food"
@@ -8360,6 +8574,18 @@ aiTask:
     pathfindToWorkBuilding:
       text: "Going to {buildingName} to quit a job."
       
+  rangerPatrolFrontLine:
+    pathfindToWaypoint:
+      text: "Patrolling the front lines"
+      
+  rangerPatrolVillage:
+    pathfindToWaypoint:
+      text: "Patrolling the village"
+      
+  rangerSummoned:
+    pathfindToSummons:
+      text: "Running to protect {mobName}"
+       
   redistributeResources:
     pathfindToBuilding:
       text: "Redistributing resource at {buildingNameSource} to {buildingNameDestination}"
@@ -8415,6 +8641,16 @@ aiTask:
       text: "Delivering resource to $YEL1a catjeet provisioner"
     pathfindToExtraResource:
       text: "Picking up additional planting resource"
+      
+  slaughterAnimal:
+    chaseAnimal:
+      text: "Chasing {mobName} to slaughter!"
+      
+  slaughterAnimalInHand:
+    pathfindToBuilding:
+      text: "Taking {mobName} to {buildingName} to slaughter!"
+    slaughterAnimal:
+      text: "Slaughtering {mobName}!"
       
   sleepOutside:
     findSafeLocation:
@@ -8690,15 +8926,16 @@ mobJob:
     plural:
       text: "Armorsmiths"
     description:
-      text: "Creates armor in the armorsmithy for your villagers to help defend themselves. Requires a supply of Iron Ingots usually from a nearby forge."
-
+      text: "Creates armor in the armorsmithy for your villagers to help defend themselves. Requires a supply of iron ingots usually from a nearby forge, or raw hides from slaughtered animals."
+      revision: "1"
+      
   toolsmith:
     single:
       text: "Toolsmith"
     plural:
       text: "Toolsmiths"
     description:
-      text: "Creates tools and weapons in the toolsmithy for your villagers to help defend themselves or get work done. Requires a supply of Iron Ingots usually from a nearby forge."
+      text: "Creates tools and weapons in the toolsmithy for your villagers to help defend themselves or get work done. Requires a supply of iron ingots usually from a forge, or boards from a lumber mill."
 
   waterMaster:
     single:
@@ -8716,13 +8953,13 @@ mobJob:
     description:
       text: "Takes water and bottles it so your villagers can carry some around with them as they work."
 
-  guard:
+  ranger:
     single:
-      text: "Guard"
+      text: "Ranger"
     plural:
-      text: "Guards"
+      text: "Rangers"
     description:
-      text: "Protects the village, and gets bonus to defense and attack power."
+      text: "Hunts animals in the daytime, and guards the village at night. Will capture animals and bring them back to the village if there is available buildings to house them. Gets bonus to defense and attack power."
 
   provisioner:
     single:
@@ -8923,7 +9160,8 @@ object:
         name:
           text: "Makeshift Armorsmithy"
         description:
-          text: "Provides workers who can turn iron ingots into armor for your villagers. Requires a forge to process raw ore into ingots."
+          text: "Provides workers who can turn iron ingots into armor for your villagers. Requires a forge to process raw ore into ingots and an animal pen and kitchen to process raw hide."
+          revision: "1"
       base:
         name:
           text: "Armorsmithy"
@@ -8962,6 +9200,23 @@ object:
         description:
           text: "Increases the amount of ammo the building can store to maximum."
     
+    animalPen:
+      makeshift:
+        name:
+          text: "Makeshift Animal Pen"
+        description:
+          text: "Allows rangers from the ranger's station to capture animals that can be slaughtered in the kitchen for meat and other raw materials. While captured, animals may breed!"
+      base:
+        name:
+          text: "Animal Pen"
+        description:
+          text: "Increases the maximum capacity of the animal pen."
+      established:
+        name:
+          text: "Established Animal Pen"
+        description:
+          text: "Further increases the maximum capacity of the animal pen."
+                    
     attractTower:
       makeshift:
         name:
@@ -9037,24 +9292,7 @@ object:
           text: "Reinforced Banish Tower"
         description:
           text: "Further increases the maximum energy and fire rate of the tower."
-    
-    barracks:
-      makeshift:
-        name:
-          text: "Makeshift Barracks"
-        description:
-          text: "Provides and houses guards that will protect and patrol the village, also provides slightly better health regeneration than regular homes at the cost of energy and happiness generation."
-      base:
-        name:
-          text: "Barracks"
-        description:
-          text: "Increases provided guards, storage space and the health regeneration bonus of guards resting in the barracks."
-      established:
-        name:
-          text: "Established Barracks"
-        description:
-          text: "Adds a small bow tower to the barracks, as well as further increases provided guards, storage space and the health regeneration bonus of guards resting in the barracks."
-    
+
     bottler:
       makeshift:
         name:
@@ -9071,7 +9309,7 @@ object:
           text: "Established Bottler"
         description:
           text: "Increases global speed bonus to all bottler manufacturing, increases maximum storage and gives the village an additional bottler job slot."
-    
+           
     bowTower:
       makeshift:
         name:
@@ -9187,6 +9425,23 @@ object:
         description:
           text: "Increases global speed bonus to all bandage and medkit manufacturing, increases maximum storage and gives the village additional medic job slots."
     
+    cluckerCoop:
+      makeshift:
+        name:
+          text: "Makeshift Clucker Coop"
+        description:
+          text: "Allows rangers from the ranger's station to capture cluckers that can be slaughtered in the kitchen for meat and other raw materials. While captured, animals may breed!"
+      base:
+        name:
+          text: "Clucker Coop"
+        description:
+          text: "Increases the maximum capacity of the clucker coop."
+      established:
+        name:
+          text: "Established Clucker Coop"
+        description:
+          text: "Further increases the maximum capacity of the clucker coop."
+          
     crystalGolemCombobulator:
       makeshift:
         name:
@@ -9422,6 +9677,23 @@ object:
       description:
         text: "Just a basic light source, but slightly bigger! Will also increase your build range a bit! Monsters won't attack it, so feel free to build it into your walls."
     
+    fishingHut:
+      makeshift:
+        name:
+          text: "Makeshift Fishing Hut"
+        description:
+          text: "ADD THIS"
+      base:
+        name:
+          text: "Fishing Hut"
+        description:
+          text: "ADD THIS"
+      established:
+        name:
+          text: "Established Fishing Hut"
+        description:
+          text: "ADD THIS"
+          
     foodStorage:
       small:
         name:
@@ -9798,17 +10070,17 @@ object:
         name:
           text: "Makeshift Outpost"
         description:
-          text: "Remote outpost your guards will use as a patrol point while protecting the village. Don't put it anywhere too dangerous!"
+          text: "Remote outpost your rangers will use as a patrol point while protecting the village. Don't put it anywhere too dangerous!"
       base:
         name:
           text: "Outpost"
         description:
-          text: "Increases the amount of guards the outpost can provide."
+          text: "Increases the amount of rangers the outpost can provide."
       established:
         name:
           text: "Established Outpost"
         description:
-          text: "Further increases the amount of guards the outpost can provide and adds a small defensive bow tower on top of the outpost."
+          text: "Further increases the amount of rangers the outpost can provide and adds a small defensive bow tower on top of the outpost."
     
     processor:
       makeshift:
@@ -9980,7 +10252,25 @@ object:
           text: "Reinforced Miscellaneous Storage"
         description:
           text: "Increases the amount of miscellaneous resources the building can store to maximum."
-    
+            
+    rangerLodge:
+      makeshift:
+        name:
+          text: "Makeshift Ranger Lodge"
+        description:
+          text: "Provides and houses rangers that will protect the village and hunt animals, also provides slightly better health regeneration than regular homes at the cost of energy."
+          revision: "1"
+      base:
+        name:
+          text: "Ranger Lodge"
+        description:
+          text: "Increases provided rangers, storage space and the health regeneration bonus of rangers resting in the ranger lodge."
+      established:
+        name:
+          text: "Established Ranger Lodge"
+        description:
+          text: "Adds a small bow tower to the ranger lodge, as well as further increases provided rangers, storage space and the health regeneration bonus of rangers resting in the ranger lodge."
+        
     slingTower:
       makeshift:
         name:
@@ -9997,9 +10287,9 @@ object:
           text: "Established Sling Tower"
         description:
           text: "Further increases maximum damage, firing rate and ammunition storage of the tower."
-      fire:
+      exploding:
         name:
-          text: "Fire Sling Tower"
+          text: "Exploding Sling Tower"
         description:
           text: "Adds explosive fire damage to the tower, but consumes energy to fire. If the energy reserves are exhausted, it will continue to fire regular stone balls until its ammunition runs out."
       lightning:
@@ -10211,7 +10501,7 @@ object:
         name:
           text: "Makeshift Toolsmithy"
         description:
-          text: "Provides workers who can turn iron ingots into tools for your villagers that will boost work efficiency. Requires a forge to process raw ore into ingots."
+          text: "Provides workers who can turn iron ingots and boards into tools for your villagers that will boost work efficiency or combat. Requires a forge to process raw ore into ingots, or a lumber mill for boards."
       base:
         name:
           text: "Toolsmithy"
@@ -10415,8 +10705,12 @@ resourceCategory:
   
   armor:
     text: "Armor"
+  byproduct:
+    text: "Byproduct"
   raw:
     text: "Raw"
+  foodAndWater:
+    text: "Food and Water"
   recovery:
     text: "Recovery"
   refined:
@@ -10562,13 +10856,13 @@ resource:
     description:
       text: "A pile of trash that may have some useful sustenance leftover. Use a processor building to process it, or just burn it in a burner for free essence."
       
-  rawFood:
+  rawVegetable:
     single:
-      text: "Raw Food"
+      text: "Raw Vegetable"
     plural:
-      text: "Raw Food"
+      text: "Raw Vegetable"
     description:
-      text: "Raw food for eating!"
+      text: "Raw vegetable for eating!"
 
   ration:
     single:
@@ -10682,11 +10976,11 @@ resource:
     description:
       text: "Strong armor used to reduce incoming damage."
 
-  woodShield:
+  leatherShield:
     single:
-      text: "Wood Shield"
+      text: "Leather Shield"
     plural:
-      text: "Wood Shields"
+      text: "Leather Shields"
     description:
       text: "Basic protection that has a small chance to deflect an incoming attack."
 
@@ -10801,150 +11095,63 @@ resource:
       text: "Trashy Cube"
     description:
       text: "Compressed trashy trash that can provide more essence when burned, or used to build a large trash cube or trash walls in a pinch."
-    
-# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
-# State Base
-# Loading Messages
-# rtr.states.StateBase.java
-# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
-     
-stateBase:
-  comment: "Loading Messages"
-  javaClass: "rtr.states.StateBase.java"
-  
-  loadingMessage:
-    0:
-      text: "Need refined resources faster? Build an extra building for it."
-    1:
-      text: "Nomads in trouble? Recall them!"
-    2:
-      text: "If you have a well functioning village with plenty of housing, food and jobs, you may attract some nomads to join your village!"
-    3:
-      text: "You can buy and sell resources at the marketplace. Build one!"
-    4:
-      text: "Increasing your population will also increase your influence bar."
-    5:
-      text: "Fire elementals can't swim."
-    6:
-      text: "Take good care of your doggos."
-    7:
-      text: "The outpost and barracks gain a small tower when upgraded to maximum."
-    8:
-      text: "Good Doggos can help out the village sometimes."
-    9:
-      text: "Specters can walk through almost anything and are highly resistant to physical damage."
-    10:
-      text: "Corruption spreads slowly on the map, the more corruption and corrupted buildings on the map, the more monsters will spawn at night."
-    11:
-      text: "Villagers can die of old age! But they'll live a little longer if you take care of them."
-    12:
-      text: "Don't forget to build water sources for villagers."
-    13:
-      text: "Press Shift+F2 to take a screen shot of the entire map, it will be placed in your screenShots folder in Rise to Ruins install directory."
-    14:
-      text: "You can hold left shift while using tools, like the brush, road placement, road, building and many others to lock the mouse axis and draw straight lines."
-    15:
-      text: "Nomads will sometimes visit your region and try to become citizens of your village. You can increase the chance they'll appear by building a large village with plenty of housing and defenses."
-    16:
-      text: "Essence can be sucked into your hand, increasing your influence bar."
-    17:
-      text: "You can adjust the amount of desired workers for a job by using the workforce tab on the left side of the GUI and pressing the plus and minus buttons for that job."
-    18:
-      text: "Villagers need food! Don't forget to build some farms."
-    19:
-      text: "Can't figure out how to play? Read the in-game tips!"
-    20:
-      text: "Skeletons can't catch on fire."
-    21:
-      text: "Slimes like to split into more slimes, they can become a hassle real quick!"
-    22:
-      text: "Having trouble surviving past day 3 or 4? Build some Bow Towers."
-    23:
-      text: "Trouble breeding? Give your villagers some free time, and plenty of housing."
-    24:
-      text: "You can pause the game by clicking on the clock or pressing the pause hotkey (Default: Spacebar)"
-    25:
-      text: "Try to create choke points in your village designs so monsters have trouble getting in."
-    26:
-      text: "Don't completely wall yourself in! You'll regret it."
-    27:
-      text: "There's always friendly fire, try not to accidentally hurt anyone."
-    28:
-      text: "Magic towers need essence, build Essence Collectors!"
-    29:
-      text: "A Lumber Mill is needed to refine logs into boards, used for many advanced buildings."
-    30:
-      text: "A Stone Cuttery is needed to refine rocks into stones, used for many advanced buildings."
-    31:
-      text: "A Crystillery is needed to refine crystals into crylithum, a very important fuel source."
-    32:
-      text: "You can disable in-game tips in the settings menu."
-    33:
-      text: "You can change hotkeys and various other settings in the settings menu."
-    34:
-      text: "You can take a screenshot by pressing F2, it'll be saved in the screenshots folder."
-    35:
-      text: "You can hide the GUI by pressing F4."
-    36:
-      text: "Game crash? There's crash logs in the logs folder. Send it to the developer!"
-    37:
-      text: "Many buildings require refined materials, check the requires of a building before you place it!"
-    38:
-      text: "In-game tips are your friend, read them!"
-    39:
-      text: "Villagers being swarmed by monsters? Cast recall or banish!"
-    40:
-      text: "Builders will only harvest materials if they need to build something. If you want to create a stockpile, build a harvesting building!"
-    41:
-      text: "Farmers only need to be told what wild resources to gather, once they have a farm running they'll take care of it on their own."
-    42:
-      text: "42"
-      optional: "true"
-    43:
-      text: "Villagers may burst into flames randomly in the summer if they get too hot for too long."
-    44:
-      text: "Villagers sometimes freeze rock solid if they're extremely cold for a long period of time."
-    45:
-      text: "Make sure you stockpile food for the winter!"
-    46:
-      text: "Motivate Land is a lot less effective in colder weather."
-    47:
-      text: "Villagers unhappy? Don't overwork them!"
-    48:
-      text: "The best time to use Motivate Land is when the weather is warm, and it's raining."
-    49:
-      text: "Most towers can shoot over most walls. Use this to your advantage!"
-    50:
-      text: "Running out of food in the winter? Stock up! In an emergency you can use the grab spell to pickup unharvested food outside your village."
-    51:
-      text: "Did you know the grab spell can grab unharvested materials on the map? Handy when you need resources in a pinch."
-    52:
-      text: "Villagers need homes to cool off in the summer, and warm up in the Winter."
-    53:
-      text: "Starving in the winter? Use the grab spell to grab food that's otherwise inaccessible."
-    54:
-      text: "Labor Golems are really handy early game to haul around some extra resources."
-    55:
-      text: "Spring is usually the best time to grow food."
-    56:
-      text: "Food and trees are not the only thing that stop growing in the extreme hot or cold, crystals too!"
-    57:
-      text: "Most towers can shoot over low walls, try building a monster maze!"
-    58:
-      text: "Villagers warm up when they work, this is great in the Winter but terrible in the Summer."
-    59:
-      text: "Want to move faster? Build a Way-Maker Shack and get some roads going!"
-    60:
-      text: "Over time, natural paths will pop up in areas your villagers walk around in often."
-    61:
-      text: "Roads decay slowly over time, make sure you have a few way-makers around to repair them!"
-    62:
-      text: "Roads decay faster in the rain."
-    63:
-      text: "Basic paths don't last very long, consider putting up a proper road system!"
-    64:
-      text: "Running out of building slots? Upgrade your Camp or build some Ancillaries early."
+      
+  capturedAnimal:
+    single:
+      text: "Captured Animal"
+    plural:
+      text: "Captured Animals"
+    description:
+      text: "A captured animal!"
+      
+  rawHide:
+    single:
+      text: "Raw Hide"
+    plural:
+      text: "Raw Hides"
+    description:
+      text: "Raw hide for making leather armor."
+      
+  feather:
+    single:
+      text: "Feather"
+    plural:
+      text: "Feathers"
+    description:
+      text: "Has some uses in manufacturing, like making quivers."
+               
+  egg:
+    single:
+      text: "Egg"
+    plural:
+      text: "Eggs"
+    description:
+      text: "An egg for cooking, or boiling and eating."
+      
+  boiledEgg:
+    single:
+      text: "Boiled Egg"
+    plural:
+      text: "Boiled Eggs"
+    description:
+      text: "A boiled egg, for eating!"
+      
+  rawMeat:
+    single:
+      text: "Raw Meat"
+    plural:
+      text: "Raw Meat"
+    description:
+      text: "Delicious raw meat. You can cook it, or eat it now if you like a really rare steak."
 
+  cookedMeat:
+    single:
+      text: "Cooked Meat"
+    plural:
+      text: "Cooked Meat"
+    description:
+      text: "Delicious cooked meat."
+          
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Game Mode
 # Names
