@@ -2886,7 +2886,29 @@ mainMenuUploadProfilePanel:
   category:
     text: "Problem Category"
 
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# Main Menu State
+# Warning Panel
+# rtr.gui.states.mainmenu.WarningPanel.java
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
+mainMenuWarningPanel:
+  comment: "Main Menu State - Warning Panel"
+  javaClass: "rtr.gui.states.mainmenu.WarningPanel.java"
+
+  header:
+    text: "$RED1WARNING - PLEASE READ!"
+  body:
+    line1:
+      text: "You are about to play a version of Rise to Ruins that makes extensive changes to the data structure of your save system. Since you are playing on an older profile I highly recommend you back up your save data before continuing! Doing this is easy, all you need to do is open your Rise to Ruins install folder make a copy of the entire 'profiles' folder and place it somewhere safe. If something goes terribly wrong, you can simply delete the broken profiles folder and place your backup back in the install folder. "
+    line2:
+      text: "This patch has been extensively tested with numerious player's save data. But you never know what small issues may creep up. If your old save will not load, or becomes damaged, please let me know on the official Steam forum, discord, or twitter. You can find links to these places on the main menu."
+  button:
+    gotIt:
+      text: "Got It!"
+    openInstallFolder:
+      text: "Open Install Folder"
+            
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Map Editor State
 # Main Menu Panel
@@ -4707,7 +4729,7 @@ playSelectedMobPanel:
     eggHeader:
       text: "Egg Progress"
     egg:
-      text: "How close this ceature is to laying an egg, this bar goes up slowly as the creature eats food. Once full, the creature will immediately lay an egg."
+      text: "How close this creature is to laying an egg, this bar goes up slowly as the creature eats food. Once full, the creature will immediately lay an egg."
     bodyTemperatureHeader:
       text: "Body Temperature"
     bodyTemperature:

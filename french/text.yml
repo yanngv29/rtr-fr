@@ -2531,6 +2531,29 @@ mainMenuUploadProfilePanel:
   category:
     text: "Catégorie du problème"
 
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# Main Menu State
+# Warning Panel
+# rtr.gui.states.mainmenu.WarningPanel.java
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+mainMenuWarningPanel:
+  comment: "Main Menu State - Warning Panel"
+  javaClass: "rtr.gui.states.mainmenu.WarningPanel.java"
+
+  header:
+    text: "$RED1AVERTISSEMENT - MERCI DE LIRE!"
+  body:
+    line1:
+      text: "Vous êtes sur le point de jouer une version de Rise to Ruins qui apporte des modifications importantes à la structure de données de votre système de sauvegarde. Puisque vous jouez sur un profil plus ancien, je vous recommande fortement de sauvegarder vos profils de Rise to Ruins avant de continuer ! C'est facile, il vous suffit d'ouvrir votre dossier d'installation Rise to Ruins, de faire une copie de l'ensemble du dossier 'profiles' et de le placer dans un endroit sûr. Si quelque chose ne va pas très bien, vous pouvez simplement supprimer le dossier des profils endommagés et replacer votre sauvegarde dans le dossier d'installation."
+    line2:
+      text: "Ce patch a été largement testé avec de nombreuses données de sauvegarde. Mais on ne sait jamais quels problèmes peuvent surgir. Si votre ancienne sauvegarde ne se charge pas, ou est endommagée, merci de me le faire savoir sur le forum officiel, Steam, discord, ou twitter. Vous trouverez des liens vers ces endroits dans le menu principal."
+  button:
+    gotIt:
+      text: "Compris !"
+    openInstallFolder:
+      text: "Ouvrir le dossier d'installation"
+
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Map Editor State
