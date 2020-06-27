@@ -65,7 +65,7 @@ godXP:
   buildingsConstructed:
     text: "Bâtiments construits"
   buildingsDismantled:
-    text: "Bâtiments démantelé"
+    text: "Bâtiments démantelés"
   wallsDismantled:
     text: "Murs démantelés"
   wallsConstructed:
@@ -75,15 +75,15 @@ godXP:
   villagerLeveledUp:
     text: "Villageois au niveau supérieur"
   childBirth:
-    text: "Accouchements"
+    text: "Naissance"
   building:
     text: "Constructions"
   buyingResources:
-    text: "Achats de ressources"
+    text: "Achat de ressources"
   hiringLaborers:
     text: "Recrutement d'ouvriers"
   eldersSharingWisdom:
-    text: "Partage de connaissances des doyens"
+    text: "Partage de connaissances des anciens"
   clearingRoads:
     text: "Entretien des routes"
   combat:
@@ -112,15 +112,15 @@ godXP:
   deliveringResourcesToRoad:
     text: "Livraison de ressources sur les routes"
   diggingHoles:
-    text: "Troux creusés"
+    text: "Trous creusés"
   dismantlingBuildings:
     text: "Démantèlement de bâtiments"
   equippingResources:
     text: "Équipement de ressources"
   findingNewHome:
-    text: "Emménagements"
+    text: "Emménagement"
   growingUp:
-    text: "Passages à l'âge adulte"
+    text: "Passage à l'âge adulte"
   patrolling:
     text: "En patrouille"
   guardDuty:
@@ -149,7 +149,7 @@ godXP:
     text: "Domestication"
     forceCount: "true"
   destroyingRoads:
-    text: "Destructions de routes"
+    text: "Destruction de routes"
   plantingCrops:
     text: "Plantation de cultures"
   migrantsPreparing:
@@ -303,7 +303,7 @@ module:
   spawn:
     text: "Apparition"
   weather:
-    text: "Temps"
+    text: "Météo"
   projectile:
     text: "Projectile"
     forceCount: "true"
@@ -321,17 +321,17 @@ perkType:
   javaClass: "rtr.PerkModule.java"
 
   maximumHealth:
-    text: "Vie maximale"
+    text: "Santé maximale"
   healthRecoverySpeed:
-    text: "Vitesse de régénération de la vie"
+    text: "Vitesse de régénération de la santé"
   maximumHunger:
     text: "Faim maximale"
   hungerDecayRate:
-    text: "Taux d'augmentation de la faim"
+    text: "Taux de diminution de la faim"
   maximumThirst:
     text: "Soif maximale"
   thirstDecayRate:
-    text: "Taux d'augmentation de la soif"
+    text: "Taux de diminution de la soif"
   maximumEnergy:
     text: "Énergie maximale"
   energyDecayRate:
@@ -353,11 +353,11 @@ perkType:
   fertility:
     text: "Fertilité"
   ghostAppearanceChance:
-    text: "Chance d'apparaitre en fantôme"
+    text: "Chance d'apparaître en fantôme"
   villagerColdResistance:
     text: "Résistance au froid des villageois"
   villagerHeatResistance:
-    text: "Résistance au chaud des villageois"
+    text: "Résistance à la chaleur des villageois"
   villagerLifespans:
     text: "Durée de vie des villageois"
   wiserElders:
@@ -425,7 +425,7 @@ perkType:
   efficientTrashBurning:
     text: "Combustion efficace des déchets"
   buildingHealth:
-    text: "Santé des construction"
+    text: "Santé des constructions"
   increasedCullisGateStability:
     text: "Augmentation de la stabilité du portail Cullis"
   attractTowerRange:
@@ -441,17 +441,17 @@ perkType:
   banishTowerEnergyCost:
     text: "Coût énergétique des tours bannisseuses"
   ballistaTowerRange:
-    text: "Portée des ballistes"
+    text: "Portée des balistes"
   ballistaTowerFireRate:
-    text: "Cadence de tir des ballistes"
+    text: "Cadence de tir des balistes"
   bowTowerRange:
     text: "Portée des tours d'archers"
   bowTowerFireRate:
     text: "Cadence de tir des tours d'archers"
   bulletTowerRange:
-    text: "Portée des tourelles"
+    text: "Portée des tours de bombarde"
   bulletTowerFireRate:
-    text: "Cadence de tir des tourelles"
+    text: "Cadence de tir des tours de bombarde"
   elementalBoltTowerRange:
     text: "Portée des tours-éclair"
   elementalBoltTowerFireRate:
@@ -495,13 +495,13 @@ perkType:
   laborGolemLevel:
     text: "Niveau du golem ouvrier"
   holyGolemSpeed:
-    text: "vitesse du saint-golem"
+    text: "Vitesse du saint-golem"
   laborGolemMaximumCarriedResources:
     text: "Capacité de transport maximale du golem ouvrier"
   moreInfluencePerVillager:
     text: "Plus d'influence par villageois"
   increasedInfluenceGeneration:
-    text: "Génération d'influence augmenté"
+    text: "Génération d'influence augmentée"
   banishSpellCost:
     text: "Coût du sort de bannissement"
   banishSpellCooldown:
@@ -553,9 +553,9 @@ perkType:
   flameSpellCost:
     text: "Coût du sort de flammes"
   godTowerSpellCost:
-    text: "Coût du sort de tour magique"
+    text: "Coût du sort de tour divine"
   godWallSpellCost:
-    text: "Coût du sort de mur magique"
+    text: "Coût du sort de mur divin"
   harvestSpellCost:
     text: "Coût du sort de récolte"
   harvestSpellCooldown:
@@ -573,21 +573,21 @@ perkType:
   healingAuraSpellRadius:
     text: "Portée du sort d'aura de soin"
   holyPotatoesSpellCost:
-    text: "Coût du sort de patates magiques"
+    text: "Coût du sort des saintes patates"
   holyPotatoesSpellCooldown:
-    text: "Temps de recharge du sort de patates magiques"
+    text: "Temps de recharge du sort des saintes patates"
   holyPotatoesSpellDuration:
-    text: "Durée du sort de patates magiques"
+    text: "Durée du sort des saintes patates"
   holyPotatoesSpellRadius:
-    text: "Portée du sort de patates magiques"
+    text: "Portée du sort des saintes patates"
   holyWoodSpellCost:
-    text: "Coût du sort de bois magiques"
+    text: "Coût du sort du bois sacré"
   holyWoodSpellCooldown:
-    text: "Temps de recharge du sort de bois magiques"
+    text: "Temps de recharge du sort du bois sacré"
   holyWoodSpellDuration:
-    text: "Durée du sort de bois magiques"
+    text: "Durée du sort du bois sacré"
   holyWoodSpellRadius:
-    text: "Portée du sort de bois magiques"
+    text: "Portée du sort du bois sacré"
   illuminateSpellCost:
     text: "Coût du sort de lumière"
   illuminateSpellDuration:
@@ -1489,7 +1489,7 @@ console:
 
   panel:
     coitus:
-      text: "{mobName} $WHI0s'est accouplé avec {mateMobName} $WHI0!"
+      text: "{mobName} $WHI0s'est mis en couple avec {mateMobName} $WHI0!"
     isPregnant:
       text: "{mobName} $PIN1est enceinte !"
     object:
@@ -1519,7 +1519,7 @@ console:
         full:
           text: "$GRE1Sauvegarde complète : données du monde récoltées et écrites en $GRE2{time}"
     fullMapScreenshot:
-      text: "Capture de l'entièreté de la carte sauvegardé dans $GRE1{filePath}"
+      text: "Capture de l'intégralité de la carte sauvegardée dans $GRE1{filePath}"
     screenshot:
       text: "Capture d'écran sauvegardée dans $GRE1{filePath}"
 
@@ -1557,7 +1557,7 @@ console:
           text: "$GRE0Le soleil se couche.."
         subtitle:
           peaceful:
-            comment: "Aucun monstre ne va apparaître, mais vous êtes dans un mode de jeu où ils le peuvent."
+            comment: "Aucun monstre n'apparaitra', mais vous êtes dans un mode de jeu où ils le peuvent."
             text: "Tout semble paisible ?"
           restless:
             comment: "Des monstres commencent à apparaître."
@@ -1610,7 +1610,7 @@ console:
           text: "vient de grandir !"
       elder:
         subtitle:
-          text: "est devenu un doyen!"
+          text: "est devenu un doyen !"
       migrantPrepared:
         subtitle:
           text: "s'est préparé à quitter votre village !"
@@ -1652,15 +1652,15 @@ console:
           dehydration:
             text: "{mobName}{mobTitle} $RED1est mort déshydraté !"
           blight:
-            text: "{mobName}{mobTitle} $RED1est mort d'infection !"
+            text: "{mobName}{mobTitle} $RED1est mort d'une infection !"
           dropped:
-            text: "{mobName}{mobTitle} $RED1a été lancé trop fort sur le sol et est mort !"
+            text: "{mobName}{mobTitle} $RED1a été lancé trop fort sur le sol et en est mort !"
           fire:
             text: "{mobName}{mobTitle} $RED1est mort brûlé !"
           god:
             text: "{mobName}{mobTitle} $RED1s'est fait tuer par son dieu !"
           heat:
-            text: "{mobName}{mobTitle} $RED1est mort d'épuisement par la chaleur!"
+            text: "{mobName}{mobTitle} $RED1est mort par insolation !"
           lightning:
             text: "{mobName}{mobTitle} $RED1s'est fait frapper par la foudre !"
           magic:
@@ -1668,13 +1668,13 @@ console:
           unknown:
             text: "{mobName}{mobTitle} $RED1est mort mystérieusement ?"
           piercing:
-            text: "{mobName}{mobTitle} $RED1a été tué par un coup perçant!"
+            text: "{mobName}{mobTitle} $RED1a été tué par un coup perforant !"
           poisoned:
-            text: "{mobName}{mobTitle} $RED1était empoisonné et est mort !"
+            text: "{mobName}{mobTitle} $RED1était empoisonné et en est mort !"
           dysentery:
             text: "{mobName}{mobTitle} $RED1est mort de dysenterie !"
           starved:
-            text: "{mobName}{mobTitle} $RED1est mot de faim !"
+            text: "{mobName}{mobTitle} $RED1est mort de faim !"
           tower:
             text: "{mobName}{mobTitle} $RED1s'est fait tuer par une tour de défense !"
           earthquake:
@@ -1686,7 +1686,7 @@ console:
           age:
             text: "{mobName}{mobTitle} $RED1est mort de causes naturelles."
           birth:
-            text: "{mobName}{mobTitle} $RED1est mort en donnant naissance !"
+            text: "{mobName}{mobTitle} $RED1est morte en couches !"
 
         ageSubtitle:
           male:
@@ -1727,9 +1727,9 @@ console:
           13:
             text: "Quelques fois, tu manges l'ours et d'autres fois, l'ours te mange."
           14:
-            text: "Encore un autre qui mange la poussière !"
+            text: "Encore un qui mange la poussière !"
           15:
-            text: "Je suis désolé. Je suis vraiment, vraiment désolé."
+            text: "Je suis désolé, vraiment désolé."
           16:
             text: "Perdu !"
           17:
@@ -1749,7 +1749,7 @@ console:
           24:
             text: "(Il ne lui:Il ne lui:Il ne leur) restait qu'un jour avant la retraite."
           25:
-            text: "Ça montre juste qu'il y a pire que les vaccins à propos de quoi s'inquiéter."
+            text: "Ça montre juste qu'il y a pire inquiétude que les vaccins."
           26:
             text: "(Sa mère lui disait:Sa mère lui disait:Leurs mères leur disaient) toujours de ne pas faire ça."
           27:
@@ -1757,7 +1757,7 @@ console:
           28:
             text: "(Il est mort:Elle est morte:Ils sont morts) en faisant ce qu'(il aimait:elle aimait:ils aimaient)."
           29:
-            text: "Comme c'était écrit dans la prophécie."
+            text: "Comme c'était écrit dans la prophétie."
           30:
             text: "L'un des chanceux."
           31:
@@ -1765,7 +1765,7 @@ console:
           32:
             text: "Il y en a plein d'autres d'où (il vient:elle vient:ils viennent), je l'espère."
           33:
-            text: "(Il fait:Elle fait:Ils font) pousser des marguerites maintenant."
+            text: "(Il mange:Elle mange:Ils mangent) les pissenlits par les racines maintenant."
           34:
             text: "Cela devait arriver tôt ou tard."
           35:
@@ -1784,7 +1784,7 @@ console:
           male:
             text: "{mobName} $WHI0a été sacrifié par son $RED1Dieu$WHI0!"
           female:
-            text: "{mobName} $WHI0a été sacrifié par son $RED1Dieu$WHI0!"
+            text: "{mobName} $WHI0a été sacrifiée par son $RED1Dieu$WHI0!"
           none:
             text: "{mobName} $WHI0a été sacrifié par son $RED1Dieu$WHI0!"
         subtitle:
@@ -1808,7 +1808,7 @@ console:
           header:
             text: "$RED1Séisme !!"
           subtitle:
-            text: "Le sol est énervé !"
+            text: "La terre gronde !"
         electricalStorm:
           header:
             text: "$RED1Orage !"
@@ -1823,7 +1823,7 @@ console:
           header:
             text: "$RED1Pluie de météores !"
           subtitle:
-            text: "Regardez au dessus de votre tête !"
+            text: "Attention à la tête !"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Goals
@@ -1986,12 +1986,12 @@ goal:
 
   hireCatjeet:
     header:
-      text: "Emploi de paysans"
+      text: "Recrutement de Catjeet"
     body:
       any:
-        text: "Employez $GRE1{amount} paysans n'importe où $WHI0!"
+        text: "Recrutez $GRE1{amount} catjeet n'importe où $WHI0!"
       specific:
-        text: "Employez $GRE1{amount} paysans $WHI0dans $GRE1{mapName} $WHI0!"
+        text: "Recrutez $GRE1{amount} catjeet $WHI0dans $GRE1{mapName} $WHI0!"
 
   immigrateNomads:
     header:
@@ -2237,21 +2237,21 @@ mainMenuLanguageSelectPanel:
       refreshHeader:
         text: "Rafraîchir la liste"
       refresh:
-        text: "Le jeu pourrait complètement se bloquer durant quelques secondes. Si vous venez de vous abonner ou d'installer un nouveau pack linguistique, vous devriez peut-être attendre un moment avant de rafraîchir la liste pour qu'il se télécharge et s'installe."
+        text: "Le jeu pourrait complètement se bloquer durant quelques secondes. Si vous venez de vous abonner ou d'installer un nouveau pack de langue, vous devriez peut-être attendre un moment avant de rafraîchir la liste pour qu'il se télécharge et s'installe."
       steamWorkshopHeader:
         text: "Steam Workshop"
         forceCount: "true"
       steamWorkshop:
-        text: "Trouvez d'autres packs linguistiques à télécharger sur le site du Steam Workshop. En cliquant sur ce bouton, vous accéderez directement au workshop dans votre navigateur. N'oubliez pas de cliquer sur le bouton rafraîchir après s'être abonné à un pack."
+        text: "Trouvez d'autres packs de langue à télécharger sur le site du Steam Workshop. En cliquant sur ce bouton, vous accéderez directement au workshop dans votre navigateur. N'oubliez pas de cliquer sur le bouton rafraîchir après vous être abonné à un pack."
       languageLinksHeader:
         text: "Site web"
       languageLinks:
-        text: "Voir le site web de ce pack linguistique."
+        text: "Voir le site web de ce pack de langue."
       languagePercentCompleteHeader:
         text: "Pourcentage traduit"
 
   languageAccuracy:
-    text: "$CYA0Les packs linguistiques sont conçus par des membres de la communauté qui travaillent dur, $YEL1mais peuvent ne pas être précis ou complets à 100% ! $CYA0Si vous trouvez une erreur, veuillez la signaler au joueur qui a fait le pack que vous avez téléchargé !"
+    text: "$CYA0Les packs de langue sont conçus par des membres de la communauté qui travaillent dur, $YEL1mais peuvent ne pas être précis ou complets à 100% ! $CYA0Si vous trouvez une erreur, veuillez la signaler au joueur qui a fait le pack que vous avez téléchargé !"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Main Menu State
@@ -2308,13 +2308,11 @@ mainMenuMainMenuPanel:
     scrubMapImages:
       text: "Brosser les images de la carte"
     generateMobSheet:
-      text: "Générer une feuille des monstres"
-    generateMapSheet:
-      text: "Générer une feuille de la carte"
+      text: "Générer la fiche des monstres"
     runLineCounter:
       text: "Lancer le compteur de lignes"
     generateVideoSheet:
-      text: "Générer une feuille de la vidéo"
+      text: "Générer la fiche vidéo"
     rollover:
       twitch:
         text: "Suivre sur Twitch !"
@@ -2329,7 +2327,7 @@ mainMenuMainMenuPanel:
         text: "Changer de langue"
 
   videoSheetName:
-    text: "Nom des feuilles de vidéo"
+    text: "Nom de la fiche vidéo"
   linesOfCode:
     text: "~{amount} lignes de code"
   buildVersion:
@@ -2381,7 +2379,7 @@ mapEditorLoadMapDeleteWarningPanel:
   header:
     text: "$ORA1En êtes-vous certain ?!"
   body:
-    text: "Whoa, whoa, êtes-vous certain de vouloir supprimer la carte $GRE1{mapName} ??"
+    text: "Oula, oula, êtes-vous certain de vouloir supprimer la carte $GRE1{mapName} ??"
   bodyConfirm:
     text: "$RED1Sérieusement, en êtes-vous absolument certain ? La carte sera perdue pour toujours ! (C'est vraiment long !)"
 
@@ -2425,7 +2423,7 @@ mapEditorNewMapDeleteWarningPanel:
   header:
     text: "$ORA1En êtes-vous certain ?!"
   body:
-    text: "Whoa, whoa, êtes-vous certain de vouloir supprimer le lot de cartes $GRE1{mapName} $WHI0??"
+    text: "Oula, oula, êtes-vous certain de vouloir supprimer le lot de cartes $GRE1{mapName} $WHI0??"
   bodyConfirm:
     text: "$RED1Sérieusement, en êtes-vous ABSOLUMENT sûr ? Le lot de cartes va être perdu pour toujours ! (C'est vraiment long !)"
 
@@ -2848,9 +2846,9 @@ mapEditorPlayRightPanel:
       defense:
         text: "Défense"
       foodAndWater:
-        text: "Nourriture et eau"
+        text: "Eau et nourriture"
       gatesAndWalls:
-        text: "Portillons et murs"
+        text: "Murs et portails"
       harvesting:
         text: "Récolte"
       housing:
@@ -2923,7 +2921,7 @@ mapEditorPlayRightPanel:
       bowTower:
         text: "Tour d'archers"
       bulletTower:
-        text: "Tourelle"
+        text: "Tour de bombarde"
       elementalBoltTower:
         text: "Tour-éclair"
       phantomDartTower:
@@ -2961,7 +2959,7 @@ mapEditorPlayRightPanel:
       outpost:
         text: "Avant-poste"
       rangerLodge:
-        text: "Loge des rangers"
+        text: "Cabane de chasseur"
       rainCatcher:
         text: "Collecteur d'eau"
       waterPurifier:
@@ -2971,23 +2969,23 @@ mapEditorPlayRightPanel:
 
     gatesAndWalls:
       gates:
-        text: "Portillons"
+        text: "Portails"
       walls:
         text: "Murs"
 
     gates:
       crylithiumWallGateNS:
-        text: "Portillon en Crylithium (N/S)"
+        text: "Portail en Crylithium (N/S)"
       crylithiumWallGateWE:
-        text: "Portillon en Crylithium (O/E)"
+        text: "Portail en Crylithium (O/E)"
       stoneWallGateNS:
-        text: "Portillon en pierre (N/S)"
+        text: "Portail en pierre (N/S)"
       stoneWallGateWE:
-        text: "Portillon en pierre (O/E)"
+        text: "Portail en pierre (O/E)"
       woodFenceGateNS:
-        text: "Portillon en bois (N/S)"
+        text: "Portail en bois (N/S)"
       woodFenceGateWE:
-        text: "Portillon en bois (O/E)"
+        text: "Portail en bois (O/E)"
 
     harvesting:
       crystalHarvestry:
@@ -3023,7 +3021,7 @@ mapEditorPlayRightPanel:
       bowyer:
         text: "Archerie"
       rockTumbler:
-        text: "Fabricant de cartouches"
+        text: "Artillerie"
       toolsmithy:
         text: "Outilleur"
 
@@ -3854,31 +3852,31 @@ playLeftPanel:
         decreaseBuyOrderHeader:
           text: "Diminution quantité achetée"
         decreaseBuyOrder:
-          text: "Diminue combien de {resourceName} le village essaie d'acheter. Peut être plus élevé que la quantité de ressources disponible, elles seront achetées une fois disponibles."
+          text: "Diminue le nombre de {resourceName} que le village essaie d'acheter. Peut être plus élevé que la quantité de ressources disponible, elles seront achetées une fois disponibles."
         increaseBuyOrderHeader:
           text: "Augmentation quantité achetée"
         increaseBuyOrder:
-          text: "Augmente combien de {resourceName} le village essaie d'acheter. Peut être plus élevé que la quantité de ressources disponible, elles seront achetées une fois disponibles."
+          text: "Augmente le nombre de {resourceName} que le village essaie d'acheter. Peut être plus élevé que la quantité de ressources disponible, elles seront achetées une fois disponibles."
         decreaseSellOrderHeader:
           text: "Diminution quantité vendue"
         decreaseSellOrder:
-          text: "Diminue combien de {resourceName} le village essaie de vendre. This can be set higher than the resources available, and they will be sold as they become available."
+          text: "Diminue le nombre de {resourceName} que le village essaie de vendre. Peut être plus élevé que la quantité de ressources disponible, elles seront vendues une fois disponibles."
         increaseSellOrderHeader:
           text: "Augmentation quantité vendue"
         increaseSellOrder:
-          text: "Augmente combien de {resourceName} le village essaie de vendre. Peut être plus élevé que la quantité de ressources disponible, elles seront achetées une fois disponibles."
+          text: "Augmente le nombre de {resourceName} que le village essaie de vendre. Peut être plus élevé que la quantité de ressources disponible, elles seront achetées une fois disponibles."
         hireLaborHeader:
           text: "Recruter de la main-d'œuvre"
         hireLabor:
-          text: "Si disponible, de la main-d'œuvre paysanne rejoindra le village"
+          text: "Si disponible, de la main-d'œuvre catjeet rejoindra le village"
         decraseCatjeetOrderHeader:
           text: "Diminuer la quantité"
         decraseCatjeetOrder:
-          text: "Diminue la quantité de paysans que le village essaie d'employer."
+          text: "Diminue la quantité de catjeet que le village essaie de recruter."
         incraseCatjeetOrderHeader:
           text: "Augmenter la quantité"
         incraseCatjeetOrder:
-          text: "Augmente la quantité de paysans que le village essaie d'employer."
+          text: "Augmente la quantité de catjeet que le village essaie de recruter."
         previousCategoryHeader:
           text: "Catégorie précédente"
         nextCategoryHeader:
@@ -3911,9 +3909,9 @@ playLeftPanel:
     buyAmountAndPrice:
       text: "$GRE1{amount} $WHI0à {price}"
     catjeetLaborersHeader:
-      text: "Main-d'œuvre catjeet"
+      text: "Ouvrier catjeet"
     noLaborers:
-      text: "Pas de paysan"
+      text: "Pas d'ouvrier"
 
   workforce:
     button:
@@ -3971,9 +3969,9 @@ playLeftPanel:
       makeInfinite:
         text: "Produira des {resourceName} à l'infini sans se soucier de l'espace de stockage."
       makeStorageHeader:
-        text: "En faire jusqu'à la limité définie"
+        text: "En faire jusqu'à la limite définie"
       makeStorage:
-        text: "Produira des {resourceName}, et s'arrêtera uniquement si il n'y a plus d'espace pour en stocker."
+        text: "Produira des {resourceName}, et s'arrêtera uniquement si il n'y a plus d'espace pour les stocker."
       maintainInfinityHeader:
         text: "En garder une infinité"
       maintainInfinity:
@@ -4033,7 +4031,7 @@ playLeftPanel:
       migratableVillagersHeader:
         text: "Villageois migrables"
       migratableVillagers:
-        text: "Combien de villageis peuvent migrer vers d'autres régions. Seulement les jeunes adultes en bonne santé peuvent migrer. Vous devez maintenir une population locale minimale d'au moins 15 villageois pour pouvoir migrer."
+        text: "Combien de villageois peuvent migrer vers d'autres régions. Seulement les jeunes adultes en bonne santé peuvent migrer. Vous devez maintenir une population locale minimale d'au moins 15 villageois pour pouvoir migrer."
       maximumDailyMigrationHeader:
         text: "Migration journalière maximale"
       maximumDailyMigration:
@@ -4045,7 +4043,7 @@ playLeftPanel:
       totalMigratedTodayHeader:
         text: "Nombre total de migrations"
       totalMigratedToday:
-        text: "Combien de villageois ont quitté cette région aujourd'hui. Les villageois ne quitteront que durant la journée."
+        text: "Combien de villageois ont quitté cette région aujourd'hui. Les villageois ne partiront que durant la journée."
       regionsTotalPopulationHeader:
         text: "Population totale de la région"
       regionsTotalPopulation:
@@ -4078,7 +4076,7 @@ playLeftPanel:
         sendDailyHeader:
           text: "Envois journaliers"
         sendDaily:
-          text: "Si disponible, envoie tant de {resourceName} chaque jour. Les golems-facteurs quitteront la région avant le soir. Le nombre deviendra rouge si ils n'arrivent pas à satisfair le quota journalier, jaune si c'est en cours et vert si ils ont réussi."
+          text: "Si disponible, envoie tant de {resourceName} chaque jour. Les golems-facteurs quitteront la région avant le soir. Le nombre deviendra rouge si ils n'arrivent pas à satisfaire le quota journalier, jaune si l'envoi est en cours et vert si ils ont réussi."
         previousCategoryHeader:
           text: "Catégorie précédente"
         nextCategoryHeader:
@@ -4261,19 +4259,19 @@ playPopulationListPanel:
     averageAgeHeader:
       text: "Âge moyen"
     averageAge:
-      text: "L'âge moyen de l'entièreté du village."
+      text: "L'âge moyen au sein du village."
     averageHungerHeader:
       text: "Faim moyenne"
     averageHunger:
-      text: "Le niveau moyen de la faim dans l'entièreté du village."
+      text: "Le niveau moyen de la faim au sein du village."
     averageThirstHeader:
       text: "Soif moyenne"
     averageThirst:
-      text: "Le niveau moyen de la soif dans l'entièreté du village."
+      text: "Le niveau moyen de la soif au sein du village."
     averageEnergyHeader:
       text: "Énergie moyenne"
     averageEnergy:
-      text: "Le niveau moyen d'énergie dans l'entièreté du village."
+      text: "Le niveau moyen d'énergie au sein du village."
     totalHomlessHeader:
       text: "Total de sans-abri"
     totalHomless:
@@ -4329,7 +4327,7 @@ playPopulationListPanel:
     levelHeader:
       text: "Niveau"
     level:
-      text: "Les villageois gagnent en niveau en accomplissant divers tâches, comme travailler, se battre ou même s'accoupler !"
+      text: "Les villageois gagnent en niveau en accomplissant diverses tâches, comme travailler, se battre ou même s'accoupler !"
     ageHeader:
       text: "Âge"
     age:
@@ -4375,9 +4373,9 @@ playPopulationTotalsPanel:
     totalHomeOccupancy:
       text: "La quantité totale d'espace habitable utilisé, ainsi que l'espace total disponible dans les logements."
     totalRangerLodgeOccupancyHeader:
-      text: "Occupation totale des loges de rangers"
+      text: "Occupation totale des cabanes de chasseur"
     totalRangerLodgeOccupancy:
-      text: "La quantité totale d'espace habitable utilisé, ainsi que l'espace total disponible dans les loges."
+      text: "La quantité totale d'espace habitable utilisé, ainsi que l'espace total disponible dans les cabanes de chasseur."
     totalAncillariesHeader:
       text: "Total d'entrepôts"
     totalAncillaries:
@@ -4420,7 +4418,7 @@ playProblemPanel:
     noWaterAnywhere:
       text: "* $RED1Il n'y a pas d'eau potable."
     noHomesAnywhere:
-      text: "* $RED1Il n'y a pas de logement."
+      text: "* $RED1Il n'y a pas de logement libre."
     lowVillagers:
       text: "* $ORA1Il y a très peu de villageois."
     tooMuchConstruction:
@@ -4605,7 +4603,7 @@ playSelectedMobPanel:
     bodyTemperatureHeader:
       text: "Température corporelle"
     bodyTemperature:
-      text: "Si leur température corporelle devient trop extrême, dans un sens ou dans l'autre, ils ralentiront et pourraient même commence à prendre des dégâts."
+      text: "Si leur température corporelle devient trop extrême, dans un sens ou dans l'autre, ils ralentiront et pourraient même commencer à prendre des dégâts."
     hasMateHeader:
       text: "En couple"
     hasMate:
@@ -4775,7 +4773,7 @@ playSelectedObjectPanel:
     rangerLodgeOccupancyHeader:
       text: "Occupation de la loge de rangers"
     rangerLodgeOccupancy:
-      text: "Le nombre de rangers vivant dans ce bâtiment ainsi que l'espace habitable total fournit par ce bâtiment."
+      text: "Le nombre de chasseurs vivant dans ce bâtiment ainsi que l'espace habitable total fournit par ce bâtiment."
     currentAndMaxStorageHeader:
       text: "Stockage actuel/maximum"
     currentAndMaxStorage:
@@ -4866,7 +4864,7 @@ playSelectedObjectPanel:
       dismantleBuildingHeader:
         text: "Démanteler le bâtiment"
       dismantleBuilding:
-        text: "Démantèle le bâtiment en récupérant une partie du coût de construction en matériaux, mais peux aussi générer des déchets."
+        text: "Démantèle le bâtiment en récupérant une partie du coût de construction en matériaux, mais peut aussi générer des déchets."
         revision: "1"
       buildingPriorityHeader:
         text: "Priorité de construction"
@@ -4875,7 +4873,7 @@ playSelectedObjectPanel:
       reclaimHeader:
         text: "Récupérer"
       reclaim:
-        text: "Récupère ce bâtiment abandonné. La plupart du temps, récupérer un bâtiment coûte environ deux fois moins de ressources que d'en reconstruire un nouveau."
+        text: "Récupère ce bâtiment abandonné. La plupart du temps, récupérer un bâtiment coûte environ moitié moins de ressources que d'en reconstruire un nouveau."
       upgradeHeader:
         text: "Améliorer"
       upgrade:
@@ -4938,7 +4936,7 @@ playSelectedObjectPanel:
   reclaimMessage:
     text: "Cliquez sur $GRE1récupérer $WHI0pour~reconstruire et l'utiliser."
   reclaimMessageNoSlotsNoCamp:
-    text: "Plus de capacité de construction.~Construisz un $GRE0Campement $WHI0ou~un $GRE0Entrepôt  $WHI0pour récupérer ce bâtiment."
+    text: "Plus de capacité de construction.~Construisez un $GRE0Campement $WHI0ou~un $GRE0Entrepôt  $WHI0pour récupérer ce bâtiment."
   reclaimMessageNoSlots:
     text: "Plus de capacité de construction.~Améliorez votre $GRE0{castleName}~$WHI0ou construisez un $GRE0Entrepôt $WHI0~pour récupérer ce bâtiment."
 
@@ -4999,7 +4997,7 @@ playSelectedObjectUpgradePanel:
   farmingSpeed:
     text: "$GRE0+{amount}% $WHI0agriculture"
   medicWorkSpeed:
-    text: "$GRE0+{amount}% $WHI0médecine"
+    text: "$GRE0+{amount}% $WHI0soins médicaux"
   harvestSpeed:
     text: "$YEL1Vitesse de récolte"
   refineSpeed:
@@ -5009,9 +5007,9 @@ playSelectedObjectUpgradePanel:
   sleepSpeedMinus:
     text: "$RED0{amount}% $WHI0vitesse de sommeil"
   healthRegenerationPlus:
-    text: "$GRE0+{amount} $WHI0régénération de la vie"
+    text: "$GRE0+{amount} $WHI0régénération de santé"
   healthRegenerationMinus:
-    text: "$RED0{amount} $WHI0régénération de la vie"
+    text: "$RED0{amount} $WHI0régénération de santé"
   staticTowerDamageOverride:
     text: "Dégâts : $GRE1électrique (10-50)"
     revision: "1"
@@ -5042,7 +5040,7 @@ playSelectedObjectUpgradePanel:
   desirability:
     text: "Attractivité : $GRE1+{amount}"
   rangerHousingCapacity:
-    text: "Capacité d'hébergement de rangers : $GRE1+{amount}"
+    text: "Capacité d'hébergement de chasseurs : $GRE1+{amount}"
   housingCapacity:
     text: "Capacité du logement : $GRE1+{amount}"
   workersSlots:
@@ -5146,7 +5144,7 @@ playStatisticsPanel:
       buildings:
         text: "Bâtiments"
       defenses:
-        text: "Défense"
+        text: "Défenses"
       resources:
         text: "Ressources"
       magicAndEnergy:
@@ -5171,7 +5169,7 @@ playStatisticsPanel:
       needs:
         text: "Besoins"
       catjeetHired:
-        text: "Catjeets employés"
+        text: "Catjeets recrutés"
       nomadsJoined:
         text: "Arrivées de nomades"
       nomadsVisited:
@@ -5234,7 +5232,7 @@ playStatisticsPanel:
         text: "Golems"
         forceCount: "true"
       rangers:
-        text: "Rangers"
+        text: "Chasseurs"
         forceCount: "true"
       walls:
         text: "Murs"
@@ -5508,7 +5506,7 @@ playSystemAndDataBar:
       populationListHeader:
         text: "Liste de la population ({shortcutKey})"
       populationList:
-        text: "Visualisez l'entièreté de la population du village ainsi que le status global des villageois."
+        text: "Visualisez l'entièreté de la population du village ainsi que l'état global des villageois."
       villagerEfficiencyHeader:
         text: "Efficacité du village"
       villagerEfficiency:
@@ -5698,7 +5696,7 @@ sharedDataViewsPanel:
     resourceValues:
       text: "Valeur des ressources"
     movementCosts:
-      text: "Coûts mouvements"
+      text: "Coût des mouvements"
     blockMap:
       text: "Endroits bloqués"
     range:
@@ -5906,7 +5904,7 @@ playRightObjectDescriptionPanel:
   providedMigrationsPerDay:
     text: "Migration journalière fournie : $GRE1{amount}"
   rangerHousingCapacity:
-    text: "Capacité en rangers : $GRE1{amount}"
+    text: "Capacité en chasseurs : $GRE1{amount}"
   housingCapacity:
     text: "Espace habitable : $GRE1{amount}"
   workersSlots:
@@ -6148,7 +6146,7 @@ sharedSettingsPanel:
     header:
       text: "$ORA1Changer de touche !"
     message:
-      text: "Appuie sur la touche désirée~$GRE1TOUCHE ACTUELLE : {keyName}"
+      text: "Appuie sur la touche souhaitée~$GRE1TOUCHE ACTUELLE : {keyName}"
 
   miscellaneous:
     comment: "Extra strings used in various parts of the panel."
@@ -6245,7 +6243,7 @@ worldMapGameModeConfigPanel:
       boostedChanceMultiplierHeader:
         text: "Monstres renforcés"
       boostedChanceMultiplier:
-        text: "Multiplicateur de la probabilité qu'un monstre soit boosté lorsqu'il apparait. 0,5 serait le double, 2,0 serait la moitié. $YEL1(0.25 - 10.0)"
+        text: "Multiplicateur de la probabilité qu'un monstre soit boosté lorsqu'il apparait. 0,5 double la probabilité et 2,0 la réduit de moitié. $YEL1(0.25 - 10.0)"
       corruptionStartDayHeader:
         text: "1er jour de corruption"
       corruptionStartDay:
@@ -6334,7 +6332,7 @@ worldMapGameModeConfigPanel:
       spawnAmountMultiplierHeader:
         text: "Multiplicateur d'apparition"
       spawnAmountMultiplier:
-        text: "Multiplie le nombre final de nomades qui vont apparaitre. 0.5 serait la moitié, 2.0 serait le double. $YEL1(0.25 - 10.0)"
+        text: "Multiplie le nombre final de nomades qui vont apparaitre. 0.5 diminue de moitié, 2.0 le double. $YEL1(0.25 - 10.0)"
       spawnAmountMinimumHeader:
         text: "Quantité minimale"
       spawnAmountMinimum:
@@ -6439,7 +6437,7 @@ worldMapGameModeConfigPanel:
       meteorShowerChanceHeader:
         text: "Pluies de météores"
       meteorShowerChance:
-        text: "Chance qu'une pluie de météore se produire. $YEL1(1k - 3m, ou aucune.)"
+        text: "Chance qu'une pluie de météores se produise. $YEL1(1k - 3m, ou aucune.)"
       earthquakeChanceHeader:
         text: "Tremblements de terre"
       earthquakeChance:
@@ -6683,11 +6681,11 @@ worldMapRewardChestPanel:
   godExperience:
     text: "Gagnez de l'expérience divine en maintenant votre village en bonne santé ou en débloquant et en remplissant des objectifs."
   chestGrantProgressHeader:
-    text: "Progrès du coffre de récompense"
+    text: "Progression du coffre de récompense"
   chestGrantProgress:
-    text: "Votre progrès avant de recevoir un autre coffre. Les coffres sont donnés lentement en faiant survivre votre village. Une fois reçu, le coffre doit être ouvert avec l'expérience divine."
+    text: "Progression requise avant de recevoir un autre coffre. Les coffres sont donnés lentement en faisant survivre votre village. Une fois reçu, le coffre doit être ouvert avec l'expérience divine."
   chestGrantProgressFull:
-    text: "La barre de progrès du coffre est pleine, vous devez ouvrir un coffre pour en recevoir un nouveau."
+    text: "La barre contenant les coffres est pleine, vous devez ouvrir un coffre pour en recevoir un nouveau."
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # World Map State
@@ -6744,11 +6742,11 @@ helpTip:
     4:
       text: "Augmenter votre population va aussi augmenter votre barre d'influence."
     5:
-      text: "Les éléments de feu ne peuvent pas nager."
+      text: "Les élémentaux de feu ne peuvent pas nager."
     6:
       text: "Prenez soin de vos chiens."
     7:
-      text: "Les avant-postes et loges de rangers ont une petite tour d'archers lorsqu'ils sont améliorés au maximum."
+      text: "Les avant-postes et cabanes de chasseurs ont une petite tour d'archers lorsqu'ils sont améliorés au maximum."
       revision: "1"
     8:
       text: "Les bons chiens aideront parfois les villageois."
@@ -7030,12 +7028,12 @@ helpTip:
     rainHeader:
       text: "Pluie !"
     rain:
-      text: "Whoa, il pleut ! La pluie va un peu réduire la vitesse de déplacement de vos villageois, mais ça va aussi $GRE1arroser vos plantations, remplir vos collecteurs d'eau et éteindre le feu ! $WHI0Croisez les doigts et espérez que les éclairs ne foudroient rien d'important."
+      text: "Oula, il pleut ! La pluie va un peu réduire la vitesse de déplacement de vos villageois, mais ça va aussi $GRE1arroser vos plantations, remplir vos collecteurs d'eau et éteindre le feu ! $WHI0Croisez les doigts et espérez que les éclairs ne foudroient rien d'important."
       revision: "1"
     snowHeader:
       text: "Neige !"
     snow:
-      text: "Whoa, il neige ! La neige va un peu réduire la vitesse de déplacement de vos villageois. Faites attention, la neige fait aussi baisser la température et elle pourrait atteindre un niveau glacial et tuer les plantations ou faire mal aux villageois qui n'arrivent pas à trouver un endroit où se réchauffer."
+      text: "Oula, il neige ! La neige va un peu réduire la vitesse de déplacement de vos villageois. Faites attention, la neige fait aussi baisser la température et elle pourrait atteindre un niveau glacial et tuer les plantations ou faire mal aux villageois qui n'arrivent pas à trouver un endroit où se réchauffer."
       revision: "1"
     timeDuskHeader:
       text: "Nuit"
@@ -7159,7 +7157,7 @@ spell:
     name:
       text: "Bénédiction divine"
     description:
-      text: "Bénis un villageois, faisant de son prochain enfant né un Néphilim,un enfant béni, avec une force, une dextérité et une durée de vie supérieures."
+      text: "Bénis un villageois, faisant de son prochain enfant né un Néphilim, un enfant béni, avec une force, une dextérité et une durée de vie supérieures."
   summonHolyGolem:
     name:
       text: "Invoquer un saint-golem"
@@ -7529,29 +7527,29 @@ missileName:
   iceBallistaArrow:
     text: "Lance glacée"
   basicBullet:
-    text: "Balle basique"
+    text: "Boulet basique"
   heavyBullet:
-    text: "Balle lourde"
+    text: "Boulet lourde"
   reinforcedBullet:
-    text: "Balle renforcée"
+    text: "Boulet renforcée"
   fireBullet:
-    text: "Balle enflammée"
+    text: "Boulet enflammée"
   lightningBullet:
-    text: "Balle-éclair"
+    text: "Boulet-éclair"
   iceBullet:
-    text: "Balle glacée"
+    text: "Boulet glacée"
   basicSprayBullet:
-    text: "Balle de tour pulvérisatrice basique"
+    text: "Boulet de tour pulvérisatrice basique"
   heavySprayBullet:
-    text: "Balle de tour pulvérisatrice lourde"
+    text: "Boulet de tour pulvérisatrice lourde"
   reinforcedSprayBullet:
-    text: "Balle de tour pulvérisatrice renforcée"
+    text: "Boulet de tour pulvérisatrice renforcée"
   fireSprayBullet:
-    text: "Balle enflammée de tour pulvérisatrice"
+    text: "Boulet enflammée de tour pulvérisatrice"
   lightningSprayBullet:
-    text: "Balle-éclair de tour pulvérisatrice"
+    text: "Boulet-éclair de tour pulvérisatrice"
   iceSprayBullet:
-    text: "Balle glacée de tour pulvérisatrice"
+    text: "Boulet glacée de tour pulvérisatrice"
   smallElementalBolt:
     text: "Petit éclair élémentaire"
   elementalBolt:
@@ -7690,9 +7688,9 @@ mobName:
       text: "Fantômes catjeets bénis"
   catjeetGhostChildNephilim:
     single:
-      text: "Fantôme d'enfant béni catjeets"
+      text: "Fantôme d'enfant catjeets béni"
     plural:
-      text: "Fantôme d'enfants bénis catjeets"
+      text: "Fantôme d'enfants catjeets bénis"
   catjeetGhost:
     single:
       text: "Fantôme catjeet"
@@ -7705,9 +7703,9 @@ mobName:
       text: "Fantômes d'enfants catjeets"
   catjeetVillagerNephilim:
     single:
-      text: "villageois béni catjeet"
+      text: "villageois catjeet béni"
     plural:
-      text: "villageois bénis catjeets"
+      text: "villageois catjeets bénis"
   catjeetVillagerElder:
     single:
       text: "Doyen catjeet"
@@ -7715,9 +7713,9 @@ mobName:
       text: "Doyens catjeets"
   catjeetVillagerElderNephilim:
     single:
-      text: "Doyen béni catjeet"
+      text: "Doyen catjeet béni"
     plural:
-      text: "Doyens bénis catjeets"
+      text: "Doyens catjeets bénis"
   catjeetVillager:
     single:
       text: "villageois catjeet"
@@ -7727,12 +7725,12 @@ mobName:
     single:
       text: "Enfant catjeet"
     plural:
-      text: "Enfants catjeet"
+      text: "Enfants catjeets"
   catjeetVillagerChildNephilim:
     single:
       text: "Enfant catjeet béni"
     plural:
-      text: "Enfants catjeets bénis"
+      text: "Enfants catjeet bénis"
   catjeetProvisioner:
     single:
       text: "Fournisseur catjeet"
@@ -7742,7 +7740,7 @@ mobName:
     single:
       text: "Ouvrier catjeet"
     plural:
-      text: "Ouvriers catjeets"
+      text: "Ouvriers catjeet"
   smallSlime:
     single:
       text: "Petit slime"
@@ -7811,14 +7809,14 @@ mobName:
       text: "Chiens-zombies stupides"
   zombieCatjeet:
     single:
-      text: "Paysan-zombie"
+      text: "Catjeet-zombie"
     plural:
-      text: "Paysans-zombies"
+      text: "Catjeet-zombies"
   zombieCatjeetChild:
     single:
-      text: "Paysan enfant-zombie"
+      text: "enfant-zombie Catjeet"
     plural:
-      text: "Paysans enfants-zombies"
+      text: "enfants-zombies Catjeets"
   skeleton:
     single:
       text: "Squelette"
@@ -7836,9 +7834,9 @@ mobName:
       text: "Chiens fantômes stupides"
   fireElemental:
     single:
-      text: "Élément de feu"
+      text: "Élémental de feu"
     plural:
-      text: "Éléments de feu"
+      text: "Élémentaux de feu"
   specter:
     single:
       text: "Spectre"
@@ -7901,7 +7899,7 @@ mobName:
       text: "Migrants bénis arrivants"
   catjeetNomadElder:
     single:
-      text: "Nomade catjeet doyen "
+      text: "Nomade catjeet doyen"
     plural:
       text: "Nomades catjeets doyens"
   catjeetNomad:
@@ -7911,7 +7909,7 @@ mobName:
       text: "Nomades catjeets"
   catjeetMigrantDeparting:
     single:
-      text: "Catjeet migrant en partance"
+      text: "catjeet migrant en partance"
     plural:
       text: "Catjeets migrants en partance"
   catjeetMigrantArriving:
@@ -8368,7 +8366,7 @@ aiTask:
 
   buyLaborer:
     pathfindToLaborer:
-      text: "Emploie $YEL1un paysan ouvrier."
+      text: "Emploie $YEL1un ouvrier catjeet."
 
   chat:
     pathfindToChatPartner:
@@ -8501,15 +8499,15 @@ aiTask:
 
   equipResource:
     pathfindToEquipmentOnGround:
-      text: "Équipe les ressources sur le sol."
+      text: "Ajoute des ressources sur le sol."
     pathfindToBuilding:
-      text: "Équipe des ressources dans le bâtiment {buildingName}."
+      text: "Ajoute des ressources dans le bâtiment {buildingName}."
 
   findBetterHome:
     visitNewHome:
       text: "Visite le logement {buildingName} pour peut-être y déménager."
     visitNewHomeClaim:
-      text: "Essaie déménager dans le logement {buildingName}."
+      text: "Essaie de déménager dans le logement {buildingName}."
 
   findFood:
     pathfindToResourceOnGround:
@@ -8577,7 +8575,7 @@ aiTask:
 
   grabbed:
     grabbed:
-      text: "Tenu par dieu lui-même !"
+      text: "Tenu par Dieu lui-même !"
 
   harvestFarmWork:
     pathfindToResource:
@@ -8639,25 +8637,25 @@ aiTask:
 
   mateCoitus:
     awaitCoitusWaiting:
-      text: "Attend l'arrivée de {mobName} pour faire le coït."
+      text: "Attend l'arrivée de {mobName} pour un coït."
     awaitCoitus:
-      text: "Fait le coît avec {mobName}."
+      text: "coïte avec {mobName}."
 
   mateGoCoitus:
     findHome:
       text: "Cherche un chemin pour aller au bâtiment {buildingName}."
     pathfindToHome:
-      text: "Rentre à la maison pour faire le coït avec {mobName}."
+      text: "Rentre à la maison pour avoir un coït avec {mobName}."
     enterHome:
-      text: "Entre dans la maison pour faire le coït avec {mobName}."
+      text: "Entre dans la maison pour avoir un coït avec {mobName}."
 
   mateGoCoitusOther:
     findHome:
       text: "Cherche un chemin pour aller au bâtiment {buildingName}."
     pathfindToHome:
-      text: "Rentre à la maison pour faire le coït avec {mobName}."
+      text: "Rentre à la maison pour avoir un coït avec {mobName}."
     enterHome:
-      text: "Entre dans la maison pour faire le coït avec {mobName}."
+      text: "Entre dans la maison pour avoir un coït avec {mobName}."
 
   medicWork:
     pathfindToBuilding:
@@ -8699,13 +8697,13 @@ aiTask:
     pathfindToResourceOnGround:
       text: "Ramasse des ressources sur le sol pour les planter."
     pathfindToBuilding:
-      text: "Prend des ressources dans le bâtiment {buildingName} les planter."
+      text: "Prend des ressources dans le bâtiment {buildingName} pour les planter."
 
   plantResourceInHand:
     pathfindToBuilding:
       text: "Plante des graines dans une ferme."
     pathfindToExtraResource:
-      text: "Ramasse des graines additionnelles."
+      text: "Ramasse des graines supplémentaires."
 
   processTrash:
     pathfindToWork:
@@ -8801,13 +8799,13 @@ aiTask:
 
   slaughterAnimalInHand:
     pathfindToBuilding:
-      text: "Emmène {mobName} vers {buildingName} l'abattre!"
+      text: "Emmène {mobName} vers {buildingName} pour l'abattre!"
     slaughterAnimal:
       text: "Abat {mobName}!"
 
   sleepOutside:
     findSafeLocation:
-      text: "Trouver un endroit sûr pour dormir dehors."
+      text: "Cherche un endroit sûr pour dormir dehors."
     pathfindToSafeLocation:
       text: "Marche jusqu'à un endroit sûr pour dormir."
     sleepOutside:
@@ -8939,9 +8937,9 @@ mobJob:
 
   unassigned:
     single:
-      text: "Non attributé"
+      text: "Inactif"
     plural:
-      text: "Non attribuée"
+      text: "Inactifs"
     description:
       text: "Un fainéant paresseux qui ne fait absolument rien d'utile."
 
@@ -9035,11 +9033,11 @@ mobJob:
 
   tumbler:
     single:
-      text: "Facteur de balles"
+      text: "Artificier"
     plural:
-      text: "Facteurs de balles"
+      text: "Artificier"
     description:
-      text: "Transforme la pierre en balles de pierre utilisées dans les tourelles et tours à fronde."
+      text: "Transforme la pierre en boulets de pierre utilisées dans les tourelles et tours à fronde."
 
   wayMaker:
     single:
@@ -9055,7 +9053,7 @@ mobJob:
     plural:
       text: "Médecins"
     description:
-      text: "Guérit les villageois blessés et créedes bandages et des trousses de secours à partir de soie, dans les cliniques."
+      text: "Guérit les villageois blessés, créé des bandages et des trousses de secours à partir de soie, dans les cliniques."
 
   cook:
     single:
@@ -9109,10 +9107,10 @@ mobJob:
 
   ranger:
     single:
-      text: "Ranger"
+      text: "Chasseur"
       forceCount: "true"
     plural:
-      text: "Rangers"
+      text: "Chasseurs"
       forceCount: "true"
     description:
       text: "Chasse des animaux le jour et garde le village la nuit. Capture les animaux et les ramène au village s'il y a des bâtiments disponibles pour les héberger. Bénéficie d'un bonus en défense et en puissance d'attaque."
@@ -9127,9 +9125,9 @@ mobJob:
 
   maintainer:
     single:
-      text: "Entreteneur"
+      text: "Agent de maintenance"
     plural:
-      text: "Entreteneurs"
+      text: "Agents de maintenance"
     description:
       text: "Travailleurs dédiés à l'entretien du village, ils peuvent aider à démanteler et réparer les bâtiments, ainsi que maintenir les routes et déblayer le terrain."
 
@@ -9535,34 +9533,34 @@ object:
     bulletTower:
       makeshift:
         name:
-          text: "Tourelle de fortune"
+          text: "Tour de bombarde de fortune"
         description:
           text: "Une tour légère qui peut tirer au dessus de la plupart des murs. Idéale comme première défense. Requiert un fabricant de cartouche pour les munitions."
       base:
         name:
-          text: "Tourelle"
+          text: "Tour de bombarde"
         description:
           text: "Augmente les dégâts et la capacité de stockage de munitions de la tour."
       established:
         name:
-          text: "Tourelle établie"
+          text: "Tour de bombarde établie"
         description:
           text: "Augmente de nouveau les dégâts et la capacité de stockage de munitions de la tour."
       fire:
         name:
           text: "Tourelle de feu"
         description:
-          text: "Ajoute des dégâts de feu à la tour, mais consomme de l'énergie pour tirer. Si les réserves d'énergie sont épuisées, elle continuera à tirer des balles ordinaires."
+          text: "Ajoute des dégâts de feu à la tour, mais consomme de l'énergie pour tirer. Si les réserves d'énergie sont épuisées, elle continuera à tirer des boulets ordinaires."
       lightning:
         name:
-          text: "Tourelle-éclaie"
+          text: "Tourelle-éclair"
         description:
-          text: "Ajoute des dégâts de foudre à la tour, mais consomme de l'énergie pour tirer. Si les réserves d'énergie sont épuisées, elle continuera à tirer des balles ordinaires."
+          text: "Ajoute des dégâts de foudre à la tour, mais consomme de l'énergie pour tirer. Si les réserves d'énergie sont épuisées, elle continuera à tirer des boulets ordinaires."
       ice:
         name:
           text: "Tourelle de glace"
         description:
-          text: "Ajoute des dégâts de glace à la tour, mais consomme de l'énergie pour tirer. Si les réserves d'énergie sont épuisées, elle continuera à tirer des balles ordinaires."
+          text: "Ajoute des dégâts de glace à la tour, mais consomme de l'énergie pour tirer. Si les réserves d'énergie sont épuisées, elle continuera à tirer des boulets ordinaires."
 
     clinic:
       makeshift:
@@ -9951,7 +9949,7 @@ object:
           text: "Augmente grandement l'occupation et le stockage de la maison au coût du confort. C'est un bon choix en cas de surpopulation."
       largeHighOccupancy:
         name:
-          text: "Grande logement à taux d'occupation élevé"
+          text: "Grand logement à taux d'occupation élevé"
         description:
           text: "Augmente de nouveau l'occupation et le stockage maximal de la maison à un coût plus important de confort."
       establishedHighOccupancy:
@@ -10322,17 +10320,17 @@ object:
         name:
           text: "Marché de fortune"
         description:
-          text: "Établit le commerce dans la région, invitant les paysans à visiter le village pour échanger des marchandises et de la main-d'œuvre. Assurez-vous d'avoir de l'or !"
+          text: "Établit le commerce dans la région, invitant les catjeet à visiter le village pour échanger des marchandises et de la main-d'œuvre. Assurez-vous d'avoir de l'or !"
       base:
         name:
           text: "Marché"
         description:
-          text: "Augmente le nombre de paysans qui peuvent venir au marché en même temps, augmente aussi la capacité en or et fournit des postes de fournisseur supplémentaires."
+          text: "Augmente le nombre de catjeets qui peuvent venir au marché en même temps, augmente aussi la capacité en or et fournit des postes de fournisseur supplémentaires."
       established:
         name:
           text: "Marché établi"
         description:
-          text: "Augmente de nouveau le nombre de paysans qui peuvent venir au marché en même temps, augmente aussi la capacité en or et fournit des postes de fournisseur supplémentaires."
+          text: "Augmente de nouveau le nombre de catjeets qui peuvent venir au marché en même temps, augmente aussi la capacité en or et fournit des postes de fournisseur supplémentaires."
 
     migrationWayStation:
       makeshift:
@@ -10425,20 +10423,20 @@ object:
     rangerLodge:
       makeshift:
         name:
-          text: "Loge de rangers de fortune"
+          text: "Cabane de chasseurs de fortune"
         description:
-          text: "Fournit et abrite des rangers qui protègent le village et chassent les animaux, fournit également une régénération de la santé légèrement meilleure que les maisons ordinaires au détriment de l'énergie."
+          text: "Fournit et abrite des chasseurs qui protègent le village et chassent les animaux, fournit également une régénération de la santé légèrement meilleure que les maisons ordinaires au détriment de l'énergie."
           revision: "1"
       base:
         name:
-          text: "Loge de rangers"
+          text: "Cabane de chasseurs"
         description:
-          text: "Augmente la capacité en rangers, espace de stockage et le bonus de régénération de santé des rangers qui se reposent dans la loge."
+          text: "Augmente la capacité en chasseurs, espace de stockage et le bonus de régénération de santé des rangers qui se reposent dans la loge."
       established:
         name:
-          text: "Loge de rangers établie"
+          text: "Cabane de chasseurs établie"
         description:
-          text: "Ajoute une petite tour d'archers à la loge, ainsi que la capacité en rangers, l'espace de stockage et le bonus de régénération de santé des rangers s'y reposant."
+          text: "Ajoute une petite tour d'archers à la loge, ainsi que la capacité en chasseurs, l'espace de stockage et le bonus de régénération de santé des chasseurs s'y reposant."
 
     slingTower:
       makeshift:
@@ -10483,7 +10481,7 @@ object:
         name:
           text: "Tour pulvérisatrice de fortune"
         description:
-          text: "Une tour légère qui pulvérise des tonnes de petites balles sur une grande zone. Idéale pour contrôler de larges groupes de monstres faibles. Requiert un fabricant de cartouche."
+          text: "Une tour légère qui pulvérise des tonnes de petites boulets sur une grande zone. Idéale pour contrôler de larges groupes de monstres faibles. Requiert un fabricant de cartouche."
       base:
         name:
           text: "Tour pulvérisatrice"
@@ -10498,17 +10496,17 @@ object:
         name:
           text: "Tour pulvérisatrice de feu"
         description:
-          text: "Ajoute des dégâts de feu à la tour, mais consomme de l'énergie pour tirer. Si les réserves d'énergie sont épuisées, elle continuera à tirer des balles ordinaires."
+          text: "Ajoute des dégâts de feu à la tour, mais consomme de l'énergie pour tirer. Si les réserves d'énergie sont épuisées, elle continuera à tirer des boulets ordinaires."
       lightning:
         name:
           text: "Tour pulvérisatrice-éclair"
         description:
-          text: "Ajoute des dégâts de foudre à la tour, mais consomme de l'énergie pour tirer. Si les réserves d'énergie sont épuisées, elle continuera à tirer des balles ordinaires."
+          text: "Ajoute des dégâts de foudre à la tour, mais consomme de l'énergie pour tirer. Si les réserves d'énergie sont épuisées, elle continuera à tirer des boulets ordinaires."
       ice:
         name:
           text: "Tour pulvérisatrice de glace"
         description:
-          text: "Ajoute des dégâts de glace à la tour, mais consomme de l'énergie pour tirer. Si les réserves d'énergie sont épuisées, elle continuera à tirer des balles ordinaires."
+          text: "Ajoute des dégâts de glace à la tour, mais consomme de l'énergie pour tirer. Si les réserves d'énergie sont épuisées, elle continuera à tirer des boulets ordinaires."
 
     staticTower:
       makeshift:
@@ -10601,19 +10599,19 @@ object:
     rockTumbler:
       makeshift:
         name:
-          text: "Fabrique de cartouche de fortune"
+          text: "Artillerie de fortune"
         description:
-          text: "Fournit des travailleurs qui peuvent fabriquer des balles à partir de pierres, des munitions requises par les tours à fronde et autres projectiles à base de pierre."
+          text: "Fournit des travailleurs qui peuvent fabriquer des boulets à partir de pierres, des munitions requises par les tours à fronde et autres projectiles à base de pierre."
       base:
         name:
-          text: "Fabrique de cartouche"
+          text: "Artillerie"
         description:
-          text: "Octroie un bonus de vitesse global à la fabrication de balles, augmente la capacité de stockage et donne un poste de travailleur supplémentaire."
+          text: "Octroie un bonus de vitesse global à la fabrication de boulets, augmente la capacité de stockage et donne un poste de travailleur supplémentaire."
       established:
         name:
-          text: "Fabrique de cartouche établie"
+          text: "Artillerie établie"
         description:
-          text: "Augmente le bonus de vitesse global de fabrication de balles, augmente la capacité de stockage et donne un poste de travailleur supplémentaire."
+          text: "Augmente le bonus de vitesse global de fabrication de boulets, augmente la capacité de stockage et donne un poste de travailleur supplémentaire."
 
     stoneCuttery:
       makeshift:
@@ -11022,11 +11020,11 @@ resource:
 
   godDust:
     single:
-      text: "Poussière magique"
+      text: "Poussière divine"
     plural:
-      text: "Poussières magiques"
+      text: "Poussières divines"
     description:
-      text: "Reste de matériel inutile provenant d'une structure magique détruite."
+      text: "Reste de matériel inutile provenant d'une structure divine détruite."
 
   crystallyTrash:
     single:
@@ -11090,11 +11088,11 @@ resource:
 
   stoneBalls:
     single:
-      text: "Balle de pierre"
+      text: "Boulet en pierre"
     plural:
-      text: "Balles de pierre"
+      text: "Boulet en pierre"
     description:
-      text: "Des balles de pierre pouvant être utilisées dans diverses tours telles que les tours pulvérisatrices ou frondes."
+      text: "Des Boulet en pierre pouvant être utilisées dans diverses tours telles que les tours pulvérisatrices ou frondes."
 
   ironSword:
     single:
@@ -11276,17 +11274,17 @@ resource:
 
   suspiciousKey:
     single:
-      text: "Clé suspicieuse"
+      text: "Clé supecte"
     plural:
-      text: "Clés suspicieuses"
+      text: "Clés suspectes"
     description:
       text: "Quel type de coffre cette clé pourrait-elle bien ouvrir ?!"
 
   suspiciousyTrash:
     single:
-      text: "Déchet suspicieux ?!"
+      text: "Déchet suspect ?!"
     plural:
-      text: "Déchets suspicieux ?!"
+      text: "Déchets suspects ?!"
     description:
       text: "Qu'est-ce que c'est que ce truc ?"
 
@@ -11340,11 +11338,11 @@ resource:
 
   boiledEgg:
     single:
-      text: "Œuf bouilli"
+      text: "Œuf dur"
     plural:
-      text: "Œufs bouillis"
+      text: "Œufs durs"
     description:
-      text: "Un œuf bouilli, de la nourriture !"
+      text: "Un œuf dur, de la nourriture !"
 
   rawMeat:
     single:
