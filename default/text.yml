@@ -340,6 +340,16 @@ perkType:
     text: "Maximum Carried Resources"
   fertility:
     text: "Fertility"
+  ghostAppearanceChance:
+    text: "Ghost Appearance Chance"
+  villagerColdResistance:
+    text: "Villager Cold Resistance"
+  villagerHeatResistance:
+    text: "Villager Heat Resistance"
+  villagerLifespans:
+    text: "Villager Lifespans"
+  wiserElders:
+    text: "Wiser Elders"
   improvedStorage:
     text: "Improved Storage"
   efficientHousing:
@@ -389,7 +399,23 @@ perkType:
   crystalGolemCapacity:
     text: "Crystal Golem Capacity"
   crystalGolemChargeTime:
-    text: "Crystal Golem Charge Time"
+    text: "Crystal Golem Charge Time"    
+  buildingSlots:
+    text: "Building Slots"
+  ancillarySlots:
+    text: "Ancillary Slots"
+  marketRestockAmount:
+    text: "Market Restock Amount"
+  marketCatjeetCapacity:
+    text: "Market Catjeet Capacity"
+  essenceCollectorCapacity:
+    text: "Essence Collector Capacity"
+  efficientTrashBurning:
+    text: "Efficient Trash Burning"
+  buildingHealth:
+    text: "Building Health"
+  increasedCullisGateStability:
+    text: "Increased Cullis Gate Stability"
   attractTowerRange:
     text: "Attract Tower Range"
   attractTowerFireRate:
@@ -452,16 +478,164 @@ perkType:
     text: "Static Tower Energy Cost"
   towerStorage:
     text: "Tower Storage"
-  spellCost:
-    text: "Spell Cost"
   holyGolemLevel:
     text: "Holy Golem Level"
   laborGolemLevel:
     text: "Labor Golem Level"
-  holyGolemDuration:
-    text: "Holy Golem Duration"
-  laborGolemDuration:
-    text: "Labor Golem Duration"
+  holyGolemSpeed:
+    text: "Holy Golem Speed"
+  laborGolemMaximumCarriedResources:
+    text: "Labor Golem Maximum Carried Resources"
+  moreInfluencePerVillager:
+    text: "More Influence Per Villager"
+  increasedInfluenceGeneration:
+    text: "Increased Influence Generation"
+  banishSpellCost:
+    text: "Banish Spell Cost"
+  banishSpellCooldown:
+    text: "Banish Spell Cooldown"
+  banishSpellDuration:
+    text: "Banish Spell Duration"
+  banishSpellRadius:
+    text: "Banish Spell Radius"
+  charmSpellCost:
+    text: "Charm Spell Cost"
+  charmSpellCooldown:
+    text: "Charm Spell Cooldown"
+  coldAuraSpellCost:
+    text: "Cold Aura Spell Cost"
+  coldAuraSpellCooldown:
+    text: "Cold Aura Spell Cooldown"
+  coldAuraSpellDuration:
+    text: "Cold Aura Spell Duration"
+  coldAuraSpellRadius:
+    text: "Cold Aura Spell Radius"
+  conjureMaterialSpellCost:
+    text: "Conjure Material Spell Cost"
+  conjureMaterialSpellAmount:
+    text: "Conjure Material Spell Amount"
+  constructSpellCost:
+    text: "Construct Spell Cost"
+  constructSpellCooldown:
+    text: "Construct Spell Cooldown"
+  constructSpellDuration:
+    text: "Construct Spell Duration"
+  constructSpellRadius:
+    text: "Construct Spell Radius"
+  dissolveSpellCost:
+    text: "Dissolve Spell Cost"
+  dissolveSpellCooldown:
+    text: "Dissolve Spell Cooldown"
+  dissolveSpellDuration:
+    text: "Dissolve Spell Duration"
+  dissolveSpellRadius:
+    text: "Dissolve Spell Radius"
+  divineBlessingSpellCost:
+    text: "Divine Blessing Spell Cost"
+  divineBlessingSpellCooldown:
+    text: "Divine Blessing Spell Cooldown"
+  earthquakeSpellCost:
+    text: "Earthquake Spell Cost"
+  earthquakeSpellCooldown:
+    text: "Earthquake Spell Cooldown"
+  flameSpellCost:
+    text: "Flame Spell Cost"
+  godTowerSpellCost:
+    text: "God Tower Spell Cost"
+  godWallSpellCost:
+    text: "God Wall Spell Cost"
+  harvestSpellCost:
+    text: "Harvest Spell Cost"
+  harvestSpellCooldown:
+    text: "Harvest Spell Cooldown"
+  harvestSpellDuration:
+    text: "Harvest Spell Duration"
+  harvestSpellRadius:
+    text: "Harvest Spell Radius"
+  healingAuraSpellCost:
+    text: "Healing Aura Spell Cost"
+  healingAuraSpellCooldown:
+    text: "Healing Aura Spell Cooldown"
+  healingAuraSpellDuration:
+    text: "Healing Aura Spell Duration"
+  healingAuraSpellRadius:
+    text: "Healing Aura Spell Radius"
+  holyPotatoesSpellCost:
+    text: "Holy Potatoes Spell Cost"
+  holyPotatoesSpellCooldown:
+    text: "Holy Potatoes Spell Cooldown"
+  holyPotatoesSpellDuration:
+    text: "Holy Potatoes Spell Duration"
+  holyPotatoesSpellRadius:
+    text: "Holy Potatoes Spell Radius"
+  holyWoodSpellCost:
+    text: "Holy Wood Spell Cost"
+  holyWoodSpellCooldown:
+    text: "Holy Wood Spell Cooldown"
+  holyWoodSpellDuration:
+    text: "Holy Wood Spell Duration"
+  holyWoodSpellRadius:
+    text: "Holy Wood Spell Radius"
+  illuminateSpellCost:
+    text: "Illuminate Spell Cost"
+  illuminateSpellDuration:
+    text: "Illuminate Spell Duration"
+  illuminateSpellRadius:
+    text: "Illuminate Spell Radius"
+  lightningBoltSpellCost:
+    text: "Lightning Bolt Spell Cost"
+  magicBoltsSpellCost:
+    text: "Magic Bolts Spell Cost"
+  magicBoltsSpellCount:
+    text: "Magic Bolts Spell Count"
+  mendSpellCost:
+    text: "Mend Spell Cost"
+  mendSpellDuration:
+    text: "Mend Spell Duration"
+  mendSpellRadius:
+    text: "Mend Spell Radius"
+  meteorSpellCost:
+    text: "Meteor Spell Cost"
+  meteorSpellAmount:
+    text: "Meteor Spell Amount"
+  motivateLandSpellCost:
+    text: "Motivate Land Spell Cost"
+  motivateLandSpellCooldown:
+    text: "Motivate Land Spell Cooldown"
+  motivateLandSpellDuration:
+    text: "Motivate Land Spell Duration"
+  motivateLandSpellRadius:
+    text: "Motivate Land Spell Radius"
+  recallSpellCost:
+    text: "Recall Spell Cost"
+  recallSpellCooldown:
+    text: "Recall Spell Cooldown"
+  recallSpellDuration:
+    text: "Recall Spell Duration"
+  recallSpellRadius:
+    text: "Recall Spell Radius"
+  regenerationSpellCost:
+    text: "Regeneration Spell Cost"
+  regenerationSpellDuration:
+    text: "Regeneration Spell Duration"
+  ressurectSpellCost:
+    text: "Ressurect Spell Cost"
+  ressurectSpellCooldown:
+    text: "Ressurect Spell Cooldown"
+  resurrectSpellSuccessChance:
+    text: "Resurrect Spell Success Chance"
+  stormSpellCost:
+    text: "Storm Spell Cost"
+  stormSpellCooldown:
+    text: "Storm Spell Cooldown"
+  holyGolemSpellCost:
+    text: "Holy Golem Spell Cost"
+  holyGolemSpellCooldown:
+    text: "Holy Golem Spell Cooldown"
+  laborGolemSpellCost:
+    text: "Labor Golem Spell Cost"
+  laborGolemSpellCooldown:
+    text: "Labor Golem Spell Cooldown"
   nomadAppearanceRate:
     text: "Nomad Appearance Rate"
   nomadAmount:
@@ -474,10 +648,10 @@ perkType:
     text: "Resource Decay Rate"
   moreLootinLootBoxes:
     text: "More Loot in Loot Boxes"
-  spellDamage:
-    text: "Spell Damage"
-  towerDamage:
-    text: "Tower Damage"
+  toolDurability:
+    text: "Tool Durability"
+  foodAndWaterValue:
+    text: "Food and Water Value"
     
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Perk Module
@@ -489,6 +663,11 @@ perk:
   comment: "Perk Module - Perk Names"
   javaClass: "rtr.PerkModule.java"
   
+  # This is used for perk descriptions that reduce seconds for things like cooldowns and durations
+  # For example; "-1.5 Seconds Banish Cooldown"
+  seconds:
+    text: "Seconds"
+    
   farellesConstitution:
     text: "Farelle's Constitution"
     optional: "true"
@@ -723,6 +902,81 @@ perk:
   rainsFlower:
     text: "Rain's Flower"
     optional: "true"
+  sylmansCurse:
+    text: "Sylman's Curse"
+    optional: "true"
+  bustersFearlessness:
+    text: "Buster's Fearlessness"
+    optional: "true"
+  chaucersDespair:
+    text: "Chaucer's Despair"
+    optional: "true"
+  zuulsPosession:
+    text: "Zuul's Posession"
+    optional: "true"
+  hadesDeal:
+    text: "Hades' Deal"
+    optional: "true"
+  bawnsFire:
+    text: "Bawn's Fire"
+    optional: "true"
+  roachsFortitude:
+    text: "Roach's Fortitude"
+    optional: "true"
+  ornnsHearth:
+    text: "Ornn's Hearth"
+    optional: "true"
+  yuukisBlood:
+    text: "Yuuki's Blood"
+    optional: "true"
+  albertanAdvantage:
+    text: "Albertan Advantage"
+    optional: "true"
+  eirsConditioning:
+    text: "Eir's Conditioning"
+    optional: "true"
+  dragonsHeart:
+    text: "Dragon's Heart"
+    optional: "true"
+  darwinsLaw:
+    text: "Darwin's Law"
+    optional: "true"
+  yomisBody:
+    text: "Yomi's Body"
+    optional: "true"
+  demideusSkin:
+    text: "Demideus' Skin"
+    optional: "true"
+  jornkersHealthcare:
+    text: "Jornker's Healthcare"
+    optional: "true"
+  golkarasFountain:
+    text: "Golkaras' Fountain"
+    optional: "true"
+  elishasProvidence:
+    text: "Elisha's Providence"
+    optional: "true"
+  poncesPotion:
+    text: "Ponce's Potion"
+    optional: "true"
+  drMcCoysScotch:
+    text: "Dr. McCoy's Scotch"
+    optional: "true"
+  dadsJoke:
+    text: "Dad's Joke"
+    optional: "true"
+  timsTestimony:
+    text: "Tim's Testimony"
+    optional: "true"
+  jornkersBrain:
+    text: "Jornker's Brain"
+    optional: "true"
+  bismarksShame:
+    text: "Bismark's Shame"
+    optional: "true"
+  jornkersSarcasm:
+    text: "Jornker's Sarcasm"
+    optional: "true" 
   eldsResourcefulness:
     text: "Eld's Resourcefulness"
     optional: "true"
@@ -1062,6 +1316,123 @@ perk:
   ramseysAccumulation:
     text: "Ramsey's Accumulation"
     optional: "true"
+  mynesCraft:
+    text: "Mynes' Craft"
+    optional: "true"
+  rosBlocks:
+    text: "Ros' Blocks"
+    optional: "true"
+  dwarvenIngenuity:
+    text: "Dwarven Ingenuity"
+    optional: "true"
+  greellasCapacity:
+    text: "Greellas' Capacity"
+    optional: "true"
+  harmvisTerritory:
+    text: "Harmvi's Territory"
+    optional: "true"
+  areasArea:
+    text: "Area's Area"
+    optional: "true"
+  alexeysStacking:
+    text: "Alexey's Stacking"
+    optional: "true"
+  dwarvenTools:
+    text: "Dwarven Tools"
+    optional: "true"
+  brainsrasVolume:
+    text: "Brainsra's Volume"
+    optional: "true"
+  hermibinsonsTurf:
+    text: "Hermibinson's Turf"
+    optional: "true"
+  midasHand:
+    text: "Midas' Hand"
+    optional: "true"
+  robinsAvarice:
+    text: "Robin's Avarice"
+    optional: "true"
+  fredgarsResplendence:
+    text: "Fredgar's Resplendence"
+    optional: "true"
+  benedictsBenefactor:
+    text: "Benedict's Benefactor"
+    optional: "true"
+  wendrdansAbundance:
+    text: "Wendrdan's Abundance"
+    optional: "true"
+  adrotagiasDiligence:
+    text: "Adrotagias' Diligence"
+    optional: "true"
+  jujisBrush:
+    text: "Juji's Brush"
+    optional: "true"
+  nativsHospitality:
+    text: "Nativ's Hospitality"
+    optional: "true"
+  dibblesWares:
+    text: "Dibble's Wares"
+    optional: "true"
+  maiqsSkooma:
+    text: "Maiq's Skooma"
+    optional: "true"
+  shaysBlessing:
+    text: "Shay's Blessing"
+    optional: "true"
+  hirotsQuota:
+    text: "Hirot's Quota"
+    optional: "true"
+  gonzalelasVolume:
+    text: "Gonzalelas' Volume"
+    optional: "true"
+  coobiellasQuantity:
+    text: "Coobiella's Quantity"
+    optional: "true"
+  rosepopsLoad:
+    text: "Rosepop's Load"
+    optional: "true"
+  dantesInferno:
+    text: "Dante's Inferno"
+    optional: "true"
+  dumpstersFire:
+    text: "Dumpster's Fire"
+    optional: "true"
+  elonsBlaze:
+    text: "Elon's Blaze"
+    optional: "true"
+  smrettsChar:
+    text: "Smrett's Char"
+    optional: "true"
+  fogansKindle:
+    text: "Fogan's Kindle"
+    optional: "true"
+  guardiansProtection:
+    text: "Guardian's Protection"
+    optional: "true"
+  athomirsBulwark:
+    text: "Athomir's Bulwark"
+    optional: "true"
+  titansBlessing:
+    text: "Titan's Blessing"
+    optional: "true"
+  scottysHammer:
+    text: "Scotty's Hammer"
+    optional: "true"
+  dwarvenResilience:
+    text: "Dwarven Resilience"
+    optional: "true"
+  crowsBindings:
+    text: "Crow's Bindings"
+    optional: "true"
+  tiamatsChaos:
+    text: "Tiamat's Chaos"
+    optional: "true"
+  deadnesBalance:
+    text: "Deadnes' Balance"
+    optional: "true"
+  cheekybursConstancy:
+    text: "Cheekybur's Constancy"
+    optional: "true"
   patstricksAllurement:
     text: "Patstrick's Allurement"
     optional: "true"
@@ -1098,8 +1469,8 @@ perk:
   bloomsGlorification:
     text: "Bloom's Glorification"
     optional: "true"
-  acurasAccumulation:
-    text: "Acura's Accumulation"
+  acurasAcceleration:
+    text: "Acura's Acceleration"
     optional: "true"
   galmisExpansion:
     text: "Galmi's Expansion"
@@ -1124,6 +1495,693 @@ perk:
     optional: "true"
   redsPerpetuation:
     text: "Red's Perpetuation"
+    optional: "true"
+  patstricksAllurement:
+    text: "Patstrick's Allurement"
+    optional: "true"
+  divinationofAidos:
+    text: "Divination of Aidos"
+    optional: "true"
+  aronsAscension:
+    text: "Aron's Ascension"
+    optional: "true"
+  hughsGambit:
+    text: "Hugh's Gambit"
+    optional: "true"
+  vigorofAngerris:
+    text: "Vigor of Angerris"
+    optional: "true"
+  dalinarsTemerity:
+    text: "Dalinar's Temerity"
+    optional: "true"
+  theodoresGift:
+    text: "Theodore's Gift"
+    optional: "true"
+  arlaggsFaith:
+    text: "Arlagg's Faith"
+    optional: "true"
+  saratogasProphecy:
+    text: "Saratoga's Prophecy"
+    optional: "true"
+  kristathansAcclamation:
+    text: "Kristathan's Acclamation"
+    optional: "true"
+  baesRejection:
+    text: "Bae's Rejection"
+    optional: "true"
+  napoleonsVigor:
+    text: "Napoleon's Vigor"
+    optional: "true"
+  musksDismiss:
+    text: "Musk's Dismiss"
+    optional: "true"
+  kilosFatedBetrayal:
+    text: "Kilo's Fated Betrayal"
+    optional: "true"
+  deusVult:
+    text: "Deus' Vult"
+    optional: "true"
+  badbasExile:
+    text: "Badbas' Exile"
+    optional: "true"
+  returnedsFavor:
+    text: "Returned's Favor"
+    optional: "true"
+  yeetsCannon:
+    text: "Yeet's Cannon"
+    optional: "true"
+  jornkersReverse:
+    text: "Jornker's Reverse"
+    optional: "true"
+  emichosCharisma:
+    text: "Emicho's Charisma"
+    optional: "true"
+  petersReach:
+    text: "Peter's Reach"
+    optional: "true"
+  waltersVoid:
+    text: "Walter's Void"
+    optional: "true"
+  lazerusWrappings:
+    text: "Lazerus' Wrappings"
+    optional: "true"
+  zoroastersOrder:
+    text: "Zoroaster's Order"
+    optional: "true"
+  jornkersBidding:
+    text: "Jornker's Bidding"
+    optional: "true"
+  aphroditesBeauty:
+    text: "Aphrodite's Beauty"
+    optional: "true"
+  ushasLust:
+    text: "Usha's Lust"
+    optional: "true"
+  freyjasPerfection:
+    text: "Freyjas' Perfection"
+    optional: "true"
+  demetersWrath:
+    text: "Demeter's Wrath"
+    optional: "true"
+  amaterusHiding:
+    text: "Amaterus' Hiding"
+    optional: "true"
+  friggasImprisonment:
+    text: "Frigga's Imprisonment"
+    optional: "true"
+  hermesAuxiliary:
+    text: "Hermes' Auxiliary"
+    optional: "true"
+  underworldsMessenger:
+    text: "Underworld's Messenger"
+    optional: "true"
+  quicksQuips:
+    text: "Quick's Quips"
+    optional: "true"
+  foxsPerpetuation:
+    text: "Fox's Perpetuation"
+    optional: "true"
+  reksContinuity:
+    text: "Rek's Continuity"
+    optional: "true"
+  wallacesContinuation:
+    text: "Wallace's Continuation"
+    optional: "true"
+  bearsAmbit:
+    text: "Bear's Ambit"
+    optional: "true"
+  lyteniansReach:
+    text: "Lytenian's Reach"
+    optional: "true"
+  moosesSpan:
+    text: "Moose's Span"
+    optional: "true"
+  redbloomsExpenditure:
+    text: "Redbloom's Expenditure"
+    optional: "true"
+  rivarynsSqueeze:
+    text: "Rivaryn's Squeeze"
+    optional: "true"
+  veintidosValue:
+    text: "Veintido's Value"
+    optional: "true"
+  timsLuck:
+    text: "Tim's Luck"
+    optional: "true"
+  orbansMachinery:
+    text: "Orban's Machinery"
+    optional: "true"
+  cammysStuff:
+    text: "Cammy's Stuff"
+    optional: "true"
+  rinsAspiration:
+    text: "Rin's Aspiration"
+    optional: "true"
+  bobsFixing:
+    text: "Bob's Fixing"
+    optional: "true"
+  corbusiersInventiveness:
+    text: "Corbusier's Inventiveness"
+    optional: "true"
+  kvothesResolve:
+    text: "Kvothe's Resolve"
+    optional: "true"
+  hermesBlessing:
+    text: "Hermes' Blessing"
+    optional: "true"
+  gropiusCreativity:
+    text: "Gropius' Creativity"
+    optional: "true"
+  serenitysAugment:
+    text: "Serenity's Augment"
+    optional: "true"
+  wrightsPhilosophy:
+    text: "Wright's Philosophy"
+    optional: "true"
+  fastidiousFortitude:
+    text: "Fastidious' Fortitude"
+    optional: "true"
+  sejimasProficiency:
+    text: "Sejima's Proficiency"
+    optional: "true"
+  nishizawasExpertise:
+    text: "Nishizawa's Expertise"
+    optional: "true"
+  chompersArchitecture:
+    text: "Chomper's Architecture"
+    optional: "true"
+  cinthsVacate:
+    text: "Cinth's Vacate"
+    optional: "true"
+  joelsSolvent:
+    text: "Joel's Solvent"
+    optional: "true"
+  hydrasSolution:
+    text: "Hydra's Solution"
+    optional: "true"
+  melfsConduit:
+    text: "Melf's Conduit"
+    optional: "true"
+  jansFade:
+    text: "Jan's Fade"
+    optional: "true"
+  semoresCollapse:
+    text: "Semore's Collapse"
+    optional: "true"
+  verminsJudgement:
+    text: "Vermin's Judgement"
+    optional: "true"
+  ursasOrbit:
+    text: "Ursa's Orbit"
+    optional: "true"
+  vinceysLimit:
+    text: "Vincey's Limit"
+    optional: "true"
+  aridesSemidiameter:
+    text: "Aride's Semidiameter"
+    optional: "true"
+  edaisBoundary:
+    text: "Edai's Boundary"
+    optional: "true"
+  xaerysReach:
+    text: "Xaery's Reach"
+    optional: "true"
+  bibliosBalm:
+    text: "Biblio's Balm"
+    optional: "true"
+  clerothsLotion:
+    text: "Cleroth's Lotion"
+    optional: "true"
+  gildadsSalve:
+    text: "Gildad's Salve"
+    optional: "true"
+  actiosCerate:
+    text: "Actio's Cerate"
+    optional: "true"
+  madarasDressing:
+    text: "Madara's Dressing"
+    optional: "true"
+  zimsMedicine:
+    text: "Zim's Medicine"
+    optional: "true"
+  aquinasHubris:
+    text: "Aquina's Hubris"
+    optional: "true"
+  ziggysMetal:
+    text: "Ziggy's Metal"
+    optional: "true"
+  abomsRubble:
+    text: "Abom's Rubble"
+    optional: "true"
+  irasRage:
+    text: "Iras Rage"
+    optional: "true"
+  troglodeitysRedemption:
+    text: "Troglodeity's Redemption"
+    optional: "true"
+  aehansMineral:
+    text: "Aehan's Mineral"
+    optional: "true"
+  lozmeratesFlame:
+    text: "Lozmerate's Flame"
+    optional: "true"
+  alexandersInferno:
+    text: "Alexander's Inferno"
+    optional: "true"
+  davesCrust:
+    text: "Dave's Crust"
+    optional: "true"
+  zeldasLegend:
+    text: "Zelda's Legend"
+    optional: "true"
+  docksStronghold:
+    text: "Dock's Stronghold"
+    optional: "true"
+  hydesColumn:
+    text: "Hyde's Column"
+    optional: "true"
+  drewsFortification:
+    text: "Drew's Fortification"
+    optional: "true"
+  filiconsPillar:
+    text: "Filicon's Pillar"
+    optional: "true"
+  gehnsObelisk:
+    text: "Gehn's Obelisk"
+    optional: "true"
+  slysGatheringSwarm:
+    text: "Sly's Gathering Swarm"
+    optional: "true"
+  fizzordsAutumn:
+    text: "Fizzord's Autumn"
+    optional: "true"
+  gnusMoon:
+    text: "Gnu's Moon"
+    optional: "true"
+  jacksLumber:
+    text: "Jack's Lumber"
+    optional: "true"
+  hachisGathering:
+    text: "Hachi's Gathering"
+    optional: "true"
+  joeysSandwich:
+    text: "Joey's Sandwich"
+    optional: "true"
+  appletonsBounty:
+    text: "Appleton's Bounty"
+    optional: "true"
+  jonansYield:
+    text: "Jonan's Yield"
+    optional: "true"
+  kensOutput:
+    text: "Ken's Output"
+    optional: "true"
+  kinesCrop:
+    text: "Kine's Crop"
+    optional: "true"
+  lucasFruit:
+    text: "Lucas' Fruit"
+    optional: "true"
+  lugzansReaping:
+    text: "Lugzan's Reaping"
+    optional: "true"
+  alluringAlliteration:
+    text: "Alluring Alliteration"
+    optional: "true"
+  pepesSpice:
+    text: "Pepe's Spice"
+    optional: "true"
+  kibasSwathe:
+    text: "Kiba's Swathe"
+    optional: "true"
+  michkasTruss:
+    text: "Michkas' Truss"
+    optional: "true"
+  samsBindings:
+    text: "Sam's Bindings"
+    optional: "true"
+  skalvernsDressings:
+    text: "Skalvern's Dressings"
+    optional: "true"
+  divinitysReach:
+    text: "Divinity's Reach"
+    optional: "true"
+  hakimodosWrap:
+    text: "Hakimodo's Wrap"
+    optional: "true"
+  quacksOil:
+    text: "Quack's Oil"
+    optional: "true"
+  pyritesPharmaceuticals:
+    text: "Pyrite's Pharmaceuticals"
+    optional: "true"
+  samotsRemedy:
+    text: "Samot's Remedy"
+    optional: "true"
+  snakesOil:
+    text: "Snake's Oil"
+    optional: "true"
+  twentsYam:
+    text: "Twent's Yam"
+    optional: "true"
+  voidsTater:
+    text: "Void's Tater"
+    optional: "true"
+  mootsSpud:
+    text: "Moot's Spud"
+    optional: "true"
+  mylonsMischief:
+    text: "Mylon's Mischief"
+    optional: "true"
+  wakasPlants:
+    text: "Waka's Plants"
+    optional: "true"
+  voxsRoots:
+    text: "Vox's Roots"
+    optional: "true"
+  vitosStems:
+    text: "Vito's Stems"
+    optional: "true"
+  xylphosStock:
+    text: "Xylpho's Stock"
+    optional: "true"
+  zendarsGreens:
+    text: "Zendar's Greens"
+    optional: "true"
+  potatoMastersHarvest:
+    text: "Potato Master's Harvest"
+    optional: "true"
+  carrionsGluttony:
+    text: "Carrion's Gluttony"
+    optional: "true"
+  gillaugsSpread:
+    text: "Gillaug's Spread"
+    optional: "true"
+  biggusFiccus:
+    text: "Biggus Ficcus"
+    optional: "true"
+  wallasRaise:
+    text: "Walla's Raise"
+    optional: "true"
+  halightsLumber:
+    text: "Halight's Lumber"
+    optional: "true"
+  luxuriasLust:
+    text: "Luxuria's Lust"
+    optional: "true"
+  werotsCopse:
+    text: "Werot's Copse"
+    optional: "true"
+  rottoshersTrees:
+    text: "Rottosher's Trees"
+    optional: "true"
+  nichonsteinsSeeds:
+    text: "Nichonstein's Seeds"
+    optional: "true"
+  jazogsDuration:
+    text: "Jazog's Duration"
+    optional: "true"
+  gogmallersStamina:
+    text: "Gogmaller's Stamina"
+    optional: "true"
+  darkLordsFarsight:
+    text: "Dark Lord's Farsight"
+    optional: "true"
+  tendoninsPlayfulness:
+    text: "Tendonin's Playfulness"
+    optional: "true"
+  viserkellysRange:
+    text: "Viserkelly's Range"
+    optional: "true"
+  foxlafsKindle:
+    text: "Foxlaf's Kindle"
+    optional: "true"
+  lollirdonsShine:
+    text: "Lollirdon's Shine"
+    optional: "true"
+  russelamsBeacon:
+    text: "Russelam's Beacon"
+    optional: "true"
+  hamsCandle:
+    text: "Ham's Candle"
+    optional: "true"
+  badharsDaylight:
+    text: "Badhar's Daylight"
+    optional: "true"
+  ramosooksAurora:
+    text: "Ramosook's Aurora"
+    optional: "true"
+  merlinsAmbience:
+    text: "Merlin's Ambience"
+    optional: "true"
+  picardsLights:
+    text: "Picard's Lights"
+    optional: "true"
+  meksFlare:
+    text: "Mek's Flare"
+    optional: "true"
+  hufootsEffulgence:
+    text: "Hufoot's Effulgence"
+    optional: "true"
+  jonebielsLamp:
+    text: "Jonebiel's Lamp"
+    optional: "true"
+  corisLantern:
+    text: "Cori's Lantern"
+    optional: "true"
+  parionsWizardry:
+    text: "Parion's Wizardry"
+    optional: "true"
+  wabellsFulmination:
+    text: "Wabell's Fulmination"
+    optional: "true"
+  tinkerhamsBolts:
+    text: "Tinkerham's Bolts"
+    optional: "true"
+  kiufsJudgement:
+    text: "Kiuf's Judgement"
+    optional: "true"
+  cantripsKnowledge:
+    text: "Cantrip's Knowledge"
+    optional: "true"
+  merlinsSoul:
+    text: "Merlin's Soul"
+    optional: "true"
+  clabergsFix:
+    text: "Claberg's Fix"
+    optional: "true"
+  smwardsRepairs:
+    text: "Smward's Repairs"
+    optional: "true"
+  babimsMaintenance:
+    text: "Babim's Maintenance"
+    optional: "true"
+  dlaracrudsReforgement:
+    text: "Dlaracrud's Reforgement"
+    optional: "true"
+  malafiasMachine:
+    text: "Malafia's Machine"
+    optional: "true"
+  wiyasDevice:
+    text: "Wiya's Device"
+    optional: "true"
+  hendersContraption:
+    text: "Hender's Contraption"
+    optional: "true"
+  reelasTools:
+    text: "Reela's Tools"
+    optional: "true"
+  williaritasWidget:
+    text: "Williarita's Widget"
+    optional: "true"
+  titachusSteel:
+    text: "Titachus' Steel"
+    optional: "true"
+  rishusShootingstar:
+    text: "Rishu's Shootingstar"
+    optional: "true"
+  greenturnersComet:
+    text: "Greenturner's Comet"
+    optional: "true"
+  grabtharsHammer:
+    text: "Grabthar's Hammer"
+    optional: "true"
+  roadmansRedemption:
+    text: "Roadman's Redemption"
+    optional: "true"
+  royasDestruction:
+    text: "Roya's Destruction"
+    optional: "true"
+  dotoriasMotivation:
+    text: "Dotoria's Motivation"
+    optional: "true"
+  primsEncouragement:
+    text: "Prim's Encouragement"
+    optional: "true"
+  kingsCultivation:
+    text: "King's Cultivation"
+    optional: "true"
+  rileyinsExcitement:
+    text: "Rileyin's Excitement"
+    optional: "true"
+  firesuttonsSway:
+    text: "Firesutton's Sway"
+    optional: "true"
+  caropheliasGrowth:
+    text: "Carophelia's Growth"
+    optional: "true"
+  carphirasSpread:
+    text: "Carphira's Spread"
+    optional: "true"
+  jordeliasPullulation:
+    text: "Jordelia's Pullulation"
+    optional: "true"
+  surcollinsGains:
+    text: "Surcollin's Gains"
+    optional: "true"
+  naturesEvolution:
+    text: "Nature's Evolution"
+    optional: "true"
+  lofangsGermination:
+    text: "Lofang's Germination"
+    optional: "true"
+  kokafordsLength:
+    text: "Kokaford's Length"
+    optional: "true"
+  frasersTeleportation:
+    text: "Fraser's Teleportation"
+    optional: "true"
+  lollissellsBeam:
+    text: "Lollissell's Beam"
+    optional: "true"
+  killipsTransmission:
+    text: "Killip's Transmission"
+    optional: "true"
+  hunazzosSummon:
+    text: "Hunazzo's Summon"
+    optional: "true"
+  claricalsCall:
+    text: "Clarical's Call"
+    optional: "true"
+  rogersAssemble:
+    text: "Roger's Assemble"
+    optional: "true"
+  gongantasRepository:
+    text: "Gonganta's Repository"
+    optional: "true"
+  seramarsDepot:
+    text: "Seramar's Depot"
+    optional: "true"
+  danierysCache:
+    text: "Daniery's Cache"
+    optional: "true"
+  echinasForce:
+    text: "Echina's Force"
+    optional: "true"
+  teulmatisSay:
+    text: "Teulmati's Say"
+    optional: "true"
+  hermesBoots:
+    text: "Hermes' Boots"
+    optional: "true"
+  helraysReclamation:
+    text: "Helray's Reclamation"
+    optional: "true"
+  nuamesMetamorphosis:
+    text: "Nuame's Metamorphosis"
+    optional: "true"
+  ramogsReversal:
+    text: "Ramog's Reversal"
+    optional: "true"
+  lightsongsBoldness:
+    text: "Lightsong's Boldness"
+    optional: "true"
+  mirasReflection:
+    text: "Mira's Reflection"
+    optional: "true"
+  dakedesBlessing:
+    text: "Dakede's Blessing"
+    optional: "true"
+  eiwasDoppelganger:
+    text: "Eiwa's Doppelganger"
+    optional: "true"
+  linuxsIngenuity:
+    text: "Linux's Ingenuity"
+    optional: "true"
+  morazztsRebirth:
+    text: "Morazzt's Rebirth"
+    optional: "true"
+  gurwalsTrick:
+    text: "Gurwal's Trick"
+    optional: "true"
+  dezraysDefiance:
+    text: "Dezray's Defiance"
+    optional: "true"
+  bellasWitchery:
+    text: "Bella's Witchery"
+    optional: "true"
+  dovinsBan:
+    text: "Dovin's Ban"
+    optional: "true"
+  xanthidussTutorship:
+    text: "Xanthiduss' Tutorship"
+    optional: "true"
+  jedediahsPrayers:
+    text: "Jedediah's Prayers"
+    optional: "true"
+  yennefersGeralt:
+    text: "Yennefer's Geralt"
+    optional: "true"
+  aktzinsGrace:
+    text: "Aktzin's Grace"
+    optional: "true"
+  gothrogersDance:
+    text: "Gothroger's Dance"
+    optional: "true"
+  kennensMaelstrom:
+    text: "kennensMaelstrom"
+    optional: "true"
+  xolotlsIncarnation:
+    text: "xolotlsIncarnation"
+    optional: "true"
+  hospellsRain:
+    text: "Hospell's Rain"
+    optional: "true"
+  endersGame:
+    text: "Ender's Game"
+    optional: "true"
+  bloodstonesManifestation:
+    text: "Bloodstone's Manifestation"
+    optional: "true"
+  homunculusExpertise:
+    text: "Homunculus' Expertise"
+    optional: "true"
+  golletsCatching:
+    text: "Gollet's Catching"
+    optional: "true"
+  nimdoksEnchatments:
+    text: "Nimdok's Enchatments"
+    optional: "true"
+  cardinsCreations:
+    text: "Cardin's Creations"
+    optional: "true"
+  gizbensInsight:
+    text: "Gizben's Insight"
+    optional: "true"
+  artificersCompanion:
+    text: "Artificer's Companion"
+    optional: "true"
+  dwarvenGuidelines:
+    text: "Dwarven Guidelines"
+    optional: "true"
+  dakedesFirstWord:
+    text: "Dakede's FirstWord"
+    optional: "true"
+  clardazzlesIndustry:
+    text: "Clardazzle's Industry"
+    optional: "true"
+  twinkleyesDiligence:
+    text: "Twinkleye's Diligence"
     optional: "true"
   belindasRadius:
     text: "Belinda's Radius"
@@ -1588,7 +2646,7 @@ perk:
     text: "Robert's Unwrinkling"
     optional: "true"
   rugmuksIndelibility:
-    text: "Rugmuk's Indelibility "
+    text: "Rugmuk's Indelibility"
     optional: "true"
   austinsFiber:
     text: "Austin's Fiber"
@@ -1608,7 +2666,37 @@ perk:
   sungwoosPillages:
     text: "Sungwoo's Pillages"
     optional: "true"
-
+  eitrisIngenuity:
+    text: "Eitris' Ingenuity"
+    optional: "true"
+  hephaestusSmithery:
+    text: "Hephaestus' Smithery"
+    optional: "true"
+  dresdinsWit:
+    text: "Dresdin's Wit"
+    optional: "true"
+  beepsGutsiness:
+    text: "Beep's Gutsiness"
+    optional: "true"
+  dwarvenDurability:
+    text: "Dwarven Durability"
+    optional: "true"
+  joesMeatloaf:
+    text: "Joe's Meatloaf"
+    optional: "true"
+  ardensHunger:
+    text: "Arden's Hunger"
+    optional: "true"
+  grandmasCookies:
+    text: "Grandmas' Cookies"
+    optional: "true"
+  duffmansBluff:
+    text: "Duffman's Bluff"
+    optional: "true"
+  distinctsMint:
+    text: "Distinct's Mint"
+    optional: "true"
+    
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Time Module
 # Time of Day
@@ -3020,6 +4108,8 @@ mapEditorPlayRightPanel:
         text: "Defense"
       foodAndWater:
         text: "Food and Water"
+      gatesAndWalls:
+        text: "Gates And Walls"
       harvesting:
         text: "Harvesting"
       housing:
@@ -3036,8 +4126,6 @@ mapEditorPlayRightPanel:
         text: "Storage"
       trash:
         text: "Trash"
-      walls:
-        text: "Walls"
       special:
         text: "Special"
       
@@ -3138,7 +4226,41 @@ mapEditorPlayRightPanel:
         text: "Water Purifier"
       well:
         text: "Well"
-      
+        
+    gatesAndWalls:
+      gates:
+        text: "Gates"
+      walls:
+        text: "Walls"
+        
+    gates:
+      crylithiumWallGateNS:
+        text: "Crylithium Wall Gate (N/S)"
+      crylithiumWallGateWE:
+        text: "Crylithium Wall Gate (W/E)"
+      stoneWallGateNS:
+        text: "Stone Wall Gate (N/S)"
+      stoneWallGateWE:
+        text: "Stone Wall Gate (W/E)"
+      woodFenceGateNS:
+        text: "Wood Fence Gate (N/S)"
+      woodFenceGateWE:
+        text: "Wood Fence Gate (W/E)"
+        
+    walls:
+      crylithiumWall:
+        text: "Crylithium Wall"
+      crylithiumCurtainWall:
+        text: "Crylithium Curtain Wall"
+      curtainWall:
+        text: "Curtain Wall"
+      stoneWall:
+        text: "Stone Wall"
+      trashyCubeWall:
+        text: "Trashy Cube Wall"
+      woodFence:
+        text: "Wood Fence"
+         
     harvesting:
       crystalHarvestry:
         text: "Crystal Harvestry"
@@ -3222,25 +4344,7 @@ mapEditorPlayRightPanel:
         text: "Trash Can"
       trashyCubePile:
         text: "Trashy Cube Pile"
-        
-    walls:
-      curtainWall:
-        text: "Curtain Wall"
-      stoneWallGateNS:
-        text: "Stone Wall Gate (N/S)"
-      stoneWallGateWE:
-        text: "Stone Wall Gate (W/E)"
-      stoneWall:
-        text: "Stone Wall"
-      trashyCubeWall:
-        text: "Trashy Cube Wall"
-      woodFence:
-        text: "Wood Fence"
-      woodFenceGateNS:
-        text: "Wood Fence Gate (N/S)"
-      woodFenceGateWE:
-        text: "Wood Fence Gate (W/E)"
-      
+              
     special:
       camp:
         text: "Camp"
@@ -3333,6 +4437,8 @@ mapEditorPlayRightPanel:
         text: "Cactus"
       carrots:
         text: "Carrots"
+      holyPotatoes:
+        text: "Holy Potatoes"
       melons:
         text: "Melons"
       potatoes:
@@ -3441,6 +4547,12 @@ mapEditorPlayRightPanel:
         text: "Green Stumps"
       greenTrees:
         text: "Green Trees"
+      lavenderDeadTrees:
+        text: "Lavender Dead Trees"
+      lavenderStumps:
+        text: "Lavender Stumps"
+      lavenderTrees:
+        text: "Lavender Trees"
       redDeadTrees:
         text: "Red Dead Trees"
       redStumps:
@@ -4422,6 +5534,10 @@ playPopulationListPanel:
       text: "Total Pregnant"
     totalPregnant:
       text: "The amount of villagers in the village who are pregnant."
+    totalBlessedHeader:
+      text: "Total Blessed"
+    totalBlessed:
+      text: "The amount of villagers in the village who are blessed."
     totalMatesHeader:
       text: "Has Mate"
     totalMates:
@@ -4446,6 +5562,10 @@ playPopulationListPanel:
       text: "Pregnant"
     pregnant:
       text: "This (hopefully female) villager is with child and will likely give birth in a few days from conception."
+    blessedHeader:
+      text: "Blessed"
+    blessed:
+      text: "This villager has been blessed by god, and their next offpsring will be born a nephilim."
     hasMateHeader:
       text: "Has Mate"
     hasMate:
@@ -4746,6 +5866,10 @@ playSelectedMobPanel:
       text: "Pregnant"
     pregnant:
       text: "This (hopefully female) creature is with child and will likely give birth in a few days from conception."
+    blessedHeader:
+      text: "Blessed"
+    blessed:
+      text: "This villager has been blessed by god, and their next offpsring will be born a nephilim."
     levelHeader:
       text: "Level"
     level:
@@ -4820,6 +5944,8 @@ playSelectedMobPanel:
     text: "The {mobJobName}"
   pregnant:
     text: "$BLU1Pregnant"
+  blessed:
+    text: "$MAG1Blessed"
   damageResistance:
     text: "Damage Resistance"
   damageVulnerabilities:
@@ -5093,6 +6219,8 @@ playSelectedObjectUpgradePanel:
     text: "$WHI0 or $RED0"
   maximumStorage:
     text: "Maximum Storage: $GRE1+{amount}"
+  canStoreMoreOverflow:
+    text: "..and more"
   energy:
     text: "$YEL1+{amount} Energy"
   globalSpeed:
@@ -5189,6 +6317,54 @@ playSpellBar:
     tooltip:
       text: "Open the full spell list and change the spell in slot {slotNumber}."
 
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# Play State
+# Spell Description Panel
+# rtr.gui.states.playstate.SpellDescriptionPanel.java
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+playSpellDescriptionPanel:
+  comment: "Play State - Spell Description Panel"
+  javaClass: "rtr.gui.states.playstate.SpellDescriptionPanel.java"
+  
+  notEnoughMaximumInfluence:
+    text: "$RED1Not Enough Maximum Influence"
+  duration:
+    text: "Duration: $GRE1{amount} Seconds"
+  radius:
+    text: "Radius: $GRE1{amount}"
+  castCost:
+    text: "Cast Cost: $GRE1{amount} ({percentage}% of bar)"
+  castCostCantCast:
+    text: "Cast Cost: $RED1{amount} ({percentage}% of bar)"
+  maintainCost:
+    text: "Maintain Cost: $GRE1{amount} ({percentage}% of bar)"
+  maintainCostCantMaintain:
+    text: "Maintain Cost: $RED1{amount} ({percentage}% of bar)"
+  cooldown:
+    text: "Cooldown Time: $GRE1{amount} Seconds"
+  continuousCast:
+    text: "$GRE1Continuous Cast"
+    
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# Play State
+# Spell Select Panel
+# rtr.gui.states.playstate.SpellSelectPanel.java
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+playSpellSelectPanel:
+  comment: "Play State - Spell Select Panel"
+  javaClass: "rtr.gui.states.playstate.SpellSelectPanel.java"
+  
+  aid:
+    text: "$GRE1Aid"
+  defensive:
+    text: "$BLU1Defensive"
+  offensive:
+    text: "$RED1Offensive"
+  utility:
+    text: "Utility"
+      
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Play State
 # Statistics Panel
@@ -5597,7 +6773,7 @@ playToolsBar:
       destroyTerrainHeader:
         text: "Destroy Terrain"
       destroyTerrain:
-        text: "Quickly destroy nearly any topography, including forest, tree stumps, rocks, rubble, water and even flowers. A small amount of resources will be gained from destroying the topography, but so with excess trash."
+        text: "Quickly destroy nearly any topography, including forest, tree stumps, rocks, rubble, water and even flowers. A small amount of resources will be gained from destroying the topography, but so will excess trash."
         revision: "1"
         
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
@@ -5925,6 +7101,8 @@ playRightObjectDescriptionPanel:
     text: "$WHI0 or $RED0"
   maximumStorage:
     text: "Maximum Storage: $GRE1{amount}"
+  canStoreMoreOverflow:
+    text: "..and more"
   energy:
     text: "$YEL1{amount} Energy"
   staticTowerDamageOverride:
@@ -7005,7 +8183,7 @@ helpTip:
     buildingSlotsHeader:
       text: "Building Slots"
     buildingSlots:   
-      text: "You have run out of building slot, in order to manage your ever growing village you will need to upgrade your $YEL1Camp$WHI0 or build some $YEL1Ancillaries$WHI0. You can upgrade your $YEL1Camp$WHI0 by clicking on it and then clicking the upgrade button on the bottom panel. Alternatively, if you'd rather build an $YEL1Ancillary$WHI0, you can find them in the Civics subcaregory on your build tab."
+      text: "You have run out of building slots, in order to manage your ever growing village you will need to upgrade your $YEL1Camp$WHI0 or build some $YEL1Ancillaries$WHI0. You can upgrade your $YEL1Camp$WHI0 by clicking on it and then clicking the upgrade button on the bottom panel. Alternatively, if you'd rather build an $YEL1Ancillary$WHI0, you can find them in the Civics subcategory on your build tab."
       revision: "1"
     lifeExpectancyHeader:
       text: "Life Expectancy"
@@ -7108,7 +8286,7 @@ helpTip:
     seasonSpringHeader:
       text: "Spring"
     seasonSpring:   
-      text: "A plesant break from the ravages of $CYA1Winter$WHI0, $GRE1Spring$WHI0 has arrived! Spring is the easiest season to survive. You will find it very easy to grow food and replenish resources. Although the constant rain can upset villagers, and the lightning storms may damage buildings. So lookout! Don't forget to $RED1stock up on food and water$WHI0 before $YEL1Summer$WHI1 arrives!"
+      text: "A pleasant break from the ravages of $CYA1Winter$WHI0, $GRE1Spring$WHI0 has arrived! Spring is the easiest season to survive. You will find it very easy to grow food and replenish resources. Although the constant rain can upset villagers, and the lightning storms may damage buildings. So lookout! Don't forget to $RED1stock up on food and water$WHI0 before $YEL1Summer$WHI1 arrives!"
     seasonSummerHeader:
       text: "Summer"
     seasonSummer:   
@@ -7163,6 +8341,10 @@ influence:
       text: "You can't cast spells into the void!"
     inCorruption:
       text: "You have no power here!"
+    notCooledDown:
+      text: "Not Cooled Down!"
+    canNotMaintain:
+      text: "Can Not Maintain!"
     noInfluence:
       text: "Not enough influence!"
       
@@ -7180,123 +8362,181 @@ spell:
     name:
       text: "Banish"
     description:
-      text: "Banish your enemies to a random location on the map!"
-  dissolve:
-    name:
-      text: "Dissolve"
-    description:
-      text: "Dissolves living resources like crystals, wood, and dead bodies on the map, converting them into essence."
-  summonHolyGolem:
-    name:
-      text: "Summon Holy Golem"
-    description:
-      text: "Summons a holy defender who will fight to their bitter end to defend your people. The older your village, the stronger the golem!"
-  drop:
-    name:
-      text: "Drop"
-    description:
-      text: "Drop a resource or creature in your hands. This spell should not be accessable directly."
-  meteor:
-    name:
-      text: "Meteor"
-    description:
-      text: "Drop a flaming space rock on something!"
-  flame:
-    name:
-      text: "Flame"
-    description:
-      text: "Ignite an area (and anything else that happens to be in the way) in flames!"
-  grab:
-    name:
-      text: "Grab"
-    description:
-      text: "Pick up resources or creatures on the map. Drains influence the longer they are held and will drop them if you run out."
-  healingAura:
-    name:
-      text: "Healing Aura"
-    description:
-      text: "Steadily heal all the villagers in the area for a short period of time."
-  motivateLand:
-    name:
-      text: "Motivate Land"
-    description:
-      text: "Motivate some natural resources to grow. Works best in the Spring and Autumn, very ineffective in the Winter."
-  earthquake:
-    name:
-      text: "Earthquake"
-    description:
-      text: "Shake the ground, damaging anything in the area and sometimes sprouting forth new rock."
-  recall:
-    name:
-      text: "Recall"
-    description:
-      text: "Teleport villagers and resources safely back to the village."
-  resurrect:
-    name:
-      text: "Resurrect"
-    description:
-      text: "Resurrect a visible ghost on the map. Beware, sometimes the process doesn't quite turn out the way you planned!"
-  initialSpawnIn:
-    name:
-      text: "Initial Spawn In"
-    description:
-      text: "Special spell used to spawn in villagers at the start of a new game inworld map mode. Should not be castable by the player."
-  storm:
-    name:
-      text: "Storm"
-    description:
-      text: "An extremely dangerous spell that causes a huge localized lightning storm, followed by rain or snow in the entire region. Should never be cast inside your village."
-  conjureEssence:
-    name:
-      text: "Conjure Essence"
-    description:
-      text: "Conjure essence out of thin air! Careful it doesn't get sucked back into your hand."
-  lightningBolt:
-    name:
-      text: "Lightning Bolt"
-    description:
-      text: "Zap them from the heavens! Doesn't work well around lightning rods."
-  conjureMaterial:
-    name:
-      text: "Conjure Material"
-    description:
-      text: "Brings forth a raw building material, sometimes similar to the topography surrounding it."
-  mend:
-    name:
-      text: "Mend"
-    description:
-      text: "Steadily repairs golems and buildings in a small area for a short period of time."
-  summonLaborGolem:
-    name:
-      text: "Summon Labor Golem"
-    description:
-      text: "Summons a mindless golem that will do manual labor in your village until it dies."
-  illuminate:
-    name:
-      text: "Illuminate"
-    description:
-      text: "Creates a long lasting, large light source on the map."
+      text: "Banish your enemies to a random location in the region outside your village! Be careful, sometimes they may be teleported somewhere undesirable."
+      revision: "1"
   charm:
     name:
       text: "Charm"
     description:
       text: "Charms a monster into attacking their friends instead, but they may not always cooperate, and could even work against you."
+  coldAura:
+    name:
+      text: "Cold Aura"
+    description:
+      text: "Makes the area extremely cold. Slowing down and sometimes freezing nearby creatures. Works well on large groups."
+      revision: "1"
+  conjureEssence:
+    name:
+      text: "Conjure Essence"
+    description:
+      text: "Conjure essence out of thin air! Careful it doesn't get sucked back into your hand."
+  conjureMaterial:
+    name:
+      text: "Conjure Material"
+    description:
+      text: "Brings forth a raw material from thin air, usually similar to the topography surrounding it."
+      revision: "1"
+  construct:
+    name:
+      text: "Construct"
+    description:
+      text: "Uses your godly powers to assist in constructing buildings, but requires the resources to already be delivered to the build site."
+  dispelGodStructure:
+    name:
+      text: "Dispel God Structure"
+    description:
+      text: "Dispel a previously summoned structure to regain some of your maximum influence."
+  dispelGolem:
+    name:
+      text: "Dispel Golem"
+    description:
+      text: "Dispel a previously summoned or combobulated golem. Will work on any golem in the village, including the ones you did not summon yourself. Typically should be used to dispel labor or holy golems to regain some of your maximum influence."
+  dissolve:
+    name:
+      text: "Dissolve"
+    description:
+      text: "Dissolves living resources like crystals, wood, and dead bodies on the map, converting them into essence."
+  divineBlessing:
+    name:
+      text: "Divine Blessing"
+    description:
+      text: "Bless a villager, causing their next born child to be a Nephilim with superior strength, dexterity and lifespan."
+  drop:
+    name:
+      text: "Drop"
+    description:
+      text: "Drop a resource or creature in your hands. This spell should not be accessable directly. How are you even reading this?"
+      revision: "1"
+  earthquake:
+    name:
+      text: "Earthquake"
+    description:
+      text: "Shake the ground, damaging anything in the area and sometimes sprouting forth new rock. Will generate significantly more rock overtop previously harvested rocky areas."
+      revision: "1"
+  flame:
+    name:
+      text: "Flame"
+    description:
+      text: "Ignite an area (and anything else that happens to be in the way) in flames!"
+  godTower:
+    name:
+      text: "God Tower"
+    description:
+      text: "Summons a magic bow tower with unlimited ammo. Requires a portion of your maximum influence to maintain. Can be dispelled with the Dispel Structure spell."
+  godWall:
+    name:
+      text: "God Wall"
+    description:
+      text: "Summons a magic wall that will help block all types of monsters, including specters, from crossing. Requires a portion of your maximum influence to maintain. Can be dispelled with the Dispel Structure spell."
+  grab:
+    name:
+      text: "Grab"
+    description:
+      text: "Pick up resources or creatures on the map. Drains influence the longer they are held and will drop them if you run out."
+  harvest:
+    name:
+      text: "Harvest"
+    description:
+      text: "Automatically harvests resources from the region, dropping them on the ground for your villagers to quickly collect. Make sure you cast this in range of your village, else nobody will come pick anything up!"
+  healingAura:
+    name:
+      text: "Healing Aura"
+    description:
+      text: "Steadily heal all the villagers in the area for a short period of time."
+  holyPotatoes:
+    name:
+      text: "Holy Potatoes"
+    description:
+      text: "Sprouts magic potatoes from the ground, really handy if you've just completely run out of food or want to create a new patch elsewhere in the village!"
+  holyWood:
+    name:
+      text: "Holy Wood"
+    description:
+      text: "Sprouts large erections of wood from the ground, really handy if you've just completely run out of wood or want to create a new patch elsewhere in the village!"
+  illuminate:
+    name:
+      text: "Illuminate"
+    description:
+      text: "Creates a long lasting, large light source on the map."
+  initialSpawnIn:
+    name:
+      text: "Initial Spawn In"
+    description:
+      text: "Special spell used to spawn in villagers at the start of a new game inworld map mode. Should not be castable by the player."
+  lightningBolt:
+    name:
+      text: "Lightning Bolt"
+    description:
+      text: "Zap creatures from the heavens! Doesn't work well around lightning rods."
+      revision: "1"
   magicBolts:
     name:
       text: "Magic Bolts"
     description:
       text: "Zap monsters with some energy balls."
-  coldAura:
+  mend:
     name:
-      text: "Cold Aura"
+      text: "Mend"
     description:
-      text: "Makes the area extremely cold, cooling, slowing down and sometimes freezing nearby creatures."
+      text: "Steadily repairs golems, buldings and walls in a small area for a short period of time."
+      revision: "1"
+  meteor:
+    name:
+      text: "Meteor"
+    description:
+      text: "Drop a flaming space rock on something! Careful though, sometimes it'll drop a fire elemental instead."
+      revision: "1"
+  motivateLand:
+    name:
+      text: "Motivate Land"
+    description:
+      text: "Motivate some natural resources to grow. Works best in the Spring and Autumn or when it's raining, very ineffective in the Winter."
+      revision: "1"
+  recall:
+    name:
+      text: "Recall"
+    description:
+      text: "Teleport a large group villagers and resources safely back to the village."
+      revision: "1"
   regenerate:
     name:
       text: "Regenerate"
     description:
       text: "Heals a single living creature over a short period of time. Does not work on golems, but does work on monsters! Be careful what you cast this on."
-            
+  resurrect:
+    name:
+      text: "Resurrect"
+    description:
+      text: "Resurrect a visible ghost on the map. Beware, sometimes the process doesn't quite turn out the way you planned!"
+  storm:
+    name:
+      text: "Storm"
+    description:
+      text: "An extremely dangerous spell that causes a huge localized lightning storm, followed by rain or snow in the entire region. Should never be cast inside a village without ample lightning rods."
+      revision: "1"
+  summonHolyGolem:
+    name:
+      text: "Summon Holy Golem"
+    description:
+      text: "Summons a holy defender who will fight to their bitter end to defend your people. The older your village, the stronger the golem! Golems take constant influence to maintain, permanently lowering your maximum influence, but can be dispelled with the Dispel Golem spell."
+      revision: "1"
+  summonLaborGolem:
+    name:
+      text: "Summon Labor Golem"
+    description:
+      text: "Summons a mindless golem that will do manual labor in your village until it dies or is dispelled. Golems take constant influence to maintain, permanently lowering your maximum influence, but can be dispelled with the Dispel Golem spell."      
+      revision: "1"
+                  
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Tile Set
 # Tooltips
@@ -7374,7 +8614,7 @@ tileSet:
       name:
         text: "Rock"
       description:
-        text: "Provides rock for the village, mine and stockpile of them by building a mining facility. Builders can also mine them as needed for bulding construction."
+        text: "Provides rock for the village, mine and stockpile them by building a mining facility. Builders can also mine them as needed for bulding construction."
     rockCollected:
       name:
         text: "Rock Rubble"
@@ -7384,7 +8624,7 @@ tileSet:
       name:
         text: "Sandstone"
       description:
-        text: "Provides rock for the village, mine and stockpile of them by building a mining facility. Builders can also mine them as needed for bulding construction."
+        text: "Provides rock for the village, mine and stockpile them by building a mining facility. Builders can also mine them as needed for bulding construction."
     sandstoneCollected:
       name:
         text: "Sandstone Rubble"
@@ -7403,6 +8643,11 @@ tileSet:
     potatoes:
       name:
         text: "Potatoes"
+      description:
+        text: "Provides food for the village, farmers can harvest them to create a stockpile or plant in a farm to start or increase food production in the village."
+    potatoesHoly:
+      name:
+        text: "Holy Potatoes"
       description:
         text: "Provides food for the village, farmers can harvest them to create a stockpile or plant in a farm to start or increase food production in the village."
     turnips:
@@ -7614,37 +8859,207 @@ mobName:
   article:
     comment: "This is used in a few rare cases where the game is referencing the mob as a common noun and not a proper noun. Like 'a Skeleton' instead of 'Bob Vance'. For example, 'Bob Vance is attacking a Skeleton' or 'a Skeleton is attacking Bob Vance'"
     text: "a {mobName}"
-      
-  villageElder:
+
+  humanVillager:
     single:
-      text: "Village Elder"
+      text: "Human Villager"
     plural:
-      text: "Village Elders"
-  villager:
+      text: "Human Villagers"      
+  humanVillagerChild:
     single:
-      text: "Villager"
+      text: "Human Child"
     plural:
-      text: "Villagers"
-  child:
+      text: "Human Children"
+  humanVillagerElder:
     single:
-      text: "Child"
+      text: "Human Elder"
     plural:
-      text: "Children"
-  catjeetVillageElder:
+      text: "Human Elders"
+  humanVillagerNephilim:
     single:
-      text: "Catjeet Village Elder"
+      text: "Nephilim Human Villager"
     plural:
-      text: "Catjeet Village Elders"
+      text: "Nephilim Human Villagers"      
+  humanVillagerChildNephilim:
+    single:
+      text: "Nephilim Human Child"
+    plural:
+      text: "Nephilim Human Children"
+  humanVillagerElderNephilim:
+    single:
+      text: "Nephilim Human Elder"
+    plural:
+      text: "Nephilim Human Elders"
+  humanNomad:
+    single:
+      text: "Human Nomad"
+    plural:
+      text: "Human Nomads"
+  humanNomadChild:
+    single:
+      text: "Human Nomad Child"
+    plural:
+      text: "Human Nomad Children"
+  humanNomadElder:
+    single:
+      text: "Human Nomad Elder"
+    plural:
+      text: "Human Nomad Elders"
+  humanNomadNephilim:
+    single:
+      text: "Nephilim Human Nomad"
+    plural:
+      text: "Nephilim Human Nomads"
+  humanNomadChildNephilim:
+    single:
+      text: "Nephilim Human Nomad Child"
+    plural:
+      text: "Nephilim Human Nomad Children"
+  humanNomadElderNephilim:
+    single:
+      text: "Nephilim Human Nomad Elder"
+    plural:
+      text: "Nephilim Human Nomad Elders"
+  humanMigrantDeparting:
+    single:
+      text: "Departing Human Migrant"
+    plural:
+      text: "Departing Human Migrants"
+  humanMigrantArriving:
+    single:
+      text: "Arriving Human Migrant"
+    plural:
+      text: "Arriving Human Migrants"
+  humanMigrantNephilimDeparting:
+    single:
+      text: "Departing Nephilim Human Migrant"
+    plural:
+      text: "Departing Nephilim Human Migrants"
+  humanMigrantNephilimArriving:
+    single:
+      text: "Arriving Nephilim Human Migrant"
+    plural:
+      text: "Arriving Nephilim Human Migrants"
+  humanVillagerGhost:
+    single:
+      text: "Human Ghost"
+    plural:
+      text: "Human Ghosts"
+  humanVillagerGhostChild:
+    single:
+      text: "Human Ghost Child"
+    plural:
+      text: "Human Ghost Children"
+  humanVillagerGhostNephilim:
+    single:
+      text: "Nephilim Human Ghost"
+    plural:
+      text: "Nephilim Human Ghosts"
+  humanVillagerGhostChildNephilim:
+    single:
+      text: "Nephilim Human Ghost Child"
+    plural:
+      text: "Nephilim Human Ghost Children"
   catjeetVillager:
     single:
       text: "Catjeet Villager"
     plural:
       text: "Catjeet Villagers"
-  catjeetChild:
+  catjeetVillagerChild:
     single:
       text: "Catjeet Child"
     plural:
       text: "Catjeet Children"
+  catjeetVillagerElder:
+    single:
+      text: "Catjeet Elder"
+    plural:
+      text: "Catjeet Elders"     
+  catjeetVillagerNephilim:
+    single:
+      text: "Nephilim Catjeet Villager"
+    plural:
+      text: "Nephilim Catjeet Villagers"
+  catjeetVillagerChildNephilim:
+    single:
+      text: "Nephilim Catjeet Child"
+    plural:
+      text: "Nephilim Catjeet Children"
+  catjeetVillagerElderNephilim:
+    single:
+      text: "Nephilim Catjeet Elder"
+    plural:
+      text: "Nephilim Catjeet Elders"     
+  catjeetNomad:
+    single:
+      text: "Catjeet Nomad"
+    plural:
+      text: "Catjeet Nomads"
+  catjeetNomadChild:
+    single:
+      text: "Catjeet Nomad Child"
+    plural:
+      text: "Catjeet Nomad Children"
+  catjeetNomadElder:
+    single:
+      text: "Catjeet Nomad Elder"
+    plural:
+      text: "Catjeet Nomad Elders"
+  catjeetNomadNephilim:
+    single:
+      text: "Nephilim Catjeet Nomad"
+    plural:
+      text: "Nephilim Catjeet Nomads"
+  catjeetNomadChildNephilim:
+    single:
+      text: "Nephilim Catjeet Nomad Child"
+    plural:
+      text: "Nephilim Catjeet Nomad Children"
+  catjeetNomadElderNephilim:
+    single:
+      text: "Nephilim Catjeet Nomad Elder"
+    plural:
+      text: "Nephilim Catjeet Nomad Elders"
+  catjeetMigrantDeparting:
+    single:
+      text: "Departing Catjeet Migrant"
+    plural:
+      text: "Departing Catjeet Migrants"
+  catjeetMigrantArriving:
+    single:
+      text: "Arriving Catjeet Migrant"
+    plural:
+      text: "Arriving Catjeet Migrants"
+  catjeetMigrantNephilimDeparting:
+    single:
+      text: "Departing Nephilim Catjeet Migrant"
+    plural:
+      text: "Departing Nephilim Catjeet Migrants"
+  catjeetMigrantNephilimArriving:
+    single:
+      text: "Arriving Nephilim Catjeet Migrant"
+    plural:
+      text: "Arriving Nephilim Catjeet Migrants"
+  catjeetGhost:
+    single:
+      text: "Catjeet Ghost"
+    plural:
+      text: "Catjeet Ghosts"
+  catjeetGhostChild:
+    single:
+      text: "Catjeet Ghost Child"
+    plural:
+      text: "Catjeet Ghost Children"
+  catjeetGhostNephilim:
+    single:
+      text: "Nephilim Catjeet Ghost"
+    plural:
+      text: "Nephilim Catjeet Ghosts"
+  catjeetGhostChildNephilim:
+    single:
+      text: "Nephilim Catjeet Ghost Child"
+    plural:
+      text: "Nephilim Catjeet Ghost Children"
   catjeetProvisioner:
     single:
       text: "Catjeet Provisioner"
@@ -7730,36 +9145,6 @@ mobName:
       text: "Skeleton"
     plural:
       text: "Skeletons"
-  ghost:
-    single:
-      text: "Ghost"
-    plural:
-      text: "Ghosts"
-  ghostChild:
-    single:
-      text: "Ghost Child"
-    plural:
-      text: "Ghost Children"
-  ghostDoggo:
-    single:
-      text: "Ghost Doggo"
-    plural:
-      text: "Ghost Doggos"
-  ghostDoofyDoggo:
-    single:
-      text: "Ghost Doofy Doggo"
-    plural:
-      text: "Ghost Doofy Doggos"
-  ghostCatjeet:
-    single:
-      text: "Ghost Catjeet"
-    plural:
-      text: "Catjeet Ghosts"
-  ghostCatjeetChild:
-    single:
-      text: "Ghost Catjeet Child"
-    plural:
-      text: "Ghost Catjeet Children"
   fireElemental:
     single:
       text: "Fire Elemental"
@@ -7775,56 +9160,6 @@ mobName:
       text: "Child Specter"
     plural:
       text: "Child Specters"
-  nomadElder:
-    single:
-      text: "Nomad Elder"
-    plural:
-      text: "Nomad Elders"
-  nomad:
-    single:
-      text: "Nomad"
-    plural:
-      text: "Nomads"
-  departingMigrant:
-    single:
-      text: "Departing Migrant"
-    plural:
-      text: "Departing Migrants"
-  arrivingMigrant:
-    single:
-      text: "Arriving Migrant"
-    plural:
-      text: "Arriving Migrants"
-  nomadChild:
-    single:
-      text: "Nomad Child"
-    plural:
-      text: "Nomad Children"
-  catjeetNomadElder:
-    single:
-      text: "Catjeet Nomad Elder"
-    plural:
-      text: "Catjeet Nomad Elders"
-  catjeetNomad:
-    single:
-      text: "Catjeet Nomad"
-    plural:
-      text: "Catjeet Nomads"
-  departingCatjeetMigrant:
-    single:
-      text: "Departing Catjeet Migrant"
-    plural:
-      text: "Departing Catjeet Migrants"
-  arrivingCatjeetMigrant:
-    single:
-      text: "Arriving Catjeet Migrant"
-    plural:
-      text: "Arriving Catjeet Migrants"
-  catjeetNomadChild:
-    single:
-      text: "Catjeet Nomad Child"
-    plural:
-      text: "Catjeet Nomad Children"
   doggo:
     single:
       text: "Doggo"
@@ -7845,6 +9180,16 @@ mobName:
       text: "Wild Doofy Doggo"
     plural:
       text: "Wild Doofy Doggos"
+  ghostDoggo:
+    single:
+      text: "Ghost Doggo"
+    plural:
+      text: "Ghost Doggos"
+  ghostDoofyDoggo:
+    single:
+      text: "Ghost Doofy Doggo"
+    plural:
+      text: "Ghost Doofy Doggos"
   beefalo:
     single:
       text: "Beefalo"
@@ -9691,14 +11036,16 @@ object:
       name:
         text: "Fire Pit"
       description:
-        text: "Just a basic light source. Will also increase your build range a bit! Monsters won't attack it, so feel free to build it into your walls."
-    
+        text: "Just a basic light source. Will also increase your build range a bit! Monsters won't attack it unless there's no other way inside the village, so feel free to build it into your walls."
+        revision: "1"
+        
     largeFirePit:
       name:
         text: "Large Fire Pit"
       description:
-        text: "Just a basic light source, but slightly bigger! Will also increase your build range a bit! Monsters won't attack it, so feel free to build it into your walls."
-    
+        text: "Just a basic light source, but slightly bigger! Will also increase your build range a bit! Monsters won't attack it unless there's no other way inside the village, so feel free to build it into your walls."
+        revision: "1"
+        
     fishingHut:
       makeshift:
         name:
@@ -9759,6 +11106,13 @@ object:
           text: "Established Forge"
         description:
           text: "Increases global speed bonus to all ore smelting, increases maximum storage and gives the village additional smelter job slots."
+
+    godTower:
+      base:
+        name:
+          text: "God Tower"
+        description:
+          text: "A magical bow tower that has unlimited ammo, but costs a portion of your influence to maintain. Use the Dispel God Structure spell to remove it."
     
     goldStorage:
       small:
@@ -9921,22 +11275,22 @@ object:
       name:
         text: "Corrupted Graveyard"
       description:
-        text: "A corrupted building created in the depths of corrupted land. Increases monster spawn rates inside the corruption."
-        revision: "1"
+        text: "A corrupted building created in the depths of corrupted land. Increases how much land the corruption desires."
+        revision: "2"
     
     corruptedGraveyardMedium:
       name:
         text: "Corrupted Graveyard"
       description:
-        text: "A corrupted building created in the depths of corrupted land. Increases monster spawn rates inside the corruption."
-        revision: "1"
+        text: "A corrupted building created in the depths of corrupted land. Increases how much land the corruption desires."
+        revision: "2"
     
     corruptedGraveyardLarge:
       name:
         text: "Corrupted Graveyard"
       description:
-        text: "A corrupted building created in the depths of corrupted land. Increases monster spawn rates inside the corruption."
-        revision: "1"
+        text: "A corrupted building created in the depths of corrupted land. Increases how much land the corruption desires."
+        revision: "2"
     
     corruptedFireBowTower:
       name:
@@ -10668,7 +12022,19 @@ object:
           text: "Reinforced Wood Storage"
         description:
           text: "Increases the amount of logs, boards and other wood based materials the building can store to maximum."
+          
+    crylithiumWallGateNS:
+      name:
+        text: "Crylithium Wall Gate"
+      description:
+        text: "A simple crylithium gate your villagers can use, but monsters cannot. Also can not be crossed by specters."
     
+    crylithiumWallGateWE:
+      name:
+        text: "Crylithium Wall Gate"
+      description:
+        text: "A simple crylithium gate your villagers can use, but monsters cannot. Also can not be crossed by specters."
+            
     woodFenceGateNS:
       name:
         text: "Wood Fence Gate"
@@ -10694,26 +12060,41 @@ object:
         text: "A simple stone gate your villagers can use, but monsters cannot."
   
   wall:
+    crylithiumCurtainWall:
+      name:
+        text: "Crylithium Curtain Wall"
+      description:
+        text: "A huge wall that's hard to get through, or shoot over. Blocks specters from passing through it! Only the ballista can shoot over this wall."
+    crylithiumWall:
+      name:
+        text: "Crylithium Wall"
+      description:
+        text: "A strong wall, can be shot over by most towers and ranged attacks. Blocks specters from passing through it! Monsters will only attack them if they can not find a reasonable way into the village."
     curtainWall:
       name:
         text: "Curtain Wall"
       description:
-        text: "A huge wall that's hard to get through, or shoot over. Only the ballista tower can shoot over this wall."
+        text: "A huge wall that's hard to get through, or shoot over. Only the ballista can shoot over this wall."
+    godWall:
+      name:
+        text: "God Wall"
+      description:
+        text: "A magical wall that blocks anything from passing it, but costs a portion of your influence to maintain. Use the Dispel God Structure spell to remove it."
     stoneWall:
       name:
         text: "Stone Wall"
       description:
-        text: "A strong wall, can be shot over by most towers and ranged attacks. Monsters will only attack them if they can not find another reasonable way into the village."
+        text: "A strong wall, can be shot over by most towers and ranged attacks. Monsters will only attack them if they can not find a reasonable way into the village."
     woodFence:
       name:
         text: "Wood Fence"
       description:
-        text: "A basic fence to help reroute incoming enemies, can be shot over by most towers and ranged attacks. Monsters will only attack them if they can not find another reasonable way into the village."
+        text: "A basic fence to help reroute incoming enemies, can be shot over by most towers and ranged attacks. Monsters will only attack them if they can not find a reasonable way into the village."
     trashyCubeWall:
       name:
         text: "Trashy Cube Wall"
       description:
-        text: "A trashy wall that can only be constructed by Cube-E golems. Can be shot over by most towers and ranged attacks. Monsters will only attack them if they can not find another reasonable way into the village."
+        text: "A trashy wall that can only be constructed by Cube-E golems. Can be shot over by most towers and ranged attacks. Monsters will only attack them if they can not find a reasonable way into the village."
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Resource Module
@@ -10846,6 +12227,14 @@ resource:
     description:
       text: "Money! Use it to buy things in the marketplace."
 
+  godDust:
+    single:
+      text: "God Dust"
+    plural:
+      text: "God Dust"
+    description:
+      text: "Leftover useless material from a god structure being destroyed."
+      
   crystallyTrash:
     single:
       text: "Crystally Trash"
@@ -10900,7 +12289,7 @@ resource:
     plural:
       text: "Ballistae Bolts"
     description:
-      text: "Bundled bolts for use in various towers, like the bow and ballisa tower."
+      text: "Bundled bolts for use in various towers, like the bow and ballista tower."
 
   stoneBalls:
     single:
