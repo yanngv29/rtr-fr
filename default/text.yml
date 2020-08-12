@@ -7245,6 +7245,12 @@ sharedSettingsPanel:
       text: "Pause Object"
     dismantleObject:
       text: "Dismantle Object"
+    upgrade:
+      text: "Upgrade/Start Upgrade 1"
+    startUpgrade2:
+      text: "Start Upgrade 2"
+    startUpgrade3:
+      text: "Start Upgrade 3"
     grabSpell:
       text: "Grab Spell"
     activeSpell1:
@@ -8488,7 +8494,7 @@ spell:
     name:
       text: "Mend"
     description:
-      text: "Steadily repairs golems, buldings and walls in a small area for a short period of time."
+      text: "Steadily repairs golems, buildings and walls in a small area for a short period of time."
       revision: "1"
   meteor:
     name:
@@ -8604,17 +8610,17 @@ tileSet:
       name:
         text: "Trees"
       description:
-        text: "Provides wood for the village, harvest and stockpile of them by building a lumber shack. Builders can also harvest them as needed for bulding construction."
+        text: "Provides wood for the village, harvest and stockpile of them by building a lumber shack. Builders can also harvest them as needed for building construction."
     deadTrees:
       name:
         text: "Dead Trees"
       description:
-        text: "Provides a small amount of wood for the village, harvest and stockpile of them by building a lumber shack. Builders can also harvest them as needed for bulding construction. Will eventually come back to life if left alone."
+        text: "Provides a small amount of wood for the village, harvest and stockpile of them by building a lumber shack. Builders can also harvest them as needed for building construction. Will eventually come back to life if left alone."
     rock:
       name:
         text: "Rock"
       description:
-        text: "Provides rock for the village, mine and stockpile them by building a mining facility. Builders can also mine them as needed for bulding construction."
+        text: "Provides rock for the village, mine and stockpile them by building a mining facility. Builders can also mine them as needed for building construction."
     rockCollected:
       name:
         text: "Rock Rubble"
@@ -8624,7 +8630,7 @@ tileSet:
       name:
         text: "Sandstone"
       description:
-        text: "Provides rock for the village, mine and stockpile them by building a mining facility. Builders can also mine them as needed for bulding construction."
+        text: "Provides rock for the village, mine and stockpile them by building a mining facility. Builders can also mine them as needed for building construction."
     sandstoneCollected:
       name:
         text: "Sandstone Rubble"
@@ -8634,7 +8640,7 @@ tileSet:
       name:
         text: "Crystals"
       description:
-        text: "Provides crystals for the village, dig up and stockpile of them by building a crystal harvestry. Builders can also dig them up as needed for bulding construction."
+        text: "Provides crystals for the village, dig up and stockpile of them by building a crystal harvestry. Builders can also dig them up as needed for building construction."
     crystalsCollected:
       name:
         text: "Harvested Crystals"
@@ -9513,6 +9519,8 @@ damageCauseName:
     text: "Child Birth"
   beingSlaughtered:
     text: "Being Slaughtered"
+  corruption:
+    text: "Corruption"
     
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Mob AI

@@ -353,7 +353,7 @@ perkType:
   fertility:
     text: "Fertilité"
   ghostAppearanceChance:
-    text: "Chance d'apparaître en fantôme"
+    text: "Chance d'apparition de villageois fantômes"
   villagerColdResistance:
     text: "Résistance au froid des villageois"
   villagerHeatResistance:
@@ -413,9 +413,9 @@ perkType:
   crystalGolemChargeTime:
     text: "Temps de chargement des golems de cristal"
   buildingSlots:
-    text: "capacité de construction"
+    text: "Capacité de construction"
   ancillarySlots:
-    text: "capacité de construction d'entrepôt"
+    text: "Capacité de construction d'entrepôt"
   marketRestockAmount:
     text: "Montant de réapprovisionnement du marché"
   marketCatjeetCapacity:
@@ -1607,7 +1607,7 @@ console:
           text: "vient d'être engagé !"
       grownUp:
         subtitle:
-          text: "vient de grandir !"
+          text: "est devenu un adulte !"
       elder:
         subtitle:
           text: "est devenu un doyen !"
@@ -6011,6 +6011,12 @@ sharedSettingsPanel:
       text: "Mettre un objet en pause"
     dismantleObject:
       text: "Démanteler un objet"
+    upgrade:
+      text: "Lancer l'amélioration 1"
+    startUpgrade2:
+      text: "Lancer l'amélioration 2"
+    startUpgrade3:
+      text: "Lancer l'amélioration 3"
     grabSpell:
       text: "Attraper"
     activeSpell1:
@@ -7213,9 +7219,9 @@ spell:
       text: "Fait jaillir des patates magiques du sol, très pratique si vous venez de manquer de nourriture ou si vous voulez créer une nouvelle zone de récolte ailleurs dans le village!"
   holyWood:
     name:
-      text: "bois magiques"
+      text: "Bois magique"
     description:
-      text: "Fait jaillir des arbres du sol, très pratique si vous venez de manquer de bois ou si vous voulez créer une nouvelle zone de récolte ailleurs dans le village!"
+      text: "Fait jaillir des arbres du sol, très pratique si vous venez à manquer de bois ou si vous voulez créer une nouvelle zone de récolte ailleurs dans le village!"
   motivateLand:
     name:
       text: "Motiver les terres"
@@ -7265,7 +7271,7 @@ spell:
     name:
       text: "Invoquer des matériaux"
     description:
-      text: "fait apparaitre des matériaux à partir de l'air, généralement similaire à la topographie qui l'entoure."
+      text: "Fait apparaitre des matériaux, généralement similaire à la topographie qui l'entoure."
       revision: "1"
   mend:
     name:
@@ -8297,6 +8303,9 @@ damageCauseName:
     text: "Accouchement"
   beingSlaughtered:
     text: "Se fait abattre"
+  corruption:
+    text: "Corruption"
+    forceCount: "true"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Mob AI
