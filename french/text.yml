@@ -9439,7 +9439,7 @@ object:
         name:
           text: "Tour bannisseuse de fortune"
         description:
-          text: "Une tour à faible portée et à faible cadence qui va trouver les ennemis proches et les bannire à un endroit aléatoire sur la carte"
+          text: "Une tour à faible portée et à faible cadence qui va trouver les ennemis proches et les bannir à un endroit aléatoire sur la carte"
       base:
         name:
           text: "Tour bannisseuse"
