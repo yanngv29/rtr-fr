@@ -164,6 +164,12 @@ godXP:
     text: "Chasse"
   slaughteringAnimals:
     text: "Abat des animaux"
+  praying:
+    text: "Prie"
+  capturingSouls:
+    text: "Capture d'âmes"
+  terminatingAnimalPregnancies:
+    text: "Arrêt de gestation animale"
 
   # God Intervention
   castingSpells:
@@ -332,6 +338,10 @@ perkType:
     text: "Soif maximale"
   thirstDecayRate:
     text: "Taux de diminution de la soif"
+  maximumFaith:
+    text: "Foi maximale"
+  faithDecayRate:
+    text: "Taux de diminution de la foi"
   maximumEnergy:
     text: "Énergie maximale"
   energyDecayRate:
@@ -690,750 +700,1249 @@ perk:
 
   farellesConstitution:
     text: "Constitution de Farelle"
+    optional: "true"
   kevorkianBloom:
     text: "Floraison de Kevorkian"
+    optional: "true"
   stensForm:
     text: "Forme de Sten"
+    optional: "true"
   hardinessofMergen:
     text: "Robustesse de Mergen"
+    optional: "true"
   vitalityofFecht:
     text: "Vitalité de Fecht"
+    optional: "true"
   shohunsRecovery:
     text: "Régénération de Shohun"
+    optional: "true"
   kanesathsResumption:
     text: "Reprise de Kanesath"
+    optional: "true"
   sulansRehabilitation:
     text: "Rehabilitation de Sulan"
+    optional: "true"
   lunnithunsReformation:
     text: "Réforme de Lunnithun"
+    optional: "true"
   sythumsRestoration:
     text: "Restauration de Sythum"
+    optional: "true"
   cravingsofJokur:
     text: "Fringales de Jokur"
+    optional: "true"
   karachosLonging:
     text: "Désir de Karacho"
+    optional: "true"
   namsansGluttony:
     text: "Gourmandise de Namsan"
+    optional: "true"
   dixonpuffsCraving:
     text: "Fringale de Dixonpuff"
+    optional: "true"
   riyasAppetite:
     text: "Appétit de Riya"
+    optional: "true"
   sagewingsGill:
     text: "Branchie de Sagewing"
+    optional: "true"
   stonestandsGlut:
     text: "Excès de Stonestand"
+    optional: "true"
   brisksongsWholeness:
     text: "Intégrité de Brisksong"
+    optional: "true"
   ositansPlenty:
     text: "Abondance d'Ositan"
+    optional: "true"
   mullarmsAmpleness:
     text: "Oppulence de Mullarm"
+    optional: "true"
   alamarsThirst:
     text: "Soif d'Alamar"
+    optional: "true"
   tearsofRaevyr:
     text: "Larmes de Raevyr"
+    optional: "true"
   jaycesonsSucculences:
     text: "Succulences de Jayceson"
+    optional: "true"
   napthasSplashing:
     text: "Éclaboussures de Naptha"
+    optional: "true"
   dobmmonsWetness:
     text: "Humidité de Dobmmons"
+    optional: "true"
   gavtarlsSurplus:
     text: "Excédent de Gavtarl"
+    optional: "true"
   thranuraksSaliva:
     text: "Salive de Thranurak"
+    optional: "true"
   gerardsLibation:
     text: "Libation de Gerard"
+    optional: "true"
   beasantsPreservative:
     text: "Conservateur de Beasant"
+    optional: "true"
   burtonsBroth:
     text: "Brouillon de Burton"
+    optional: "true"
   enduranceofXandal:
     text: "Endurance de Xandal"
+    optional: "true"
   ilirithsActivity:
     text: "Activité d'Ilirith"
+    optional: "true"
   shiraRestlessness:
     text: "Nervosité de Shira"
+    optional: "true"
   dashofFabian:
     text: "Esquive de Fabian"
+    optional: "true"
   namerusExertion:
     text: "Effort de Nameru"
+    optional: "true"
   dittmarsLiveliness:
     text: "Vivacité de Dittmar"
+    optional: "true"
   ridleysEnterprise:
     text: "Entreprise de Ridley"
+    optional: "true"
   anselsEnergy:
     text: "Énergie d'Ansel"
+    optional: "true"
   appletonsFlurry:
     text: "Tourbillon d'Appleton"
+    optional: "true"
   andreasAlertness:
     text: "Vigilance d'Andrea"
+    optional: "true"
   sinestrasIntellect:
     text: "Intellect de Sinestra"
+    optional: "true"
   cordialofHansard:
     text: "Courtoisie de Hansard"
+    optional: "true"
   narsFriendliness:
     text: "Convivialité de Nar"
+    optional: "true"
   morladsSociablility:
     text: "Sociabilité de Morlad"
+    optional: "true"
   tiberiumkylesWisdom:
     text: "Sagesse de Tiberiumkyle"
+    optional: "true"
   musisLilly:
     text: "Lys de Musi"
+    optional: "true"
   hachimasLifeblood:
     text: "Âme de Hachima"
+    optional: "true"
   dundarsDetermination:
     text: "Détermination Dundar"
+    optional: "true"
   soteriasGift:
     text: "Cadeau de Soteria"
+    optional: "true"
   dudasMortality:
     text: "Mortalité de Duda"
+    optional: "true"
   speedofTheOterions:
     text: "Vitesse de The Oterions"
+    optional: "true"
   hasteofGriseus:
     text: "Efficacité de Griseus"
+    optional: "true"
   nonimadsVelocity:
     text: "Vélocité de Nonimad"
+    optional: "true"
   enicarsAgility:
     text: "Agilité d'Enicar"
+    optional: "true"
   owensPace:
     text: "Allure d'Owen"
+    optional: "true"
   lillysProtection:
     text: "Protection de Lilly"
+    optional: "true"
   giosToughness:
     text: "Robustesse de Gio"
+    optional: "true"
   skinofPriamus:
     text: "Peau de Priamus"
+    optional: "true"
   rivaresWard:
     text: "Quartier de Rivare"
+    optional: "true"
   mushusBarrier:
     text: "Barrière de Mushu"
+    optional: "true"
   bargsSkirmish:
     text: "Escarmouche de Barg"
+    optional: "true"
   filiconsStrike:
     text: "Coup de Filicon"
+    optional: "true"
   samansAggression:
     text: "Aggressivité de Saman"
+    optional: "true"
   shansealaRage:
     text: "Rage de Shanseala"
+    optional: "true"
   magmelsFall:
     text: "Chute de Magmel"
+    optional: "true"
   darlonsDispatch:
     text: "Envoi de Darlon"
+    optional: "true"
   exonsStrike:
     text: "Coup d'Exon"
+    optional: "true"
   skalvernsCharge:
     text: "Charge de Skalvern"
+    optional: "true"
   norominsWrath:
     text: "Colère de Noromin"
+    optional: "true"
   flamesofBivattus:
     text: "Flames de Bivattus"
+    optional: "true"
   daggarothsLift:
     text: "Soulèvement de Daggaroth"
+    optional: "true"
   ginjasArms:
     text: "Bras de Ginja"
+    optional: "true"
   zerosGravitas:
     text: "Gravité de Zero"
+    optional: "true"
   bibikisStamina:
     text: "Endurance de Bibiki"
+    optional: "true"
   clerothsLustiness:
     text: "Vigueur de Cleroth"
+    optional: "true"
   embraceofSpritus:
     text: "Étreinte de Spritus"
+    optional: "true"
   snobosSatisfaction:
     text: "Satisfaction de Snobo"
+    optional: "true"
   rainsFlower:
     text: "Fleur de Rain"
+    optional: "true"
   eldsResourcefulness:
     text: "Ingéniosité d'Eld"
+    optional: "true"
   ciphersCataloguing:
     text: "Catalogage de Cipher"
+    optional: "true"
   svarogsArrangement:
     text: "Arrangement de Svarog"
+    optional: "true"
   voxsStacking:
     text: "Empilement de Vox"
+    optional: "true"
   serakersArranging:
     text: "Organisation de Seraker"
+    optional: "true"
   vargsHabitation:
     text: "Demeure de Varg"
+    optional: "true"
   shelterofCingularis:
     text: "Abris de Cingularis"
+    optional: "true"
   koshkasQuarterage:
     text: "Quartiers de Koshka"
+    optional: "true"
   xentiransHospitality:
     text: "Hospitalité de Xentiran"
+    optional: "true"
   alendrusAccomodations:
     text: "Accomodations d'Alendru"
+    optional: "true"
   fusrohsIntensity:
     text: "Intensité de Fusroh"
+    optional: "true"
   powerofCeris:
     text: "Pouvoir de Ceris"
+    optional: "true"
   handinessofZacharias:
     text: "Maniabilité de Zacharias"
+    optional: "true"
   aarkisEfficaciousness:
     text: "Efficacité d'Aarki"
+    optional: "true"
   torlightUsefulness:
     text: "Utilité de Torlight"
+    optional: "true"
   leonhardsProliferation:
     text: "Prolifération de Leonhard"
+    optional: "true"
   brutaniansSprouting:
     text: "Bourgeonnement de Brutanian"
+    optional: "true"
   growthoftheEverbloom:
     text: "Croissance de l'Everbloom"
+    optional: "true"
   lorrainesGrace:
     text: "Grâce de Lorraine"
+    optional: "true"
   tranyasProduce:
     text: "Confection de Tranya"
+    optional: "true"
   eulersAlacrity:
     text: "Empressement d'Euler"
+    optional: "true"
   bormacsHeadway:
     text: "Progrès de Bormac"
+    optional: "true"
   wrismokesHustle:
     text: "Tumulte de Wrismoke"
+    optional: "true"
   raphimasBreeze:
     text: "Brise de Raphima"
+    optional: "true"
   shrogersBriskness:
     text: "Vivacité de Shroger"
+    optional: "true"
   rivarynsZeal:
     text: "Ardeur de Rivaryn"
+    optional: "true"
   borasRush:
     text: "Hâte de Bora"
+    optional: "true"
   returnofSilentis:
     text: "Retour de Silentis"
+    optional: "true"
   ellongsYield:
     text: "Rendement d'Ellong"
+    optional: "true"
   reyekorasReaping:
     text: "Récolte Reyekora"
+    optional: "true"
   shogunsPassion:
     text: "Passion de Shogun"
+    optional: "true"
   blacksIntensity:
     text: "Intensité de Black"
+    optional: "true"
   solairesForging:
     text: "Forge de Solaire"
+    optional: "true"
   raindonsMolding:
     text: "Moulage de Raindon"
+    optional: "true"
   webbshinesTooling:
     text: "Outillage de Webbshine"
+    optional: "true"
   ariannasEagerness:
     text: "Enthousiasme d'Arianna"
+    optional: "true"
   wuggysErection:
     text: "Érection de Wuggy"
+    optional: "true"
   xaerysArchitecture:
     text: "Architecture Xaerys"
+    optional: "true"
   visersterSkill:
     text: "Talent Viserster"
+    optional: "true"
   stewarbowCraftsmanship:
     text: "Savoir-faire Stewarbow"
+    optional: "true"
   lascerandisFabrication:
     text: "Fabrication de Lascerandi"
+    optional: "true"
   shapingofSayres:
     text: "Façonnage de Sayres"
+    optional: "true"
   thollsJoining:
     text: "Liant de Tholl"
+    optional: "true"
   lollikersEngineering:
     text: "Ingénierie de Lolliker"
+    optional: "true"
   caclopsApex:
     text: "Apex de Caclop"
+    optional: "true"
   lyteniansDismembering:
     text: "Démembrement de Lytenian"
+    optional: "true"
   araxielsWrack:
     text: "Piste d'Araxiel"
+    optional: "true"
   dobgibsonsRuin:
     text: "Ruine de Dobgibson"
+    optional: "true"
   hawksSwiftness:
     text: "Rapidité de Hawk"
+    optional: "true"
   jamellsMania:
     text: "Manie de Jamell"
+    optional: "true"
   amaraesUrgency:
     text: "Urgence d'Amarae"
+    optional: "true"
   anonlolisExpanse:
     text: "Étendue d'Anonloli"
+    optional: "true"
   levelingofDracoreyes:
     text: "Nivellement de Dracoreyes"
+    optional: "true"
   glittersmisHeadroom:
     text: "Hauteur de Glittersmi"
+    optional: "true"
   tuxiaClearcutting:
     text: "Coupe rase de Tuxia"
+    optional: "true"
   aeonsPatching:
     text: "Correctif d'Aeon"
+    optional: "true"
   andreisReconstruction:
     text: "Reconstruction d'Andrei"
+    optional: "true"
   jimelightsReformation:
     text: "Restructuration de Jimelight"
+    optional: "true"
   wookorasMending:
     text: "Raccommodage de Wookora"
+    optional: "true"
   silvergarsOverhaul:
     text: "Réorganisation de Silvergar"
+    optional: "true"
   fuguesRectification:
     text: "Rectification de Fugue"
+    optional: "true"
   anastrianasGrind:
     text: "Corvée d'Anastriana"
+    optional: "true"
   droghoffmansService:
     text: "Service de Droghoffman"
+    optional: "true"
   spiritofValiya:
     text: "Esprit de Valiya"
+    optional: "true"
   thollsReform:
     text: "Réforme de Tholl"
+    optional: "true"
   kiplingsHoeing:
     text: "Binage de Kipling"
+    optional: "true"
   alvinsAgriculture:
     text: "Agriculture de Alvin"
+    optional: "true"
   woogsCultivation:
     text: "Cultures de Woog"
+    optional: "true"
   tranyasAgronomy:
     text: "Agronomie de Tranya"
+    optional: "true"
   rhaelmartinsSeeding:
     text: "Semailles de Rhaelmartin"
+    optional: "true"
   leviathansCuring:
     text: "Mûrissement de Leviathan"
+    optional: "true"
   alathasInvigoration:
     text: "Revigoration d'Alatha"
+    optional: "true"
   cralightsPlacebo:
     text: "Placebo de Cralight"
+    optional: "true"
   bakerolasRecovery:
     text: "Rétablissement de Bakerola"
+    optional: "true"
   millsellsReparation:
     text: "Réparation de Millsell"
+    optional: "true"
   sagarsBottle:
     text: "Bouteille de Sagar"
+    optional: "true"
   destonsCanteen:
     text: "Cantine de Deston"
+    optional: "true"
   ronjasCapsule:
     text: "Capsule de Ronja"
+    optional: "true"
   venettasTank:
     text: "Tank de Venetta"
+    optional: "true"
   damiasTub:
     text: "Cuve de Damia"
+    optional: "true"
   oliviasDevelopment:
     text: "Développement d'Olivia"
+    optional: "true"
   rivasEscalation:
     text: "Escalade de Riva"
+    optional: "true"
   alyshasUpgrade:
     text: "Amélioration d'Alysha"
+    optional: "true"
   yseultsInflation:
     text: "Inflation d'Yseult"
+    optional: "true"
   tyndallsExaggeration:
     text: "Exagération de Tyndall"
+    optional: "true"
   tiffaniesSpread:
     text: "Propagation de Tiffanie"
+    optional: "true"
   shelleysUpsurge:
     text: "Recrudescence de Shelley"
+    optional: "true"
   lickashsOptimization:
     text: "Optimisation de Lickash"
+    optional: "true"
   krunluksFlow:
     text: "Courant de Krunluk"
+    optional: "true"
   glithasStimulation:
     text: "Stimulation de Glitha"
+    optional: "true"
   bellowflowsInvigoration:
     text: "Fortification de Bellowflow"
+    optional: "true"
   finespansBoost:
     text: "Élan de Finespan"
+    optional: "true"
   wigglespellsAccrual:
     text: "Provisions de Wigglespell"
+    optional: "true"
   bunameenksWaxing:
     text: "Cirage de Bunameenk"
+    optional: "true"
   ublathozzsBuild-up:
     text: "Amas de Ublathozz"
+    optional: "true"
   thylinklazsAddition:
     text: "Addition de Thylinklaz"
+    optional: "true"
   klerosNumbers:
     text: "Nombres de Klero"
+    optional: "true"
   noldicksAmassing:
     text: "Amassement Noldick"
+    optional: "true"
   fabiansInfusion:
     text: "Infusion de Fabian"
+    optional: "true"
   bemarinsBuild:
     text: "Construction de Bemarin"
+    optional: "true"
   inemeonsEnergizing:
     text: "Stimulant d'Inemeon"
+    optional: "true"
   jovimaviasAccumulation:
     text: "Accumulation de Jovimavia"
+    optional: "true"
   zanliasGain:
     text: "Gain de Zanlia"
+    optional: "true"
   hodisAugmentation:
     text: "Augmentation de Hodi"
+    optional: "true"
   balthisEnlargement:
     text: "Élargissement de Balthi"
+    optional: "true"
   jeremiahsEnflanginator:
     text: "Enflanginateur de Jeremiah" # mmmh... Enflanginator?
+    optional: "true"
   drengundsExtension:
     text: "Extension de Drengund"
+    optional: "true"
   bhuldemsSupplements:
     text: "Suppléments de Bhuldem"
+    optional: "true"
   egusSurge:
     text: "Déferlement d'Egu"
+    optional: "true"
   uglasCharge:
     text: "Charge d'Ugla"
+    optional: "true"
   omarsExciter:
     text: "Excitateur d'Omar"
+    optional: "true"
   rowansVitalization:
     text: "Revitalisation de Rowan"
+    optional: "true"
   ramseysAccumulation:
     text: "Accumulation de Ramsey"
+    optional: "true"
   patstricksAllurement:
     text: "Attrait de Patstrick"
+    optional: "true"
   divinationofAidos:
     text: "Divination d'Aidos"
+    optional: "true"
   aronsAscension:
     text: "Ascension d'Aron"
+    optional: "true"
   hughsGambit:
     text: "Gambit de Hugh"
+    optional: "true"
   vigorofAngerris:
     text: "Vigueur d'Angerris"
+    optional: "true"
   braktarsRighteousness:
     text: "Justesse de Braktar"
+    optional: "true"
   glendaysInflation:
     text: "Inflation de Glenday"
+    optional: "true"
   serarosAccession:
     text: "Avènement de Seraro"
+    optional: "true"
   additionsofAngerris:
     text: "Additions de Angerris"
+    optional: "true"
   agerrasBuildup:
     text: "Tas d'Agerra"
+    optional: "true"
   pixrtonsGains:
     text: "Profits de Pixrton"
+    optional: "true"
   bloomsGlorification:
     text: "Glorification de Bloom"
+    optional: "true"
   acurasAccumulation:
     text: "Entassement d'Acura"
+    optional: "true"
   galmisExpansion:
     text: "Expansion de Galmi"
+    optional: "true"
   lolliwoodsSurge:
     text: "Afflux de Lolliwood"
+    optional: "true"
   drogverasUpgrade:
     text: "Amélioration de Drogvera"
+    optional: "true"
   solairesAugmentation:
     text: "Augmentation de Solaire"
+    optional: "true"
   wendusContinuance:
     text: "Maintien de Wendu"
+    optional: "true"
   raindonsPerpetuation:
     text: "Perpétuation de Raindon"
+    optional: "true"
   gibsonshinesStretch:
     text: "Étirement de Gibsonshine"
+    optional: "true"
   redsPerpetuation:
     text: "Préservation de Red"
+    optional: "true"
   belindasRadius:
     text: "Rayon de Belinda"
+    optional: "true"
   jaedensBringing:
     text: "Apport de Jaeden"
+    optional: "true"
   redfieldsDraw:
     text: "Tirage de Redfield"
+    optional: "true"
   jeremiasReload:
     text: "Rechargement de Jeremia"
+    optional: "true"
   reubensAcceleration:
     text: "Accélération de Reuben"
+    optional: "true"
   clarksMomentum:
     text: "Moment de Clark"
+    optional: "true"
   cristobalsRenewal:
     text: "Renouvellement de Cristobal"
+    optional: "true"
   goransPace:
     text: "Rythme de Goran"
+    optional: "true"
   marcosRubio:
     text: "Rubio de Marco"
+    optional: "true"
   godfreysExpenditure:
     text: "Dépenses de Godfrey"
+    optional: "true"
   rutlandsConsumption:
     text: "Consommation de Rutland"
+    optional: "true"
   edgesAssimilation:
     text: "Assimilation d'Edge"
+    optional: "true"
   fleurettesRetention:
     text: "Rétention de Fleurette"
+    optional: "true"
   lizettesVision:
     text: "Vision de Lizette"
+    optional: "true"
   belindasField:
     text: "Champ de Belinda"
+    optional: "true"
   astleysTerritory:
     text: "Territoire d'Astley"
+    optional: "true"
   hametsRestock:
     text: "Réapprovisionnement de Hamet"
+    optional: "true"
   knotleysFleetness:
     text: "Vitesse de Knotley"
+    optional: "true"
   xixsExpeditiousness:
     text: "Rapidité de Xix"
+    optional: "true"
   xandersSwiftness:
     text: "Célérité de Xander"
+    optional: "true"
   farksRush:
     text: "Précipîtation de Fark"
+    optional: "true"
   malinsInvestment:
     text: "Investissement de Malin"
+    optional: "true"
   marianesUtilization:
     text: "Utilisation de Mariane"
+    optional: "true"
   angelettasFusion:
     text: "Fusion d'Angeletta"
+    optional: "true"
   lillynsAdaptability:
     text: "Adaptabilité de Lillyn"
+    optional: "true"
   glowvalesQuantity:
     text: "Quantité de Glowvale"
+    optional: "true"
   lynnesRange:
     text: "Portée de Lynne"
+    optional: "true"
   kowalskisScope:
     text: "Cadre de Kowalski"
+    optional: "true"
   hannahsLength:
     text: "Longueur de Hannah"
+    optional: "true"
   jakesReplacing:
     text: "Remplaçant de Jake"
+    optional: "true"
   daxtersPromptitude:
     text: "Promptitude de Daxter"
+    optional: "true"
   kamilsAlacrity:
     text: "Empressement de Kamil"
+    optional: "true"
   horseysHustle:
     text: "Tumulte de Horsey"
+    optional: "true"
   huntersUrgency:
     text: "Urgence de Hunter"
+    optional: "true"
   foxsLimits:
     text: "Limites de Fox"
+    optional: "true"
   gwenaelsDomain:
     text: "Domaine de Gwenael"
+    optional: "true"
   albertonsSwing:
     text: "Balancement d'Alberton"
+    optional: "true"
   sporksReplenishment:
     text: "Reconstitution de Spork"
+    optional: "true"
   benjaminsScale:
     text: "Échelle de Benjamin"
+    optional: "true"
   costellosProgression:
     text: "Progression de Costello"
+    optional: "true"
   stephaniesInsistence:
     text: "Insistance de Stephanie"
+    optional: "true"
   lonnebroodsExigency:
     text: "Exigence de Lonnebrood"
+    optional: "true"
   albertsSpan:
     text: "Période d'Albert"
+    optional: "true"
   johnsonsWidth:
     text: "Largeur de Johnson"
+    optional: "true"
   poindextersBreadth:
     text: "Ampleur de Poindexter"
+    optional: "true"
   belsamethsProficiency:
     text: "Compétence de Belsameth"
+    optional: "true"
   jadesDestruction:
     text: "Destruction de Jade"
+    optional: "true"
   nedrasProductivity:
     text: "Productivité de Nedra"
+    optional: "true"
   sengoretsAbundance:
     text: "Abondance de Sengoret"
+    optional: "true"
   elesiasAmplitude:
     text: "Amplitude d'Elesia"
+    optional: "true"
   loransFarness:
     text: "Éloignement de Loran"
+    optional: "true"
   stephensHorizon:
     text: "Horizon de Stephen"
+    optional: "true"
   rydwaltsSweep:
     text: "Balayage de Rydwalt"
+    optional: "true"
   gregorsProgression:
     text: "Évolution de Gregor"
+    optional: "true"
   rowsdowersDivvy:
     text: "Plongeon de Rowsdower"
+    optional: "true"
   maximiliansTempo:
     text: "Tempo de Maximilian"
+    optional: "true"
   guybrushsPace:
     text: "Allure de Guybrush"
+    optional: "true"
   mcAllistersSkills:
     text: "Aptitudes de McAllister"
+    optional: "true"
   threepwoodsFaculty:
     text: "Faculté de Threepwood"
+    optional: "true"
   ajarnsStandard:
     text: "Standard d'Ajarn"
+    optional: "true"
   chartsScale:
     text: "Ampleur de Chart"
+    optional: "true"
   martinsOvercharge:
     text: "Surcharge de Martin"
+    optional: "true"
   nathansPotential:
     text: "Potentiel de Nathan"
+    optional: "true"
   marcsMuscle:
     text: "Muscle de Marc"
+    optional: "true"
   camillesPush:
     text: "Poussée de Camille"
+    optional: "true"
   vichetsRange:
     text: "Étendue de Vichet"
+    optional: "true"
   alexandersQuota:
     text: "Quota d'Alexander"
+    optional: "true"
   qinsApportionment:
     text: "Répartition de Qin"
+    optional: "true"
   johsRate:
     text: "Valeur de Joh"
+    optional: "true"
   earnestsDispatchment:
     text: "Envoi d'Earnest"
+    optional: "true"
   troysCelerity:
     text: "Célérité de Troy"
+    optional: "true"
   morikhanninsPowder:
     text: "Poudre de Morikhannin"
+    optional: "true"
   gaborsSupercharge:
     text: "Suralimentation de Gabor"
+    optional: "true"
   ushalgsClout:
     text: "Influence d'Ushalg"
+    optional: "true"
   billsShifting:
     text: "Décalage de Bill"
+    optional: "true"
   wesleysCreation:
     text: "Création de Wesley"
+    optional: "true"
   bondesExpansion:
     text: "Développement de Bonde"
+    optional: "true"
   roguesSpread:
     text: "Propagation de Rogue"
+    optional: "true"
   hatschimakisFoundation:
     text: "Fondation de Hatschimaki"
+    optional: "true"
   uptonsDuress:
     text: "Contrainte d'Upton"
+    optional: "true"
   jonasFury:
     text: "Fureur de Jona"
+    optional: "true"
   leonidsExhaustion:
     text: "Épuisement de Leonid"
+    optional: "true"
   damianosFormulation:
     text: "Formulation de Damiano"
+    optional: "true"
   raissasProduction:
     text: "Production de Raissa"
+    optional: "true"
   lilosReprisal:
     text: "Représailles de Lilo"
+    optional: "true"
   hildasCache:
     text: "Cachette de Hilda"
+    optional: "true"
   charmainesReserve:
     text: "Réserve de Charmaine"
+    optional: "true"
   fridasAuxiliary:
     text: "Auxiliaire de Frida"
+    optional: "true"
   faithofPompeii:
     text: "Foi de Pompeii"
+    optional: "true"
   brigettesMotility:
     text: "Motilité de Brigette"
+    optional: "true"
   ceciliasEstate:
     text: "Domaine de Cecilia"
+    optional: "true"
   almasAdjuvant:
     text: "Adjuvant d'Alma"
+    optional: "true"
   jordansEquity:
     text: "Équité de Jordan"
+    optional: "true"
   marquisasAllotment:
     text: "Lotissement de Marquisa"
+    optional: "true"
   piasPower:
     text: "Pouvoir de Pia"
+    optional: "true"
   madalenesDisembark:
     text: "Débarquement de Madalene"
+    optional: "true"
   huldasFleetness:
     text: "Attention de Hulda"
+    optional: "true"
   olympesGenesis:
     text: "Génèse d'Olympe"
+    optional: "true"
   ashleesAnchor:
     text: "Ancre d'Ashlee"
+    optional: "true"
   lorrainasAccess:
     text: "Accès de Lorraina"
+    optional: "true"
   mckenziesattainanance:
     text: "Atteinte de Mckenzie" # Attainanance ?
+    optional: "true"
   parksSubservience:
     text: "Soumission de Park"
+    optional: "true"
   corinsWeight:
     text: "Poids de Corin"
+    optional: "true"
   roswellsMobility:
     text: "Mobilité de Roswell"
+    optional: "true"
   hammettsVoyaging:
     text: "Voyage de Hammett"
+    optional: "true"
   wadesPromptness:
     text: "Promptitude de Wade"
+    optional: "true"
   nottleysBriskness:
     text: "Vivacité de Nottley"
+    optional: "true"
   colbysBustle:
     text: "Agitation de Colby"
+    optional: "true"
   pellsFlight:
     text: "Vol de Pell"
+    optional: "true"
   chestersEmbarkment:
     text: "Digue de Chester"
+    optional: "true"
   brooksOrbit:
     text: "Orbite de Brook"
+    optional: "true"
   xaverinesCompass:
     text: "Boussole de Xaverine"
+    optional: "true"
   mariechensHorizon:
     text: "Horizon de Mariechen"
+    optional: "true"
   mildenhallsGrowth:
     text: "Poussée de Mildenhall"
+    optional: "true"
   finjasFarness:
     text: "Éloignement de Finja"
+    optional: "true"
   stampersExtent:
     text: "Étendue de Stamper"
+    optional: "true"
   mikklesEagerness:
     text: "Empressement de Mikkle"
+    optional: "true"
   ahmedsGait:
     text: "Démarche d'Ahmed"
+    optional: "true"
   gavinsPromptitude:
     text: "Promptitude de Gavin"
+    optional: "true"
   howellsExertion:
     text: "Effort de Howell"
+    optional: "true"
   dalyngriggesMoxie:
     text: "Détermination de Dalyngrigge"
+    optional: "true"
   igorsEnergy:
     text: "Energie d'Igor"
+    optional: "true"
   kilosDrive:
     text: "Trajet de Kilo"
+    optional: "true"
   caseysEfficiency:
     text: "Efficacité de Casey"
+    optional: "true"
   mcChrystalsFlurry:
     text: "Rafale de McChrystal"
+    optional: "true"
   boltonsRush:
     text: "Rush de Bolton"
+    optional: "true"
   edwardsMunitions:
     text: "Munitions d'Edward"
+    optional: "true"
   middlecoatsArms:
     text: "Bras de Middlecoat"
+    optional: "true"
   caseysOrdnance:
     text: "Obus de Casey"
+    optional: "true"
   oslauthsDepository:
     text: "Dépôt d'Oslauth"
+    optional: "true"
   manlysArsenal:
     text: "Arsenal de Manly"
+    optional: "true"
   terimortsAbridgment:
     text: "Raccourcissement de Terimort"
+    optional: "true"
   unveilingofVaelophis:
     text: "Révélation de Vaelophis"
+    optional: "true"
   leyasCompression:
     text: "Compression de Leya"
+    optional: "true"
   scottaugsIntroduction:
     text: "Introduction de Scottaug"
+    optional: "true"
   serarosActualization:
     text: "Actualisation de Seraro"
+    optional: "true"
   avenarMultiplication:
     text: "Multiplication d'Avenar"
+    optional: "true"
   nyxsExaggeration:
     text: "Exagération de Nyx"
+    optional: "true"
   garkneesAugmentation:
     text: "Accroissement de Garknee"
+    optional: "true"
   drogcartersAccumulation:
     text: "Cumulation de Drogcarter"
+    optional: "true"
   visermyersRise:
     text: "Montée de Visermyer"
+    optional: "true"
   gingersSpirit:
     text: "Esprit de Ginger"
+    optional: "true"
   rainesGrowth:
     text: "Croissance de Raine"
+    optional: "true"
   blessingofNoveriah:
     text: "Bénédiction de Noveriah"
+    optional: "true"
   perookiesScent:
     text: "Parfum de Perookie"
+    optional: "true"
   hadrinasHabitat:
     text: "Habitat de Hadrina"
+    optional: "true"
   limbysThrift:
     text: "Économie de Limby"
+    optional: "true"
   deductionofSalvak:
     text: "Déduction de Salvak"
+    optional: "true"
   noteofBlasphemy:
     text: "Note de blasphème"
+    optional: "true"
   dayaphimasBarter:
     text: "Troc de Dayaphima"
+    optional: "true"
   tamanesRecession:
     text: "Récession de Tamane"
+    optional: "true"
   keithsFlourishing:
     text: "Prospérité de Keith"
+    optional: "true"
   nizzsStrengthening:
     text: "Renforcement de Nizz"
+    optional: "true"
   robertsUnwrinkling:
     text: "Défroissement de Robert"
+    optional: "true"
   rugmuksIndelibility:
     text: "Indélébilité de Rugmuk"
+    optional: "true"
   austinsFiber:
     text: "Fibre d'Austin"
+    optional: "true"
   domorosTake:
     text: "Prise de Domoro"
+    optional: "true"
   marcelosHaul:
     text: "Force de Marcelo"
+    optional: "true"
   kittenheartsBooty:
     text: "Trésor de Kittenheart"
+    optional: "true"
   pettigrewsSqueeze:
     text: "Pression de Pettigrew"
+    optional: "true"
   sungwoosPillages:
     text: "Pillages de Sungwoo"
+    optional: "true"
+  eitrisIngenuity:
+      text: "Eitris' Ingenuity"
+      optional: "true"
+  hephaestusSmithery:
+    text: "Hephaestus' Smithery"
+    optional: "true"
+  dresdinsWit:
+    text: "Dresdin's Wit"
+    optional: "true"
+  beepsGutsiness:
+    text: "Beep's Gutsiness"
+    optional: "true"
+  dwarvenDurability:
+    text: "Dwarven Durability"
+    optional: "true"
+  joesMeatloaf:
+    text: "Joe's Meatloaf"
+    optional: "true"
+  ardensHunger:
+    text: "Arden's Hunger"
+    optional: "true"
+  grandmasCookies:
+    text: "Grandmas' Cookies"
+    optional: "true"
+  duffmansBluff:
+    text: "Duffman's Bluff"
+    optional: "true"
+  distinctsMint:
+    text: "Distinct's Mint"
+    optional: "true"
+  elanofsCharisma:
+    text: "Elanof's Charisma"
+    optional: "true"
+  fredwardsFervor:
+    text: "Fredward's Fervor"
+    optional: "true"
+  yulasZeal:
+    text: "Yula's Zeal"
+    optional: "true"
+  raymondsReign:
+    text: "Raymond's Reign"
+    optional: "true"
+  annasAlacrity:
+    text: "Anna's Alacrity"
+    optional: "true"
+  cloftsMightySplendor:
+    text: "Cloft's Mighty Splendor"
+    optional: "true"
+  zoreksFilteredEssence:
+    text: "Zorek's Filtered Essence"
+    optional: "true"
+  babelsBlessing:
+    text: "Babel's Blessing"
+    optional: "true"
+  daniasDivineLongevity:
+    text: "Dania's Divine Longevity"
+    optional: "true"
+  terrysTabernac:
+    text: "Terry's Tabernac"
+    optional: "true"
+  dransDoubtfulBelief:
+    text: "Dran's Doubtful Belief"
+    optional: "true"
+  shivasDestructiveImparting:
+    text: "Shiva's Destructive Imparting"
+    optional: "true"
+  hallysPromptReturn:
+    text: "Hally's Prompt Return"
+    optional: "true"
+  dwaynesReturn:
+    text: "Dwayne's Return"
+    optional: "true"
+  hephaestusHammer:
+    text: "Hephaestus' Hammer"
+    optional: "true"
+  wurzburgsStoutfastness:
+    text: "W�rzburg's Stoutfastness"
+    optional: "true"
+  elsasWreckingBall:
+    text: "Elsa's Wrecking Ball"
+    optional: "true"
+  galanahsWhisper:
+    text: "Galanah's Whisper"
+    optional: "true"
+  dransFoodPreparation:
+    text: "Dran's Food Preparation"
+    optional: "true"
+  raysBookOfLies:
+    text: "Ray's Book of Lies"
+    optional: "true"
+  raysEndlessLists:
+    text: "Ray's Endless Lists"
+    optional: "true"
+  pintOfDoubt:
+    text: "Pint of Doubt"
+    optional: "true"
+  saintsAmbition:
+    text: "Saint's Ambition"
+    optional: "true"
+  temptationsTransience:
+    text: "Temptation's Transience"
+    optional: "true"
+  demisesLoss:
+    text: "Demises' Loss"
+    optional: "true"
+  civilisationsGuidance:
+    text: "Civilisation's Guidance"
+    optional: "true"
+  elhaelsWisdom:
+    text: "Elhael's Wisdom"
+    optional: "true"
+  hayfathersGuidance:
+    text: "Hayfather's Guidance"
+    optional: "true"
+  hayfathersHumanity:
+    text: "Hayfather's Humanity"
+    optional: "true"
+  slimersCage:
+    text: "Slimer's Cage"
+    optional: "true"
+  rayParkerJrsStyle:
+    text: "Ray Parker Jr's Style"
+    optional: "true"
+  irwinsKhakis:
+    text: "Irwin's Khakis"
+    optional: "true"  
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Time Module
@@ -1492,6 +2001,10 @@ console:
       text: "{mobName} $WHI0s'est mis en couple avec {mateMobName} $WHI0!"
     isPregnant:
       text: "{mobName} $PIN1est enceinte !"
+    isPregnantBlessed:
+      text: "{mobName} $PIN1est miraculeusement enceinte!"
+    ghostLeave:
+      text: "l'esprit de {mobName} $RED1a quitté ce monde pour toujours..."
     object:
       destroyed:
         text: "{buildingName} $RED1vient d'être détruit !"
@@ -1601,7 +2114,8 @@ console:
     mob:
       born:
         subtitle:
-          text: "vient de naître !"
+          text: "un {mobType} vient de naître !"
+          revision: "1"
       hired:
         subtitle:
           text: "vient d'être engagé !"
@@ -1619,7 +2133,8 @@ console:
           text: "a rejoint votre village !"
       wildDoggoDomesticate:
         subtitle:
-          text: "le chien a rejoint votre village !"
+          text: "un {mobType} a rejoint votre village !"
+          revision: "1"
 
     mobAI:
       childBirthDeath:
@@ -1687,6 +2202,10 @@ console:
             text: "{mobName}{mobTitle} $RED1est mort de causes naturelles."
           birth:
             text: "{mobName}{mobTitle} $RED1est morte en couches !"
+          comet:
+            text: "{mobName}{mobTitle}$RED1 s'est approché(e) beaucoup trop près d'une comète."
+          terminatingPregnancy:
+            text: "{mobName}{mobTitle}$RED1 a également été interrompue accidentellement."
 
         ageSubtitle:
           male:
@@ -1772,6 +2291,101 @@ console:
             text: "Ne te sens pas mal. Les morts ne sentent rien de toute façon"
           36:
             text: "Les pensées et les prières ne vont probablement pas arranger ça..."
+          37:
+            text: "Welp, that's one way to go."
+          38:
+            text: "It is natural to die as to be born."
+          39:
+            text: "(He's:She's:They're) not respawning from that one."
+          40:
+            text: "I bet (he:she:they) didn't see that one coming."
+          41:
+            text: "Maybe no one will notice."
+          42:
+            text: "Someone had a bad day."
+          43:
+            text: "Play stupid games, win stupid prizes."
+          44:
+            text: "d00d git gud."
+          45:
+            text: "(He:She:They) won first place in the Darwin Awards."
+          46:
+            text: "There is no word in the dictionary that could describe how applaudable (his:her:their) death was."
+          47:
+            text: "Life failed successfully."
+          48:
+            text: "Died, but did they ever really live?"
+          49:
+            text: "It must be amateur hour!"
+          50:
+            text: "Who even writes these?"
+          51:
+            text: "Congratulations on your retirement!"
+          52:
+            text: "Do it again!"
+          53:
+            text: "You had one job. It was to keep your health above zero."
+          54:
+            text: "It's up up down down left right left right B A start right!?"
+          55:
+            text: "Lucky for you, you're a god, and you have a resurrect spell."
+          56:
+            text: "(He:She:They) didn't RTFM."
+          57:
+            text: "(His:Her:Their) health was divided by zero."
+
+      sellEerieVessel:
+        title:
+          comment: "Some mobs, like the doggo, need their title inputted into the death messages. This string will be inputted where {mobTitle} is in all death strings under the death header category."
+          text: "$WHI0 the {mobType}"
+        header:
+          text: "{mobName}{mobTitle}$YEL1 has been sold to a Catjeet!"
+        randomSubtitles:
+          comment: "These Easter Egg messages generate the correct gender pronouns when displayed based on the variable entries below. eg (malePronoun:femalePronoun:none). You may add or remove your own, or edit the contents of them. But they MUST remain in (malePronoun:femalePronoun:none) format. You can not add or remove from the entry, it must always have 3 values."
+          0:
+            text: "Thats fine, nobody liked (him:her:them) anyway."
+          1:
+            text: "The Catjeet will honor (him:her:them) more than you did."
+          2:
+            text: "Is it slavery if they're dead?"
+          3:
+            text: "At least they don't have to deal with the in-laws now."
+          4:
+            text: "The village regrets the sale, but (he:she:they) will live on in spirit."
+          5:
+            text: "This wouldn't have happened if you'd only toss a coin to the witcher."
+          6:
+            text: "Oh Barnacles!"
+          7:
+            text: "(He is:She is:They are) indeed worth (his:her:their) weight in gold. Too bad they were pretty light."
+          8:
+            text: "Who was that again?"
+          9:
+            text: "Oh dear, seems the Catjeet got ahold of (his:her:them)."
+          10:
+            text: "(He is:She is:They are) the Catjeet's problem now!"
+          11:
+            text: "Whoops!"
+          12:
+            text: "Name got adopted beyond death."
+          13:
+            text: "No one ever realized you could adopt a ghost?"
+          14:
+            text: "(He:She:They) probably won't be missed."
+          15:
+            text: "(He:She:They) probably deserved it."
+          16:
+            text: "Who was what now?"
+          17:
+            text: "Not even worth the glass we stuffed (him:her:them) in."
+          18:
+            text: "Wait, (he was:she was:they were) dead?!"
+          19:
+            text: "Bet (he:she:they) never saw that one coming!"
+          20:
+            text: "One Man's trash is a Catjeet's treasure!"
+            
+       
 
     migrantDepartBehavior:
       leaveRegion:
@@ -1787,8 +2401,16 @@ console:
             text: "{mobName} $WHI0a été sacrifiée par son $RED1Dieu$WHI0!"
           none:
             text: "{mobName} $WHI0a été sacrifié par son $RED1Dieu$WHI0!"
+          doofyDoggo:
+            text: "{mobName}$WHI0 ce toutou innocent et tellement bêta a été sacrifié par leur $RED1Dieu$WHI0!"
+          doggo:
+            text: "{mobName}$WHI0 ce toutou innocent a été sacrifié par leur $RED1Dieu$WHI0!"
         subtitle:
           text: "Que cela serve de leçon."
+          doggo:
+            text: "Comment avez vous pu faire ça ?!"
+          doofyDoggo:
+            text: "$RED1Qu'avez vous fait!!?"
 
     spawn:
       nomadsArrived:
@@ -1824,271 +2446,733 @@ console:
             text: "$RED1Pluie de météores !"
           subtitle:
             text: "Attention à la tête !"
+        comet:
+          header:
+            text: "$RED1A Comète en approche!"
+          subtitle:
+            text: "Pourquoi fait il si froid?"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Goals
 # Names and Descriptions
-# rtr.Goal.java
+# rtr.goal.goals.GoalBase.java
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
 goal:
   comment: "Goals - Names and Descriptions"
-  javaClass: "rtr.Goal.java"
-
-  unlockNewGoal:
-    header:
-      text: "Débloquez un objectif"
-    body:
-      days:
-        text: "Survivez $GRE1{days} $WHI0jours pour $GRE1débloquer l'objectif $WHI0!"
-      additionalDays:
-        text: "Survivez $GRE1{days} $WHI0jours de plus pour $GRE1débloquer l'objectif $WHI0!"
-
-  win:
-    header:
-      text: "Victoire"
-    body:
-      text: "Survivez $GRE1une année $WHI0dans $GRE1chaque région du monde$WHI0."
-
-  harvest:
-    header:
-      text: "Récolte {resourceName}"
-    body:
-      any:
-        text: "Récoltez $GRE1{amount} {resourceName} n'importe où $WHI0!"
-      specific:
-        text: "Récoltez $GRE1{amount} {resourceName} $WHI0dans $GRE1{mapName} $WHI0!"
-
-  manufacture:
-    header:
-      text: "Création de {resourceName}"
-    body:
-      any:
-        text: "Créez $GRE1{amount} {resourceName} $WHI0dans $GRE1n'importe quelle région $WHI0!"
-      specific:
-        text: "Créez $GRE1{amount} {resourceName} $WHI0dans $GRE1{mapName} $WHI0!"
-
-  trash:
-    header:
-      text: "Traitement de {resourceName}"
-    body:
-      any:
-        text: "Traitez $GRE1{amount}$WHI0 {resourceName} $GRE1dans n'importe quelle région $WHI0!"
-      specific:
-        text: "Traitez $GRE1{amount}$WHI0 {resourceName} $WHI0dans $GRE1{mapName} $WHI0!"
-
+  javaClass: "rtr.goal.goals.GoalBase.java"
+  
+  none:
+    name:
+      text: "Pas d'objectif!"
+    description:
+      text: "Cliquez pour sélectionner un nouvel objectif à atteindre!"
+            
+  freeChest:
+    name:
+      text: "Coffre gratuit!"
+    description:
+      text: "Cliquez pour obtenir un coffre gratuit!"    
+      
   survive:
-    header:
-      text: "Survie"
-    body:
-      text: "Survivez au jour $GRE1{days} $WHI0dans $GRE1{mapName} $WHI0!"
+    name:
+      text: "Survivre!"
+    description:
+      text: "Survivez $GRE1{amount}$WHI0 jours dans une région!"
+      
+  youAlreadyLost:
+    name:
+      text: "Tu as déjà perdu"
+    description:
+      text: "Construire votre premier campement."
+          
+  weakestLinks:
+    name:
+      text: "Les maillons faibles"
+    description:
+      text: "Cumuler  $GRE1{amount}$WHI0 villageois morts, peut importe comment."
+      
+  deforestation:
+    name:
+      text: "Déforestation"
+    description:
+      text: "Obtenir $GRE1{amount}$WHI0 bois en coupant des arbres."
+      
+  quarry:
+    name:
+      text: "Carrière"
+    description:
+      text: "Obtenir $GRE1{amount}$WHI0 cailloux de la montagne."
+      
+  kylePowered:
+    name:
+      text: "Kyle Powered!"
+      forceCount: "true" #from TiberiumKyle, come visit the discord to find more.
+    description:
+      text: "Récoltez $GRE1{amount}$WHI0 cristaux à partir de parcelles de cristaux."
+      
+  theGrind:
+    name:
+      text: "La routine"
+    description:
+      text: "Récoltez $GRE1{amount}$WHI0 de n'importe quelle ressource de n'importe où."
+      
+  foraging:
+    name:
+      text: "Recherche de nourriture"
+    description:
+      text: "Récoltez $GRE1{amount}$WHI0 fruits, légumes ou champignons."
+      
+  factoryFarming:
+    name:
+      text: "Agriculture industrielle"
+    description:
+      text: "Abattre $GRE1{amount}$WHI0 animaux dans la cuisine."
 
-  migration:
-    header:
-      text: "Migrer vers une région"
-    body:
-      single:
-        text: "Migrez vers une $GRE1nouvelle région $WHI0!"
-      multiple:
-        text: "Migrez vers $GRE1{amount} nouvelles régions $WHI0!"
-
-  sendVillagers:
-    header:
-      text: "Envoi de villageois"
-    body:
-      any:
-        text: "Envoyez $GRE1{amount} villageois $WHI0vers $GRE1une autre région$WHI0."
-      specific:
-        text: "Envoyez $GRE1{amount} villageois $WHI0vers $GRE1{mapName} $WHI0!"
-
-  sendCourierGolems:
-    header:
-      text: "Envoi de golems-facteur"
-    body:
-      any:
-        text: "Envoyez $GRE1{amount} golems-facteurs $WHI0vers $GRE1une autre région$WHI0."
-      specific:
-        text: "Envoyez $GRE1{amount} golems-facteurs $WHI0vers $GRE1{mapName} $WHI0!"
-
-  sendResourcesGoal:
-    header:
-      text: "Envoi de ressources"
-    body:
-      any:
-        text: "Envoyez $GRE1{amount} {resourceNamePlural} $WHI0via des golems-facteurs vers $GRE1une autre région$WHI0."
-      specific:
-        text: "Envoyez $GRE1{amount} {resourceNamePlural} $WHI0via des golems-facteurs vers $GRE1{mapName} $WHI0!"
-
-  population:
-    header:
-      text: "Population"
+  catchItAll:
+    name:
+      text: "Attrapez les tous"
+    description:
+      text: "Récupérez $GRE1{amount}$WHI0 unités d'eau avec des récupérateurs de pluie."
+       
+  nestledPureLifeWater:
+    name:
+      text: "Eau 'Pure Life' Nestled"
+    description:
+      text: "Générez $GRE1{amount}$WHI0 unités d'eau avec des purificateurs d'eau."
+      
+  buildAllTheThings:
+    name:
+      text: "Construisez toutes les choses!"
+    description:
+      text: "Construisez $GRE1{amount}$WHI0 bâtiments, à l'exception des murs."
+            
+  godsVillage:
+    name:
+      text: "Le village de Dieu"
+    description:
+      text: "Améliorez $GRE1{amount}$WHI0 maisons en haute qualité."
+      
+  sardines:
+    name:
+      text: "Sardines"
       forceCount: "true"
-    body:
-      any:
-        text: "Atteignez une population $GRE1globale $WHI0de $GRE1{amount} $WHI0!"
-      specific:
-        text: "Atteignez une population de $GRE1{amount} $WHI0sur $GRE1{mapName} $WHI0!"
-
-  stockpile:
-    header:
-      text: "Stocks de {resourceNamePlural}"
-    body:
-      any:
-        text: "Stockez $GRE1{amount} {resourceNamePlural} n'importe où $WHI0!"
-      specific:
-        text: "Stockez $GRE1{amount} {resourceNamePlural} $WHI0dans $GRE1{mapName} $WHI0!"
-
-  killMonsters:
-    header:
-      any:
-        text: "Exécution de monstres"
-      specific:
-        text: "Éxecution de {mobNamePlural}"
-    body:
-      any:
-        any:
-          text: "Tuez $GRE1{amount} monstres n'importe où $WHI0!"
-        specific:
-          text: "Tuez $GRE1{amount} {mobNamePlural} n'importe où $WHI0!"
-      specific:
-        any:
-          text: "Tuez $GRE1{amount} monstres $WHI0dans $GRE1{mapName} $WHI0!"
-        specific:
-          text: "Tuez $GRE1{amount} {mobNamePlural} $WHI0dans $GRE1{mapName} $WHI0!"
-
-  castSpells:
-    header:
-      any:
-        text: "Lancé de sorts"
-      specific:
-        text: "Lancé de {spellName}"
-    body:
-      any:
-        any:
-          text: "Lancez $GRE1{amount} sorts n'importe où $WHI0!"
-        specific:
-          text: "Lancez $GRE1{amount} {spellName} n'importe où $WHI0!"
-      specific:
-        any:
-          text: "Lancez $GRE1{amount} sorts $WHI0dans $GRE1{mapName} $WHI0!"
-        specific:
-          text: "Lancez $GRE1{amount} {spellName} $WHI0dans $GRE1{mapName} $WHI0!"
-
-
-  grabResources:
-    header:
-      text: "Saisie de ressources"
-    body:
-      any:
-        text: "Saisissez $GRE1{amount} ressources n'importe où $WHI0!"
-      specific:
-        text: "Saisissez $GRE1{amount} ressources $WHI0dans $GRE1{mapName} $WHI0!"
-
-  hireCatjeet:
-    header:
-      text: "Recrutement de Catjeet"
-    body:
-      any:
-        text: "Recrutez $GRE1{amount} catjeet n'importe où $WHI0!"
-      specific:
-        text: "Recrutez $GRE1{amount} catjeet $WHI0dans $GRE1{mapName} $WHI0!"
-
-  immigrateNomads:
-    header:
-      text: "Accueil de nomades"
-    body:
-      any:
-        text: "Accueillez $GRE1{amount} nomades n'importe où $WHI0!"
-      specific:
-        text: "Accueillez $GRE1{amount} nomades $WHI0dans $GRE1{mapName} $WHI0!"
-
-  build:
-    header:
-      text: "Construction"
-    body:
-      any:
-        text: "Construisez $GRE1{amount} {buildingName} n'importe où $WHI0!"
-      specific:
-        any:
-          text: "Construisez $GRE1{amount} bâtiments n'importe où $WHI0!"
-        specific:
-          text: "Construisez $GRE1{amount} bâtiments $WHI0dans $GRE1{mapName} $WHI0!"
-
-  upgrade:
-    header:
-      any:
-        text: "Amélioration"
-      specific:
-        text: "Améliorez $GRE1{buildingName}"
-    body:
-      any:
-        text: "Améliorez $GRE1{amount} {buildingName} n'importe où $WHI0!"
-      specific:
-        any:
-          text: "Améliorez $GRE1{amount} bâtiments n'importe où $WHI0!"
-        specific:
-          text: "Améliorez $GRE1{amount} bâtiments $WHI0dans $GRE1{mapName} $WHI0!"
-
-  domestication:
-    header:
-      text: "Domestication"
+    description:
+      text: "Moderniser  $GRE1{amount}$WHI0 maisons en logements à occupation élevée."
+      
+  theCostOfProgress:
+    name:
+      text: "Le coût du progrès"
+    description:
+      text: "Améliorer  $GRE1{amount}$WHI0 bâtiments."
+      
+  acropolis:
+    name:
+      text: "Acropole"
+    description:
+      text: "Transformez $GRE1{amount}$WHI0 maisons en maisons renforcées à occupation élevée."
+      
+  allRoadsLeadToHome:
+    name:
+      text: "All Roads Lead To Home"
       forceCount: "true"
-    body:
-      any:
-        text: "Domestiquez $GRE1{amount} chiens n'importe où $WHI0!"
-      specific:
-        text: "Domestiquez $GRE1{amount} chiens $WHI0dans $GRE1{mapName} $WHI0!"
+    description:
+      text: "Construisez $GRE1{amount}$WHI0 routes en pierre taillée."
+       
+  animalRightsViolations:
+    name:
+      text: "Violations des droits des animaux"
+    description:
+      text: "Cumulez $GRE1{amount}$WHI0 Doggos morts pour une raison quelconque."
+      
+  firstWorldProblems:
+    name:
+      text: "First World Problems"
+    description:
+      text: "Améliorez $GRE1{amount}$WHI0 maisons en maisons renforcées de haute qualité."  
+      
+  explosiveSideEffects:
+    name:
+      text: "Effets secondaires explosifs"
+    description:
+      text: "Provoquer « accidentellement » une explosion de la porte Cullis."  
+      
+  iveGotPrime:
+    name:
+      text: "J'ai eu une prime!"
+    description:
+      text: "Recevez $GRE1{amount}$WHI0 ressources de n'importe quelle région."    
+      
+  porter:
+    name:
+      text: "Livreur"
+    description:
+      text: "Fournir $GRE1{amount}$WHI0 ressources à n'importe quelle région."
+      
+  helpfulDoggos:
+    name:
+      text: "Des toutous serviables"
+    description:
+      text: "Demandez aux chiens de stocker $GRE1{amount}$WHI0 ressources."
+      
+  diggyDiggyHole:
+    name:
+      text: "Diggy Diggy Hole"
+      forceCount: "true"
+    description:
+      text: "Creuser $GRE1{amount}$WHI0 tuiles."
+      
+  takeItBack:
+    name:
+      text: "reconquête!"
+    description:
+      text: "Reconvertir $GRE1{amount}$WHI0 tuiles de corruption."    
+      
+  riseFromTheGrave:
+    name:
+      text: "Ressusciter d'entre les morts"
+    description:
+      text: "Ressusciter $GRE1{amount}$WHI0 villageois."  
+      
+  wasIAGoodBoy:
+    name:
+      text: "Étais-je un bon garçon ?"
+    description:
+      text: "Ressusciter $GRE1{amount}$WHI0 chiens."    
 
-  levelUp:
-    header:
-      text: "Niveau supérieur"
-    body:
-      any:
-        text: "Améliorez le niveau de $GRE1{amount} villageois n'importe où $WHI0!"
-      specific:
-        text: "Améliorez le niveau de $GRE1{amount} villageois $WHI0dans $GRE1{mapName} $WHI0!"
+  catjeetHasWares:
+    name:
+      text: "Les Catjeet ont des marchandises"
+    description:
+      text: "Achetez ou vendez $GRE1{amount}$WHI0 ressources auprès d'un marchant Catjeet."    
+          
+  migrantWorkers:
+    name:
+      text: "Travailleurs migrants"
+    description:
+      text: "Embaucher $GRE1{amount}$WHI0 ouvriers Catjeet."       
+        
+  catjeetastrophic:
+    name:
+      text: "Catjeetastrophique"
+    description:
+      text: "Faire mourir $GRE1{amount}$WHI0 Catjeet pour une raison quelconque."   
 
-  childBirth:
-    header:
-      text: "Naissance d'enfant"
-    body:
-      any:
-        text: "$GRE1{amount} naissances n'importe où $WHI0!"
-      specific:
-        text: "$GRE1{amount} naissances $WHI0dans $GRE1{mapName} $WHI0!"
+  poorWeaponry:
+    name:
+      text: "Armement médiocre"
+    description:
+      text: "Tuer un squelette avec des dégâts perforants."
 
-  openLootBoxes:
-    header:
-      text: "Ouverture de coffres"
-    body:
-      any:
-        text: "Ouvrez $GRE1{amount} coffres à butin n'importe où $WHI0!"
-      specific:
-        text: "Ouvrez $GRE1{amount} coffres à butin $WHI0dans $GRE1{mapName} $WHI0!"
+  literalDumpsterFire:
+    name:
+      text: "Incendie de poubelle"
+    description:
+      text: "Brûlez $GRE1{amount}$WHI0 déchets dans un brûleur de déchets."
+      
+  letItSnowArrows:
+    name:
+      text: "Faites neiger les flèches"
+    description:
+      text: "Construisez $GRE1{amount}$WHI0 baliste de glace."
+      
+  toolsForAll:
+    name:
+      text: "Des outils pour tous"
+    description:
+      text: "Créez $GRE1{amount}$WHI0 outils de tout type chez l'outilleur."
+      
+  wellProtected:
+    name:
+      text: "Bien protégé"
+    description:
+      text: "Créez $GRE1{amount}$WHI0 armures de n'importe quel type à l'Armurerie."
+      
+  lordOfTheArrows:
+    name:
+      text: "Le Seigneur des Flèches"
+    description:
+      text: "Avoir $GRE1{amount}$WHI0 villageois qui s'équipent d'un arc."
+      
+  theLongestJourney:
+    name:
+      text: "Le plus long voyage"
+    description:
+      text: "Envoyer $GRE1{amount}$WHI0 migrants vers d'autres régions."
+      
+  charmingDeity:
+    name:
+      text: "Charmante divinité"
+    description:
+      text: "Charme $GRE1{amount}$WHI0 Monstres."
+      
+  riseToRiches:
+    name:
+      text: "Ascension vers la richesse"
+    description:
+      text: "Créer $GRE1{amount}$WHI0 pièces."
+      
+  rosebud:
+    name:
+      text: "Bouton de rose"
+    description:
+      text: "Générer $GRE1{amount}$WHI0 fleurs à partir de la magie et de l'utilisation de l'énergie."
+      
+  lightTheWay:
+    name:
+      text: "Éclairer le chemin!"
+    description:
+      text: "Lancer 'Illuminer' la nuit $GRE1{amount}$WHI0 fois."
+      
+  towerDefense:
+    name:
+      text: "Tower Defense"
+      forceCount: "true"
+    description:
+      text: "Construisez $GRE1{amount}$WHI0 tours."
+      
+  retrofit:
+    name:
+      text: "Rénovation"
+    description:
+      text: "Mise à niveau maximale de $GRE1{amount}$WHI0 Tours."
+      
+  fightTheCorruption:
+    name:
+      text: "Combattre la corruption"
+    description:
+      text: "Détruisez $GRE1{amount}$WHI0 bâtiments corrompus."
+      
+  wildGrowth:
+    name:
+      text: "Croissance sauvage"
+    description:
+      text: "Faire croître $GRE1{amount}$WHI0 tuiles de ressources."
+      
+  takeThat:
+    name:
+      text: "Prends ça!"
+    description:
+      text: "Noyer un élémentaire de feu."
+      
+  waterJousting:
+    name:
+      text: "Joutes nautiques"
+    description:
+      text: "Tuez $GRE1{amount}$WHI0 monstres dans l'eau."
+      
+  itNeverStops:
+    name:
+      text: "Ça ne s'arrête jamais!"
+    description:
+      text: "Tuez $GRE1{amount}$WHI0 drones."
+      
+  ecoTerrorist:
+    name:
+      text: "Écoterroriste"
+    description:
+      text: "Dissoudre $GRE1{amount}$WHI0 tuiles."
+      
+  electronicSharks:
+    name:
+      text: "Electronic Sharks"
+    description:
+      text: "Ouvrir $GRE1{amount}$WHI0 coffres à butin."
+      
+  buriedTreasure:
+    name:
+      text: "Trésor enfoui"
+    description:
+      text: "Découvrez $GRE1{amount}$WHI0 clés ou coffres à butin dans les cercles magiques."
+      
+  tyrant:
+    name:
+      text: "Tyran"
+    description:
+      text: "Sacrifiez un villageois avec une porte Cullis."
+      
+  warCrimes:
+    name:
+      text: "Crime de guerre"
+    description:
+      text: "Jetez négligemment un chien stupide dans une porte Cullis."
+      
+  omg:
+    name:
+      text: "OH MON DIEU"
+    description:
+      text: "Mettez de côté tout forme de décence et jetez un enfant dans une porte Cullis."
+      
+  praiseBeUntoThee:
+    name:
+      text: "Louange à toi"
+    description:
+      text: "Cumulez $GRE1{amount}$WHI0 prières effectuées par des occultistes."
+      
+  itsHuntinSeason:
+    name:
+      text: "C'est la saison de la chasse"
+    description:
+      text: "Capturez avec succès $GRE1{amount}$WHI0 animaux."
+      
+  whatsThatSmell:
+    name:
+      text: "Quelle est cette odeur??"
+    description:
+      text: "Avoir $GRE1{amount}$WHI0 Slimes détritus."
+      
+  godOfLoveAndThunder:
+    name:
+      text: "Dieu de l'amour et du tonnerre"
+    description:
+      text: "Bénis $GRE1{amount}$WHI0 femmes."
+      
+  hoarder:
+    name:
+      text: "Accumulateur"
+    description:
+      text: "Générer $GRE1{amount}$WHI0 déchets à partir de ressources en décomposition."
+      
+  ghostTown:
+    name:
+      text: "Ville fantôme"
+    description:
+      text: "Stockez $GRE1{amount}$WHI0 fantômes dans des récipients étranges."
+      
+  strays:
+    name:
+      text: "Chats errants"
+    description:
+      text: "Invitez $GRE1{amount}$WHI0 nomades Catjeet à rejoindre le village."
+      
+  immigrantSong:
+    name:
+      text: "Chanson d'immigrants"
+    description:
+      text: "Faites en sorte que $GRE1{amount}$WHI0 nomades rejoignent le village."
+      
+  iLikeBigButtresses:
+    name:
+      text: "J'aime les gros contreforts"
+    description:
+      text: "Construisez $GRE1{amount}$WHI0 Murailles."
+      
+  theDoggoHouse:
+    name:
+      text: "La Niche"
+    description:
+      text: "Construisez $GRE1{amount}$WHI0 niches."
+      
+  theBigDoggoHouse:
+    name:
+      text: "La niche de luxe"
+    description:
+      text: "Mettre à niveau  $GRE1{amount}$WHI0 niches vers des niches établies."
+            
+  crumblingDefenses:
+    name:
+      text: "Défenses en ruine"
+    description:
+      text: "Se faire détruire $GRE1{amount}$WHI0 murs."
+      
+  burnedAlive:
+    name:
+      text: "Brûlé vif"
+    description:
+      text: "Perdre un villageois à cause des dégâts causés par le feu."
+      
+  twentyEightSecondsLater:
+    name:
+      text: "28 Secondes plus tard"
+    description:
+      text: "Cumulez $GRE1{amount}$WHI0 villageois ou bétails transformés en zombie."
+      
+  doooomed:
+    name:
+      text: "CONDAAAAAAAMNÉE"
+    description:
+      text: "Condamner un monde."
+      
+  doomedJourney:
+    name:
+      text: "Voyage maudit"
+    description:
+      text: "Perdre une région avec des migrants encore en route."
+      
+  badAim:
+    name:
+      text: "Mauvaise visée"
+    description:
+      text: "Frappez accidentellement un villageois avec un météore ou une comète."
+      
+  seriously:
+    name:
+      text: "Sérieusement?"
+    description:
+      text: "Survivre à $GRE1{amount}$WHI0 désastres."
+      
+  aWorthySacrifice:
+    name:
+      text: "Un sacrifice digne"
+    description:
+      text: "Jetez un Nephalim dans une porte Cullis."
+      
+  theSoulTrade:
+    name:
+      text: "Le commerce des âmes"
+    description:
+      text: "Vendre un récipient étrange rempli."
+      
+  ahhFreshMeat:
+    name:
+      text: "Ahh, de la viande fraîche!"
+    description:
+      text: "Condamnez le monde avec au moins $GRE1{amount}$WHI0 régions actives."
+      
+  godDammit:
+    name:
+      text: "Nom de Dieu..."
+    description:
+      text: "Perdre complètement une région."
+      
+  grandmasterSparkles:
+    name:
+      text: "Grand Maître des étincelles"
+    description:
+      text: "Tuer un villageois avec un éclair."
+      
+  dudeWthMan:
+    name:
+      text: "Frère, c'est quoi ce bordel?!"
+    description:
+      text: "Déposer un villageois dans une zone dangereuse."
+      
+  manaMillionaire:
+    name:
+      text: "Mana Millionaire"
+      forceCount: "true"
+    description:
+      text: "Récupérez 1 $GRE1{amount}$WHI0 d'essence."
+      
+  hospiceCare:
+    name:
+      text: "Soins palliatifs"
+    description:
+      text: "Cumulez $GRE1{amount}$WHI0 villageois mourrant de vieillesse."
+      
+  theMoon:
+    name:
+      text: "La Lune"
+    description:
+      text: "Tuez $GRE1{amount}$WHI0 ennemis pendant une pleine lune."
+      
+  industry:
+    name:
+      text: "Industrie"
+    description:
+      text: "Affinez $GRE1{amount}$WHI0 bûches ou roches en planches ou en pierres taillées."
+      
+  midgar:
+    name:
+      text: "Midgar"
+      forceCount: "true"
+    description:
+      text: "Lâchez une comète sur votre camp ou votre château."
+      
+  ragnarok:
+    name:
+      text: "Ragnarok"
+      forceCount: "true"
+    description:
+      text: "Avoir ou provoquer un tremblement de terre pendant une lune de sang."
+      
+  theDustMustFlow:
+    name:
+      text: "La poussière doit couler!"
+    description:
+      text: "Vendez au total $GRE1{amount}$WHI0 de poussières divines à un marchant Catjeet."
+      
+  powerOverwhelming:
+    name:
+      text: "Puissance écrasante"
+    description:
+      text: "Collecter ou générer un total de $GRE1{amount}$WHI0 d'énergie dans le village au fil du temps."
+      
+  whale:
+    name:
+      text: "Baleine"
+    description:
+      text: "Achetez $GRE1{amount}$WHI0 clés suspectes auprès des marchants Catjeet."
+      
+  deifiedFarmer:
+    name:
+      text: "Agriculteur déifié"
+    description:
+      text: "Cultivez $GRE1{amount}$WHI0 parcelles de pommes de terre sacrées."
+      
+  cluckNuggets:
+    name:
+      text: "Cluck Nuggets"
+    description:
+      text: "Create $GRE1{amount}$WHI0 Cooked Meat."
+      
+  prodigiousPlanner:
+    name:
+      text: "Prodigious Planner"
+    description:
+      text: "Build $GRE1{amount}$WHI0 storage buildings of any kind."
+      
+  baptizedGolemancer:
+    name:
+      text: "Baptized Golemancer"
+    description:
+      text: "Summon $GRE1{amount}$WHI0 Holy Golems."
+      
+  holyDefense:
+    name:
+      text: "Holy Defense"
+    description:
+      text: "Place $GRE1{amount}$WHI0 God Towers."
+      
+  godKing:
+    name:
+      text: "God King"
+    description:
+      text: "Upgrade the camp to completed castle."
+      
+  angst:
+    name:
+      text: "Angst"
+    description:
+      text: "Have $GRE1{amount}$WHI0 children grow up."
 
-  throwMonsterInCullisGate:
-    header:
-      text: "Jetté de monstres"
-    body:
-      any:
-        any:
-          text: "Jettez $GRE1{amount} monstres $WHI0dans un portail cullis $GRE1n'importe où $WHI0!"
-        specific:
-          text: "Jettez $GRE1{amount} {mobNamePlural} $WHI0dans un portail cullis $GRE1n'importe où $WHI0!"
-      specific:
-        any:
-          text: "Jettez $GRE1{amount} monstres $WHI0dans un portail cullis dans $GRE1{mapName} $WHI0!"
-        specific:
-          text: "Jettez $GRE1{amount} {mobNamePlural} $WHI0dans un portail cullis dans $GRE1{mapName} $WHI0!"
+  duggar:
+    name:
+      text: "Duggar"
+    description:
+      text: "Give birth to $GRE1{amount}$WHI0 children."
 
-  resurrectGhosts:
-    header:
-      text: "Ressuscitation de fantômes"
-    body:
-      any:
-        text: "Ressuscitez $GRE1{amount} $WHI0fantômes $GRE1n'importe où$WHI0."
-      specific:
-        text: "Ressuscitez $GRE1{amount} $WHI0fantômes dans $GRE1{mapName} $WHI0!"
+  golemsWillTakeOurJobs:
+    name:
+      text: "Golems Will Take Our Jobs"
+    description:
+      text: "Summon $GRE1{amount}$WHI0 Labor Golems."
+        
+  obviousInHindsight:
+    name:
+      text: "Obvious in Hindsight"
+    description:
+      text: "Have a lightning rod misdirect your lightning bolt spell."
+      
+  whatIsMyPurpose:
+    name:
+      text: "What Is My Purpose?"
+    description:
+      text: "Create $GRE1{amount}$WHI0 Cube-E golems."
+      
+  wellWellWell:
+    name:
+      text: "Well, Well, Well..."
+    description:
+      text: "Build $GRE1{amount}$WHI0 wells."
+      
+  handsOffMe:
+    name:
+      text: "Hands off me!"
+    description:
+      text: "Grab $GRE1{amount}$WHI0 villagers."
+      
+  eggcellent:
+    name:
+      text: "Eggcellent"
+    description:
+      text: "Have Cluckers lay $GRE1{amount}$WHI0 eggs."
+      
+  iWantMyKeyBack:
+    name:
+      text: "I Want My Key Back!!"
+    description:
+      text: "Get trash from a Loot Box."
+      
+  stopPokingMe:
+    name:
+      text: "Stop Poking Me!"
+    description:
+      text: "Force a lootbox to move $GRE1{amount}$WHI0 times."
+      
+  attaboy:
+    name:
+      text: "Attaboy!"
+    description:
+      text: "Have any Doggo grab a key and open a loot box on their own."
+      
+  neverGonnaGiveYouUp:
+    name:
+      text: "Never gonna give you up..."
+    description:
+      text: "Recall an injured villager while they are fleeing."
+      
+  godOrMagician:
+    name:
+      text: "God or Magician"
+    description:
+      text: "Have $GRE1{amount}$WHI0 villagers react to your actions."
+      
+  impatient:
+    name:
+      text: "Impatient"
+    description:
+      text: "Cast recall on $GRE1{amount}$WHI0 nomads."
+      
+  whoopsSorry:
+    name:
+      text: "Whoops, sorry!"
+    description:
+      text: "Drop a villager because you ran out of mana."
+      
+  imDonePlayingWithYou:
+    name:
+      text: "I'm Done Playing With You..."
+    description:
+      text: "Dispel a summoned building or golem $GRE1{amount}$WHI0 times."
+      
+  fineIllDoItMyself:
+    name:
+      text: "Fine, I'll Do It Myself!"
+    description:
+      text: "Drop $GRE1{amount}$WHI0 resources into buildings with the grab spell."
+      
+  theRedSunRises:
+    name:
+      text: "The Red Sun Rises"
+    description:
+      text: "Enter a bloodmoon."
+      
+  whoTurnedOffTheSun:
+    name:
+      text: "Who Turned Off The Sun?"
+    description:
+      text: "Enter an eclipse."
+      
+  chill:
+    name:
+      text: "Chill"
+    description:
+      text: "Enter a full moon."
+      
+  popcorn:
+    name:
+      text: "Popcorn"
+    description:
+      text: "Dissolve $GRE1{amount}$WHI0 bodies with the dissolve spell."
+      
+  touchGrass:
+    name:
+      text: "Touch Grass"
+    description:
+      text: "Touch grass with your hand $GRE1{amount}$WHI0 times."
+
+
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Main Menu State
@@ -2293,6 +3377,7 @@ mainMenuMainMenuPanel:
       text: "Charger une carte"
     devTools:
       text: "Outils de développeur"
+      optional: "true"
     tutorialVideo:
       text: "Tutoriel vidéo"
     settings:
@@ -2307,17 +3392,26 @@ mainMenuMainMenuPanel:
       text: "Retour"
     scrubMapImages:
       text: "Brosser les images de la carte"
+      optional: "true"
     generateMobSheet:
       text: "Générer la fiche des monstres"
+      optional: "true"
+    generateMobSheetOverwrite:
+      text: "Générer la fiche des monstres (Ecraser)"
+      optional: "true"
     runLineCounter:
       text: "Lancer le compteur de lignes"
+      optional: "true"
     generateVideoSheet:
       text: "Générer la fiche vidéo"
+      optional: "true"
     rollover:
       twitch:
         text: "Suivre sur Twitch !"
       twitter:
         text: "Suivre sur Twitter !"
+      x:
+        text: "Suivre sur la plateform connue autrefois comme Twitter!"
       discord:
         text: "Rejoindre le Discord !"
       announcement:
@@ -2778,15 +3872,20 @@ mapEditorRegionalDataPanel:
   button:
     save:
       text: "Sauvegarder"
+      optional: "true"
 
   header:
     text: "Liste des régions"
+    optional: "true"
   connectedRegions:
     text: "Régions connectées"
+    optional: "true"
   notSetPlaceholder:
     text: "Non défini"
+    optional: "true"
   worldMapCoordinates:
     text: "Coordonnées sur la carte du monde"
+    optional: "true"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Map Editor State / Play State
@@ -3002,6 +4101,10 @@ mapEditorPlayRightPanel:
         text: "Logement"
 
     lighting:
+      crylithiumFirePit:
+        text: "Foyer de Crylithium"
+      largeCrylithiumFirePit:
+        text: "Grand foyer de  Crylithium"
       firePit:
         text: "Foyer"
       largeFirePit:
@@ -3012,8 +4115,12 @@ mapEditorPlayRightPanel:
         text: "Motivateur de cristaux"
       cullisGate:
         text: "Portail cullis"
+      essenceAltar:
+        text: "Autel d'Essence"
       essenceCollector:
         text: "Collecteur d'essence"
+      reliquary:
+        text: "Reliquaire"
 
     manufacturing:
       armorsmithy:
@@ -3193,6 +4300,8 @@ mapEditorPlayRightPanel:
         text: "Herbe vert émeraude"
       greenGrass:
         text: "Herbe verte"
+      tealGrass:
+        text: "Herbe bleu sarcelle"
       yellowBrownGrass:
         text: "Herbe ochre"
 
@@ -3295,6 +4404,12 @@ mapEditorPlayRightPanel:
         text: "Souches couleur lavande"
       lavenderTrees:
         text: "Arbres couleur lavande"
+      paleBlueDeadTrees:
+        text: "Arbres morts de couleur bleu pâle"
+      paleBlueStumps:
+        text: "Souches couleur bleu pâle"
+      paleBlueTrees:
+        text: "Arbres couleur bleu pâle"
       redDeadTrees:
         text: "Arbres rouges morts"
       redStumps:
@@ -3343,6 +4458,8 @@ mapEditorPlayRightPanel:
         text: "Restaurer vie"
       fireMissile:
         text: "Lancer projectile"
+      generateCloud:
+        text: "Générer des nuages"
 
   header:
     time:
@@ -3663,20 +4780,83 @@ playResourceListPanel:
       text: "Quantité totale d'eau sale"
     totalDirtyWater:
       text: "Quantité totale d'eau sale dans tous les bâtiments qui peuvent en contenir comme les fermes et les purificateurs d'eau. Ne compte pas l'eau potable."
+    totalFoodHeader:
+      text: "Quantité totale de nourriture"
+    totalFood:
+      text: "Quantité totale de nourriture dans tout le village. Passez votre curseur dessus pour voir la capacité total maximale. Si la barre devient verte, vous avez plus de nourriture que vous ne pouvez en stocker,mais vos villageois en transportent peut-être simplement dans leur inventaire."
+    totalEnergyHeader:
+      text: "Quantité totale d'énergie"
+    totalEnergy:
+      text: "Quantité totale combinée d'énergie dans tous les batiments qui peuvent en stocker, comme les collecteur d'essence, combobulateur de golem, et les tours magiques. Passez votre curseur dessus pour voir la capacité total maximale."
+      revision: "1"
+    totalFaithHeader:
+      text: "Quantité totale de foi "
+    totalFaith:
+      text: "Quantité totale de foi au sein d'un village. Une foi plus élevée augmentera votre influence maximale sur votre barre d'influence, ainsi qu'elle réduira la confusion ou la panique des villageois en fonction de vos actions. Passez votre curseur dessus pour voir la capacité total maximale."
     totalResourcesHeader:
       text: "Quantité totale de ressources"
     totalResources:
       text: "Quantité totale de ressources dans l'entièreté du village, en prenant en compte le filtre sélectionné sur la gauche du panneau."
+    showResourceOnBarGoldHeader:
+      text: "Affichez l'or"
+    showResourceOnBarGold:
+      text: "Affichez l'or et son nombre de ressources sur le côté droit de la barre de ressources supérieure."
+    showResourceOnBarWaterHeader:
+      text: "Affichez l'eau"
+    showResourceOnBarWater:
+      text: "Affichez l'eau et son nombre de ressources sur le côté droit de la barre de ressources supérieure."
+    showResourceOnBarDirtyWaterHeader:
+      text: "Affichez l'eau sale"
+    showResourceOnBarDirtyWater:
+      text: "Affichez l'eau sale et son nombre de ressources sur le côté droit de la barre de ressources supérieure."
+    showResourceOnBarFoodHeader:
+      text: "Affichez la nourriture"
+    showResourceOnBarFood:
+      text: "Affichez la nourriture et son nombre de ressources sur le côté droit de la barre de ressources supérieure."
+    showResourceOnBarEnergyHeader:
+      text: "Affichez l'énergie"
+    showResourceOnBarEnergy:
+      text: "Affichez l'énergie et son nombre de ressources sur le côté droit de la barre de ressources supérieure."
+    showResourceOnBarFaithHeader:
+      text: "Affichez la foi"
+    showResourceOnBarFaith:
+      text: "Affichez la foi et son nombre de ressources sur le côté droit de la barre de ressources supérieure."
+    hideResourceOnBarGoldHeader:
+      text: "Masquez l'or"
+    hideResourceOnBarGold:
+      text: "Masquez l'or et son nombre de ressources sur le côté droit de la barre de ressources supérieure."
+    hideResourceOnBarWaterHeader:
+      text: "Masquez l'eau"
+    hideResourceOnBarWater:
+      text: "Masquez l'eau et son nombre de ressources sur le côté droit de la barre de ressources supérieure."
+    hideResourceOnBarDirtyWaterHeader:
+      text: "Masquez l'eau sale"
+    hideResourceOnBarDirtyWater:
+      text: "Masquez l'eau sale et son nombre de ressources sur le côté droit de la barre de ressources supérieure."
+    hideResourceOnBarFoodHeader:
+      text: "Masquez la nourriture"
+    hideResourceOnBarFood:
+      text: "Masquez la nourriture et son nombre de ressources sur le côté droit de la barre de ressources supérieure."
+    hideResourceOnBarEnergyHeader:
+      text: "Masquez l'énergie"
+    hideResourceOnBarEnergy:
+      text: "Masquez l'énergie et son nombre de ressources sur le côté droit de la barre de ressources supérieure."
+    hideResourceOnBarFaithHeader:
+      text: "Masquez la foi"
+    hideResourceOnBarFaith:
+      text: "Masquez la foi et son nombre de ressources sur le côté droit de la barre de ressources supérieure."
     showResourceOnBarHeader:
-      text: "Montrer {resourceName}"
+      text: "Montrez {resourceName}"
     showResourceOnBar:
-      text: "Montre {resourceName} et sa quantité dans la barre des ressources en haut."
+      text: "Montrez {resourceName} et sa quantité dans la barre des ressources en haut."
+      revision: "1"
     fullResourceOnBarHeader:
       text: "Barre pleine !"
     hideResourceOnBarHeader:
-      text: "Cacher {resourceName}"
+      text: "Masquez {resourceName}"
     hideResourceOnBar:
-      text: "Cacje {resourceName} et sa quantité de la barre des ressources en haut."
+      text: "Masquez {resourceName} et sa quantité de la barre des ressources en haut."
+      revision: "1"
 
   sort:
     total:
@@ -3728,11 +4908,35 @@ playCastlePanel:
 playConsolePanel:
   comment: "Play State - Console Panel"
   javaClass: "rtr.gui.states.playstate.ConsolePanel.java"
-
+  
+  completedGoal:
+    text: "$Objectif atteint - {goalName}"
+  newGoalUnlocked:
+    text: "$GRE1Nouvel objectif débloqué - {goalName}"
+    
   button:
+    completedGoalBanner:
+      text: "$YEL1Atteint!"
+    claimOnGoalsPanel:
+      text: "$YEL1A réclamer sur le panneau des objectifs!"
+    unlockedGoalBanner:
+      text: "$GRE1Nouvel objectif débloqué!"
     tooltip:
       hidePanelHeader:
         text: "Masquer le panneau"
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# Play State
+# Console Panel
+# rtr.gui.states.playstate.ConsolePanel.java
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+playGoalPopup:
+  comment: "Play State - Goal Popup"
+  javaClass: "rtr.gui.states.playstate.GoalPopup.java"
+  
+  godXP:
+    text: "God XP"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Play State
@@ -3920,6 +5124,14 @@ playLeftPanel:
           text: "Réduire"
         reduceWorkers:
           text: "Réduit le nombre de travailleurs pour cette tâche et les libère pour qu'ils travaillent ailleurs."
+        jobColorBaseHeader:
+          text: "Couleur de base du travail"
+        jobColorBase:
+          text: "Cliquez pour définir la couleur de base pour ce travail."
+        jobColorAccentHeader:
+          text: "Couleur d'accentuation du travail"
+        jobColorAccent:
+          text: "Cliquez pour définir la couleur d'accentuation pour ce travail."
         requestWorkersHeader:
           text: "Solliciter"
         requestWorkers:
@@ -3942,6 +5154,67 @@ playLeftPanel:
         text: "Travailleurs assignés + en route"
       totalAndEnRouteVillagers:
         text: "Combien de villageois sont actuellement assignés, plus combien sont en route pour travailler ou quitter ce travail."
+
+  workforceColorSelect:
+    selectBaseColor:
+      text: "Couleur de base"
+    selectAccentColor:
+      text: "Couleur d'accentuation"
+    current:
+      text: "Actuelle"
+    default:
+      text: "Par défaut"
+    red:
+      text: "Rouge"
+    green:
+      text: "Vert"
+    blue:
+      text: "Bleu"
+    alpha:
+      text: "Alpha"
+      
+    button:
+      tooltip:
+        defaultBaseHeader:
+          text: "Couleur de base par défaut"
+        defaultBase:
+          text: "Couleur de base par defaut pour ce travail. Cliquez pour réinitialiser cette couleur."
+        defaultAccentHeader:
+          text: "Couleur d'accentuation par défaut"
+        defaultAccent:
+          text: "Couleur d'accentuation par défaut pour ce travail. Cliquez pour réinitialiser cette couleur."
+        currentBaseHeader:
+          text: "Couleur de base actuelle"
+        currentBase:
+          text: "Couleur de base actuelle pour ce travail. Cliquez pour passer au réglage de cette couleur."
+        currentAccentHeader:
+          text: "Couleur d'accentuation actuelle"
+        currentAccent:
+          text: "Couleur d'accentuation actuelle pour ce travail. Cliquez pour passer au réglage de cette couleur."
+        presetBaseColorHeader:
+          text: "{mobJobName} Couleur de base"
+        presetBaseColor:
+          text: "Cliquez pour passer au réglage de cette couleur."
+        presetAccentColorHeader:
+          text: "{mobJobName} Couleur d'accentuation"
+        presetAccentColor:
+          text: "Cliquez pour passer au réglage de cette couleur."
+        decreaseRed:
+          text: "Diminuer le Rouge"
+        increaseRed:
+          text: "Augmenter le Rouge"
+        decreaseGreen:
+          text: "Diminuer le Vert"
+        increaseGreen:
+          text: "Augmenter le Vert"
+        decreaseBlue:
+          text: "Diminuer le Bleu"
+        increaseBlue:
+          text: "Augmenter le Bleu"
+        decreaseAlpha:
+          text: "Diminuer l'Alpha"
+        increaseAlpha:
+          text: "Augmenter l'Alpha"
 
   resourceManagement:
     button:
@@ -4003,9 +5276,13 @@ playLeftPanel:
         text: "Au sol"
       stored:
         text: "Stocké"
+      rate:
+        text: "taux de production"
 
     producedByWaterSource:
       text: "$BLA2Produit par sources d'eau"
+    createdByOccultists:
+      text: "$BLA2Créé par des occultistes"
     rareDrop:
       text: "$YEL2Objet rare ({resourceOrMonsterType})"
     monsterDrop:
@@ -4118,6 +5395,8 @@ playLeftPanel:
         text: "Au sol"
       stored:
         text: "Stocké"
+      rate:
+        text: "Taux de production"
 
     regionLost:
       text: "$RED0Région perdue face à la corruption !~Impossible d'y envoyer des ressources."
@@ -4137,6 +5416,10 @@ playMainMenuPanel:
       text: "Paramètres"
     saveAndExit:
       text: "Sauvegarder & quitter"
+    goToWorldMap:
+      text: "Aller à la carte du monde"
+    returnToMenu:
+      text: "Aller au menu principal"
     'yes':
       text: "Oui !"
 
@@ -4312,6 +5595,10 @@ playPopulationListPanel:
       text: "Béni"
     blessed:
       text: "Ce villageois a été béni des dieux, et de sa prochaine progéniture naîtra un nephilim, une enfant béni."
+    blessedChildHeader:
+      text: "Enfant béni"
+    blessedChild:
+      text: "L'enfant que porte cette villageoise est béni."
     hasMateHeader:
       text: "En couple"
     hasMate:
@@ -4542,10 +5829,22 @@ playResourceAndInfluenceBar:
       text: "Quantité totale d'eau"
     totalWater:
       text: "Quantité totale d'eau potable dans tous les bâtiments qui peuvent en contenir comme les collecteurs d'eau, les logements et les puits. Ne compte pas l'eau sale."
+    totalDirtyWaterHeader:
+      text: "Quantité totale d'eau sale"
+    totalDirtyWater:
+      text: "Quantité totale d'eau non potable dans tout le village. Passez la souris dessus pour voir la capacité maximale totale. Si la barre de remplissage devient verte, vous avez plus d'eau sale que d'espaces de stockage."
+    totalFoodHeader:
+      text: "Quantité totale de nourriture"
+    totalFood:
+      text: "Quantité totale de nourriture dans tout le village. Passez la souris dessus pour voir la capacité maximale totale. Si la barre de remplissage devient verte, vous avez plus de nourriture que d'espace de stockage, mais vos villageois n'en ont peut-être qu'une petite quantité dans leur inventaire."
     totalEnergyHeader:
       text: "Énergie totale"
     totalEnergy:
       text: "Montant total d'énergie dans tous les bâtiments qui peuvent en contenir comme les collecteurs d'essence, les combobulateurs de golems et les tours utilisant de la magie."
+    totalFaithHeader:
+      text: "Quantité totale de foi"
+    totalFaith:
+      text: "Foi totale pour tout le village. Une foi élevée augmentera votre influence maximale sur votre barre d'influence et réduira la confusion ou la panique des villageois suite à vos actions. Passez la souris dessus pour voir la foi maximale possible."
     totalInfluenceHeader:
       text: "Influence"
       forceCount: "true"
@@ -4568,6 +5867,8 @@ playResourceAndInfluenceBar:
       text: "Au sol"
     stored:
       text: "Stocké"
+    rate:
+      text: "taux de production"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Play State
@@ -4592,6 +5893,10 @@ playSelectedMobPanel:
       text: "Soif"
     thirst:
       text: "Si leur soif atteint un niveau critique, ils prendront lentement des dégâts en mourant de déshydratation. Diminue un peu plus vite au combat, au travail ou en étant en surchauffe."
+    faithHeader:
+      text: "Foi"
+    faith:
+      text: "La foi globale en leur dieu. Plus la foi est élevée, moins ils risquent d'être surpris ou de réagir négativement en voyant leur dieu interagir avec le monde. La foi déterminera également dans quelle mesure ils augmenteront la limite maximale de la barre d'influence de leur dieu."
     trashHeader:
       text: "Quantité d'ordures"
     trash:
@@ -4620,6 +5925,14 @@ playSelectedMobPanel:
       text: "Béni"
     blessed:
       text: "Ce villageois a été béni des dieux, et de sa prochaine progéniture naîtra un nephilim, une enfant béni."
+    blessedChildHeader:
+      text: "Enfant béni"
+    blessedChild:
+      text: "L'enfant que porte cette villageoise est béni."
+    killsHeader:
+      text: "morts"
+    kills:
+      text: "Combien de créatures et de bâtiments ont été éliminés par cette créature.~~$GRE1Eliminations récentes :~"
     levelHeader:
       text: "Niveau"
     level:
@@ -4698,6 +6011,8 @@ playSelectedMobPanel:
     text: "$BLU1Enceinte"
   blessed:
     text: "$MAG1Béni"
+  blessedChild:
+    text: "$MAG1Enfant béni"
   damageResistance:
     text: "Résistance aux dégâts"
   damageVulnerabilities:
@@ -4923,6 +6238,12 @@ playSelectedObjectPanel:
     text: "$GRE0{amount}% $WHI0agriculture"
   medicWorkSpeed:
     text: "$GRE0{amount}% $WHI0médecine"
+  prayingSpeed:
+    text: "$GRE0{amount}% $WHI0Prière"
+  capturingSoulsSpeed:
+    text: "$GRE0{amount}% $WHI0Capturer les âmes"
+  tendingAnimalsSpeed:
+    text: "$GRE0{amount}% $WHI0s'occuper des animaux"    
   harvestingSpeed:
     text: "$YEL1Vitesse de récolte"
   refiningSpeed:
@@ -4998,6 +6319,12 @@ playSelectedObjectUpgradePanel:
     text: "$GRE0+{amount}% $WHI0agriculture"
   medicWorkSpeed:
     text: "$GRE0+{amount}% $WHI0soins médicaux"
+  prayingSpeed:
+    text: "$GRE0+{amount}% $WHI0Prière"
+  capturingSoulsSpeed:
+    text: "$GRE0+{amount}% $WHI0Capturer les âmes"
+  tendingAnimalsSpeed:
+    text: "$GRE0+{amount}% $WHI0S'occuper des animaux"
   harvestSpeed:
     text: "$YEL1Vitesse de récolte"
   refineSpeed:
@@ -5010,6 +6337,10 @@ playSelectedObjectUpgradePanel:
     text: "$GRE0+{amount} $WHI0régénération de santé"
   healthRegenerationMinus:
     text: "$RED0{amount} $WHI0régénération de santé"
+  faithBonusPlus:
+    text: "$GRE0+{amount} $WHI0Foi Pendant la Visite"
+  faithBonusMinus:
+    text: "$RED0{amount} $WHI0Foi Pendant la Visite"
   staticTowerDamageOverride:
     text: "Dégâts : $GRE1électrique (10-50)"
     revision: "1"
@@ -5515,6 +6846,10 @@ playSystemAndDataBar:
         text: "Musique"
       music:
         text: "Visualisez la liste de toutes les pistes de musique disponibles et changez la piste actuelle si désiré."
+      goalsHeader:
+        text: "Objectifs"
+      goals:
+        text: "Voir la page des objectifs."
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Play State
@@ -5580,6 +6915,12 @@ playVillageEfficiencyPanel:
     text: "Agriculture"
   medicWork:
     text: "Médecine"
+  praying:
+    text: "Prière"
+  capturingSouls:
+    text: "Capture d'âmes"    
+  tendingAnimals:
+    text: "S'occuper des animaux" 
   clearing:
     text: "Nettoyage"
   dismantling:
@@ -5701,6 +7042,8 @@ sharedDataViewsPanel:
       text: "Endroits bloqués"
     range:
       text: "Portée du village"
+    essenceBuildupMap:
+      text: "Accumulation d'essence"
     corruptionResistance:
       text: "Résistance à la corruption"
     desirability:
@@ -5729,9 +7072,24 @@ sharedDataViewsPanel:
       text: "Carte des menaces"
     threatenedTileMap:
       text: "Cases menacées"
+    corruptedTiles:
+      text: "Cases corrompues"
 
   header:
     text: "Données"
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# Shared (Used in multiple states)
+# Goals Panel
+# rtr.gui.states.shared.GoalsPanel.java
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+sharedGoalsPanel:
+  comment: "Shared - Goals Panel"
+  javaClass: "rtr.gui.states.shared.GoalsPanel.java"
+  
+  goalsWeb:
+    text: "Objectifs"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Shared (Used in multiple states)
@@ -5745,6 +7103,7 @@ sharedDebugData:
 
   fps:
     text: "$GRE1FPS : {fps}"
+    optional: true
   totalRuntime:
     text: "$GRE1Durée d'exécution : {hours}:{minutes}:{seconds}"
   mapPosition:
@@ -5915,6 +7274,10 @@ playRightObjectDescriptionPanel:
     text: "Accepte l'essence des collecteurs"
   canCollectRawEssence:
     text: "Peut collecter de l'essence brute"
+  canPowerStructures:
+    text: "Peut alimenter les structures"
+  canDeliverEssenceToCollectors:
+    text: "Peut fournir de l'essence à {buildingName}"
   consumesCrylithium:
     text: "Consomme du crylithium comme carburant"
   canBuildRoads:
@@ -6190,6 +7553,27 @@ worldMapChestOpenPanel:
   button:
     takeIt:
       text: "Prendre !"
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# World Map State
+# Active Goals List
+# rtr.gui.states.worldmap.ActiveGoalsList.java
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+worldMapActiveGoalsList:
+  comment: "World Map State - Active Goals List"
+  javaClass: "rtr.gui.states.worldmap.ActiveGoalsList.java"
+    
+  button:
+    tooltip:
+      pageUp:
+        text: "Page suivante"
+      pageDown:
+        text: "Page précédente"
+      openGoalPanelHeader:
+        text: "Objectifs"
+      openGoalPanel:
+        text: "Voir le diagramme des objectifs."
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # World Map State
@@ -6583,27 +7967,6 @@ worldMapGoalClaimPanel:
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # World Map State
-# Goals Panel
-# rtr.gui.states.worldmap.GoalsPanel.java
-# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
-
-worldMapGoalsPanel:
-  comment: "World Map State - Goals Panel"
-  javaClass: "rtr.gui.states.worldmap.GoalsPanel.java"
-
-  button:
-    'yes':
-      text: "Oui"
-    'no':
-      text: "Non"
-    reset:
-      text: "Réinitialiser"
-
-  warning:
-   text: "$GRE1En êtes-vous sur ? L'objectif sera~retiré et un nouveau doit être acquis."
-
-# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
-# World Map State
 # Map Select Panel
 # rtr.gui.states.worldmap.MapSelectPanel.java
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
@@ -6671,6 +8034,23 @@ worldMapMapSelectPanel:
     text: "$YEL1TOTAL : {amount}"
   none:
     text: "$YEL1AUCUN !"
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# World Map State
+# Perks List
+# rtr.gui.states.worldmap.PerksList.java
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+worldMapPerksList:
+  comment: "World Map State - Perks List"
+  javaClass: "rtr.gui.states.worldmap.PerksList.java"
+    
+  button:
+    tooltip:
+      pageUp:
+        text: "Page Suivante"
+      pageDown:
+        text: "Page Précédente"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # World Map State
@@ -6824,6 +8204,7 @@ helpTip:
       text: "Il suffit de dire aux agriculteurs où récolter de la nourriture sauvage, une fois que leur ferme fonctionne, ils iront s'en occuper."
     42:
       text: "42"
+      optional: "true"
     43:
       text: "Les villageois peuvent prendre feu aléatoirement si ils surchauffent pendant trop longtemps en été."
     44:
@@ -7139,6 +8520,33 @@ spell:
     description:
       text: "Bannissez vos ennemis à un endroit aléatoire à l'extérieur de votre village! Attention, parfois ils peuvent être téléportés dans un endroit indésirable."
       revision: "1"
+  charm:
+    name:
+      text: "Charme"
+    description:
+      text: "Charme un monstre et l'incite à se retourner contre ses amis, mais il ne coopère pas toujours et peut même se retourner contre vous."
+  coldAura:
+    name:
+      text: "Aura glaciale"
+    description:
+      text: "Rend la zone d'incantation extrêmement froide et réduit légèrement la température de la zone. Ralentit et parfois gèle les créatures proches. Efficace sur les grands groupes."
+      revision: "2"
+  comet:
+    name:
+      text: "Comète de glace"
+    description:
+      text: "Invoque une comète de glace désastreuse venue du ciel qui infligera de lourds dégâts à tout ce qu'elle touche, laissant derrière elle de l'eau, des cristaux et faisant chuter la température ambiante."
+  conjureEssence:
+    name:
+      text: "Invocation d'Essence"
+    description:
+      text: "Invoquez de l'essence à partir de rien ! Attention à ce qu'elle ne soit pas réaspirée dans votre main."
+  conjureMaterial:
+    name:
+      text: "Invocation de matériaux"
+    description:
+      text: "Fait surgir une matière première à partir de rien, généralement similaire à la topographie qui l'entoure."
+      revision: "1"
   construct:
     name:
       text: "Construction"
@@ -7164,23 +8572,17 @@ spell:
       text: "Bénédiction divine"
     description:
       text: "Bénis un villageois, faisant de son prochain enfant né un Néphilim, un enfant béni, avec une force, une dextérité et une durée de vie supérieures."
-  summonHolyGolem:
-    name:
-      text: "Invoquer un saint-golem"
-    description:
-      text: "Invoque un saint défenseur qui se battra jusqu'au bout pour défendre votre peuple. Plus votre village est vieux, plus le golem est fort ! Les golems nécessitent une influence constante pour être maintenu, réduisant de manière permanente votre influence maximale, mais peuvent être dissipés avec le sort Dissiper un golem."
-      revision: "1"
   drop:
     name:
       text: "Lâcher"
     description:
       text: "Lâche une ressource ou une créature présente dans votre main. Ce sort ne devrait pas être directement accessible. Comment lisez-vous cela ?"
       revision: "1"
-  meteor:
+  earthquake:
     name:
-      text: "Météore"
+      text: "Tremblement de terre"
     description:
-      text: "Lance une météorite enflamméee sur quelque chose! Attention cependant, parfois un élémentaire de feu apparaitra à la place."
+      text: "Secoue le sol, endommage tout ce qui se trouve dans la zone et fait parfois apparaître des rochers. Générera beaucoup plus de roches au-dessus des zones rocheuses précédemment récoltées."
       revision: "1"
   flame:
     name:
@@ -7222,17 +8624,44 @@ spell:
       text: "Bois magique"
     description:
       text: "Fait jaillir des arbres du sol, très pratique si vous venez à manquer de bois ou si vous voulez créer une nouvelle zone de récolte ailleurs dans le village!"
+  illuminate:
+    name:
+      text: "Illuminer"
+    description:
+      text: "Crée une source de lumière durable et de grande taille sur la carte."
+  initialSpawnIn:
+    name:
+      text: "Apparition initiale"
+    description:
+      text: "Un sort spécial utilisé pour créer des villageois au début d'un nouveau monde. Ne devrait pas être utilisable par le joueur."
+  lightningBolt:
+    name:
+      text: "Éclair"
+    description:
+      text: "Électrocutez-les depuis les cieux ! Ne marche pas très bien autour des paratonnerres."
+      revision: "1"
+  magicBolts:
+    name:
+      text: "Éclair magique"
+    description:
+      text: "Électrise un monstre avec une boule d'énergie."
+  mend:
+    name:
+      text: "Raccomoder"
+    description:
+      text: "Répare les golems,les bâtiments et les murs dans une petite zone pendant une courte période."
+      revision: "1"
+  meteor:
+    name:
+      text: "Météore"
+    description:
+      text: "Lance une météorite enflamméee sur quelque chose! Attention cependant, parfois un élémentaire de feu apparaitra à la place."
+      revision: "1"
   motivateLand:
     name:
       text: "Motiver les terres"
     description:
       text: "Motive la croissance de certaines ressources naturelles. Fonctionne mieux au printemps et à l'automne ou quand il pleut, très inefficace en hiver."
-      revision: "1"
-  earthquake:
-    name:
-      text: "Tremblement de terre"
-    description:
-      text: "Secoue le sol, endommage tout ce qui se trouve dans la zone et fait parfois apparaître des rochers. Générera beaucoup plus de roches au-dessus des zones rocheuses précédemment récoltées."
       revision: "1"
   recall:
     name:
@@ -7240,44 +8669,27 @@ spell:
     description:
       text: "Téléporte un grand groupe de villageois et de ressources au village en toute sécurité."
       revision: "1"
+  regenerate:
+    name:
+      text: "Regénérer"
+    description:
+      text: "Guérit une seule créature vivante sur une courte période de temps. Ne fonctionne pas sur les golems, mais fonctionne sur les monstres ! Faites attention à où vous l'utilisez."  
   resurrect:
     name:
       text: "Ressusciter"
     description:
       text: "Ressuscite un fantôme visible sur la carte. Attention, parfois le processus ne se déroule pas comme prévu !"
-  initialSpawnIn:
-    name:
-      text: "Apparition initiale"
-    description:
-      text: "Un sort spécial utilisé pour créer des villageois au début d'un nouveau monde. Ne devrait pas être utilisable par le joueur."
   storm:
     name:
       text: "Tempête"
     description:
       text: "Un sort extrêmement dangereux qui provoque un énorme orage localisé, suivi par de la pluie ou de la neige dans toute la région. Ne devrait jamais être utilisé à l'intérieur de votre village sans de nombreux paratonnerres."
       revision: "1"
-  conjureEssence:
+  summonHolyGolem:
     name:
-      text: "Invoquer de l'essence"
+      text: "Invoquer un saint-golem"
     description:
-      text: "Invoque de l'essence à partir de rien ! Attention à ce qu'elle ne soit pas réaspirée dans votre main."
-  lightningBolt:
-    name:
-      text: "Éclair"
-    description:
-      text: "Électrocutez-les depuis les cieux ! Ne marche pas très bien autour des paratonnerres."
-      revision: "1"
-  conjureMaterial:
-    name:
-      text: "Invoquer des matériaux"
-    description:
-      text: "Fait apparaitre des matériaux, généralement similaire à la topographie qui l'entoure."
-      revision: "1"
-  mend:
-    name:
-      text: "Raccomoder"
-    description:
-      text: "Répare les golems,les bâtiments et les murs dans une petite zone pendant une courte période."
+      text: "Invoque un saint défenseur qui se battra jusqu'au bout pour défendre votre peuple. Plus votre village est vieux, plus le golem est fort ! Les golems nécessitent une influence constante pour être maintenu, réduisant de manière permanente votre influence maximale, mais peuvent être dissipés avec le sort Dissiper un golem."
       revision: "1"
   summonLaborGolem:
     name:
@@ -7285,32 +8697,7 @@ spell:
     description:
       text: "Invoque un golem stupide qui travaillera en tant que main-d'œuvre dans votre village jusqu'à ce qu'il meurt ou qu'il soit dissipé. Les golems nécessitent une influence constante pour être maintenu, réduisant de manière permanente votre influence maximale, mais peuvent être dissipés avec le sort Dissiper un golem."
       revision: "1"
-  illuminate:
-    name:
-      text: "Illuminer"
-    description:
-      text: "Crée une source de lumière durable et de grande taille sur la carte."
-  charm:
-    name:
-      text: "Charmer"
-    description:
-      text: "Charme un monstre et l'incite à se retourner contre ses amis, mais ils ne vont pas toujours coopérer et pourraient même se retourner contre vous."
-  magicBolts:
-    name:
-      text: "Éclair magique"
-    description:
-      text: "Électrise un monstre avec une boule d'énergie."
-  coldAura:
-    name:
-      text: "Aura glaciale"
-    description:
-      text: "Rend la zone extrêmement froide, refroidissant, ralentissant et parfois gelant les créatures proches. Fonctionne bien sur les grands groupes."
-      revision: "1"
-  regenerate:
-    name:
-      text: "Regénérer"
-    description:
-      text: "Guérit une seule créature vivante sur une courte période de temps. Ne fonctionne pas sur les golems, mais fonctionne sur les monstres ! Faites attention à où vous l'utilisez."
+
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Tile Set
@@ -7446,6 +8833,11 @@ tileSet:
         text: "Pastèques"
       description:
         text: "Fournit de la nourriture pour le village, les agriculteurs peuvent les récolter pour créer un stock ou les planter dans une ferme pour commencer ou augmenter la production alimentaire dans le village."
+    mushrooms:
+      name:
+        text: "Champignons"
+      description:
+        text: "Fournit de la nourriture au village, les agriculteurs peuvent les récolter pour créer un stock ou les planter dans une ferme pour démarrer ou augmenter la production alimentaire dans le village."
     bricks:
       name:
         text: "Briques"
@@ -7472,6 +8864,9 @@ tileSet:
         text: "Goudron"
       description:
         text: "Impossible à enlever, et ralentit drastiquement la vitesse de déplacement."
+    snow:
+      name:
+        text: "Neige"
     tiles:
       name:
         text: "Carreaux"
@@ -8306,6 +9701,10 @@ damageCauseName:
   corruption:
     text: "Corruption"
     forceCount: "true"
+  comet:
+    text: "Comète"
+  terminatingPregnancy:
+    text: "Interruption de grossesse"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Mob AI
@@ -8356,6 +9755,26 @@ aiTask:
   captureAnimalsInHand:
     pathfindToBuilding:
       text: "Emmène {mobName} dans {buildingName}"
+  
+  captureSoul:  
+    pathfindToResourceOnGround:
+      text: "Ramasse {resourceName} au sol pour capturer {mobName}"
+    pathfindToBuilding:
+      text: "Se rend au {buildingName} pour prendre {resourceName} afin de capturer {mobName}!"
+         
+  captureSoulInHand:  
+    pathfindToDead:
+      text: "Apporte {resourceName} à {mobName} pour capturer leur esprit"
+    captureSoul:
+      text: "Capture l'esprit de {mobName}"
+
+  placeVessel:  
+    pathfindToResourceOnGround:
+      text: "Ramasser {resourceName} au sol pour l'emmener à l'emplacement d'un navire."
+         
+  placeVesselInHand:  
+    pathfindToBuilding:
+      text: "Apporte {resourceName} à l'emplacement d'un navire."
 
   birth:
     findSafeLocation:
@@ -8713,6 +10132,12 @@ aiTask:
       text: "Plante des graines dans une ferme."
     pathfindToExtraResource:
       text: "Ramasse des graines supplémentaires."
+  
+  pray:
+    pathfindToPraySpot:
+      text: "Se rend à {buildingName} pour prier"
+    pray:
+      text: "Prie à {buildingName}"
 
   processTrash:
     pathfindToWork:
@@ -8860,6 +10285,12 @@ aiTask:
     tendFarmland:
       text: "Entretien les terres cultivées."
 
+  terminateAnimalPregnancy:
+    pathfindToHurtVillager:
+      text: "Se rendre auprès de {mobName}$WHI0 pour interrompre sa grossesse"
+    terminatingPregnancy:
+      text: "Interromp la grossesse de {mobName}$WHI0"
+      
   trade:
     pathfindToTradePartner:
       text: "Prend l'objet $YEL1{resourceName} $BLU0à {mobName}."
@@ -9015,6 +10446,15 @@ mobJob:
       text: "Mineurs"
     description:
       text: "Récolte de la pierre sur le carte et la stocke dans le village. Continuera à récolte de la pierre non-stop quels que soient les besoins du village."
+
+  occultist:
+    single:
+      text: "Occultiste"
+    plural:
+      text: "Occultistes"
+    description:
+      text: "Prie devant les autels pour générer de l'essence gratuite que les collecteurs d'essences pourront utiliser, alimentant ainsi les différents besoins magiques du village."
+
 
   organizer:
     single:
@@ -9576,7 +11016,7 @@ object:
         name:
           text: "Clinique de fortune"
         description:
-          text: Fournit des médecins qui peuvent soigner les malades et blessés, ainsi que fabriquer des bandages que les villageois peuvent emporter avec eux pour se soigner eux-mêmes."
+          text: "Fournit des médecins qui peuvent soigner les malades et blessés, ainsi que fabriquer des bandages que les villageois peuvent emporter avec eux pour se soigner eux-mêmes."
       base:
         name:
           text: "Clinique"
@@ -9604,6 +11044,19 @@ object:
           text: "Poulailler établi"
         description:
           text: "Augmente de nouveau la capacité maximale du poulailler."
+
+    crylithiumFirePit:
+      name:
+        text: "Foyer de Crylithium"
+      description:
+        text: "Source de lumière améliorée. Augmente la portée de construction et bloque les fantômes ! Les monstres ne l'attaqueront que s'il n'y a aucun autre moyen d'entrer dans le village, alors n'hésitez pas à l'intégrer à vos murs."
+        
+    largeCrylithiumFirePit:
+      name:
+        text: "Grand Foyer de Crylithium"
+      description:
+        text: "Source de lumière améliorée, encore plus grande. Augmente la portée de construction et bloque les fantômes ! Les monstres ne l'attaqueront que s'il n'y a aucun autre moyen d'entrer dans le village, alors n'hésitez pas à l'intégrer à vos murs."
+        
 
     crystalGolemCombobulator:
       makeshift:
@@ -9730,10 +11183,22 @@ object:
         text: "Un bassin sacrificiel qui convertira les matériaux et les tissus vivants en essence lorsqu'ils seront lâchés à l'intérieur. S'il est utilisé trop rapidement, il surchargera !"
 
     doggoHouse:
-      name:
-        text: "Niche"
-      description:
-        text: "Une petite maison pour vos chiens pour qu'ils se reposent rapidement ! Si des chiens vivent dans les logements, ils viendront dans la niche, libérant ainsi l'espace pour vos villageois."
+      makeshift:
+        name:
+          text: "Niche de fortune"
+        description:
+          text: "Une petite maison pour vos chiens pour qu'ils se reposent rapidement ! Si des chiens vivent dans les logements, ils viendront dans la niche, libérant ainsi l'espace pour vos villageois."
+      base:
+        name:
+          text: "Niche"
+        description:
+          text: "Augmente le nombre de chiens pouvant vivre dans cette niche, ainsi que la vitesse à laquelle ils régénèrent leur santé et récupèrent leur énergie."
+      established:
+        name:
+          text: "Niche spacieuse"
+        description:
+          text: "Augmente encore plus le nombre de chiens pouvant vivre dans cette niche, ainsi que la vitesse à laquelle ils régénèrent leur santé et récupèrent leur énergie."
+    
 
     equipmentStorage:
       small:
@@ -9761,23 +11226,43 @@ object:
           text: "Stockage d'équipement renforcé"
         description:
           text: "Augmente la capacité de stockage d'outils, d'armure, d'armes et des autres équipements que le bâtiment peut stocker au maximum"
-
+    essenceAltar:
+      makeshift:
+        name:
+          text: "Autel d'essence de forture"
+        description:
+          text: "Les villageois peuvent être chargés de prier sur cet autel, générant lentement de l'essence gratuite que les collecteurs d'essence pourront utiliser pour, à leur tour, alimenter le village."
+      base:
+        name:
+          text: "Autel d'essence"
+        description:
+          text: "Augmente la capacité de stockage globale de l'autel et augmente la vitesse de prière dans tout le village."
+      established:
+        name:
+          text: "Autel d'essence établi"
+        description:
+          text: "Augmente encore la capacité de stockage globale de l'autel et augmente encore la vitesse de prière au niveau du village."
+        
     essenceCollector:
       makeshift:
         name:
           text: "Collecteur d'essence de fortune"
         description:
           text: "Attire et stocke l'essence pour être utilisée par des bâtiments, les tailleurs de cristaux peuvent le charger avec du crylithium. Agiter votre main au dessus donnera de l'influence."
+          revision: "1"
       base:
         name:
           text: "Collecteur d'essence"
         description:
           text: "Augmente la capacité de stockage du collecteur d'essence et augmente le taux de production d'énergie quand il est alimenté en crylithium."
+          revision: "1"
       established:
         name:
           text: "Collecteur d'essence établi"
+          revision: "1"
         description:
           text: "Augmente de nouveau la capacité de stockage du collecteur d'essence et augmente le taux de production d'énergie quand il est alimenté en crylithium."
+          revision: "1"
 
     elementalBoltTower:
       makeshift:
@@ -10578,6 +12063,25 @@ object:
         description:
           text: "Augmente de nouveau la capacité en énergie, la cadence de tir et la portée de la tour tout en diminuant le coût de tir."
 
+    reliquary:
+      makeshift:
+        name:
+          text: "Reliquaire de fortune"
+        description:
+          text: "Permet aux occultistes de fabriquer des réceptacles étranges pour capturer les fantômes avant que leur corps ne se décompose. Ces réceptacles sont ensuite remis et conservés au reliquaire, et l'énergie est utilisée pour les entretenir."
+      base:
+        name:
+          text: "Reliquaire"
+        description:
+          text: "Ajoute 2 emplacements supplémentaires pour les réceptables étranges et augmente les vitesses de capture de proies et d'âmes dans tout le village."
+          revision: "1"
+      established:
+        name:
+          text: "Reliquaire établi"
+        description:
+          text: "Ajoute 2 emplacements supplémentaires pour les réceptables étranges, un emplacement de prière supplémentaire et augmente les vitesses de prière et de capture d'âmes dans tout le village."
+          revision: "1"
+
     rockStorage:
       small:
         name:
@@ -11035,6 +12539,14 @@ resource:
     description:
       text: "Reste de matériel inutile provenant d'une structure divine détruite."
 
+  ghostDust:
+    single:
+      text: "Poussière de fantôme"
+    plural:
+      text: "Poussières de fantôme"
+    description:
+      text: "Essence restante d'un fantôme, très recherchée par Marchand Catjeet pour une raison quelconque."
+
   crystallyTrash:
     single:
       text: "Déchet de cristal"
@@ -11368,6 +12880,24 @@ resource:
       text: "Viande cuisinée"
     description:
       text: "De la délicieuse viante cuisinée."
+  
+  emptyEerieVessel:
+    single:
+      text: "Réceptacle étrange vide"
+    plural:
+      text: "Réceptacles étranges vides"
+    description:
+      text: "Pour stocker les âmes. Les occultistes extrairont l'essence des villageois morts et les stockeront dans ce réceptacle, liant à jamais leur fantôme au monde et au réceptacle jusqu'à ce qu'ils soient ressuscités ou que le réceptacle soit détruit."
+         
+  eerieVessel:
+    single:
+      text: "Réceptacle étrange"
+    plural:
+      text: "Réceptacles étranges"
+    description:
+      text: "Un réceptacle contenant une âme, liant à jamais leur fantôme au monde, et le réceptacle jusqu'à ce qu'ils soient ressuscités ou que le réceptacle soit détruit."
+    
+     
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Game Mode
 # Names
