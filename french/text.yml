@@ -157,7 +157,9 @@ godXP:
   tradingEquipment:
     text: "Échange d'équippements"
   villagersImpregnated:
-    text: "Villageois fécondés"
+    text: "Villageoises fécondées"
+  blessedVillagersImpregnated:
+    text: "Villageoises bénies et fécondées"
   livedFullLife:
     text: "Vit sa vie pleinement"
   hunting:
@@ -266,6 +268,8 @@ module:
   collision:
     text: "Collision"
     forceCount: "true"
+  cloud:
+    text: "Nuage"
   depth:
     text: "Profondeur"
   map:
@@ -500,14 +504,12 @@ perkType:
     text: "Coût énergétique des tours statiques"
   towerStorage:
     text: "Capacité de stockage des tours"
-  holyGolemLevel:
-    text: "Niveau du saint-golem"
-  laborGolemLevel:
-    text: "Niveau du golem ouvrier"
-  holyGolemSpeed:
-    text: "Vitesse du saint-golem"
   laborGolemMaximumCarriedResources:
     text: "Capacité de transport maximale du golem ouvrier"
+  moreMinimumInfluence:
+    text: "Plus d'influence minimale"
+  moreInfluencePerAnimal:
+    text: "Plus d'influence par animal"    
   moreInfluencePerVillager:
     text: "Plus d'influence par villageois"
   increasedInfluenceGeneration:
@@ -562,6 +564,8 @@ perkType:
     text: "Temps de recharge du sort de tremblement de terre"
   flameSpellCost:
     text: "Coût du sort de flammes"
+  godTowerSpellCooldown:
+    text: "Temps de recharge du sort de tour divine"
   godTowerSpellCost:
     text: "Coût du sort de tour divine"
   godWallSpellCost:
@@ -628,6 +632,12 @@ perkType:
     text: "Durée du sort de motivation de la terre"
   motivateLandSpellRadius:
     text: "Portée du sort de motivation de la terre"
+  prayingSpeed:
+    text: "Vitesse de prière"
+  capturingSoulsSpeed:
+    text: "Vitesse de capture d'âme"
+  tendAnimalsSpeed:
+    text: "Vitesse de soin des animaux"
   recallSpellCost:
     text: "Coût du sort de rappel"
   recallSpellCooldown:
@@ -657,11 +667,15 @@ perkType:
   laborGolemSpellCost:
     text: "Coût du sort de golem-ouvrier"
   laborGolemSpellCooldown:
-    text: "LaTemps de recharge du sort de golem-ouvrier"
+    text: "Temps de recharge du sort de golem-ouvrier"
+  cometSpellCost:
+    text: "Coût du sort de Comète"
   holyGolemLevel:
     text: "Niveau des saints-golems"
   laborGolemLevel:
     text: "Niveau des golems ouvriers"
+  holyGolemSpeed:
+    text: "Vitesse des saints-golems"
   holyGolemDuration:
     text: "Durée de vie des saints-golems"
   laborGolemDuration:
@@ -2292,99 +2306,99 @@ console:
           36:
             text: "Les pensées et les prières ne vont probablement pas arranger ça..."
           37:
-            text: "Welp, that's one way to go."
+            text: "Eh bien, c'est une façon de procéder."
           38:
-            text: "It is natural to die as to be born."
+            text: "Il est naturel de mourir comme de naître."
           39:
-            text: "(He's:She's:They're) not respawning from that one."
+              text : "(Il:Elle:Ils) ne réapparaî(tra:tra:trons) pas de sitôt. "
           40:
-            text: "I bet (he:she:they) didn't see that one coming."
+              text : "Je parie qu'(il:elle:ils) ne l'(a:a:ont) pas vu venir. "
           41:
-            text: "Maybe no one will notice."
+              text : "Peut-être que personne ne le remarquera. "
           42:
-            text: "Someone had a bad day."
+              text : "Quelqu'un a passé une mauvaise journée. "
           43:
-            text: "Play stupid games, win stupid prizes."
+              text : "Jouer à des jeux stupides, gagner des prix stupides. "
           44:
-            text: "d00d git gud."
+              text : "d00d git gud. "
+              forceCount: "true"
           45:
-            text: "(He:She:They) won first place in the Darwin Awards."
+              text : "(Il a:Elle a:Ils ont) remporté la première place aux Darwin Awards. "
           46:
-            text: "There is no word in the dictionary that could describe how applaudable (his:her:their) death was."
+              text : "Aucun mot dans le dictionnaire ne pourrait décrire à quel point (sa:sa:leur) mort était louable. "
           47:
-            text: "Life failed successfully."
+              text : "La vie a échoué avec succès. "
           48:
-            text: "Died, but did they ever really live?"
+              text : "Morts, mais ont-ils vraiment vécu ? "
           49:
-            text: "It must be amateur hour!"
+              text : "Ce doit être l'heure des amateurs ! "
           50:
-            text: "Who even writes these?"
+              text : "Qui écrit ça ? "
           51:
-            text: "Congratulations on your retirement!"
+              text : "Félicitations pour ta retraite ! "
           52:
-            text: "Do it again!"
+              text : "Refais-le ! "
           53:
-            text: "You had one job. It was to keep your health above zero."
+              text : "Tu n'avais qu'un seul boulot. C'était de garder ta santé au-dessus de zéro. "
           54:
-            text: "It's up up down down left right left right B A start right!?"
+              text : "C'est haut haut bas bas gauche droite gauche droite B A début droite !? "
           55:
-            text: "Lucky for you, you're a god, and you have a resurrect spell."
+              text : "Heureusement pour toi, tu es un dieu et tu as un sort de résurrection. "
           56:
-            text: "(He:She:They) didn't RTFM."
+              text : "(Il n'a:Elle n'a:Ils n'ont) pas lu ce p****n de manuel. "
           57:
-            text: "(His:Her:Their) health was divided by zero."
+              text : "(Sa:Sa:Leur) santé a été divisée par zéro. "
 
       sellEerieVessel:
         title:
           comment: "Some mobs, like the doggo, need their title inputted into the death messages. This string will be inputted where {mobTitle} is in all death strings under the death header category."
-          text: "$WHI0 the {mobType}"
+          text: "$WHI0 un {mobType}"
         header:
-          text: "{mobName}{mobTitle}$YEL1 has been sold to a Catjeet!"
+          text: "{mobName}{mobTitle}$YEL1 a été vendu à un Catjeet !"
         randomSubtitles:
           comment: "These Easter Egg messages generate the correct gender pronouns when displayed based on the variable entries below. eg (malePronoun:femalePronoun:none). You may add or remove your own, or edit the contents of them. But they MUST remain in (malePronoun:femalePronoun:none) format. You can not add or remove from the entry, it must always have 3 values."
           0:
-            text: "Thats fine, nobody liked (him:her:them) anyway."
+            text: "Ce n'est pas grave, personne ne les aimait de toute façon."
           1:
-            text: "The Catjeet will honor (him:her:them) more than you did."
+            text: "Le Catjeet les honorera plus que toi."
           2:
-            text: "Is it slavery if they're dead?"
+            text: "Est-ce de l'esclavage s'ils sont morts?"
           3:
-            text: "At least they don't have to deal with the in-laws now."
+            text: "Au moins, ils n'ont plus à s'occuper de la belle-famille maintenant."
           4:
-            text: "The village regrets the sale, but (he:she:they) will live on in spirit."
+            text: "Le village regrette la vente, mais (il:elle:ils) survivr(a:a:ont) en esprit."
           5:
-            text: "This wouldn't have happened if you'd only toss a coin to the witcher."
+            text: "Ça ne serait pas arrivé si tu avais seulement lancé une pièce au sorceleur."
           6:
-            text: "Oh Barnacles!"
+            text: "Oh Balanes!"
           7:
-            text: "(He is:She is:They are) indeed worth (his:her:their) weight in gold. Too bad they were pretty light."
+            text: "(Il vaut:Elle vaut:Ils valent) vraiment (son:son:leur) poids en or. Dommage qu'ils soient si légers."
           8:
-            text: "Who was that again?"
+            text: "C'était qui déjà?"
           9:
-            text: "Oh dear, seems the Catjeet got ahold of (his:her:them)."
+            text : " Oh là là, on dirait que le Catjeet a mis la main sur (lui:elle:eux). "
           10:
-            text: "(He is:She is:They are) the Catjeet's problem now!"
+            text : " (Il est:Elle est:Ils sont) le problème du Catjeet maintenant ! "
           11:
-            text: "Whoops!"
+            text : " Oups ! "
           12:
-            text: "Name got adopted beyond death."
+            text : " Son nom a été adopté au-delà de la mort. "
           13:
-            text: "No one ever realized you could adopt a ghost?"
+            text : " Personne n'avait jamais imaginé qu'on pouvait adopter un fantôme ? "
           14:
-            text: "(He:She:They) probably won't be missed."
+            text : " (Il:Elle:Ils) ne nous manquer(a:a:ont) probablement pas. "
           15:
-            text: "(He:She:They) probably deserved it."
+            text : " (Il l'a:Elle l'a:Ils l'ont) probablement mérité. "
           16:
-            text: "Who was what now?"
+            text : " Qui était quoi maintenant ? "
           17:
-            text: "Not even worth the glass we stuffed (him:her:them) in."
+            text : " Ça ne valait même pas le verre dans lequel on (l'a:l'a:les a) fourré. "
           18:
-            text: "Wait, (he was:she was:they were) dead?!"
+            text : " Attendez, (il était:elle était:ils étaient) mort ?! " 
           19:
-            text: "Bet (he:she:they) never saw that one coming!"
+            text: "Je parie qu’ils ne l’ont pas vu venir!"
           20:
-            text: "One Man's trash is a Catjeet's treasure!"
-            
+            text: "Les déchets d’un homme sont le trésor d’un Catjeet!"
        
 
     migrantDepartBehavior:
@@ -2431,6 +2445,8 @@ console:
             text: "$RED1Séisme !!"
           subtitle:
             text: "La terre gronde !"
+          subtitleEasterEgg:
+            text: "Fais péter les basses!"
         electricalStorm:
           header:
             text: "$RED1Orage !"
@@ -2587,7 +2603,7 @@ goal:
       
   firstWorldProblems:
     name:
-      text: "First World Problems"
+      text: "Problèmes de riches"
     description:
       text: "Améliorez $GRE1{amount}$WHI0 maisons en maisons renforcées de haute qualité."  
       
@@ -2775,7 +2791,8 @@ goal:
       
   electronicSharks:
     name:
-      text: "Electronic Sharks"
+      text: "Electronic Sharks" #je ne sais pas quoi mettre.
+      forceCount: "true"
     description:
       text: "Ouvrir $GRE1{amount}$WHI0 coffres à butin."
       
@@ -3012,165 +3029,168 @@ goal:
       
   cluckNuggets:
     name:
-      text: "Cluck Nuggets"
+      text: "Nuggets de Poule Caquetants"
     description:
-      text: "Create $GRE1{amount}$WHI0 Cooked Meat."
+      text: "Créer $GRE1{amount}$WHI0 Viande cuite."
       
   prodigiousPlanner:
     name:
-      text: "Prodigious Planner"
+      text: "Planificateur prodigieux"
     description:
-      text: "Build $GRE1{amount}$WHI0 storage buildings of any kind."
+      text: "Construisez $GRE1{amount}$WHI0 bâtiments de stockage de tout type."
       
   baptizedGolemancer:
     name:
-      text: "Baptized Golemancer"
+      text: "Golemancien baptisé"
     description:
-      text: "Summon $GRE1{amount}$WHI0 Holy Golems."
+      text: "Invoquer $GRE1{amount}$WHI0 Golems sacrés."
       
   holyDefense:
     name:
-      text: "Holy Defense"
+      text: "Défense sacrée"
     description:
-      text: "Place $GRE1{amount}$WHI0 God Towers."
+      text: "Placez $GRE1{amount}$WHI0 tours divines."
       
   godKing:
     name:
-      text: "God King"
+      text: "Dieu Roi"
     description:
-      text: "Upgrade the camp to completed castle."
+      text: "Améliorez le camp pour obtenir un château complet."
       
   angst:
     name:
-      text: "Angst"
+      text: "Angoisse"
     description:
-      text: "Have $GRE1{amount}$WHI0 children grow up."
+      text: "Faire grandir $GRE1{amount}$WHI0 enfants."
 
   duggar:
     name:
-      text: "Duggar"
+      text: "Une famille à la Duggar"
     description:
-      text: "Give birth to $GRE1{amount}$WHI0 children."
+      text: "Donner naissance à $GRE1{amount}$WHI0 enfants."
 
   golemsWillTakeOurJobs:
     name:
-      text: "Golems Will Take Our Jobs"
+      text: "Les golems prendront nos emplois"
     description:
-      text: "Summon $GRE1{amount}$WHI0 Labor Golems."
+      text: "Invoquer $GRE1{amount}$WHI0 Golems ouvrier."
         
   obviousInHindsight:
     name:
-      text: "Obvious in Hindsight"
+      text: "Évident avec le recul"
     description:
-      text: "Have a lightning rod misdirect your lightning bolt spell."
+      text: "Avoir un paratonnerre qui détourne votre sort d'éclair."
       
   whatIsMyPurpose:
     name:
-      text: "What Is My Purpose?"
+      text: "Quel est mon but?"
     description:
-      text: "Create $GRE1{amount}$WHI0 Cube-E golems."
+      text: "Créer $GRE1{amount}$WHI0 golems Cube-E."
       
   wellWellWell:
     name:
-      text: "Well, Well, Well..."
+      text: "Eh puis, eh puis, eh puis..."
     description:
-      text: "Build $GRE1{amount}$WHI0 wells."
+      text: "Construire $GRE1{amount}$WHI0 puits."
       
   handsOffMe:
     name:
-      text: "Hands off me!"
+      text: "bas les pattes!"
     description:
-      text: "Grab $GRE1{amount}$WHI0 villagers."
+      text: "Attrapez $GRE1{amount}$WHI0 villageois."
       
   eggcellent:
     name:
       text: "Eggcellent"
+      forceCount: "true"
     description:
-      text: "Have Cluckers lay $GRE1{amount}$WHI0 eggs."
+      text: "Les poules pondent $GRE1{amount}$WHI0 œufs."
       
   iWantMyKeyBack:
     name:
-      text: "I Want My Key Back!!"
+      text: "Je veux récupérer ma clé!!"
     description:
-      text: "Get trash from a Loot Box."
+      text: "Récupérez les déchets d'une boîte à butin."
       
   stopPokingMe:
     name:
-      text: "Stop Poking Me!"
+      text: "Arrête de me taquiner!"
     description:
-      text: "Force a lootbox to move $GRE1{amount}$WHI0 times."
+      text: "Forcer un coffre à butin à se déplacer $GRE1{amount}$WHI0 fois."
       
   attaboy:
     name:
-      text: "Attaboy!"
+      text: "Bon Chien!"
     description:
-      text: "Have any Doggo grab a key and open a loot box on their own."
+      text: "Avoir un chien qui prend une clé et ouvrir une boîte à butin tout seul."
       
   neverGonnaGiveYouUp:
     name:
-      text: "Never gonna give you up..."
+      text: "Je ne t'abandonnerai jamais..."
     description:
-      text: "Recall an injured villager while they are fleeing."
+      text: "Rappelez un villageois blessé alors qu'il fuit."
       
   godOrMagician:
     name:
-      text: "God or Magician"
+      text: "Dieu ou magicien"
     description:
-      text: "Have $GRE1{amount}$WHI0 villagers react to your actions."
+      text: "Faites réagir $GRE1{amount}$WHI0 villageois à vos actions."
       
   impatient:
     name:
       text: "Impatient"
+      forceCount: "true"
     description:
-      text: "Cast recall on $GRE1{amount}$WHI0 nomads."
+      text: "Lancer le sort 'Rappel' sur $GRE1{amount}$WHI0 nomades."
       
   whoopsSorry:
     name:
-      text: "Whoops, sorry!"
+      text: "Oups, désolé!"
     description:
-      text: "Drop a villager because you ran out of mana."
+      text: "Laissez tomber un villageois parce que vous êtes à court de mana."
       
   imDonePlayingWithYou:
     name:
-      text: "I'm Done Playing With You..."
+      text: "J'en ai fini de jouer avec vous..."
     description:
-      text: "Dispel a summoned building or golem $GRE1{amount}$WHI0 times."
+      text: "Dissipez un bâtiment ou un golem invoqué $GRE1{amount}$WHI0 fois."
       
   fineIllDoItMyself:
     name:
-      text: "Fine, I'll Do It Myself!"
+      text: "Très bien, je le ferai moi-même!"
     description:
-      text: "Drop $GRE1{amount}$WHI0 resources into buildings with the grab spell."
+      text: "Déposez $GRE1{amount}$WHI0 ressources dans les bâtiments avec le sort de saisie."
       
   theRedSunRises:
     name:
-      text: "The Red Sun Rises"
+      text: "Le soleil rouge se lève"
     description:
-      text: "Enter a bloodmoon."
+      text: "Subir une lune de sang."
       
   whoTurnedOffTheSun:
     name:
-      text: "Who Turned Off The Sun?"
+      text: "Qui a éteint le soleil?"
     description:
-      text: "Enter an eclipse."
+      text: "Subir une éclipse."
       
   chill:
     name:
-      text: "Chill"
+      text: "Glacial"
     description:
-      text: "Enter a full moon."
+      text: "Subir une pleine lune."
       
   popcorn:
     name:
       text: "Popcorn"
+      forceCount: "true"
     description:
-      text: "Dissolve $GRE1{amount}$WHI0 bodies with the dissolve spell."
+      text: "Dissoudre $GRE1{amount}$WHI0 corps avec le sort de dissolution."
       
   touchGrass:
     name:
-      text: "Touch Grass"
+      text: "Toucher l'herbe"
     description:
-      text: "Touch grass with your hand $GRE1{amount}$WHI0 times."
+      text: "Touchez l'herbe avec votre main $GRE1{amount}$WHI0 fois."
 
 
 
@@ -3542,6 +3562,10 @@ mapEditorNewMapPanel:
       text: "Herbe (jne-brn)"
     grassEmeraldGreen:
       text: "Herbe (em-vrt)"
+    grassTeal:
+      text: "Herbe (bleue)"
+    snowWhite:
+      text: "Neige (blanc)"
     dirtLightBrown:
       text: "Terre (brn clr)"
     dirtBrown:
@@ -4234,6 +4258,8 @@ mapEditorPlayRightPanel:
         text: "Sable"
       sandstone:
         text: "Grès"
+      snow:
+        text: "Neige"        
       tar:
         text: "Goudron"
       trees:
@@ -4290,6 +4316,8 @@ mapEditorPlayRightPanel:
       melons:
         text: "Melons"
         forceCount: "true"
+      mushrooms:
+        text: "Champignons"
       potatoes:
         text: "Pommes de terre"
       turnips:
@@ -4368,7 +4396,9 @@ mapEditorPlayRightPanel:
         text: "Grès rouge"
       tanSandstone:
         text: "Grès tanné"
-
+    snow:
+      whiteSnow:
+        text: "Neige blanche"
     tar:
       tar:
         text: "Goudron"
@@ -4775,11 +4805,13 @@ playResourceListPanel:
     totalWaterHeader:
       text: "Quantité totale d'eau potable"
     totalWater:
-      text: "Quantité totale d'eau potable dans tous les bâtiments qui peuvent en contenir comme les collecteurs d'eau, les logements et les puits. Ne compte pas l'eau sale."
+      text: "Quantité totale d'eau potable dans tout le village. Passez votre curseur dessus pour voir la capacité total maximale. Si la barre devient verte, vous avez plus d'eau que vous ne pouvez en stocker,mais vos villageois en transportent peut-être simplement dans leur inventaire."
+      revision: "1"
     totalDirtyWaterHeader:
       text: "Quantité totale d'eau sale"
     totalDirtyWater:
-      text: "Quantité totale d'eau sale dans tous les bâtiments qui peuvent en contenir comme les fermes et les purificateurs d'eau. Ne compte pas l'eau potable."
+      text: "Quantité totale d'eau sale dans tout le village. Passez votre curseur dessus pour voir la capacité total maximale.Si la barre devient verte, vous avez plus d'eau sale que vous ne pouvez en stocker"
+      revision: "1"
     totalFoodHeader:
       text: "Quantité totale de nourriture"
     totalFood:
@@ -4870,6 +4902,8 @@ playResourceListPanel:
       text: "Au sol"
     stored:
       text: "Stocké"
+    rate:
+      text: "taux de production"
 
   header:
     text: "Liste des ressources"
@@ -4937,6 +4971,7 @@ playGoalPopup:
   
   godXP:
     text: "God XP"
+    forceCount: "true"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Play State
@@ -5172,6 +5207,7 @@ playLeftPanel:
       text: "Bleu"
     alpha:
       text: "Alpha"
+      forceCount: "true"
       
     button:
       tooltip:
@@ -5414,8 +5450,8 @@ playMainMenuPanel:
   button:
     settings:
       text: "Paramètres"
-    saveAndExit:
-      text: "Sauvegarder & quitter"
+    exitGame:
+      text: "Quitter le jeu"
     goToWorldMap:
       text: "Aller à la carte du monde"
     returnToMenu:
@@ -5783,9 +5819,11 @@ playProblemPanel:
     noAmmoPlural:
       text: "* $ORA1{amount} tours n'ont pas d'énergie ou de munitions."
     noFood:
-      text: "* $ORA1{amount} logement n'a pas de nourriture."
+      text: "* $ORA1{amount} logement ou ferme d'élevage n'a pas de nourriture."
+      revision: "1"
     noFoodPlural:
-      text: "* $ORA1{amount} logements n'ont pas de nourriture."
+      text: "* $ORA1{amount} logements ou fermes d'élevage n'ont pas de nourriture."
+      revision: "1"
     buildingsDamaged:
       text: "* $ORA1{amount} bâtiment est endommagé."
     buildingsDamagedPlural:
@@ -5829,6 +5867,7 @@ playResourceAndInfluenceBar:
       text: "Quantité totale d'eau"
     totalWater:
       text: "Quantité totale d'eau potable dans tous les bâtiments qui peuvent en contenir comme les collecteurs d'eau, les logements et les puits. Ne compte pas l'eau sale."
+      revision: "1"
     totalDirtyWaterHeader:
       text: "Quantité totale d'eau sale"
     totalDirtyWater:
@@ -5850,6 +5889,7 @@ playResourceAndInfluenceBar:
       forceCount: "true"
     totalInfluence:
       text: "L'influence totale que vous possèdez et qui peut être utilisée pour lancer des sorts. L'influence se remplit lentement au fil du temps, ou en survolant de l'essence libre avec votre main. Vous pouvez améliorer votre influence maximale en augmentant la population de votre village."
+      revision: "1"
     corruptionThreatHeader:
       text: "Menace de la corruption"
     corruptionThreat:
@@ -6113,6 +6153,10 @@ playSelectedObjectPanel:
       text: "Pièces d'or"
     goldCoins:
       text: "La quantité de pièces d'or contenue dans ce bâtiment."
+    killsHeader:
+      text: "Tuerie"
+    kills:
+      text: "Combien de créatures et de bâtiments ont été détruits par cette créature.~~$GRE1Tueries récentes :~"
     dirtyWaterHeader:
       text: "Eau sale"
     dirtyWater:
@@ -6241,7 +6285,7 @@ playSelectedObjectPanel:
   prayingSpeed:
     text: "$GRE0{amount}% $WHI0Prière"
   capturingSoulsSpeed:
-    text: "$GRE0{amount}% $WHI0Capturer les âmes"
+    text: "$GRE0{amount}% $WHI0Capture d'âmes"
   tendingAnimalsSpeed:
     text: "$GRE0{amount}% $WHI0s'occuper des animaux"    
   harvestingSpeed:
@@ -6254,6 +6298,8 @@ playSelectedObjectPanel:
     text: "$GRE0{amount}% $WHI0vitesse repos"
   healthRegenerationBoost:
     text: "$GRE0{amount} $WHI0régén. vie"
+  faithBonus:
+    text: "$GRE0{amount} $WHI0Foi durant la visite"
   reclaimMessage:
     text: "Cliquez sur $GRE1récupérer $WHI0pour~reconstruire et l'utiliser."
   reclaimMessageNoSlotsNoCamp:
@@ -6322,7 +6368,7 @@ playSelectedObjectUpgradePanel:
   prayingSpeed:
     text: "$GRE0+{amount}% $WHI0Prière"
   capturingSoulsSpeed:
-    text: "$GRE0+{amount}% $WHI0Capturer les âmes"
+    text: "$GRE0+{amount}% $WHI0Capture d'âmes"
   tendingAnimalsSpeed:
     text: "$GRE0+{amount}% $WHI0S'occuper des animaux"
   harvestSpeed:
@@ -7305,6 +7351,8 @@ sharedSettingsPanel:
     comment: "Key list column."
     header:
       text: "$ORA1Touches"
+    setOnMainMenu:
+      text: "$ORA0Peu être défini dans le menu principal"
     notSet:
       text: "NON DÉFINI"
     mapUp:
@@ -8649,8 +8697,8 @@ spell:
     name:
       text: "Raccomoder"
     description:
-      text: "Répare les golems,les bâtiments et les murs dans une petite zone pendant une courte période."
-      revision: "1"
+      text: "Répare progressivement les golems, les bâtiments et les murs d'une petite zone pendant une courte période. Éteint instantanément tout incendie de bâtiment."
+      revision: "2"
   meteor:
     name:
       text: "Météore"
@@ -8665,7 +8713,7 @@ spell:
       revision: "1"
   recall:
     name:
-      text: "Rappeler"
+      text: "Rappel"
     description:
       text: "Téléporte un grand groupe de villageois et de ressources au village en toute sécurité."
       revision: "1"
@@ -11969,6 +12017,7 @@ object:
         text: "Petite fontaine"
       description:
         text: "Un endroit où vos villageois peuvent aller se rafraîchir. Fonctionne mieux avec un puits, un collecteur d'eau ou un purificateur d'eau et des responsables de l'eau pour alimenter la fontaine."
+        revision: "1"
 
     sprayTower:
       makeshift:
@@ -12571,7 +12620,8 @@ resource:
       text: "Crylithium"
       forceCount: "true"
     description:
-      text: "Du cristal purifié utilisé comme source d'énergie dans plusieurs bâtiments magiques, ou comme carburant dans les collecteurs d'essence."
+      text: "Du cristal purifié utilisé comme source d'énergie dans plusieurs bâtiments magiques."
+      revision: "1"
 
   organicyTrash:
     single:
